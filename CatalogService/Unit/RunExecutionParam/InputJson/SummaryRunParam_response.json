@@ -1,0 +1,22 @@
+[
+    {
+        "paramId": "1",
+        "paramName": "TestParam1",
+        "paramDesc": "TestParam1",
+        "ccyRateType": "Others",
+        "ccyRateNatureCode": "Others",
+        "ccyRateVerCode": "EM1qm8j",
+        "targetCCYCode": "Platinum",
+        "createdBy": "dfcsqa"
+    },
+    {
+        "paramId": "2",
+        "paramName": "Sample1",
+        "paramDesc": "Sample1",
+        "ccyRateType": "Spot",
+        "ccyRateNatureCode": "Fixed",
+        "ccyRateVerCode": "rLW8rN0",
+        "targetCCYCode": "Koruna",
+        "createdBy": "dfcstest"
+    }
+]

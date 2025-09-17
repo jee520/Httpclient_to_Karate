@@ -1,0 +1,5204 @@
+{
+    "currencyRateType": [
+        {
+            "label": "End Of The Pariod",
+            "value": "EOP"
+        },
+        {
+            "label": "Spot",
+            "value": "SPOT"
+        },
+        {
+            "label": "Start Of The Pariod",
+            "value": "SOP"
+        },
+        {
+            "label": "Average",
+            "value": "AVG"
+        },
+        {
+            "label": "Missing",
+            "value": "MSG"
+        },
+        {
+            "label": "Others",
+            "value": "OTH"
+        }
+    ],
+    "targetCurrencyCode": [
+        {
+            "label": "CN2",
+            "value": "IC2"
+        },
+        {
+            "label": "Silver",
+            "value": "XAG"
+        },
+        {
+            "label": "Palladium",
+            "value": "XPD"
+        },
+        {
+            "label": "Convertible Franc",
+            "value": "LUC"
+        },
+        {
+            "label": "Financial Franc",
+            "value": "LUL"
+        },
+        {
+            "label": "Belarusian Ruble (Withdrawn in 2000)",
+            "value": "BYB"
+        },
+        {
+            "label": "Koruna",
+            "value": "CSK"
+        },
+        {
+            "label": "Bhutan Ngultrum",
+            "value": "BTN"
+        },
+        {
+            "label": "Chilean Peso",
+            "value": "CLP"
+        },
+        {
+            "label": "Colombian Peso",
+            "value": "COP"
+        },
+        {
+            "label": "French Pacific Island Franc",
+            "value": "CPF"
+        },
+        {
+            "label": "Cape Verde Escudo",
+            "value": "CVE"
+        },
+        {
+            "label": "Egyptian Pound",
+            "value": "EGP"
+        },
+        {
+            "label": "Hong Kong Dollar",
+            "value": "HKD"
+        },
+        {
+            "label": "Israeli Shekel",
+            "value": "ISS"
+        },
+        {
+            "label": "Korean (South) Won",
+            "value": "KRW"
+        },
+        {
+            "label": "Kyrgyzstan Som",
+            "value": "KYS"
+        },
+        {
+            "label": "Macau Pataca",
+            "value": "MOP"
+        },
+        {
+            "label": "Mexican Peso",
+            "value": "MXN"
+        },
+        {
+            "label": "New Zealand Dollar",
+            "value": "NZD"
+        },
+        {
+            "label": "Paraguay Guarani",
+            "value": "PYG"
+        },
+        {
+            "label": "Qatari Rial",
+            "value": "QAR"
+        },
+        {
+            "label": "Renminbi",
+            "value": "RMB"
+        },
+        {
+            "label": "Serbian Dinar",
+            "value": "RSD"
+        },
+        {
+            "label": "Solomon Islands Dollar",
+            "value": "SBD"
+        },
+        {
+            "label": "Swedish Krona",
+            "value": "SEK"
+        },
+        {
+            "label": "Surinamese Dollar",
+            "value": "SRD"
+        },
+        {
+            "label": "Suriname Guilder",
+            "value": "SRG"
+        },
+        {
+            "label": "Sao Tome and Principe Dobra",
+            "value": "STD"
+        },
+        {
+            "label": "Tajikistan Ruble",
+            "value": "TJS"
+        },
+        {
+            "label": "Deprecated",
+            "value": "TMS"
+        },
+        {
+            "label": "Tanzanian Schilling",
+            "value": "TZS"
+        },
+        {
+            "label": "Uganda Shilling",
+            "value": "UGX"
+        },
+        {
+            "label": "Old Venezuelan Bolivar",
+            "value": "VEB"
+        },
+        {
+            "label": "Venezuelan Bolivar",
+            "value": "VEF"
+        },
+        {
+            "label": "European Currency Unit",
+            "value": "XEU"
+        },
+        {
+            "label": "CFA Franc BCEAO",
+            "value": "XOF"
+        },
+        {
+            "label": "Yemeni Dinar",
+            "value": "YDD"
+        },
+        {
+            "label": "Chinese Yen",
+            "value": "YEN"
+        },
+        {
+            "label": "Deprecated. Zambian Kwacha",
+            "value": "ZMK"
+        },
+        {
+            "label": "Platinum",
+            "value": "XPT"
+        },
+        {
+            "label": "Inti",
+            "value": "PEI"
+        },
+        {
+            "label": "Zloty (Obsolete)",
+            "value": "PLZ"
+        },
+        {
+            "label": "Unidad Previsional",
+            "value": "UYW"
+        },
+        {
+            "label": "Special settlement currencies - Gold-Franc",
+            "value": "XFO"
+        },
+        {
+            "label": "Functional Currency",
+            "value": "1"
+        },
+        {
+            "label": "Andorran Peseta",
+            "value": "ADP"
+        },
+        {
+            "label": "United Arab Emirates Dirham",
+            "value": "AED"
+        },
+        {
+            "label": "Albanian Lek",
+            "value": "ALL"
+        },
+        {
+            "label": "Netherlands Antillian Guilder",
+            "value": "ANG"
+        },
+        {
+            "label": "Bosnia and Herzegovina Convertible Mark",
+            "value": "BAM"
+        },
+        {
+            "label": "Bulgarian Lev 1",
+            "value": "BGN"
+        },
+        {
+            "label": "Bahamian Dollar",
+            "value": "BSD"
+        },
+        {
+            "label": "Belarusian Ruble",
+            "value": "BYR"
+        },
+        {
+            "label": "Congo, Dem. Republic Franc Congolais",
+            "value": "CDF"
+        },
+        {
+            "label": "WIR Euro",
+            "value": "CHE"
+        },
+        {
+            "label": "Swiss Franc",
+            "value": "CHF"
+        },
+        {
+            "label": "Chilean Unidades de Fomento",
+            "value": "CLF"
+        },
+        {
+            "label": "Costa Rican Colon",
+            "value": "CRC"
+        },
+        {
+            "label": "Cyprus Pound",
+            "value": "CYP"
+        },
+        {
+            "label": "East German Mark DDR",
+            "value": "DDM"
+        },
+        {
+            "label": "Finnish Markka",
+            "value": "FIM"
+        },
+        {
+            "label": "Gambian Dalasi",
+            "value": "GMD"
+        },
+        {
+            "label": "Iraqi Dinar",
+            "value": "IQD"
+        },
+        {
+            "label": "Cayman Islands Dollar",
+            "value": "KYD"
+        },
+        {
+            "label": "Nigerian Naira",
+            "value": "NGN"
+        },
+        {
+            "label": "Philippine Peso",
+            "value": "PHP"
+        },
+        {
+            "label": "Polish Zloty",
+            "value": "PLN"
+        },
+        {
+            "label": "Rwanda Franc",
+            "value": "RWF"
+        },
+        {
+            "label": "Rwanda Franc",
+            "value": "RWS"
+        },
+        {
+            "label": "Somali Schilling",
+            "value": "SOS"
+        },
+        {
+            "label": "Swaziland Lilangeni",
+            "value": "SZL"
+        },
+        {
+            "label": "Ukraine Hryvnia",
+            "value": "UAH"
+        },
+        {
+            "label": "Uruguayan Peso",
+            "value": "UYP"
+        },
+        {
+            "label": "Uzbekistan Sum",
+            "value": "UZS"
+        },
+        {
+            "label": "Unidad de Valor Constante (UVC)",
+            "value": "ECV"
+        },
+        {
+            "label": "New Kwanza",
+            "value": "AON"
+        },
+        {
+            "label": "Azerbaijanian Manat (old)",
+            "value": "AZM"
+        },
+        {
+            "label": "Bond Markets Unit European Unit of Account 17 (Obsolete)",
+            "value": "XB5"
+        },
+        {
+            "label": "New Zaire",
+            "value": "ZRN"
+        },
+        {
+            "label": "Aruban Florin",
+            "value": "AWG"
+        },
+        {
+            "label": "Barbados Dollar",
+            "value": "BBD"
+        },
+        {
+            "label": "Brazil Real",
+            "value": "BRL"
+        },
+        {
+            "label": "Belize Dollar",
+            "value": "BZD"
+        },
+        {
+            "label": "Canadian Dollar",
+            "value": "CAD"
+        },
+        {
+            "label": "Cuban Peso",
+            "value": "CUP"
+        },
+        {
+            "label": "Fiji Dollar",
+            "value": "FJD"
+        },
+        {
+            "label": "British Pound",
+            "value": "GBP"
+        },
+        {
+            "label": "Greek Drachma",
+            "value": "GRD"
+        },
+        {
+            "label": "Hungarian Forint",
+            "value": "HUF"
+        },
+        {
+            "label": "Indian Rupee",
+            "value": "INR"
+        },
+        {
+            "label": "Iceland Krona",
+            "value": "ISK"
+        },
+        {
+            "label": "Kampuchean (Cambodian) Riel",
+            "value": "KHR"
+        },
+        {
+            "label": "Comoros Franc",
+            "value": "KMF"
+        },
+        {
+            "label": "Libyan Dinar",
+            "value": "LYD"
+        },
+        {
+            "label": "Myanmar (Burma) Kyat",
+            "value": "MMK"
+        },
+        {
+            "label": "Namibia Dollar",
+            "value": "NAD"
+        },
+        {
+            "label": "Norwegian Kroner",
+            "value": "NOK"
+        },
+        {
+            "label": "Pakistan Rupee",
+            "value": "PKR"
+        },
+        {
+            "label": "Slovakia Koruna",
+            "value": "SKK"
+        },
+        {
+            "label": "Turkmenistan Manat",
+            "value": "TMT"
+        },
+        {
+            "label": "Taiwan Dollar",
+            "value": "TWD"
+        },
+        {
+            "label": "US Dollar",
+            "value": "USD"
+        },
+        {
+            "label": "Ouguiya",
+            "value": "MRU"
+        },
+        {
+            "label": "Sudanese Pound (old)",
+            "value": "SDP"
+        },
+        {
+            "label": "Bond Markets Unit European Monetary Unit (E.M.U.-6)",
+            "value": "XBB"
+        },
+        {
+            "label": "UIC Franc (special settlement currency)",
+            "value": "XFU"
+        },
+        {
+            "label": "Afghanistan Afghani",
+            "value": "AFA"
+        },
+        {
+            "label": "Azerbaijan Manat",
+            "value": "AZN"
+        },
+        {
+            "label": "Bulgarian Lev",
+            "value": "BGL"
+        },
+        {
+            "label": "Brunei Dollar",
+            "value": "BND"
+        },
+        {
+            "label": "Burma Kyat",
+            "value": "BUK"
+        },
+        {
+            "label": "WIR Franc",
+            "value": "CHW"
+        },
+        {
+            "label": "Unidad de Valor Real",
+            "value": "COU"
+        },
+        {
+            "label": "Peso Convertible",
+            "value": "CUC"
+        },
+        {
+            "label": "German Deutsche Mark",
+            "value": "DEM"
+        },
+        {
+            "label": "Danish Krone",
+            "value": "DKK"
+        },
+        {
+            "label": "Dominican Peso",
+            "value": "DOP"
+        },
+        {
+            "label": "French Franc",
+            "value": "FRF"
+        },
+        {
+            "label": "Georgian Lari",
+            "value": "GEL"
+        },
+        {
+            "label": "Ghanaian Cedi",
+            "value": "GHC"
+        },
+        {
+            "label": "Guinean Franc",
+            "value": "GNF"
+        },
+        {
+            "label": "Israeli New Shekel",
+            "value": "ILS"
+        },
+        {
+            "label": "Iranian Rial",
+            "value": "IRR"
+        },
+        {
+            "label": "Italian Lira",
+            "value": "ITL"
+        },
+        {
+            "label": "Jordanian Dinar",
+            "value": "JOD"
+        },
+        {
+            "label": "Kazakhstan Tenge",
+            "value": "KTS"
+        },
+        {
+            "label": "Lebanese Pound",
+            "value": "LBP"
+        },
+        {
+            "label": "Lesotho Loti",
+            "value": "LSM"
+        },
+        {
+            "label": "Litas",
+            "value": "LTL"
+        },
+        {
+            "label": "Mongolian Tugrik",
+            "value": "MNT"
+        },
+        {
+            "label": "Maldive Rufiyaa",
+            "value": "MVR"
+        },
+        {
+            "label": "Romanian Leu",
+            "value": "ROL"
+        },
+        {
+            "label": "Saudi Arabian Riyal",
+            "value": "SAR"
+        },
+        {
+            "label": "Seychelles Rupee",
+            "value": "SCR"
+        },
+        {
+            "label": "Sudanese Pound",
+            "value": "SDD"
+        },
+        {
+            "label": "Thai Baht",
+            "value": "THB"
+        },
+        {
+            "label": "Vanuatu Vatu",
+            "value": "VUV"
+        },
+        {
+            "label": "Zimbabwe Dollar",
+            "value": "ZWD"
+        },
+        {
+            "label": "Georgian Coupon",
+            "value": "GEK"
+        },
+        {
+            "label": "Austral",
+            "value": "ARA"
+        },
+        {
+            "label": "US Dollar (next day)",
+            "value": "USN"
+        },
+        {
+            "label": "Bond Markets Unit European Composite Unit (EURCO)",
+            "value": "XBA"
+        },
+        {
+            "label": "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)",
+            "value": "XBD"
+        },
+        {
+            "label": "Zimbabwe Dollar (Obsolete)",
+            "value": "ZWR"
+        },
+        {
+            "label": "Azerbaijan Manat",
+            "value": "AFN"
+        },
+        {
+            "label": "Azerbaijan Manat",
+            "value": "AZS"
+        },
+        {
+            "label": "Bahraini Dinar",
+            "value": "BHD"
+        },
+        {
+            "label": "Czech Koruna",
+            "value": "CZK"
+        },
+        {
+            "label": "Ecuadoran Sucre",
+            "value": "ECS"
+        },
+        {
+            "label": "Ethiopian Birr",
+            "value": "ETB"
+        },
+        {
+            "label": "Indonesian Rupiah",
+            "value": "IDR"
+        },
+        {
+            "label": "Jersey Pound",
+            "value": "JEP"
+        },
+        {
+            "label": "Japanese Yen",
+            "value": "JPY"
+        },
+        {
+            "label": "Kyrgyzstan Som",
+            "value": "KGS"
+        },
+        {
+            "label": "North Korean Won",
+            "value": "KPW"
+        },
+        {
+            "label": "Kuwaiti Dinar",
+            "value": "KWD"
+        },
+        {
+            "label": "Sri Lanka Rupee",
+            "value": "LKR"
+        },
+        {
+            "label": "Lesotho Loti (Plural Maloti)",
+            "value": "LSL"
+        },
+        {
+            "label": "Malagasy Franc",
+            "value": "MGF"
+        },
+        {
+            "label": "Moldova Lei",
+            "value": "MVS"
+        },
+        {
+            "label": "Malaysian Ringgit",
+            "value": "MYR"
+        },
+        {
+            "label": "Mozambique Metical",
+            "value": "MZN"
+        },
+        {
+            "label": "Nicaraguan Cordoba",
+            "value": "NIC"
+        },
+        {
+            "label": "Nicaragua Cordoba Oro",
+            "value": "NIO"
+        },
+        {
+            "label": "Dutch Guilder",
+            "value": "NLG"
+        },
+        {
+            "label": "Panamanian Balboa",
+            "value": "PAB"
+        },
+        {
+            "label": "Papua New Guinea Kina",
+            "value": "PGK"
+        },
+        {
+            "label": "Russian Rouble",
+            "value": "RUR"
+        },
+        {
+            "label": "St. Helena Pound",
+            "value": "SHP"
+        },
+        {
+            "label": "South Sudanese Pound",
+            "value": "SSP"
+        },
+        {
+            "label": "Uganda Shilling",
+            "value": "UGS"
+        },
+        {
+            "label": "Zambian Kwacha",
+            "value": "ZMW"
+        },
+        {
+            "label": "Zimbabwe Dollar",
+            "value": "ZWL"
+        },
+        {
+            "label": "CN1",
+            "value": "IC1"
+        },
+        {
+            "label": "Croatian Dinar",
+            "value": "HRD"
+        },
+        {
+            "label": "Cruzado",
+            "value": "BRC"
+        },
+        {
+            "label": "US Dollar (same day)",
+            "value": "USS"
+        },
+        {
+            "label": "Bolivar Soberano",
+            "value": "VES"
+        },
+        {
+            "label": "Testing",
+            "value": "XTS"
+        },
+        {
+            "label": "Yugoslavian Dinar",
+            "value": "YUM"
+        },
+        {
+            "label": "Financial Rand",
+            "value": "ZAL"
+        },
+        {
+            "label": "Default Currency",
+            "value": "0"
+        },
+        {
+            "label": "Non Currency Basis",
+            "value": "2"
+        },
+        {
+            "label": "Angolan Kwanza",
+            "value": "AOA"
+        },
+        {
+            "label": "Angolan Kwanza",
+            "value": "AOK"
+        },
+        {
+            "label": "Argentine Peso",
+            "value": "ARS"
+        },
+        {
+            "label": "Bangladeshi Taka",
+            "value": "BDT"
+        },
+        {
+            "label": "Belgian Franc",
+            "value": "BEF"
+        },
+        {
+            "label": "Botswanian Pula",
+            "value": "BWP"
+        },
+        {
+            "label": "Belarusian Ruble",
+            "value": "BYN"
+        },
+        {
+            "label": "Spanish Peseta",
+            "value": "ESP"
+        },
+        {
+            "label": "Euro",
+            "value": "EUR"
+        },
+        {
+            "label": "Ghanaian Cedi",
+            "value": "GHS"
+        },
+        {
+            "label": "Guinea Franc",
+            "value": "GNS"
+        },
+        {
+            "label": "Guatemalan Quetzal",
+            "value": "GTQ"
+        },
+        {
+            "label": "Guinea-Bissau Peso",
+            "value": "GWP"
+        },
+        {
+            "label": "Luxembourg Franc",
+            "value": "LUF"
+        },
+        {
+            "label": "Latvian Lat",
+            "value": "LVR"
+        },
+        {
+            "label": "Malagasy Ariary",
+            "value": "MGA"
+        },
+        {
+            "label": "Macedonian Denar",
+            "value": "MKD"
+        },
+        {
+            "label": "Nepalese Rupee",
+            "value": "NPR"
+        },
+        {
+            "label": "Omani Rial",
+            "value": "OMR"
+        },
+        {
+            "label": "El Salvador Colon",
+            "value": "SVC"
+        },
+        {
+            "label": "Trinidad and Tobago Dollar",
+            "value": "TTD"
+        },
+        {
+            "label": "Ukraine Hryvna",
+            "value": "UAK"
+        },
+        {
+            "label": "East Caribbean Dollar",
+            "value": "XCD"
+        },
+        {
+            "label": "Yemeni Rial",
+            "value": "YER"
+        },
+        {
+            "label": "Missing",
+            "value": "MSG"
+        },
+        {
+            "label": "Gold",
+            "value": "XAU"
+        },
+        {
+            "label": "Mexican Unidad de Inversion (UDI)",
+            "value": "MXV"
+        },
+        {
+            "label": "Tajik Ruble",
+            "value": "TJR"
+        },
+        {
+            "label": "Yugoslavian Dinar (Obsolete)",
+            "value": "YUN"
+        },
+        {
+            "label": "Australian Dollar",
+            "value": "AUD"
+        },
+        {
+            "label": "Belarusian Ruble",
+            "value": "BES"
+        },
+        {
+            "label": "Burundi Franc",
+            "value": "BIF"
+        },
+        {
+            "label": "Bermudian Dollar",
+            "value": "BMD"
+        },
+        {
+            "label": "Mvdol",
+            "value": "BOV"
+        },
+        {
+            "label": "Chinese Offshore",
+            "value": "CNH"
+        },
+        {
+            "label": "Yuan (Chinese) Renminbi",
+            "value": "CNY"
+        },
+        {
+            "label": "Algerian Dinar",
+            "value": "DZD"
+        },
+        {
+            "label": "Falkland Islands Pound",
+            "value": "FKP"
+        },
+        {
+            "label": "Guyanan Dollar",
+            "value": "GYD"
+        },
+        {
+            "label": "Honduran Lempira",
+            "value": "HNL"
+        },
+        {
+            "label": "Croatian Kuna",
+            "value": "HRK"
+        },
+        {
+            "label": "Haitian Gourde",
+            "value": "HTG"
+        },
+        {
+            "label": "Jamaican Dollar",
+            "value": "JMD"
+        },
+        {
+            "label": "Moroccan Dirham",
+            "value": "MAD"
+        },
+        {
+            "label": "Mauritanian Ouguiya",
+            "value": "MRO"
+        },
+        {
+            "label": "Mauritius Rupee",
+            "value": "MUR"
+        },
+        {
+            "label": "Malawi Kwacha",
+            "value": "MWK"
+        },
+        {
+            "label": "Peru Nuevo Sol",
+            "value": "PEN"
+        },
+        {
+            "label": "Peruvian New Sol",
+            "value": "PSS"
+        },
+        {
+            "label": "Portuguese Escudo",
+            "value": "PTE"
+        },
+        {
+            "label": "Romanian Leu",
+            "value": "RON"
+        },
+        {
+            "label": "Russian Ruble",
+            "value": "RUB"
+        },
+        {
+            "label": "Sudanese Pound",
+            "value": "SDG"
+        },
+        {
+            "label": "Singapore Dollar",
+            "value": "SGD"
+        },
+        {
+            "label": "Turkmenistan Manat",
+            "value": "TMM"
+        },
+        {
+            "label": "East Timor Escudo",
+            "value": "TPE"
+        },
+        {
+            "label": "Uruguay Peso en Unidades Indexadas (UI)",
+            "value": "UYI"
+        },
+        {
+            "label": "CFA Franc BEAC",
+            "value": "XAF"
+        },
+        {
+            "label": "CFP Franc",
+            "value": "XPF"
+        },
+        {
+            "label": "New Yugoslavia Dinar",
+            "value": "YUD"
+        },
+        {
+            "label": "Zaire Zaire",
+            "value": "ZRZ"
+        },
+        {
+            "label": "Others",
+            "value": "OTH"
+        },
+        {
+            "label": "Convertible Peseta Accounts",
+            "value": "ESB"
+        },
+        {
+            "label": "Schilling",
+            "value": "ATS"
+        },
+        {
+            "label": "Mexican Peso (Obsolete)",
+            "value": "MXP"
+        },
+        {
+            "label": "Dobra",
+            "value": "STN"
+        },
+        {
+            "label": "Rouble",
+            "value": "SUR"
+        },
+        {
+            "label": "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)",
+            "value": "XBC"
+        },
+        {
+            "label": "No currency",
+            "value": "XXX"
+        },
+        {
+            "label": "Armenia Dram",
+            "value": "AMD"
+        },
+        {
+            "label": "Bolivian Boliviano",
+            "value": "BOB"
+        },
+        {
+            "label": "Bolivian Boliviano",
+            "value": "BOP"
+        },
+        {
+            "label": "Djibouti Franc",
+            "value": "DJF"
+        },
+        {
+            "label": "Estonian Kroon",
+            "value": "EEK"
+        },
+        {
+            "label": "Eritrea Nakfa",
+            "value": "ERN"
+        },
+        {
+            "label": "Guernsey Pound",
+            "value": "GGP"
+        },
+        {
+            "label": "Gibraltar Pound",
+            "value": "GIP"
+        },
+        {
+            "label": "Irish Punt",
+            "value": "IEP"
+        },
+        {
+            "label": "Kenyan Schilling",
+            "value": "KES"
+        },
+        {
+            "label": "Kazakhstan Tenge",
+            "value": "KZT"
+        },
+        {
+            "label": "Lao Kip",
+            "value": "LAK"
+        },
+        {
+            "label": "Liberian Dollar",
+            "value": "LRD"
+        },
+        {
+            "label": "Lithuanian Lit",
+            "value": "LTT"
+        },
+        {
+            "label": "Lats",
+            "value": "LVL"
+        },
+        {
+            "label": "Moldovan Leu",
+            "value": "MDL"
+        },
+        {
+            "label": "Maltese Lira",
+            "value": "MTL"
+        },
+        {
+            "label": "Mozambique Metical",
+            "value": "MZM"
+        },
+        {
+            "label": "Slovenia Tolar",
+            "value": "SIT"
+        },
+        {
+            "label": "Sierra Leone Leone",
+            "value": "SLL"
+        },
+        {
+            "label": "Syrian Pound",
+            "value": "SYP"
+        },
+        {
+            "label": "Tunisian Dinar",
+            "value": "TND"
+        },
+        {
+            "label": "Tongan Paanga",
+            "value": "TOP"
+        },
+        {
+            "label": "Turkish Lira",
+            "value": "TRL"
+        },
+        {
+            "label": "Cyprus Pound",
+            "value": "TRY"
+        },
+        {
+            "label": "Peso Uruguayo",
+            "value": "UYU"
+        },
+        {
+            "label": "Vietnamese Dong",
+            "value": "VND"
+        },
+        {
+            "label": "Samoan Tala",
+            "value": "WST"
+        },
+        {
+            "label": "Special Drawing Rights",
+            "value": "XDR"
+        },
+        {
+            "label": "South African Rand",
+            "value": "ZAR"
+        }
+    ],
+    "currencyRateNatureCode": [
+        {
+            "label": "Forecasted",
+            "value": "FORECASTED"
+        },
+        {
+            "label": "Floating",
+            "value": "FLOATING"
+        },
+        {
+            "label": "Fixed",
+            "value": "FIXED"
+        },
+        {
+            "label": "Missing",
+            "value": "MSG"
+        },
+        {
+            "label": "Others",
+            "value": "OTH"
+        }
+    ],
+    "currencyRateVerCode": [
+        {
+            "value": "OTH"
+        },
+        {
+            "label": "JGJdUKT",
+            "value": "CURRENCYR_ZYOnlxJ"
+        },
+        {
+            "label": "vIGCiWW",
+            "value": "CURRENCYR_WbenFC0"
+        },
+        {
+            "label": "ihhCnuR",
+            "value": "CURRENCYR_NhPozyK"
+        },
+        {
+            "label": "cW2PVOj",
+            "value": "CURRENCYR_4rOdPFf"
+        },
+        {
+            "label": "PliSKmt",
+            "value": "CURRENCYR_ub9t84t"
+        },
+        {
+            "label": "3tgLjEd",
+            "value": "CURRENCYR_2nvPvRf"
+        },
+        {
+            "label": "ZJRqBGs",
+            "value": "CURRENCYR_XKi115t"
+        },
+        {
+            "label": "UuNJSB9",
+            "value": "CURRENCYR_jUeEfVN"
+        },
+        {
+            "label": "zP3Hxd8",
+            "value": "CURRENCYR_HYsCzmS"
+        },
+        {
+            "label": "tPZvBHc",
+            "value": "CURRENCYR_Eq3TKnQ"
+        },
+        {
+            "label": "Etbc3ae",
+            "value": "CURRENCYR_IJm7XLH"
+        },
+        {
+            "label": "BFceebD",
+            "value": "CURRENCYR_TlGtOz5"
+        },
+        {
+            "label": "FbNLN4o",
+            "value": "CURRENCYR_SGrZZH5"
+        },
+        {
+            "label": "0dkfZt1",
+            "value": "CURRENCYR_eMobOnX"
+        },
+        {
+            "label": "RoJkJEW",
+            "value": "CURRENCYR_h8DCNQa"
+        },
+        {
+            "label": "qGNpkvP",
+            "value": "CURRENCYR_MmuGdnA"
+        },
+        {
+            "label": "FlZs6SN",
+            "value": "CURRENCYR_Lm48EG7"
+        },
+        {
+            "label": "HT3WdKu",
+            "value": "CURRENCYR_afrKDQ9"
+        },
+        {
+            "label": "itMeFxT",
+            "value": "CURRENCYR_drC3Zr9"
+        },
+        {
+            "label": "qgMnnsl",
+            "value": "CURRENCYR_JOkJ5sP"
+        },
+        {
+            "label": "PApAxEr",
+            "value": "CURRENCYR_pAD1WWP"
+        },
+        {
+            "label": "iQModYf",
+            "value": "CURRENCYR_eXSK8Jt"
+        },
+        {
+            "label": "XZQXDlo",
+            "value": "CURRENCYR_VhbFcUP"
+        },
+        {
+            "label": "1tQudeG",
+            "value": "CURRENCYR_GS9yzuc"
+        },
+        {
+            "label": "lfHvgp8",
+            "value": "CURRENCYR_t3HCcNS"
+        },
+        {
+            "label": "PLAepUt",
+            "value": "CURRENCYR_6ScB0ma"
+        },
+        {
+            "label": "Dq3ooIz",
+            "value": "CURRENCYR_xPsWnor"
+        },
+        {
+            "label": "4ntJdpu",
+            "value": "CURRENCYR_hQNXGum"
+        },
+        {
+            "label": "OlTPCsf",
+            "value": "CURRENCYR_RefOIuK"
+        },
+        {
+            "label": "32orHZV",
+            "value": "CURRENCYR_LedkBGK"
+        },
+        {
+            "label": "nejThPY",
+            "value": "CURRENCYR_n8U3JyG"
+        },
+        {
+            "label": "uDr8iyx",
+            "value": "CURRENCYR_5zdHZzb"
+        },
+        {
+            "label": "kip6C6K",
+            "value": "CURRENCYR_H3hjU5L"
+        },
+        {
+            "label": "CORTEOT",
+            "value": "CURRENCYR_Rq7GSIt"
+        },
+        {
+            "label": "xiFfvqB",
+            "value": "CURRENCYR_lZ5axvV"
+        },
+        {
+            "label": "8OMzymg",
+            "value": "CURRENCYR_88C9XM4"
+        },
+        {
+            "label": "i8VfZql",
+            "value": "CURRENCYR_lNK73N5"
+        },
+        {
+            "label": "Y2mx7uI",
+            "value": "CURRENCYR_mkCB9ly"
+        },
+        {
+            "label": "7JAFBTY",
+            "value": "CURRENCYR_85NFVWo"
+        },
+        {
+            "label": "VPxIUAo",
+            "value": "CURRENCYR_xIXyuOT"
+        },
+        {
+            "label": "Y8bdh8D",
+            "value": "CURRENCYR_Def3FWr"
+        },
+        {
+            "label": "2Y1lM8m",
+            "value": "CURRENCYR_76UZzFE"
+        },
+        {
+            "label": "OCMKbO8",
+            "value": "CURRENCYR_468SaF1"
+        },
+        {
+            "label": "yLMqiyR",
+            "value": "CURRENCYR_m1cRYns"
+        },
+        {
+            "label": "NzSFArp",
+            "value": "CURRENCYR_hYVb3su"
+        },
+        {
+            "label": "5QGiFg9",
+            "value": "CURRENCYR_k6PzGF0"
+        },
+        {
+            "label": "hUOY4U1",
+            "value": "CURRENCYR_lOrlGfm"
+        },
+        {
+            "label": "itu8YuU",
+            "value": "CURRENCYR_E7EgOuZ"
+        },
+        {
+            "label": "3jcTXVY",
+            "value": "CURRENCYR_ZfEfgqr"
+        },
+        {
+            "label": "4W3b4Un",
+            "value": "CURRENCYR_p8GKjYA"
+        },
+        {
+            "label": "S3uiTW1",
+            "value": "CURRENCYR_zrZI9bV"
+        },
+        {
+            "label": "H5S54N9",
+            "value": "CURRENCYR_YSzdUH3"
+        },
+        {
+            "label": "Wi0INsu",
+            "value": "CURRENCYR_P1PpirJ"
+        },
+        {
+            "label": "bJ69o0X",
+            "value": "CURRENCYR_9VYygZU"
+        },
+        {
+            "label": "JT5oPd4",
+            "value": "CURRENCYR_rqryklv"
+        },
+        {
+            "label": "mRx1bas",
+            "value": "CURRENCYR_Ulabp2A"
+        },
+        {
+            "label": "0WecWyc",
+            "value": "CURRENCYR_aJHmMLd"
+        },
+        {
+            "label": "hmi7ecB",
+            "value": "CURRENCYR_XQmq73h"
+        },
+        {
+            "label": "XbiuHxj",
+            "value": "CURRENCYR_XK3DuBH"
+        },
+        {
+            "label": "p55h7h9",
+            "value": "CURRENCYR_rB7IlqZ"
+        },
+        {
+            "label": "Jtls8M4",
+            "value": "CURRENCYR_0gDQMEo"
+        },
+        {
+            "label": "WmlMkyQ",
+            "value": "CURRENCYR_hpFjbVL"
+        },
+        {
+            "label": "1bNCcd4",
+            "value": "CURRENCYR_foNRRAm"
+        },
+        {
+            "label": "W4HkuNG",
+            "value": "CURRENCYR_3N5KT3U"
+        },
+        {
+            "label": "YazbNxD",
+            "value": "CURRENCYR_dgXzDVi"
+        },
+        {
+            "label": "3mM4CcC",
+            "value": "CURRENCYR_j1pJmei"
+        },
+        {
+            "label": "QikyRX6",
+            "value": "CURRENCYR_LH2PAKr"
+        },
+        {
+            "label": "cFqnKuo",
+            "value": "CURRENCYR_mXaDDGW"
+        },
+        {
+            "label": "myxk3yk",
+            "value": "CURRENCYR_gJnfIHM"
+        },
+        {
+            "label": "bgJcZuy",
+            "value": "CURRENCYR_WWjOHLQ"
+        },
+        {
+            "label": "6fN87Ta",
+            "value": "CURRENCYR_aByAD7Y"
+        },
+        {
+            "label": "EoTcxQE",
+            "value": "CURRENCYR_l4jO62i"
+        },
+        {
+            "label": "2Fv7VvW",
+            "value": "CURRENCYR_AlbDnrv"
+        },
+        {
+            "label": "qipvNJH",
+            "value": "CURRENCYR_lmigtrY"
+        },
+        {
+            "label": "Hvt9xo2",
+            "value": "CURRENCYR_IldedOD"
+        },
+        {
+            "label": "BK6cQ6d",
+            "value": "CURRENCYR_f4U3V3s"
+        },
+        {
+            "label": "JlW8p4z",
+            "value": "CURRENCYR_oCHYejj"
+        },
+        {
+            "label": "jBtBqU8",
+            "value": "CURRENCYR_xZr9FOD"
+        },
+        {
+            "label": "xMdeUEY",
+            "value": "CURRENCYR_yyVLGOE"
+        },
+        {
+            "label": "bQstXal",
+            "value": "CURRENCYR_XMSV1mx"
+        },
+        {
+            "label": "3IBGhOZ",
+            "value": "CURRENCYR_yhLJFkJ"
+        },
+        {
+            "label": "lSHZDFa",
+            "value": "CURRENCYR_RsFxmkX"
+        },
+        {
+            "label": "dBoWo3d",
+            "value": "CURRENCYR_8iT2Zm7"
+        },
+        {
+            "label": "M2shWcd",
+            "value": "CURRENCYR_pW2vjVD"
+        },
+        {
+            "label": "lfLv3yt",
+            "value": "CURRENCYR_F2PVJj0"
+        },
+        {
+            "label": "eue96sK",
+            "value": "CURRENCYR_laB2cvy"
+        },
+        {
+            "label": "c7Lo91q",
+            "value": "CURRENCYR_dFWZU9k"
+        },
+        {
+            "label": "mApPEZU",
+            "value": "CURRENCYR_LpVFTs8"
+        },
+        {
+            "label": "gLrOMQi",
+            "value": "CURRENCYR_vyDl16B"
+        },
+        {
+            "label": "LKlPYXd",
+            "value": "CURRENCYR_PJYjy73"
+        },
+        {
+            "label": "dj6YyVG",
+            "value": "CURRENCYR_I0EhmFQ"
+        },
+        {
+            "label": "IYzZSWT",
+            "value": "CURRENCYR_I7tt2GV"
+        },
+        {
+            "label": "9CK8p6M",
+            "value": "CURRENCYR_JAS07XD"
+        },
+        {
+            "label": "KaVAaam",
+            "value": "CURRENCYR_hiHfyIT"
+        },
+        {
+            "label": "5Rd2zAE",
+            "value": "CURRENCYR_OH6qtso"
+        },
+        {
+            "label": "RxUZ3uv",
+            "value": "CURRENCYR_E7JseSP"
+        },
+        {
+            "label": "Ej04DTW",
+            "value": "CURRENCYR_x02TMBL"
+        },
+        {
+            "label": "8BonAQk",
+            "value": "CURRENCYR_M2okAce"
+        },
+        {
+            "label": "r7TSxAc",
+            "value": "CURRENCYR_6PFBUWK"
+        },
+        {
+            "label": "k9bbmF6",
+            "value": "CURRENCYR_TqcF95o"
+        },
+        {
+            "label": "9APhX5r",
+            "value": "CURRENCYR_GDqtoit"
+        },
+        {
+            "label": "jItfKX6",
+            "value": "CURRENCYR_LvOmgfL"
+        },
+        {
+            "label": "fS5GmSs",
+            "value": "CURRENCYR_jQdOBDU"
+        },
+        {
+            "label": "XUvWEX6",
+            "value": "CURRENCYR_LbgF52r"
+        },
+        {
+            "label": "G9pW6SM",
+            "value": "CURRENCYR_Qklk9TL"
+        },
+        {
+            "label": "Vu2Pmll",
+            "value": "CURRENCYR_zFecyE1"
+        },
+        {
+            "label": "lTvFCDV",
+            "value": "CURRENCYR_34DjIVf"
+        },
+        {
+            "label": "JCZsaKj",
+            "value": "CURRENCYR_Lr70PJY"
+        },
+        {
+            "label": "KKWAU90",
+            "value": "CURRENCYR_427dBfI"
+        },
+        {
+            "label": "sQD50kA",
+            "value": "CURRENCYR_rqDQUgJ"
+        },
+        {
+            "label": "rr6imh3",
+            "value": "CURRENCYR_xAg8dhD"
+        },
+        {
+            "label": "nWacRHv",
+            "value": "CURRENCYR_MHOicv2"
+        },
+        {
+            "label": "CRUcpav",
+            "value": "CURRENCYR_KkoeXDE"
+        },
+        {
+            "label": "YSJmXdn",
+            "value": "CURRENCYR_Wk8Btlu"
+        },
+        {
+            "label": "uTVprfF",
+            "value": "CURRENCYR_uiilqjA"
+        },
+        {
+            "label": "AMFHgH6",
+            "value": "CURRENCYR_tGHg5Xo"
+        },
+        {
+            "label": "r915uiJ",
+            "value": "CURRENCYR_TIGRGUz"
+        },
+        {
+            "label": "jmzsY8I",
+            "value": "CURRENCYR_aCDkdJt"
+        },
+        {
+            "label": "uVAsRUs",
+            "value": "CURRENCYR_n1RfaRL"
+        },
+        {
+            "label": "fWCaY3O",
+            "value": "CURRENCYR_FEFNGGr"
+        },
+        {
+            "label": "oS94Xbu",
+            "value": "CURRENCYR_Biknr8V"
+        },
+        {
+            "label": "GhuzsFu",
+            "value": "CURRENCYR_S6dtTkk"
+        },
+        {
+            "label": "Q1jOh7n",
+            "value": "CURRENCYR_8Ja1L0C"
+        },
+        {
+            "label": "iWMxMuG",
+            "value": "CURRENCYR_nVG7VH5"
+        },
+        {
+            "label": "blgdHp0",
+            "value": "CURRENCYR_hSG87Pb"
+        },
+        {
+            "label": "rECBAbF",
+            "value": "CURRENCYR_BLWiTk3"
+        },
+        {
+            "label": "o3ouATU",
+            "value": "CURRENCYR_QM6AntJ"
+        },
+        {
+            "label": "ettfzNu",
+            "value": "CURRENCYR_LZr1b5O"
+        },
+        {
+            "label": "xaVMabn",
+            "value": "CURRENCYR_Lu19d7J"
+        },
+        {
+            "label": "sO5zSzA",
+            "value": "CURRENCYR_FFVYeXN"
+        },
+        {
+            "label": "raqN6e8",
+            "value": "CURRENCYR_I06q1kc"
+        },
+        {
+            "label": "047XOhl",
+            "value": "CURRENCYR_ARTbCXU"
+        },
+        {
+            "label": "mI0Kxcy",
+            "value": "CURRENCYR_EB8WvPc"
+        },
+        {
+            "label": "NqY85Jh",
+            "value": "CURRENCYR_aqAjiBH"
+        },
+        {
+            "label": "vxZxBoe",
+            "value": "CURRENCYR_v9LxrkG"
+        },
+        {
+            "label": "jAB6ZO1",
+            "value": "CURRENCYR_2PqQ0Qm"
+        },
+        {
+            "label": "ksoO68y",
+            "value": "CURRENCYR_qOhanRn"
+        },
+        {
+            "label": "U5P32zR",
+            "value": "CURRENCYR_jWZVZoo"
+        },
+        {
+            "label": "PXgVgWQ",
+            "value": "CURRENCYR_8Imuesd"
+        },
+        {
+            "label": "1FsJrgl",
+            "value": "CURRENCYR_TIRWov5"
+        },
+        {
+            "label": "iREAnB6",
+            "value": "CURRENCYR_IUmOjC1"
+        },
+        {
+            "label": "aIbzbxP",
+            "value": "CURRENCYR_p4D3I85"
+        },
+        {
+            "label": "U3mC2Uj",
+            "value": "CURRENCYR_D1KWTL7"
+        },
+        {
+            "label": "XLigB9m",
+            "value": "CURRENCYR_hNx0NSx"
+        },
+        {
+            "label": "EpAvLS0",
+            "value": "CURRENCYR_r0nzaRW"
+        },
+        {
+            "label": "xEnX373",
+            "value": "CURRENCYR_7NImjti"
+        },
+        {
+            "label": "9t1blvD",
+            "value": "CURRENCYR_E554jSK"
+        },
+        {
+            "label": "A01cSiP",
+            "value": "CURRENCYR_Mj3dVzF"
+        },
+        {
+            "label": "00qpEhl",
+            "value": "CURRENCYR_K3ZPJeA"
+        },
+        {
+            "label": "YUaF5L7",
+            "value": "CURRENCYR_HMM8VOY"
+        },
+        {
+            "label": "pXKLujr",
+            "value": "CURRENCYR_vmrnuJ1"
+        },
+        {
+            "label": "Zgu8enE",
+            "value": "CURRENCYR_fP90SRo"
+        },
+        {
+            "label": "PGHPf8O",
+            "value": "CURRENCYR_ZqMs8N2"
+        },
+        {
+            "label": "FrrzrmM",
+            "value": "CURRENCYR_QXyaGTP"
+        },
+        {
+            "label": "35Jj7fP",
+            "value": "CURRENCYR_RIKxJJ3"
+        },
+        {
+            "label": "N4oK3pc",
+            "value": "CURRENCYR_y5z33g8"
+        },
+        {
+            "label": "fHd09Fg",
+            "value": "CURRENCYR_uaecDqq"
+        },
+        {
+            "label": "pVkJ5uD",
+            "value": "CURRENCYR_ubgrEBV"
+        },
+        {
+            "label": "XQHYkPK",
+            "value": "CURRENCYR_Eia0ljo"
+        },
+        {
+            "label": "WbFT6lh",
+            "value": "CURRENCYR_ULfk5zb"
+        },
+        {
+            "label": "9TTU6xT",
+            "value": "CURRENCYR_LJveCJA"
+        },
+        {
+            "label": "tOzNrXe",
+            "value": "CURRENCYR_iMlsx7B"
+        },
+        {
+            "label": "ogEmTXy",
+            "value": "CURRENCYR_MTaiRDO"
+        },
+        {
+            "label": "vfX12A9",
+            "value": "CURRENCYR_eJFXxSj"
+        },
+        {
+            "label": "bxFEIpj",
+            "value": "CURRENCYR_4BPN9Ix"
+        },
+        {
+            "label": "jpC4yju",
+            "value": "CURRENCYR_usDohRy"
+        },
+        {
+            "label": "xmMYC7z",
+            "value": "CURRENCYR_0LDHXNV"
+        },
+        {
+            "label": "H7vsa37",
+            "value": "CURRENCYR_s6qTYES"
+        },
+        {
+            "label": "XLDFMrl",
+            "value": "CURRENCYR_4nEGYbb"
+        },
+        {
+            "label": "UcnPiH8",
+            "value": "CURRENCYR_H6tq1gG"
+        },
+        {
+            "label": "YlgcCdN",
+            "value": "CURRENCYR_kc6ZlsK"
+        },
+        {
+            "label": "dxFr92x",
+            "value": "CURRENCYR_z9p4RJW"
+        },
+        {
+            "label": "caLq4Lc",
+            "value": "CURRENCYR_dNb56Rs"
+        },
+        {
+            "label": "pm9jPmj",
+            "value": "CURRENCYR_UMn0QyN"
+        },
+        {
+            "label": "CFOqIeG",
+            "value": "CURRENCYR_x21jZRB"
+        },
+        {
+            "label": "cJ2kpgb",
+            "value": "CURRENCYR_i0CV6KT"
+        },
+        {
+            "label": "4C6eOTG",
+            "value": "CURRENCYR_ZHNZHJB"
+        },
+        {
+            "label": "H7W3dIG",
+            "value": "CURRENCYR_6P7GSnY"
+        },
+        {
+            "label": "FZvoZHj",
+            "value": "CURRENCYR_R4NoSIY"
+        },
+        {
+            "label": "FiSs2LL",
+            "value": "CURRENCYR_ZT4NCSi"
+        },
+        {
+            "label": "GEuQelv",
+            "value": "CURRENCYR_s3GK9bu"
+        },
+        {
+            "label": "DBSW4eG",
+            "value": "CURRENCYR_D8E4dCj"
+        },
+        {
+            "label": "L4vnINg",
+            "value": "CURRENCYR_3A7HtGK"
+        },
+        {
+            "label": "4WKqzuj",
+            "value": "CURRENCYR_v2uvMc6"
+        },
+        {
+            "label": "VgdmAk6",
+            "value": "CURRENCYR_JYuQf7G"
+        },
+        {
+            "label": "otSYfuf",
+            "value": "CURRENCYR_j4Y0pX2"
+        },
+        {
+            "label": "pOQGXNd",
+            "value": "CURRENCYR_pjMez0z"
+        },
+        {
+            "label": "KKJSbnH",
+            "value": "CURRENCYR_3fS5kn7"
+        },
+        {
+            "label": "KGEQfhB",
+            "value": "CURRENCYR_gFMh7iy"
+        },
+        {
+            "label": "dMcRTyO",
+            "value": "CURRENCYR_DS2rxPj"
+        },
+        {
+            "label": "EO6uEC9",
+            "value": "CURRENCYR_drlrc7o"
+        },
+        {
+            "label": "pdilrRR",
+            "value": "CURRENCYR_P30m495"
+        },
+        {
+            "label": "X5bCiqk",
+            "value": "CURRENCYR_lS3YtAA"
+        },
+        {
+            "label": "5YKBHpO",
+            "value": "CURRENCYR_LuyXkoo"
+        },
+        {
+            "label": "ZReLeK3",
+            "value": "CURRENCYR_frqLdNV"
+        },
+        {
+            "label": "hPyHiHU",
+            "value": "CURRENCYR_prpx53x"
+        },
+        {
+            "label": "63L5y2e",
+            "value": "CURRENCYR_Csdfhi2"
+        },
+        {
+            "label": "n1aDmqn",
+            "value": "CURRENCYR_5uMltVI"
+        },
+        {
+            "label": "haFpn1b",
+            "value": "CURRENCYR_miskvXp"
+        },
+        {
+            "label": "YceeThL",
+            "value": "CURRENCYR_DofCsVo"
+        },
+        {
+            "label": "sg3AQ4S",
+            "value": "CURRENCYR_uX8NdD7"
+        },
+        {
+            "label": "qz824YD",
+            "value": "CURRENCYR_DShC3u9"
+        },
+        {
+            "label": "lcOZmZL",
+            "value": "CURRENCYR_CF39enW"
+        },
+        {
+            "label": "unIzABK",
+            "value": "CURRENCYR_yo5z7Uu"
+        },
+        {
+            "label": "XJrFxzx",
+            "value": "CURRENCYR_fFTWoQa"
+        },
+        {
+            "label": "k9dVIzT",
+            "value": "CURRENCYR_W1S0dUK"
+        },
+        {
+            "label": "8vYIBBO",
+            "value": "CURRENCYR_jB4EOLm"
+        },
+        {
+            "label": "eiHquOk",
+            "value": "CURRENCYR_Q7hMPOE"
+        },
+        {
+            "label": "pyqRchu",
+            "value": "CURRENCYR_Px8eask"
+        },
+        {
+            "label": "1bU4S64",
+            "value": "CURRENCYR_d6ycum0"
+        },
+        {
+            "label": "BQSdDlX",
+            "value": "CURRENCYR_7N2KXq7"
+        },
+        {
+            "label": "oPdp6DT",
+            "value": "CURRENCYR_7e0314j"
+        },
+        {
+            "label": "gfH9PnY",
+            "value": "CURRENCYR_fav3acO"
+        },
+        {
+            "label": "Nkdoy2r",
+            "value": "CURRENCYR_aaXEU8t"
+        },
+        {
+            "label": "Nzqd45Z",
+            "value": "CURRENCYR_ENyQt1g"
+        },
+        {
+            "label": "v6tDFBA",
+            "value": "CURRENCYR_X14kzek"
+        },
+        {
+            "label": "xqGSWJ5",
+            "value": "CURRENCYR_6fcxeGN"
+        },
+        {
+            "label": "3U2MuAG",
+            "value": "CURRENCYR_4A5hJA0"
+        },
+        {
+            "label": "CsU11TL",
+            "value": "CURRENCYR_bCTN9zS"
+        },
+        {
+            "label": "gpMp7ZQ",
+            "value": "CURRENCYR_8hoD9Zp"
+        },
+        {
+            "label": "YXxzSi7",
+            "value": "CURRENCYR_vtUfSG4"
+        },
+        {
+            "label": "iGePTQr",
+            "value": "CURRENCYR_ooXEXpH"
+        },
+        {
+            "label": "pU4iOpE",
+            "value": "CURRENCYR_OxrYih5"
+        },
+        {
+            "label": "Tr6hsrK",
+            "value": "CURRENCYR_oIX0cOX"
+        },
+        {
+            "label": "WT8rH85",
+            "value": "CURRENCYR_8Uuncr6"
+        },
+        {
+            "label": "sf32W0Q",
+            "value": "CURRENCYR_KPraZsH"
+        },
+        {
+            "label": "FE2DHzH",
+            "value": "CURRENCYR_x1e4t3M"
+        },
+        {
+            "label": "McNiH5H",
+            "value": "CURRENCYR_bmX9scn"
+        },
+        {
+            "label": "YDYesyJ",
+            "value": "CURRENCYR_MAcpyk2"
+        },
+        {
+            "label": "MhVLfDF",
+            "value": "CURRENCYR_DSVZGky"
+        },
+        {
+            "label": "8AtHvSU",
+            "value": "CURRENCYR_aRIU1bc"
+        },
+        {
+            "label": "kgGKP27",
+            "value": "CURRENCYR_6oTh4SA"
+        },
+        {
+            "label": "VhBJfQJ",
+            "value": "CURRENCYR_IF4Zijm"
+        },
+        {
+            "label": "L1micA2",
+            "value": "CURRENCYR_8PBQy7q"
+        },
+        {
+            "label": "0gGfY2a",
+            "value": "CURRENCYR_jnmzAq3"
+        },
+        {
+            "label": "T9ENMFl",
+            "value": "CURRENCYR_PV4Cfhs"
+        },
+        {
+            "label": "AgqI1zf",
+            "value": "CURRENCYR_bq1juDp"
+        },
+        {
+            "label": "KVToOM9",
+            "value": "CURRENCYR_m8tVD0y"
+        },
+        {
+            "label": "KKVdtac",
+            "value": "CURRENCYR_E1InRaM"
+        },
+        {
+            "label": "K0X2IJo",
+            "value": "CURRENCYR_oQsirJY"
+        },
+        {
+            "label": "xgNAZEn",
+            "value": "CURRENCYR_2zO7mjZ"
+        },
+        {
+            "label": "VqMDY95",
+            "value": "CURRENCYR_t6BkL6t"
+        },
+        {
+            "label": "hoKyxnH",
+            "value": "CURRENCYR_Fj2BGpH"
+        },
+        {
+            "label": "Tdha3En",
+            "value": "CURRENCYR_2KEKtEJ"
+        },
+        {
+            "label": "a9RsRCp",
+            "value": "CURRENCYR_1UpBQR9"
+        },
+        {
+            "label": "eJ0GnLo",
+            "value": "CURRENCYR_ZLpqxhr"
+        },
+        {
+            "label": "q0pks5C",
+            "value": "CURRENCYR_BTI6egj"
+        },
+        {
+            "label": "5ejKPEa",
+            "value": "CURRENCYR_ZG2xy0S"
+        },
+        {
+            "label": "t07GcOy",
+            "value": "CURRENCYR_3pk4tW7"
+        },
+        {
+            "label": "KJc0J82",
+            "value": "CURRENCYR_hJPNQCV"
+        },
+        {
+            "label": "dqyMgye",
+            "value": "CURRENCYR_m9m1u2N"
+        },
+        {
+            "label": "Eeu9GgM",
+            "value": "CURRENCYR_VIKXhtl"
+        },
+        {
+            "label": "hv092o4",
+            "value": "CURRENCYR_oApaWyR"
+        },
+        {
+            "label": "tqTlCxK",
+            "value": "CURRENCYR_L3qD2QR"
+        },
+        {
+            "label": "jRkXRTF",
+            "value": "CURRENCYR_1KTjuQk"
+        },
+        {
+            "value": "MSG"
+        },
+        {
+            "label": "Y21WJOq",
+            "value": "CURRENCYR_iuRyTOc"
+        },
+        {
+            "label": "yALRWmz",
+            "value": "CURRENCYR_laKJf0v"
+        },
+        {
+            "label": "xrIdiDB",
+            "value": "CURRENCYR_jErjrtd"
+        },
+        {
+            "label": "cHir7Fv",
+            "value": "CURRENCYR_T83Vkie"
+        },
+        {
+            "label": "1L6DG7W",
+            "value": "CURRENCYR_HlahrYU"
+        },
+        {
+            "label": "OeYcqPf",
+            "value": "CURRENCYR_Kcu1zEN"
+        },
+        {
+            "label": "UjxjpHy",
+            "value": "CURRENCYR_Z31SKEc"
+        },
+        {
+            "label": "16xYuvu",
+            "value": "CURRENCYR_HbDHfsp"
+        },
+        {
+            "label": "XB0fE9l",
+            "value": "CURRENCYR_B9Iar5Y"
+        },
+        {
+            "label": "XycFPsN",
+            "value": "CURRENCYR_a98Fpgb"
+        },
+        {
+            "label": "Cbb2OYB",
+            "value": "CURRENCYR_POgbkW2"
+        },
+        {
+            "label": "ZtLIsbz",
+            "value": "CURRENCYR_BgI3ZT2"
+        },
+        {
+            "label": "oc7KFFp",
+            "value": "CURRENCYR_BxION6T"
+        },
+        {
+            "label": "Ssan9ku",
+            "value": "CURRENCYR_AUKnCLS"
+        },
+        {
+            "label": "Qolq5nL",
+            "value": "CURRENCYR_M0gcuQ2"
+        },
+        {
+            "label": "Uut4muK",
+            "value": "CURRENCYR_B4lMmxY"
+        },
+        {
+            "label": "2KsHcjb",
+            "value": "CURRENCYR_3pjm0Iv"
+        },
+        {
+            "label": "77KXzhV",
+            "value": "CURRENCYR_ZimppKB"
+        },
+        {
+            "label": "oEQSbNR",
+            "value": "CURRENCYR_7fqkeJ2"
+        },
+        {
+            "label": "ufWDCKI",
+            "value": "CURRENCYR_zBLlF6X"
+        },
+        {
+            "label": "c3BG29f",
+            "value": "CURRENCYR_JGv1cOD"
+        },
+        {
+            "label": "lrtlK69",
+            "value": "CURRENCYR_PvTEvcX"
+        },
+        {
+            "label": "8KeUOiT",
+            "value": "CURRENCYR_e1c3FBT"
+        },
+        {
+            "label": "5Oor9RG",
+            "value": "CURRENCYR_nFhSSAg"
+        },
+        {
+            "label": "1a69EHA",
+            "value": "CURRENCYR_7gZ9OSk"
+        },
+        {
+            "label": "eD1LqQr",
+            "value": "CURRENCYR_RBS2MBH"
+        },
+        {
+            "label": "fbMDALb",
+            "value": "CURRENCYR_sgFu3tM"
+        },
+        {
+            "label": "9gnSCSr",
+            "value": "CURRENCYR_4ORkicM"
+        },
+        {
+            "label": "bqzUfue",
+            "value": "CURRENCYR_HjBZeBu"
+        },
+        {
+            "label": "6hT5WO1",
+            "value": "CURRENCYR_B12tHYZ"
+        },
+        {
+            "label": "IHp3qPn",
+            "value": "CURRENCYR_PKrvT8F"
+        },
+        {
+            "label": "aD5kmq0",
+            "value": "CURRENCYR_fOEsqEd"
+        },
+        {
+            "label": "9lZACUc",
+            "value": "CURRENCYR_VUAvYye"
+        },
+        {
+            "label": "6rT7SlI",
+            "value": "CURRENCYR_6mKmlLb"
+        },
+        {
+            "label": "VeTW04K",
+            "value": "CURRENCYR_i3m4F8s"
+        },
+        {
+            "label": "5I8YApZ",
+            "value": "CURRENCYR_mUqggMq"
+        },
+        {
+            "label": "97SxQqk",
+            "value": "CURRENCYR_7teA1l1"
+        },
+        {
+            "label": "XpSVK9D",
+            "value": "CURRENCYR_K6bUd1a"
+        },
+        {
+            "label": "jqnBVzW",
+            "value": "CURRENCYR_gVx31JC"
+        },
+        {
+            "label": "5NPUG2H",
+            "value": "CURRENCYR_3npCkhz"
+        },
+        {
+            "label": "eZHj5Jy",
+            "value": "CURRENCYR_eXteVhZ"
+        },
+        {
+            "label": "Khynssr",
+            "value": "CURRENCYR_LsB66tD"
+        },
+        {
+            "label": "hnAS7CW",
+            "value": "CURRENCYR_RJeIr2z"
+        },
+        {
+            "label": "yB5t4fu",
+            "value": "CURRENCYR_bxuOH4A"
+        },
+        {
+            "label": "fleFL0d",
+            "value": "CURRENCYR_rxaquqF"
+        },
+        {
+            "label": "L4zHmpz",
+            "value": "CURRENCYR_u0zmsuM"
+        },
+        {
+            "label": "AKjOl65",
+            "value": "CURRENCYR_QDncLyy"
+        },
+        {
+            "label": "e3Z4yTE",
+            "value": "CURRENCYR_OAFpGG6"
+        },
+        {
+            "label": "VlD7Jya",
+            "value": "CURRENCYR_J5xn2aL"
+        },
+        {
+            "label": "5LRB08r",
+            "value": "CURRENCYR_7Hzv3uW"
+        },
+        {
+            "label": "5vp7ZC8",
+            "value": "CURRENCYR_sCv2Agc"
+        },
+        {
+            "label": "Y3BybYz",
+            "value": "CURRENCYR_voMPcnD"
+        },
+        {
+            "label": "7WpMyuU",
+            "value": "CURRENCYR_a9cV1qd"
+        },
+        {
+            "label": "y5t76bh",
+            "value": "CURRENCYR_LipKB2n"
+        },
+        {
+            "label": "YK8Jmii",
+            "value": "CURRENCYR_A7ZoKml"
+        },
+        {
+            "label": "9QHknOC",
+            "value": "CURRENCYR_Z5d0x6K"
+        },
+        {
+            "label": "VtYpcWx",
+            "value": "CURRENCYR_stCUXPk"
+        },
+        {
+            "label": "HMptKTy",
+            "value": "CURRENCYR_jVp8OG6"
+        },
+        {
+            "label": "JBKxMz1",
+            "value": "CURRENCYR_a86sc66"
+        },
+        {
+            "label": "FxKvJ3M",
+            "value": "CURRENCYR_ObtlVsh"
+        },
+        {
+            "label": "1Mxh2SX",
+            "value": "CURRENCYR_Lhmmx08"
+        },
+        {
+            "label": "PWMSqA3",
+            "value": "CURRENCYR_1ZZgpMB"
+        },
+        {
+            "label": "01Sd5ak",
+            "value": "CURRENCYR_SYjylq7"
+        },
+        {
+            "label": "xZ8igCW",
+            "value": "CURRENCYR_okMudLq"
+        },
+        {
+            "label": "Z10vOLL",
+            "value": "CURRENCYR_TLOakqh"
+        },
+        {
+            "label": "Ngjo7GL",
+            "value": "CURRENCYR_nToa5xW"
+        },
+        {
+            "label": "SInxX3B",
+            "value": "CURRENCYR_ioYA0Bq"
+        },
+        {
+            "label": "FW7r3TH",
+            "value": "CURRENCYR_QBRihAN"
+        },
+        {
+            "label": "lZ3mvFF",
+            "value": "CURRENCYR_hpcdN5z"
+        },
+        {
+            "label": "pv9kGIm",
+            "value": "CURRENCYR_pR2ezR7"
+        },
+        {
+            "label": "0RbZVkM",
+            "value": "CURRENCYR_liMJKuW"
+        },
+        {
+            "label": "UQKla2S",
+            "value": "CURRENCYR_ZWS1oDs"
+        },
+        {
+            "label": "YcOoBFs",
+            "value": "CURRENCYR_hrm1uZu"
+        },
+        {
+            "label": "NZHbbxm",
+            "value": "CURRENCYR_ZTq3qbn"
+        },
+        {
+            "label": "2ESd6CH",
+            "value": "CURRENCYR_pvgN6nQ"
+        },
+        {
+            "label": "opSoPJr",
+            "value": "CURRENCYR_pXR3vN7"
+        },
+        {
+            "label": "g4YnQKg",
+            "value": "CURRENCYR_aVkF9i4"
+        },
+        {
+            "label": "a2W8G5z",
+            "value": "CURRENCYR_XfQ7WoO"
+        },
+        {
+            "label": "4RRsuei",
+            "value": "CURRENCYR_H5d0T1u"
+        },
+        {
+            "label": "Iqie7T9",
+            "value": "CURRENCYR_0C8UGTc"
+        },
+        {
+            "label": "p8QdErS",
+            "value": "CURRENCYR_W9CthRV"
+        },
+        {
+            "label": "zRvYPVD",
+            "value": "CURRENCYR_caGf5Xk"
+        },
+        {
+            "label": "ujIPz1C",
+            "value": "CURRENCYR_kJGoopZ"
+        },
+        {
+            "label": "FgXxVGL",
+            "value": "CURRENCYR_hXnNhER"
+        },
+        {
+            "label": "4UNR5ui",
+            "value": "CURRENCYR_6yBjej9"
+        },
+        {
+            "label": "FcztlXQ",
+            "value": "CURRENCYR_zG3VPfB"
+        },
+        {
+            "label": "JcVC47s",
+            "value": "CURRENCYR_GO0IpXB"
+        },
+        {
+            "label": "ONTEYlV",
+            "value": "CURRENCYR_5hbMdtr"
+        },
+        {
+            "label": "W5IORaE",
+            "value": "CURRENCYR_IPFtc4d"
+        },
+        {
+            "label": "dHdes84",
+            "value": "CURRENCYR_Cran68M"
+        },
+        {
+            "label": "WWO88dX",
+            "value": "CURRENCYR_39tFnz1"
+        },
+        {
+            "label": "Ia7xMfE",
+            "value": "CURRENCYR_FNPzJgp"
+        },
+        {
+            "label": "mtJnWfy",
+            "value": "CURRENCYR_NDqzvWf"
+        },
+        {
+            "label": "OzSV2Ty",
+            "value": "CURRENCYR_4Zm2Ym3"
+        },
+        {
+            "label": "HgKMVTR",
+            "value": "CURRENCYR_RR6cNmE"
+        },
+        {
+            "label": "9LIZiIh",
+            "value": "CURRENCYR_yJ2q8Aj"
+        },
+        {
+            "label": "IOh7xjt",
+            "value": "CURRENCYR_3cLhprE"
+        },
+        {
+            "label": "Zx8hcrQ",
+            "value": "CURRENCYR_UyxQFbD"
+        },
+        {
+            "label": "gqrtfYC",
+            "value": "CURRENCYR_V2YGCQv"
+        },
+        {
+            "label": "qP2QOz5",
+            "value": "CURRENCYR_lULXeY3"
+        },
+        {
+            "label": "bqcA95k",
+            "value": "CURRENCYR_g0igm7v"
+        },
+        {
+            "label": "HbU29AQ",
+            "value": "CURRENCYR_m1MWyx4"
+        },
+        {
+            "label": "usOHHeq",
+            "value": "CURRENCYR_TGZ4zsR"
+        },
+        {
+            "label": "R6c1XAb",
+            "value": "CURRENCYR_dkGYiL9"
+        },
+        {
+            "label": "15oWExe",
+            "value": "CURRENCYR_D1XTWES"
+        },
+        {
+            "label": "oYzJoxP",
+            "value": "CURRENCYR_mCtqdjT"
+        },
+        {
+            "label": "trr3RLX",
+            "value": "CURRENCYR_2OaRsmt"
+        },
+        {
+            "label": "lO28u6E",
+            "value": "CURRENCYR_Z2Uodi0"
+        },
+        {
+            "label": "ykDS0H6",
+            "value": "CURRENCYR_xNHhm76"
+        },
+        {
+            "label": "MykIV1W",
+            "value": "CURRENCYR_8KV8U68"
+        },
+        {
+            "label": "TKWd6Bi",
+            "value": "CURRENCYR_aOC5672"
+        },
+        {
+            "label": "vdfV02r",
+            "value": "CURRENCYR_jXRIAP6"
+        },
+        {
+            "label": "WHuv0j7",
+            "value": "CURRENCYR_im5nocp"
+        },
+        {
+            "label": "m3oDN8n",
+            "value": "CURRENCYR_HvSzyK7"
+        },
+        {
+            "label": "K6gkLy5",
+            "value": "CURRENCYR_J6XCqp9"
+        },
+        {
+            "label": "laBqhh6",
+            "value": "CURRENCYR_asQRxyP"
+        },
+        {
+            "label": "kEEjxfB",
+            "value": "CURRENCYR_zVWyqvN"
+        },
+        {
+            "label": "s6kBWm9",
+            "value": "CURRENCYR_OY8ej3b"
+        },
+        {
+            "label": "yIHWVu7",
+            "value": "CURRENCYR_v2jbyvK"
+        },
+        {
+            "label": "8Gjeqq1",
+            "value": "CURRENCYR_xVDbzuv"
+        },
+        {
+            "label": "CPK6DyQ",
+            "value": "CURRENCYR_uLxYBm8"
+        },
+        {
+            "label": "uh3vWjC",
+            "value": "CURRENCYR_0ShjNd2"
+        },
+        {
+            "label": "6gAaW2J",
+            "value": "CURRENCYR_BAfyhMn"
+        },
+        {
+            "label": "s001lXM",
+            "value": "CURRENCYR_B0xhFj5"
+        },
+        {
+            "label": "iWr6L7a",
+            "value": "CURRENCYR_rnYmH0L"
+        },
+        {
+            "label": "N2HJ2TJ",
+            "value": "CURRENCYR_FUVdOkW"
+        },
+        {
+            "label": "AXLouee",
+            "value": "CURRENCYR_qKhHF4I"
+        },
+        {
+            "label": "GMvgxbR",
+            "value": "CURRENCYR_PP04eka"
+        },
+        {
+            "label": "Vte1hJH",
+            "value": "CURRENCYR_xXHGWuU"
+        },
+        {
+            "label": "zvbk4mV",
+            "value": "CURRENCYR_BILW2pf"
+        },
+        {
+            "label": "Qy7K5Xl",
+            "value": "CURRENCYR_40WUN3r"
+        },
+        {
+            "label": "GbFHSfQ",
+            "value": "CURRENCYR_YUcBrTm"
+        },
+        {
+            "label": "2Nhl7ZA",
+            "value": "CURRENCYR_ymD9GS6"
+        },
+        {
+            "label": "cZL9YeT",
+            "value": "CURRENCYR_Es5y3zg"
+        },
+        {
+            "label": "4cvfqtH",
+            "value": "CURRENCYR_uY3ES6S"
+        },
+        {
+            "label": "O7fOHBz",
+            "value": "CURRENCYR_IBGai9U"
+        },
+        {
+            "label": "y4VbBWO",
+            "value": "CURRENCYR_BbBv6sN"
+        },
+        {
+            "label": "lnVnppB",
+            "value": "CURRENCYR_R3dzI7J"
+        },
+        {
+            "label": "lJZOsl0",
+            "value": "CURRENCYR_npQQ3EU"
+        },
+        {
+            "label": "3uiES84",
+            "value": "CURRENCYR_nitl5YI"
+        },
+        {
+            "label": "sQSOdSZ",
+            "value": "CURRENCYR_aiSP9yO"
+        },
+        {
+            "label": "m4ssSK1",
+            "value": "CURRENCYR_mU06fyH"
+        },
+        {
+            "label": "1dbVqgs",
+            "value": "CURRENCYR_LKJdegs"
+        },
+        {
+            "label": "KsdLhiB",
+            "value": "CURRENCYR_bQvRMLL"
+        },
+        {
+            "label": "eBotHPq",
+            "value": "CURRENCYR_T3j5S8t"
+        },
+        {
+            "label": "VRej3RH",
+            "value": "CURRENCYR_LNZtFQT"
+        },
+        {
+            "label": "h41gqmk",
+            "value": "CURRENCYR_xUVxFWP"
+        },
+        {
+            "label": "dD7eIKO",
+            "value": "CURRENCYR_oYkIDtQ"
+        },
+        {
+            "label": "DZGLpSF",
+            "value": "CURRENCYR_2rtEvq9"
+        },
+        {
+            "label": "iHATS1A",
+            "value": "CURRENCYR_RXZmJzP"
+        },
+        {
+            "label": "qlKZvlG",
+            "value": "CURRENCYR_K5v2jTH"
+        },
+        {
+            "label": "TEUrMNX",
+            "value": "CURRENCYR_XcbMQY9"
+        },
+        {
+            "label": "Vnf83u4",
+            "value": "CURRENCYR_TER88tr"
+        },
+        {
+            "label": "a1zNKsQ",
+            "value": "CURRENCYR_OpVOjRb"
+        },
+        {
+            "label": "auBKThj",
+            "value": "CURRENCYR_POTvzH0"
+        },
+        {
+            "label": "4bQ8jKj",
+            "value": "CURRENCYR_tKLYC12"
+        },
+        {
+            "label": "hZOos2F",
+            "value": "CURRENCYR_kbbCEud"
+        },
+        {
+            "label": "m2PIckR",
+            "value": "CURRENCYR_K8ODijq"
+        },
+        {
+            "label": "hJCyksb",
+            "value": "CURRENCYR_klXIDpn"
+        },
+        {
+            "label": "342jf2E",
+            "value": "CURRENCYR_UjWWEzX"
+        },
+        {
+            "label": "2AzNfrH",
+            "value": "CURRENCYR_Q67Gim1"
+        },
+        {
+            "label": "jyDu7gr",
+            "value": "CURRENCYR_tUjuma6"
+        },
+        {
+            "label": "HnIbNxj",
+            "value": "CURRENCYR_1hQ2JNd"
+        },
+        {
+            "label": "2I3T0AI",
+            "value": "CURRENCYR_Y7XyOfu"
+        },
+        {
+            "label": "WqzXHN4",
+            "value": "CURRENCYR_xDKxVo4"
+        },
+        {
+            "label": "vCOK4Fy",
+            "value": "CURRENCYR_VsAQOd3"
+        },
+        {
+            "label": "QMSINiE",
+            "value": "CURRENCYR_2pN1Lr6"
+        },
+        {
+            "label": "WansA2Y",
+            "value": "CURRENCYR_5HipcAc"
+        },
+        {
+            "label": "jPNWNun",
+            "value": "CURRENCYR_dP6oQ8f"
+        },
+        {
+            "label": "TyINTMA",
+            "value": "CURRENCYR_YdoY2t5"
+        },
+        {
+            "label": "pc9Fy0b",
+            "value": "CURRENCYR_yD2QbrG"
+        },
+        {
+            "label": "kU0NnUG",
+            "value": "CURRENCYR_Jx6uK0m"
+        },
+        {
+            "label": "omxXMMU",
+            "value": "CURRENCYR_9xAvARg"
+        },
+        {
+            "label": "a2DJMpB",
+            "value": "CURRENCYR_upkDxcq"
+        },
+        {
+            "label": "PQuWJY7",
+            "value": "CURRENCYR_A4MgcVt"
+        },
+        {
+            "label": "36Hee2z",
+            "value": "CURRENCYR_1iSh1yK"
+        },
+        {
+            "label": "25bsbni",
+            "value": "CURRENCYR_BloJChg"
+        },
+        {
+            "label": "8E4KAVu",
+            "value": "CURRENCYR_imOe2q0"
+        },
+        {
+            "label": "arG4CnZ",
+            "value": "CURRENCYR_Hzv2xmY"
+        },
+        {
+            "label": "DIOKRMo",
+            "value": "CURRENCYR_dhrDT2L"
+        },
+        {
+            "label": "YsFlsv5",
+            "value": "CURRENCYR_G38Is64"
+        },
+        {
+            "label": "5VSaWB0",
+            "value": "CURRENCYR_VyUaNzO"
+        },
+        {
+            "label": "X4UqoqE",
+            "value": "CURRENCYR_FmkEsv7"
+        },
+        {
+            "label": "VjSWRQl",
+            "value": "CURRENCYR_xjLLFjY"
+        },
+        {
+            "label": "Cc1kVnG",
+            "value": "CURRENCYR_XB4vdG1"
+        },
+        {
+            "label": "PsPYBrq",
+            "value": "CURRENCYR_bucOEML"
+        },
+        {
+            "label": "QD6xd91",
+            "value": "CURRENCYR_5osYCZ5"
+        },
+        {
+            "label": "OOc4VJG",
+            "value": "CURRENCYR_MWzTQ0f"
+        },
+        {
+            "label": "42JZ8oj",
+            "value": "CURRENCYR_WuepNcj"
+        },
+        {
+            "label": "fj2M9aC",
+            "value": "CURRENCYR_sZkLU2e"
+        },
+        {
+            "label": "vBeRQUC",
+            "value": "CURRENCYR_KVQiIO8"
+        },
+        {
+            "label": "pjkpHlT",
+            "value": "CURRENCYR_YnLmFjX"
+        },
+        {
+            "label": "3PGh8IE",
+            "value": "CURRENCYR_dqRtQeG"
+        },
+        {
+            "label": "Oaollz6",
+            "value": "CURRENCYR_5skC7Za"
+        },
+        {
+            "label": "NRCoCUL",
+            "value": "CURRENCYR_dzzxFCh"
+        },
+        {
+            "label": "8qZs0r3",
+            "value": "CURRENCYR_0QHHsOx"
+        },
+        {
+            "label": "cA4rjbk",
+            "value": "CURRENCYR_Jsf58my"
+        },
+        {
+            "label": "NWfyzUl",
+            "value": "CURRENCYR_GMgHtXv"
+        },
+        {
+            "label": "UyjTQd4",
+            "value": "CURRENCYR_QBIiDcZ"
+        },
+        {
+            "label": "psu5MqI",
+            "value": "CURRENCYR_pxZGjJF"
+        },
+        {
+            "label": "KaEC27g",
+            "value": "CURRENCYR_X1BFoDE"
+        },
+        {
+            "label": "fEeu916",
+            "value": "CURRENCYR_GoJvbbO"
+        },
+        {
+            "label": "aEthhRM",
+            "value": "CURRENCYR_fhjcZ9S"
+        },
+        {
+            "label": "UH09kye",
+            "value": "CURRENCYR_tubXv4g"
+        },
+        {
+            "label": "D0ojRcN",
+            "value": "CURRENCYR_UWxsDHX"
+        },
+        {
+            "label": "WqQ33Tz",
+            "value": "CURRENCYR_1rmUxHd"
+        },
+        {
+            "label": "V3us37D",
+            "value": "CURRENCYR_39kgy5C"
+        },
+        {
+            "label": "99W0Vta",
+            "value": "CURRENCYR_rUhSLvZ"
+        },
+        {
+            "label": "MxzTTJi",
+            "value": "CURRENCYR_MF8pGWl"
+        },
+        {
+            "label": "U8on6Ea",
+            "value": "CURRENCYR_tRj6vks"
+        },
+        {
+            "label": "H1hjtN9",
+            "value": "CURRENCYR_znxFOq7"
+        },
+        {
+            "label": "CFYWrYj",
+            "value": "CURRENCYR_ICXQEp9"
+        },
+        {
+            "label": "JDrkxja",
+            "value": "CURRENCYR_PiofAZ2"
+        },
+        {
+            "label": "3KsF9gG",
+            "value": "CURRENCYR_GoVZtQX"
+        },
+        {
+            "label": "KljGEBr",
+            "value": "CURRENCYR_j27Si7c"
+        },
+        {
+            "label": "Zr9gHJ1",
+            "value": "CURRENCYR_FKDvEJB"
+        },
+        {
+            "label": "hFRa9rp",
+            "value": "CURRENCYR_BW4j601"
+        },
+        {
+            "label": "Qui9Kpf",
+            "value": "CURRENCYR_RtBqbVZ"
+        },
+        {
+            "label": "xFbFnZN",
+            "value": "CURRENCYR_cVEZUII"
+        },
+        {
+            "label": "XCWUsT7",
+            "value": "CURRENCYR_3GnIbFO"
+        },
+        {
+            "label": "47GdSQc",
+            "value": "CURRENCYR_YuSWHLa"
+        },
+        {
+            "label": "9K9hB6i",
+            "value": "CURRENCYR_4siO1in"
+        },
+        {
+            "label": "6Gfbou9",
+            "value": "CURRENCYR_BQTAjSq"
+        },
+        {
+            "label": "Mfghx89",
+            "value": "CURRENCYR_nyvji9L"
+        },
+        {
+            "label": "tnuuqWO",
+            "value": "CURRENCYR_jCWz5cV"
+        },
+        {
+            "label": "dOUgnsO",
+            "value": "CURRENCYR_4zOk9af"
+        },
+        {
+            "label": "vgPPKi2",
+            "value": "CURRENCYR_MrWosDp"
+        },
+        {
+            "label": "j4pNj3l",
+            "value": "CURRENCYR_MHinoh8"
+        },
+        {
+            "label": "An4FQSy",
+            "value": "CURRENCYR_IHTWF5B"
+        },
+        {
+            "label": "mmTscN6",
+            "value": "CURRENCYR_Qv1d6Pf"
+        },
+        {
+            "label": "LvRgtiT",
+            "value": "CURRENCYR_SajCfJA"
+        },
+        {
+            "label": "vmaDiW3",
+            "value": "CURRENCYR_ZAXNokk"
+        },
+        {
+            "label": "GVWg42W",
+            "value": "CURRENCYR_8bKZzDU"
+        },
+        {
+            "label": "XZNr3j4",
+            "value": "CURRENCYR_1mjP6uC"
+        },
+        {
+            "label": "3GpLG0f",
+            "value": "CURRENCYR_zFeUTMQ"
+        },
+        {
+            "label": "6Wa9b5A",
+            "value": "CURRENCYR_jLErtS8"
+        },
+        {
+            "label": "Gs9ys8n",
+            "value": "CURRENCYR_O36WfCQ"
+        },
+        {
+            "label": "rogvGlm",
+            "value": "CURRENCYR_fpvGdgN"
+        },
+        {
+            "label": "1jUNctC",
+            "value": "CURRENCYR_M5xQHqh"
+        },
+        {
+            "label": "QdjYUtu",
+            "value": "CURRENCYR_biAm0OS"
+        },
+        {
+            "label": "HW5Gdh9",
+            "value": "CURRENCYR_igA47VC"
+        },
+        {
+            "label": "098tC5p",
+            "value": "CURRENCYR_YrBT7R2"
+        },
+        {
+            "label": "l8DJUAL",
+            "value": "CURRENCYR_mtSu4lf"
+        },
+        {
+            "label": "RNENlbr",
+            "value": "CURRENCYR_oaCcDnJ"
+        },
+        {
+            "label": "4ckOmaS",
+            "value": "CURRENCYR_80mAP7J"
+        },
+        {
+            "label": "sck8m4l",
+            "value": "CURRENCYR_vIjLs45"
+        },
+        {
+            "label": "Ya3hvQE",
+            "value": "CURRENCYR_B4z7bi4"
+        },
+        {
+            "label": "Izrngdx",
+            "value": "CURRENCYR_cbK4U0X"
+        },
+        {
+            "label": "Aog0R1M",
+            "value": "CURRENCYR_fEogVDQ"
+        },
+        {
+            "label": "EAEHW4L",
+            "value": "CURRENCYR_GG1cOsS"
+        },
+        {
+            "label": "y7U4oiK",
+            "value": "CURRENCYR_BSJxTq7"
+        },
+        {
+            "label": "NXuHjNP",
+            "value": "CURRENCYR_WBUxqQC"
+        },
+        {
+            "label": "EsRSSd8",
+            "value": "CURRENCYR_tuduQue"
+        },
+        {
+            "label": "JsvJmv2",
+            "value": "CURRENCYR_yUmnbAA"
+        },
+        {
+            "label": "hYFGhg3",
+            "value": "CURRENCYR_ixrEhFo"
+        },
+        {
+            "label": "oXoey8I",
+            "value": "CURRENCYR_l9LLqt0"
+        },
+        {
+            "label": "6jJeKop",
+            "value": "CURRENCYR_nFYjTmH"
+        },
+        {
+            "label": "2W2ecFW",
+            "value": "CURRENCYR_V92JOQt"
+        },
+        {
+            "label": "7LadvbG",
+            "value": "CURRENCYR_XqHZ5o0"
+        },
+        {
+            "label": "3d243ai",
+            "value": "CURRENCYR_x5PjsQS"
+        },
+        {
+            "label": "hrUNSLm",
+            "value": "CURRENCYR_I5JAXXl"
+        },
+        {
+            "label": "QhMsS0L",
+            "value": "CURRENCYR_S12zZXn"
+        },
+        {
+            "label": "UFSeugx",
+            "value": "CURRENCYR_G8GA9Q1"
+        },
+        {
+            "label": "EM1qm8j",
+            "value": "V_004"
+        },
+        {
+            "label": "kuUt7dj",
+            "value": "CURRENCYR_FMFeNuW"
+        },
+        {
+            "label": "4UV3IFr",
+            "value": "CURRENCYR_gUyomfq"
+        },
+        {
+            "label": "NlMFG04",
+            "value": "CURRENCYR_GBk15Yf"
+        },
+        {
+            "label": "ZeRQCs6",
+            "value": "CURRENCYR_G365f0a"
+        },
+        {
+            "label": "YaG7XPI",
+            "value": "CURRENCYR_nA43dpN"
+        },
+        {
+            "label": "jplP0xs",
+            "value": "CURRENCYR_sy2gohs"
+        },
+        {
+            "label": "JMUC4Mi",
+            "value": "CURRENCYR_fjIWQCH"
+        },
+        {
+            "label": "gnD1YUj",
+            "value": "CURRENCYR_t1yL4Tj"
+        },
+        {
+            "label": "OtK42Pv",
+            "value": "CURRENCYR_Jj0hqd3"
+        },
+        {
+            "label": "A0zfWDv",
+            "value": "CURRENCYR_NpQs4te"
+        },
+        {
+            "label": "PZdaVZS",
+            "value": "CURRENCYR_ht6Ka71"
+        },
+        {
+            "label": "7279Si8",
+            "value": "CURRENCYR_szstio2"
+        },
+        {
+            "label": "pIbnY5l",
+            "value": "CURRENCYR_0dDQ9vp"
+        },
+        {
+            "label": "Vmf1Bqh",
+            "value": "CURRENCYR_BDMkVi1"
+        },
+        {
+            "label": "40HNEIm",
+            "value": "CURRENCYR_zS6vUeG"
+        },
+        {
+            "label": "bAr20xI",
+            "value": "CURRENCYR_EQhpl6l"
+        },
+        {
+            "label": "cyfiOlJ",
+            "value": "CURRENCYR_PpK3MTv"
+        },
+        {
+            "label": "4He3KH8",
+            "value": "CURRENCYR_x4S03iF"
+        },
+        {
+            "label": "UpxCH4W",
+            "value": "CURRENCYR_1c3Wmux"
+        },
+        {
+            "label": "4UuGViv",
+            "value": "CURRENCYR_WJz8vB7"
+        },
+        {
+            "label": "u2jT88B",
+            "value": "CURRENCYR_22pZ1tx"
+        },
+        {
+            "label": "KgbhOQy",
+            "value": "CURRENCYR_p2m8iQB"
+        },
+        {
+            "label": "xvFCNq0",
+            "value": "CURRENCYR_S7XzQxQ"
+        },
+        {
+            "label": "p8jsxnu",
+            "value": "CURRENCYR_689rrhR"
+        },
+        {
+            "label": "x40XAk0",
+            "value": "CURRENCYR_JmRW2pH"
+        },
+        {
+            "label": "uSvtxXg",
+            "value": "CURRENCYR_2POtHVP"
+        },
+        {
+            "label": "7ACZhXS",
+            "value": "CURRENCYR_RdfiMH5"
+        },
+        {
+            "label": "cb4zrNx",
+            "value": "CURRENCYR_ObK6rJi"
+        },
+        {
+            "label": "W5PmkC9",
+            "value": "CURRENCYR_a9YdzQ4"
+        },
+        {
+            "label": "SlDhYVo",
+            "value": "CURRENCYR_pzFuybN"
+        },
+        {
+            "label": "Czt9D4k",
+            "value": "CURRENCYR_pnDMPMT"
+        },
+        {
+            "label": "18lJQ3x",
+            "value": "CURRENCYR_P5r9r86"
+        },
+        {
+            "label": "OLcgDs5",
+            "value": "CURRENCYR_QShMgWh"
+        },
+        {
+            "label": "iUjVQTN",
+            "value": "CURRENCYR_mRRuV6u"
+        },
+        {
+            "label": "B0MJD7N",
+            "value": "CURRENCYR_8pl46rW"
+        },
+        {
+            "label": "DNVexar",
+            "value": "CURRENCYR_b4oy3Eh"
+        },
+        {
+            "label": "BnQQcG5",
+            "value": "CURRENCYR_COvlnX9"
+        },
+        {
+            "label": "oqS61hl",
+            "value": "CURRENCYR_UsbmNOj"
+        },
+        {
+            "label": "DhpbGfO",
+            "value": "CURRENCYR_KoHHs0N"
+        },
+        {
+            "label": "G4n0K92",
+            "value": "CURRENCYR_vpJXIj6"
+        },
+        {
+            "label": "DAB4kpC",
+            "value": "CURRENCYR_FNFQpPl"
+        },
+        {
+            "label": "nZ66Hca",
+            "value": "CURRENCYR_I9M5Azi"
+        },
+        {
+            "label": "IsziN1o",
+            "value": "CURRENCYR_CemBdYz"
+        },
+        {
+            "label": "IGMRqVx",
+            "value": "CURRENCYR_S2LYI5o"
+        },
+        {
+            "label": "jeHDOtj",
+            "value": "CURRENCYR_YrQ77ni"
+        },
+        {
+            "label": "z7yvFcQ",
+            "value": "CURRENCYR_CqC50gj"
+        },
+        {
+            "label": "kLAhaJk",
+            "value": "CURRENCYR_qvA3xz5"
+        },
+        {
+            "label": "Z9JbYqy",
+            "value": "CURRENCYR_86yAj0l"
+        },
+        {
+            "label": "QNfJokt",
+            "value": "CURRENCYR_kE7uzDt"
+        },
+        {
+            "label": "YfTQpKn",
+            "value": "CURRENCYR_b1VV8dB"
+        },
+        {
+            "label": "tu3A6ib",
+            "value": "CURRENCYR_E13bKs6"
+        },
+        {
+            "label": "e1qXF3B",
+            "value": "CURRENCYR_8m2COUq"
+        },
+        {
+            "label": "jmJBZSk",
+            "value": "CURRENCYR_vKqcKi5"
+        },
+        {
+            "label": "SJaQxEY",
+            "value": "CURRENCYR_qvPWKUb"
+        },
+        {
+            "label": "4UkEtMq",
+            "value": "CURRENCYR_yiziFaX"
+        },
+        {
+            "label": "BPy5S3n",
+            "value": "CURRENCYR_JLPGRXX"
+        },
+        {
+            "label": "Byb0FKd",
+            "value": "CURRENCYR_q92Gz4n"
+        },
+        {
+            "label": "2LSisdQ",
+            "value": "CURRENCYR_UbHxukY"
+        },
+        {
+            "label": "gA05a2f",
+            "value": "CURRENCYR_Pg1PZrN"
+        },
+        {
+            "label": "u8se36O",
+            "value": "CURRENCYR_irK43sQ"
+        },
+        {
+            "label": "DQ1ijne",
+            "value": "CURRENCYR_cmd5ELO"
+        },
+        {
+            "label": "fVpubbJ",
+            "value": "CURRENCYR_4xLRYns"
+        },
+        {
+            "label": "Or3oi1E",
+            "value": "CURRENCYR_Kk084Xe"
+        },
+        {
+            "label": "pXdr76x",
+            "value": "CURRENCYR_iFTIydm"
+        },
+        {
+            "label": "1Mr5hlF",
+            "value": "CURRENCYR_QnbqVOC"
+        },
+        {
+            "label": "PcBDMq4",
+            "value": "CURRENCYR_3B0T404"
+        },
+        {
+            "label": "Spljpsn",
+            "value": "CURRENCYR_mF6N6Bz"
+        },
+        {
+            "label": "8PYQqA4",
+            "value": "CURRENCYR_xmzpoJx"
+        },
+        {
+            "label": "FlZtibP",
+            "value": "CURRENCYR_rys0AzO"
+        },
+        {
+            "label": "cIdSJCe",
+            "value": "CURRENCYR_sjR2cBp"
+        },
+        {
+            "label": "Nj1XXDp",
+            "value": "CURRENCYR_WaK6xYa"
+        },
+        {
+            "label": "DpnmuQ5",
+            "value": "CURRENCYR_rBtCy6D"
+        },
+        {
+            "label": "ONXjr56",
+            "value": "CURRENCYR_AP2Al1n"
+        },
+        {
+            "label": "DfvIOBn",
+            "value": "CURRENCYR_KXy5oq5"
+        },
+        {
+            "label": "5gdCQSk",
+            "value": "CURRENCYR_z8XVIoh"
+        },
+        {
+            "label": "7XEAi7d",
+            "value": "CURRENCYR_CbnMPDZ"
+        },
+        {
+            "label": "jxi53g0",
+            "value": "CURRENCYR_n3Bd1ib"
+        },
+        {
+            "label": "DO6NmVK",
+            "value": "CURRENCYR_qEXmiV9"
+        },
+        {
+            "label": "PS47TIf",
+            "value": "CURRENCYR_YtJyVCA"
+        },
+        {
+            "label": "MfNbZ77",
+            "value": "CURRENCYR_duJIQqz"
+        },
+        {
+            "label": "KfUho09",
+            "value": "CURRENCYR_8SAlBdW"
+        },
+        {
+            "label": "UvXyvIL",
+            "value": "CURRENCYR_jjZ43Rq"
+        },
+        {
+            "label": "l7BHTF2",
+            "value": "CURRENCYR_SyR9XiH"
+        },
+        {
+            "label": "fraIHSv",
+            "value": "CURRENCYR_hPzZ6eu"
+        },
+        {
+            "label": "48mOj9J",
+            "value": "CURRENCYR_sYpMLun"
+        },
+        {
+            "label": "3s6M5Eq",
+            "value": "CURRENCYR_SKFfmQS"
+        },
+        {
+            "label": "m3XuyWk",
+            "value": "CURRENCYR_iI2F6Bd"
+        },
+        {
+            "label": "nRxbBGI",
+            "value": "CURRENCYR_5xCQFCP"
+        },
+        {
+            "label": "NHheuL3",
+            "value": "CURRENCYR_F98g7BG"
+        },
+        {
+            "label": "AHIUsfe",
+            "value": "CURRENCYR_6fsrH30"
+        },
+        {
+            "label": "GsRBpoQ",
+            "value": "CURRENCYR_NcTtltj"
+        },
+        {
+            "label": "BY24bjO",
+            "value": "CURRENCYR_9Txdvzm"
+        },
+        {
+            "label": "PqxJWja",
+            "value": "CURRENCYR_KlWc8xx"
+        },
+        {
+            "label": "8VnqkkK",
+            "value": "CURRENCYR_6caPZoI"
+        },
+        {
+            "label": "EYt9Z4l",
+            "value": "CURRENCYR_L9zBPKy"
+        },
+        {
+            "label": "7kgqFH6",
+            "value": "CURRENCYR_hUktnnh"
+        },
+        {
+            "label": "laKnIuf",
+            "value": "CURRENCYR_pKWZmAT"
+        },
+        {
+            "label": "Xj3OYW6",
+            "value": "CURRENCYR_zPuZ5TR"
+        },
+        {
+            "label": "kboS3gg",
+            "value": "CURRENCYR_OMxgxyD"
+        },
+        {
+            "label": "cdnI9eC",
+            "value": "CURRENCYR_ijMXnmn"
+        },
+        {
+            "label": "xdXqihm",
+            "value": "CURRENCYR_kCPebHn"
+        },
+        {
+            "label": "viqtPpv",
+            "value": "CURRENCYR_tIepD3x"
+        },
+        {
+            "label": "hUM9lbA",
+            "value": "CURRENCYR_6FoU47J"
+        },
+        {
+            "label": "bRmVSBN",
+            "value": "CURRENCYR_JZEHhfK"
+        },
+        {
+            "label": "y1dZLON",
+            "value": "CURRENCYR_WbMIQLD"
+        },
+        {
+            "label": "nbISVbW",
+            "value": "CURRENCYR_2qbRC3N"
+        },
+        {
+            "label": "DAz1dg0",
+            "value": "CURRENCYR_sJgIZtT"
+        },
+        {
+            "label": "DdboMK5",
+            "value": "CURRENCYR_u4ZmxH8"
+        },
+        {
+            "label": "ya8LZx1",
+            "value": "CURRENCYR_fELS7p7"
+        },
+        {
+            "label": "5MYN3r1",
+            "value": "CURRENCYR_MoGNRWi"
+        },
+        {
+            "label": "KBLhxiI",
+            "value": "CURRENCYR_eb36Jy0"
+        },
+        {
+            "label": "ZXgEXXl",
+            "value": "CURRENCYR_V28b2EP"
+        },
+        {
+            "label": "9bO3Ylu",
+            "value": "CURRENCYR_u7D2nkW"
+        },
+        {
+            "label": "FC1LEhR",
+            "value": "CURRENCYR_3pNX6Cu"
+        },
+        {
+            "label": "qYCcoKU",
+            "value": "CURRENCYR_FbB50mG"
+        },
+        {
+            "label": "mzQiWX6",
+            "value": "CURRENCYR_sysO8yF"
+        },
+        {
+            "label": "pctxSsX",
+            "value": "CURRENCYR_8CFaTCx"
+        },
+        {
+            "label": "RIEBqjn",
+            "value": "CURRENCYR_54YG9ly"
+        },
+        {
+            "label": "TL7gY55",
+            "value": "CURRENCYR_CgvCQeR"
+        },
+        {
+            "label": "c01EAbI",
+            "value": "CURRENCYR_kpN95fX"
+        },
+        {
+            "label": "CDYko08",
+            "value": "CURRENCYR_nIotbzr"
+        },
+        {
+            "label": "3G6fNxF",
+            "value": "CURRENCYR_4BeDepf"
+        },
+        {
+            "label": "WIykqJ2",
+            "value": "CURRENCYR_VjQNTMf"
+        },
+        {
+            "label": "ftteYy5",
+            "value": "CURRENCYR_Xl1FWlW"
+        },
+        {
+            "label": "tCbje2K",
+            "value": "CURRENCYR_aAG0t9R"
+        },
+        {
+            "label": "reHbdHk",
+            "value": "CURRENCYR_xij5Enf"
+        },
+        {
+            "label": "IDyCPyR",
+            "value": "CURRENCYR_iiRvroX"
+        },
+        {
+            "label": "5LqxJMU",
+            "value": "CURRENCYR_orovFGU"
+        },
+        {
+            "label": "Grrseba",
+            "value": "CURRENCYR_B4PRp7A"
+        },
+        {
+            "label": "jfpToSA",
+            "value": "CURRENCYR_vLE4qxn"
+        },
+        {
+            "label": "mf0p3RS",
+            "value": "CURRENCYR_XgqPLV2"
+        },
+        {
+            "label": "h2nRb9k",
+            "value": "CURRENCYR_YsGOoRz"
+        },
+        {
+            "label": "rLW8rN0",
+            "value": "V_002"
+        },
+        {
+            "label": "hBNDS9M",
+            "value": "CURRENCYR_UMounEU"
+        },
+        {
+            "label": "ykngDZO",
+            "value": "CURRENCYR_yu6zUu2"
+        },
+        {
+            "label": "F14txgL",
+            "value": "CURRENCYR_vpJNy5x"
+        },
+        {
+            "label": "mNIGUr0",
+            "value": "CURRENCYR_eVGHfyG"
+        },
+        {
+            "label": "KqcuyTI",
+            "value": "CURRENCYR_Q7ehNcM"
+        },
+        {
+            "label": "TrJqY49",
+            "value": "CURRENCYR_Y4yr9jL"
+        },
+        {
+            "label": "LJUWQ5r",
+            "value": "CURRENCYR_qHShfzp"
+        },
+        {
+            "label": "MhgXNet",
+            "value": "CURRENCYR_JreycPd"
+        },
+        {
+            "label": "sfLLe92",
+            "value": "CURRENCYR_tiX1kur"
+        },
+        {
+            "label": "db1J1oD",
+            "value": "CURRENCYR_1fIDBiy"
+        },
+        {
+            "label": "8egjloQ",
+            "value": "CURRENCYR_93dQ4nV"
+        },
+        {
+            "label": "19C0Xcr",
+            "value": "CURRENCYR_4mUkMUA"
+        },
+        {
+            "label": "RAQ74ci",
+            "value": "CURRENCYR_UQ3AHht"
+        },
+        {
+            "label": "A3gasi5",
+            "value": "CURRENCYR_jSfynsk"
+        },
+        {
+            "label": "46XHml5",
+            "value": "CURRENCYR_IW14iRG"
+        },
+        {
+            "label": "qN14UPN",
+            "value": "CURRENCYR_2FC8EWE"
+        },
+        {
+            "label": "x08zq3Y",
+            "value": "CURRENCYR_F0l5qqB"
+        },
+        {
+            "label": "K8uWy4D",
+            "value": "CURRENCYR_RqfpJ6K"
+        },
+        {
+            "label": "Fqra7pR",
+            "value": "CURRENCYR_cm1NbIj"
+        },
+        {
+            "label": "2ahjHmq",
+            "value": "CURRENCYR_nxBWEzm"
+        },
+        {
+            "label": "7Vr7WGS",
+            "value": "CURRENCYR_yOf7iM0"
+        },
+        {
+            "label": "61M881J",
+            "value": "CURRENCYR_z3ZsB1F"
+        },
+        {
+            "label": "FJtXmlb",
+            "value": "CURRENCYR_Y8BParK"
+        },
+        {
+            "label": "6xooN8C",
+            "value": "CURRENCYR_krFtpus"
+        },
+        {
+            "label": "ciJ7JrZ",
+            "value": "CURRENCYR_3WMVflA"
+        },
+        {
+            "label": "tALgVKX",
+            "value": "CURRENCYR_S9WCUBT"
+        },
+        {
+            "label": "bQfRhtp",
+            "value": "CURRENCYR_jN83d8N"
+        },
+        {
+            "label": "UGIgJNv",
+            "value": "CURRENCYR_yN3SiDI"
+        },
+        {
+            "label": "6oErZE8",
+            "value": "CURRENCYR_cihBVr9"
+        },
+        {
+            "label": "jsCre6t",
+            "value": "CURRENCYR_s0sx1tp"
+        },
+        {
+            "label": "eziHDEs",
+            "value": "CURRENCYR_3zZUthS"
+        },
+        {
+            "label": "AURpRm3",
+            "value": "CURRENCYR_HDiolGG"
+        },
+        {
+            "label": "4aX9vYm",
+            "value": "CURRENCYR_apFXJpe"
+        },
+        {
+            "label": "0rFbRXI",
+            "value": "CURRENCYR_i7cAa81"
+        },
+        {
+            "label": "Aot86vi",
+            "value": "CURRENCYR_VHJ3tm3"
+        },
+        {
+            "label": "ocCpL9d",
+            "value": "CURRENCYR_8xPniuA"
+        },
+        {
+            "label": "DDiQI31",
+            "value": "CURRENCYR_NakHZCB"
+        },
+        {
+            "label": "lCRqLhT",
+            "value": "CURRENCYR_phnxlqZ"
+        },
+        {
+            "label": "RzmVxah",
+            "value": "CURRENCYR_XSNQaKn"
+        },
+        {
+            "label": "inxZ4WJ",
+            "value": "CURRENCYR_LSOSKyr"
+        },
+        {
+            "label": "DNPyxDL",
+            "value": "CURRENCYR_9bXHraV"
+        },
+        {
+            "label": "8WLTMi9",
+            "value": "CURRENCYR_mBOOr9A"
+        },
+        {
+            "label": "y11aGLZ",
+            "value": "CURRENCYR_NmUCG2d"
+        },
+        {
+            "label": "qPfS2yB",
+            "value": "CURRENCYR_HS3REx2"
+        },
+        {
+            "label": "Q54Id71",
+            "value": "CURRENCYR_LDfuosQ"
+        },
+        {
+            "label": "gK5ttU2",
+            "value": "CURRENCYR_laJudnx"
+        },
+        {
+            "label": "I6VMjxr",
+            "value": "CURRENCYR_GZvD076"
+        },
+        {
+            "label": "yqUhQ0G",
+            "value": "CURRENCYR_FmDb6A0"
+        },
+        {
+            "label": "xkV2lFl",
+            "value": "CURRENCYR_YQ7OmLg"
+        },
+        {
+            "label": "87J3NAN",
+            "value": "CURRENCYR_ZxSuaVe"
+        },
+        {
+            "label": "FKXnAkH",
+            "value": "CURRENCYR_hrW3Hg7"
+        },
+        {
+            "label": "6Dgtk3G",
+            "value": "CURRENCYR_8CsceEG"
+        },
+        {
+            "label": "aRCHRBz",
+            "value": "CURRENCYR_M3i0iyU"
+        },
+        {
+            "label": "Zy5QAsS",
+            "value": "CURRENCYR_iJonDE5"
+        },
+        {
+            "label": "BJAoGqn",
+            "value": "CURRENCYR_XUIEKkC"
+        },
+        {
+            "label": "FUZC9YB",
+            "value": "CURRENCYR_l0X8haX"
+        },
+        {
+            "label": "4tnvGtd",
+            "value": "CURRENCYR_4HXEQdV"
+        },
+        {
+            "label": "rt1fLSR",
+            "value": "CURRENCYR_M135xak"
+        },
+        {
+            "label": "YZRLIQk",
+            "value": "CURRENCYR_9FtB0dL"
+        },
+        {
+            "label": "f8QXW8p",
+            "value": "CURRENCYR_LjTcuV6"
+        },
+        {
+            "label": "GY75YHq",
+            "value": "CURRENCYR_gYqOGRk"
+        },
+        {
+            "label": "zfN97Ds",
+            "value": "CURRENCYR_TegjLdW"
+        },
+        {
+            "label": "GxuQQvg",
+            "value": "CURRENCYR_Y3mmLTf"
+        },
+        {
+            "label": "BggE34O",
+            "value": "CURRENCYR_V5k8ikz"
+        },
+        {
+            "label": "FWLmJ9U",
+            "value": "CURRENCYR_4rK2Ne6"
+        },
+        {
+            "label": "PyvLnLp",
+            "value": "CURRENCYR_lfgceCI"
+        },
+        {
+            "label": "r0CIKkV",
+            "value": "CURRENCYR_z6N5Y2T"
+        },
+        {
+            "label": "RDNvmHV",
+            "value": "CURRENCYR_dDBGEDE"
+        },
+        {
+            "label": "mdik7Ov",
+            "value": "CURRENCYR_nr5v91M"
+        },
+        {
+            "label": "RLaltvB",
+            "value": "CURRENCYR_as9NCPE"
+        },
+        {
+            "label": "GKmcltY",
+            "value": "CURRENCYR_lFFkqf5"
+        },
+        {
+            "label": "eQ3Zzrm",
+            "value": "CURRENCYR_yjOAt34"
+        },
+        {
+            "label": "h5j6kte",
+            "value": "CURRENCYR_NgkFHDF"
+        },
+        {
+            "label": "Wx965Xk",
+            "value": "CURRENCYR_6M3ZxPS"
+        },
+        {
+            "label": "fPxR3Pz",
+            "value": "CURRENCYR_Q6ImktA"
+        },
+        {
+            "label": "KUhjVMo",
+            "value": "CURRENCYR_EN7cMpo"
+        },
+        {
+            "label": "GDrQH74",
+            "value": "CURRENCYR_lO7SLg0"
+        },
+        {
+            "label": "Y4BKOUn",
+            "value": "CURRENCYR_7XWiFO9"
+        },
+        {
+            "label": "QpheHUB",
+            "value": "CURRENCYR_d4VPm2D"
+        },
+        {
+            "label": "hc7GbAv",
+            "value": "CURRENCYR_hf8B76A"
+        },
+        {
+            "label": "Qo6ggEq",
+            "value": "CURRENCYR_YnAziL6"
+        },
+        {
+            "label": "3mVeQ1N",
+            "value": "CURRENCYR_CtLT3MJ"
+        },
+        {
+            "label": "3cJ4dpj",
+            "value": "CURRENCYR_a0Zaud4"
+        },
+        {
+            "label": "6z5iEzD",
+            "value": "CURRENCYR_OVmnjQY"
+        },
+        {
+            "label": "ToQOiJ7",
+            "value": "CURRENCYR_A6h4LSx"
+        },
+        {
+            "label": "T3hEvWz",
+            "value": "CURRENCYR_LbaYF06"
+        },
+        {
+            "label": "GM8aQVa",
+            "value": "CURRENCYR_DNeFKsp"
+        },
+        {
+            "label": "DLzC29H",
+            "value": "CURRENCYR_LHPf6Km"
+        },
+        {
+            "label": "ZNtLPuK",
+            "value": "CURRENCYR_lebyzcE"
+        },
+        {
+            "label": "fAPi55Q",
+            "value": "CURRENCYR_h5pqYYi"
+        },
+        {
+            "label": "BI4DtQ8",
+            "value": "CURRENCYR_1jeAxTy"
+        },
+        {
+            "label": "CLgy6Qa",
+            "value": "CURRENCYR_8tEcUoe"
+        },
+        {
+            "label": "5LiGMzF",
+            "value": "CURRENCYR_tXQhTVl"
+        },
+        {
+            "label": "JjafIQI",
+            "value": "CURRENCYR_psSsgbp"
+        },
+        {
+            "label": "l11XXt8",
+            "value": "CURRENCYR_zRevcun"
+        },
+        {
+            "label": "88IJQzE",
+            "value": "CURRENCYR_JiW5Vz3"
+        },
+        {
+            "label": "3mIQjBI",
+            "value": "CURRENCYR_ph9zLuO"
+        },
+        {
+            "label": "WdU2lly",
+            "value": "CURRENCYR_IoBnOsj"
+        },
+        {
+            "label": "4XTYG1m",
+            "value": "CURRENCYR_j962Qpu"
+        },
+        {
+            "label": "Q7fSUOS",
+            "value": "CURRENCYR_DUBjJE8"
+        },
+        {
+            "label": "DVHEvkh",
+            "value": "CURRENCYR_2NerC7p"
+        },
+        {
+            "label": "MQ31SBH",
+            "value": "CURRENCYR_nzWt8Au"
+        },
+        {
+            "label": "OtgUmDK",
+            "value": "CURRENCYR_p00Jnr5"
+        },
+        {
+            "label": "zxgADr8",
+            "value": "CURRENCYR_Pb1aove"
+        },
+        {
+            "label": "u45j50o",
+            "value": "CURRENCYR_aMa2HPC"
+        },
+        {
+            "label": "eS652cq",
+            "value": "CURRENCYR_xUXUvZb"
+        },
+        {
+            "label": "uktLnZY",
+            "value": "CURRENCYR_NmOvESY"
+        },
+        {
+            "label": "3cu4xCg",
+            "value": "CURRENCYR_gYbFKPX"
+        },
+        {
+            "label": "PczYIgq",
+            "value": "CURRENCYR_VhrhROW"
+        },
+        {
+            "label": "ZO7rTi8",
+            "value": "CURRENCYR_0j1od4f"
+        },
+        {
+            "label": "MLNfo7L",
+            "value": "CURRENCYR_k61QgPS"
+        },
+        {
+            "label": "hpqzHos",
+            "value": "CURRENCYR_t53fNXA"
+        },
+        {
+            "label": "VLD5okW",
+            "value": "CURRENCYR_DCdqaAr"
+        },
+        {
+            "label": "P34dhLp",
+            "value": "CURRENCYR_Y0XvqO6"
+        },
+        {
+            "label": "HsxcjxW",
+            "value": "CURRENCYR_g5A81Dm"
+        },
+        {
+            "label": "JC7XC7J",
+            "value": "CURRENCYR_jT0MSYa"
+        },
+        {
+            "label": "daBeftV",
+            "value": "CURRENCYR_0KWKkty"
+        },
+        {
+            "label": "bgZ1CWy",
+            "value": "CURRENCYR_NAxRBHM"
+        },
+        {
+            "label": "QVjMSDG",
+            "value": "CURRENCYR_qPd1iBY"
+        },
+        {
+            "label": "eajZuFW",
+            "value": "CURRENCYR_loDL4xz"
+        },
+        {
+            "label": "gMXjW56",
+            "value": "CURRENCYR_GBnuOzh"
+        },
+        {
+            "label": "pLJx6fi",
+            "value": "CURRENCYR_6mgD200"
+        },
+        {
+            "label": "yvvWYgp",
+            "value": "CURRENCYR_uT2PocU"
+        },
+        {
+            "label": "u1f43AN",
+            "value": "CURRENCYR_mplfgmi"
+        },
+        {
+            "label": "CdsD31s",
+            "value": "CURRENCYR_v9056rQ"
+        },
+        {
+            "label": "rh7xV8Q",
+            "value": "CURRENCYR_BxTF6CR"
+        },
+        {
+            "label": "TsZdgMr",
+            "value": "CURRENCYR_BrMnEM3"
+        },
+        {
+            "label": "sDWVDiU",
+            "value": "CURRENCYR_fOCCNbZ"
+        },
+        {
+            "label": "rBm7OYb",
+            "value": "CURRENCYR_QamcJpA"
+        },
+        {
+            "label": "kk44Jxv",
+            "value": "CURRENCYR_WFfWtEK"
+        },
+        {
+            "label": "8DVGlk1",
+            "value": "CURRENCYR_4IGGTrp"
+        },
+        {
+            "label": "H9nAtE9",
+            "value": "CURRENCYR_XmRBhrX"
+        },
+        {
+            "label": "LDBEEqQ",
+            "value": "CURRENCYR_mBPAvyl"
+        },
+        {
+            "label": "ykeLK63",
+            "value": "CURRENCYR_M444SRs"
+        },
+        {
+            "label": "3iGEzb4",
+            "value": "CURRENCYR_8jesJOB"
+        },
+        {
+            "label": "5P0XEvB",
+            "value": "CURRENCYR_L5qLh8s"
+        },
+        {
+            "label": "5C5iFLh",
+            "value": "CURRENCYR_0AVhmCe"
+        },
+        {
+            "label": "hB5mHLd",
+            "value": "CURRENCYR_BysxZrx"
+        },
+        {
+            "label": "WSm1ABZ",
+            "value": "CURRENCYR_ryKGiRZ"
+        },
+        {
+            "label": "VU0TkOQ",
+            "value": "CURRENCYR_HmR02by"
+        },
+        {
+            "label": "YkcZC84",
+            "value": "CURRENCYR_qtkqSZB"
+        },
+        {
+            "label": "Dz4kxOb",
+            "value": "CURRENCYR_5kTzVPs"
+        },
+        {
+            "label": "y86Exb2",
+            "value": "CURRENCYR_xTdRATN"
+        },
+        {
+            "label": "0UAMhTu",
+            "value": "CURRENCYR_ooa94gn"
+        },
+        {
+            "label": "YyzqtWu",
+            "value": "CURRENCYR_xRYY6bv"
+        },
+        {
+            "label": "6osdMKl",
+            "value": "CURRENCYR_rDeTxhy"
+        },
+        {
+            "label": "dSs4IbZ",
+            "value": "CURRENCYR_jpK9rxX"
+        },
+        {
+            "label": "26UXszC",
+            "value": "CURRENCYR_10IdPVV"
+        },
+        {
+            "label": "SPOHN99",
+            "value": "CURRENCYR_8U1m6N0"
+        },
+        {
+            "label": "nf34ErC",
+            "value": "CURRENCYR_r5Z4Pp5"
+        },
+        {
+            "label": "9E5B2zV",
+            "value": "CURRENCYR_GzcpXE5"
+        },
+        {
+            "label": "WQvE5XZ",
+            "value": "CURRENCYR_yfl9uDh"
+        },
+        {
+            "label": "ZEhi9Cd",
+            "value": "CURRENCYR_KGBLhJd"
+        },
+        {
+            "label": "M59fD3e",
+            "value": "CURRENCYR_c3RCCGU"
+        },
+        {
+            "label": "B3JWrhN",
+            "value": "CURRENCYR_yDTQyO2"
+        },
+        {
+            "label": "ss6PoLT",
+            "value": "CURRENCYR_Ju3hTT1"
+        },
+        {
+            "label": "ylZPoVJ",
+            "value": "CURRENCYR_0UF6TvI"
+        },
+        {
+            "label": "f3As2qh",
+            "value": "CURRENCYR_R3ICiiz"
+        },
+        {
+            "label": "fiUuRVv",
+            "value": "CURRENCYR_Q7vFyit"
+        },
+        {
+            "label": "K0zxdTa",
+            "value": "CURRENCYR_4h0xktY"
+        },
+        {
+            "label": "EIJfYUm",
+            "value": "CURRENCYR_NiFi049"
+        },
+        {
+            "label": "zqSECC7",
+            "value": "CURRENCYR_iOirLWj"
+        },
+        {
+            "label": "6Rdszdu",
+            "value": "CURRENCYR_JQdQYDj"
+        },
+        {
+            "label": "yU6Q8qy",
+            "value": "CURRENCYR_zdARc04"
+        },
+        {
+            "label": "Hbgho9O",
+            "value": "CURRENCYR_Ga2OhAT"
+        },
+        {
+            "label": "t8jm6Yh",
+            "value": "CURRENCYR_rnrrQB0"
+        },
+        {
+            "label": "pWQg5WG",
+            "value": "CURRENCYR_XFcPxUO"
+        },
+        {
+            "label": "03NHQ7I",
+            "value": "CURRENCYR_fMAb2fv"
+        },
+        {
+            "label": "88MPVcM",
+            "value": "CURRENCYR_sQWKUa5"
+        },
+        {
+            "label": "euqE6cJ",
+            "value": "CURRENCYR_cPmIfGS"
+        },
+        {
+            "label": "mGDKISC",
+            "value": "CURRENCYR_enJh5vQ"
+        },
+        {
+            "label": "FuaWR9q",
+            "value": "CURRENCYR_BMNmrzm"
+        },
+        {
+            "label": "2ifP07k",
+            "value": "CURRENCYR_mEPQUF8"
+        },
+        {
+            "label": "3PWhIIi",
+            "value": "CURRENCYR_mpPof9V"
+        },
+        {
+            "label": "Qp5HRdi",
+            "value": "CURRENCYR_k8qFxOn"
+        },
+        {
+            "label": "NKjohml",
+            "value": "CURRENCYR_NnkshHT"
+        },
+        {
+            "label": "KIOEAgJ",
+            "value": "CURRENCYR_6bXDuID"
+        },
+        {
+            "label": "uN4qpTv",
+            "value": "CURRENCYR_lByTOAn"
+        },
+        {
+            "label": "AyaujxV",
+            "value": "CURRENCYR_IoBP4Cc"
+        },
+        {
+            "label": "G4V7QSp",
+            "value": "CURRENCYR_BbQSeRq"
+        },
+        {
+            "label": "B8qWai2",
+            "value": "CURRENCYR_SYvK3pd"
+        },
+        {
+            "label": "hVItBkF",
+            "value": "CURRENCYR_F73aE6L"
+        },
+        {
+            "label": "eWidL1m",
+            "value": "CURRENCYR_HpBOiK0"
+        },
+        {
+            "label": "o1KFTvK",
+            "value": "CURRENCYR_hyPEYfy"
+        },
+        {
+            "label": "4kS9DS4",
+            "value": "CURRENCYR_MrnJVHg"
+        },
+        {
+            "label": "BiHzTnz",
+            "value": "CURRENCYR_gQ7UTIG"
+        },
+        {
+            "label": "jt3QYN9",
+            "value": "CURRENCYR_GpA4Z5L"
+        },
+        {
+            "label": "P9ueHP0",
+            "value": "CURRENCYR_gRnjP3R"
+        },
+        {
+            "label": "LU9O3Id",
+            "value": "CURRENCYR_hdf363c"
+        },
+        {
+            "label": "aXbgbK4",
+            "value": "CURRENCYR_D8gsIoT"
+        },
+        {
+            "label": "KAWczf7",
+            "value": "CURRENCYR_0JEdMi8"
+        },
+        {
+            "label": "tRnlWV9",
+            "value": "CURRENCYR_D5EvFv0"
+        },
+        {
+            "label": "yBefrEf",
+            "value": "CURRENCYR_LZNqlfh"
+        },
+        {
+            "label": "4s47K8H",
+            "value": "CURRENCYR_s2IHYEe"
+        },
+        {
+            "label": "eWy0g6v",
+            "value": "CURRENCYR_IKyd8V5"
+        },
+        {
+            "label": "MZ1ZYP4",
+            "value": "CURRENCYR_OeV6QPY"
+        },
+        {
+            "label": "miJxDbu",
+            "value": "CURRENCYR_p2eR7mm"
+        },
+        {
+            "label": "SlenT1g",
+            "value": "CURRENCYR_SyaEBq2"
+        },
+        {
+            "label": "0f9NG23",
+            "value": "CURRENCYR_7bcdPqU"
+        },
+        {
+            "label": "RyXrXTv",
+            "value": "CURRENCYR_kdeRsAv"
+        },
+        {
+            "label": "dN74QAS",
+            "value": "CURRENCYR_sYQ6ezc"
+        },
+        {
+            "label": "5RLtQ3K",
+            "value": "CURRENCYR_g0PR709"
+        },
+        {
+            "label": "4R0Y64g",
+            "value": "CURRENCYR_Kssyt9j"
+        },
+        {
+            "label": "oNHxvjk",
+            "value": "CURRENCYR_RhsYA7p"
+        },
+        {
+            "label": "YFL867p",
+            "value": "CURRENCYR_v2zGKRQ"
+        },
+        {
+            "label": "SdQ1Yor",
+            "value": "CURRENCYR_uPPicCO"
+        },
+        {
+            "label": "mCzg0Om",
+            "value": "CURRENCYR_t9ezisP"
+        },
+        {
+            "label": "mAEoWvx",
+            "value": "CURRENCYR_cEXMnB5"
+        },
+        {
+            "label": "upZZ2H9",
+            "value": "CURRENCYR_U7n20yP"
+        },
+        {
+            "label": "M2KRMdn",
+            "value": "CURRENCYR_sEd7Jz8"
+        },
+        {
+            "label": "oSECPDF",
+            "value": "CURRENCYR_MnOExXz"
+        },
+        {
+            "label": "TOUsS2h",
+            "value": "CURRENCYR_ErmcG54"
+        },
+        {
+            "label": "5PdFZYi",
+            "value": "CURRENCYR_mZIQN1f"
+        },
+        {
+            "label": "mnbROF2",
+            "value": "CURRENCYR_itElHPa"
+        },
+        {
+            "label": "Pn7G0k6",
+            "value": "CURRENCYR_QPLmjqS"
+        },
+        {
+            "label": "2vyMBag",
+            "value": "CURRENCYR_bYP2vvq"
+        },
+        {
+            "label": "ZJv8c4z",
+            "value": "CURRENCYR_vNR4yFl"
+        },
+        {
+            "label": "eF1UzdK",
+            "value": "CURRENCYR_lWcFsdz"
+        },
+        {
+            "label": "0p75Be5",
+            "value": "CURRENCYR_bsrIfYx"
+        },
+        {
+            "label": "LTEcZgC",
+            "value": "CURRENCYR_yWqrZ6f"
+        },
+        {
+            "label": "L6XXDlW",
+            "value": "CURRENCYR_VbJuSzU"
+        },
+        {
+            "label": "VWsAXq6",
+            "value": "CURRENCYR_42Inp9i"
+        },
+        {
+            "label": "XvcDikg",
+            "value": "CURRENCYR_4vBy5lu"
+        },
+        {
+            "label": "Qja0CLt",
+            "value": "CURRENCYR_q7WWujI"
+        },
+        {
+            "label": "WF1HcKY",
+            "value": "CURRENCYR_cad39Lz"
+        },
+        {
+            "label": "xALCCPm",
+            "value": "CURRENCYR_pBEHegQ"
+        },
+        {
+            "label": "SIGBDqR",
+            "value": "CURRENCYR_bTolVJ4"
+        },
+        {
+            "label": "Tfgl7Ys",
+            "value": "CURRENCYR_ILeFx6l"
+        },
+        {
+            "label": "BD4WkzZ",
+            "value": "CURRENCYR_Bc6b0mH"
+        },
+        {
+            "label": "XImr7ey",
+            "value": "CURRENCYR_RDG0Amm"
+        },
+        {
+            "label": "Uyd78Ue",
+            "value": "CURRENCYR_XJWNI4n"
+        },
+        {
+            "label": "oH6JbxA",
+            "value": "CURRENCYR_c33PSeA"
+        },
+        {
+            "label": "S71tER0",
+            "value": "CURRENCYR_CCV28gQ"
+        },
+        {
+            "label": "PtqyOgZ",
+            "value": "CURRENCYR_fBSelqo"
+        },
+        {
+            "label": "JWKlvXK",
+            "value": "CURRENCYR_oKK0GLI"
+        },
+        {
+            "label": "Sk6REhv",
+            "value": "CURRENCYR_SMpcVAp"
+        },
+        {
+            "label": "PjlarP8",
+            "value": "CURRENCYR_iSL6VzH"
+        },
+        {
+            "label": "TEksVNV",
+            "value": "CURRENCYR_FA7ZSTK"
+        },
+        {
+            "label": "6O7avnW",
+            "value": "CURRENCYR_T9QH86o"
+        },
+        {
+            "label": "qlIg8QS",
+            "value": "CURRENCYR_FmijRpS"
+        },
+        {
+            "label": "ambdRSx",
+            "value": "CURRENCYR_vyceIAc"
+        },
+        {
+            "label": "7phxTca",
+            "value": "CURRENCYR_6VgShGJ"
+        },
+        {
+            "label": "vFKzA6x",
+            "value": "CURRENCYR_dz23FdN"
+        },
+        {
+            "label": "fsE6spt",
+            "value": "CURRENCYR_I2ZG04B"
+        },
+        {
+            "label": "TfaUOYV",
+            "value": "1W2QuXT"
+        },
+        {
+            "label": "X73heFz",
+            "value": "CURRENCYR_aayugTc"
+        },
+        {
+            "label": "ovdCu7K",
+            "value": "CURRENCYR_55KZoOR"
+        },
+        {
+            "label": "FaLcj9j",
+            "value": "CURRENCYR_9VyX5C0"
+        },
+        {
+            "label": "o8HcDVg",
+            "value": "CURRENCYR_WASKeqQ"
+        },
+        {
+            "label": "1yZAyAz",
+            "value": "CURRENCYR_iZ1kpEt"
+        },
+        {
+            "label": "cfIOE8K",
+            "value": "CURRENCYR_hhNbDDv"
+        },
+        {
+            "label": "R2Fedv4",
+            "value": "CURRENCYR_Fk0FH28"
+        },
+        {
+            "label": "O3n3ZBZ",
+            "value": "CURRENCYR_9EbejPV"
+        },
+        {
+            "label": "MpzdEdM",
+            "value": "CURRENCYR_cPBIgL1"
+        },
+        {
+            "label": "IyyDQ02",
+            "value": "CURRENCYR_OuYHbOU"
+        },
+        {
+            "label": "XGh9Ye4",
+            "value": "CURRENCYR_MeFgf16"
+        },
+        {
+            "label": "sCqm2KI",
+            "value": "CURRENCYR_B1OfEYW"
+        },
+        {
+            "label": "GyGG68S",
+            "value": "CURRENCYR_PiO8NLx"
+        },
+        {
+            "label": "scR8eTl",
+            "value": "CURRENCYR_fhz1ITr"
+        },
+        {
+            "label": "iRNK6VW",
+            "value": "CURRENCYR_HFktb3E"
+        },
+        {
+            "label": "3IfNAkD",
+            "value": "CURRENCYRATEVERSION_"
+        },
+        {
+            "label": "DFmagjk",
+            "value": "CURRENCYR_xSczvaH"
+        },
+        {
+            "label": "jDDXFfE",
+            "value": "CURRENCYR_I3ltJHq"
+        },
+        {
+            "label": "Epmj7j7",
+            "value": "CURRENCYR_im3baSm"
+        },
+        {
+            "label": "cGs8RUD",
+            "value": "CURRENCYR_XQAMM9m"
+        },
+        {
+            "label": "ULSPOjE",
+            "value": "CURRENCYR_epUenbE"
+        },
+        {
+            "label": "9DtUmB3",
+            "value": "CURRENCYR_odPBuN8"
+        },
+        {
+            "label": "1FFvzFu",
+            "value": "CURRENCYR_WTDWrTz"
+        },
+        {
+            "label": "3p1rfYR",
+            "value": "CURRENCYR_Xc7ItPa"
+        },
+        {
+            "label": "bQtGQ4N",
+            "value": "CURRENCYR_t0riXrl"
+        },
+        {
+            "label": "RSVunOl",
+            "value": "CURRENCYR_2UeXo01"
+        },
+        {
+            "label": "3Z0iUrp",
+            "value": "CURRENCYR_IvH9sKW"
+        },
+        {
+            "label": "PefeINM",
+            "value": "CURRENCYR_Z7tSoEi"
+        },
+        {
+            "label": "DNPxFpj",
+            "value": "CURRENCYR_2adxP7r"
+        },
+        {
+            "label": "2XxrIDQ",
+            "value": "CURRENCYR_dNXYF5z"
+        },
+        {
+            "label": "7D3PZxe",
+            "value": "CURRENCYR_W8uy78j"
+        },
+        {
+            "label": "ZDH70CG",
+            "value": "CURRENCYR_IRMepBV"
+        },
+        {
+            "label": "I5LnnDn",
+            "value": "CURRENCYR_o6zqsy3"
+        },
+        {
+            "label": "yoVZUFL",
+            "value": "CURRENCYR_uNiD4Mx"
+        },
+        {
+            "label": "ySCVdVM",
+            "value": "CURRENCYR_EOJgSGN"
+        },
+        {
+            "label": "taTJfFK",
+            "value": "CURRENCYR_NC1vzUx"
+        },
+        {
+            "label": "q6cyesN",
+            "value": "CURRENCYR_04CThLF"
+        },
+        {
+            "label": "U5I2UKH",
+            "value": "CURRENCYR_CP7EvpK"
+        },
+        {
+            "label": "MtdLf9l",
+            "value": "CURRENCYR_G1ZrkTj"
+        },
+        {
+            "label": "kOI79R4",
+            "value": "CURRENCYR_Vk9Aipm"
+        },
+        {
+            "label": "24YTHUb",
+            "value": "CURRENCYR_bLF8k8R"
+        },
+        {
+            "label": "0r8C7pU",
+            "value": "CURRENCYR_AIjttgk"
+        },
+        {
+            "label": "IQAyGDH",
+            "value": "CURRENCYR_Fzi8k9D"
+        },
+        {
+            "label": "FkkeTSd",
+            "value": "CURRENCYR_R5fFmKY"
+        },
+        {
+            "label": "3UCQDtG",
+            "value": "CURRENCYR_9thio1u"
+        },
+        {
+            "label": "GtKBnbK",
+            "value": "CURRENCYR_8KSn7V4"
+        },
+        {
+            "label": "CNyevak",
+            "value": "CURRENCYR_iCIiikF"
+        },
+        {
+            "label": "NdsmLRL",
+            "value": "CURRENCYR_oHW1ofO"
+        },
+        {
+            "label": "mY88v0A",
+            "value": "CURRENCYR_L8Oc4dh"
+        },
+        {
+            "label": "yjJDUBT",
+            "value": "CURRENCYR_C8VlDB4"
+        },
+        {
+            "label": "a47rnO4",
+            "value": "CURRENCYR_0i1yB8Z"
+        },
+        {
+            "label": "HzZQbrj",
+            "value": "CURRENCYR_4h0g7P8"
+        },
+        {
+            "label": "JCAmCUJ",
+            "value": "CURRENCYR_TGhPrsv"
+        },
+        {
+            "label": "NIMR9K3",
+            "value": "CURRENCYR_hXHz7aq"
+        },
+        {
+            "label": "rrLcYvP",
+            "value": "CURRENCYR_M6Yx0XQ"
+        },
+        {
+            "label": "YSE4uF7",
+            "value": "CURRENCYR_m5vcQuR"
+        },
+        {
+            "label": "ibb2nmO",
+            "value": "CURRENCYR_8LhpuDZ"
+        },
+        {
+            "label": "dKmzWxM",
+            "value": "CURRENCYR_877Qcxm"
+        },
+        {
+            "label": "AoLsJ6Y",
+            "value": "CURRENCYR_AZu6v4M"
+        },
+        {
+            "label": "TUcyDnx",
+            "value": "CURRENCYR_ugE465v"
+        },
+        {
+            "label": "vv0tB0v",
+            "value": "CURRENCYR_HsqxioQ"
+        },
+        {
+            "label": "YbUiCrc",
+            "value": "CURRENCYR_KYStKUt"
+        },
+        {
+            "label": "3CRne4C",
+            "value": "CURRENCYR_hi2O1FX"
+        },
+        {
+            "label": "8DC4Ffg",
+            "value": "CURRENCYR_uVF2V3B"
+        },
+        {
+            "label": "hK7y9dk",
+            "value": "CURRENCYR_0RbhnIu"
+        },
+        {
+            "label": "uAsXtJH",
+            "value": "CURRENCYR_rJy3uEX"
+        },
+        {
+            "label": "NANj0bf",
+            "value": "CURRENCYR_hkQuA2W"
+        },
+        {
+            "label": "BcWljtC",
+            "value": "CURRENCYR_QOO7JLR"
+        },
+        {
+            "label": "pKZE8M3",
+            "value": "CURRENCYR_RF1ZYID"
+        },
+        {
+            "label": "Uk9ZxvP",
+            "value": "CURRENCYR_7F6WivJ"
+        },
+        {
+            "label": "1f9Sp8b",
+            "value": "CURRENCYR_ckx63QN"
+        },
+        {
+            "label": "JjlSkxb",
+            "value": "CURRENCYR_AHmVzyj"
+        },
+        {
+            "label": "hks7N4k",
+            "value": "CURRENCYR_odk6Gng"
+        },
+        {
+            "label": "MXQdHOD",
+            "value": "CURRENCYR_RJniG4X"
+        },
+        {
+            "label": "BHjAjt5",
+            "value": "CURRENCYR_lJ6uPYv"
+        },
+        {
+            "label": "SOaFJ6M",
+            "value": "CURRENCYR_OferosR"
+        },
+        {
+            "label": "to4m44l",
+            "value": "CURRENCYR_biG4i0j"
+        },
+        {
+            "label": "vPy9p8F",
+            "value": "CURRENCYR_BsOcE8o"
+        },
+        {
+            "label": "9zdqKGS",
+            "value": "CURRENCYR_rWSzLBR"
+        },
+        {
+            "label": "CfK5zJx",
+            "value": "CURRENCYR_NXa1Ifg"
+        },
+        {
+            "label": "LZ0VQI0",
+            "value": "CURRENCYR_sa4tgFc"
+        },
+        {
+            "label": "IEYZI03",
+            "value": "CURRENCYR_gqe2pfo"
+        },
+        {
+            "label": "pL7DB6M",
+            "value": "CURRENCYR_l0thPIM"
+        },
+        {
+            "label": "ANFThFE",
+            "value": "CURRENCYR_oVCTYx2"
+        },
+        {
+            "label": "coqrTZ4",
+            "value": "CURRENCYR_7K2e5ot"
+        },
+        {
+            "label": "QsvZekL",
+            "value": "CURRENCYR_Z7OEaOR"
+        },
+        {
+            "label": "X3z2bZY",
+            "value": "CURRENCYR_UXHFf98"
+        },
+        {
+            "label": "4KkV4Wh",
+            "value": "CURRENCYR_ID86pY8"
+        },
+        {
+            "label": "8OGyMhi",
+            "value": "CURRENCYR_bMN9bpm"
+        },
+        {
+            "label": "J9OQIMi",
+            "value": "CURRENCYR_Ep79AeV"
+        },
+        {
+            "label": "EV2RTZW",
+            "value": "CURRENCYR_SBYol5b"
+        },
+        {
+            "label": "ZLsOCqg",
+            "value": "CURRENCYR_e8HTfDa"
+        },
+        {
+            "label": "cx6OVJ1",
+            "value": "CURRENCYR_lPNoYYu"
+        },
+        {
+            "label": "B2yHNh7",
+            "value": "CURRENCYR_GOGbAjJ"
+        },
+        {
+            "label": "CR2Brut",
+            "value": "CURRENCYR_nLnt4C5"
+        },
+        {
+            "label": "JMEU1Gv",
+            "value": "CURRENCYR_OcySeQL"
+        },
+        {
+            "label": "03ep5ug",
+            "value": "CURRENCYR_xbGUs5a"
+        },
+        {
+            "label": "vPeQaRD",
+            "value": "CURRENCYR_dbVFeVZ"
+        },
+        {
+            "label": "SYNmmyU",
+            "value": "CURRENCYR_Xpa9goN"
+        },
+        {
+            "label": "lpgJ6jy",
+            "value": "CURRENCYR_b9q6mVa"
+        },
+        {
+            "label": "3Ablcq7",
+            "value": "CURRENCYR_GdYosTh"
+        },
+        {
+            "label": "lteSaiF",
+            "value": "CURRENCYR_o00gbBo"
+        },
+        {
+            "label": "eULedQY",
+            "value": "CURRENCYR_Um6TVTd"
+        },
+        {
+            "label": "Dqubvvd",
+            "value": "CURRENCYR_gVTdAt7"
+        },
+        {
+            "label": "bXWdi0K",
+            "value": "CURRENCYR_zJ8vGUX"
+        },
+        {
+            "label": "2hBKTFf",
+            "value": "CURRENCYR_sv2hXLe"
+        }
+    ]
+}
