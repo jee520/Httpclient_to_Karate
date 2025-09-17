@@ -1,0 +1,41 @@
+[
+    {
+        "ofsaaEntName": "Net Exposures",
+        "ofssaBT": "As Of Date Surrogate Key",
+        "birdeilEnt": "Balance Sheet Netting",
+        "birdeilEntPhyName": "Balance_sheet_netting",
+        "birdeilBtId": "Balance Sheet Netting Reference Date",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD10",
+        "oraLogDataType": "DATE"
+    },
+    {
+        "ofsaaEntName": "Net Exposures",
+        "ofssaBT": "Legal Entity Surrogate Key",
+        "birdeilEnt": "Balance Sheet Netting",
+        "birdeilEntPhyName": "Balance_sheet_netting",
+        "birdeilBtId": "Balance Sheet Netting Reporting Agent Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    },
+    {
+        "ofsaaEntName": "Net Exposures",
+        "ofssaBT": "Netting Agreement Surrogate Key",
+        "birdeilEnt": "Balance Sheet Netting",
+        "birdeilEntPhyName": "Balance_sheet_netting",
+        "birdeilBtId": "Balance Sheet Netting Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    }
+]

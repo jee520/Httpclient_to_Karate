@@ -1,0 +1,93 @@
+[
+    {
+        "ofsaaEntName": "Mitigants",
+        "ofssaBT": "Lien Position Surrogate Key",
+        "birdeilEnt": "Instrument Collateral Received Instrument Assignment",
+        "birdeilEntPhyName": "Instrument_Collateral_received_instrument_assignment",
+        "birdeilBtId": "Instrument Collateral Received Instrument Assignment Type",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD6",
+        "oraLogDataType": "VARCHAR2(20)"
+    },
+    {
+        "ofsaaEntName": "Mitigants",
+        "ofssaBT": "Instrument Type Surrogate Key",
+        "birdeilEnt": "Instrument Collateral Received Instrument Assignment",
+        "birdeilEntPhyName": "Instrument_Collateral_received_instrument_assignment",
+        "birdeilBtId": "Type Of Abstract Instrument Role",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD6",
+        "oraLogDataType": "VARCHAR2(20)"
+    },
+    {
+        "ofsaaEntName": "Mitigants",
+        "ofssaBT": "",
+        "birdeilEnt": "Instrument Collateral Received Instrument Assignment",
+        "birdeilEntPhyName": "Instrument_Collateral_received_instrument_assignment",
+        "birdeilBtId": "Protection Allocated Value",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD1",
+        "oraLogDataType": "NUMBER(22,3)"
+    },
+    {
+        "ofsaaEntName": "Account Mitigant Map",
+        "ofssaBT": "As Of Date Surrogate Key",
+        "birdeilEnt": "Instrument Collateral Received Instrument Assignment",
+        "birdeilEntPhyName": "Instrument_Collateral_received_instrument_assignment",
+        "birdeilBtId": "Reference Date",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD10",
+        "oraLogDataType": "DATE"
+    },
+    {
+        "ofsaaEntName": "Account Mitigant Map",
+        "ofssaBT": "",
+        "birdeilEnt": "Instrument Collateral Received Instrument Assignment",
+        "birdeilEntPhyName": "Instrument_Collateral_received_instrument_assignment",
+        "birdeilBtId": "Protection Allocated Value",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD1",
+        "oraLogDataType": "NUMBER(22,3)"
+    },
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "Instrument Surrogate Key",
+        "birdeilEnt": "Instrument Collateral Received Instrument Assignment",
+        "birdeilEntPhyName": "Instrument_Collateral_received_instrument_assignment",
+        "birdeilBtId": "Instrument Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    },
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "Legal Entity Surrogate Key",
+        "birdeilEnt": "Instrument Collateral Received Instrument Assignment",
+        "birdeilEntPhyName": "Instrument_Collateral_received_instrument_assignment",
+        "birdeilBtId": "Reporting Agent Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    }
+]

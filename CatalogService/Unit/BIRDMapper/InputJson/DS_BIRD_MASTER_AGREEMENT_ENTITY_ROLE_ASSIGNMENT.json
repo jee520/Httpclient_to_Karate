@@ -1,0 +1,80 @@
+[
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "As Of Date Surrogate Key",
+        "birdeilEnt": "Master Agreement Entity Role Assignment",
+        "birdeilEntPhyName": "Master_agreement_Entity_role_assignment",
+        "birdeilBtId": "Reference Date",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD10",
+        "oraLogDataType": "DATE"
+    },
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "Legal Entity Surrogate Key",
+        "birdeilEnt": "Master Agreement Entity Role Assignment",
+        "birdeilEntPhyName": "Master_agreement_Entity_role_assignment",
+        "birdeilBtId": "Reporting Agent Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    },
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "Netting Agreement Surrogate Key",
+        "birdeilEnt": "Master Agreement Entity Role Assignment",
+        "birdeilEntPhyName": "Master_agreement_Entity_role_assignment",
+        "birdeilBtId": "Master Agreement Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    },
+    {
+        "ofsaaEntName": "Party Account Role Map",
+        "ofssaBT": "",
+        "birdeilEnt": "Master Agreement Entity Role Assignment",
+        "birdeilEntPhyName": "Master_agreement_Entity_role_assignment",
+        "birdeilBtId": "Party Role Type",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD6",
+        "oraLogDataType": "VARCHAR2(20)"
+    },
+    {
+        "ofsaaEntName": "Party Account Role Map",
+        "ofssaBT": "",
+        "birdeilEnt": "Master Agreement Entity Role Assignment",
+        "birdeilEntPhyName": "Master_agreement_Entity_role_assignment",
+        "birdeilBtId": "Type Of Master Agreement Entity Role Assignment",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD6",
+        "oraLogDataType": "VARCHAR2(20)"
+    },
+    {
+        "ofsaaEntName": "Party Account Role Map",
+        "ofssaBT": "Party Surrogate Key",
+        "birdeilEnt": "Master Agreement Entity Role Assignment",
+        "birdeilEntPhyName": "Master_agreement_Entity_role_assignment",
+        "birdeilBtId": "Party Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    }
+]

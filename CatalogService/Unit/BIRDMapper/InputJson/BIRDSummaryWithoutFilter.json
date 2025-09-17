@@ -1,0 +1,215 @@
+{
+    "totalCount": 30,
+    "body": [
+        {
+            "id": "CON_BIRD_STG_CREDIT_LINE_DETAILS",
+            "connectorName": "BIRD Connector for Stage Credit Line Details from BIRD Entities",
+            "connectorDesc": "The Connector Mapping will be the set of rules for populating the Data Catalog Stage Credit Line Details using BIRD Entities",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Connector"
+        },
+        {
+            "id": "CON_BIRD_STG_CREDIT_LINE_MASTER",
+            "connectorName": "BIRD Connector for Stage Credit Line Master from BIRD Entities",
+            "connectorDesc": "The Connector Mapping will be the set of rules for populating the Data Catalog Stage Credit Line Master using BIRD Entities",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Connector"
+        },
+        {
+            "id": "CON_BIRD_STG_MITIGANTS",
+            "connectorName": "BIRD Connector for Stage Mitigants Details from BIRD Entities",
+            "connectorDesc": "The Connector Mapping will be the set of rules for populating the Data Catalog Stage Mitigants Details using BIRD Entities",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Connector"
+        },
+        {
+            "id": "CON_BIRD_STG_MITIGANT_MASTER",
+            "connectorName": "BIRD Connector for Stage Mitigants Master from BIRD Entities",
+            "connectorDesc": "The Connector Mapping will be the set of rules for populating the Data Catalog Stage Mitigants Master using BIRD Entities",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Connector"
+        },
+        {
+            "id": "CON_BIRD_STG_NET_EXPOSURES",
+            "connectorName": "BIRD Connector for Stage Net Exposures Master from BIRD Entities",
+            "connectorDesc": "The Connector Mapping will be the set of rules for populating the Data Catalog Stage Net Exposures Master using BIRD Entities",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Connector"
+        },
+        {
+            "id": "CON_BIRD_STG_NETTING_AGREEMENT_MASTER",
+            "connectorName": "BIRD Connector for Stage Netting Agreement Master from BIRD Entities",
+            "connectorDesc": "The Connector Mapping will be the set of rules for populating the Data Catalog Stage Netting Agreement Master using BIRD Entities",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Connector"
+        },
+        {
+            "id": "CON_BIRD_STG_PARTY_DETAILS",
+            "connectorName": "BIRD Connector for Stage Party Details from BIRD Entities",
+            "connectorDesc": "The Connector Mapping will be the set of rules for populating the Data Catalog Stage Party Details using BIRD Entities",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Connector"
+        },
+        {
+            "id": "CON_BIRD_STG_PARTY_MASTER",
+            "connectorName": "BIRD Connector for Stage Party Master from BIRD Entities",
+            "connectorDesc": "The Connector Mapping will be the set of rules for populating the Data Catalog Stage Party Master using BIRD Entities",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Connector"
+        },
+        {
+            "id": "DS_BIRD_BALANCE_SHEET_NETTING",
+            "connectorName": "BIRD Dataset for Balance Sheet Netting",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Balance Sheet Netting",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_CREDIT_FACILITY_COLLATERAL_ASSIGNMENT",
+            "connectorName": "BIRD Dataset for Credit Facility Collateral Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Credit Facility Collateral Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_CREDIT_FACILITY_COLLATERAL_RECEIVED_INSTRUMENT_ASSIGNMENT",
+            "connectorName": "BIRD Dataset for Credit Facility Collateral Received Instrument Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Credit Facility Collateral Received Instrument Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_CREDIT_FACILITY_ENTITY_ROLE_ASSIGNMENT",
+            "connectorName": "BIRD Dataset for Credit Facility Entity Role Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Credit Facility Entity Role Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_ENTITY_ROLE",
+            "connectorName": "BIRD Dataset for Entity Role",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Entity Role",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_FINANCIAL_CONTRACT",
+            "connectorName": "BIRD Dataset for Financial Contract",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Financial Contract",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_IMMEDIATE_PARENT_ENTERPRISE_ASSIGNMENT",
+            "connectorName": "BIRD Dataset for Immediate Parent Enterprise Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Immediate Parent Enterprise Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_INSTRUMENT_ENTITY_ROLE_ASSIGNMENT",
+            "connectorName": "BIRD Dataset for Instrument Collateral Received Instrument Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Instrument Collateral Received Instrument Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_CREDIT_FACILITY",
+            "connectorName": "BIRD Dataset for Instrument Entity Role Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Instrument Entity Role Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_INSTRUMENT_PROTECTION_ARRANGEMENT_ASSIGNMENT",
+            "connectorName": "BIRD Dataset for Instrument Protection Arrangement Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Instrument Protection Arrangement Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_LINKED_ENTERPRISE_ASSIGNMENT",
+            "connectorName": "BIRD Dataset for Linked Enterprise Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Linked Enterprise Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_INSTRUMENT_COLLATERAL_RECEIVED_INSTRUMENT_ASSIGNMENT",
+            "connectorName": "BIRD Dataset for Loan (Excluding Repurchase Agreement) And Advance Collateral Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Loan (Excluding Repurchase Agreement) And Advance Collateral Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_MASTER_AGREEMENT",
+            "connectorName": "BIRD Dataset for Master Agreement",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Master Agreement",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_MASTER_AGREEMENT_ENTITY_ROLE_ASSIGNMENT",
+            "connectorName": "BIRD Dataset for Master Agreement Entity Role Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Master Agreement Entity Role Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_MASTER_AGREEMENT_FINANCIAL_CONTRACT_ASSIGNMENT",
+            "connectorName": "BIRD Dataset for Master Agreement Financial Contract Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Master Agreement Financial Contract Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_NATURAL_PERSON_KEY_MANAGEMENT_PERSONNEL_ASSIGNMENT",
+            "connectorName": "BIRD Dataset for Natural Person Key Management Personnel Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Natural Person Key Management Personnel Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_OFF_BALANCE_INSTRUMENT_COLLATERAL_ASSIGNMENT",
+            "connectorName": "BIRD Dataset for Off Balance Instrument Collateral Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Off Balance Instrument Collateral Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_LOAN_EXCLUDING_REPURCHASE_AGREEMENT_AND_ADVANCE_COLLATERAL_ASSIGNMENT",
+            "connectorName": "BIRD Dataset for Off-Balance Instrument Collateral Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Off-Balance Instrument Collateral Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_PARTNER_ENTERPRISE_ASSIGNMENT",
+            "connectorName": "BIRD Dataset for Partner Enterprise Assignment",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Partner Enterprise Assignment",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_PARTY",
+            "connectorName": "BIRD Dataset for Party",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Party",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_PROTECTION_ARRANGEMENT",
+            "connectorName": "BIRD Dataset for Protection Arrangement",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Protection Arrangement",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        },
+        {
+            "id": "DS_BIRD_SYNDICATED_CONTRACT",
+            "connectorName": "BIRD Dataset for Syndicated Contract",
+            "connectorDesc": "The Dataset Mapping will be the set of rules for displaying the BIRD Syndicated Contract",
+            "contextType": "BIRDEIL",
+            "conIndicator": "Dataset"
+        }
+    ]
+}

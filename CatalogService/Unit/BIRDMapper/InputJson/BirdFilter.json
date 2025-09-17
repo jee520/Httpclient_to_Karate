@@ -1,0 +1,107 @@
+{
+    "connectorNames": [
+        {
+            "connectorName": "BIRD Dataset for Syndicated Contract"
+        },
+        {
+            "connectorName": "BIRD Dataset for Off Balance Instrument Collateral Assignment"
+        },
+        {
+            "connectorName": "BIRD Dataset for Credit Facility Collateral Received Instrument Assignment"
+        },
+        {
+            "connectorName": "BIRD Connector for Stage Credit Line Master from BIRD Entities"
+        },
+        {
+            "connectorName": "BIRD Dataset for Off-Balance Instrument Collateral Assignment"
+        },
+        {
+            "connectorName": "BIRD Dataset for Natural Person Key Management Personnel Assignment"
+        },
+        {
+            "connectorName": "BIRD Dataset for Protection Arrangement"
+        },
+        {
+            "connectorName": "BIRD Dataset for Credit Facility Collateral Assignment"
+        },
+        {
+            "connectorName": "BIRD Dataset for Linked Enterprise Assignment"
+        },
+        {
+            "connectorName": "BIRD Connector for Stage Party Master from BIRD Entities"
+        },
+        {
+            "connectorName": "BIRD Connector for Stage Netting Agreement Master from BIRD Entities"
+        },
+        {
+            "connectorName": "BIRD Dataset for Immediate Parent Enterprise Assignment"
+        },
+        {
+            "connectorName": "BIRD Dataset for Instrument Protection Arrangement Assignment"
+        },
+        {
+            "connectorName": "BIRD Dataset for Loan (Excluding Repurchase Agreement) And Advance Collateral Assignment"
+        },
+        {
+            "connectorName": "BIRD Connector for Stage Net Exposures Master from BIRD Entities"
+        },
+        {
+            "connectorName": "BIRD Dataset for Credit Facility Entity Role Assignment"
+        },
+        {
+            "connectorName": "BIRD Dataset for Instrument Collateral Received Instrument Assignment"
+        },
+        {
+            "connectorName": "BIRD Dataset for Partner Enterprise Assignment"
+        },
+        {
+            "connectorName": "BIRD Connector for Stage Mitigants Details from BIRD Entities"
+        },
+        {
+            "connectorName": "BIRD Connector for Stage Party Details from BIRD Entities"
+        },
+        {
+            "connectorName": "BIRD Connector for Stage Credit Line Details from BIRD Entities"
+        },
+        {
+            "connectorName": "BIRD Dataset for Master Agreement Entity Role Assignment"
+        },
+        {
+            "connectorName": "BIRD Dataset for Entity Role"
+        },
+        {
+            "connectorName": "BIRD Dataset for Party"
+        },
+        {
+            "connectorName": "BIRD Connector for Stage Mitigants Master from BIRD Entities"
+        },
+        {
+            "connectorName": "BIRD Dataset for Balance Sheet Netting"
+        },
+        {
+            "connectorName": "BIRD Dataset for Financial Contract"
+        },
+        {
+            "connectorName": "BIRD Dataset for Master Agreement"
+        },
+        {
+            "connectorName": "BIRD Dataset for Master Agreement Financial Contract Assignment"
+        },
+        {
+            "connectorName": "BIRD Dataset for Instrument Entity Role Assignment"
+        }
+    ],
+    "contextTypes": [
+        {
+            "contextType": "BIRDEIL"
+        }
+    ],
+    "conIndicators": [
+        {
+            "conIndicator": "Connector"
+        },
+        {
+            "conIndicator": "Dataset"
+        }
+    ]
+}

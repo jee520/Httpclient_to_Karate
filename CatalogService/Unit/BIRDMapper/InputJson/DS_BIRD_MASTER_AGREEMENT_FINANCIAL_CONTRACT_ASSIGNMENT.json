@@ -1,0 +1,54 @@
+[
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "As Of Date Surrogate Key",
+        "birdeilEnt": "Master Agreement Financial Contract Assignment",
+        "birdeilEntPhyName": "Master_agreement_Financial_contract_assignment",
+        "birdeilBtId": "Reference Date",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD10",
+        "oraLogDataType": "DATE"
+    },
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "Legal Entity Surrogate Key",
+        "birdeilEnt": "Master Agreement Financial Contract Assignment",
+        "birdeilEntPhyName": "Master_agreement_Financial_contract_assignment",
+        "birdeilBtId": "Reporting Agent Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    },
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "Netting Agreement Surrogate Key",
+        "birdeilEnt": "Master Agreement Financial Contract Assignment",
+        "birdeilEntPhyName": "Master_agreement_Financial_contract_assignment",
+        "birdeilBtId": "Master Agreement Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    },
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "Account Surrogate Key",
+        "birdeilEnt": "Master Agreement Financial Contract Assignment",
+        "birdeilEntPhyName": "Master_agreement_Financial_contract_assignment",
+        "birdeilBtId": "Financial Contract Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    }
+]

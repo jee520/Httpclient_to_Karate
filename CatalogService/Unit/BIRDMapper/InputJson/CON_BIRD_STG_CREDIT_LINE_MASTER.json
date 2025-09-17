@@ -1,0 +1,80 @@
+[
+    {
+        "ofsaaEntName": "Credit Facility",
+        "ofssaBT": "",
+        "birdeilEnt": "Credit Facility",
+        "birdeilEntPhyName": "Credit_facility",
+        "birdeilBtId": "Credit Facility Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    },
+    {
+        "ofsaaEntName": "Credit Facility",
+        "ofssaBT": "",
+        "birdeilEnt": "Credit Facility",
+        "birdeilEntPhyName": "Credit_facility",
+        "birdeilBtId": "Credit Facility Inception Date",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD10",
+        "oraLogDataType": "DATE"
+    },
+    {
+        "ofsaaEntName": "Credit Facility",
+        "ofssaBT": "",
+        "birdeilEnt": "Credit Facility",
+        "birdeilEntPhyName": "Credit_facility",
+        "birdeilBtId": "Legal Final Maturity Date",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD10",
+        "oraLogDataType": "DATE"
+    },
+    {
+        "ofsaaEntName": "Credit Facility",
+        "ofssaBT": "",
+        "birdeilEnt": "Credit Facility",
+        "birdeilEntPhyName": "Credit_facility",
+        "birdeilBtId": "Reference Date",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD10",
+        "oraLogDataType": "DATE"
+    },
+    {
+        "ofsaaEntName": "Credit Facility",
+        "ofssaBT": "",
+        "birdeilEnt": "Credit Facility",
+        "birdeilEntPhyName": "Credit_facility",
+        "birdeilBtId": "Revocable Indicator",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD6",
+        "oraLogDataType": "VARCHAR2(20)"
+    },
+    {
+        "ofsaaEntName": "Credit Facility",
+        "ofssaBT": "",
+        "birdeilEnt": "Credit Facility",
+        "birdeilEntPhyName": "Credit_facility",
+        "birdeilBtId": "Type Of Credit Facility",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD6",
+        "oraLogDataType": "VARCHAR2(20)"
+    }
+]

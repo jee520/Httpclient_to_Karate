@@ -1,0 +1,67 @@
+{
+    "msgCode": "DGS0000",
+    "msgBody": {
+        "jsonData": [
+            {
+                "id": "100_action",
+                "name": "testAction",
+                "criticality": "1",
+                "createdTime": "13 March 2025",
+                "createdBy": "dfcsqa",
+                "lastModifiedTime": "13 March 2025",
+                "lastModifiedBy": "dfcsqa",
+                "status": "N",
+                "typeId": "7",
+                "targetDate": "13 March 2025",
+                "executionDate": "",
+                "source": "100",
+                "openActionCount": "0",
+                "description": "test",
+                "type": "action"
+            },
+            {
+                "id": "101_issue",
+                "name": "ActionTest",
+                "criticality": "1",
+                "createdTime": "13 March 2025",
+                "createdBy": "dfcsqa",
+                "lastModifiedTime": "13 March 2025",
+                "lastModifiedBy": "dfcsqa",
+                "status": "N",
+                "typeId": "7",
+                "targetDate": "13 March 2025",
+                "executionDate": "13 March 2025",
+                "source": "100",
+                "openActionCount": "1",
+                "description": "ActionTest",
+                "type": "issue"
+            },
+            {
+                "id": "100_issue",
+                "name": "IssueTest",
+                "criticality": "1",
+                "createdTime": "13 March 2025",
+                "createdBy": "dfcsqa",
+                "lastModifiedTime": "13 March 2025",
+                "lastModifiedBy": "dfcsqa",
+                "status": "N",
+                "typeId": "7",
+                "targetDate": "13 March 2025",
+                "executionDate": "13 March 2025",
+                "source": "100",
+                "openActionCount": "0",
+                "description": "IssueTest",
+                "type": "issue"
+            }
+        ],
+        "user": "dfcsqa",
+        "last_14_days": {
+            "issues": "2",
+            "actions": "1"
+        },
+        "total": {
+            "issues": "2",
+            "actions": "1"
+        }
+    }
+}

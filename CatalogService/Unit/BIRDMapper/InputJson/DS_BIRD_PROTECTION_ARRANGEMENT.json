@@ -1,0 +1,67 @@
+[
+    {
+        "ofsaaEntName": "Mitigants",
+        "ofssaBT": "As Of Date Surrogate Key",
+        "birdeilEnt": "Protection Arrangement",
+        "birdeilEntPhyName": "Protection_arrangement",
+        "birdeilBtId": "Protection Arrangement Reference Date",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD10",
+        "oraLogDataType": "DATE"
+    },
+    {
+        "ofsaaEntName": "Mitigants",
+        "ofssaBT": "Legal Entity Surrogate Key",
+        "birdeilEnt": "Protection Arrangement",
+        "birdeilEntPhyName": "Protection_arrangement",
+        "birdeilBtId": "Protection Arrangement Reporting Agent Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    },
+    {
+        "ofsaaEntName": "Mitigants",
+        "ofssaBT": "Mitigant Surrogate Key",
+        "birdeilEnt": "Protection Arrangement",
+        "birdeilEntPhyName": "Protection_arrangement",
+        "birdeilBtId": "Protection Arrangement Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    },
+    {
+        "ofsaaEntName": "Mitigants",
+        "ofssaBT": "Mitigant Type Surrogate Key",
+        "birdeilEnt": "Protection Arrangement",
+        "birdeilEntPhyName": "Protection_arrangement",
+        "birdeilBtId": "Protection Arrangement Type",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD6",
+        "oraLogDataType": "VARCHAR2(20)"
+    },
+    {
+        "ofsaaEntName": "Mitigants",
+        "ofssaBT": "Maturity Date Surrogate Key",
+        "birdeilEnt": "Protection Arrangement",
+        "birdeilEntPhyName": "Protection_arrangement",
+        "birdeilBtId": "Maturity Date Of The Protection Arrangement",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD10",
+        "oraLogDataType": "DATE"
+    }
+]

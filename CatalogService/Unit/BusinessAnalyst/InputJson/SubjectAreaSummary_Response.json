@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "subLevel": "Ancillary Lines of Business",
+        "cumEntsCnt": 33,
+        "cumContsCnt": 0,
+        "subAreas": [
+            {
+                "id": 7,
+                "subArea": "Credit Cards",
+                "entsCnt": 19,
+                "contsCnt": 0
+            },
+            {
+                "id": 8,
+                "subArea": "Mutual Funds",
+                "entsCnt": 14,
+                "contsCnt": 0
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "subLevel": "Investment Banking and Wealth Management",
+        "cumEntsCnt": 68,
+        "cumContsCnt": 0,
+        "subAreas": [
+            {
+                "id": 9,
+                "subArea": "Deal Advisory",
+                "entsCnt": 4,
+                "contsCnt": 0
+            },
+            {
+                "id": 10,
+                "subArea": "Portfolio Management Service",
+                "entsCnt": 19,
+                "contsCnt": 0
+            },
+            {
+                "id": 11,
+                "subArea": "Portfolio Marketing",
+                "entsCnt": 9,
+                "contsCnt": 0
+            },
+            {
+                "id": 12,
+                "subArea": "Risk Management",
+                "entsCnt": 36,
+                "contsCnt": 0
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "subLevel": "Reference and Market Data",
+        "cumEntsCnt": 797,
+        "cumContsCnt": 1,
+        "subAreas": [
+            {
+                "id": 13,
+                "subArea": "Market Data",
+                "entsCnt": 11,
+                "contsCnt": 0
+            },
+            {
+                "id": 14,
+                "subArea": "Master Data",
+                "entsCnt": 778,
+                "contsCnt": 1
+            },
+            {
+                "id": 15,
+                "subArea": "Reference Data",
+                "entsCnt": 8,
+                "contsCnt": 0
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "subLevel": "Retail and Personal Banking",
+        "cumEntsCnt": 64,
+        "cumContsCnt": 0,
+        "subAreas": [
+            {
+                "id": 16,
+                "subArea": "Retail - General Banking",
+                "entsCnt": 7,
+                "contsCnt": 0
+            },
+            {
+                "id": 17,
+                "subArea": "Retail Lending",
+                "entsCnt": 51,
+                "contsCnt": 0
+            },
+            {
+                "id": 18,
+                "subArea": "Retail Liabilities",
+                "entsCnt": 6,
+                "contsCnt": 0
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "subLevel": "Treasury Services",
+        "cumEntsCnt": 28,
+        "cumContsCnt": 0,
+        "subAreas": [
+            {
+                "id": 19,
+                "subArea": "Treasury Marketing",
+                "entsCnt": 9,
+                "contsCnt": 0
+            },
+            {
+                "id": 20,
+                "subArea": "Treasury Office Services",
+                "entsCnt": 19,
+                "contsCnt": 0
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "subLevel": "Wholesale Banking",
+        "cumEntsCnt": 103,
+        "cumContsCnt": 0,
+        "subAreas": [
+            {
+                "id": 21,
+                "subArea": "Government Business",
+                "entsCnt": 8,
+                "contsCnt": 0
+            },
+            {
+                "id": 22,
+                "subArea": "International Banking",
+                "entsCnt": 7,
+                "contsCnt": 0
+            },
+            {
+                "id": 23,
+                "subArea": "Trade Finance",
+                "entsCnt": 12,
+                "contsCnt": 0
+            },
+            {
+                "id": 24,
+                "subArea": "Wholesale - General Banking",
+                "entsCnt": 7,
+                "contsCnt": 0
+            },
+            {
+                "id": 25,
+                "subArea": "Wholesale Lending",
+                "entsCnt": 64,
+                "contsCnt": 0
+            },
+            {
+                "id": 26,
+                "subArea": "Wholesale Liabilities",
+                "entsCnt": 5,
+                "contsCnt": 0
+            }
+        ]
+    }
+]

@@ -1,0 +1,93 @@
+[
+    {
+        "ofsaaEntName": "Credit Participation Details",
+        "ofssaBT": "Syndicated Account Surrogate Key",
+        "birdeilEnt": "Financial Contract",
+        "birdeilEntPhyName": "Financial_contract",
+        "birdeilBtId": "Syndicated Contract Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    },
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "As Of Date Surrogate Key",
+        "birdeilEnt": "Financial Contract",
+        "birdeilEntPhyName": "Financial_contract",
+        "birdeilBtId": "Financial Contract Reference Date",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD10",
+        "oraLogDataType": "DATE"
+    },
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "Legal Entity Surrogate Key",
+        "birdeilEnt": "Financial Contract",
+        "birdeilEntPhyName": "Financial_contract",
+        "birdeilBtId": "Financial Contract Reporting Agent Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    },
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "Origination Date Surrogate Key",
+        "birdeilEnt": "Financial Contract",
+        "birdeilEntPhyName": "Financial_contract",
+        "birdeilBtId": "Financial Contract Inception Date",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD10",
+        "oraLogDataType": "DATE"
+    },
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "Maturity Date Surrogate Key",
+        "birdeilEnt": "Financial Contract",
+        "birdeilEntPhyName": "Financial_contract",
+        "birdeilBtId": "Legal Final Maturity Date",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD10",
+        "oraLogDataType": "DATE"
+    },
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "Account Surrogate Key",
+        "birdeilEnt": "Financial Contract",
+        "birdeilEntPhyName": "Financial_contract",
+        "birdeilBtId": "Financial Contract Identifier",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD7",
+        "oraLogDataType": "VARCHAR2(60)"
+    },
+    {
+        "ofsaaEntName": "Common Account Summary",
+        "ofssaBT": "Account Type Surrogate Key",
+        "birdeilEnt": "Financial Contract",
+        "birdeilEntPhyName": "Financial_contract",
+        "birdeilBtId": "Financial Contract Type",
+        "filterFlag": "N",
+        "filterOpCode": "",
+        "filterValueCode": "",
+        "expression": "",
+        "logDataType": "LD6",
+        "oraLogDataType": "VARCHAR2(20)"
+    }
+]
