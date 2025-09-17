@@ -1,0 +1,12 @@
+{
+  "serviceCode": "PBSMADS",
+  "publisherTenantId": "#publishTenant#",
+  "subscriberAccountUpdate": "SUBSCRIBER_WALLET_UPD",
+  "subscriberRegistrationDetails": {
+    "idcsUrl": "https://idcs-67d09dbfffba47c89ddba118fbb5717a.identity.pint.oc9qadev.com",
+	"publisherClientId": "#publishTenant#_APPID",
+	"publisherClientSecret": "#clientSecreID#",
+	"publisherUserId": "#OfsUser#",
+	"publisherUserPassword": "#password#"
+  }
+}

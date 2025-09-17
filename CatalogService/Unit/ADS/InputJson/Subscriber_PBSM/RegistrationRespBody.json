@@ -1,0 +1,190 @@
+{
+  "body" : {
+    "appVersion" : "25.6.1", 
+    "businessServiceId" : "160", 
+    "subscribeAdsList" : [ {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_DERIVATIVE_FX_CONTRACTS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_DERIVATIVE_FX_CONTRACTS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_ASSET_INVESTMENTS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_ASSET_INVESTMENTS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_FEE_BASED_SERVICE_OTHER_SERVICES", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_FEE_BASED_SERVICE_OTHER_SERVICES", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_IRC_RATE_HIST", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_IRC_RATE_HIST", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_OFF_BALANCE_SHEET_LC_CONTRACTS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_OFF_BALANCE_SHEET_LC_CONTRACTS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_EMBEDDED_OPTIONS_SCH", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_EMBEDDED_OPTIONS_SCH", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_DERIVATIVE_OPTION_CONTRACTS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_DERIVATIVE_OPTION_CONTRACTS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_FEE_BASED_SERVICE_TXN", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_FEE_BASED_SERVICE_TXN", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_CUSTOMER_MASTER_PARTY_MASTER", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_CUSTOMER_MASTER_PARTY_MASTER", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_PAYMENT_SCHEDULE", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_PAYMENT_SCHEDULE", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_ACCOUNT_RATE_TIERS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_ACCOUNT_RATE_TIERS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_DERIVATIVE_FORWARDS_CONTRACTS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_DERIVATIVE_FORWARDS_CONTRACTS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_ASSET_TXN", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_ASSET_TXN", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_DIMENSIONS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_DIMENSIONS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_MGMT_LEDGER_GL_DATA", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_MGMT_LEDGER_GL_DATA", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_ASSET_LEASES_CONTRACTS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_ASSET_LEASES_CONTRACTS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_CUSTOMER_HIERARCHY_PARTY_HIER", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_CUSTOMER_HIERARCHY_PARTY_HIER", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_LIABILITY_BORROWINGS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_LIABILITY_BORROWINGS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_ACCOUNT_INDEX_HIST", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_ACCOUNT_INDEX_HIST", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_LIABILITY_TXN", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_LIABILITY_TXN", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_LOAN_COMMITMENTS_COMMITMENT_CONTRACTS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_LOAN_COMMITMENTS_COMMITMENT_CONTRACTS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_OFF_BALANCE_SHEET_TXN", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_OFF_BALANCE_SHEET_TXN", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_ASSET_LOAN_CONTRACTS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_ASSET_LOAN_CONTRACTS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_DERIVATIVE_SWAPS_CONTRACTS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_DERIVATIVE_SWAPS_CONTRACTS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_LIABILITY_TD_CONTRACTS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_LIABILITY_TD_CONTRACTS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_ASSET_BILL_CONTRACTS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_ASSET_BILL_CONTRACTS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_LIABILITY_CASA", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_LIABILITY_CASA", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_EXCHANGE_RATES", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_EXCHANGE_RATES", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_ASSET_OD_ACCOUNTS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_ASSET_OD_ACCOUNTS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    },  {
+      "serviceCode" : "PBSMADS", 
+      "serviceObjectCode" : "STG_ASSET_CARDS", 
+      "servicePmfCode" : "PBSM_ADS_AQ38V5_PRD_STG_ASSET_CARDS", 
+      "serviceVersion" : "25.6.1", 
+      "subscriberCode" : "PBSMADS_AQ38V5-PRD_CU5NA7-PRD"
+    } ]
+  }, 
+  "code" : "CV0000", 
+  "errorMessage" : "Operation Successful", 
+  "message" : "Operation Successful"
+}

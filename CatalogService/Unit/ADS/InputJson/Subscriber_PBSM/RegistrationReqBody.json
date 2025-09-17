@@ -1,0 +1,12 @@
+{
+    "serviceCode": "PBSMADS",
+    "publisherTenantId": "#publishTenant#",
+    "subscriberRegistrationDetails": {
+        "idcsUrl": "https://idcs-67d09dbfffba47c89ddba118fbb5717a.identity.pint.oc9qadev.com",
+    "publisherAppUrl": "https://devcorp7.ofsaa.us-phoenix-1.ocs.oc-test.com",
+    "publisherClientId": "#publishTenant#_APPID",
+    "publisherClientSecret": "#clientSecreID#",
+    "publisherUserId": "#OfsUser#",
+    "publisherUserPassword": "#password#"
+    }
+}

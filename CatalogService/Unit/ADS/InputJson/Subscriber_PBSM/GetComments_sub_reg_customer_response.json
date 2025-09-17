@@ -1,0 +1,326 @@
+{
+    "body": [
+        {
+            "metrics": [
+                {
+                    "id": 1,
+                    "metricId": "ADS",
+                    "metricName": "Application Data Service",
+                    "metricValue": "29"
+                },
+                {
+                    "id": 2,
+                    "metricId": "ENTRCVD",
+                    "metricName": "Entities receives data",
+                    "metricValue": "29"
+                },
+                {
+                    "id": 3,
+                    "metricId": "ATRRCVD",
+                    "metricName": "Attributes receives data",
+                    "metricValue": "1050"
+                },
+                {
+                    "id": 5,
+                    "metricId": "PUBLISHER",
+                    "metricName": "Publisher",
+                    "metricValue": "fp5qod-prd"
+                }
+            ],
+            "serviceCode": "PBSMADS",
+            "serviceDescription": "Profitability and Balance Sheet Management Application Data Services",
+            "serviceId": 1,
+            "serviceName": "Profitability and Balance Sheet Management Application Data Services",
+            "servicesDetails": [
+                {
+                    "children": [
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "5",
+                            "serviceCode": "DIMENSIONS_ATTR_INTF",
+                            "serviceDetailsId": 14,
+                            "serviceObjectDesc": "Data Service for Dimensions Attribute Interface",
+                            "serviceObjectName": "Dimensions Attribute Interface",
+                            "targetEntities": "Stage Dimensions Attribute Interface"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "8",
+                            "serviceCode": "DIMENSIONS_B_INTF",
+                            "serviceDetailsId": 15,
+                            "serviceObjectDesc": "Data Service for Dimensions Base Interface",
+                            "serviceObjectName": "Dimensions Base Interface",
+                            "targetEntities": "Stage Dimensions Member Interface"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "8",
+                            "serviceCode": "DIMENSIONS_HIER_INTF",
+                            "serviceDetailsId": 16,
+                            "serviceObjectDesc": "Data Service for Dimensions Hierarchy Interface",
+                            "serviceObjectName": "Dimensions Hierarchy Interface",
+                            "targetEntities": "Stage Dimensions Hierarchy Interface"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "8",
+                            "serviceCode": "DIMENSIONS_TL_INTF",
+                            "serviceDetailsId": 17,
+                            "serviceObjectDesc": "Data Service for Dimensions Translation Interface",
+                            "serviceObjectName": "Dimensions Translation Interface",
+                            "targetEntities": "Stage Dimensions Translation Interface"
+                        }
+                    ],
+                    "level": "A",
+                    "serviceObjectName": "Dimensions"
+                },
+                {
+                    "children": [
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "43",
+                            "serviceCode": "ASSET_BILL_CONTRACTS",
+                            "serviceDetailsId": 1,
+                            "serviceObjectDesc": "Data Service for Asset Bill Contracts",
+                            "serviceObjectName": "Asset Bill Contracts",
+                            "targetEntities": "Stage Asset"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "69",
+                            "serviceCode": "ASSET_INVESTEMENTS",
+                            "serviceDetailsId": 2,
+                            "serviceObjectDesc": "Data Service for Asset Investements",
+                            "serviceObjectName": "Asset Investements",
+                            "targetEntities": "Stage Asset"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "69",
+                            "serviceCode": "ASSET_CARDS",
+                            "serviceDetailsId": 5,
+                            "serviceObjectDesc": "Data Service for Asset Cards",
+                            "serviceObjectName": "Asset Cards",
+                            "targetEntities": "Stage Asset"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "72",
+                            "serviceCode": "ASSET_LEASES_CONTRACTS",
+                            "serviceDetailsId": 6,
+                            "serviceObjectDesc": "Data Service for Asset Leases Contracts",
+                            "serviceObjectName": "Asset Leases Contracts",
+                            "targetEntities": "Stage Asset"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "95",
+                            "serviceCode": "ASSET_LOAN_CONTRACTS",
+                            "serviceDetailsId": 7,
+                            "serviceObjectDesc": "Data Service for Asset Loan Contracts",
+                            "serviceObjectName": "Asset Loan Contracts",
+                            "targetEntities": "Stage Asset"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "62",
+                            "serviceCode": "ASSET_OD_ACCOUNTS",
+                            "serviceDetailsId": 8,
+                            "serviceObjectDesc": "Data Service for Asset Overdraft Accounts",
+                            "serviceObjectName": "Asset Overdraft Accounts",
+                            "targetEntities": "Stage Asset"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "40",
+                            "serviceCode": "DERIVATIVE_FORWARDS_CONTRACTS",
+                            "serviceDetailsId": 10,
+                            "serviceObjectDesc": "Data Service for Derivative Forwards Contracts",
+                            "serviceObjectName": "Derivative Forwards Contracts",
+                            "targetEntities": "Stage Derivative"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "44",
+                            "serviceCode": "DERIVATIVE_FX_CONTRACTS",
+                            "serviceDetailsId": 11,
+                            "serviceObjectDesc": "Data Service for Derivative Forex Contracts",
+                            "serviceObjectName": "Derivative Forex Contracts",
+                            "targetEntities": "Stage Derivative"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "60",
+                            "serviceCode": "DERIVATIVE_OPTION_CONTRACTS",
+                            "serviceDetailsId": 12,
+                            "serviceObjectDesc": "Data Service for Derivative Option Contracts",
+                            "serviceObjectName": "Derivative Option Contracts",
+                            "targetEntities": "Stage Derivative"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "91",
+                            "serviceCode": "DERIVATIVE_SWAPS_CONTRACTS",
+                            "serviceDetailsId": 13,
+                            "serviceObjectDesc": "Data Service for Derivative Swaps Contracts",
+                            "serviceObjectName": "Derivative Swaps Contracts",
+                            "targetEntities": "Stage Derivative"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "27",
+                            "serviceCode": "FEE_BASED_SERVICE_OTHER_SERVICES",
+                            "serviceDetailsId": 19,
+                            "serviceObjectDesc": "Data Service for Fee Based Service Other Services",
+                            "serviceObjectName": "Fee Based Service Other Services",
+                            "targetEntities": "Stage Fee Based Service"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "55",
+                            "serviceCode": "LIABILITY_BORROWINGS",
+                            "serviceDetailsId": 21,
+                            "serviceObjectDesc": "Data Service for Liability Borrowings",
+                            "serviceObjectName": "Liability Borrowings",
+                            "targetEntities": "Stage Liability"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "67",
+                            "serviceCode": "LIABILITY_CASA",
+                            "serviceDetailsId": 22,
+                            "serviceObjectDesc": "Data Service for Liability Casa",
+                            "serviceObjectName": "Liability Casa",
+                            "targetEntities": "Stage Liability"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "17",
+                            "serviceCode": "LIABILITY_PREPAID_CARDS",
+                            "serviceDetailsId": 23,
+                            "serviceObjectDesc": "Data Service for Liability Prepaid Cards",
+                            "serviceObjectName": "Liability Prepaid Cards",
+                            "targetEntities": "Stage Liability"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "58",
+                            "serviceCode": "LIABILITY_TD_CONTRACTS",
+                            "serviceDetailsId": 24,
+                            "serviceObjectDesc": "Data Service for Liability Term Deposit Contracts",
+                            "serviceObjectName": "Liability Term Deposit Contracts",
+                            "targetEntities": "Stage Liability"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "34",
+                            "serviceCode": "LOAN_COMMITMENTS_COMMITMENT_CONTRACTS",
+                            "serviceDetailsId": 26,
+                            "serviceObjectDesc": "Data Service for Loan Commitments Commitment Contracts",
+                            "serviceObjectName": "Loan Commitments Commitment Contracts",
+                            "targetEntities": "Stage Loan Commitments"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "35",
+                            "serviceCode": "OFF_BALANCE_SHEET_LC_CONTRACTS",
+                            "serviceDetailsId": 27,
+                            "serviceObjectDesc": "Data Service for Off Balance Sheet LC Contracts",
+                            "serviceObjectName": "Off Balance Sheet LC Contracts",
+                            "targetEntities": "Stage Off Balance"
+                        }
+                    ],
+                    "level": "A",
+                    "serviceObjectName": "Instruments"
+                },
+                {
+                    "children": [
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "5",
+                            "serviceCode": "ACCOUNT_INDEX_HIST",
+                            "serviceDetailsId": 3,
+                            "serviceObjectDesc": "Data Service for Account Index History",
+                            "serviceObjectName": "Account Index History",
+                            "targetEntities": "Stage Account Index History"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "19",
+                            "serviceCode": "ACCOUNT_RATE_TIERS",
+                            "serviceDetailsId": 4,
+                            "serviceObjectDesc": "Data Service for Account Rate Tiers",
+                            "serviceObjectName": "Account Rate Tiers",
+                            "targetEntities": "Stage Account Rate Tiers"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "5",
+                            "serviceCode": "EMBEDDED_OPTIONS_SCH",
+                            "serviceDetailsId": 18,
+                            "serviceObjectDesc": "Data Service for Embedded Options Schedule",
+                            "serviceObjectName": "Embedded Options Schedule",
+                            "targetEntities": "Stage Embedded Options Schedule"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "6",
+                            "serviceCode": "PAYMENT_SCHEDULE",
+                            "serviceDetailsId": 29,
+                            "serviceObjectDesc": "Data Service for Payment Schedule",
+                            "serviceObjectName": "Payment Schedule",
+                            "targetEntities": "Stage Payment Schedule"
+                        }
+                    ],
+                    "level": "A",
+                    "serviceObjectName": "Instruments Supplementary"
+                },
+                {
+                    "children": [
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "12",
+                            "serviceCode": "ASSET_TXN",
+                            "serviceDetailsId": 9,
+                            "serviceObjectDesc": "Data Service for Asset Transaction",
+                            "serviceObjectName": "Asset Transaction",
+                            "targetEntities": "Stage Asset Transaction Summary"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "12",
+                            "serviceCode": "FEE_BASED_SERVICE_TXN",
+                            "serviceDetailsId": 20,
+                            "serviceObjectDesc": "Data Service for Fee Based Service Transaction",
+                            "serviceObjectName": "Fee Based Service Transaction",
+                            "targetEntities": "Stage Fee Based Service Transaction Summary"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "12",
+                            "serviceCode": "LIABILITY_TXN",
+                            "serviceDetailsId": 25,
+                            "serviceObjectDesc": "Data Service for Liability Transaction",
+                            "serviceObjectName": "Liability Transaction",
+                            "targetEntities": "Stage Liability Transaction Summary"
+                        },
+                        {
+                            "level": "B",
+                            "noOfAttributesRcvd": "12",
+                            "serviceCode": "OFF_BALANCE_SHEET_TXN",
+                            "serviceDetailsId": 28,
+                            "serviceObjectDesc": "Data Service for Off Balance Sheet Transaction",
+                            "serviceObjectName": "Off Balance Sheet Transaction",
+                            "targetEntities": "Stage Off Balance Sheet Transaction Summary"
+                        }
+                    ],
+                    "level": "A",
+                    "serviceObjectName": "Instruments Transaction Summary"
+                }
+            ],
+            "subscribed": true,
+            "subscriptionCode": "PBSMADS_FP5QOD-PRD_FP5QOD-PRD"
+        }
+    ],
+    "code": "CV0000"
+}
