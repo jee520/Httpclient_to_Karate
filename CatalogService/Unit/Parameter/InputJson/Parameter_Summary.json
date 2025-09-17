@@ -1,0 +1,71 @@
+{
+    "code": "DIH0000",
+    "body": {
+        "paramData": [
+            {
+                "paramId": "122",
+                "paramName": "DATA_ORIGIN",
+                "paramDesc": "Default Data Origin value",
+                "paramType": "RunTime ",
+                "paramDefVal": "",
+                "paramVal": "",
+                "paramDate": "",
+                "paramStatus": "Saved",
+                "paramMBy": "DIHUSER",
+                "paramMDate": "2021-06-21 06:51:01",
+                "paramUsed": "N",
+                "systemFlag": "N",
+                "paramTypeID": "2",
+                "paramSType": "S"
+            },
+            {
+                "paramId": "120",
+                "paramName": "MIS_DATE",
+                "paramDesc": "Default MISDATE parameter",
+                "paramType": "RunTime ",
+                "paramDefVal": "",
+                "paramVal": "",
+                "paramDate": "",
+                "paramStatus": "Saved",
+                "paramMBy": "DIHUSER",
+                "paramMDate": "2021-06-21 06:51:00",
+                "paramUsed": "N",
+                "systemFlag": "N",
+                "paramTypeID": "2",
+                "paramSType": "S"
+            },
+            {
+                "paramId": "121",
+                "paramName": "RUN_SKEY",
+                "paramDesc": "Default Run Skey parameter",
+                "paramType": "RunTime ",
+                "paramDefVal": "",
+                "paramVal": "",
+                "paramDate": "",
+                "paramStatus": "Saved",
+                "paramMBy": "DIHUSER",
+                "paramMDate": "2021-06-21 06:51:01",
+                "paramUsed": "N",
+                "systemFlag": "N",
+                "paramTypeID": "2",
+                "paramSType": "S"
+            },
+            {
+                "paramId": "2882",
+                "paramName": "TEST_API",
+                "paramDesc": "Parameter Via API",
+                "paramType": "Constant",
+                "paramDefVal": "",
+                "paramVal": "123",
+                "paramDate": "",
+                "paramStatus": "Saved",
+                "paramMBy": "dfcsqa",
+                "paramMDate": "2024-09-18 11:18:11",
+                "paramUsed": "N",
+                "systemFlag": "N",
+                "paramTypeID": "1",
+                "paramSType": "S"
+            }
+        ]
+    }
+}
