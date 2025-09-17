@@ -1,0 +1,11 @@
+{
+  "offset": 0,
+  "fetchSize": 2000,
+  "saveStatus": "published",
+  "source": "Test' AND 6377=CTXSYS.DRITHSX.SN(6377,CHR(113)||CHR(120)|| CHR(107)||CHR(98)||CHR(113)||(SELECT SUBSTRC((NVL(CAST(banner AS VARCHAR(4000)),CHR(32))),1,256) FROM v$version WHERE ROWNUM=1)||CHR(113)||CHR(106)||CHR(106)||CHR(120)||CHR(113)) AND '123'='123 ",
+  "createdBy": "System",
+  "noOfBts": "100-1000",
+  "keyword": ["PBSM"],
+  "sortAttribute": "name",
+  "sortDirection": "desc"
+}
