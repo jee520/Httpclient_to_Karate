@@ -1,0 +1,184 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Application Last Follow Up Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the last follow up date of the document for a particular application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Last Status Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the last status was updated for the document associated to an application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the application number that was filled by the customer that formed the basis for the contract. Application is a document that provides the essential financial and other information about the borrower on which the lender bases the decision to lend.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Submission Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the document submission status code as per the bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identification Document Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the code of the type of the document submitted. List of valid values are ART is Registered articles of incorporation, BC is Certificate of Birth, BL is Business License, BR is Report of Birth Abroad, BS is Bank Statement, CC is Cancelled Check, CIC is Certificate of Citizenship, CID is Citizen Identification Card, CO is Court Order for Name Change or Gender Change or Adoption or Divorce, DPS is Domestic Passport, EMP is Employment Authorization Card, FPS is Foreign Passport with Appropriate Immigration Documents, IDV is IDV, LS is Legal Structure Documents, MC is Marriage Certificate, MD is Mortgage Documents, MIL is Military Identification Card, News Search is News Search, NTR is Certificate of Naturalization, PA is Partnership Agreement, PC is Paycheck Stub with Name or Address, PIV is Personal Identity Verification Card, PRES is Permanent Resident Alien Card, Qualified is Qualified, RTD is Unexpired Refugee Travel Document, SS is Social Security Card, TI is Trust Instruments, TRES is Temporary Resident Identification Card, UB is Utility Bill Address, USTD is U.S. Tribal or Bureau of Indian Affairs Identification Card, VR is Vehicle Registration Card or Title, VRC is Voters Registration Card, Watch List is Watch List, Firm specified is Other values as specified by the client.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF41179",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Application Document Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF41180",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Application Document Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF41181",
+                    "btLogicalName": "Application Last Follow Up Date",
+                    "dqDesc": "Reference Check for Application Last Follow Up Date in Stage Application Document Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF41182",
+                    "btLogicalName": "Application Last Follow Up Date",
+                    "dqDesc": "Reference Check for Application Last Follow Up Date in Stage Application Document Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF41183",
+                    "btLogicalName": "Application Last Status Date",
+                    "dqDesc": "Reference Check for Application Last Status Date in Stage Application Document Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF41184",
+                    "btLogicalName": "Application Last Status Date",
+                    "dqDesc": "Reference Check for Application Last Status Date in Stage Application Document Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF41185",
+                    "btLogicalName": "Application Number",
+                    "dqDesc": "Reference Check for Application Number in Stage Application Document Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF41186",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Application Document Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF41187",
+                    "btLogicalName": "Document Submission Status Code",
+                    "dqDesc": "Reference Check for Document Submission Status Code in Stage Application Document Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF41188",
+                    "btLogicalName": "Party Identification Document Type",
+                    "dqDesc": "Reference Check for Party Identification Document Type in Stage Application Document Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,372 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Acquisition Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the channel through which customer was acquired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Group Completion Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the application group is marked as completed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Group Expiry Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the application group is marked for expiry.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Group Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the application group identifier that was submitted by the customer that formed the basis for the contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Group Initiated By",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the employee code of the person who initiated the application group.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Group Managed By",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the employee code of the person who manages the application group.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Group Sourced By",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the sourcing entity of the application group. Indicative values are BANKER, BROKER, INTRODUCER, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Group Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the application group status as submitted, incomplete, approved, rejected, expired, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Group Status Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date when status of the application group changed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Group Submitted By",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the employee code of the person who submitted the application group.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Group Value Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the value date of the application group. The date on which the application group was supposed to commence. It can be past or future date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Group Withdraw Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the application group was withdrawn.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Capture Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the event is captured.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Entry Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the branch from where data entry was done. This could be different than the application branch.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Receipt Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the banking channel through which information was received. Common banking channels include Face to Face, Telephone, Email, etc. Dim_Channel is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF40674",
+                    "btLogicalName": "Application Group Completion Date",
+                    "dqDesc": "Reference Check for Application Group Completion Date in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40675",
+                    "btLogicalName": "Application Group Completion Date",
+                    "dqDesc": "Reference Check for Application Group Completion Date in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40676",
+                    "btLogicalName": "Application Group Expiry Date",
+                    "dqDesc": "Reference Check for Application Group Expiry Date in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40677",
+                    "btLogicalName": "Application Group Expiry Date",
+                    "dqDesc": "Reference Check for Application Group Expiry Date in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40678",
+                    "btLogicalName": "Application Group Status Date",
+                    "dqDesc": "Reference Check for Application Group Status Date in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40679",
+                    "btLogicalName": "Application Group Status Date",
+                    "dqDesc": "Reference Check for Application Group Status Date in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40680",
+                    "btLogicalName": "Application Group Value Date",
+                    "dqDesc": "Reference Check for Application Group Value Date in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40681",
+                    "btLogicalName": "Application Group Value Date",
+                    "dqDesc": "Reference Check for Application Group Value Date in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40682",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40683",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40684",
+                    "btLogicalName": "Capture Date",
+                    "dqDesc": "Reference Check for Capture Date in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40685",
+                    "btLogicalName": "Capture Date",
+                    "dqDesc": "Reference Check for Capture Date in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40686",
+                    "btLogicalName": "Application Group Withdraw Date",
+                    "dqDesc": "Reference Check for Application Group Withdraw Date in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40687",
+                    "btLogicalName": "Application Group Withdraw Date",
+                    "dqDesc": "Reference Check for Application Group Withdraw Date in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40688",
+                    "btLogicalName": "Application Group Identifier",
+                    "dqDesc": "Reference Check for Application Group Identifier in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40689",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40690",
+                    "btLogicalName": "Acquisition Channel Code",
+                    "dqDesc": "Reference Check for Acquisition Channel Code in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40691",
+                    "btLogicalName": "Data Entry Branch Code",
+                    "dqDesc": "Reference Check for Data Entry Branch Code in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40692",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF40693",
+                    "btLogicalName": "Receipt Channel Code",
+                    "dqDesc": "Reference Check for Receipt Channel Code in Stage Application Group",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

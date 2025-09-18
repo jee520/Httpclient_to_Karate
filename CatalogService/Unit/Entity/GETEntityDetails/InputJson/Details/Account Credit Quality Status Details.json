@@ -1,0 +1,134 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Quality Grade Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the credit quality Grade code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Quality Last Review Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the credit quality was last reviewed.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Quality Next Review Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the credit quality will be reviewed next.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Quality Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the credit quality reason code. Dim_Credit_Reason is the equivalent dimension table for this column.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Quality Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the credit quality type. Indicative Values are Low Pass, Pass, Watch List, Loss etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF41335",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Credit Quality Status Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF41336",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Credit Quality Status Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF41337",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Account Credit Quality Status Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF41338",
+                    "btLogicalName": "Credit Quality Grade Code",
+                    "dqDesc": "Reference Check for Credit Quality Grade Code in Stage Account Credit Quality Status Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF41339",
+                    "btLogicalName": "Credit Quality Type",
+                    "dqDesc": "Reference Check for Credit Quality Type in Stage Account Credit Quality Status Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

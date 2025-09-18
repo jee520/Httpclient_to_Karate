@@ -1,0 +1,1051 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Insurance Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is insured. List of Values are Y and N. Y as Insured, N as Uninsured.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the purpose for which account has originated, purpose or special use of this account. Account purpose dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accrual Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the accrual status codes. Accrual Status Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Adjusted Loss Given Default Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the Adjusted LGD for an exposure and mainly used for Internal Model Method to arrive at RWA. This is expressed in decimal number, For example, 30 percent will be 0.3.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amortized Cost At Sale",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Stores amortized cost at sale. Amortized cost is that accumulated portion of the recorded cost of a fixed asset that has been charged to expense through either depreciation or amortization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Asset Purchaser Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the party which has purchased the asset that is being sold.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Asset Sold Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Indicates the date on which the asset was sold by bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Banks Own Estimate Of Credit Conversion Factor Percent",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the Credit Conversion Factor percent estimate by the bank. This is applicable only to the off balance amount or products and not to the bills contracts. Using this weight as factor, Risk weighted Assets are calculated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Book Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to if the contract is related to the banking book or trading book. Usually contracts like loans and leases are on the banking book. However, instruments like mortgage backed securities can be held on the trading book of the financial institution. If the value is updated as T then exposure or contract belongs to trading book and if the value is updated as B then it belongs to banking book.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Borrower Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Borrower of the loan sold by bank to other party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Construction Loan Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Construction loan type code. The construction loans can be 1 4 Family, other construction type etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Participation Tranche Outstanding Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the outstanding balance for the participating bank part of the Participation Tranche.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Deferred Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to deferred current balance refers to Current un amortized deferred balance representing future income or expense such as premium or discount. Deferred Current Balance holds the discount or premium associated with an instrument. A discount loan or instrument is one with interest deducted from the face value of the loan at its origination. The discount amount is the difference between the loans current market price and its stated par value. The deferred current balance, which represents income, will be amortized over the life of the instrument according to a constant yield calculation. Therefore, as the instrument approaches maturity, the book balance approaches the face value or par balance. For discounted instruments, the deferred current balance is a negative balance. This indicates to the cash flow engine that the balance is income.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day Count Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the day count indicator. Expected values are A/360, A/365, A/A, 30/360, 30/360 EUROPEAN, 30/A. Suggested default value are 1=30/360 for amortizing transactions OR 3=Act/Act. for non amortization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Maturity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the effective maturity of an exposure. Typically, it would be longest possible remaining time before the counterparty is scheduled to fulfill its obligation. It is used in RWA calculation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Principal Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the outstanding principal balance at the end of the month. Each account will have principal and interest component, this column will capture the outstanding principal component at the end of the month.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Expected Loss Best Estimate Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the best estimate of expected loss. This is applicable to exposures which have already defaulted. This is useful when financial institutions use their own estimates of Loss given default.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Post Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the exposure at default amount post mitigation by all eligible mitigants\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Pre Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the pre mitigation Exposure at default amount of the total exposure, as applicable to the particular jurisdiction. This is generally equal to the sum of Exposure of default pre mitigation for the drawn portion of the exposure and the exposure of default per mitigation for the undrawn portion of the exposure.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiduciary Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is held with the bank under a fiduciary capacity. Fiduciary capacity means trustee, executor, administrator, registrar of stocks and bonds, transfer agent, guardian, assignee, receiver, or custodian under a uniform gifts to minors act investment adviser, if the bank receives a fee for its investment advice any capacity in which the bank possesses investment discretion on behalf of another or any other similar capacity that the regulator authorizes. For example deposits that are placed with a bank by a national bank for which the bank is a fiduciary.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantor Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the identifier of the Party who guaranteed the program.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holding Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the holding intent of the account. Holding Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "IFSB Contract Type Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Islamic Financial Services Board classification of the instrument. This is applicable in case of Islamic finance products. Examples, include Murabahah, Musharakah, Sukuk, etc. Ifsb Contract Type Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Income From Asset Sales",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This column stores income earned from the sale of the asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Individual Portfolio Mortgage Insurance Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates for identifying if the Mortgage insurance is Individual or portfolio. List of Values are I - Individual and P - Portfolio.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Accrued Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the accrued interest amount associated with the contract. This is the interest that has accumulated on an instrument since the last interest payment up to, but not including, the settlement date. Accrued Interest is defined as Interest earned but not received, realized. For example, bonds usually pay interest every six months, therefore interest accrues between one interest payment and the next. The buyer of a bond pays its market value plus the interest earned up to the settlement date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of interest rate paid on this transaction., For instance Fixed Or Floating.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "International Banking Facility Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or transaction is belongs to an international banking facility. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Latest Record Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies the latest records for a particular combination of primary keys. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lien Position Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of underlying note on the loan. This is also known as the lien position. First mortgage is a mortgage in a first lien position on the property that secures the mortgage. A first mortgage has priority over all other liens or claims on a property in the event of default. If the loan to value, LTV, ratio of a first mortgage is greater than 80 percent, lenders generally require private mortgage insurance, PMI. In such a case, it can sometimes be economical for a borrower to limit the size of the first mortgage to an 80 percent LTV and use secondary financing to borrow the remaining amount needed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Load Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the load run identifier. Load run identifier enables user to load multiple versions intraday or post back dated adjustment entries to the table. Refers to the Load run identifier of the equivalent record in product processor that needs to be adjusted. Default value of  1 indicates that the latest load run is being adjusted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Recourse Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to loan recourse type. A loan with recourse type would provide the financial institution to pursue recovery of any specific component of the unpaid debt from the personal assets of the customer. A mortgage or auto loan is backed by the asset that is financed, upon default, the asset is sold to make good the amount due from the customer. If the amount is insufficient to cover a component which has been agreed under the recourse, then the lender can is empowered by pursuing against any other asset that the customer may hold to recover the amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Repurchase Request Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which request for loan repurchase for the asset that has been sold.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Long Run Weighted Average Loss Given Default",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the long run weighted average loss given default. This is the estimate of the average economic loss rate that is expected to be incurred in the event of default, measured over the long run. If the purchasing bank can estimate either the default weighted average loss rates of pool given default or average PD in a reliable manner, the bank may estimate the other parameter based on an estimate of the expected long run loss rate. The bank may, i, use an appropriate PD estimate to infer the long run default weighted average loss rate given default, or, ii, use a long run default weighted average loss rate given default to infer the appropriate PD.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Given Default Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the loss given default value of the account. Loss given default is the expected amount to be lost by the financial institution if the borrower defaults. Institutions such as banks will determine their credit losses through an analysis of the actual loan defaults. While quantifying some losses may be simple, in some situations it may be quite difficult and require the analysis of multiple variables. For example, if Bank X loans USD 1 million to ABC Company and ABC defaults on the note, Bank Xs loss is not necessarily USD 1 million. This is because Bank X may hold substantial assets as collateral, and or may use the courts in an effort to be made whole. When all of these variables are factored in, Bank X may have lost substantially less than the original USD 1 million loan. The process of analyzing all of these variables, as well as all of the other loans in Bank Xs portfolio, is paramount to determining the loss given default. This value is calculated by the system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Given Default Refresh Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which loss given default for the contract was refreshed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss To Date Due To Denied Insurance And Or Indemnification",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the losses realized due to insurance claims denied by the US Government due to an identified defect on the loan in question. Also include any losses incurred due to indemnification agreements that were established with the US Government on loans with identify.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the contractual date on which the principal balance is expected to fully amortize and the balance payable would be nil. This is applicable for term loan products but not for revolving credit or overdraft type of account. In case of insurance policy, for some whole life insurance products the maturity date is aligned to maximum attained age and the policy is payable upon the earlier of the maturity date or the death of the insured. In case of Term Life insurance policies the maturity date is determined as policy issue date plus Term of the contract. In case of an annuity it is the date from which the annuitant has chosen to take the payouts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Unamortized Fee",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to net unamortized fee. Typically fees amortized over the life cycle of the Contract. Refers to the few components that are not amortized and are collected as and when required. Origination fees for a given Contract should be offset against related origination costs and the net amount should be deferred.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the original account number held by the source system. If there are multiple source systems without unique account numbers, we expect the account number and source system to be concatenated as part of the primary key, while this column will store the original account number as generated by the source system.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Original Lien Position Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the lien position code at origination. Refers to the type of underlying note on the loan. This is also known as the lien position. First mortgage is a mortgage in a first lien position on the property that secures the mortgage. A first mortgage has priority over all other liens or claims on a property in the event of default. If the loan to value, LTV, ratio of a first mortgage is greater than 80 percentage, lenders generally require private mortgage insurance, PMI. In such a case, it can sometimes be economical for a borrower to limit the size of the first mortgage to an 80 percentage LTV and use secondary financing to borrow the remaining amount needed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Loan To Value Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the original loan to value ratio of the account. This is computed as the ratio of Loan amount sanctioned to the value of the collateral against which the loan is granted. The loan to value measure is critical for credit decisioning, the ratio reduces as the loan account moves towards maturity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Presold Residential Units Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the reference units in the multi family residence could be pre sold condos to the customer. The amount required for construction is already recovered by the builder of the units. List of values are Y, N, NULL.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability Of Default Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the probability of default of an exposure over a period of one year, as required for regulatory capital calculation. This will be used in RWA calculation based on advanced approach. This is expressed in decimal number, For example, 30 percent will be 0.3.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability Of Default Refresh Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which said probability of default for the contract was refreshed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Property Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the property type code associated with given account. Property Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Provision Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the provision amount set against the account. Provisions are set aside by financial institution to cover against expected future loss. Provision amount on the loan increases as the credit quality deteriorates signifying high likelihood of default and thereby mandating more allocation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Residual Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the anticipated value of asset at expiration of lease term and is estimated based on the depreciated value at the end of the lease period. This is applicable only for Sold finance lease. This is the value at which lessee may buy the asset from the lesser on the expiry of lease period. Typically, this would be around 5 to 10 percentage of the cost of the asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Revolving Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is a term or revolving account. Revolving credit is a type of loan or credit that does not have a fixed number of payments. The revolving limit is similar to a credit limit against which a customer can draw funds for financing. Revolving amount is applicable to products like credit cards, revolving loans or line of credit etc. Term products are those products that have pre scheduled payments or maturity. Examples of term products are term loans, term deposits or Certificate of deposit etc. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sale Price",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Price at which the account or instrument is sold.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Secured Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or contract number is secured with a collateral or not. The collaterals to be considered here will be the collaterals other than margins. In case of deposits, this indicates it is Collateralized or Secured Deposit. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securities Guarantor Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to unique code of the guarantor for the securities. List of values are Central Government  CGG, State Government  SGG and Others  OTH.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitization Pool Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Unique identifier of the organization defined codes for a securitization pool. Securitize refers to a pooled group of financial assets that together create a new security, which is then marketed and sold to investors. The value and cash flows of the new security are based off of the underlying value and cash flows of the assets used in the securitization process. Companies will securitize illiquid assets into liquid assets in order to increase their overall liquidity and generate immediate proceeds from their assets.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitization Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the securitization status code. Status here represent securitization workflow status.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitization Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the securitization type codes. For example, TRD for Tradition securitization, SYN for synthetic securitization etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitized Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the exposure is securitized or not. Securitize refers to a pooled group of financial assets that together create a new security, which is then marketed and sold to investors. The value and cash flows of the new security are based off of the underlying value and cash flows of the assets used in the securitization process. Companies will securitize illiquid assets into liquid assets in order to increase their overall liquidity and generate immediate proceeds from their assets. List of values are Y, N. If the value is updated as Y means the exposure is securitized and if the value is updated as N means the exposure is not securitized.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seniority Claim Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the exposure is a senior claim. In case of Purchase Receivables, if the purchasing bank is unable to decompose EL into its PD and LGD components in a reliable manner, the risk weight is determined from the corporate risk weight function using the following specifications, if the bank can demonstrate that the exposures are exclusively senior claims to corporate borrowers, an LGD of 45Percent can be used, otherwise an LGD of 100Percent is used. List of values are Y and N, A value Y indicates that the exposure is a senior claim, and N indicates that the exposure is not a senior claim.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seniority Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the exposure seniority in the event of bankruptcy of the counterparty. Seniority refers to the order of repayment in the event of a sale or bankruptcy of the issuer. \nSeniority can refer to either debt or preferred stock. Senior debt must be repaid before subordinated, or junior, debt is repaid. Each security, either debt or equity, that a company issues has a specific seniority or ranking. Bonds that have the same seniority in capital structure of a company are described as being pair passu. Preferred stock is senior to common stock in a sale when preferred shareholders must receive back their preference, typically their original investment amount, before the common shareholders receive anything.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Fees And Charges",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total fees and charges collected or levied by the bank. This includes penal charges, fees, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unearned Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to any income that is unearned. i.e. not sourced in other columns used to source deferred amounts, such as Net Unamortized loan fees, Deferred Current Balance. Unearned income at the time of sale of the asset. Amount deducted as advance interest from a loaned sum. This amount is recorded as a liability in the books of the lending institution, and is gradually decreased as it is recognized as earned income over the life of the loan.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Used Or New Auto Loan Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if said loan is for new or used auto loans. List of Values are N for New Loans, U for Used Loans",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV31285",
+                    "btLogicalName": "Secured Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV31286",
+                    "btLogicalName": "Securitized Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV31287",
+                    "btLogicalName": "Presold Residential Units Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV31288",
+                    "btLogicalName": "Seniority Claim Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV31289",
+                    "btLogicalName": "Revolving Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV31290",
+                    "btLogicalName": "Used Or New Auto Loan Indicator",
+                    "dqDesc": "Should have list of values as N,U",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV31291",
+                    "btLogicalName": "Fiduciary Relationship Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV31292",
+                    "btLogicalName": "International Banking Facility Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34715",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34716",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34717",
+                    "btLogicalName": "Asset Sold Date",
+                    "dqDesc": "Reference Check for Asset Sold Date in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34718",
+                    "btLogicalName": "Asset Sold Date",
+                    "dqDesc": "Reference Check for Asset Sold Date in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34719",
+                    "btLogicalName": "Loan Repurchase Request Date",
+                    "dqDesc": "Reference Check for Loan Repurchase Request Date in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34720",
+                    "btLogicalName": "Loan Repurchase Request Date",
+                    "dqDesc": "Reference Check for Loan Repurchase Request Date in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34721",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34722",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34723",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34724",
+                    "btLogicalName": "Account Purpose Code",
+                    "dqDesc": "Reference Check for Account Purpose Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34725",
+                    "btLogicalName": "Accrual Status Code",
+                    "dqDesc": "Reference Check for Accrual Status Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34726",
+                    "btLogicalName": "Book Type",
+                    "dqDesc": "Reference Check for Book Type in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34727",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34728",
+                    "btLogicalName": "Borrower Code",
+                    "dqDesc": "Reference Check for Borrower Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34729",
+                    "btLogicalName": "Construction Loan Type",
+                    "dqDesc": "Reference Check for Construction Loan Type in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34730",
+                    "btLogicalName": "Country Code",
+                    "dqDesc": "Reference Check for Country Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34731",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34732",
+                    "btLogicalName": "Day Count Indicator",
+                    "dqDesc": "Reference Check for Day Count Indicator in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34733",
+                    "btLogicalName": "Guarantor Identifier",
+                    "dqDesc": "Reference Check for Guarantor Identifier in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34734",
+                    "btLogicalName": "Holding Type",
+                    "dqDesc": "Reference Check for Holding Type in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34735",
+                    "btLogicalName": "Instrument Code",
+                    "dqDesc": "Reference Check for Instrument Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34736",
+                    "btLogicalName": "Interest Rate Type",
+                    "dqDesc": "Reference Check for Interest Rate Type in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34737",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34738",
+                    "btLogicalName": "Lien Position Code",
+                    "dqDesc": "Reference Check for Lien Position Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34739",
+                    "btLogicalName": "Loan Recourse Type",
+                    "dqDesc": "Reference Check for Loan Recourse Type in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34740",
+                    "btLogicalName": "Line Of Business Code",
+                    "dqDesc": "Reference Check for Line Of Business Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34741",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34742",
+                    "btLogicalName": "Original Lien Position Code",
+                    "dqDesc": "Reference Check for Original Lien Position Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34743",
+                    "btLogicalName": "Original Account Number",
+                    "dqDesc": "Reference Check for Original Account Number in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34744",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34745",
+                    "btLogicalName": "Property Type",
+                    "dqDesc": "Reference Check for Property Type in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34746",
+                    "btLogicalName": "Asset Purchaser Identifier",
+                    "dqDesc": "Reference Check for Asset Purchaser Identifier in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34747",
+                    "btLogicalName": "Securitization Pool Identifier",
+                    "dqDesc": "Reference Check for Securitization Pool Identifier in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34748",
+                    "btLogicalName": "Securitization Status Code",
+                    "dqDesc": "Reference Check for Securitization Status Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34749",
+                    "btLogicalName": "Securitization Type",
+                    "dqDesc": "Reference Check for Securitization Type in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34750",
+                    "btLogicalName": "Securities Guarantor Identifier",
+                    "dqDesc": "Reference Check for Securities Guarantor Identifier in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF34751",
+                    "btLogicalName": "Seniority Code",
+                    "dqDesc": "Reference Check for Seniority Code in Stage Assets Sold",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

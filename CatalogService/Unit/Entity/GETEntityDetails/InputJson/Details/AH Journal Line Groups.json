@@ -1,0 +1,51 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "AH Line Number",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the grouped transaction reference number generated during publication to Accounting Hub.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "AH Transaction Reference",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique line number generated for each passthrough line during publication to Accounting Hub.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accounting Entry Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier if an accounting entry.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

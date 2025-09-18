@@ -1,0 +1,152 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Error Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the error code that had occurred for the accounting entry.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Error Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the error code that had occurred for the accounting entry.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Error Code Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Long",
+                    "gcd": "Sores the error description that has occurred for the accounting entry.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Error Code Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the error code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "35",
+                    "srcLogicalName": "Stage Accounting Entries Error Code Master",
+                    "scdName": "scd_35_DIM_ACCT_ENTRIES_ERROR_CODE_STG_ACCT_ENT_ERROR_CD_MASTER",
+                    "scdDesc": "Data movement from acct entries error code master source to acct entries error code dimension",
+                    "createdDate": "2024-10-26 06:02:42.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42627",
+                    "btLogicalName": "Error Code Numeric Identifier",
+                    "dqDesc": "Error Code Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQCUS42628",
+                    "btLogicalName": "Error Code Numeric Identifier",
+                    "dqDesc": "Error Code Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV31674",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQNMDUP42021",
+                    "btLogicalName": "Error Code Numeric Identifier",
+                    "dqDesc": "Error Code Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQSPLCH43011",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

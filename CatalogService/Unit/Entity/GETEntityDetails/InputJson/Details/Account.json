@@ -1,0 +1,529 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "ATM Facility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account has Automated teller machine facility. This is usually applicable for CASA, Overdrafts and Card accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to description of the account. Applicable for instruments that are traded.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account is closed. Account can be closed upon maturity of the account, transfer of the account, death of the account holder or write off.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the account or contract number.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the application number that was filled by the customer that formed the basis for the contract. Application is a document that provides the essential financial and other information about the borrower on which the lender bases the decision to lend.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the interest benchmark rate applicable to that account. This is applicable when the account carries floating rate of interest. In that case, prevailing rate is derived from the Interest Rate Curve and margin, if specified, is added to compute the applicable rate of interest for an account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the campaign under which the account was acquired. Campaign is defined as Specific activities designed to promote a product, service or business. A marketing campaign is a coordinated series of steps that can include promotion of a product through different mediums like television, radio, print, online using a variety of different types of advertisements. The campaign doesn't have to rely solely on advertising, and can also include demonstrations, word of mouth and other interactive techniques. Campaigns are created or started by financial institutions to promote sales, improve visibility of the brand or product and create opportunities for addon sales and cross selling.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Closed Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the party disassociates all direct and indirect relationship with the financial institution, this could also be on account of the death of an individual or dissolution of an entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Co-Applicant Original External Credit Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the co applicant original External Credit score. Original refers to the time of account origination.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Co-Applicant Original External Credit Score Source",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the co applicant original External Credit score source. Original refers to the time of account origination.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Co-Applicant Original Fico Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Original FICO or equivalent score of the given account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internet Facility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the internet or online facility is enabled for the account. This indicates that the customer can transact, lodge queries on the portal. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Joining Credit Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the credit score of the customer at the time of joining the financial institution for this relationship. Credit scores are defined as a statistically derived numeric expression of a persons creditworthiness that is used by lenders to access the likelihood that a person will repay his or her debts. A credit score is based on, among other things, a persons past credit history. It is a number between 300 and 850  the higher the number, the more creditworthy the person is deemed to be.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Joint Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account is jointly held by two or more individuals which means if the value is updated as Y the account is held by two or more people and if the value is updated as N the account is held by single entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the credit line associated with this account. Credit Line dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Location Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique location code. Location code is defined as the code which will represent the address of the property from zip code onwards like which city, country etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Main Line Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the indicator whether the credit line is main line or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Master Agreement Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the master agreement code. This is applicable for collateral based over the counter derivative contracts. The most common type of master agreement code for Swaps is the ISDA master agreement.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Offer Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the offer. An offer is defined as an abstract, physical and or monetary benefit attached to a product for a predetermined period of time with a view to increase the sales of a product. Offer dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the original account number held by the source system. If there are multiple source systems without unique account numbers, we expect the account number and source system to be concatenated as part of the primary key, while this column will store the original account number as generated by the source system.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Original Combined Loan To Value Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Store original Combined Loan to value ration for a given account. The original combined loan to value, CLTV, ratio is the original first loan amount and any junior liens at the time of origination divided by the lesser of the selling price or the appraised value of the property securing the mortgage at origination. This field may be provided on a best efforts basis for loans serviced for others and loans acquired through mergers and acquisitions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Commitment Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount committed originally to the account before any revisions which the lender agrees to grant to borrower.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Credit Limit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the credit limit that was originally allocated to the customer at the time of joining. The maximum amount for which a particular borrower is approved is known as the credit limit. If the limit is not revised the original limit and credit limit are the same.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Credit Score Source",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Original External Credit score source of the given account. List the vendor of the commercially available credit bureau score reported . If the vendor of the commercially available credit score reported is not among those listed, please select “Other” and report the vendor. List the version of the credit score in item 135. Note that scores which do not meet the definition of a commercially available credit bureau score as set forth in the General Instructions may be treated as missing data by the Federal Reserve 1=FICO 2=Vantage Score 3=Other.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Debt Service Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the debt service ratio at the time of origination. The debt service ratio is calculated as gross obligation divided by gross income. The debt service ratio generally tends to improve during the tenor of the loan, unless customer avails additional loans.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original External Credit Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Original External Credit score of the given account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Fico Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Store the original Fair Isaac Corporation, FICO, score of the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Gross Par Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the par balance at the time of origination. Original par balance represents the starting balance from which all fixed rate transfer pricing cash flows are generated, including principal run off, prepayments, and interest cash flows. ORG_PAR_BAL = ORG_BOOK_BAL  DEFERRED_ORG_BAL .",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to contractual interest rate at origination date whereas the interest rate field would store the interest rate applicable to the instrument as on As of Date. This is used for computing Effective Interest Rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Loan To Value Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the original loan to value ratio of the account. This is computed as the ratio of Loan amount sanctioned to the value of the collateral against which the loan is granted. The loan to value measure is critical for credit decisioning, the ratio reduces as the loan account moves towards maturity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Net Operating Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Net Operating Income, NOI, expected from the Mitigant provided for availing a credit facility at the time of origination. NOI at the time of Origination of the credit facility is stored in this column. Net Operating Income is defined as Operating Income less Operating Expenses of the Mitigant. Operating Income includes all type of Operating Income expected from the Mitigant including Rent and Lease amounts. Operating Expenses includes all types of Operating Expenses expected from the Mitigant including Insurance, Real Estate Taxes, Common Area Maintenance Expenses, Utilities, Replacement Reserves, Management Fees, Admin, Accounting and Legal Fees but excludes Income Tax, Debt Service Charges and Depreciation. Net Operating Income reported here is estimated for 12 months or is an Annualized amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ownership Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the organization defined code for the ownership type of the account. Expected values are IND  Individual, JOINT  Joint Tenant or Community Property, TRUST  Trust, CUST  Custodian, CORP  Corporate, FIRM  Firm Owned and OTHER  Other.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Point Of Sale Facility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or card can be used in POS terminals. POS refers to Point of sales terminals where retail transactions take place. It indicates that the customer can transact on a POS using the debit card or credit card or any other media linked to the account. It is often secured by a PIN.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Previous Account Or Contract Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the previous account or contract number. In case of card renewal, this holds the card number of the previous card. In case of a new account number is issued after renewal or reinstatement due to any reason, this holds the previous account number. If a new contract is created upon rollover of the account, the column stores the previous contract code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Purpose Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the purpose for which the contract or account, loan, lease etc., was entered and approved. Common purposes for loans include Refinancing, Project Finance, Home Improvement, Education, Personal expenses etc. The purposes can vary depending on whether the loan is extended to a corporation or an individual borrower. In case of ratings the purpose of rating whether the rating is DOMESTIC or FOREIGN.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sales Agent Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the sales agent involved in the origination of the account. Apart from branch sales, loans are typically sold with the distribution network of sales agents. Refers to the unique code associated with a sales agent.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Telebanking Facility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the telebanking facility is enabled for the account. Customer can then transact using the telebanking PIN by calling in the customer contact center. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Treatment Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identification code for a treatment. Treatment is defined which is channel specific instance of an offer. Treatment Refers to the message associated with the offer. Treatment dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1",
+                    "srcLogicalName": "Stage Account Master",
+                    "scdName": "scd_1_DIM_ACCOUNT_STG_ACCOUNT_MASTER",
+                    "scdDesc": "Data movement from account master source to account dimension",
+                    "createdDate": "2024-10-26 06:02:40.0",
+                    "modifiedDate": "2024-10-30 08:59:52.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42585",
+                    "btLogicalName": "Account Or Contract Numeric Identifier",
+                    "dqDesc": "Account Or Contract Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:28.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQCUS42586",
+                    "btLogicalName": "Account Or Contract Numeric Identifier",
+                    "dqDesc": "Account Or Contract Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:28.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33566",
+                    "btLogicalName": "ATM Facility Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:28.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33567",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:28.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33568",
+                    "btLogicalName": "Point Of Sale Facility Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:28.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33569",
+                    "btLogicalName": "Account Or Contract Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:28.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33570",
+                    "btLogicalName": "Internet Facility Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:28.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33571",
+                    "btLogicalName": "Joint Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:28.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33572",
+                    "btLogicalName": "Telebanking Facility Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:28.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQNMDUP42166",
+                    "btLogicalName": "Account Or Contract Numeric Identifier",
+                    "dqDesc": "Account Or Contract Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:28.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQSPLCH42971",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:28.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

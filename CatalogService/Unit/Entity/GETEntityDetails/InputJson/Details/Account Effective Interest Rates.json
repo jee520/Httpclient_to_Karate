@@ -1,0 +1,161 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date of origination of account.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Initial Spread",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the spread to be added to benchmark rate that discounts probability weighted future cash flows to the net carrying amount of the financial instrument through the life of an asset. Effective initial spread is applicable only to Variable interest rate instruments.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the rate that discounts probability weighted future cash flows to the net carrying amount of the financial instrument through the life of an asset. The rate that discounts probability weighted future cash flows to the net carrying amount of the financial instrument through the life of an asset. Effective interest rate is applicable only to Fixed interest rate instruments. For example Consider a stated annual rate of 10 percent. Compounded yearly, this rate will turn USD 1000 into USD 1100. However, if compounding occurs monthly, USD 1000 would grow to USD 1104.70 by the end of the year, rendering an effective annual interest rate of 10.47 percent. Basically the effective annual rate is the annual rate of interest that accounts for the effect of compounding.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "IFRS9 Effective Initial Spread",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the Effective Initial Spread as per the IFRS 9 final guidelines.  As per IFRS 9 guidelines, 'Effective Interest Rate' (which is calculated considering prepayments, etc. but not any losses) is considered for discounting purposes in all general accounts. while for Purchased or Originated Credit impaired (POCI) accounts, 'Credit Adjusted Effective Interest Rate' is considered (which is calculated considering the loss portion as well). OFSAA - LLFP (Loan Loss Forecasting Provisioning) application makes use of the 'IFRS 9 Effective Interest Rate' column for discounting in general accounts and 'Effective Interest Rate' column for discounting in POCI accounts.  As per OFSAA - LLFP (Loan Loss Forecasting Provisioning) application, 'IFRS 9 Effective Interest Rate' is calculated using contractual cash flows and 'Effective Interest Rate' is calculated using expected cash flows (which reflects the losses).  For variable rate accounts, 'IFRS 9 Effective Initial Spread' and the 'Effective Initial Spread' are used. 'IFRS 9  Effective Interest Rate' column = Effective Interest Rate (as per IFRS 9) 'IFRS 9\nEffective Initial Spread' column = Effective Initial Spread (as per IFRS 9) 'Effective\nInterest Rate' column = Credit Adjusted Effective Interest Rate (as per IFRS 9) 'Effective\nInitial Spread' column = Credit Adjusted Effective Initial Spread (as per IFRS 9).\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "IFRS9 Effective Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the Effective Interest Rate as per the IFRS 9 final guidelines.  As per IFRS 9 guidelines, 'Effective Interest Rate' (which is calculated considering prepayments, etc. but not any losses) is considered for discounting purposes in all general accounts. While for Purchased or Originated Credit impaired (POCI) accounts, 'Credit Adjusted Effective Interest Rate' is considered (which is calculated considering the loss portion as well). OFSAA - LLFP (Loan Loss Forecasting Provisioning) application makes use of the 'IFRS 9 Effective Interest Rate'.\ncolumn for discounting in general accounts and 'Effective Interest Rate' column for\ndiscounting in POCI accounts.  As per OFSAA - LLFP application, 'IFRS 9 Effective Interest\nRate' is calculated using contractual cash flows and 'Effective Interest Rate' is\ncalculated using expected cash flows (which reflects the losses).  For variable rate\naccounts, 'IFRS 9 Effective Initial Spread' and the 'Effective Initial Spread' are used.\n'IFRS 9  Effective Interest Rate' column = Effective Interest Rate (as per IFRS 9) 'IFRS 9\nEffective Initial Spread' column = Effective Initial Spread (as per IFRS 9) 'Effective\nInterest Rate' column = Credit Adjusted Effective Interest Rate (as per IFRS 9) 'Effective\nInitial Spread' column = Credit Adjusted Effective Initial Spread (as per IFRS 9)\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Initial Contractual Spread",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the contracted spread as of date of origination.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal Rate Of Return",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to internal rate of return calculated using contractual term. The internal rate of return, IRR, or economic rate of return, ERR, is a rate of return used in capital budgeting to measure and compare the profitability of investments. It is also called the discounted cash flow rate of return, DCFROR. In the context of savings and loans, the IRR is also called the effective interest rate. The term internal refers to the fact that its calculation does not incorporate macro economic factors, e.g., the interest rate or inflation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Reason For Calculation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to reason of calculation. At time due to change in contractual terms, bank may want to recalculate the EIR,EIS values. ON recalculation, Origination date will also change to the date on which recalculation happened.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF35996",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Effective Interest Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF35997",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Effective Interest Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF35998",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Account Effective Interest Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF35999",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Account Effective Interest Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                }
+            ]
+        }
+    ]
+}

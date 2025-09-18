@@ -1,0 +1,341 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Flow Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the expected cash flow amount. As per CECL standards, expected cash flows are required to compute the allowance for AFS debt security. For example, if the amortized cost of an AFS debt security is USD100 and the fair value is USD80, then over all impairment is equal to USD20. Out of this USD20, decline in fair value due to credit loss needs to be calculated. Expected cash flows are required to arrive at this value. This attribute stores the Cash Flow Amount, inflow or outflow amount in local or legal entity currency. The cash flows arrived out of fees paid and received from trading or holding a derivative.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Flow Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the date for which the cash flow estimate is done.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Flow Linked Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This flag indicates whether the cashflow is interlinked or not for derivatives .The interdependent inflow is directly linked to the outflow and it is not considered in the LCR calculation. List of values are Y and N.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Flow Scenario Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Scenario Number to which the cash flows belong. Expected cash flows can be different for different scenarios.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Flow Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of each cash flow type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Common Chart Of Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the chart of accounts is a listing of the names of the accounts that a financial institution has identified and made available for recording transactions in its general ledger. A financial institution has the flexibility to define its chart of accounts as per requirement, including adding accounts as needed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Element Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code that identifies the type of financial element, such as ending balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique general ledger account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of instrument type, which is defined as code identifying the instrument category of the customer account. Instrument Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the cost center to which the account belongs to. Organization Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sequence Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "This column stores a sequence Number. This is added as PK for capturing facts at required grain.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33668",
+                    "btLogicalName": "Cash Flow Linked Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40170",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40171",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40172",
+                    "btLogicalName": "Cash Flow Date",
+                    "dqDesc": "Reference Check for Cash Flow Date in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40173",
+                    "btLogicalName": "Cash Flow Date",
+                    "dqDesc": "Reference Check for Cash Flow Date in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40174",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40175",
+                    "btLogicalName": "Cash Flow Type",
+                    "dqDesc": "Reference Check for Cash Flow Type in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40176",
+                    "btLogicalName": "Common Chart Of Account Code",
+                    "dqDesc": "Reference Check for Common Chart Of Account Code in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40177",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40178",
+                    "btLogicalName": "Financial Element Code",
+                    "dqDesc": "Reference Check for Financial Element Code in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40179",
+                    "btLogicalName": "General Ledger Account Code",
+                    "dqDesc": "Reference Check for General Ledger Account Code in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40180",
+                    "btLogicalName": "Instrument Type",
+                    "dqDesc": "Reference Check for Instrument Type in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40181",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40182",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40183",
+                    "btLogicalName": "Organization Unit Code",
+                    "dqDesc": "Reference Check for Organization Unit Code in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40184",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Account Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "ALM",
+                    "ucName": "Asset Liability Management"
+                },
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                },
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                },
+                {
+                    "ucId": "BSP",
+                    "ucName": "Balance Sheet Planning"
+                }
+            ]
+        }
+    ]
+}

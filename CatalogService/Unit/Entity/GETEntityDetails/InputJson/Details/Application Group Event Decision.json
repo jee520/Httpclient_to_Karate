@@ -1,0 +1,180 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Application Decision Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the decision is taken on an application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Decision Event Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the decision event.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Decision Method Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the method used for decision. Indicative values are Automated, Manual.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Decision Reason Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the application decision codes like pending, referred, cancelled and so on.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Decision Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the status as set by the decision engine OR by a Credit Officer in the case of a manual Decision. Indicative Values are Approve, Conditionally_Approve, Refer, Refer_Downsell, Decline, Pending, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Decision Taken By",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the employee code of the person who has taken the decision.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Group Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the application group identifier that was submitted by the customer that formed the basis for the contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF38707",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Application Group Event Decision",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                },
+                {
+                    "dqId": "DQREF38708",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Application Group Event Decision",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                },
+                {
+                    "dqId": "DQREF38709",
+                    "btLogicalName": "Application Decision Date",
+                    "dqDesc": "Reference Check for Application Decision Date in Stage Application Group Event Decision",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                },
+                {
+                    "dqId": "DQREF38710",
+                    "btLogicalName": "Application Decision Date",
+                    "dqDesc": "Reference Check for Application Decision Date in Stage Application Group Event Decision",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                },
+                {
+                    "dqId": "DQREF38711",
+                    "btLogicalName": "Application Decision Reason Code",
+                    "dqDesc": "Reference Check for Application Decision Reason Code in Stage Application Group Event Decision",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                },
+                {
+                    "dqId": "DQREF38712",
+                    "btLogicalName": "Application Group Identifier",
+                    "dqDesc": "Reference Check for Application Group Identifier in Stage Application Group Event Decision",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                },
+                {
+                    "dqId": "DQREF38713",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Application Group Event Decision",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                },
+                {
+                    "dqId": "DQREF38714",
+                    "btLogicalName": "Application Decision Event Identifier",
+                    "dqDesc": "Reference Check for Application Decision Event Identifier in Stage Application Group Event Decision",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,2520 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Close Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the account is closed. Account can be an active or closed, this column will remain blank till account is active. Accounts can be closed upon maturity, transfer or death of a customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Manager Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the account manager is an employee who is responsible for the day to day management of accounts of a particular customer. The account manager is a point of contact, and provides customer support, up selling, technical assistance and general relationship management. An account manager may be in charge of a number of smaller accounts, or may focus on a few larger accounts. This column Refers to the account manager code or the unique employee identifier of the manager assigned by the financial institution. Management Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Open Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the account was opened in the financial institution. This is the system date on which the financial institution opens the account. It may or may not be equal to effective date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Acquisition Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the channel through which customer was acquired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Annual Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the annual income of the applicant or applicant or party or customer. Annual income is the total amount of income earned annually. Gross annual income represents the amount of money a person earns in one year from all sources before annual taxes are evaluated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Age",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the age of the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Bank Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the bank account number of the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Bank Address",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the bank address of the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Bank Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the bank name of the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Cell Phone",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the cell phone number of the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Education",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the applicant education.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Employer Phone Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the phone number of employer of the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Estimated Annual Revenue",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the estimated annual revenue of applicants.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant First Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the first name of applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Gender",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique gender code of the applicant. Reference dimensional table is Gender dimension.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Home Ownership Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the home ownership status of the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Home Phone Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the home phone number of the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Household Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the household income of the applicant or co applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the applicant identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Industry Segment",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the industry segment to which the applicant belongs.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Last Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the last name of the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Marital Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the marital status as married, unmarried or other.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Middle Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the middle name of the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Office Phone",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the office phone number of the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Or Co Applicant Profession",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the profession of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Other Phone",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the other phone number of the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Preferred Language",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the preferred language of the applicant. Expected values are FR, NL, DE, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Property Pre Sale Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the pre sales value for property associated with the loan. The presales are mostly in case where loan is taken for property that is being constructed or developed for further sale for residential or commercial purposes.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Property Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the value of the property.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Residence Address One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the first line of the address component of this residential address.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Residence Address Three",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the third line of the address component of this residential address.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Residence Address Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the second line of the address component of this residential address.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Residence Zip Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the zip code of residence of the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the status of the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Agent Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier assigned to the agent.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Approved Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the application is approved. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Closed Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date when Application is closed. No further changes may occur to the Application after this date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Contact Point Verification End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the contact point verification ends.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Contact Point Verification Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the contact point verification has started.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Decision By Score Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates the score was used for decision process using score indicator.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Decision Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the decision is taken on an application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Decision Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the application decision codes like pending, referred, cancelled and so on.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Document Completion Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if the documents have been completed for the application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Drop Off Stage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the online application, the stage or the step during which the application process is stopped or terminated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Duration Of Complete Contact Point Verification",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the time taken to complete contact point verification.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Duration Of Complete Internal Defaulter List Search",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the time taken to complete internal defaulter list search.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Duration Of Complete Negative List Search",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the time taken to complete negative list search.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Duration Of Complete Pre Screening",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the time taken to complete pre screening process.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Duration Of Complete Referral Verification",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the time taken to complete referral verification.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Duration Of Complete Residence Search",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the time taken to complete the residence search.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Fraud Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if the application is a likely fraud application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Group Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the application group identifier that was submitted by the customer that formed the basis for the contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Historical Referrals Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates applications referred in prior months.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Internal Defaulter List Search End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the internal defaulter list search ends.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Internal Defaulter List Search Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the internal defaulter list search has started.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Last Status Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the last status was updated for the document associated to an application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Low And Moderate Income Tracts Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the low and moderate income tracts applications. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Negative List Search End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the negative list search ends.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Negative List Search Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the negative list search has started.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Non Score Exclusion Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates the score was not used for decision process using non score exclusion indicator.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the application number that was filled by the customer that formed the basis for the contract. Application is a document that provides the essential financial and other information about the borrower on which the lender bases the decision to lend.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Origination Address",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the field captures data in case of application being originated to websites like amazon, ndtv, yahoo and Rediff, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Parent Card Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the parent card number in case application being requested for add on or supplementary card.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Pre Screening End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the positive search ends.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Pre Screening Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the positive search has started.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Process String",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the application process string formulated depending upon the completion of application processing stages.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Promotion Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the promotion code for the campaign.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the application Purpose.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Receipt Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the application is received.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Referral Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the referral code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Referral Verification End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the referral verification ends.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Referral Verification Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the referral verification has started.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Rejection Reason",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the reason for rejection of the application such as incomplete documents, data mismatch, credit history etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Requested Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount requested by the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Residence Verification End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the residence verification ends.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Residence Verification Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the residence verification has started.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Sequence Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the unique sequence number for an application. Sequence number is required to store multiple products in an application and different status associated with each product like approved, reject etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the application status as approved, rejected etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Supplementary Card Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates the supplementary card application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Terminal Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the terminal.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Terms And Conditions Acceptance Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date when Terms and Conditions associated with the Application is accepted by the Customers.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Terms And Conditions Offer Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date when Terms and Conditions associated with the Application is offered to the Customers.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of the application like fresh, existing and enhancement.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Verified Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the application is verified.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Approved Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount approved for the loan or line. This may differ from the actual contract amount or loan amount. Usually approved amount is the maximum exposure, the financial institution is willing to take on a contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Borrower Repayment Ability Documentation Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether bank has documentation of all the relevant criteria considered for the ability of borrower to repay. This includes documentation pertaining to Existing loans of borrower, tenancy profile relative to loan maturity of commercial property, impact of interest rates etc. List of values are Y, N. A value of Y indicates that the bank has all the appropriate documentation capturing the ability of borrower to repay. A value of N will indicate that not all the required documentation are available with the bank. Null will be treated as N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bulk Insurable Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether the application i.e the potential loan is bulk insurable. Bulk insurance covers the scenarios where the lending institution purchases insurance at a portfolio level where each portfolio consists of multiple accounts. The list of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the campaign under which the account was acquired. Campaign is defined as Specific activities designed to promote a product, service or business. A marketing campaign is a coordinated series of steps that can include promotion of a product through different mediums like television, radio, print, online using a variety of different types of advertisements. The campaign doesn't have to rely solely on advertising, and can also include demonstrations, word of mouth and other interactive techniques. Campaigns are created or started by financial institutions to promote sales, improve visibility of the brand or product and create opportunities for addon sales and cross selling.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cashback Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the cashback amount advanced to the customer at the time of fund disbursement. This amount is typically negotiated with the customer at the time of mortgage approval. This amount is usually calculated as a percentage of the funded amount depending on the ongoing promotional offer at the time of approval.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "City Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique city code of this location.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Center Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the credit centre code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Officer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the credit officer processing the application. The credit officer evaluates the credit worthiness by assessing the ability and the willingness of the borrower.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Or Fico Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the credit or FICO score of application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Down Payment Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to alphanumeric code that identifies the primary down payment source for the loan application. Example, OWN FUNDS, BORROWED FUNDS, SWEAT EQUITY, GIFT, ETC. Associated dimension table for this attribute is Down Payment Source Dimension i.e. sourced dimension which can be populated using master table Stage Down Payment Source Master.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Existing Health Insurance Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the insurance if the party has health insurance. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO State Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the ISO State code of the Address. International Organization for Standardization, ISO, and defines codes for each state.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Auto License Reinstatement Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the insurance Auto License Reinstatement Date of party. In the event a license of person was suspended or revoked, this will be the date most recently reinstated. If a license of person is currently suspended, this date should not be valued.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Auto License Suspended Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the Insurance Auto License Suspended Flag. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Auto Violation Points As Of Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the insurance Auto Violation Points As Of Date reflecting points information.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Birth Weight Of Insured",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the insurance Birth weight of the person, stored in grams. In the case of juvenile insured that was born premature, the birth weight is frequently needed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Child Expected Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the insurance if the party is expected a child in the near future. List of values are Y, N. A Dependent Child is Expected, Y indicates a person is expecting a child that may be considered eligible for additional coverage. For example, this indicator may be true if the insured were pregnant or the wife of insured were pregnant. N indicates a person is NOT expecting a child that may be considered eligible for additional coverage.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Currently Lives In Nursing Home Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the insurance if the party currently lives in a nursing home. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Disability End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the insurance Disability of party Effective End Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Disability Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the insurance Disability of party Effective Start Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Existing Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the insurance if the party has an existing insurance. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Funding Disclosure Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the insurance Insurance Funding Disclosure Flag. List of values are Y, N. On Risk, FundingDisclosureInd is where the CLIENT indicates replacement funding. Use FundingDisclosureInd on Application Info to specify the AGENT is indicating the Client is using funds from an existing contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Known Family History Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the insurance if the party knows his Family History. An indicator used to specify if the family history is known. For instance, this would be used to indicate if a person was adopted and did not know their family history. List of values are Y, N. If Y, family history is known and if N, is not known.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Last Hospitalized Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Insurance last hospitalized date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Last Physician Visit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the insurance Last Physician Visited.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Last Risk Information Updated Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Insurance Last Risk Information Updated Date, this is the last date that the overall Risk information was updated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Medical Assistance Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the Insurance Medical Assistance Flag. If the party need any assistance due to medical condition. Y indicates a person requires assistance for daily living chores. N indicates a person does NOT require assistance for daily living chores. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Number Of Brothers Dead",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the insurance Number of Brothers Dead of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Number Of Brothers Living",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the insurance Number of Brothers Living of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Number Of Sisters Dead",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the insurance Number of Sisters Dead of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Number Of Sisters Living",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the insurance Number of Sisters Living of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Permanent Disabled Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the insurance permanent disabled flag. List of values are Y, N. Y indicates that the person is permanently disabled and confined to a wheelchair, N indicates no.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Receiving Disability Benefits Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the insurance if the party is Receiving any Disability Benefits. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Recent Health Change Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the insurance if the party has any recent health change. List of values are Y, N. Recent Health Changed Indicator, TRUE indicates a person reported a recent change in health. FALSE indicates a person has NOT reported a recent change in health. Specific illness, time period and exact wording vary by jurisdiction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Rejected Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the insurance rejected flag . List of values are Y, N. List of values are Y indicates a person has been rejected for life, health, disability or long term care insurance. N indicates they have NOT been rejected for life, health, disability or long term care insurance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Serious Illness Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the insurance if the party was hospitalized for any serious illness. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Special Term End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the insurance special term end last date, date the last contract was issued with special terms.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Tobacco User Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the insurance if the party is a user of tobacco or not. List of values are Y, N. Y indicates the party has used in the past or is currently using tobacco or any other product that contained nicotine. N indicates the party has never used tobacco or any other product that contained nicotine.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Total Accidental Death Benefit Inforce",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Insurance Total Accidental Death Benefit Inforce Amount. An amount indicating the total dollar amount of accidental death benefit insurance that is in force for the individual.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Total Disability Income Inforce Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the insurance Total Disability Income Inforce.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Total Inforce Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Insurance Total Inforce Amount. Sum of Insurance Total Inforce Personal Amount plus Insurance Total Inforce Business Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Total Inforce And Applied Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Total Amount Inforce And Applied Insurance. Total Inforce and Applied Insurance, To be used when the Total amount of In force and Applied for Insurance as distinct amounts are unknown. If the amount of each is known separately, use the more granular Total Inforce Ins and Total Applied ForIns properties in addition to this property.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Total Inforce Business Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the insurance Total Amount Business Inforce. On Risk, the sum of Total Personal Inforce Insurance and Total Business Inforce Insurance should equal Total Inforce Insurance when all elements are present.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Total Inforce Personal Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the insurance Total Amount Personal Inforce. On Risk, the sum of Total Amount Personal Inforce Insurance and Total Business Inforce Insurance should equal Total Inforce Insurance when all elements are present.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Total Pending Reinstatement Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the insurance Total Amount of Pending Reinstatement, To be used to represent the total face amount of Insurance that is pending reinstatement.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Treatment In Absence Of Medical Condition Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the insurance if the party has undergone any treatments without any medical conditions. List of values are Y, N. Y is yes, indicates that Medical Treatments are attached without a medical condition, N is no, do NOT look for Medical treatment unless they are attached to a Medical Condition.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Under Special Term Company Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the insurance under Special Term Company Name.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Under Special Term Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the insurance if the policy of party is taken up by the insurance company on any of the special terms. Special Terms Flag, Y indicates the person has previously been issued insurance with special terms. N indicates the person has not previously been issued insurance with special terms. Special terms means rated or Exclusion, or both. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Under Special Terms Reason",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the insurance under special term reason. The reason why the policy was issued at a special term. Description of the special terms of most recently affected policy.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Underwriting Issue Sub Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Insurance Underwriting Issue sub type for the policy. this is to provide additional detail about the type of underwriting that was applied to the coverage, Sample values are OTHER is other, UNKNOWN is unknown, FULLMED is Full Medical, NONMED is Non Medical, PARAMED is Paramedical.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Underwriting Issue Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Insurance Underwriting Issue type for the policy. For example, Full Underwriting, Mass Underwriting, Reduced Underwriting, Simplified Underwriting, etc., sample values are OTHER is other, UNKNOWN is unknown, AVIATION is Aviation, PERCOVERAGE is Blended Policy has Underwritten and Guaranteed Issue coverages. Only applies at Policy Level, CONVERTED is Conversion No underwriting done, NONCNTRCTCONVERT is Conversion Non contractual, EXPRESS is Express Underwriting, FIELDISSUE is Field Issue, FINANCIALUNDERWRITTEN is Financial Underwriting, FULL is Full Underwriting, GUAR is Guaranteed Issue, MASSUNDERWRITING is Mass Underwriting, REDUCED UNDERWRITING is Reduced Underwriting, SIMP is Simplified Underwriting.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Weight Change Reason",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Weight Change Reason. On Risk, Weight Change Reason may be used on its own or in conjunction with Weight Change Response Type to document the reasons and other details relating to a change in weight that is not tied to a documented medical condition. Weight changes associated with a documented medical condition including pregnancy should be specified using the Weight Change property under Medical Condition.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Weight Change Response Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Weight Change Response Type. On Risk, additional details relating to an affirmative response that does not relate to a documented medical condition may be modeled using the Weight Change Reason property also under Risk. Weight changes associated with a documented medical condition including pregnancy should be specified using the Weight Change property under Medical Condition. Sample values are POS as Applies, NEG as Does not apply, Other, unknown, UNKNOWN as Stated as Not Known.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of interest rate paid on this transaction., For instance Fixed Or Floating.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Joint Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account is jointly held by two or more individuals which means if the value is updated as Y the account is held by two or more people and if the value is updated as N the account is held by single entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Tenor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the tenor for the loan.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Location Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique location code. Location code is defined as the code which will represent the address of the property from zip code onwards like which city, country etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the contractual date on which the principal balance is expected to fully amortize and the balance payable would be nil. This is applicable for term loan products but not for revolving credit or overdraft type of account. In case of insurance policy, for some whole life insurance products the maturity date is aligned to maximum attained age and the policy is payable upon the earlier of the maturity date or the death of the insured. In case of Term Life insurance policies the maturity date is determined as policy issue date plus Term of the contract. In case of an annuity it is the date from which the annuitant has chosen to take the payouts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mode Of Payment",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the mode of payment. The common modes of payment are Cash, Cheque, Debit card, Credit card, Electronic Fund Transfer etc. \nThe payment instruction is governed under negotiable instruments act, which is referred to under article 3 and 4 of Uniform Commercial Code. This does not apply to cash.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Dependents",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of dependents on the party.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Number Of Other Cards Held By Applicant",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of other cards held by the applicant if the application is for cards related accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Years Employed",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of years that the applicant has been employed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Office Address Line One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the line one of address like apartment or house number, apartment name, street, cross, road etc. where the party is residing. More important fields like city, state are captured in separate fields.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Address Line Three",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the line three of address like apartment or house number, apartment name, street, cross, road etc. where the party is residing. More important fields like city, state are captured in separate fields.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Address Line Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the address line 2 of the party or customer office address details.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Original Debt Servicing Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the original debt servicing ratio.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Loan Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the original loan rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Owner Occupied Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the property is occupied by the owner or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Bundle Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of product bundle code. Bundling is a marketing strategy that joins products or services together in order to sell them as a single combined unit. Bundling allows the convenient purchase of several products and or services from the same financial institution. The products and services are usually related, but they can also consist of dissimilar products which appeal to one group of customers. For example Credit card product is bundled with savings account product or loan product is bundled with a CASA account. There are certain interest cost advantages that are available as part of product bundle, should the customer close a product which is part of the bundle, the financial institution could review the advantage provided to other accounts as part of the bundle.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Category",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the security for which this order has been placed. Expected values are EQT  Equity, FI  Fixed Income, CFI  Corporate Fixed Income, OPT  Option, FUT  Future, FX  Foreign Exchange, MF  Mutual Fund, COM  Commodity, ETF  Exchange Traded Fund, MM  Money Market, PRE  Preferred, CONV  Convertible, SWAP Swap, OTH  Other, INF  Insurance Fund.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Property Location Country",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code where the property is located. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Property Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the property type code associated with given account. Property Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prospect Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the prospect.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Qualifying Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the standard rate set by the regulators that mortgages which is usually insured mortgages must adhere to. This is used in stress testing scenarios. Example, all insured mortgages, regardless of term, fixed or variable interest rates bearing, are expected to qualify for the greater of the contract rate or the prevalent Bank of Canada benchmark rate. Such greater rate is the qualifying rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Referral Fee",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Referral fees or compensation received from a mortgage lender for referring a customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Region Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the geographical grouping of the market based on certain common characteristics like language, ethnicity, country, continent, city and state. The region can vary based on the definition of market. Global market vs local market can have different definition of region.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sales Representative Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the sales representative associated with the account. A product offering of a bank is usually sold via multiple channels. Sales representatives are usually employed to sell certain types of products like insurance policies, mutual funds etc. DIM_SALES_REPRESENTATIVE is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33430",
+                    "btLogicalName": "Application Approved Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33431",
+                    "btLogicalName": "Insurance Child Expected Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33432",
+                    "btLogicalName": "Existing Health Insurance Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33433",
+                    "btLogicalName": "Insurance Medical Assistance Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33434",
+                    "btLogicalName": "Insurance Serious Illness Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33435",
+                    "btLogicalName": "Insurance Rejected Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33436",
+                    "btLogicalName": "Joint Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33437",
+                    "btLogicalName": "Owner Occupied Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33438",
+                    "btLogicalName": "Insurance Auto License Suspended Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33439",
+                    "btLogicalName": "Insurance Existing Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33440",
+                    "btLogicalName": "Insurance Receiving Disability Benefits Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33441",
+                    "btLogicalName": "Application Low And Moderate Income Tracts Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33442",
+                    "btLogicalName": "Insurance Recent Health Change Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33443",
+                    "btLogicalName": "Insurance Permanent Disabled Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33444",
+                    "btLogicalName": "Insurance Known Family History Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33445",
+                    "btLogicalName": "Insurance Under Special Term Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33446",
+                    "btLogicalName": "Insurance Tobacco User Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33447",
+                    "btLogicalName": "Insurance Currently Lives In Nursing Home Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33448",
+                    "btLogicalName": "Insurance Treatment In Absence Of Medical Condition Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33449",
+                    "btLogicalName": "Insurance Funding Disclosure Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV33450",
+                    "btLogicalName": "Borrower Repayment Ability Documentation Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39615",
+                    "btLogicalName": "Account Close Date",
+                    "dqDesc": "Reference Check for Account Close Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39616",
+                    "btLogicalName": "Account Close Date",
+                    "dqDesc": "Reference Check for Account Close Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39617",
+                    "btLogicalName": "Account Open Date",
+                    "dqDesc": "Reference Check for Account Open Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39618",
+                    "btLogicalName": "Account Open Date",
+                    "dqDesc": "Reference Check for Account Open Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39619",
+                    "btLogicalName": "Application Closed Date",
+                    "dqDesc": "Reference Check for Application Closed Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39620",
+                    "btLogicalName": "Application Closed Date",
+                    "dqDesc": "Reference Check for Application Closed Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39621",
+                    "btLogicalName": "Application Decision Date",
+                    "dqDesc": "Reference Check for Application Decision Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39622",
+                    "btLogicalName": "Application Decision Date",
+                    "dqDesc": "Reference Check for Application Decision Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39623",
+                    "btLogicalName": "Application Receipt Date",
+                    "dqDesc": "Reference Check for Application Receipt Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39624",
+                    "btLogicalName": "Application Receipt Date",
+                    "dqDesc": "Reference Check for Application Receipt Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39625",
+                    "btLogicalName": "Application Verified Date",
+                    "dqDesc": "Reference Check for Application Verified Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39626",
+                    "btLogicalName": "Application Verified Date",
+                    "dqDesc": "Reference Check for Application Verified Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39627",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39628",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39629",
+                    "btLogicalName": "Application Contact Point Verification End Date",
+                    "dqDesc": "Reference Check for Application Contact Point Verification End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39630",
+                    "btLogicalName": "Application Contact Point Verification End Date",
+                    "dqDesc": "Reference Check for Application Contact Point Verification End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39631",
+                    "btLogicalName": "Application Internal Defaulter List Search End Date",
+                    "dqDesc": "Reference Check for Application Internal Defaulter List Search End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39632",
+                    "btLogicalName": "Application Internal Defaulter List Search End Date",
+                    "dqDesc": "Reference Check for Application Internal Defaulter List Search End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39633",
+                    "btLogicalName": "Application Negative List Search End Date",
+                    "dqDesc": "Reference Check for Application Negative List Search End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39634",
+                    "btLogicalName": "Application Negative List Search End Date",
+                    "dqDesc": "Reference Check for Application Negative List Search End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39635",
+                    "btLogicalName": "Application Pre Screening End Date",
+                    "dqDesc": "Reference Check for Application Pre Screening End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39636",
+                    "btLogicalName": "Application Pre Screening End Date",
+                    "dqDesc": "Reference Check for Application Pre Screening End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39637",
+                    "btLogicalName": "Application Referral Verification End Date",
+                    "dqDesc": "Reference Check for Application Referral Verification End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39638",
+                    "btLogicalName": "Application Referral Verification End Date",
+                    "dqDesc": "Reference Check for Application Referral Verification End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39639",
+                    "btLogicalName": "Application Residence Verification End Date",
+                    "dqDesc": "Reference Check for Application Residence Verification End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39640",
+                    "btLogicalName": "Application Residence Verification End Date",
+                    "dqDesc": "Reference Check for Application Residence Verification End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39641",
+                    "btLogicalName": "Insurance Auto License Reinstatement Date",
+                    "dqDesc": "Reference Check for Insurance Auto License Reinstatement Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39642",
+                    "btLogicalName": "Insurance Auto License Reinstatement Date",
+                    "dqDesc": "Reference Check for Insurance Auto License Reinstatement Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39643",
+                    "btLogicalName": "Insurance Disability End Date",
+                    "dqDesc": "Reference Check for Insurance Disability End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39644",
+                    "btLogicalName": "Insurance Disability End Date",
+                    "dqDesc": "Reference Check for Insurance Disability End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39645",
+                    "btLogicalName": "Insurance Disability Start Date",
+                    "dqDesc": "Reference Check for Insurance Disability Start Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39646",
+                    "btLogicalName": "Insurance Disability Start Date",
+                    "dqDesc": "Reference Check for Insurance Disability Start Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39647",
+                    "btLogicalName": "Insurance Last Hospitalized Date",
+                    "dqDesc": "Reference Check for Insurance Last Hospitalized Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39648",
+                    "btLogicalName": "Insurance Last Hospitalized Date",
+                    "dqDesc": "Reference Check for Insurance Last Hospitalized Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39649",
+                    "btLogicalName": "Insurance Last Risk Information Updated Date",
+                    "dqDesc": "Reference Check for Insurance Last Risk Information Updated Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39650",
+                    "btLogicalName": "Insurance Last Risk Information Updated Date",
+                    "dqDesc": "Reference Check for Insurance Last Risk Information Updated Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39651",
+                    "btLogicalName": "Insurance Special Term End Date",
+                    "dqDesc": "Reference Check for Insurance Special Term End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39652",
+                    "btLogicalName": "Insurance Special Term End Date",
+                    "dqDesc": "Reference Check for Insurance Special Term End Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39653",
+                    "btLogicalName": "Application Last Status Date",
+                    "dqDesc": "Reference Check for Application Last Status Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39654",
+                    "btLogicalName": "Application Last Status Date",
+                    "dqDesc": "Reference Check for Application Last Status Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39655",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39656",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39657",
+                    "btLogicalName": "Application Contact Point Verification Start Date",
+                    "dqDesc": "Reference Check for Application Contact Point Verification Start Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39658",
+                    "btLogicalName": "Application Contact Point Verification Start Date",
+                    "dqDesc": "Reference Check for Application Contact Point Verification Start Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39659",
+                    "btLogicalName": "Application Internal Defaulter List Search Start Date",
+                    "dqDesc": "Reference Check for Application Internal Defaulter List Search Start Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39660",
+                    "btLogicalName": "Application Internal Defaulter List Search Start Date",
+                    "dqDesc": "Reference Check for Application Internal Defaulter List Search Start Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39661",
+                    "btLogicalName": "Application Negative List Search Start Date",
+                    "dqDesc": "Reference Check for Application Negative List Search Start Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39662",
+                    "btLogicalName": "Application Negative List Search Start Date",
+                    "dqDesc": "Reference Check for Application Negative List Search Start Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39663",
+                    "btLogicalName": "Application Pre Screening Start Date",
+                    "dqDesc": "Reference Check for Application Pre Screening Start Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39664",
+                    "btLogicalName": "Application Pre Screening Start Date",
+                    "dqDesc": "Reference Check for Application Pre Screening Start Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39665",
+                    "btLogicalName": "Application Referral Verification Start Date",
+                    "dqDesc": "Reference Check for Application Referral Verification Start Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39666",
+                    "btLogicalName": "Application Referral Verification Start Date",
+                    "dqDesc": "Reference Check for Application Referral Verification Start Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39667",
+                    "btLogicalName": "Application Residence Verification Start Date",
+                    "dqDesc": "Reference Check for Application Residence Verification Start Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39668",
+                    "btLogicalName": "Application Residence Verification Start Date",
+                    "dqDesc": "Reference Check for Application Residence Verification Start Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39669",
+                    "btLogicalName": "Application Terms And Conditions Acceptance Date",
+                    "dqDesc": "Reference Check for Application Terms And Conditions Acceptance Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39670",
+                    "btLogicalName": "Application Terms And Conditions Acceptance Date",
+                    "dqDesc": "Reference Check for Application Terms And Conditions Acceptance Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39671",
+                    "btLogicalName": "Application Terms And Conditions Offer Date",
+                    "dqDesc": "Reference Check for Application Terms And Conditions Offer Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39672",
+                    "btLogicalName": "Application Terms And Conditions Offer Date",
+                    "dqDesc": "Reference Check for Application Terms And Conditions Offer Date in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39673",
+                    "btLogicalName": "Account Manager Code",
+                    "dqDesc": "Reference Check for Account Manager Code in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39674",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39675",
+                    "btLogicalName": "Applicant Education",
+                    "dqDesc": "Reference Check for Applicant Education in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39676",
+                    "btLogicalName": "Applicant Gender",
+                    "dqDesc": "Reference Check for Applicant Gender in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39677",
+                    "btLogicalName": "Applicant Identifier",
+                    "dqDesc": "Reference Check for Applicant Identifier in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39678",
+                    "btLogicalName": "Applicant Marital Status",
+                    "dqDesc": "Reference Check for Applicant Marital Status in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39679",
+                    "btLogicalName": "Applicant Status",
+                    "dqDesc": "Reference Check for Applicant Status in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39680",
+                    "btLogicalName": "Application Type",
+                    "dqDesc": "Reference Check for Application Type in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39681",
+                    "btLogicalName": "Application Decision Reason Code",
+                    "dqDesc": "Reference Check for Application Decision Reason Code in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39682",
+                    "btLogicalName": "Application Group Identifier",
+                    "dqDesc": "Reference Check for Application Group Identifier in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39683",
+                    "btLogicalName": "Application Number",
+                    "dqDesc": "Reference Check for Application Number in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39684",
+                    "btLogicalName": "Application Purpose Code",
+                    "dqDesc": "Reference Check for Application Purpose Code in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39685",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39686",
+                    "btLogicalName": "Campaign Identifier",
+                    "dqDesc": "Reference Check for Campaign Identifier in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39687",
+                    "btLogicalName": "Acquisition Channel Code",
+                    "dqDesc": "Reference Check for Acquisition Channel Code in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39688",
+                    "btLogicalName": "Credit Center Code",
+                    "dqDesc": "Reference Check for Credit Center Code in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39689",
+                    "btLogicalName": "Credit Officer Identifier",
+                    "dqDesc": "Reference Check for Credit Officer Identifier in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39690",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39691",
+                    "btLogicalName": "Insurance Underwriting Issue Sub Type",
+                    "dqDesc": "Reference Check for Insurance Underwriting Issue Sub Type in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39692",
+                    "btLogicalName": "Insurance Underwriting Issue Type",
+                    "dqDesc": "Reference Check for Insurance Underwriting Issue Type in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39693",
+                    "btLogicalName": "Insurance Weight Change Response Type",
+                    "dqDesc": "Reference Check for Insurance Weight Change Response Type in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39694",
+                    "btLogicalName": "Interest Rate Type",
+                    "dqDesc": "Reference Check for Interest Rate Type in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39695",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39696",
+                    "btLogicalName": "Line Of Business Code",
+                    "dqDesc": "Reference Check for Line Of Business Code in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39697",
+                    "btLogicalName": "Location Code",
+                    "dqDesc": "Reference Check for Location Code in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39698",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39699",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39700",
+                    "btLogicalName": "Product Category",
+                    "dqDesc": "Reference Check for Product Category in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39701",
+                    "btLogicalName": "Applicant Or Co Applicant Profession",
+                    "dqDesc": "Reference Check for Applicant Or Co Applicant Profession in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39702",
+                    "btLogicalName": "Property Type",
+                    "dqDesc": "Reference Check for Property Type in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39703",
+                    "btLogicalName": "Prospect Identifier",
+                    "dqDesc": "Reference Check for Prospect Identifier in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39704",
+                    "btLogicalName": "Region Code",
+                    "dqDesc": "Reference Check for Region Code in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39705",
+                    "btLogicalName": "Application Rejection Reason",
+                    "dqDesc": "Reference Check for Application Rejection Reason in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39706",
+                    "btLogicalName": "Sales Representative Identifier",
+                    "dqDesc": "Reference Check for Sales Representative Identifier in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQREF39707",
+                    "btLogicalName": "Application Terminal Code",
+                    "dqDesc": "Reference Check for Application Terminal Code in Stage Applications",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

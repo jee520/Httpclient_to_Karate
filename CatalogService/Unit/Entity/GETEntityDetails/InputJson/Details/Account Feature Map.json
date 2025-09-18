@@ -1,0 +1,238 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the campaign under which the account was acquired. Campaign is defined as Specific activities designed to promote a product, service or business. A marketing campaign is a coordinated series of steps that can include promotion of a product through different mediums like television, radio, print, online using a variety of different types of advertisements. The campaign doesn't have to rely solely on advertising, and can also include demonstrations, word of mouth and other interactive techniques. Campaigns are created or started by financial institutions to promote sales, improve visibility of the brand or product and create opportunities for addon sales and cross selling.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refer to the date up to which the account or contract or interest rate or exchange rate is effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Feature Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the feature such as credit shield, bill pay etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Vendor Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This is the identifier of the vendor from whom a particular service is received.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF40917",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Feature Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40918",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Feature Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40919",
+                    "btLogicalName": "Effective End Date",
+                    "dqDesc": "Reference Check for Effective End Date in Stage Account Feature Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40920",
+                    "btLogicalName": "Effective End Date",
+                    "dqDesc": "Reference Check for Effective End Date in Stage Account Feature Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40921",
+                    "btLogicalName": "Start Date",
+                    "dqDesc": "Reference Check for Start Date in Stage Account Feature Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40922",
+                    "btLogicalName": "Start Date",
+                    "dqDesc": "Reference Check for Start Date in Stage Account Feature Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40923",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Account Feature Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40924",
+                    "btLogicalName": "Campaign Identifier",
+                    "dqDesc": "Reference Check for Campaign Identifier in Stage Account Feature Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40925",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Account Feature Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40926",
+                    "btLogicalName": "Feature Code",
+                    "dqDesc": "Reference Check for Feature Code in Stage Account Feature Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40927",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Account Feature Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40928",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Account Feature Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF40929",
+                    "btLogicalName": "Vendor Identifier",
+                    "dqDesc": "Reference Check for Vendor Identifier in Stage Account Feature Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

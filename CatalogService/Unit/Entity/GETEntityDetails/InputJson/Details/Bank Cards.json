@@ -1,0 +1,202 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Category",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Category of the card whether it is  a credit card or a debit card for a savings account. This is the parent in the hierarchy\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Classification Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to whether it is a debit card or a credit card . D for debit card, C for Credit Card.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Co-Branded Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the card is co-branded or not.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description of the card. The description of the card type will include card name, sub-type of card like reward, non-reward, etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Issued At Country Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country where the card was issued.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Network Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the credit card network associated with. Values should be coming from the seeded dimension table Credit Card Network Dimension.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the credit card or debit card or prepaid card number used in the transaction. Generally, the first number or two of a credit or debit signifies the card provider, followed by digits that determine everything from the currency being used, to the bank processing the transaction, to the individuals account number.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Card Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Program",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the program of the card which indicates the partner or the program based on which the card was issue. Example Traveller card with Air miles.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Reload Feature Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the card has reloadable feature.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Sub Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the sub type of the card like rewards or non rewards etc. this is level3 in the hierarchy and rolls up into Type.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the card type as gold, platinum etc. Credit card Type dimension is the equivalent dimension for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Corporate Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to an unique identifier that will be the same for a given corporation from month to month. The Aggregator will recommend a best practice for the identification or generation of this identifier and the safeguarding of account privacy information.  For non-corporate card, report blank.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Expiry Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the expiration date of the account or contract. Expiration is the date after which the contract ceases to hold true.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Name Of The Card",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the actual name of the card.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33420",
+                    "btLogicalName": "Card Reload Feature Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQLOV33421",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQLOV33422",
+                    "btLogicalName": "Card Classification Indicator",
+                    "dqDesc": "Should have list of values as C,D",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

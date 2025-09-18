@@ -1,0 +1,134 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Additional Insurance High Balance Protection Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the period for which high balance generated due to regulator-specified life events are insured.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "High Balance Event Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the specific life events of a party which will temporarily generate high balance in the account. These events are specified by the regulator. The temporary high balance due to specific life events mentioned by regulator are insured up to a certain additional limit for regulatory specified time. It is required to calculate deposit insurance limit for EBA. Refer dimension table DIM_TEMPORARY_HIGH_BAL_EVENTS for data to be populated in this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "High Balance Insurance Limit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the additional insurance limit provided to high balance generated due to regulator specified life events.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Scheme Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code associated with the insurance scheme of the account. Dimension Insurance Scheme is the equivalent dimension table for this column.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF39590",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Additional Insurance For High Balance",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                },
+                {
+                    "dqId": "DQREF39591",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Additional Insurance For High Balance",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                },
+                {
+                    "dqId": "DQREF39592",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Additional Insurance For High Balance",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                },
+                {
+                    "dqId": "DQREF39593",
+                    "btLogicalName": "High Balance Event Code",
+                    "dqDesc": "Reference Check for High Balance Event Code in Stage Additional Insurance For High Balance",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                },
+                {
+                    "dqId": "DQREF39594",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Additional Insurance For High Balance",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

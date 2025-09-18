@@ -1,0 +1,190 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Behavior Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the behavior score. This is defined in multiple ways. For example  Behavioral Credit Scoring denotes a credit scoring system for existing clients, as opposed to new clients. Also it can be defined as a score which is an internal, proprietary scoring system used by some credit card issuers to supplement the credit scores they purchase from credit bureaus.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the credit score of the customer. In case of retail customers, this can be FICO score. A credit score is commonly used by financial institutions to assess the credit worthiness of a prospect or customer. Generally a customer with a higher credit score gets better terms in terms of interest rates, repayment schedule etc. In case score is reported at account granularity then it will store the credit score of the primary customer associated with the account.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Credit Score At Origination Flag",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if said credit or behavior score is as of account origination. List of values are Y and N. For a given account and customer combination only one record can have this flag as Y across all dates and entire history.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Score Model Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code for the credit score models. This can be FICO, VANTAGE, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Score Refresh Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which said credit score model was refreshed or date to which current version belongs to.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33666",
+                    "btLogicalName": "Credit Score At Origination Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40152",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Credit Score Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40153",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Credit Score Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40154",
+                    "btLogicalName": "Credit Score Refresh Date",
+                    "dqDesc": "Reference Check for Credit Score Refresh Date in Stage Account Credit Score Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40155",
+                    "btLogicalName": "Credit Score Refresh Date",
+                    "dqDesc": "Reference Check for Credit Score Refresh Date in Stage Account Credit Score Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40156",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Account Credit Score Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40157",
+                    "btLogicalName": "Credit Score Model Code",
+                    "dqDesc": "Reference Check for Credit Score Model Code in Stage Account Credit Score Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40158",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Account Credit Score Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40159",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Account Credit Score Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

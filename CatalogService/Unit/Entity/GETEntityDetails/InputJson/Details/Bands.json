@@ -1,0 +1,163 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Band Category",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the bands category. Category will be applicable in case there are multiple levels associated to bands. Band is at the lowest level of hierarchy and category being the highest one.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Band Category Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the bands category description. Category will be applicable in case there are multiple levels associated to bands. Band is at the lowest level of hierarchy and category being the highest one.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Band Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to Band Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Band Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to description of the Band.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Band Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the band.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Band Sub Category",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to sub category of the band. Sub Category will be applicable in case there are multiple levels associated to bands. Band is at the lowest level of hierarchy and sub category is at a higher level.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Band Sub Category Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to captures sub category description of the band. Sub Category will be applicable in case there are multiple levels associated to bands. Band is at the lowest level of hierarchy and sub category is at a higher level.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Band Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to Band Type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Band Type Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to description of Band Type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Band Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unit associated to a band. E.g. If band is created for a collateral area then this unit will capture the unit of area example square ft. In case of Income band, the unit will capture the currency in which this band is created.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lower Bound Inclusive Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the range start value is inclusive or exclusive for the propagation of band codes to each account. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lower Bound Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Band Lower Bound Value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Upper Bound Inclusive Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the range upper value is inclusive or exclusive for the propagation of band codes to each account. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Upper Bound Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Band Upper Bound Value.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

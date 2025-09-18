@@ -1,0 +1,192 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Phone End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the phone end Date is used to specify the date on which the phone ceases to apply to the parent Party or Grouping.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Phone Extension",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the extension number at which the account holder can be reached at.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Phone Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the phone number associated with the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Phone Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the phone start date that is used to specify the date on which the phone begins to apply to the parent, Party or Grouping.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the business. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions. In case of party, it Refers to the country of birth of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Or Account Phone Purpose Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the purpose or usage of this phone number relative to this party. Indicative values are H is Home, B is Business, M is Mobile, P is Pager, F is Fax and O is Other.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Phone Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the business key of Phone identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Preferred Phone Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the phone is preferred phone for all purpose of communication to the party or account. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sequence Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "This column stores a sequence Number. This is added as PK for capturing facts at required grain.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Validated Phone Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates validated phone or not. List of values are Y, N. Y means the phone has been validated and is well formed. N means the phone has not been validated.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF36359",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Phone Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF36360",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Phone Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF36361",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Account Phone Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF36362",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Account Phone Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF36363",
+                    "btLogicalName": "ISO Country Code",
+                    "dqDesc": "Reference Check for ISO Country Code in Stage Account Phone Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF36364",
+                    "btLogicalName": "Party Or Account Phone Purpose Type",
+                    "dqDesc": "Reference Check for Party Or Account Phone Purpose Type in Stage Account Phone Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

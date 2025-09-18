@@ -1,0 +1,152 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bankruptcy Type",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of bankruptcy for accounts that have been written off due to bankruptcy. The Bankruptcy Code provides for five different types of bankruptcy filings, chapter 7, chapter 13, chapter 12, chapter 9 and chapter 11. Chapter 7 is one type of bankruptcy that is available for individuals. It is also called straight bankruptcy or liquidation. Chapter 13 is another type of bankruptcy available for individuals. This bankruptcy lasts for the duration of a debt repayment plan, from three to five years. Chapter 12 is a type of bankruptcy available for family farmers. It functions much like chapter 13. Chapter 9 is a type of bankruptcy for municipalities and Chapter 11 is occasionally used by individuals but is primarily used by large corporations, which are insolvent, that wish to pay off their debts through a repayment plan. Bankruptcy Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bankruptcy Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of bankruptcy for accounts that have been written off due to bankruptcy. The Bankruptcy Code provides for five different types of bankruptcy filings, chapter 7, chapter 13, chapter 12, chapter 9 and chapter 11. Chapter 7 is one type of bankruptcy that is available for individuals. It is also called straight bankruptcy or liquidation. Chapter 13 is another type of bankruptcy available for individuals. This bankruptcy lasts for the duration of a debt repayment plan, from three to five years. Chapter 12 is a type of bankruptcy available for family farmers. It functions much like chapter 13. Chapter 9 is a type of bankruptcy for municipalities and Chapter 11 is occasionally used by individuals but is primarily used by large corporations, which are insolvent, that wish to pay off their debts through a repayment plan. Bankruptcy Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bankruptcy Type Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the bankruptcy type description.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bankruptcy Type Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Bankruptcy Type Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1013",
+                    "srcLogicalName": "Stage Bankruptcy Type Master",
+                    "scdName": "scd_1013_DIM_BANKRUPTCY_TYPE_STG_BANKRUPTCY_TYPE_MASTER",
+                    "scdDesc": "Data movement from bankruptcy type master source to bankruptcy type dimension",
+                    "createdDate": "2024-10-26 06:02:39.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42253",
+                    "btLogicalName": "Bankruptcy Type Numeric Identifier",
+                    "dqDesc": "Bankruptcy Type Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                },
+                {
+                    "dqId": "DQCUS42254",
+                    "btLogicalName": "Bankruptcy Type Numeric Identifier",
+                    "dqDesc": "Bankruptcy Type Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                },
+                {
+                    "dqId": "DQLOV32085",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                },
+                {
+                    "dqId": "DQNMDUP42035",
+                    "btLogicalName": "Bankruptcy Type Numeric Identifier",
+                    "dqDesc": "Bankruptcy Type Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                },
+                {
+                    "dqId": "DQSPLCH42783",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,203 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Acquisition Channel Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the channel through which customer was acquired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Acquisition Channel Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the channel through which customer was acquired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Acquisition Channel Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description of the channel code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Acquisition Channel Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the name of the acquisition channel name.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Channel Category Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code higher level of channel. For example, Direct or Indirect.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Channel Category Code Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the code description for higher level of channel. For example Direct or Indirect.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Channel Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the channel.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "High Attrition Risk Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether a particular distribution channel is considered high risk from an LCR outflow perspective and is therefore eligible for higher attrition rates. Examples of distribution channels eligible for higher attrition rates are internet only access banks, brokered deposits etc. A value of Y indicates a higher risk of attrition. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "27",
+                    "srcLogicalName": "Stage Channel Master",
+                    "scdName": "scd_27_DIM_CHANNEL_STG_SALES_CHANNEL_MASTER",
+                    "scdDesc": "Data movement from channel master source to channel dimension",
+                    "createdDate": "2024-10-26 06:02:39.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42623",
+                    "btLogicalName": "Channel Numeric Identifier",
+                    "dqDesc": "Channel Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:00.0"
+                },
+                {
+                    "dqId": "DQCUS42624",
+                    "btLogicalName": "Channel Numeric Identifier",
+                    "dqDesc": "Channel Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:00.0"
+                },
+                {
+                    "dqId": "DQLOV32135",
+                    "btLogicalName": "High Attrition Risk Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:00.0"
+                },
+                {
+                    "dqId": "DQLOV32136",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:00.0"
+                },
+                {
+                    "dqId": "DQNMDUP42055",
+                    "btLogicalName": "Channel Numeric Identifier",
+                    "dqDesc": "Channel Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:00.0"
+                },
+                {
+                    "dqId": "DQSPLCH43004",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:00.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                },
+                {
+                    "ucId": "CIRCA",
+                    "ucName": "Customer Analytics"
+                }
+            ]
+        }
+    ]
+}

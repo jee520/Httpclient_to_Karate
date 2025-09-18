@@ -1,0 +1,232 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Charges Recovery Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount of charge that has been recovered.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Recovery Cost Case Filed",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the cost of filing case with Debt Recovery Tribunal for recovery or amicable settlement.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Income Recovery Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Recovery income for a written off account and a recovery date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Recovered Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest component of the amount recovered. Recovery refers to the process of collecting overdue amount. Recovery can be applicable to loans or debt in several categories like current, delinquent, non performing, sub standard, doubtful, bad.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Recovery Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the principal component of the amount recovered during the current month. Recovery refers to the process of collecting overdue amount. Recovery can be applicable to loans or debt in several categories like current, delinquent, non performing, sub standard, doubtful, bad.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recovery Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "This is the date on which the party recovered from the medical condition.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recovery Stage Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code for the different stages of a loan recovery process. Seeded values are\n1. NOTICISSD as Notice issued\n2. COMPRORECD as Compromise proposal received\n3. COMPROACCP as Compromise proposal accepted\n4. CASEFILE as Case filed\n5. CASEDECIDE as Case decided\n6. PARTRECOV as Recovery made partially\n7. FULLRECOV as Recovery made fully.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recovery Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the recovery type such as manual or system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF40160",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Recovery Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40161",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Recovery Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40162",
+                    "btLogicalName": "Recovery Date",
+                    "dqDesc": "Reference Check for Recovery Date in Stage Account Recovery Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40163",
+                    "btLogicalName": "Recovery Date",
+                    "dqDesc": "Reference Check for Recovery Date in Stage Account Recovery Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40164",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Account Recovery Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40165",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Account Recovery Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40166",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Account Recovery Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40167",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Account Recovery Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40168",
+                    "btLogicalName": "Recovery Stage Code",
+                    "dqDesc": "Reference Check for Recovery Stage Code in Stage Account Recovery Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF40169",
+                    "btLogicalName": "Recovery Type",
+                    "dqDesc": "Reference Check for Recovery Type in Stage Account Recovery Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

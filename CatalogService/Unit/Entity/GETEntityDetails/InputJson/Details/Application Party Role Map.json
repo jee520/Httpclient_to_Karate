@@ -1,0 +1,200 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Application Group Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the application group identifier that was submitted by the customer that formed the basis for the contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the application number that was filled by the customer that formed the basis for the contract. Application is a document that provides the essential financial and other information about the borrower on which the lender bases the decision to lend.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Application Party Role Name",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the role that this applicant plays with respect to the application. Indicative values are Guarantor, Nominee, Beneficiary, Contact, Legal Advisor of Customer, Power of attorney, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party To Applicant Relationship",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the party to applicant relationship. Indicative values are Self, Spouse, Child, Parent, Sibling, Family, Employee, Employer, Friend, Domestic Partner, Legal Guardian, Dependent, Trustee, Grandparent, Grandchild, Stepchild, Power of Attorney, Step Parent and others.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Role Effective Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "The effective date from when the party role was associated with this policy.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Role Effective End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "The date on which the party role has ended with this policy.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF39062",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Application Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF39063",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Application Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF39064",
+                    "btLogicalName": "Role Effective Date",
+                    "dqDesc": "Reference Check for Role Effective Date in Stage Application Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF39065",
+                    "btLogicalName": "Role Effective Date",
+                    "dqDesc": "Reference Check for Role Effective Date in Stage Application Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF39066",
+                    "btLogicalName": "Role Effective End Date",
+                    "dqDesc": "Reference Check for Role Effective End Date in Stage Application Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF39067",
+                    "btLogicalName": "Role Effective End Date",
+                    "dqDesc": "Reference Check for Role Effective End Date in Stage Application Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF39068",
+                    "btLogicalName": "Application Group Identifier",
+                    "dqDesc": "Reference Check for Application Group Identifier in Stage Application Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF39069",
+                    "btLogicalName": "Application Number",
+                    "dqDesc": "Reference Check for Application Number in Stage Application Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF39070",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Application Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF39071",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Application Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

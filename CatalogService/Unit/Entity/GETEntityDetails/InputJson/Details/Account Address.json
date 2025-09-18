@@ -1,0 +1,226 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Address Sequence Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the sequence number corresponding to this account address. This is to identify different addresses of the same account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Address Line Five",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the fifth line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line Four",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the fourth line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the first line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line Six",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the sixth line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line Three",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the third line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the second line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Purpose Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the purpose or usage of this address relative to this party. List of values are M is Mailing, B is Business, L is Legal, A is Alternate, O is Other, P is Primary, D is Duplicate, H is Home, X is Post Office Box and V is Delivery.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "City Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the long name of the city of this location.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the business. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions. In case of party, it Refers to the country of birth of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Postal Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This column stores the postal code or zip code of the location.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Region Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the geographical grouping of the market based on certain common characteristics like language, ethnicity, country, continent, city and state. The region can vary based on the definition of market. Global market vs local market can have different definition of region.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "State Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the state code of the state to which the applicant belongs.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF36665",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Address",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF36666",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Address",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF36667",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Account Address",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF36668",
+                    "btLogicalName": "Address Purpose Type",
+                    "dqDesc": "Reference Check for Address Purpose Type in Stage Account Address",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF36669",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Account Address",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF36670",
+                    "btLogicalName": "ISO Country Code",
+                    "dqDesc": "Reference Check for ISO Country Code in Stage Account Address",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQREF36671",
+                    "btLogicalName": "Region Code",
+                    "dqDesc": "Reference Check for Region Code in Stage Account Address",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

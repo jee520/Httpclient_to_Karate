@@ -1,0 +1,395 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Custodian Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the Custodian which holds the Certificate of deposit in its custody.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delivery Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the physical delivery date for commodity contracts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Principal Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the outstanding principal balance at the end of the month. Each account will have principal and interest component, this column will capture the outstanding principal component at the end of the month.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Failed Trade Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the trade is a failed trade. Failed trades are trades that have occurred but not have settled. There are different guidelines for capital treatment of failed trades. European standards are dictated at directive level and permit a 5 business day grace period after settlement date on delivery versus payment, DvP, transactions before any charges are imposed at which point they are subject to charges on the exposure. These increase to 100 percent after 46 days. Settlement date is not defined or subject to specific limitations. For non DvP transactions, the charge starts immediately, with a one day grace period for cross border transactions, at a flat eight percent risk weighting of the exposure to the counterparty. US banking regulators take a balance sheet approach, under which a standard risk weight, usually 100 percent but in some cases 20 percent, is applied to the full notional amount of trades that have failed to settle without a grace period. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fair Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to fair value of an asset. Fair Value is a rational and unbiased estimate of the potential market price of and asset. The Financial Accounting Standards Board, FASB, issued 'Statement of Financial Accounting Standards No. 157: Fair Value Measurements, FAS 157,' in September 2006 to provide guidance about how entities should determine fair value estimations for financial reporting purposes.\n\nFair value is however measured based on the guidelines FASB 13 which has 3 levels.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Accrued Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the accrued interest amount associated with the contract. This is the interest that has accumulated on an instrument since the last interest payment up to, but not including, the settlement date. Accrued Interest is defined as Interest earned but not received, realized. For example, bonds usually pay interest every six months, therefore interest accrues between one interest payment and the next. The buyer of a bond pays its market value plus the interest earned up to the settlement date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Managed Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if particular account is managed or not. Here “managed” refers to loans originated by the Bank Holding Company, including securitized loans put back on the books due to ASC Topics 860 which deals with transfers and servicing arrangements and 810 which deal with consolidation of entity. However it does not include loans that were originated by a third party and only serviced by the BHC. List of values are Y,N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Units Held",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the number of units associated with each investment account. This attribute multiplied with current NAV of the fund will provide the value of the fund for each investment account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Position Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to credit derivative Position held by the entity or the manner in which the owner holds the primary security position associated with this position pair, for example, on a cash basis, on margin, or versus payment. It can have values as Long or Short where long position indicates Credit protection bought and short position indicates credit protection sold.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regular Way Traded Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the securities settlement contractually occurs within the period of time, after the trade date, generally established by regulations or conventions in the marketplace or exchange in which the transaction is being executed. It is a type of trade that is settled through the regular settlement cycle required for the particular investment being traded. The settlement cycle is the time that the regulations of the securities market allows for the buyer to complete payment and for the seller to deliver the goods being purchased. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Settlement Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of days required for settlement after the transaction is performed. Usually the number of business days is captured here. In case of T Plus 2 settlement, it would store a value of 2.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Settlement Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the settlement mechanisms used for secured and foreign exchange products. Expected values for secured tables are T  TRIPARTY, B  BILATERAL and O OTHER. Expected values for foreign exchange tables are C CLS,B  BILATERAL and O  OTHER.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unit Quantity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "This column stores the number of units, for example, shares or contracts of the specified\nsecurity being transferred via this transaction.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Units Held On Trade Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the Number of units held of the instrument as on the trade date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unsettled Last Trade Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the unsettled last trade date refers to trade date of last unsettled or pending transaction. Alternately it could refer to date when the trade was not yet settled.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unsettled Quantity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the quantity of the instrument that are yet not settled i.e. unsettled transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unsettled Trade Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Unsettled balances are funds not collected from your customers and therefore will not be reimbursed to the dealership until the balance is successfully settled. E.g. The proceeds created by selling a security are considered unsettled funds from the time you place a trade order until the completion of the settlement period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Value Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the value date of the contract. Value Date is a securities industry term describing the date on which a trade, bonds, equities, foreign exchange, commodities, etc., settles. That is, the actual day on which transfer of cash or assets is completed, or the settlement amount is calculated. \nIn case of FX swap instrument Refers to the settlement date for spot or near leg. Also considered as the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32139",
+                    "btLogicalName": "Regular Way Traded Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV32140",
+                    "btLogicalName": "Failed Trade Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV32141",
+                    "btLogicalName": "Managed Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF36811",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Position",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF36812",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Position",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF36813",
+                    "btLogicalName": "Value Date",
+                    "dqDesc": "Reference Check for Value Date in Stage Account Position",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF36814",
+                    "btLogicalName": "Value Date",
+                    "dqDesc": "Reference Check for Value Date in Stage Account Position",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF36815",
+                    "btLogicalName": "Unsettled Last Trade Date",
+                    "dqDesc": "Reference Check for Unsettled Last Trade Date in Stage Account Position",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF36816",
+                    "btLogicalName": "Unsettled Last Trade Date",
+                    "dqDesc": "Reference Check for Unsettled Last Trade Date in Stage Account Position",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF36817",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Account Position",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF36818",
+                    "btLogicalName": "Custodian Identifier",
+                    "dqDesc": "Reference Check for Custodian Identifier in Stage Account Position",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF36819",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Account Position",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF36820",
+                    "btLogicalName": "Instrument Code",
+                    "dqDesc": "Reference Check for Instrument Code in Stage Account Position",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF36821",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Account Position",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF36822",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Account Position",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF36823",
+                    "btLogicalName": "Position Type",
+                    "dqDesc": "Reference Check for Position Type in Stage Account Position",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF36824",
+                    "btLogicalName": "Settlement Type",
+                    "dqDesc": "Reference Check for Settlement Type in Stage Account Position",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                }
+            ]
+        }
+    ]
+}

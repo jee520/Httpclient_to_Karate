@@ -1,0 +1,391 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Rate Tier Lower Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the lower value of the balance tier for which interest rate and other attributes are given. This column has been added to support Tiered Balance Interest Rates.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Rate Tier Name",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the name of the account rate tier stage that the customer belongs to.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Rate Tier Upper Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the upper value of the balance tier for which interest rate and other attributes are given. This column has been added to support Tiered Balance Interest Rates.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the interest benchmark rate applicable to that account. This is applicable when the account carries floating rate of interest. In that case, prevailing rate is derived from the Interest Rate Curve and margin, if specified, is added to compute the applicable rate of interest for an account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to current annualized gross rate of an account. This rate would be different in case of a consortium funding. When conventionally amortizing a records balance with the Model with Gross Rates option selected, the cash flow engine uses the current gross rate as the customer rate. If the option is not selected, then the cash flow engine uses current net rate as the customer rate for amortization calculation. Also to determine the prepayment rate, the current customer rate must be compared to the market rate. If the Model with Gross Rates option is selected, then the customer rate is represented by the current gross rate. If the Model with Gross Rates option is not selected, the current net rate is used as the current customer rate. When this is part of the loan contract that will be drawn against the commitment and is applicable only for rate lock commitment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Principal Outstanding",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the principal component of the current end of period balance of the account or contract. Each account will have principal and interest component, this column will capture the outstanding principal component at the end of the month. This is different from End of period balance because the end of period balance has the accrued interest and this column does not have accrued interest.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Sorting Order",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the data sorting order.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to end of period balance which includes accrued interest. All the calculations such as interest, prepayment amounts etc. are based on this amount. This is used in all the calculations performed by cash flow engine. In Case of LC Contracts, EOP Balance should be populated when LC Is executed. Till LC is executed, LC amount sanctioned should be hold in Total Commitment Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Interest Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the end of period interest paid to the customer. The interest is paid on term deposits that have opted for regular interest payments. In some term deposits which fall under the cumulative scheme, no interest is paid before maturity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique general ledger account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Accrued Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the accrued interest amount associated with the contract. This is the interest that has accumulated on an instrument since the last interest payment up to, but not including, the settlement date. Accrued Interest is defined as Interest earned but not received, realized. For example, bonds usually pay interest every six months, therefore interest accrues between one interest payment and the next. The buyer of a bond pays its market value plus the interest earned up to the settlement date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Payment Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the coupon frequency of all the coupon bearing instruments. List of values is defined as No Frequency =  1, Once = 0, Annual = 1, Semiannual = 2, Every Fourth Month = 3, Quarterly = 4, Bimonthly = 6, Monthly = 12, Biweekly = 26, Weekly = 52, Daily = 365. Column is applicable for instruments like Equity convertible bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Payment Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Payment frequency unit is used in conjunction with Interest payment frequency to define the payment frequency of an account. List of values are D days, M months and Y years.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the interest rate code that identifies the index to which adjustable rate accounts are tied. Transfer Pricing references interest rate code when calculating option costs and uses the relevant interest rate from the defined interest rate code, IRC, together with the margin to determine the reprice rate for the instrument. The value populated in this column for each account record must be synchronized with the actual interest rate code values defined in Transfer Pricing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Margin Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of Margin. Margin can be provided as Rate or Percentage. If provided as Rate then current net rate is Applicable rate from the IRC plus margin. If Percentage, Margin is calculated using IRC and Margin provided as percent. If it is Rate and input is 2 percent, then 2 needs to be provided in spread or margin column. If it is Percent and input is 5 percent of IRC, then 5 needs to be provided in spread or margin column. This column has been added to support Tiered Balance Interest Rates.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Spread",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to contractual spread above or below, in case of asset it will be a positive spread and for liability it will be a negative spread, pricing index and is applicable for floating or adjustable rate accounts. Since repo rate is generally fixed upfront this column can be left blank or can be used to store spread above or below benchmark rate, if applicable. The current net rate = Applicable rate from the IRC plus margin.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of interest rate paid on this transaction., For instance Fixed Or Floating.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Reprice Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the adjustable instruments last repriced or the date on which the current interest rate changed. For a repo contract this will generally be same as origination date. For an adjustable rate straight term transfer priced record, Transfer Pricing uses the Last reprice date to identify the assignment date, Yield Curve Date. The assignment date of the Interest Rate Code just before, or equal to, the last reprice date of the record is used as the transfer pricing yield curve. For example, if the last reprice date of the record is 15th Jan 2006 and the Historical Rate interest rate code, IRC, is defined at monthly intervals and only at month end, the assignment date would be 31st Dec 2005. The reprice frequency is then matched to the same term on the transfer pricing yield curve, IRC, defined in the Historical Rates in Transfer Pricing. For fixed rate records, the last reprice date and next reprice date are not referenced. Origination date and maturity dates are used instead. This column has been added to support Tiered Balance Interest Rates.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Repricing Date Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the balance as on Last Reprice Date when transfer pricing adjustable rate records. When transfer pricing adjustable rate records, Last Reprice Date BALANCE is used as the starting balance from the LAST_REPRICE_DATE. It will same as EOP Balance for a repo contract.\nIf payments, amortization, occurred in between the Last Reprice Date and the extract period, the end of period balance of the record is smaller than it was on the LAST_REPRICE_DATE. Therefore, in order to provide an accurate balance amount at the time of the Last Reprice Date, the Last Reprice Balance has been provided.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Next Reprice Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which interest rate will be reprice for the instrument. It is applicable for adjustable rate accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to contractual interest rate at origination date whereas the interest rate field would store the interest rate applicable to the instrument as on As of Date. This is used for computing Effective Interest Rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Net Par Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the par value net of participations at date of origination. Percent Sold is a column used to calculate net balance when the instrument is partially participated out to another financial institution. In the case of a participated loan the bank partially owns the loan. A bank would participate out the balance of the loan to another financial institution if it was not able to lend the entire amount or if lending the entire amount would exceed the banks legal lending limits. By selling most of the financing to another financial institution the bank would earn fee income from servicing the loan and would be able to retain other banking relationships such as checking accounts. In case of accounts with tiered interest rate this amount is required for each tiered separately.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repricing Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to reprice Frequency is used in conjunction with Repricing Frequency Unit to define the frequency of rate change of an account. Repricing Frequency is used to identify whether records are adjustable or not. If Repricing Frequency> 0, the record is considered adjustable. If Reprice Frequency = 0, the record is fixed rate. It is used to compute the re price dates after the next_reprice_date. REPRICE_FREQ must be either 0 or positive.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repricing Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to reprice frequency unit is used in conjunction with Repricing Frequency to store the unit of frequency of rate change for an account. List of values are D, M and Y for Days, Months and Years respectively. Example  if the rate adjustment is 6 months, the repricing frequency will be 6 and repricing frequency unit will be M.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transfer Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the transfer rate that is applicable for the contract. In case of fixed rate instruments, this is the rate that ALM cash flow engine uses to calculate certain transfer rate related FEs. For adjustable or floating or administered rate instruments, this is the initial rate that is picked up by ALM cash flow engine for transfer pricing the record till the first reprice event, after which it picks the TP rate from the TP IRC for future reprice dates.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33141",
+                    "btLogicalName": "Interest Payment Frequency Unit",
+                    "dqDesc": "Should have list of values as D,M,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQLOV33142",
+                    "btLogicalName": "Repricing Frequency Unit",
+                    "dqDesc": "Should have list of values as D,M,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF39072",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Rate Tiers",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF39073",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Rate Tiers",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF39074",
+                    "btLogicalName": "Last Reprice Date",
+                    "dqDesc": "Reference Check for Last Reprice Date in Stage Account Rate Tiers",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF39075",
+                    "btLogicalName": "Last Reprice Date",
+                    "dqDesc": "Reference Check for Last Reprice Date in Stage Account Rate Tiers",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF39076",
+                    "btLogicalName": "Next Reprice Date",
+                    "dqDesc": "Reference Check for Next Reprice Date in Stage Account Rate Tiers",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF39077",
+                    "btLogicalName": "Next Reprice Date",
+                    "dqDesc": "Reference Check for Next Reprice Date in Stage Account Rate Tiers",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF39078",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Account Rate Tiers",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF39079",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Account Rate Tiers",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF39080",
+                    "btLogicalName": "General Ledger Account Code",
+                    "dqDesc": "Reference Check for General Ledger Account Code in Stage Account Rate Tiers",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF39081",
+                    "btLogicalName": "Interest Rate Code",
+                    "dqDesc": "Reference Check for Interest Rate Code in Stage Account Rate Tiers",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF39082",
+                    "btLogicalName": "Interest Rate Type",
+                    "dqDesc": "Reference Check for Interest Rate Type in Stage Account Rate Tiers",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "ALM",
+                    "ucName": "Asset Liability Management"
+                },
+                {
+                    "ucId": "BSP",
+                    "ucName": "Balance Sheet Planning"
+                }
+            ]
+        }
+    ]
+}

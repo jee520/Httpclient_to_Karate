@@ -1,0 +1,256 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Group Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Free-form text description of the account group.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Group Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the account group to which this account is assigned. Account group is a grouping of accounts based on certain criteria. Examples of account group types include household, statement bundling etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Group Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the account group to which this account is assigned. Account group is a grouping of accounts based on certain criteria. Examples of account group types include household, statement bundling etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Group Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Name of this account group.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Group Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Account Group Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Group Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the General type of this account group (for example, household or statement bundling).\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Domain",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the business domain., such as Institutional or Retail Brokerage. This is used to control access to data across distinct business operations.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Jurisdiction",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the mantas classification associated with this record. This can be a jurisdiction which represents geographical or legal entity monitoring on data restrictions. Values can be AMEA, INDV, CORP etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Expense Code Market Region",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the market region for expense code. List of valid values are: AP- Asia Pacific, EM- Europe and Africa, JP-Japan, LA- Latin America and US- United States.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiduciary Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the fiduciary associated with this account group.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Investment Objective Risk Rating Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the risk rating code based on the most recently approved investment objective.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Marketing Domicile Country",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country of the marketing domicile for the client relationship to which this account group belongs. The expected value of this field is a valid two-character ISO Standard 3166-1 code.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Primary Relationship Manager Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the primary relationship manager associated with this account group.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Relationship Expense Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the currency in which expenses are reported at the child relationship level.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Relationship Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the name of the client relationship to which this account group belongs.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Secondary Relationship Manager Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the secondary relationship manager associated with this account group.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1422",
+                    "srcLogicalName": "Stage Account Group Master",
+                    "scdName": "scd_1422_DIM_ACCOUNT_GROUP_STG_ACCT_GROUP_MASTER",
+                    "scdDesc": "Data movement from account group master source to account group dimension",
+                    "createdDate": "2024-10-26 06:02:45.0",
+                    "modifiedDate": "2024-10-30 08:59:52.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42559",
+                    "btLogicalName": "Account Group Numeric Identifier",
+                    "dqDesc": "Account Group Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                },
+                {
+                    "dqId": "DQCUS42560",
+                    "btLogicalName": "Account Group Numeric Identifier",
+                    "dqDesc": "Account Group Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                },
+                {
+                    "dqId": "DQLOV33754",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                },
+                {
+                    "dqId": "DQNMDUP42196",
+                    "btLogicalName": "Account Group Numeric Identifier",
+                    "dqDesc": "Account Group Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                },
+                {
+                    "dqId": "DQSPLCH42830",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,236 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Net Worth",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to the total net value of all assets associated with this account expressed in the account currency. This is the aggregate value of all holdings in this account, with a reduction for any margin loans or other debts owed to the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the cash balance in an account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to end of period balance which includes accrued interest. All the calculations such as interest, prepayment amounts etc. are based on this amount. This is used in all the calculations performed by cash flow engine. In Case of LC Contracts, EOP Balance should be populated when LC Is executed. Till LC is executed, LC amount sanctioned should be hold in Total Commitment Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Balance In Reporting Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to end of period balance in reporting currency. All the calculations such as interest, prepayment amounts etc. are based on this amount. This is used in all the calculations performed by cash flow engine. In Case of LC Contracts, EOP Balance should be populated when LC Is executed. Till LC is executed, LC amount sanctioned should be hold in Total Commitment Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Functional Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the currency in which balance information in the ledger is designated",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Initial Deposit Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Initial Deposit Amount. Represents the initial lump sum made to this contract such as a rollover amount that is not treated preferentially. e.g. New Money. On Annuity, Initial Deposit Amount represents the estimated or expected portion of an initial lump sum to be made to this contract when Carrier is to request for transfer of assets. Examples include qualified or non qualified replacements, Mutual Funds or Certificates of Deposit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Overdraft Negative Balance Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to net worth of this account, expressed in account currency, on the last date that it had a negative balance as a result of one or more overdrafts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ledger Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the ledger balance at an desired dimension granularity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Gross Book Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the book balance at the time of origination. Original gross book balance is the sum total of End of Period Balance Plus Deferred Balance, represented as a negative amount to depict the unamortized portion. This is used while calculating amortization. The book balance is the term financial institutions use to describe the amount of money available before any adjustments have been made for deposits in transit, checks that have not yet been cleared, reserve requirements and interest received from 'float funds' hence is generally greater than end of period balance, Also called as 'gross balance'.\nIt also excludes any deferred balance that is unamortized.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Gross Book Balance In Functional Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the book balance at the time of origination expressed in functional currency. Original gross book balance is the sum total of End-of-Period Balance + Deferred Balance (represented as a negative amount to depict the unamortized portion). This is used while calculating amortization. The book balance is the term financial institutions use to describe the amount of money available before any adjustments have been made for deposits in transit, checks that have not yet been cleared, reserve requirements and interest received from 'float funds' hence is generally greater than end of period balance, Also called as 'gross balance'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Overdraft End Of Period Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the negative balance in this account, resulting from one or more overdrafts. This number will be zero if this account is not in an overdraft status as of submission date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Period Average Transaction Amount In Functional Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the average monetary amount expressed in functional currency of all transactions of the profile metric that is anticipated for this customer during this profile period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prepayment Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to amount prepaid by the customer to reduce his outstanding balance. All prepayments are apportioned towards principal component. Prepayments are done by customers due to several reasons such as high interest rate, low penalty, emigration, windfall etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prepayment Amount In Functional Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount prepaid by the customer to reduce his outstanding balance expressed in functional currency. All prepayments are apportioned towards principal component. Prepayments are done by customers due to several reasons such as high interest rate, low penalty, emigration, windfall etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sanctioned Limit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the credit limit that was sanctioned for this account which was originally allocated to the customer at the time of joining. The maximum amount for which a particular borrower is approved is known as the credit limit. If the limit is not revised the original limit and credit limit are the same.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sanctioned Limit In Functional Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the credit limit, expressed in functional currency, that was sanctioned for this account which was originally allocated to the customer at the time of joining. The maximum amount for which a particular borrower is approved is known as the credit limit. If the limit is not revised the original limit and credit limit are the same.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Debt",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the net unsecured debt for this account expressed in account currency. This is the amount by which the debt owed to the financial institution exceeds the aggregate value of the holdings in this account.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Fee Collected",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to all the fee collected from the customer for the period expressed in account currency.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Uncleared Balance Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to the uncollected balance on the account, expressed in the account currency, from checks that did not yet cleared. The balance which is waiting to be cleared under the clearing process is called as an uncleared balance.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF38903",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Alternate Currency Values",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF38904",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Alternate Currency Values",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF38905",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Account Alternate Currency Values",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF38906",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Account Alternate Currency Values",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

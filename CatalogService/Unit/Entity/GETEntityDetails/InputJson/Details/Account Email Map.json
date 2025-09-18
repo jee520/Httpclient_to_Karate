@@ -1,0 +1,178 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Email Address Purpose Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the email address Purpose, or usage, of this address relative to this customer. For example, PRSNL for Personal Email, BUSS for Business Address, PRIM for Primary.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Email End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the email end Date that is used to specify the date on which the email ceases to apply to the parent Party or Grouping.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Email Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the business key of Party Email identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Email Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the email Start Date is used to specify the date on which the address begins to apply to the parent, Party or Grouping.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Preferred Email Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This column indicates whether the email is preferred email for all purpose of communication to the party or not. List of values are Y, N.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sequence Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "This column stores a sequence Number. This is added as PK for capturing facts at required grain.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Validated Email Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This column indicates validated email or not. List of values are Y, N. Y means the email has been validated and is well formed. N means the email has not been validated.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV31993",
+                    "btLogicalName": "Preferred Email Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQLOV31994",
+                    "btLogicalName": "Validated Email Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF36354",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Email Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF36355",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Email Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF36356",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Account Email Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF36357",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Account Email Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF36358",
+                    "btLogicalName": "Email Address Purpose Type",
+                    "dqDesc": "Reference Check for Email Address Purpose Type in Stage Account Email Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

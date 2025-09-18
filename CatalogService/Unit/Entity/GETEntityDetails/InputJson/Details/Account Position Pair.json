@@ -1,0 +1,253 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Offset Account Held By Customer Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Refers to, if offset account is held by customer. Allowed values are Y : Yes, N : No.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Offset Account Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the account number that is being offset. It Refers to the loan account number which this liability account is offsetting. There can be multiple savings account offsetting a loan, but a liability account would not offset more than one loan account. For hypothecated deposits, it Refers to the account number of the related loan that is used to net against the deposit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Offset Account Short Position Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the short position of offset account . Allowed values are S : Short, L: Long.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Offset Position Accounting Rule Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the manner in which the Oracle client holds the offset security position associated with this position pair. List of Values are C: Cash, M: Margin, S: Short, V: Versus Payment, R: Repurchase Agreement, L: Reverse Repurchase Agreement or On Loan, X: Express Credit, I: Income, N: Non-Purpose Loan, O: Other.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Offset Position Instrument Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the security associated with the offset position in this position pair.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Offset Position Unit Quantity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the number of units (for example, shares or contracts) held in the offset position associated with this position pair.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Offsetting Performance Based Swap Derivative Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the Firm Longs where the sale coincides with an offsetting performance-based swap derivative.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Position Pair Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the nature of the relationship between the two positions in this pair. E.g. Bullish Spread, Bearish Spread, Covered Call, Covered Put, Credit Spread, Debit Spread, Time Spread, Short Straddle, Long Straddle, Uncovered etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Position Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to credit derivative Position held by the entity or the manner in which the owner holds the primary security position associated with this position pair, for example, on a cash basis, on margin, or versus payment. It can have values as Long or Short where long position indicates Credit protection bought and short position indicates credit protection sold.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unit Quantity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "This column stores the number of units, for example, shares or contracts of the specified\nsecurity being transferred via this transaction.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV34136",
+                    "btLogicalName": "Offset Account Short Position Indicator",
+                    "dqDesc": "Should have list of values as L,S",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQLOV34137",
+                    "btLogicalName": "Offset Position Accounting Rule Indicator",
+                    "dqDesc": "Should have list of values as C,I,L,M,N,O,R,S,V,X",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41318",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Position Pair",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41319",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Account Position Pair",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41320",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Account Position Pair",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41321",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Account Position Pair",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41322",
+                    "btLogicalName": "Instrument Code",
+                    "dqDesc": "Reference Check for Instrument Code in Stage Account Position Pair",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41323",
+                    "btLogicalName": "Offset Account Number",
+                    "dqDesc": "Reference Check for Offset Account Number in Stage Account Position Pair",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41324",
+                    "btLogicalName": "Position Type",
+                    "dqDesc": "Reference Check for Position Type in Stage Account Position Pair",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41325",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Account Position Pair",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                }
+            ]
+        }
+    ]
+}

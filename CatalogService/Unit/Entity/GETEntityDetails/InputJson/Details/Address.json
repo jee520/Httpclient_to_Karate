@@ -1,0 +1,282 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Address Attention Line",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to an attention or additional address line.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Bar Code Available Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the Address is associated to unique bar code or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Address Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the business unique key of address identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Address Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the business unique key of address identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Address Line Five",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the fifth line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line Four",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the fourth line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the first line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line Six",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the sixth line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line Three",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the third line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the second line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the address identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "City Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the long name of the city of this location.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO State Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the ISO State code of the Address. International Organization for Standardization, ISO, and defines codes for each state.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mailing Instruction Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the mailing instruction given by the customer, office, Res. Address, hold mail, different address, etc...Expected values are O, R, H, D, this is not available.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Region Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the geographical grouping of the market based on certain common characteristics like language, ethnicity, country, continent, city and state. The region can vary based on the definition of market. Global market vs local market can have different definition of region.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "State Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to name of the state or province component of the address.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Zip Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the postal code or zip code component of this address.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "9",
+                    "srcLogicalName": "Stage Address Master",
+                    "scdName": "scd_9_DIM_ADDRESS_STG_ADDRESS_MASTER",
+                    "scdDesc": "Data movement from address master source to address dimension",
+                    "createdDate": "2024-10-26 06:02:43.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42587",
+                    "btLogicalName": "Address Numeric Identifier",
+                    "dqDesc": "Address Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQCUS42588",
+                    "btLogicalName": "Address Numeric Identifier",
+                    "dqDesc": "Address Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33574",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33575",
+                    "btLogicalName": "Address Bar Code Available Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQNMDUP42168",
+                    "btLogicalName": "Address Numeric Identifier",
+                    "dqDesc": "Address Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQSPLCH42985",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}
