@@ -1,0 +1,4727 @@
+[
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_IDENTIFICATION_DOC",
+        "Data Quality Group Name": "STG_PARTY_IDENTIFICATION_DOC",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EQUITY_INDICES",
+        "Data Quality Group Name": "STG_EQUITY_INDICES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_DERIVATIVES",
+        "Data Quality Group Name": "STG_CREDIT_DERIVATIVES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FORWARDS",
+        "Data Quality Group Name": "STG_FORWARDS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MERCHANT_CARDS",
+        "Data Quality Group Name": "STG_MERCHANT_CARDS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OPTION_CONTRACTS",
+        "Data Quality Group Name": "STG_OPTION_CONTRACTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TD_CONTRACTS",
+        "Data Quality Group Name": "STG_TD_CONTRACTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MERCHANT_CARDS_TXNS",
+        "Data Quality Group Name": "STG_MERCHANT_CARDS_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OPTION_CONTRACTS_TXNS",
+        "Data Quality Group Name": "STG_OPTION_CONTRACTS_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COMPENSATION_TYPE_MASTER",
+        "Data Quality Group Name": "STG_COMPENSATION_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_SHR_HLD_PERCENT",
+        "Data Quality Group Name": "STG_PARTY_SHR_HLD_PERCENT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CHANNEL_HIER",
+        "Data Quality Group Name": "STG_CHANNEL_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ASSUMED_POLICY_MASTER_HIER",
+        "Data Quality Group Name": "STG_ASSUMED_POLICY_MASTER_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_QUOTE_SUBMISSION_METHOD_MASTER",
+        "Data Quality Group Name": "STG_QUOTE_SUBMISSION_METHOD_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_QUOTE_SOURCE_METHOD_MASTER",
+        "Data Quality Group Name": "STG_QUOTE_SOURCE_METHOD_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FRAUD_REASON_MASTER",
+        "Data Quality Group Name": "STG_FRAUD_REASON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SERVICE_TEAM",
+        "Data Quality Group Name": "STG_SERVICE_TEAM",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRUSTS",
+        "Data Quality Group Name": "STG_TRUSTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CRD_PARTCPN_TRN_MEMBR_MAP",
+        "Data Quality Group Name": "STG_CRD_PARTCPN_TRN_MEMBR_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DATA_SOURCE_MASTER",
+        "Data Quality Group Name": "STG_DATA_SOURCE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_STANDARD_ACCT_HEAD",
+        "Data Quality Group Name": "STG_STANDARD_ACCT_HEAD",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_HEDGE_STATUS_MASTER",
+        "Data Quality Group Name": "STG_HEDGE_STATUS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACQUIRED_FIRM_MASTER",
+        "Data Quality Group Name": "STG_ACQUIRED_FIRM_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_GUARANTOR_TYPE_MASTER",
+        "Data Quality Group Name": "STG_GUARANTOR_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LEGAL_ENTITY_HIER",
+        "Data Quality Group Name": "STG_LEGAL_ENTITY_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FUND_DETAILS",
+        "Data Quality Group Name": "STG_FUND_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COLLECTIONS",
+        "Data Quality Group Name": "STG_COLLECTIONS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CUSTODIAL_ACCOUNTS",
+        "Data Quality Group Name": "STG_CUSTODIAL_ACCOUNTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INFLATION_RATE",
+        "Data Quality Group Name": "STG_INFLATION_RATE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INDEX_MASTER",
+        "Data Quality Group Name": "STG_INDEX_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INS_COVERAGE_MSTR_HIER",
+        "Data Quality Group Name": "STG_INS_COVERAGE_MSTR_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EXP_UNDERLYING_TYPE_MASTER",
+        "Data Quality Group Name": "STG_EXP_UNDERLYING_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_REF_FOREX_RATE",
+        "Data Quality Group Name": "STG_REF_FOREX_RATE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FACILITY_RATING_DETAILS",
+        "Data Quality Group Name": "STG_FACILITY_RATING_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ISSUER_MITIGANT_MAP",
+        "Data Quality Group Name": "STG_ISSUER_MITIGANT_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TXN_CHANNEL_MASTER",
+        "Data Quality Group Name": "STG_TXN_CHANNEL_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SHAREHOLDER_MASTER",
+        "Data Quality Group Name": "STG_SHAREHOLDER_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_PARTCPTION_TRANCHE_MASTER",
+        "Data Quality Group Name": "STG_CREDIT_PARTCPTION_TRANCHE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_GL_ACCOUNT_HIER",
+        "Data Quality Group Name": "STG_GL_ACCOUNT_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ATTRITION_REASON_MASTER",
+        "Data Quality Group Name": "STG_ATTRITION_REASON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DEAL_MASTER",
+        "Data Quality Group Name": "STG_DEAL_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_VEHICLE_BODY_TYPE_MASTER",
+        "Data Quality Group Name": "STG_VEHICLE_BODY_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MARITAL_STATUS_MASTER",
+        "Data Quality Group Name": "STG_MARITAL_STATUS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EXPOSURE_SENIORITY_MASTER",
+        "Data Quality Group Name": "STG_EXPOSURE_SENIORITY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ISSUE_DETAILS",
+        "Data Quality Group Name": "STG_ISSUE_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BANK_POSITIONS",
+        "Data Quality Group Name": "STG_BANK_POSITIONS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CUST_ANTICIPATORY_PROFILE",
+        "Data Quality Group Name": "STG_CUST_ANTICIPATORY_PROFILE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPLICATIONS",
+        "Data Quality Group Name": "STG_APPLICATIONS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOSS_SHARE_AGREEMENT_MASTER",
+        "Data Quality Group Name": "STG_LOSS_SHARE_AGREEMENT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MACRO_ECONOMIC_VAR_DTLS",
+        "Data Quality Group Name": "STG_MACRO_ECONOMIC_VAR_DTLS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_HIER",
+        "Data Quality Group Name": "STG_PARTY_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_ENT_ERROR_CD_MASTER",
+        "Data Quality Group Name": "STG_ACCT_ENT_ERROR_CD_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FIXED_ASSETS_MASTER",
+        "Data Quality Group Name": "STG_FIXED_ASSETS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OFFERS_TYPE_MASTER",
+        "Data Quality Group Name": "STG_OFFERS_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_GUARANTEE_SCHEME_MASTER",
+        "Data Quality Group Name": "STG_GUARANTEE_SCHEME_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FIXED_ASSETS_TYPE_MASTER",
+        "Data Quality Group Name": "STG_FIXED_ASSETS_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ECONOMIC_ZONE_MASTER",
+        "Data Quality Group Name": "STG_ECONOMIC_ZONE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EMAIL_ADRS_PRP_TYPE_MASTER",
+        "Data Quality Group Name": "STG_EMAIL_ADRS_PRP_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SEC_PROGRAM_MASTER",
+        "Data Quality Group Name": "STG_SEC_PROGRAM_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_ENTRIES_HEADER",
+        "Data Quality Group Name": "STG_ACCT_ENTRIES_HEADER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MKT_INSTRUMENT_CONTRACT",
+        "Data Quality Group Name": "STG_MKT_INSTRUMENT_CONTRACT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOAN_WAIVER_SCHEME_MASTER",
+        "Data Quality Group Name": "STG_LOAN_WAIVER_SCHEME_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_LOSS_REASON_MASTER",
+        "Data Quality Group Name": "STG_CREDIT_LOSS_REASON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CARD_TYPE_MASTER",
+        "Data Quality Group Name": "STG_CARD_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_AUTH_DECISION_REAS_MASTER",
+        "Data Quality Group Name": "STG_AUTH_DECISION_REAS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SERV_REPRES_MASTER",
+        "Data Quality Group Name": "STG_SERV_REPRES_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_RELTNSHP_TYPE_MASTER",
+        "Data Quality Group Name": "STG_PARTY_RELTNSHP_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_RATE_PLAN_MASTER",
+        "Data Quality Group Name": "STG_RATE_PLAN_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LEASES_CONTRACTS",
+        "Data Quality Group Name": "STG_LEASES_CONTRACTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BORROWINGS_TXNS",
+        "Data Quality Group Name": "STG_BORROWINGS_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FUTURES_TXNS",
+        "Data Quality Group Name": "STG_FUTURES_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CAMPAIGN_TYPE_MASTER",
+        "Data Quality Group Name": "STG_CAMPAIGN_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MERCHANT_CATEGORY_MASTER",
+        "Data Quality Group Name": "STG_MERCHANT_CATEGORY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PRODUCT_TYPE_MASTER",
+        "Data Quality Group Name": "STG_PRODUCT_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_OFFICER_MASTER",
+        "Data Quality Group Name": "STG_CREDIT_OFFICER_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SERV_SLIP_REASON_MASTER",
+        "Data Quality Group Name": "STG_SERV_SLIP_REASON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_STATUS_MASTER",
+        "Data Quality Group Name": "STG_ACCOUNT_STATUS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_FINANCIALS",
+        "Data Quality Group Name": "STG_PARTY_FINANCIALS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PRODUCT_CATEGORY_MASTER",
+        "Data Quality Group Name": "STG_PRODUCT_CATEGORY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_IRC_RATE_HIST",
+        "Data Quality Group Name": "STG_IRC_RATE_HIST",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LITIGATION_DETAILS",
+        "Data Quality Group Name": "STG_LITIGATION_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BEHAVIOUR_PATTERN_NRP",
+        "Data Quality Group Name": "STG_BEHAVIOUR_PATTERN_NRP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOCATION_MASTER",
+        "Data Quality Group Name": "STG_LOCATION_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_HEDGE_PORTFL_SET_ACCT_MAP",
+        "Data Quality Group Name": "STG_HEDGE_PORTFL_SET_ACCT_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SALES_STAGE_MASTER",
+        "Data Quality Group Name": "STG_SALES_STAGE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRD_FIN_CNTRCT_AMD_STATUS",
+        "Data Quality Group Name": "STG_TRD_FIN_CNTRCT_AMD_STATUS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_NETTING_AGREEMENT_MASTER",
+        "Data Quality Group Name": "STG_NETTING_AGREEMENT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRD_FIN_GOODS_TYPE_MASTER",
+        "Data Quality Group Name": "STG_TRD_FIN_GOODS_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SMA_PLATFORM_MASTER",
+        "Data Quality Group Name": "STG_SMA_PLATFORM_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LEGAL_ENTITY_GAAP_MAP",
+        "Data Quality Group Name": "STG_LEGAL_ENTITY_GAAP_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRADING_ACCOUNT",
+        "Data Quality Group Name": "STG_TRADING_ACCOUNT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_LINE_MITIGANT_MAP",
+        "Data Quality Group Name": "STG_CREDIT_LINE_MITIGANT_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CLAIM_MASTER",
+        "Data Quality Group Name": "STG_CLAIM_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPL_REJECT_REASON_MASTER",
+        "Data Quality Group Name": "STG_APPL_REJECT_REASON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_BALANCES",
+        "Data Quality Group Name": "STG_ACCOUNT_BALANCES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SERV_LN_CUST_RELATIONSHIP",
+        "Data Quality Group Name": "STG_SERV_LN_CUST_RELATIONSHIP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EQUITY_OTHER_ASSET_LOSS",
+        "Data Quality Group Name": "STG_EQUITY_OTHER_ASSET_LOSS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_ROLE_MASTER",
+        "Data Quality Group Name": "STG_PARTY_ROLE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SURVEY_MASTER",
+        "Data Quality Group Name": "STG_SURVEY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CARD_ACCT_MAPPING",
+        "Data Quality Group Name": "STG_CARD_ACCT_MAPPING",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MARKET_VARIABLES",
+        "Data Quality Group Name": "STG_MARKET_VARIABLES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNTING_ENTRIES",
+        "Data Quality Group Name": "STG_ACCOUNTING_ENTRIES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COMMODITIES",
+        "Data Quality Group Name": "STG_COMMODITIES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ANNUITY_TXNS",
+        "Data Quality Group Name": "STG_ANNUITY_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BILL_CONTRACTS_TXNS",
+        "Data Quality Group Name": "STG_BILL_CONTRACTS_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OD_ACCOUNTS_TXNS",
+        "Data Quality Group Name": "STG_OD_ACCOUNTS_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_RECOVERY_AGENT_MASTER",
+        "Data Quality Group Name": "STG_RECOVERY_AGENT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_HOUSEHOLD_MASTER",
+        "Data Quality Group Name": "STG_HOUSEHOLD_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_IRCS_MASTER",
+        "Data Quality Group Name": "STG_IRCS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CAMPAIGN_CHANNEL_MASTER",
+        "Data Quality Group Name": "STG_CAMPAIGN_CHANNEL_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ORG_UNIT_HIER",
+        "Data Quality Group Name": "STG_ORG_UNIT_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LEGAL_ENTITY_GROUP_MASTER",
+        "Data Quality Group Name": "STG_LEGAL_ENTITY_GROUP_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COHORT_COMPOSITION_MASTER",
+        "Data Quality Group Name": "STG_COHORT_COMPOSITION_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CENTRAL_AUTHORITY_MASTER",
+        "Data Quality Group Name": "STG_CENTRAL_AUTHORITY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COLLECTION_OFFICER_MASTER",
+        "Data Quality Group Name": "STG_COLLECTION_OFFICER_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CONSTITUTED_FRM_MASTER",
+        "Data Quality Group Name": "STG_CONSTITUTED_FRM_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_CONSENT",
+        "Data Quality Group Name": "STG_PARTY_CONSENT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TXN_HEADER",
+        "Data Quality Group Name": "STG_TXN_HEADER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MUDARABAH",
+        "Data Quality Group Name": "STG_MUDARABAH",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LC_CONTRACTS",
+        "Data Quality Group Name": "STG_LC_CONTRACTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MERCHANT_MASTER",
+        "Data Quality Group Name": "STG_MERCHANT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INSTRUMENT_RATING_DETAILS",
+        "Data Quality Group Name": "STG_INSTRUMENT_RATING_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_VALUATION_METHOD_MASTER",
+        "Data Quality Group Name": "STG_VALUATION_METHOD_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTICIPATION_TYPE_MASTER",
+        "Data Quality Group Name": "STG_PARTICIPATION_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MIGRATION_REASON_MASTER",
+        "Data Quality Group Name": "STG_MIGRATION_REASON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_VENDOR_MASTER",
+        "Data Quality Group Name": "STG_VENDOR_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_HEDGE_PORTFOLIO_SET_MASTER",
+        "Data Quality Group Name": "STG_HEDGE_PORTFOLIO_SET_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MITIGANTS",
+        "Data Quality Group Name": "STG_MITIGANTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_PARTCPN_TRNCH_DETL",
+        "Data Quality Group Name": "STG_CREDIT_PARTCPN_TRNCH_DETL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LEDGER_MASTER",
+        "Data Quality Group Name": "STG_LEDGER_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COLLECTOR_CONTACTS",
+        "Data Quality Group Name": "STG_COLLECTOR_CONTACTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SRC_POS_TXNS",
+        "Data Quality Group Name": "STG_SRC_POS_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CUST_EMPL_TYPE_MASTER",
+        "Data Quality Group Name": "STG_CUST_EMPL_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OFFER_MASTER",
+        "Data Quality Group Name": "STG_OFFER_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACTIVITY_TYPE_MASTER",
+        "Data Quality Group Name": "STG_ACTIVITY_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOSS_MITIGATION_PRG_MASTER",
+        "Data Quality Group Name": "STG_LOSS_MITIGATION_PRG_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_RATING_TRANSITION_MATRIX",
+        "Data Quality Group Name": "STG_RATING_TRANSITION_MATRIX",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_QUALITY_TYPE_MASTER",
+        "Data Quality Group Name": "STG_CREDIT_QUALITY_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_VEHICLE_LEASE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_VEHICLE_LEASE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CEDENT_ASSET_CLASS_MASTER",
+        "Data Quality Group Name": "STG_CEDENT_ASSET_CLASS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRANSITION_MTRX_MASTER",
+        "Data Quality Group Name": "STG_TRANSITION_MTRX_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_VINTAGE_MASTER",
+        "Data Quality Group Name": "STG_VINTAGE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INTEREST_RATE_PARAMETERS",
+        "Data Quality Group Name": "STG_INTEREST_RATE_PARAMETERS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SPECIAL_TERMS_COVENANTS",
+        "Data Quality Group Name": "STG_SPECIAL_TERMS_COVENANTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_ADDRESS",
+        "Data Quality Group Name": "STG_ACCOUNT_ADDRESS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTNER_EXPENSE",
+        "Data Quality Group Name": "STG_PARTNER_EXPENSE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DIVIDEND_PROTECT_DETAIL",
+        "Data Quality Group Name": "STG_DIVIDEND_PROTECT_DETAIL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_PD_DETAILS",
+        "Data Quality Group Name": "STG_PARTY_PD_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INT_SCENARIO_SEVERITY_DTLS",
+        "Data Quality Group Name": "STG_INT_SCENARIO_SEVERITY_DTLS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OR_SCEN_COVARIANCE_DATA",
+        "Data Quality Group Name": "STG_OR_SCEN_COVARIANCE_DATA",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_HEDGED_INST_MAP",
+        "Data Quality Group Name": "STG_HEDGED_INST_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CAMPAIGN_SUMMARY",
+        "Data Quality Group Name": "STG_CAMPAIGN_SUMMARY",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_UNDERWRITING_POSITIONS",
+        "Data Quality Group Name": "STG_UNDERWRITING_POSITIONS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DOC_COLLCTN_DISCPNT_DTL",
+        "Data Quality Group Name": "STG_DOC_COLLCTN_DISCPNT_DTL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OR_LOSS_THRESHOLD_EXT_RG",
+        "Data Quality Group Name": "STG_OR_LOSS_THRESHOLD_EXT_RG",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TXN_ALT_CCY_VALUES",
+        "Data Quality Group Name": "STG_TXN_ALT_CCY_VALUES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LIFE_EVENTS",
+        "Data Quality Group Name": "STG_LIFE_EVENTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CDS_INDEX_COMPOSITION",
+        "Data Quality Group Name": "STG_CDS_INDEX_COMPOSITION",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EMBEDDED_OPTIONS_SCHEDULE",
+        "Data Quality Group Name": "STG_EMBEDDED_OPTIONS_SCHEDULE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRANSITION_MATRIX",
+        "Data Quality Group Name": "STG_TRANSITION_MATRIX",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_POLICY_VEHICLE_RATING_DTLS",
+        "Data Quality Group Name": "STG_POLICY_VEHICLE_RATING_DTLS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_CR_QUALITY_STS_DTLS",
+        "Data Quality Group Name": "STG_ACCT_CR_QUALITY_STS_DTLS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OBLIGOR_DETAILS",
+        "Data Quality Group Name": "STG_OBLIGOR_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ISSUER_TYPE",
+        "Data Quality Group Name": "STG_ISSUER_TYPE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OR_LOSS_THRESHOLD_INT_RG",
+        "Data Quality Group Name": "STG_OR_LOSS_THRESHOLD_INT_RG",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DEPOSIT_BLOCK_DTLS",
+        "Data Quality Group Name": "STG_DEPOSIT_BLOCK_DTLS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CAP_INVESTMENTS_POSITIONS",
+        "Data Quality Group Name": "STG_CAP_INVESTMENTS_POSITIONS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SERV_ACCT_CREDIT_SCORE_DTL",
+        "Data Quality Group Name": "STG_SERV_ACCT_CREDIT_SCORE_DTL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MORT_SERV_RIGHTS_MASTER",
+        "Data Quality Group Name": "STG_MORT_SERV_RIGHTS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LEASE_PURPOSE_MASTER",
+        "Data Quality Group Name": "STG_LEASE_PURPOSE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PHONE_PURPOSE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_PHONE_PURPOSE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CATASTROPHE_EVENTS_MASTER",
+        "Data Quality Group Name": "STG_CATASTROPHE_EVENTS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CUSTOMER_ALT_CCY_VALUES",
+        "Data Quality Group Name": "STG_CUSTOMER_ALT_CCY_VALUES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INSTRUMENT_PD_DETAILS",
+        "Data Quality Group Name": "STG_INSTRUMENT_PD_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_ACCT_RELATIONSHIP",
+        "Data Quality Group Name": "STG_ACCT_ACCT_RELATIONSHIP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_STD_ALLOCATION_FACTOR",
+        "Data Quality Group Name": "STG_STD_ALLOCATION_FACTOR",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CASA",
+        "Data Quality Group Name": "STG_CASA",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FX_CONTRACTS",
+        "Data Quality Group Name": "STG_FX_CONTRACTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CORRESPONDENT_ACCT_TXNS",
+        "Data Quality Group Name": "STG_CORRESPONDENT_ACCT_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LC_TXNS",
+        "Data Quality Group Name": "STG_LC_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SALAM_TXNS",
+        "Data Quality Group Name": "STG_SALAM_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TERMDEPOSITS_TXNS",
+        "Data Quality Group Name": "STG_TERMDEPOSITS_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LEGAL_ENTITY_MASTER",
+        "Data Quality Group Name": "STG_LEGAL_ENTITY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TREATMENT_MASTER",
+        "Data Quality Group Name": "STG_TREATMENT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_REPORT_TYPE_MASTER",
+        "Data Quality Group Name": "STG_REPORT_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PORTFOLIO_MASTER_HIER",
+        "Data Quality Group Name": "STG_PORTFOLIO_MASTER_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_GL_DATA",
+        "Data Quality Group Name": "STG_GL_DATA",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INSTN_PRIMARY_FUNCTION_MASTER",
+        "Data Quality Group Name": "STG_INSTN_PRIMARY_FUNCTION_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_PURPOSE_MASTER",
+        "Data Quality Group Name": "STG_ACCOUNT_PURPOSE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PREM_OFFSET_MTHD_MSTR_HIER",
+        "Data Quality Group Name": "STG_PREM_OFFSET_MTHD_MSTR_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_HEDGE_MASTER",
+        "Data Quality Group Name": "STG_HEDGE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOAN_RECOURSE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_LOAN_RECOURSE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MKTG_PROGRAM_MASTER",
+        "Data Quality Group Name": "STG_MKTG_PROGRAM_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CURRENCY_RATE_VERSION_MASTER",
+        "Data Quality Group Name": "STG_CURRENCY_RATE_VERSION_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CARDS_BAL_CATEGORY_MASTER",
+        "Data Quality Group Name": "STG_CARDS_BAL_CATEGORY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_PARTY_RELATIONSHIP",
+        "Data Quality Group Name": "STG_PARTY_PARTY_RELATIONSHIP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PRODUCER_MASTER_HIER",
+        "Data Quality Group Name": "STG_PRODUCER_MASTER_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_GL_COMBINATION_MASTER",
+        "Data Quality Group Name": "STG_GL_COMBINATION_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SEC_TRNCH_CREDIT_ENH_MAP",
+        "Data Quality Group Name": "STG_SEC_TRNCH_CREDIT_ENH_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_NON_CONTRACTUAL_OBLIGS",
+        "Data Quality Group Name": "STG_NON_CONTRACTUAL_OBLIGS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LEGAL_ENTITY_RATING_DTLS",
+        "Data Quality Group Name": "STG_LEGAL_ENTITY_RATING_DTLS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CUSTSEG_PROD_LTV",
+        "Data Quality Group Name": "STG_CUSTSEG_PROD_LTV",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_RESTRICTION_LIST",
+        "Data Quality Group Name": "STG_RESTRICTION_LIST",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_RATING_RISK_PARAMETERS",
+        "Data Quality Group Name": "STG_RATING_RISK_PARAMETERS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRD_FIN_CNTRCT_EVENT_ACK",
+        "Data Quality Group Name": "STG_TRD_FIN_CNTRCT_EVENT_ACK",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_RECOVERY_CASH_FLOWS",
+        "Data Quality Group Name": "STG_ACCT_RECOVERY_CASH_FLOWS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CONTROLLING_CUSTOMER",
+        "Data Quality Group Name": "STG_CONTROLLING_CUSTOMER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SHARE_HOLDING_DETAILS",
+        "Data Quality Group Name": "STG_SHARE_HOLDING_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COMMODITY_FUTURE_CURVES",
+        "Data Quality Group Name": "STG_COMMODITY_FUTURE_CURVES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CORPORATE_ACTIONS",
+        "Data Quality Group Name": "STG_CORPORATE_ACTIONS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPLICATION_EVENT_DECISION",
+        "Data Quality Group Name": "STG_APPLICATION_EVENT_DECISION",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_ALT_CCY_VALUES",
+        "Data Quality Group Name": "STG_ACCOUNT_ALT_CCY_VALUES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPLN_PARTY_ROLE_MAP",
+        "Data Quality Group Name": "STG_APPLN_PARTY_ROLE_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EMPLOYEE_EXPENSE_DETAILS",
+        "Data Quality Group Name": "STG_EMPLOYEE_EXPENSE_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MITIGANT_CNTR_GUAR_MAPPING",
+        "Data Quality Group Name": "STG_MITIGANT_CNTR_GUAR_MAPPING",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DR_ISSUE_MAPPING",
+        "Data Quality Group Name": "STG_DR_ISSUE_MAPPING",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MGMT_FORECAST",
+        "Data Quality Group Name": "STG_MGMT_FORECAST",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COMMODITY_LOCATION_DTLS",
+        "Data Quality Group Name": "STG_COMMODITY_LOCATION_DTLS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SURVEY_RESPONSE",
+        "Data Quality Group Name": "STG_SURVEY_RESPONSE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_REPURCHASE_REASONS_MASTER",
+        "Data Quality Group Name": "STG_REPURCHASE_REASONS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_LINE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_CREDIT_LINE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MARKET_CENTER_MASTER",
+        "Data Quality Group Name": "STG_MARKET_CENTER_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CASA_TXNS",
+        "Data Quality Group Name": "STG_CASA_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FOREIGN_CCY_UTIL_DETAILS",
+        "Data Quality Group Name": "STG_FOREIGN_CCY_UTIL_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SEC_INCEPTION_DATA",
+        "Data Quality Group Name": "STG_SEC_INCEPTION_DATA",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INDEX_COMPOSITION",
+        "Data Quality Group Name": "STG_INDEX_COMPOSITION",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOAN_SERVICED_MITIGANT_MAP",
+        "Data Quality Group Name": "STG_LOAN_SERVICED_MITIGANT_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MR_PORTFLO_ACT_PNL_VALUE",
+        "Data Quality Group Name": "STG_MR_PORTFLO_ACT_PNL_VALUE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FORECAST_PARTY_SHR_HLD",
+        "Data Quality Group Name": "STG_FORECAST_PARTY_SHR_HLD",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DOC_COLLCTN_CNTRCT_ACK",
+        "Data Quality Group Name": "STG_DOC_COLLCTN_CNTRCT_ACK",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FORWARD_EXCHG_RATES",
+        "Data Quality Group Name": "STG_FORWARD_EXCHG_RATES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EMPLOYEE_SERVICE_ACCOUNT",
+        "Data Quality Group Name": "STG_EMPLOYEE_SERVICE_ACCOUNT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_RESTRICTION",
+        "Data Quality Group Name": "STG_ACCOUNT_RESTRICTION",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPLICATION_DOCUMENT",
+        "Data Quality Group Name": "STG_APPLICATION_DOCUMENT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_PEER_GROUP",
+        "Data Quality Group Name": "STG_ACCOUNT_PEER_GROUP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EQ_ARBITRAGE_STRGY_MAPPING",
+        "Data Quality Group Name": "STG_EQ_ARBITRAGE_STRGY_MAPPING",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_NETTABLE_LIABILITIES",
+        "Data Quality Group Name": "STG_NETTABLE_LIABILITIES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_LENDABLE_PERCENT",
+        "Data Quality Group Name": "STG_ACCT_LENDABLE_PERCENT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_RATING_DETAILS",
+        "Data Quality Group Name": "STG_ACCOUNT_RATING_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SRC_TB_TXNS",
+        "Data Quality Group Name": "STG_SRC_TB_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_POSITION_PAIR",
+        "Data Quality Group Name": "STG_ACCOUNT_POSITION_PAIR",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SYSTEM_LOGON_MASTER",
+        "Data Quality Group Name": "STG_SYSTEM_LOGON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FCAST_AGG_CASH_FLOWS",
+        "Data Quality Group Name": "STG_FCAST_AGG_CASH_FLOWS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COMMITMENT_CONTRACTS",
+        "Data Quality Group Name": "STG_COMMITMENT_CONTRACTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INVESTMENTS",
+        "Data Quality Group Name": "STG_INVESTMENTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOAN_CONTRACTS",
+        "Data Quality Group Name": "STG_LOAN_CONTRACTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CARDS_SETTLEMENT_TXNS",
+        "Data Quality Group Name": "STG_CARDS_SETTLEMENT_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_DERIVATIVES_TXNS",
+        "Data Quality Group Name": "STG_CREDIT_DERIVATIVES_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FOREX_TXNS",
+        "Data Quality Group Name": "STG_FOREX_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INVESTMENT_TXNS",
+        "Data Quality Group Name": "STG_INVESTMENT_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ISTISNA_TXNS",
+        "Data Quality Group Name": "STG_ISTISNA_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SUKUK_TXNS",
+        "Data Quality Group Name": "STG_SUKUK_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CAPITAL_REQMNT_TYPE_MASTER",
+        "Data Quality Group Name": "STG_CAPITAL_REQMNT_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_AVAIL_INTRA_LIQ_SRC_MASTER",
+        "Data Quality Group Name": "STG_AVAIL_INTRA_LIQ_SRC_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CTRCT_UNWND_TRGGR_MASTER",
+        "Data Quality Group Name": "STG_CTRCT_UNWND_TRGGR_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ASSETS_SOLD",
+        "Data Quality Group Name": "STG_ASSETS_SOLD",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TXN_MNEMONIC_MASTER",
+        "Data Quality Group Name": "STG_TXN_MNEMONIC_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRADE_FIN_GOODS_MASTER",
+        "Data Quality Group Name": "STG_TRADE_FIN_GOODS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PREPAYMENT_REASON_MASTER",
+        "Data Quality Group Name": "STG_PREPAYMENT_REASON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PROJECT_HIER",
+        "Data Quality Group Name": "STG_PROJECT_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EMPLOYEE_TRD_RESTRICTION",
+        "Data Quality Group Name": "STG_EMPLOYEE_TRD_RESTRICTION",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRD_FIN_GDS_SUBTYP_MASTER",
+        "Data Quality Group Name": "STG_TRD_FIN_GDS_SUBTYP_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_WRITEOFF_REASON_MASTER",
+        "Data Quality Group Name": "STG_WRITEOFF_REASON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SALES_CHANNEL_MASTER",
+        "Data Quality Group Name": "STG_SALES_CHANNEL_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_HEDGE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_HEDGE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TXN_PURPOSE_MASTER",
+        "Data Quality Group Name": "STG_TXN_PURPOSE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOCATION_HIER",
+        "Data Quality Group Name": "STG_LOCATION_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INTERBANK_TXNS",
+        "Data Quality Group Name": "STG_INTERBANK_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INT_OPERATIONAL_RISK_LOSS",
+        "Data Quality Group Name": "STG_INT_OPERATIONAL_RISK_LOSS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FUND_EQUITY_INVESTMENTS",
+        "Data Quality Group Name": "STG_FUND_EQUITY_INVESTMENTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EMPLOYEE_MASTER",
+        "Data Quality Group Name": "STG_EMPLOYEE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ADDR_PURPOSE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_ADDR_PURPOSE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_HIER",
+        "Data Quality Group Name": "STG_ACCOUNT_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_LINE_MASTER",
+        "Data Quality Group Name": "STG_CREDIT_LINE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INS_UNW_ISSUE_STYPE_MASTER",
+        "Data Quality Group Name": "STG_INS_UNW_ISSUE_STYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_CENTER_MASTER",
+        "Data Quality Group Name": "STG_CREDIT_CENTER_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CONSENT_PURPOSE_MASTER",
+        "Data Quality Group Name": "STG_CONSENT_PURPOSE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BUSINESS_SEGMENT_MASTER",
+        "Data Quality Group Name": "STG_BUSINESS_SEGMENT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PREM_SUSP_REASON_MASTER",
+        "Data Quality Group Name": "STG_PREM_SUSP_REASON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_QUOTE_DECLINATION_TYPE_MASTER",
+        "Data Quality Group Name": "STG_QUOTE_DECLINATION_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_LINE_STATUS_MASTER",
+        "Data Quality Group Name": "STG_CREDIT_LINE_STATUS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRADING_DESK_MASTER",
+        "Data Quality Group Name": "STG_TRADING_DESK_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PLACED_COLLATERAL",
+        "Data Quality Group Name": "STG_PLACED_COLLATERAL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_WATCHLIST_MASTER",
+        "Data Quality Group Name": "STG_WATCHLIST_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BUSINESS_CLASS_MASTER",
+        "Data Quality Group Name": "STG_BUSINESS_CLASS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_NON_PERFORMING_CATEGORY_MASTER",
+        "Data Quality Group Name": "STG_NON_PERFORMING_CATEGORY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_UNDRAWN_LIMIT",
+        "Data Quality Group Name": "STG_UNDRAWN_LIMIT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOANS_SERVICED",
+        "Data Quality Group Name": "STG_LOANS_SERVICED",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MITIGANT_COUNTER_GUARANTEE",
+        "Data Quality Group Name": "STG_MITIGANT_COUNTER_GUARANTEE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PEER_GROUP_MASTER",
+        "Data Quality Group Name": "STG_PEER_GROUP_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INS_WEIGHT_CR_TYPE_MASTER",
+        "Data Quality Group Name": "STG_INS_WEIGHT_CR_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TERMINAL_TYPE_MASTER",
+        "Data Quality Group Name": "STG_TERMINAL_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_RECOVERY_TYPE_MASTER",
+        "Data Quality Group Name": "STG_RECOVERY_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_QUOTE_STATUS_MASTER",
+        "Data Quality Group Name": "STG_QUOTE_STATUS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DOCUMENT_SUB_TYPE_MASTER",
+        "Data Quality Group Name": "STG_DOCUMENT_SUB_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FINANCIAL_VARIABLE_MASTER",
+        "Data Quality Group Name": "STG_FINANCIAL_VARIABLE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FIXED_ASSETS_DETAILS",
+        "Data Quality Group Name": "STG_FIXED_ASSETS_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SCORE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_SCORE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_WLA_PAGE_MASTER",
+        "Data Quality Group Name": "STG_WLA_PAGE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DIVIDEND_PO_TYPE_MASTER",
+        "Data Quality Group Name": "STG_DIVIDEND_PO_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_VEHICLE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_VEHICLE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_HEDGING_STRATEGY_MASTER",
+        "Data Quality Group Name": "STG_HEDGING_STRATEGY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COMMODITY_MASTER",
+        "Data Quality Group Name": "STG_COMMODITY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OPTY_WL_REASON_MASTER",
+        "Data Quality Group Name": "STG_OPTY_WL_REASON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTNER_MASTER",
+        "Data Quality Group Name": "STG_PARTNER_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SOCIAL_MEDIA_MASTER",
+        "Data Quality Group Name": "STG_SOCIAL_MEDIA_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EMPLOYEE_HIER",
+        "Data Quality Group Name": "STG_EMPLOYEE_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_WRITE_OFF_DETAILS",
+        "Data Quality Group Name": "STG_ACCT_WRITE_OFF_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CD_FEE_CASH_FLOWS",
+        "Data Quality Group Name": "STG_CD_FEE_CASH_FLOWS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PRODUCT_RATE_MATRIX",
+        "Data Quality Group Name": "STG_PRODUCT_RATE_MATRIX",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INSTRUMENT_SCHEDULE",
+        "Data Quality Group Name": "STG_INSTRUMENT_SCHEDULE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PPMT_MODEL_HYPERCUBE",
+        "Data Quality Group Name": "STG_PPMT_MODEL_HYPERCUBE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ENTITY_ORG_EXCHG_MAP",
+        "Data Quality Group Name": "STG_ENTITY_ORG_EXCHG_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_PHONE_MAP",
+        "Data Quality Group Name": "STG_ACCOUNT_PHONE_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_OP_ECONOMIC_ZONE",
+        "Data Quality Group Name": "STG_PARTY_OP_ECONOMIC_ZONE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BROKER_DEPOSITS",
+        "Data Quality Group Name": "STG_BROKER_DEPOSITS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FCAST_XRATES",
+        "Data Quality Group Name": "STG_FCAST_XRATES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_REPORTED_MKT_SALE",
+        "Data Quality Group Name": "STG_REPORTED_MKT_SALE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EXT_SCALING_FACTOR",
+        "Data Quality Group Name": "STG_EXT_SCALING_FACTOR",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_UOM_COVARIANCE_DATA",
+        "Data Quality Group Name": "STG_UOM_COVARIANCE_DATA",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ECO_IND_HIST_RATES",
+        "Data Quality Group Name": "STG_ECO_IND_HIST_RATES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ENTITY_PARENT_DETAILS",
+        "Data Quality Group Name": "STG_ENTITY_PARENT_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CORRELATED_CCY_MAPPING",
+        "Data Quality Group Name": "STG_CORRELATED_CCY_MAPPING",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DOWNGRADE_TRIGGER",
+        "Data Quality Group Name": "STG_DOWNGRADE_TRIGGER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PROFESSION_MASTER",
+        "Data Quality Group Name": "STG_PROFESSION_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BANKRUPTCY_TYPE_MASTER",
+        "Data Quality Group Name": "STG_BANKRUPTCY_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_VEHCILE_PURPOSE_MASTER",
+        "Data Quality Group Name": "STG_VEHCILE_PURPOSE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PRODUCT_HIER",
+        "Data Quality Group Name": "STG_PRODUCT_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ENCUMBRANCE_SOURCES_MASTER",
+        "Data Quality Group Name": "STG_ENCUMBRANCE_SOURCES_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MARKET_VARIABLES_MASTER",
+        "Data Quality Group Name": "STG_MARKET_VARIABLES_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MUSHARAKAH",
+        "Data Quality Group Name": "STG_MUSHARAKAH",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DEVIATION_REASON_MASTER",
+        "Data Quality Group Name": "STG_DEVIATION_REASON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SIMULATION_BKT_TYPE_MASTER",
+        "Data Quality Group Name": "STG_SIMULATION_BKT_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FORBORNE_STATUS_MASTER",
+        "Data Quality Group Name": "STG_FORBORNE_STATUS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PROPERTY_TYPE_MASTER",
+        "Data Quality Group Name": "STG_PROPERTY_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PAYMENT_MECHANISM_MASTER",
+        "Data Quality Group Name": "STG_PAYMENT_MECHANISM_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INFL_INDEX_MASTER",
+        "Data Quality Group Name": "STG_INFL_INDEX_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CASH_FLOW_TYPE_HIER",
+        "Data Quality Group Name": "STG_CASH_FLOW_TYPE_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CAMPAIGN_WAVE_MASTER",
+        "Data Quality Group Name": "STG_CAMPAIGN_WAVE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CONSOL_APPROACH_MASTER",
+        "Data Quality Group Name": "STG_CONSOL_APPROACH_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FCAST_LIQUIDITY_BALANCES",
+        "Data Quality Group Name": "STG_FCAST_LIQUIDITY_BALANCES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SALAM",
+        "Data Quality Group Name": "STG_SALAM",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PAYMENT_TYPE_MASTER",
+        "Data Quality Group Name": "STG_PAYMENT_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPLICATION_PURPOSE_MASTER",
+        "Data Quality Group Name": "STG_APPLICATION_PURPOSE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_HOME_OWNERSHIP_MASTER",
+        "Data Quality Group Name": "STG_HOME_OWNERSHIP_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OP_RISK_RESERVE_SCHEDULE",
+        "Data Quality Group Name": "STG_OP_RISK_RESERVE_SCHEDULE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ONLINE_ACCOUNT_MASTER",
+        "Data Quality Group Name": "STG_ONLINE_ACCOUNT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_UNDERLYING_MASTER",
+        "Data Quality Group Name": "STG_UNDERLYING_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PORTFOLIO_MASTER",
+        "Data Quality Group Name": "STG_PORTFOLIO_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BILL_PLAN_MASTER",
+        "Data Quality Group Name": "STG_BILL_PLAN_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BUSINESS_UNIT_MASTER",
+        "Data Quality Group Name": "STG_BUSINESS_UNIT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COMMON_COA_MASTER",
+        "Data Quality Group Name": "STG_COMMON_COA_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PLACED_COLLATERAL_MASTER",
+        "Data Quality Group Name": "STG_PLACED_COLLATERAL_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRADING_ACCOUNT_TXNS",
+        "Data Quality Group Name": "STG_TRADING_ACCOUNT_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PROD_STDPROD_MAPPER",
+        "Data Quality Group Name": "STG_PROD_STDPROD_MAPPER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_UOM_CAP_ALLOCATION_FACTOR",
+        "Data Quality Group Name": "STG_UOM_CAP_ALLOCATION_FACTOR",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRADE_FIN_GOODS_CATEGORY",
+        "Data Quality Group Name": "STG_TRADE_FIN_GOODS_CATEGORY",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CURRENCY_EXCHANGE_RATES",
+        "Data Quality Group Name": "STG_CURRENCY_EXCHANGE_RATES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CUSTOMER_SERVICE_ENROLL",
+        "Data Quality Group Name": "STG_CUSTOMER_SERVICE_ENROLL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_STD_SCENARIO_SEVERITY_DTLS",
+        "Data Quality Group Name": "STG_STD_SCENARIO_SEVERITY_DTLS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPLICATIONS_DOC_PRINT_LOG",
+        "Data Quality Group Name": "STG_APPLICATIONS_DOC_PRINT_LOG",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_EMAIL_MAP",
+        "Data Quality Group Name": "STG_PARTY_EMAIL_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_WATCHLIST_MEMBER_ENTRY",
+        "Data Quality Group Name": "STG_WATCHLIST_MEMBER_ENTRY",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_INDEX_HIST",
+        "Data Quality Group Name": "STG_ACCOUNT_INDEX_HIST",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPLICATIONS_DEVIATION",
+        "Data Quality Group Name": "STG_APPLICATIONS_DEVIATION",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CHANNEL_SESSION",
+        "Data Quality Group Name": "STG_CHANNEL_SESSION",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_HIGH_RUN_OFF_CATEGORY",
+        "Data Quality Group Name": "STG_HIGH_RUN_OFF_CATEGORY",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ADDITIONAL_INS_HIGH_BAL",
+        "Data Quality Group Name": "STG_ADDITIONAL_INS_HIGH_BAL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_IR_INDEX",
+        "Data Quality Group Name": "STG_IR_INDEX",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DOC_COLLCTN_CNTRCT_SHP_DTL",
+        "Data Quality Group Name": "STG_DOC_COLLCTN_CNTRCT_SHP_DTL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PRODUCER_MASTER",
+        "Data Quality Group Name": "STG_PRODUCER_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_STOCK_TICKER_MASTER",
+        "Data Quality Group Name": "STG_STOCK_TICKER_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_CASH_FLOWS",
+        "Data Quality Group Name": "STG_ACCOUNT_CASH_FLOWS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PD_MODEL_MASTER",
+        "Data Quality Group Name": "STG_PD_MODEL_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_REPO_TXNS",
+        "Data Quality Group Name": "STG_REPO_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MURABAHAH",
+        "Data Quality Group Name": "STG_MURABAHAH",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OTHER_SERVICES_TXNS",
+        "Data Quality Group Name": "STG_OTHER_SERVICES_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PEER_INFO",
+        "Data Quality Group Name": "STG_PEER_INFO",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DIST_TO_DEFAULT",
+        "Data Quality Group Name": "STG_DIST_TO_DEFAULT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_POLICY_MASTER_HIER",
+        "Data Quality Group Name": "STG_POLICY_MASTER_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SPECIAL_TERM_MASTER",
+        "Data Quality Group Name": "STG_SPECIAL_TERM_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MITIGANT_TYPE_MASTER",
+        "Data Quality Group Name": "STG_MITIGANT_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OWNERSHIP_CATEGORY_MASTER",
+        "Data Quality Group Name": "STG_OWNERSHIP_CATEGORY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FINSPREAD_DEAL_MAP",
+        "Data Quality Group Name": "STG_FINSPREAD_DEAL_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MARKET_NEWS_EVENT",
+        "Data Quality Group Name": "STG_MARKET_NEWS_EVENT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNTING_HEAD",
+        "Data Quality Group Name": "STG_ACCOUNTING_HEAD",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PRODUCT_RIDER_DETAILS",
+        "Data Quality Group Name": "STG_PRODUCT_RIDER_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_HEDGING_INST_MAP",
+        "Data Quality Group Name": "STG_HEDGING_INST_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FCST_SEC_UNDLYG_COLLCTN",
+        "Data Quality Group Name": "STG_FCST_SEC_UNDLYG_COLLCTN",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INT_ALLOCATION_FACTOR",
+        "Data Quality Group Name": "STG_INT_ALLOCATION_FACTOR",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CORRESPONDENT_PROD_SERVED",
+        "Data Quality Group Name": "STG_CORRESPONDENT_PROD_SERVED",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INSTRUMENT_CONTRACT_DTL",
+        "Data Quality Group Name": "STG_INSTRUMENT_CONTRACT_DTL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COMPENSATION_DETAILS",
+        "Data Quality Group Name": "STG_COMPENSATION_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_SEGMENT_MOB",
+        "Data Quality Group Name": "STG_ACCT_SEGMENT_MOB",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CUST_ATTRITION_PLAN",
+        "Data Quality Group Name": "STG_CUST_ATTRITION_PLAN",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_GL_REPLINE_MAPPER",
+        "Data Quality Group Name": "STG_GL_REPLINE_MAPPER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BENCHMARK_CAP_CONS_RATIO",
+        "Data Quality Group Name": "STG_BENCHMARK_CAP_CONS_RATIO",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CUST_FEATURE_MAP",
+        "Data Quality Group Name": "STG_CUST_FEATURE_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MITIGANT_CHARGE_DETAILS",
+        "Data Quality Group Name": "STG_MITIGANT_CHARGE_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CORRESPONDENT_MKT_SERVED",
+        "Data Quality Group Name": "STG_CORRESPONDENT_MKT_SERVED",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PREMIUM_PYMT_TYPE_MASTER",
+        "Data Quality Group Name": "STG_PREMIUM_PYMT_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CDS_INDEX_MASTER",
+        "Data Quality Group Name": "STG_CDS_INDEX_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COMMODITY_GROUP_MASTER",
+        "Data Quality Group Name": "STG_COMMODITY_GROUP_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MR_ASSET_MASTER",
+        "Data Quality Group Name": "STG_MR_ASSET_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SRC_ATM_TXNS",
+        "Data Quality Group Name": "STG_SRC_ATM_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FUNDS_COMPOSITION",
+        "Data Quality Group Name": "STG_FUNDS_COMPOSITION",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INT_LOSS_CORRELATION_MTRX",
+        "Data Quality Group Name": "STG_INT_LOSS_CORRELATION_MTRX",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ANNUITY_CONTRACTS",
+        "Data Quality Group Name": "STG_ANNUITY_CONTRACTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BILLS_CONTRACTS",
+        "Data Quality Group Name": "STG_BILLS_CONTRACTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BORROWINGS",
+        "Data Quality Group Name": "STG_BORROWINGS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FUTURES",
+        "Data Quality Group Name": "STG_FUTURES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OD_ACCOUNTS",
+        "Data Quality Group Name": "STG_OD_ACCOUNTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PREPAID_CARDS",
+        "Data Quality Group Name": "STG_PREPAID_CARDS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LEASES_TXNS",
+        "Data Quality Group Name": "STG_LEASES_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRANSACTION_MASTER",
+        "Data Quality Group Name": "STG_TRANSACTION_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SEC_POOL_TYPE_MASTER",
+        "Data Quality Group Name": "STG_SEC_POOL_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CAMPAIGN_STATUS_MASTER",
+        "Data Quality Group Name": "STG_CAMPAIGN_STATUS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FORWARDS_TXNS",
+        "Data Quality Group Name": "STG_FORWARDS_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DEALER_MASTER",
+        "Data Quality Group Name": "STG_DEALER_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNTING_HEAD_MASTER",
+        "Data Quality Group Name": "STG_ACCOUNTING_HEAD_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_ACCOUNT_ROLE_MAP",
+        "Data Quality Group Name": "STG_PARTY_ACCOUNT_ROLE_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ASSUMED_POLICY_MASTER",
+        "Data Quality Group Name": "STG_ASSUMED_POLICY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SERVICE_TEAM_MEMBER",
+        "Data Quality Group Name": "STG_SERVICE_TEAM_MEMBER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PROSPECT_MASTER",
+        "Data Quality Group Name": "STG_PROSPECT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COUNTRY_MASTER",
+        "Data Quality Group Name": "STG_COUNTRY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOAN_PURPOSE_MASTER",
+        "Data Quality Group Name": "STG_LOAN_PURPOSE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OTHER_LIABILITIES",
+        "Data Quality Group Name": "STG_OTHER_LIABILITIES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FCAST_NET_EXPOSURES",
+        "Data Quality Group Name": "STG_FCAST_NET_EXPOSURES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EXT_OPERATIONAL_RISK_LOSS",
+        "Data Quality Group Name": "STG_EXT_OPERATIONAL_RISK_LOSS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_GROUP_MASTER",
+        "Data Quality Group Name": "STG_ACCT_GROUP_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DOC_COLLCTN_CNTRCT_ACC",
+        "Data Quality Group Name": "STG_DOC_COLLCTN_CNTRCT_ACC",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CNTRPRTY_PROD_TYPE_SUMMARY",
+        "Data Quality Group Name": "STG_CNTRPRTY_PROD_TYPE_SUMMARY",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_INV_OBJECTIVE",
+        "Data Quality Group Name": "STG_ACCOUNT_INV_OBJECTIVE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_REG_ENTITY_CLASS_DETAILS",
+        "Data Quality Group Name": "STG_REG_ENTITY_CLASS_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ENTITY_CCP_DETAILS",
+        "Data Quality Group Name": "STG_ENTITY_CCP_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_UNDERLYING_DTL",
+        "Data Quality Group Name": "STG_UNDERLYING_DTL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INFLUENCE_SMA_RULES",
+        "Data Quality Group Name": "STG_INFLUENCE_SMA_RULES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PAYMENT_SETTLEMENT_ACCOUNT",
+        "Data Quality Group Name": "STG_PAYMENT_SETTLEMENT_ACCOUNT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_PHONE_MAP",
+        "Data Quality Group Name": "STG_PARTY_PHONE_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BENCHMARK_CNTR_CYC_BUFFER",
+        "Data Quality Group Name": "STG_BENCHMARK_CNTR_CYC_BUFFER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INSTRUMENT_LENDABLE_PCT",
+        "Data Quality Group Name": "STG_INSTRUMENT_LENDABLE_PCT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPLICATION_DOCUMENT_MAP",
+        "Data Quality Group Name": "STG_APPLICATION_DOCUMENT_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_EXPENSE_DETAILS",
+        "Data Quality Group Name": "STG_PARTY_EXPENSE_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_RESPONSE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_RESPONSE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INS_LOSS_MDL_RSKCAT_MASTER",
+        "Data Quality Group Name": "STG_INS_LOSS_MDL_RSKCAT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_IJARAH",
+        "Data Quality Group Name": "STG_IJARAH",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ISTISNA",
+        "Data Quality Group Name": "STG_ISTISNA",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DPD_TRANSITION_MATRIX",
+        "Data Quality Group Name": "STG_DPD_TRANSITION_MATRIX",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_REF_INFLATION_RATE",
+        "Data Quality Group Name": "STG_REF_INFLATION_RATE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CARDS",
+        "Data Quality Group Name": "STG_CARDS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_REPO_CONTRACTS",
+        "Data Quality Group Name": "STG_REPO_CONTRACTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SWAPS_CONTRACTS",
+        "Data Quality Group Name": "STG_SWAPS_CONTRACTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COMMITMENT_CONTRACT_TXNS",
+        "Data Quality Group Name": "STG_COMMITMENT_CONTRACT_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MURABAHAH_TXNS",
+        "Data Quality Group Name": "STG_MURABAHAH_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_MGR_REL",
+        "Data Quality Group Name": "STG_ACCOUNT_MGR_REL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ENTITY_INFLUENCE_MASTER",
+        "Data Quality Group Name": "STG_ENTITY_INFLUENCE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PREPAID_CARDS_TXNS",
+        "Data Quality Group Name": "STG_PREPAID_CARDS_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BANK_INSTR_TYPE_MASTER",
+        "Data Quality Group Name": "STG_BANK_INSTR_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OP_ECONOMIC_ZONE_MASTER",
+        "Data Quality Group Name": "STG_OP_ECONOMIC_ZONE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_REQUEST_TYPE_MASTER",
+        "Data Quality Group Name": "STG_REQUEST_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MITIGANT_SUB_TYPE_MASTER",
+        "Data Quality Group Name": "STG_MITIGANT_SUB_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CONTACT_METHOD_MASTER",
+        "Data Quality Group Name": "STG_CONTACT_METHOD_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_SCORE_MODEL_MASTER",
+        "Data Quality Group Name": "STG_CREDIT_SCORE_MODEL_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DEDUCTIBLE_MASTER",
+        "Data Quality Group Name": "STG_DEDUCTIBLE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_QUOTE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_QUOTE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DECISION_STATUS_MASTER",
+        "Data Quality Group Name": "STG_DECISION_STATUS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PAYMENT_SETTLEMENT_SYSTEM_MASTER",
+        "Data Quality Group Name": "STG_PAYMENT_SETTLEMENT_SYSTEM_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TARGETING_METHOD_MASTER",
+        "Data Quality Group Name": "STG_TARGETING_METHOD_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INST_TRADE_RESTRICTION",
+        "Data Quality Group Name": "STG_INST_TRADE_RESTRICTION",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TERM_STRUCTURE_MASTER",
+        "Data Quality Group Name": "STG_TERM_STRUCTURE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_MASTER",
+        "Data Quality Group Name": "STG_ACCOUNT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SEC_STATUS_MASTER",
+        "Data Quality Group Name": "STG_SEC_STATUS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_UOM_DISTRIBUTION_PARAMS",
+        "Data Quality Group Name": "STG_UOM_DISTRIBUTION_PARAMS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_LINE_PURPOSE_MASTER",
+        "Data Quality Group Name": "STG_CREDIT_LINE_PURPOSE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_ANTICIPATORY_PROFILE",
+        "Data Quality Group Name": "STG_ACCT_ANTICIPATORY_PROFILE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_PARTCPN_DETAILS",
+        "Data Quality Group Name": "STG_CREDIT_PARTCPN_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MACRO_ECONOMIC_VAR_MASTER",
+        "Data Quality Group Name": "STG_MACRO_ECONOMIC_VAR_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRADE_FINANCE_ACCT",
+        "Data Quality Group Name": "STG_TRADE_FINANCE_ACCT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPL_STATUS_MASTER",
+        "Data Quality Group Name": "STG_APPL_STATUS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_CUST_CHG_REL",
+        "Data Quality Group Name": "STG_ACCT_CUST_CHG_REL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PD_TERM_STRUCTURE_DTL",
+        "Data Quality Group Name": "STG_PD_TERM_STRUCTURE_DTL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_OTHER_NAMES",
+        "Data Quality Group Name": "STG_PARTY_OTHER_NAMES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SALES_REP_COMPENSATION",
+        "Data Quality Group Name": "STG_SALES_REP_COMPENSATION",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FCAST_IRCS",
+        "Data Quality Group Name": "STG_FCAST_IRCS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BENCHMARK_DETAILS",
+        "Data Quality Group Name": "STG_BENCHMARK_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_INCEPTION_RATES",
+        "Data Quality Group Name": "STG_ACCOUNT_INCEPTION_RATES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MUTUAL_FUND_BREAKPOINT",
+        "Data Quality Group Name": "STG_MUTUAL_FUND_BREAKPOINT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OPTIONS_CONVERSION_DETAIL",
+        "Data Quality Group Name": "STG_OPTIONS_CONVERSION_DETAIL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CDS_SPREADS",
+        "Data Quality Group Name": "STG_CDS_SPREADS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CTD_MAPPING",
+        "Data Quality Group Name": "STG_CTD_MAPPING",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EXT_REPORTING_GROUP",
+        "Data Quality Group Name": "STG_EXT_REPORTING_GROUP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_GROUP_MEMBER",
+        "Data Quality Group Name": "STG_ACCOUNT_GROUP_MEMBER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CUSTOMER_COUNTRY_RELATION",
+        "Data Quality Group Name": "STG_CUSTOMER_COUNTRY_RELATION",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_ASSET_DETAILS",
+        "Data Quality Group Name": "STG_PARTY_ASSET_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EMPLOYEE_PHONE",
+        "Data Quality Group Name": "STG_EMPLOYEE_PHONE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FORECAST_BALANCES",
+        "Data Quality Group Name": "STG_FORECAST_BALANCES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LEGAL_ENTITY_CNSLDTN_MAP",
+        "Data Quality Group Name": "STG_LEGAL_ENTITY_CNSLDTN_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SECURITIZATION_ACTIVITY",
+        "Data Quality Group Name": "STG_SECURITIZATION_ACTIVITY",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ONLINE_ACCT_ACCT_MAP",
+        "Data Quality Group Name": "STG_ONLINE_ACCT_ACCT_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CUSTOMER_PRODUCT_SCORE",
+        "Data Quality Group Name": "STG_CUSTOMER_PRODUCT_SCORE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SMA_EVENTS",
+        "Data Quality Group Name": "STG_SMA_EVENTS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TERM_STRUCTURE_DTL",
+        "Data Quality Group Name": "STG_TERM_STRUCTURE_DTL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_IRC_VOL_SUR_RATE_HIST",
+        "Data Quality Group Name": "STG_IRC_VOL_SUR_RATE_HIST",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPLICATION_GROUP",
+        "Data Quality Group Name": "STG_APPLICATION_GROUP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SERVICE_PLAN_DATA",
+        "Data Quality Group Name": "STG_SERVICE_PLAN_DATA",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SOCIAL_MEDIA_POST",
+        "Data Quality Group Name": "STG_SOCIAL_MEDIA_POST",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOB_HIER",
+        "Data Quality Group Name": "STG_LOB_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_RUN_OFF_MEASURES_MASTER",
+        "Data Quality Group Name": "STG_RUN_OFF_MEASURES_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_RATING_MASTER",
+        "Data Quality Group Name": "STG_CREDIT_RATING_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_RATING_DETAILS",
+        "Data Quality Group Name": "STG_PARTY_RATING_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRUSTS_TXNS",
+        "Data Quality Group Name": "STG_TRUSTS_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CORRESPONDENT_ACCOUNT",
+        "Data Quality Group Name": "STG_CORRESPONDENT_ACCOUNT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CARDS_PAYMENT_TXNS",
+        "Data Quality Group Name": "STG_CARDS_PAYMENT_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_IJARAH_TXNS",
+        "Data Quality Group Name": "STG_IJARAH_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOAN_CONTRACT_TXNS",
+        "Data Quality Group Name": "STG_LOAN_CONTRACT_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MUDARABAH_TXNS",
+        "Data Quality Group Name": "STG_MUDARABAH_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MUSHARAKAH_TXNS",
+        "Data Quality Group Name": "STG_MUSHARAKAH_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SWAP_ACCOUNT_TXNS",
+        "Data Quality Group Name": "STG_SWAP_ACCOUNT_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ORG_UNIT_MASTER",
+        "Data Quality Group Name": "STG_ORG_UNIT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_RESERVE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_RESERVE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MARKET_CELL_MASTER",
+        "Data Quality Group Name": "STG_MARKET_CELL_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SUKUK",
+        "Data Quality Group Name": "STG_SUKUK",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FUND_TYPE_MASTER",
+        "Data Quality Group Name": "STG_FUND_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LITIGATION_MASTER",
+        "Data Quality Group Name": "STG_LITIGATION_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INSTRUMENT_CONTRACT_HIER",
+        "Data Quality Group Name": "STG_INSTRUMENT_CONTRACT_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MITIGANT_MASTER",
+        "Data Quality Group Name": "STG_MITIGANT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TXN_FAILURE_REASON_MASTER",
+        "Data Quality Group Name": "STG_TXN_FAILURE_REASON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BALANCE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_BALANCE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_INCOME_DETAILS",
+        "Data Quality Group Name": "STG_PARTY_INCOME_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_UNDERLYING_TYPE_MASTER",
+        "Data Quality Group Name": "STG_UNDERLYING_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_VEHICLE_RATING_MASTER",
+        "Data Quality Group Name": "STG_VEHICLE_RATING_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_UNDERWRITER_MASTER",
+        "Data Quality Group Name": "STG_UNDERWRITER_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LEDGER_HIER",
+        "Data Quality Group Name": "STG_LEDGER_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_IRC_VOLATILITY_RATE_HIST",
+        "Data Quality Group Name": "STG_IRC_VOLATILITY_RATE_HIST",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TIME_TO_PEAK_EXPOSURE",
+        "Data Quality Group Name": "STG_TIME_TO_PEAK_EXPOSURE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_WLA_EVENT_MASTER",
+        "Data Quality Group Name": "STG_WLA_EVENT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PORTFOLIO_TYPE_MASTER",
+        "Data Quality Group Name": "STG_PORTFOLIO_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_POOL_IDENTIFICATION_MASTER",
+        "Data Quality Group Name": "STG_POOL_IDENTIFICATION_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_MIT_SEC_INT_TYPE_MASTER",
+        "Data Quality Group Name": "STG_MIT_SEC_INT_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_CENTRAL_AUTH_MAP",
+        "Data Quality Group Name": "STG_PARTY_CENTRAL_AUTH_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_ENT_BATCH_CD_MASTER",
+        "Data Quality Group Name": "STG_ACCT_ENT_BATCH_CD_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DOC_COLLCTN_CNTRCT_EVENT",
+        "Data Quality Group Name": "STG_DOC_COLLCTN_CNTRCT_EVENT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_UOM_MODEL_PARAMS",
+        "Data Quality Group Name": "STG_UOM_MODEL_PARAMS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LEGAL_ENTITY_DETAILS",
+        "Data Quality Group Name": "STG_LEGAL_ENTITY_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FORECAST_GL_DATA",
+        "Data Quality Group Name": "STG_FORECAST_GL_DATA",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SERVICE_CHARGE_MASTER",
+        "Data Quality Group Name": "STG_SERVICE_CHARGE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PEER_PRODUCT_DETAILS",
+        "Data Quality Group Name": "STG_PEER_PRODUCT_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_POOL_CLASS_MASTER",
+        "Data Quality Group Name": "STG_POOL_CLASS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FUND_MASTER",
+        "Data Quality Group Name": "STG_FUND_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CARDS_BALANCE_SUMMARY",
+        "Data Quality Group Name": "STG_CARDS_BALANCE_SUMMARY",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_PLACED_COLL_MAP",
+        "Data Quality Group Name": "STG_ACCT_PLACED_COLL_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PROJECT_MASTER",
+        "Data Quality Group Name": "STG_PROJECT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BUSINESS_UNIT_HIER",
+        "Data Quality Group Name": "STG_BUSINESS_UNIT_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BUSINESS_SEGMENT_HIER",
+        "Data Quality Group Name": "STG_BUSINESS_SEGMENT_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_REGION_MASTER",
+        "Data Quality Group Name": "STG_REGION_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DOCUMENT_TYPE_MASTER",
+        "Data Quality Group Name": "STG_DOCUMENT_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INS_LOSS_MODEL_COMP_MASTER",
+        "Data Quality Group Name": "STG_INS_LOSS_MODEL_COMP_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CAUSE_MASTER",
+        "Data Quality Group Name": "STG_CAUSE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_PARTY_ACCT_RELTNSHP",
+        "Data Quality Group Name": "STG_PARTY_PARTY_ACCT_RELTNSHP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPLICATION_MASTER",
+        "Data Quality Group Name": "STG_APPLICATION_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_RETENTION_OFFER_MASTER",
+        "Data Quality Group Name": "STG_RETENTION_OFFER_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_VEHICLE_MASTER",
+        "Data Quality Group Name": "STG_VEHICLE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ENTITY_SHR_HLD_PERCENT",
+        "Data Quality Group Name": "STG_ENTITY_SHR_HLD_PERCENT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_CREDIT_QUALITY_DTLS",
+        "Data Quality Group Name": "STG_ACCT_CREDIT_QUALITY_DTLS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRD_RESTRICTN_TYPE_MASTER",
+        "Data Quality Group Name": "STG_TRD_RESTRICTN_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ENTITY_MEASURE_SUMMARY",
+        "Data Quality Group Name": "STG_ENTITY_MEASURE_SUMMARY",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_GL_ACCOUNT_MASTER",
+        "Data Quality Group Name": "STG_GL_ACCOUNT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_STOCK_INDEX_MASTER",
+        "Data Quality Group Name": "STG_STOCK_INDEX_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SOVEREIGN_RATING_DETAILS",
+        "Data Quality Group Name": "STG_SOVEREIGN_RATING_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_RATE_TIERS",
+        "Data Quality Group Name": "STG_ACCOUNT_RATE_TIERS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INS_UNW_ISSUE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_INS_UNW_ISSUE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_UNDERWRITING_DETAILS",
+        "Data Quality Group Name": "STG_UNDERWRITING_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_DETAILS",
+        "Data Quality Group Name": "STG_PARTY_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CUST_EDUCATION_MASTER",
+        "Data Quality Group Name": "STG_CUST_EDUCATION_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CARDS_MASTER",
+        "Data Quality Group Name": "STG_CARDS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FRONT_OFFICE_TXN_PARTY",
+        "Data Quality Group Name": "STG_FRONT_OFFICE_TXN_PARTY",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_TYPE_MASTER",
+        "Data Quality Group Name": "STG_PARTY_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ADDRESS_MASTER",
+        "Data Quality Group Name": "STG_ADDRESS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PROFESSION_SUB_TYPE_MASTER",
+        "Data Quality Group Name": "STG_PROFESSION_SUB_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_QUOTE_SOURCE_MASTER",
+        "Data Quality Group Name": "STG_QUOTE_SOURCE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PROCESS_LOB_LOC_MAP",
+        "Data Quality Group Name": "STG_PROCESS_LOB_LOC_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TERMINAL_MASTER",
+        "Data Quality Group Name": "STG_TERMINAL_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_MGMT_MASTER",
+        "Data Quality Group Name": "STG_ACCOUNT_MGMT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_LINE_DETAILS",
+        "Data Quality Group Name": "STG_CREDIT_LINE_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BRANCH_HIER",
+        "Data Quality Group Name": "STG_BRANCH_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INSURANCE_COVERAGE_MASTER",
+        "Data Quality Group Name": "STG_INSURANCE_COVERAGE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_MASTER",
+        "Data Quality Group Name": "STG_PARTY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_PARTCPTION_CONTRACT",
+        "Data Quality Group Name": "STG_CREDIT_PARTCPTION_CONTRACT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_GROUP_DETAILS",
+        "Data Quality Group Name": "STG_ACCOUNT_GROUP_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PORTFOLIO_DATA",
+        "Data Quality Group Name": "STG_PORTFOLIO_DATA",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FCAST_EI",
+        "Data Quality Group Name": "STG_FCAST_EI",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PAYMENT_SCHEDULE",
+        "Data Quality Group Name": "STG_PAYMENT_SCHEDULE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_ADDRESS_MAP",
+        "Data Quality Group Name": "STG_PARTY_ADDRESS_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SEC_FACILITY_TYPE_MASTER",
+        "Data Quality Group Name": "STG_SEC_FACILITY_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_ADDRESS_MAP",
+        "Data Quality Group Name": "STG_ACCOUNT_ADDRESS_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_DEVIATION_MASTER",
+        "Data Quality Group Name": "STG_ACCOUNT_DEVIATION_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COMMODITY_GRADE_MASTER",
+        "Data Quality Group Name": "STG_COMMODITY_GRADE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CAMPAIGN_MASTER",
+        "Data Quality Group Name": "STG_CAMPAIGN_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EXT_ULY_ACCT_RATING_DTL",
+        "Data Quality Group Name": "STG_EXT_ULY_ACCT_RATING_DTL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PROCESS_MASTER",
+        "Data Quality Group Name": "STG_PROCESS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SMA_EVENT_TYPE_MASTER",
+        "Data Quality Group Name": "STG_SMA_EVENT_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DEALER_GROUP_MASTER",
+        "Data Quality Group Name": "STG_DEALER_GROUP_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_POSITION_TYPE_MASTER",
+        "Data Quality Group Name": "STG_POSITION_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PLACED_COLLAT_SRC_DTLS",
+        "Data Quality Group Name": "STG_PLACED_COLLAT_SRC_DTLS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SEC_TYPE_MASTER",
+        "Data Quality Group Name": "STG_SEC_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_NET_EXPOSURES",
+        "Data Quality Group Name": "STG_NET_EXPOSURES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LEGAL_PROCEDING_STS_MASTER",
+        "Data Quality Group Name": "STG_LEGAL_PROCEDING_STS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_REJECTION_REASON_MASTER",
+        "Data Quality Group Name": "STG_REJECTION_REASON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_REASON_MASTER",
+        "Data Quality Group Name": "STG_CREDIT_REASON_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OTHER_ASSETS",
+        "Data Quality Group Name": "STG_OTHER_ASSETS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_MITIGANT_MAP",
+        "Data Quality Group Name": "STG_ACCOUNT_MITIGANT_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OTHER_SERVICES",
+        "Data Quality Group Name": "STG_OTHER_SERVICES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_EMAIL_MAP",
+        "Data Quality Group Name": "STG_ACCOUNT_EMAIL_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_POLICY_MASTER",
+        "Data Quality Group Name": "STG_POLICY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PAYMENT_TRANSACTIONS",
+        "Data Quality Group Name": "STG_PAYMENT_TRANSACTIONS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SALES_REP_MASTER",
+        "Data Quality Group Name": "STG_SALES_REP_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_POSITION",
+        "Data Quality Group Name": "STG_ACCOUNT_POSITION",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FINANCIAL_YEAR_MASTER",
+        "Data Quality Group Name": "STG_FINANCIAL_YEAR_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PREM_SUSP_REASON_MSTR_HIER",
+        "Data Quality Group Name": "STG_PREM_SUSP_REASON_MSTR_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PRODUCT_MASTER",
+        "Data Quality Group Name": "STG_PRODUCT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOSS_EVENT_MASTER",
+        "Data Quality Group Name": "STG_LOSS_EVENT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPLN_DECISION_EVNT_MASTER",
+        "Data Quality Group Name": "STG_APPLN_DECISION_EVNT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_VEHICLE_TYRE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_VEHICLE_TYRE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FORECAST_SCENARIO_MASTER",
+        "Data Quality Group Name": "STG_FORECAST_SCENARIO_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SERVICE",
+        "Data Quality Group Name": "STG_SERVICE",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRD_FIN_GOODS_ALT_CCY_VAL",
+        "Data Quality Group Name": "STG_TRD_FIN_GOODS_ALT_CCY_VAL",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CLAIM_MASTER_HIER",
+        "Data Quality Group Name": "STG_CLAIM_MASTER_HIER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_BRANCH_MASTER",
+        "Data Quality Group Name": "STG_BRANCH_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOB_MASTER",
+        "Data Quality Group Name": "STG_LOB_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PURCHASE_CATEGORY_MASTER",
+        "Data Quality Group Name": "STG_PURCHASE_CATEGORY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_RISK_POSITION_MAPPING",
+        "Data Quality Group Name": "STG_RISK_POSITION_MAPPING",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CASH_FLOW_TYPE_MASTER",
+        "Data Quality Group Name": "STG_CASH_FLOW_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPLICATION_GROUP_MASTER",
+        "Data Quality Group Name": "STG_APPLICATION_GROUP_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PRODUCT_FEATURE_MASTER",
+        "Data Quality Group Name": "STG_PRODUCT_FEATURE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CUSTODIAN_ACCOUNT_TXNS",
+        "Data Quality Group Name": "STG_CUSTODIAN_ACCOUNT_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COMMODITIES_TXNS",
+        "Data Quality Group Name": "STG_COMMODITIES_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PRODUCT_BUNDLE_MASTER",
+        "Data Quality Group Name": "STG_PRODUCT_BUNDLE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PD_TERM_STRUCTURE_MASTER",
+        "Data Quality Group Name": "STG_PD_TERM_STRUCTURE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PREM_OFFSET_METHOD_MASTER",
+        "Data Quality Group Name": "STG_PREM_OFFSET_METHOD_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_CREDIT_SCORE_DETAILS",
+        "Data Quality Group Name": "STG_ACCT_CREDIT_SCORE_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PROGRAM_MASTER",
+        "Data Quality Group Name": "STG_PROGRAM_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_DOC_SUBMISSN_STATUS_MASTER",
+        "Data Quality Group Name": "STG_DOC_SUBMISSN_STATUS_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EXPENSE_TYPE_MASTER",
+        "Data Quality Group Name": "STG_EXPENSE_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRADE_FINANCE_GOODS",
+        "Data Quality Group Name": "STG_TRADE_FINANCE_GOODS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SEC_POOL_MASTER",
+        "Data Quality Group Name": "STG_SEC_POOL_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INDUSTRY_MASTER",
+        "Data Quality Group Name": "STG_INDUSTRY_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CREDIT_PARTCPN_MASTER",
+        "Data Quality Group Name": "STG_CREDIT_PARTCPN_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INSTRUMENT_CONTRACT_MASTER",
+        "Data Quality Group Name": "STG_INSTRUMENT_CONTRACT_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPL_TYPE_MASTER",
+        "Data Quality Group Name": "STG_APPL_TYPE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PPMT_CALC_PARAMS",
+        "Data Quality Group Name": "STG_PPMT_CALC_PARAMS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_EXPECTED_ACCT_CASHFLOW",
+        "Data Quality Group Name": "STG_EXPECTED_ACCT_CASHFLOW",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FWD_ACCUMULATED_TARGETS",
+        "Data Quality Group Name": "STG_FWD_ACCUMULATED_TARGETS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_RECOVERIES",
+        "Data Quality Group Name": "STG_RECOVERIES",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INSTRUMENT_GROUP_MEMBER",
+        "Data Quality Group Name": "STG_INSTRUMENT_GROUP_MEMBER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_APPLN_GROUP_EVENT_DECISION",
+        "Data Quality Group Name": "STG_APPLN_GROUP_EVENT_DECISION",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PROVISION_MATRIX",
+        "Data Quality Group Name": "STG_PROVISION_MATRIX",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_ROLE_MAP",
+        "Data Quality Group Name": "STG_PARTY_ROLE_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_INT_SCEN_CORRELATION_MTRX",
+        "Data Quality Group Name": "STG_INT_SCEN_CORRELATION_MTRX",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_OR_SCEN_INTERVAL_DATA",
+        "Data Quality Group Name": "STG_OR_SCEN_INTERVAL_DATA",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LV_CAP_ALLOCATION_FACTOR",
+        "Data Quality Group Name": "STG_LV_CAP_ALLOCATION_FACTOR",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_RECOVERY_DETAILS",
+        "Data Quality Group Name": "STG_ACCT_RECOVERY_DETAILS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_LOB_CAP_ALLOCATION_FACTOR",
+        "Data Quality Group Name": "STG_LOB_CAP_ALLOCATION_FACTOR",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_PARTY_FIN_INST_IDENTIFCTN",
+        "Data Quality Group Name": "STG_PARTY_FIN_INST_IDENTIFCTN",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCT_FEATURE_MAP",
+        "Data Quality Group Name": "STG_ACCT_FEATURE_MAP",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FINANCL_STMT_FORECAST",
+        "Data Quality Group Name": "STG_FINANCL_STMT_FORECAST",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_RAPM",
+        "Data Quality Group Name": "STG_RAPM",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COLLATERAL_PURPOSE_MASTER",
+        "Data Quality Group Name": "STG_COLLATERAL_PURPOSE_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_FUND_UNDERLYNG_COMPOSITION",
+        "Data Quality Group Name": "STG_FUND_UNDERLYNG_COMPOSITION",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_TRADE_FINANCE_DOCUMENT",
+        "Data Quality Group Name": "STG_TRADE_FINANCE_DOCUMENT",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ISSUER_MASTER",
+        "Data Quality Group Name": "STG_ISSUER_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_SRC_BRANCH_TXNS",
+        "Data Quality Group Name": "STG_SRC_BRANCH_TXNS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_COUNTRYWISE_RISK_SUMMARY",
+        "Data Quality Group Name": "STG_COUNTRYWISE_RISK_SUMMARY",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_ACCOUNT_DEVIATIONS",
+        "Data Quality Group Name": "STG_ACCOUNT_DEVIATIONS",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CR101_2_MASTER",
+        "Data Quality Group Name": "STG_CR101_2_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "01/01/1900",
+        "Data Quality Group Code": "STG_CR101_1_MASTER",
+        "Data Quality Group Name": "STG_CR101_1_MASTER",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    }
+]

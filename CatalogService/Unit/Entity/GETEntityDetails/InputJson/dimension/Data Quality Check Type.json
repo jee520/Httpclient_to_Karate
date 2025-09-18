@@ -1,0 +1,86 @@
+[
+    {
+        "As Of Date": "10/26/2024",
+        "Data Quality Check Type Code": "GENERIC_CHECK",
+        "Data Quality Check Type Name": "Generic Check",
+        "Data Quality Check Type Class Code": "5",
+        "Data Quality Check Type Class Name": "Generic"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Data Quality Check Type Code": "90",
+        "Data Quality Check Type Name": "Data Length Check",
+        "Data Quality Check Type Class Code": "1",
+        "Data Quality Check Type Class Name": "Accuracy"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Data Quality Check Type Code": "95",
+        "Data Quality Check Type Name": "Referential Integrity Check",
+        "Data Quality Check Type Class Code": "2",
+        "Data Quality Check Type Class Name": "Conformity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Data Quality Check Type Code": "92",
+        "Data Quality Check Type Name": "List of Values or Code Check",
+        "Data Quality Check Type Class Code": "2",
+        "Data Quality Check Type Class Name": "Conformity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Data Quality Check Type Code": "97",
+        "Data Quality Check Type Name": "Custom Check",
+        "Data Quality Check Type Class Code": "5",
+        "Data Quality Check Type Class Name": "Generic"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Data Quality Check Type Code": "93",
+        "Data Quality Check Type Name": "NULL Value Check",
+        "Data Quality Check Type Class Code": "3",
+        "Data Quality Check Type Class Name": "Consistency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Data Quality Check Type Code": "91",
+        "Data Quality Check Type Name": "Column Reference or Specific Value Check",
+        "Data Quality Check Type Class Code": "2",
+        "Data Quality Check Type Class Name": "Conformity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Data Quality Check Type Code": "94",
+        "Data Quality Check Type Name": "BLANK Value Check",
+        "Data Quality Check Type Class Code": "3",
+        "Data Quality Check Type Class Name": "Consistency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Data Quality Check Type Code": "89",
+        "Data Quality Check Type Name": "Range Check",
+        "Data Quality Check Type Class Code": "1",
+        "Data Quality Check Type Class Name": "Accuracy"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Data Quality Check Type Code": "96",
+        "Data Quality Check Type Name": "Duplicity Check",
+        "Data Quality Check Type Class Code": "4",
+        "Data Quality Check Type Class Name": "Duplicity"
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Data Quality Check Type Code": "OTH",
+        "Data Quality Check Type Name": "Others",
+        "Data Quality Check Type Class Code": "OTH",
+        "Data Quality Check Type Class Name": "Others"
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Data Quality Check Type Code": "MSG",
+        "Data Quality Check Type Name": "Missing",
+        "Data Quality Check Type Class Code": "MSG",
+        "Data Quality Check Type Class Name": "Missing"
+    }
+]

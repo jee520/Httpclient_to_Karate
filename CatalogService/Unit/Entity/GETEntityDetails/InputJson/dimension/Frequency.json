@@ -1,0 +1,667 @@
+[
+    {
+        "As Of Date": "10/30/2024",
+        "Frequency Code": "OTH",
+        "Frequency Name": "Others",
+        "Frequency Description": "Others",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Frequency Code": "MSG",
+        "Frequency Name": "Missing",
+        "Frequency Description": "Missing",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "QTRFIVE",
+        "Frequency Name": "Quaterly Basis",
+        "Frequency Description": "Policy is paid on a quarterly basis with first payment being paid at beginning of billing cycle, and final payment being paid at end of billing cycle",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "RANDOMDEP",
+        "Frequency Name": "Random. Deprecated",
+        "Frequency Description": "Random. deprecated",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "REGULARLY",
+        "Frequency Name": "Regularly",
+        "Frequency Description": "Regularly",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "2W",
+        "Frequency Name": "Twice per Week",
+        "Frequency Description": "Twice per Week",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "TM",
+        "Frequency Name": "Twice a Month",
+        "Frequency Description": "Twice a Month",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "IO",
+        "Frequency Name": "When Issued Only",
+        "Frequency Description": "When Issued Only",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "MNTHLY",
+        "Frequency Name": "Month or Monthly",
+        "Frequency Description": "Month or Monthly",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "TRIANNUAL",
+        "Frequency Name": "Payment is made once every three years",
+        "Frequency Description": "Payment is made once every three years",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "TWENTYEIGHTHLY",
+        "Frequency Name": "Payments made 28 times per year",
+        "Frequency Description": "Payments made 28 times per year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "ANNUAL",
+        "Frequency Name": "Annual or Annually",
+        "Frequency Description": "Annual or Annually",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "4WKLY",
+        "Frequency Name": "Every 4 weeks",
+        "Frequency Description": "Every 4 weeks (4 weekly)",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "4W",
+        "Frequency Name": "Four Times per Week",
+        "Frequency Description": "Four Times per Week",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "PERWEEK",
+        "Frequency Name": "Per week",
+        "Frequency Description": "Per week",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "NR",
+        "Frequency Name": "Non Reporting",
+        "Frequency Description": "Non Reporting",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "FL",
+        "Frequency Name": "Full Pay",
+        "Frequency Description": "Full Pay",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "PF",
+        "Frequency Name": "Premium Financed",
+        "Frequency Description": "Premium Financed",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "BIWKLY",
+        "Frequency Name": "Bi-Weekly",
+        "Frequency Description": "Bi-Weekly (every two weeks)",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "NV",
+        "Frequency Name": "Never",
+        "Frequency Description": "Never",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "8P",
+        "Frequency Name": "Eight Payments",
+        "Frequency Description": "Eight Payments",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "I",
+        "Frequency Name": "Last Issued Date",
+        "Frequency Description": "Last Issued Date",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "OCCASIONAL",
+        "Frequency Name": "Occasional",
+        "Frequency Description": "Occasional",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "ELEVENTHLY",
+        "Frequency Name": "Payments made 11 times per year",
+        "Frequency Description": "Payments made 11 times per year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "EVERY11MTHS",
+        "Frequency Name": "Every 11 months",
+        "Frequency Description": "Every 11 months",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "PERYEAR",
+        "Frequency Name": "Per year",
+        "Frequency Description": "Per year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "PS",
+        "Frequency Name": "Payroll Service with Premium Withholding Program",
+        "Frequency Description": "Payroll Service with Premium Withholding Program",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "U1",
+        "Frequency Name": "Under One Day",
+        "Frequency Description": "Under One Day",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "PI",
+        "Frequency Name": "Piece Work",
+        "Frequency Description": "Piece Work",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "RWL",
+        "Frequency Name": "Renewal Only",
+        "Frequency Description": "Renewal Only",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "PERLIFETIME",
+        "Frequency Name": "Per Life time",
+        "Frequency Description": "Used to specify a time period extending for the entire lifetime of a person",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "RANDOM",
+        "Frequency Name": "Random. Deprecated",
+        "Frequency Description": "Random. deprecated",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "2D",
+        "Frequency Name": "Twice a Day",
+        "Frequency Description": "Twice a Day",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "EIGTHTEENLY",
+        "Frequency Name": "Payments made 18 times a year",
+        "Frequency Description": "Payments made 18 times a year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "QUARTLY",
+        "Frequency Name": "Quarter or Quarterly",
+        "Frequency Description": "Quarter or Quarterly",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "R",
+        "Frequency Name": "Required",
+        "Frequency Description": "Required",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "EO",
+        "Frequency Name": "Every Other Day",
+        "Frequency Description": "Every Other Day",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "OTHER",
+        "Frequency Name": "Other",
+        "Frequency Description": "Other",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "4ORMORE",
+        "Frequency Name": "Four or more times per year",
+        "Frequency Description": "Four or more times per year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "SINGLEPAY",
+        "Frequency Name": "Single Payment",
+        "Frequency Description": "Single Payment",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "HOURLY",
+        "Frequency Name": "Hour or Hourly",
+        "Frequency Description": "Hour or Hourly",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "LIFETIME",
+        "Frequency Name": "Life time",
+        "Frequency Description": "Used to define a Lifetime period of time",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "EVERY8MTHS",
+        "Frequency Name": "Every 8 months",
+        "Frequency Description": "Every 8 months",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "MNTH48",
+        "Frequency Name": "Monthly for 8 months",
+        "Frequency Description": "Monthly for 8 months",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "PR",
+        "Frequency Name": "Policy Year",
+        "Frequency Description": "Policy Year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "NINETEENLY",
+        "Frequency Name": "Payments made 19 times a year",
+        "Frequency Description": "Payments made 19 times a year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "NINETHLY",
+        "Frequency Name": "Payments made 9 times a year",
+        "Frequency Description": "Payments made 9 times a year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "THIRTTEENLY",
+        "Frequency Name": "Payments made 13 times a year",
+        "Frequency Description": "Payments made 13 times a year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "EVERY5MTHS",
+        "Frequency Name": "Every 5 months",
+        "Frequency Description": "Every 5 months",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "TWENTHFIRSTLY",
+        "Frequency Name": "Payments made 21 times a year",
+        "Frequency Description": "Payments made 21 times a year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "TWENTYSECONDLY",
+        "Frequency Name": "Payments made 22 times a year",
+        "Frequency Description": "Payments made 22 times a year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "NS",
+        "Frequency Name": "Non Standard",
+        "Frequency Description": "Non Standard",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "O2",
+        "Frequency Name": "Over Two Days",
+        "Frequency Description": "Over Two Days",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "9E",
+        "Frequency Name": "Nine (9) Equal Payments",
+        "Frequency Description": "Nine (9) Equal Payments",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "XP",
+        "Frequency Name": "At Expiration",
+        "Frequency Description": "At Expiration",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "FISCALQUARTER",
+        "Frequency Name": "Fiscal Quarter",
+        "Frequency Description": "Assumes fiscal date is based off start date",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "EVERY2MTHS",
+        "Frequency Name": "Every 2 months",
+        "Frequency Description": "Every 2 months",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "3W",
+        "Frequency Name": "Three Times per Week",
+        "Frequency Description": "Three Times per Week",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "TTR",
+        "Frequency Name": "Both This Transaction and At Renewal",
+        "Frequency Description": "Both This Transaction and At Renewal",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "BIANNUAL",
+        "Frequency Name": "Semi-Annual",
+        "Frequency Description": "Semi-Annual (twice a year)",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "EVERY7MTHS",
+        "Frequency Name": "Every 7 months",
+        "Frequency Description": "Every 7 months",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "FOURTEENTHLY",
+        "Frequency Name": "Payments made 14 times per year",
+        "Frequency Description": "Payments made 14 times per year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "3P",
+        "Frequency Name": "Three payments",
+        "Frequency Description": "Three payments",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "PERMONTH",
+        "Frequency Name": "Per month",
+        "Frequency Description": "Per month",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "10",
+        "Frequency Name": "Ten payments",
+        "Frequency Description": "Ten payments",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "5P",
+        "Frequency Name": "Five Payments",
+        "Frequency Description": "Five Payments",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "EVERY3WKS",
+        "Frequency Name": "Every three weeks",
+        "Frequency Description": "Every three weeks",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "EVERY9MTHS",
+        "Frequency Name": "Every 9 months",
+        "Frequency Description": "Every 9 months",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "POWERINTERRUPT",
+        "Frequency Name": "During Power Interruption",
+        "Frequency Description": "During Power Interruption",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "MNTH410",
+        "Frequency Name": "Monthly for 10 months",
+        "Frequency Description": "Monthly for 10 months",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "EVERY10MTHS",
+        "Frequency Name": "Every 10 months",
+        "Frequency Description": "Every 10 months",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "TENTHLY",
+        "Frequency Name": "Payments made 10 times a year",
+        "Frequency Description": "Payments made 10 times a year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "AP",
+        "Frequency Name": "Advance Premium Payment",
+        "Frequency Description": "Advance Premium Payment",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "DAILY",
+        "Frequency Name": "Day or Daily",
+        "Frequency Description": "Day or Daily",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "MNTH49",
+        "Frequency Name": "Monthly for Nine months",
+        "Frequency Description": "Monthly for Nine months",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "MIXED",
+        "Frequency Name": "Mixed",
+        "Frequency Description": "Used when a payment schedule is comprised of portions of premium that are paid on different schedules. For instance, one portion may be paid monthly while another is paid annually. For example, the details of each portion would be specified via an Arrangement object",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "U2",
+        "Frequency Name": "Under Two Days",
+        "Frequency Description": "Under Two Days",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "WKLY",
+        "Frequency Name": "Week or Weekly",
+        "Frequency Description": "Week or Weekly",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "2P",
+        "Frequency Name": "Two payments",
+        "Frequency Description": "Two payments",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "SEVENTHLY",
+        "Frequency Name": "Payments made 7 times per year",
+        "Frequency Description": "Payments made 7 times per year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "5YEARS",
+        "Frequency Name": "Once every 5 years",
+        "Frequency Description": "Once every 5 years",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "PERDAY",
+        "Frequency Name": "Per day",
+        "Frequency Description": "Per day",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "ALW",
+        "Frequency Name": "Always (any change)",
+        "Frequency Description": "Always (any change)",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "ANY",
+        "Frequency Name": "Any product",
+        "Frequency Description": "Used in Product Definitions only",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "NI",
+        "Frequency Name": "Nightly",
+        "Frequency Description": "Nightly",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "SIXTEENTHLY",
+        "Frequency Name": "Payments made 16 times a year",
+        "Frequency Description": "Payments made 16 times a year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "NONE",
+        "Frequency Name": "None",
+        "Frequency Description": "None",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "ANNUALCAL",
+        "Frequency Name": "Annula Calendar",
+        "Frequency Description": "Payment is paid annually, and is driven off of calendar year as opposed to policy anniversary",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "TWENTYLY",
+        "Frequency Name": "Payments made 20 times a year",
+        "Frequency Description": "Payments made 20 times a year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "T",
+        "Frequency Name": "Twice Per Month",
+        "Frequency Description": "Twice Per Month",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "11",
+        "Frequency Name": "Eleven Payments",
+        "Frequency Description": "Eleven Payments",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "BIMNTHLY",
+        "Frequency Name": "Semi-Monthly",
+        "Frequency Description": "Semi-Monthly (twice a month)",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "SINGLE",
+        "Frequency Name": "Single",
+        "Frequency Description": "Single",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "3Y",
+        "Frequency Name": "Three times per year",
+        "Frequency Description": "Three times per year",
+        "Data Source Code": "OOB"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Frequency Code": "EVERY4MTHS",
+        "Frequency Name": "Every 4 months",
+        "Frequency Description": "Every 4 months",
+        "Data Source Code": "OOB"
+    }
+]
