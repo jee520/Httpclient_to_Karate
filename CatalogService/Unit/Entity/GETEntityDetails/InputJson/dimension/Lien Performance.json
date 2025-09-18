@@ -1,0 +1,72 @@
+[
+    {
+        "As Of Date": "10/30/2024",
+        "Lien Performance Code": "OTH",
+        "Lien Performance Description": "Others",
+        "Junior Lien Performance Description": "Others",
+        "Lien Performance Regulatory Display Code": "-1"
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Lien Performance Code": "MSG",
+        "Lien Performance Description": "Missing",
+        "Junior Lien Performance Description": "Missing",
+        "Lien Performance Regulatory Display Code": "0"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Lien Performance Code": "JALPERFORM",
+        "Lien Performance Description": "",
+        "Junior Lien Performance Description": "One or more junior liens are on the property and all are performing",
+        "Lien Performance Regulatory Display Code": "1"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Lien Performance Code": "0",
+        "Lien Performance Description": "First Lien Not Performing",
+        "Junior Lien Performance Description": "",
+        "Lien Performance Regulatory Display Code": "0"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Lien Performance Code": "1",
+        "Lien Performance Description": "First Lien Performing",
+        "Junior Lien Performance Description": "",
+        "Lien Performance Regulatory Display Code": "1"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Lien Performance Code": "JUNKN",
+        "Lien Performance Description": "",
+        "Junior Lien Performance Description": "Presence of junior lien is unknown",
+        "Lien Performance Regulatory Display Code": "4"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Lien Performance Code": "JONSTUNKN",
+        "Lien Performance Description": "",
+        "Junior Lien Performance Description": "One or more junior liens are on the property and status is unknown",
+        "Lien Performance Regulatory Display Code": "3"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Lien Performance Code": "U",
+        "Lien Performance Description": "Status of First Lien not known",
+        "Junior Lien Performance Description": "",
+        "Lien Performance Regulatory Display Code": "U"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Lien Performance Code": "JONNTPERFORM",
+        "Lien Performance Description": "",
+        "Junior Lien Performance Description": "One or more junior liens are on the property and one or more junior liens are not performing",
+        "Lien Performance Regulatory Display Code": "2"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Lien Performance Code": "NJ",
+        "Lien Performance Description": "",
+        "Junior Lien Performance Description": "No junior lien on property",
+        "Lien Performance Regulatory Display Code": "0"
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "As Of Date": "10/30/2024",
+        "Liquidation Status Code": "OTH",
+        "Liquidation Status Description": "Others",
+        "Liquidation Status Regulatory Display Code": "-1",
+        "Data Source Code": ""
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Liquidation Status Code": "MSG",
+        "Liquidation Status Description": "Missing",
+        "Liquidation Status Regulatory Display Code": "0",
+        "Data Source Code": ""
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Liquidation Status Code": "VOLPO",
+        "Liquidation Status Description": "Voluntary payoff",
+        "Liquidation Status Regulatory Display Code": "1",
+        "Data Source Code": ""
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Liquidation Status Code": "SERTRN",
+        "Liquidation Status Description": "Servicing transfer",
+        "Liquidation Status Regulatory Display Code": "3",
+        "Data Source Code": ""
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Liquidation Status Code": "NTPD",
+        "Liquidation Status Description": "Not paid-in-full",
+        "Liquidation Status Regulatory Display Code": "0",
+        "Data Source Code": ""
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Liquidation Status Code": "INVOLLQ",
+        "Liquidation Status Description": "Involuntary liquidation (foreclosure)",
+        "Liquidation Status Regulatory Display Code": "2",
+        "Data Source Code": ""
+    }
+]
