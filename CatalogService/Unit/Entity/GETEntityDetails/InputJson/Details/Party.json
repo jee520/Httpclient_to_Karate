@@ -1,0 +1,1757 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Acquired As Part Of Debt Restructuring Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicated if the corresponding party got acquired as a part of debt restructuring transaction. A troubled debt restructuring is a process where the bank modifies or relaxes the terms of a loan agreement to minimize the eventual loss by accommodating a borrower who for some economic or legal reasons related is in financial difficulties and is financially incapable of meeting the obligation. This is applicable for the parties, when the party files for bankruptcy, and a remedial action is undertaken by the concerned regulator to streamline the assets and liabilities of the party. The assets of the party are called as stressed or distressed assets, or restructured assets due to distress conditions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Acquisition Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the channel through which customer was acquired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Age",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to age is a period of human life, measured by years from birth, this is relevant for individuals.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Annual Cash Transaction Threshold Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the percentage value indicating proportion of annual cash spend amount compared to overall annual transaction amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Annual Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the annual income of the applicant or applicant or party or customer. Annual income is the total amount of income earned annually. Gross annual income represents the amount of money a person earns in one year from all sources before annual taxes are evaluated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Or Co Applicant Profession",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the profession of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bankruptcy Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether the customer is bankrupt. Bankrupt is a person or organization declared in law as unable to pay their debts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bankruptcy History Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the customer has been bankrupt in the past. Bankrupt is a person or organization declared in law as unable to pay their debts. This is not related to current and ongoing bankruptcy for which there is a seprate indicator Bankruptcy Flag. The list of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bankruptcy Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of bankruptcy for accounts that have been written off due to bankruptcy. The Bankruptcy Code provides for five different types of bankruptcy filings, chapter 7, chapter 13, chapter 12, chapter 9 and chapter 11. Chapter 7 is one type of bankruptcy that is available for individuals. It is also called straight bankruptcy or liquidation. Chapter 13 is another type of bankruptcy available for individuals. This bankruptcy lasts for the duration of a debt repayment plan, from three to five years. Chapter 12 is a type of bankruptcy available for family farmers. It functions much like chapter 13. Chapter 9 is a type of bankruptcy for municipalities and Chapter 11 is occasionally used by individuals but is primarily used by large corporations, which are insolvent, that wish to pay off their debts through a repayment plan. Bankruptcy Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Domain",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the business domain., such as Institutional or Retail Brokerage. This is used to control access to data across distinct business operations.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Risk",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the level of risk associated with this account with respect to business characteristics. List of values are in the range of 0 10 with increasing values denoting increasing risk levels.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Segment Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique key identifying the business segment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the campaign under which the account was acquired. Campaign is defined as Specific activities designed to promote a product, service or business. A marketing campaign is a coordinated series of steps that can include promotion of a product through different mediums like television, radio, print, online using a variety of different types of advertisements. The campaign doesn't have to rely solely on advertising, and can also include demonstrations, word of mouth and other interactive techniques. Campaigns are created or started by financial institutions to promote sales, improve visibility of the brand or product and create opportunities for addon sales and cross selling.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Capital Adequacy Regulator Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the code of capital adequacy regulator where the party is a financial institution. For example, for India  RBI, for US  FED, for UK  FSA etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Certification Of Foreign Tax Reporting Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates of certification from the withholding agent that it treats the entity as foreign for purposes of foreign tax reporting.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Citizenship Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to captures the type of citizenship of the customer. Ex Birth Citizenship, Naturalized Citizenship etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Closed Customer Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates closed customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Closed Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the party disassociates all direct and indirect relationship with the financial institution, this could also be on account of the death of an individual or dissolution of an entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compensation Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether or not the source of client's wealth is from some form of compensation. List of values Y or N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Consolidated Subsidiary Of Financial Sector Entity Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether entity is a consolidated subsidiary of a financial sector entity. A consolidated subsidiary means an entity that is owned by the parent company and whose financial statements are included in the consolidated financial statements of the parent company. This is an exclusion criteria for classifying assets as high quality liquid assets, HQLA. Any asset that is issued or guaranteed by a financial sector entity or a consolidated subsidiary of a financial sector entity cannot be classified as HQLA and is excluded from the stock of HQLA to avoid wrong way risk.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Core Market Participant Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Indicates if the counterparty of the contract is a core market participant or not. Core market participants may include, at the discretion of the national supervisor, the following entities:, a, Sovereigns, central banks and PSEs,, b, Banks and securities firms,, c, Other financial companies, including insurance companies, eligible for a 20 percent risk weight in the standardized approach,, d, Regulated mutual funds that are subject to capital or leverage requirements,, e, Regulated pension funds, and, f, Recognized clearing organizations.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Counter Party Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify if the customer is a counterparty or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Counterparty Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to type of counterparty. User defined set of values.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code Of Taxation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the ISO country code where the customer pays primary taxes.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Credit Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the credit score of the customer. In case of retail customers, this can be FICO score. A credit score is commonly used by financial institutions to assess the credit worthiness of a prospect or customer. Generally a customer with a higher credit score gets better terms in terms of interest rates, repayment schedule etc. In case score is reported at account granularity then it will store the credit score of the primary customer associated with the account.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Credit Score Source",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source of the credit score. Credit score is a metric commonly employed to assess the credit strength or credit worthiness of an individual or corporation. Credit score sources can be institutions like Fair Issac, FICO, Experian, TransUnion etc. FICO score is a credit score given to individuals. Experian and TransUnion are credit bureaus that assign credit score based on their proprietary models.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Debt Service Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Current Debt Service Ratio. Debt service ratio or the Debt service coverage ratio is a measure used to understand the financial status of the borrower or customer. In case of retail borrowers, the debt service ratio is calculated by summing up the obligations such as annual or periodic payments on loans, property taxes, etc. and dividing the sum by the gross income.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Residence Address City",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the city of the party where he is currently residing.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Country",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the country of the party where he is currently residing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Residence Address District",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the district of the party where he is currently residing.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Fax Area Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the fax code of the country where the party is currently residing.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Fax Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the fax country code of the party where currently residing.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Fax Phone Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the residence fax number of the party.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Line One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to line one of address like apartment or house number, apartment name, street, cross, road etc. Also make use of v_address_line_2, v_address_line_3. More important fields like city, state are captured in a separate field.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Line Three",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to line three of address like apartment or house number, apartment name, street, cross, road etc. Also make use of v_address_line_1, v_address_line_2. More important fields like city, state are captured in separate fields.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Line Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to line tow of address like apartment or house number, apartment name, street, cross, road etc. Also make use of v_address_line_1, v_address_line_3. More important fields like city, state are captured in separate fields.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address State",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the state or province component of the address associated with the location where currently party is residing.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Telephone Area Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to telephone area code of the party where he is currently residing.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Telephone Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code of the phone used by the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Residence Address Telephone Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the telephone number of the party. It could be Personal telephone number, Business telephone number, Residence telephone number etc.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Zip Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the zip code of the party where he is currently residing.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Customer Education Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the highest educational qualification or certificate course that an individual has secured.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Customer Joining Age",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the age of the party or customer at the time of joining.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Customer KYC Risk Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Know Your Customer (KYC) risk associated to the customer as determined by an internal or external KYC risk assessment solution using various customer specific factors such as geography, customer type, and others. The KYC risk score in this column ranges from 0 to 10, where 0 indicates the customer is least risky, posing minimal or no risk to the financial institution, whereas 10 indicates the customer is most risky and may pose a higher risk to the financial institution in transactional activity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Customer Nationality",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the nationality of the party. For multinational corporate, the country where the corporate has its registered office is considered.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Data Jurisdiction",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the mantas classification associated with this record. This can be a jurisdiction which represents geographical or legal entity monitoring on data restrictions. Values can be AMEA, INDV, CORP etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Date Of Birth",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date of birth of the party. Date of birth refers to the day, month, and year when person was born.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Deceased Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the person who is no longer alive and is attributable to an individual.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Defense Employee Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the party is current or ex employee of defense force.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Depository Institution Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the party is depository institution. This is an exclusion criteria and is required for classifying common equities as level 2B high quality liquid assets, HQLA, for the purpose of inclusion in the stock of HQLA while computing the Liquidity Coverage Ratio, LCR. A common equity held by a depository institution cannot be classified as an HQLA if it was acquired in satisfaction of a debt previously contracted. If such an equity was held by any entity which is not a depository institution, it can be classified as level 2B asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Display Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the full name of party which is used for display purpose.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Domestic Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the domestic currency of issuers. For example, government of US will have domestic currency as USD. This will be used in Domestic and Foreign currency treatment in Issue Issuer assessment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Domicile Country At Origination",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the domicile country ISO code of the party at the time of origination.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Domicile Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the ISO domicile country code is the country code or place where a person is legally residing in a jurisdiction. Domicile country is the Country or place where a person legal address or permanent residence, home.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Domicile State Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the state within the country in which the party is domiciled. The definition of state differs from country to country. In the context of the United States of America, as per 12 USC 1318, the term state includes any state of the United States, the District of Columbia, any territory of the United States, Puerto Rico, Guam, American Samoa, the Trust Territory of the Pacific Islands, the Virgin Islands, and the Northern Mariana Islands.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Employee Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the customer or party is also an employee of the financial institution. List values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Employing Company",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "The name of the company in which the party is an employee.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Employment Or Occupation Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "The occupation status of the customer, for example, student, employed, or retired. Applicable to Individuals only.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Equity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to Equity Code of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ethnicity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the ethnicity code of the party. An ethnicity, is a category of people who identify with each other based on similarities such as common ancestry, language, society, culture or nation. Sample values can be African, Asian, American etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Expected To Transact With High Risk Country Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the customer is expected to transact with a high risk country. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fatca Exemption Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code indicating if this customer is certified by this institution to be a Foreign Account Tax Compliance Act, FATCA, compliant financial institution such as an exempt beneficial owner, or a registered compliant Foreign Financial Institution, FFI. This column is applicable only for legal entities. List of values are EBO  Exempt Beneficial Owner, CDC  Certified deemed Compliant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fatca Organization Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of organization the customer is considered to be for the purpose of Foreign Account Tax Compliance Act, FATCA. This organization type is applicable if the customer falls under the FATCA classifications of Exempt Beneficial Owner, Certified Deemed compliant or Excepted Non Financial Foreign Entity, NFFE. List of values are LOC FFI  Local FFI, NON RPT PFFI  Non reporting member of PFFI, QUAL CIV  Qualified CIV, RESTR FUND  Restricted Fund, NON REG LOC BANK  Non registering local bank, RET FUND  Retirement Fund, NON PROFIT  Non Profit Organization, LOW VAL FFI  FFI with only low value accounts, OWNER DOC FFI  Owner Documented FFI, FOR GOV  Foreign Government or its wholly owned entity, INTRNL ORG  International Organization or its wholly owned entity, GOV US TERR  Government of US territories, FOR RET PLAN  Foreign Retirement Plan, PUB TRD  Publicly traded corporation or its affiliated entity, TERR  Territory entity, ACT NFFE  Active NFFE, EXC NON FI  Excepted nonfinancial entity, EXC NON FI GRP  Excepted nonfinancial group entity, NON FI STARTUP  Nonfinancial start up company, NEW BUS LN  Company entering a new line of business, NON FI LIQUID  Nonfinancial entity in liquidation or bankruptcy, INTER AFF FFI  Inter affiliate FFI, SEC 501C  Section 501,c, entity, OTH  Other, FATCA  FATCA, KYC  KYC, KYCFATCA  KYCFATCA.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Entity Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify whether the customer is a Financial Entity or Not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "First Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of first product that was instrumental in originating the party in a customer role. A product is offered by the financial institution to its customers and is generally an account with certain inherent features.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Foreign Public Official Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether to identify if this party is a Foreign Public Official. List of values are Y or N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Gender Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the gender of the party or customer or employee. This is applicable only to individuals. Gender dimension is the equivalent dimension table for this column.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Geography Risk",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the level of geographical risk associated with this account. List of values are in the range of 0 10 with increasing values denoting increasing risk levels.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Government Backed Institution Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether a party which is also a credit institution is incorporated or established by the central government or regional government or local authority in a particular jurisdiction and the said government or local authority is under the legal obligation to protect the economic basis of that credit institution and maintain its financial viability throughout its life time. When the party is impaired asset management company it should be established by government. List of values as Y, N, whereas Y indicates whether the party is incorporated or established by the government.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Group Entity Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the party is one of the group entity of the institution. List of value are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "High Credit Quality Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicate if the credit quality of the entity is very high as equivalent to high credit quality of Multi lateral Development Banks.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "High Risk Perception Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the High Risk Perception. If the bank which is the counterparty to a transaction does not have any capital adequacy norms which are prescribed, the risk weight assignment should happen on the basis of a notional CRAR percent. If the bank is not able to calculate a notional CRAR percent, the risk weight assignment should be assigned based on the risk perception of the bank. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holding Interest And Noninterest Bearing Balance Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether party or entity has permission to hold interest and non interest bearing balances or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Home Ownership Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code to identify the home ownership. E.g. own house, rented house, mobile home etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Household Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to unique code of the Household which the customer belongs.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the business. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions. In case of party, it Refers to the country of birth of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Incorporation Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the ISO country code of incorporation or legal registration of the Party. For branches, agencies, representative offices, subsidiaries it refers to the country where such entity is formally or legally registered or licensed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Incorporation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the customer company or corporate was formed or incorporated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Industry Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the code that describes the primary business activity of the obligor or the industry to which the party is associated to as per the North American Industry Classification System, NAICS. If the NAICS code is not available, provide either the Standard Industrial Classification, SIC, or Global Industry Classification Standard, GICS. If the obligor is an individual, the industry code should be consistent with the industry in which the commercial purpose of the loan operates.\nIf the business or individual operates in multiple industries, the BHC or IHC should report the industry that best represents the commercial risk of the loan, i.e., the predominant industry.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Initial First Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Initial first name of the party, usually the party's name is stored in this field. Initial Name is used to represent a Initial and or alternate name used by a party, such as maiden names, aliases, previous business names, etc.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Initial Last Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Initial last name of the party, usually the family name is stored in this field. Initial Name is used to represent a Initial and or alternate name used by a party, such as maiden names, aliases, previous business names, etc.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Initial Middle Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Initial middle name of the party, usually the fathers name is stored in this field. Initial Name is used to represent a Initial and or alternate name used by a party, such as maiden names, aliases, previous business names, etc.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Initial Salutation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the personal titles that is used before addressing a individual is stored in salutation. Initial Name is used to represent a Initial and or alternate name used by a party, such as maiden names, aliases, previous business names, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Institutional Top Parent Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Indicates the top most, in case of hierarchical structure, parent institution identifier for institutional customers.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer CUSIP",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the number assigned to this issuer by the Committee on Uniform instrument Identification Procedure, CUSIP.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Job Title",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Job of the party that is discharging in the organization. Some of the example of job titles are Investment Planner, Client Service Manager, Collections Manager etc. the job title is also related and based on the position held by the party in the organization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Large Party Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the party or customer is a large customer or not. Large customer can be defined based on various attributes and varies between implementations. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Bankruptcy Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the last Bankruptcy Date. In instances where the party has suffered multiple instances of bankruptcy, this column is expected to store the last (latest) 3 bankruptcy date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Identifier Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the legal entity identifier code of the counterparty. The use of the LEI has been mandated by the European Securities and Markets Authority, ESMA, for the reporting of derivative transactions to Trade Repositories under European Market Infrastructure Regulation, EMIR.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Ownership Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of the legal entity. Indicates whether an entity is a wholly owned subsidiary or an entity functioning with minority interest.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Liability Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the Liability record of the Party. Liability ID is a relationship concept under which multiple borrowers are aggregated because they have related risks, including, but not limited to parent or subsidiary relationships. For standalone or ultimate parent obligors, the LIABILITY ID may be the same as the unique internal identifier which is party identifier for the obligor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Limited Liability Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the Limited liability Partnership and firms. In a limited liability company or partnership, business partners are only liable for the amount of money they have put into the company. In an unlimited liability company, the owner is inextricable from the business and is personally accountable for the liabilities of company. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Location Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique location code. Location code is defined as the code which will represent the address of the property from zip code onwards like which city, country etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mailing Instruction Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the mailing instruction given by the customer, office, Res. Address, hold mail, different address, etc...Expected values are O, R, H, D, this is not available.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Marital Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the marital status of the applicant or co applicant. Marital status of a person indicates whether the person is married, single, or otherwise. Expected values are Married, Unmarried, Other.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Minor Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Refers to the flag to identify if the party is a minor or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Nationality City",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the nationality city of the customer. Nationality is the status of belonging to a particular nation by origin, birth, or naturalization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Nationality Country",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the nationality country code of the customer. Nationality is the status of belonging to a particular nation by origin, birth, or naturalization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Non Profit Organization Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the party is a non profit organization or not. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Non Us Citizen And Resident Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates that the customer is neither a US citizen nor a US Resident. This is required for FATCA purpose. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "North American Industry Classification System Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the NAICS, North American Industry Classification System, code of this party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Dependents",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of dependents on the party.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Number Of Employees",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the total number of employees of the customer organization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Office Address Line One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the line one of address like apartment or house number, apartment name, street, cross, road etc. where the party is residing. More important fields like city, state are captured in separate fields.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Address Line Three",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the line three of address like apartment or house number, apartment name, street, cross, road etc. where the party is residing. More important fields like city, state are captured in separate fields.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Address Line Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the address line 2 of the party or customer office address details.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office City",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the city name where office is located.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Country",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the country of the party where the office of the party is located.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Office District",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the district of the party where the office of the party is located.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Fax Area Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the fax code of the country where office of the party is located.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Fax Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the fax code of the area in which the office of the party is located.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Office Fax Phone Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the fax code of the party where office of the party is located.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office State",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the state of the party where the office of the party is located.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Telephone Area Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the telephone area code of the party where office of the party is located.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Telephone Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the telephone country code of the party where the office of the party is located.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Office Telephone Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the telephone number of the party where office of the party is located.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Zip Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the zip code of the party where office of the party is located.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization Constituent Type Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to how the party is legally constituted in its country of incorporation. E.g. SP for Sole Proprietorship,LP for Limited Partnership,LLP Limited Liability Partnership etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization For Economic Co Operation And Development Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the country is part of Organization for Economic Co operation and Development.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the original identifier assigned for this party.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Pan Card Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Pan Card ID of the Party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Parent Party Group Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to group code of parent of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Partner Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code to identify a partner. Partners assist in origination of accounts. Partner dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Active Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the party in reference is currently active. Active party could be described as carrying out any transactions like deposits, withdrawals, etc. List of Values Y Yes, N No.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Alias Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the alias name for this party. It is a name by which the party is called within his known set of people.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Category",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the party category. e.g. individual, firm, corporate, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Date Of Death",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date of death of the party. The term Date of Birth refers to the day, month, and year when person died.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Party Employee Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the party is an employee of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Employment Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to employment type of the party. Expected values are FT, NE, INDP, GN, WE, OE, SHLDR, PT, OTH.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Full Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the full name for the party or customer for reporting purposes.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Initial Full Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the initial full name for the party or customer for reporting purposes. On Party, Initial Name is used to represent a Initial and or alternate name used by a party, such as maiden names, aliases, previous business names, etc.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Party Last Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the last name of the party, usually the family name.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Party Middle Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the middle name of the party, usually the father name.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Party Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to entity name for Organization or first name for Individual.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Party Name Suffix",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the name suffix, if any, of this party that is used after this party’s last name (for example, Jr).",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the party identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Parent Group Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refer to the name of the parent party group.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Parent Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the identifier for the parent data element.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Tax Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the tax identification number of the party.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Party Tax Identifier Format Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates the tax identifier of the party is a Social Security Number, SSN, or another type of identifier. Expected values are S  Social Security Number, T  Tax Identifier etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code for the party Type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Place Of Birth Municipality Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the municipality name for the birthplace of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Politically Exposed Person Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the customer is potential politically exposed individual or not. List of values are Y,N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Preferred Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the code of the preferred currency of the party or customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Publicly Privately Held",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to whether a legal entity is publicly or privately held.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Qualified Central Counterparty Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This attribute indicates whether the party is a qualified central counterparty for clearing trades.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Registration Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the legal ownership. This field applies only to legal entities. The valid values are 'Sole proprietorship', 'Joint Proprietorship', 'Corporation', 'Trust'. Acronyms are stored i.e. CORP, SP, JP, TRU & O(others).",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Related Party National Or Linked To Sanctioned Country Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if any of the related parties of a legal entity are national or linked to sanctioned country. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Related Party Politically Exposed Person Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if any of the related parties of a legal entity are politically exposed persons. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Relationship Manager Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the relationship manager of customer. Relationship Manager is a professional who works to improve a firms relationships with both partner firms and customers. Relationship management is generally divided into two fields, customer relationship management i.e. CRM and business relationship management i.e. BRM.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restricted Party Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates the party is restricted from or protected from use by certain entities within the organization. List of values are R - Restricted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "SAR Or STR Filed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if a Suspicious Activity Report or Suspicious Transaction Report has been filed for the customer. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Salutation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the salutation of the party in the address, the personal titles that is used before addressing a individual. Indicative values are Mr., Mrs., Miss, Ms. etc.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Secondary Citizenship Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the secondary citizenship country code of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Self Employed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates party is self employed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Spouse Date Of Birth",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date of birth of the spouse of the party. Date of birth refers to the day, month, and year when person was born.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tax Exempt Status Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the party is tax exempted For instance, a party may be exempted from tax for being a charity organization. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ticker Symbol",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to a ticker symbol is the unique identifier used to identify the stock on a stock exchange.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Trading Frequency Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates the trading frequency of the party in the listed exchange. The indicative list of values are A for Annual, S for Semi Annual and Q for Quarterly.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "VIP Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the member is categorized as a VIP by the financial institution.",
+                    "isPII": "YES"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "8",
+                    "srcLogicalName": "Stage Party Master",
+                    "scdName": "scd_8_DIM_PARTY_STG_PARTY_MASTER",
+                    "scdDesc": "Data movement from party master source to party dimension",
+                    "createdDate": "2024-10-26 06:02:41.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42583",
+                    "btLogicalName": "Party Numeric Identifier",
+                    "dqDesc": "Party Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQCUS42584",
+                    "btLogicalName": "Party Numeric Identifier",
+                    "dqDesc": "Party Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33878",
+                    "btLogicalName": "Bankruptcy Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33879",
+                    "btLogicalName": "Certification Of Foreign Tax Reporting Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33880",
+                    "btLogicalName": "Closed Customer Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33881",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33882",
+                    "btLogicalName": "Depository Institution Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33883",
+                    "btLogicalName": "Group Entity Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33884",
+                    "btLogicalName": "Large Party Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33885",
+                    "btLogicalName": "Minor Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33886",
+                    "btLogicalName": "Non Profit Organization Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33887",
+                    "btLogicalName": "Non Us Citizen And Resident Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33888",
+                    "btLogicalName": "Core Market Participant Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33889",
+                    "btLogicalName": "High Credit Quality Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33890",
+                    "btLogicalName": "VIP Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33891",
+                    "btLogicalName": "Deceased Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33892",
+                    "btLogicalName": "Counter Party Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33893",
+                    "btLogicalName": "Holding Interest And Noninterest Bearing Balance Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33894",
+                    "btLogicalName": "Party Active Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33895",
+                    "btLogicalName": "Tax Exempt Status Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33896",
+                    "btLogicalName": "High Risk Perception Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33897",
+                    "btLogicalName": "Organization For Economic Co Operation And Development Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33898",
+                    "btLogicalName": "Acquired As Part Of Debt Restructuring Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33899",
+                    "btLogicalName": "Consolidated Subsidiary Of Financial Sector Entity Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33900",
+                    "btLogicalName": "Defense Employee Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33901",
+                    "btLogicalName": "Government Backed Institution Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33902",
+                    "btLogicalName": "Self Employed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33903",
+                    "btLogicalName": "Employee Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33904",
+                    "btLogicalName": "Party Tax Identifier Format Indicator",
+                    "dqDesc": "Should have list of values as S,T",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV33905",
+                    "btLogicalName": "Financial Entity Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQNMDUP42199",
+                    "btLogicalName": "Party Numeric Identifier",
+                    "dqDesc": "Party Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQSPLCH42983",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Legal Entity Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQSPLCH42984",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                },
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                },
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                },
+                {
+                    "ucId": "FTP",
+                    "ucName": "Funds Transfer Pricing"
+                },
+                {
+                    "ucId": "PFT",
+                    "ucName": "Profitability Management"
+                }
+            ]
+        }
+    ]
+}

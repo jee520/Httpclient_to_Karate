@@ -1,0 +1,165 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique of the collateral or mitigant. In case of derivatives such as Futures and options, collateral such as bonds, letters of credit, Stocks, Exchange traded funds, precious metals etc. can be provided as collateral or mitigant. In case of Lease contracts, operating lease, the collateral or mitigant is the asset being leased. Dim_Mitigant is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Placed Collateral Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description of the posted collateral, by the financial institution with other financial institutions in order to secure its borrowings.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Placed Collateral Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the posted collateral, by the financial institution with other financial institutions in order to secure its borrowings.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Placed Collateral Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the posted collateral, by the financial institution with other financial institutions in order to secure its borrowings.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Placed Collateral Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the placed collateral identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "16",
+                    "srcLogicalName": "Stage Placed Collateral Master",
+                    "scdName": "scd_16_DIM_PLACED_COLLATERAL_STG_PLACED_COLLATERAL_MASTER",
+                    "scdDesc": "Data movement from placed collateral master source to placed collateral dimension",
+                    "createdDate": "2024-10-26 06:02:44.0",
+                    "modifiedDate": "2024-10-30 08:59:52.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42613",
+                    "btLogicalName": "Placed Collateral Numeric Identifier",
+                    "dqDesc": "Placed Collateral Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQCUS42614",
+                    "btLogicalName": "Placed Collateral Numeric Identifier",
+                    "dqDesc": "Placed Collateral Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQLOV33964",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQNMDUP42202",
+                    "btLogicalName": "Placed Collateral Numeric Identifier",
+                    "dqDesc": "Placed Collateral Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQSPLCH42993",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,360 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Application Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the application number that was filled by the customer that formed the basis for the contract. Application is a document that provides the essential financial and other information about the borrower on which the lender bases the decision to lend.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Segment Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique key identifying the business segment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Direct Or Assumed Insurance Indicator",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if the insurance is a directly assumed insurance or not. List of values are D is direct insurance, A is Assumed. D will be used by entity in capacity of Insurance Company whereas A will be used by entity in capacity of Reinsurer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the effective date of the account or contract or interest rate or exchange rate from which it is effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This is Code for the Line of Business as followed by the Bank for the loss .",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the contractual date on which the principal balance is expected to fully amortize and the balance payable would be nil. This is applicable for term loan products but not for revolving credit or overdraft type of account. In case of insurance policy, for some whole life insurance products the maturity date is aligned to maximum attained age and the policy is payable upon the earlier of the maturity date or the death of the insured. In case of Term Life insurance policies the maturity date is determined as policy issue date plus Term of the contract. In case of an annuity it is the date from which the annuitant has chosen to take the payouts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "New Business Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account or policy is new for the reporting period. List of values are Y is yes, N is no.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Policy Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the original contract number held by the source system. If there are multiple source systems without unique contract numbers, we expect the contract number and source system to be concatenated as part of the primary key, while this term will store the original contract number which as generated by the source system.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Policy Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This is the description of the policy .",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Policy Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the unique identifier of the policy held by the customer. An insurance policy identifier or number is a unique identifier provided by insurance company which is used to identify particular contract between insurance company and policyholder wherein insurance company accepts to cover specific risks in return of premium payments by policyholder as per terms and agreements. The policy number can be referenced from policy document and needs to be quoted with all communication with insurance company.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Policy Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the unique identifier of the policy held by the customer. An insurance policy identifier or number is a unique identifier provided by insurance company which is used to identify particular contract between insurance company and policyholder wherein insurance company accepts to cover specific risks in return of premium payments by policyholder as per terms and agreements. The policy number can be referenced from policy document and needs to be quoted with all communication with insurance company.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Policy Issuer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the unique code identifying the issuer of the policy.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Policy Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This is the numeric identifier corresponding to the policy code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Policy Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the unique code identifying the applicable status of the policy for example Active, Terminated, Matured etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Policy Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This is the unique code identifying the policy type issued by the entity. Sample values are in are IND for individual, GROUP is Group Policy, PACKAGE for Package Policy and OTH for Other Policies.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Policyholder Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the policy holder identifier i.e., the party insured.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Premium Payment Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code identifying premium type and frequency of the premium payment. Possible values for premium type are Single, in case it is a single premium policy, or Monthly, Quarterly, Half yearly, Annually etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Processor Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the source product processor name which contains the account information.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the product type associated with account. Product type is defined as classification like loan, deposit, cards, etc. Product Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Quote Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the market quotation for which the price is calculated or issued to the prospective customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Reinsurance Contract Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Direct Or Assumed Insurance Indicator. This indicates if the policy code is from reinsurance held , issued or from direct insurance. List of values are H is held, I is issued, O is direct contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "320",
+                    "srcLogicalName": "Stage Policy Master",
+                    "scdName": "scd_320_DIM_POLICY_STG_POLICY_MASTER",
+                    "scdDesc": "Data movement from policy master source to policy dimension",
+                    "createdDate": "2024-10-26 06:02:41.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42691",
+                    "btLogicalName": "Policy Numeric Identifier",
+                    "dqDesc": "Policy Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQCUS42692",
+                    "btLogicalName": "Policy Numeric Identifier",
+                    "dqDesc": "Policy Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQLOV32015",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQLOV32016",
+                    "btLogicalName": "Direct Or Assumed Insurance Indicator",
+                    "dqDesc": "Should have list of values as A,D",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQLOV32017",
+                    "btLogicalName": "New Business Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQLOV32018",
+                    "btLogicalName": "Reinsurance Contract Indicator",
+                    "dqDesc": "Should have list of values as H,I,O",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQNMDUP42028",
+                    "btLogicalName": "Policy Numeric Identifier",
+                    "dqDesc": "Policy Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQSPLCH43016",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Legal Entity Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQSPLCH43017",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

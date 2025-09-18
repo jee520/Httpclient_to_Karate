@@ -1,0 +1,139 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Risk Basis Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Credit Risk Basis code is the Rating or DPD band against which the specific PD series is associated with amongst the multiple series sets within a PD Term Structure ID. In case of rating, the values such as INT AAA+, INT C-, etc. are applicable, in case of DPD Band, values such as Active, 1 to 30, 91 to 20, etc. are applicable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Macro Economic Scenario Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code identifies the type of economic scenario considered for the macro economic variable. Based on the scenario code the macro economic variables value would change. For example, Scenario Code is 1 for the base scenario, 2 for adverse scenario and 3 for severely adverse scenario. For scenario code 1, GDP is 0.08, for code 2 GDP is 0.06 and for code 3 GDP is 0.03. The scenario code is used in the LLFP models to arrive at different expected credit loss values during the attribution analysis. The default value of the scenario code should be the base scenario. And as per IFRS 9, institutions need to compute Expected Credit Loss for multiple forecasted Macro economic scenarios and the final Expected Credit Loss be the probability weighted average of these individual values.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Period Applicable",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the time period for which the value is applicable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability Of Default Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the probability of default of an exposure over a period of one year, as required for regulatory capital calculation. This will be used in RWA calculation based on advanced approach. This is expressed in decimal number, For example, 30 percent will be 0.3.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability of Default Term Structure Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the PD Term Structure Identifier represents a specific set of PD term structures against multiple homogenous credit identifiers. Each series have a set of probability to default values against multiple time periods. Credit Identifiers could either be Rating or Delinquency Past Due days band. One ID can only be either Rating based or DPD based but not both. Ideally, a PD Term structure Identifier will be associated to a specific PD Term Structure model which used by the banking institution to generate the PD values.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF35330",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Pd Term Structure Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:05.0"
+                },
+                {
+                    "dqId": "DQREF35331",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Pd Term Structure Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:05.0"
+                },
+                {
+                    "dqId": "DQREF35332",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Pd Term Structure Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:05.0"
+                },
+                {
+                    "dqId": "DQREF35333",
+                    "btLogicalName": "Probability of Default Term Structure Code",
+                    "dqDesc": "Reference Check for Probability of Default Term Structure Code in Stage Pd Term Structure Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:05.0"
+                },
+                {
+                    "dqId": "DQREF35334",
+                    "btLogicalName": "Macro Economic Scenario Code",
+                    "dqDesc": "Reference Check for Macro Economic Scenario Code in Stage Pd Term Structure Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:05.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                }
+            ]
+        }
+    ]
+}

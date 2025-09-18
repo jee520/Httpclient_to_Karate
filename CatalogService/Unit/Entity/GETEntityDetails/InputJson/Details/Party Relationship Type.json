@@ -1,0 +1,189 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Relationship Type Level One Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Level 1 code of the Party Relationship. The level 1 code represents the next level of grouping of the relationship. Some of the level 1 type codes are pertaining to household, business control and business inter connection.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Relationship Type Level One Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Level 1 description of the Party Relationship. The level 1 description represents the next level of grouping of the relationship. Some of the level 1 type description are household, business control and business inter connection.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Relationship Type Level Two Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Level 2 code of the Party Relationship. The level 2 code represents the next level of grouping of the relationship. Some of the level 2 type codes are pertaining to control and inter connection.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Relationship Type Level Two Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Level 2 description of the Party Relationship. The level 2 description represents the next level of grouping of the relationship. Some of the level 2 type description are pertaining to control and inter connection.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Relationship Type",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of the party relationship between the party and the related party. The relationship type can be an affiliate, joint venture, Related Party, Significant Invested Party, common brand name, promoters, Non Operative Financial Holding as NOFHC, parent, spouse etc. For example, in FDIC relationship type can be OC as Official Custodian, BEN as Beneficiary, BHR as Bond Holder, MOR as Mortgagor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Relationship Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of the party relationship between the party and the related party. The relationship type can be an affiliate, joint venture, Related Party, Significant Invested Party, common brand name, promoters, Non Operative Financial Holding as NOFHC, parent, spouse etc. For example, in FDIC relationship type can be OC as Official Custodian, BEN as Beneficiary, BHR as Bond Holder, MOR as Mortgagor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Relationship Type Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description of the Party Relationship. The relationship type can be an affiliate, joint venture, Related Party, a direct or indirect ownership of 20 percent or more interest in the voting power of the enterprise, common brand name, promoters, Non Operative Financial Holding Company as NOFHC, parent, spouse etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Relationship Type Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Relationship Type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1149",
+                    "srcLogicalName": "Stage Party Relationship Type Master",
+                    "scdName": "scd_1149_DIM_PARTY_RELATIONSHIP_TYPE_STG_PARTY_RELTNSHP_TYPE_MASTER",
+                    "scdDesc": "Data movement from party relationship type master source to party relationship type dimension",
+                    "createdDate": "2024-10-26 06:02:42.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42683",
+                    "btLogicalName": "Relationship Type Numeric Identifier",
+                    "dqDesc": "Relationship Type Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQCUS42684",
+                    "btLogicalName": "Relationship Type Numeric Identifier",
+                    "dqDesc": "Relationship Type Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQLOV32721",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQNMDUP42098",
+                    "btLogicalName": "Relationship Type Numeric Identifier",
+                    "dqDesc": "Relationship Type Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQSPLCH42943",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

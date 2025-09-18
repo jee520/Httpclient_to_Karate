@@ -1,0 +1,179 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Role",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the role that the party plays with respect to the account. The various party roles are Guarantor, Nominee, Customer, Beneficiary, Contact, Legal Advisor of Customer, Power of attorney or in case of documentary credits the counterparty can play the following roles, as advising bank, confirming bank, issuing bank. \nA guarantor stands guarantee or assures to pay the debt on behalf of the borrower, should the borrower default on the obligation to the lender. A guarantor acts as a co signor, in which the guarantor could pledge their own assets or agree to service the loan to its full term in the even of default by the borrower.\n\nBorrower: Borrower is defined as a party who has subscribed to the asset products of the financial institution. Asset products include: All types of loans, overdrafts, credit card, lease etc.\n\nA nominee is a person who upon the demise of the account holder, can claim the proceeds of the account or the safe deposit locker without the financial institution insisting on a succession certificate.\n\nA beneficiary is any person who gains an advantage and/or profits from something. In the financial world, a beneficiary typically refers to someone who is eligible to receive distributions from a trust, will or life insurance policy. Beneficiaries are either named specifically in these documents or have met the stipulations that make them eligible for whatever distribution is specified.\nA Contact refers to the party who acts as a contact of an institutional customer.\nLegal advisors are lawyers who are employed by the government, large companies and other organizations to provide legal advice and services to the organization and its employees.\nAn advising bank, also known as a notifying bank, advises a beneficiary, exporter, that a letter of credit, L/C, opened by an issuing bank for an applicant, importer, is available. Advising Bank's responsibility is to authenticate the letter of credit issued by the issuer to avoid fraud.\nConfirming bank means the bank that adds its confirmation to a credit upon the issuing bank's authorization or request.' As can be seen on the above definitions confirming bank adds its undertaking to the letter of credit in addition to that of the issuing bank.\nAn issuing bank is a bank that offers card association branded payment cards directly to consumers. The name is derived from its practice of issuing payment to the acquiring bank on behalf of its customer, the purchaser in the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Role Effective End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the party role has ended with this account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Role Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the party role start date since it is active. Date on which the role of party becomes effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the current status of this party. Values could be Active, Inactive, Pending, Not a Customer etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF39488",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF39489",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF39490",
+                    "btLogicalName": "Party Role Effective End Date",
+                    "dqDesc": "Reference Check for Party Role Effective End Date in Stage Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF39491",
+                    "btLogicalName": "Party Role Effective End Date",
+                    "dqDesc": "Reference Check for Party Role Effective End Date in Stage Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF39492",
+                    "btLogicalName": "Party Role Start Date",
+                    "dqDesc": "Reference Check for Party Role Start Date in Stage Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF39493",
+                    "btLogicalName": "Party Role Start Date",
+                    "dqDesc": "Reference Check for Party Role Start Date in Stage Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF39494",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF39495",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF39496",
+                    "btLogicalName": "Party Role",
+                    "dqDesc": "Reference Check for Party Role in Stage Party Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                }
+            ]
+        }
+    ]
+}

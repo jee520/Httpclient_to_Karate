@@ -1,0 +1,370 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Certificate Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This is the Certificate identifier. Certificates are issued for entities or individuals in different types of businesses or individuals, carrying out specialised activities, by authorities who are empowered by regulation or by industry associations to issue the certificate after validating that the business meets the required standards or educational qualifications to perform that activity. Examples are certificates for laboratories conducting the test are issued by NABH in India, PADI issues certificates for scuba diving courses in various parts of the world, insurance regulatory authorities for insurance distributors.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Location Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique location code. Location code is defined as the code which will represent the address of the property from zip code onwards like which city, country etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Alternate Language",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the alternative language preferred by the producer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Birth Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This calendar date represents the date of birth of the producer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Central Registration Depository Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the Producer Central Registration Depository Number connect to the producer identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer City",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This refers to the city where producer is based.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicating if the relationship of the producer with the insurance company is active or not. List of values are Y meaning Yes and N meaning No.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Country",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This refers to the country where producer is based.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer County",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This refers to the county where producer is based.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer District",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This refers to the district where producer is located.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This refers to the date on which producer records was invalid or ended in the source system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Gender",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This value represents the gender , male or female, of the producer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is producer or agent identifier for a policy. Also know as agency or broker with whom the agent is employed.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Producer Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is producer or agent identifier for a policy. Also know as agency or broker with whom the agent is employed.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Producer Marital Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This value represents the present marital condition , Single, married, divorced, widowed, of the producer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This value represents the full name of producer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer National Insurance Registry Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "This is the National Insurance Producer Registry Number connected to the producer identifier.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Producer Nature Of Business",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This value represents the type or category of the business activities done by the producer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer North American Industry Classification System Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This value represents the North American Industry Classification System , NAICS, code issued to producer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This value represents the number or other identifier assigned to the producer of the business.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Number Of Employees",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "This number represents the count of people employed by producer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This is the numeric identifier corresponding to the producer identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Postal Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This value represents the full postal zip code as defined by company specifications.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Preferred Language",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the preferred language by the producer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Region",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This value represents the geographic region where producer is located.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Standard Industrial Classification Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This system code is the SIC code assigned to the producer. The Standard Industrial Classification , SIC, code is an industry code that identifies the classification of business activity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This refers to the date on which producer records was valid or started in the source system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer State",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This value identifies the state where producer is located.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Tax Location",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This value represents the tax location identifier in the producers location. \n .",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Producer Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This value describes the producer type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "319",
+                    "srcLogicalName": "Stage Producer Master",
+                    "scdName": "scd_319_DIM_PRODUCER_STG_PRODUCER_MASTER",
+                    "scdDesc": "Data movement from producer master source to producer dimension",
+                    "createdDate": "2024-10-26 06:02:43.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42689",
+                    "btLogicalName": "Producer Numeric Identifier",
+                    "dqDesc": "Producer Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQCUS42690",
+                    "btLogicalName": "Producer Numeric Identifier",
+                    "dqDesc": "Producer Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQLOV33560",
+                    "btLogicalName": "Producer Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQLOV33561",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQNMDUP42165",
+                    "btLogicalName": "Producer Numeric Identifier",
+                    "dqDesc": "Producer Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQSPLCH43021",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

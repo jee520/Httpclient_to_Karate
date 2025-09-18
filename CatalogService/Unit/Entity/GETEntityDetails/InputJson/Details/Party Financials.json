@@ -1,0 +1,961 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Accounts Payable",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amounts owed on open account to creditors for goods and services.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Adjustment Earnings Before Interest Taxes Depreciation And Amortization Of The Borrower Entity Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the earnings before interest, taxes, depreciation and amortization adjusted to exclude non recurring revenue, gains, expenses or losses of the borrower entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amortization Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total amortization costs of the said party for tangible and intangible assets allocated against revenue for the current period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Asset Turnover Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Asset Turnover Ratio of the Party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Balance Sheet Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which balance sheet was created.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Balance Sheet Net Worth",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Net worth on the liability side of the balance sheet of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Capital To Risk Adequacy Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Capital to Risk Adequacy Ratio of the customer in case the party is a bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Capital Work In Progress",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the capital work in progress i.e. CWIP as present on the balance sheet i.e. asset side.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash And Bank Balances",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the cash and bank balances as present on the balance sheet i.e. asset side. A bank balance is the ending cash balance appearing on a bank statement for a bank account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Marketable Securities",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Cash, depository accounts and marketable securities that can be easily sold and readily converted into cash.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Common Equity Tier One Capital Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Actual Common Equity Tier 1 capital i.e. CET1 including Actual capital conservation buffer i.e. CCB at SOLO level.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Consolidated Total Assets",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the consolidated total assets which includes the total assets of the legal entity and its subsidiaries.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Assets",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Current Assets of customer. Current assets are cash and other assets that are expected to be converted to cash within a year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Liabilities",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Current Liabilities of the customer. Current liabilities is the amounts due to be paid to creditors within twelve months.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Long Term Maturities",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to the portion of long term debt due within one year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the current ratio of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Customer Total Regulatory Capital",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the customers total regulatory capital amount reported as per last audited Balance sheet information.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Debt Coverage Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the cash available to the firm to pay off current debt obligations.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Depreciation Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total depreciation costs of the said party for tangible and intangible assets allocated against revenue for the current period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Derivative Business Size",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the on and off balance sheet size of the Institutions derivative business. The value will be an input from the institution based on the derivative business size. This will be further used to validate if the institution meets the simplified SA CCR criteria.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dividend Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the aggregate gross amount of dividends paid or credited with respect to an account being reported for the calendar year except certain gross proceeds from the sale or redemption of property.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Double Leverage Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the double leverage, which is generally defined as equity investments in subsidiaries plus BHC intangibles, divided by parent company equity, is a measure that is commonly used to signal whether the BHC i.e. Bank Holding Companies is too highly leveraged.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Earnings Before Interest And Taxes",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the earnings before interest and taxes of the borrower entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Earnings Before Interest Taxes Depreciation And Amortization Of The Borrower Entity Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Earnings before interest, taxes, depreciation and amortization of the borrower entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Period End Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date till which the financial information that has been provided is valid.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Period Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates the period for which the financial information is provided.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Period Start Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the financial period start date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fund Based Working Capital Outstanding Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total aggregate of the fund based working capital outstanding for the party by the banking system, where banking system means all banks in India including RRBs and co operative banks and branches of Indian banks abroad.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fund Based Working Capital Sanctioned Limit Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total aggregate of the fund based working capital limits outstanding for the party by the banking system, where banking system means all banks in India including RRBs and co operative banks and branches of Indian banks abroad.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Goodwill Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the goodwill is an intangible asset that arises as a result of the acquisition of one company by another for a premium value. The value of brand name a company, solid customer base, good customer relations, good employee relations and any patents or proprietary technology represent goodwill. Goodwill is considered an intangible asset because it is not a physical asset like buildings or equipment. The goodwill account can be found in the assets portion of balance sheet of a company. The amount of goodwill of the investee.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Gross Profit Margin",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the gross profit margin of the party. Gross profit margin is a profitability ratio that measures how much of every dollar of revenues is left over after paying cost of goods sold i.e. COGS.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Group Asset Size",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the group companies total asset size for the period. Asset Size is the total market value of the securities in a portfolio of mutual fund. Total assets or total net assets are also used to describe a size of fund.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Group Credit Default Swap Spread",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Credit default swap spread is reported for the Counterparty Parent or Group Level.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Group Credit Default Swap Spread Term",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the term for which the Credit default swap spread for the Counterparty Parent or Group Level.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Group Credit Default Swap Spread Term Multiplier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the term in multiples for which the Credit default swap spread for the Counterparty Parent or Group Level.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Group Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the ISO currency code in which the transactions are made at a group level.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Group Sales Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total annual sales amount of the consolidated group of which the customer is a part. This attribute is used to determine whether an SME is treated as a retail customer for the purposes of LCR calculations. Where the total annual sales for the consolidated group of which the customer is a part is less than EUR 50 million, such a customer is eligible for retail treatment provided other criteria are met.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Income Tax Expense Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the book Income tax expense is a liability owing to federal, state or provincial and municipal governments.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Income Taxes Paid Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the income taxes paid to the government in the current Financial Year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Coverage Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Interest Coverage Ratio of the party. It is the calculated as EBIT divided by Interest.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Expense",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest expense incurred for the account by the financial institution during the current month to till date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest income earned from the account by the financial institution for the period. Interest income is calculated as the sum of the interest component of the payments received from customers. This does not include other fees or revenues such as processing revenue, maintenance fee etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Inventory Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the value of Inventory as present in the balance sheet i.e. asset side.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Inventory Turnover Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Inventory Turnover Ratio of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Investment Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Investment amount as present in the balance sheet i.e. asset side.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Audit Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the borrowers financials were last audited.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Leverage Ratio Of Counterparty",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the regulatory Leverage ratio for the party. A leverage ratio is any one of several financial measurements that look at how much capital comes in the form of debt i.e. loans, or assesses the ability of a company to meet financial obligations.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Liquidity Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Liquidity Ratio.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loans And Advances",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the value of loans and advances as present in the balance sheet i.e. asset side.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Long Term Debt",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Long Term Debt of the customer. Long term debt consists of loans and financial obligations lasting over one year. Long term debt for a company would include any financing or leasing obligations that are to come due in a greater than 12 months period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Long Term Provision Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the long term provision amount as present on the balance sheet i.e. liability side of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Capitalization",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the market value of the capital pertaining to the party either a retail individual or a corporate. This will be generally computed as the product of the number of shares issued by the party and the market value of a share. This will be different from the book value of the capital, as this depends on the market value, instead of the accounting value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Minimum Capital To Risk Adequacy Ratio Compliance Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the foreign financial institution complies to the minimum Capital to Risk Weighted Assets ratio. CRAR is also known as Capital Adequacy ratio. Capital adequacy ratio is a measure of the financial capital of institution expressed as a percent of risk weighted credit exposures. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Minority Interest Share Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest of shareholders who, in the aggregate, own less than half the shares in a corporation. On the consolidated balance sheets of companies whose subsidiaries are not wholly owned, the minority interest is shown as a separate equity account or as a liability of indefinite term.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Current Assets",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the net current assets as present in the balance sheet.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Fixed Assets",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the net fixed assets of the party as present on the balance sheet i.e. asset side.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Net Income of the Party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Operating Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the all operating income, net of operating expenses with the exception of debt service and depreciation. Operating expenses include RE taxes, but not income taxes, Insurance, common area maintenance, utilities, replacement reserves, management fees, admin or accounting or legal.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Profit After Tax",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the net profit that the party i.e. company has earned as a result of doing business. This amount is for a period and is captured in Profit and Loss statement. It is also known as Profit after tax i.e. PAT.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Profit Margin",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the net profit margin of the party. Net profit margin is the percentage of revenue remaining after all operating expenses, interest, taxes and preferred stock dividends but not common stock dividends have been deducted from total revenue of a company.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Sales Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Gross sales reduced by cash discounts, trade discounts and returned sales and allowances for which credit is given to customers less returns and allowances, freight out, and cash discounts allowed for the designated period. This amount is as of the last audited financials.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Days Receivables",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of days receivables of the party. A measure of the average time of customers of a company take to pay for purchases, equal to accounts receivable divided by annual sales on credit times 365.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operating Expense As Percent Of Gross Rental Revenue",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Operating expense of Party as Percent of gross rental revenue.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operating Income To Debt Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the counterparty operating income to debt ratio.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Credit Default Swap Spread",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the credit default swap spread is reported for the Counterparty Legal Entity Level.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Credit Default Swap Spread Term",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the term for which the Credit default swap spread for the Counterparty Legal Entity Level.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Credit Default Swap Spread Term Multiplier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the term in Multiples for which the Credit default swap spread for the Counterparty Legal Entity Level.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Period Capital Exposure",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the funds used to acquire a long term asset resulting in depreciation deductions over the life of the acquired asset. Report gross of depreciation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Proxy Credit Default Swap Spread",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Proxy if and only if there is no internal mark for the Counter Party legal entity or its parent and provide the Bank Holding of internal proxy of the Company Credit default swap, CDS, spread.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Proxy Credit Default Swap Spread Term",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the term for which the Credit default swap spread for the Proxy.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Proxy Credit Default Swap Spread Term Multiplier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the term in multiples for which the Credit default swap spread for the Proxy.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Quick Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the customers Quick Ratio calculated as Quick Ratio is equal to Cash plus Cash Equivalents plus Account Receivables divided by Current Liabilities. The quick ratio is a measure of how well a company can meet its short term financial liabilities. Also known as the acid test ratio.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Receivables Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the trade receivables as present on the balance sheet I.e. asset side.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Reserve Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the reserve amount such as general reserve and share premium reserves on the liability side of the balance sheet.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Retained Earnings",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Cumulative Retained earnings for a particular period. Typically, it is the prior years retained earnings plus net income less distributions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Return On Assets",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the return on Assets of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sales Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total sales amount for the specified period. Total sales is the total revenue of the company.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Short Term Debt",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the all debt obligations with a term of less than one year of the borrower. Debt obligations are Loans, bonds, leases and other debt instruments owed by a corporation. Debt obligations are carried on books of a company as a liability.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tangible Assets",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Assets having a physical existence, such as cash, equipment and real estate accounts receivable are also usually considered tangible assets for accounting purposes Real property or personal property, such as buildings, machinery and real property. Tangible assets are distinguished from intangible assets such as trademarks, copyrights and goodwill and natural resources timberlands, oil reserves and coal deposits.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tier One Capital Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Basel Tier 1 Capital ratio . Tier 1 Capital Ratio is defined as Total Tier 1 Capital amount by Total Risk weighted Asset i.e. RWA Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tier One Common Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Tier 1 Common Ratio of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tier Two Capital Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Tier 2 Capital Ratio of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Assets",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total assets as present in the balance sheet. Total assets is the final amount of all gross investments, cash and equivalents, receivables, and other assets as they are presented on the balance sheet.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Banking System Exposure Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total banking system exposure amount of the counterparty. The banking system exposure indicates all the products which have been assigned to the particular counterparty, by various banks, part of the country banking system exposure. For example, a counterparty might have taken loans from Bank A, Cards from Bank B and C, and OD from Bank D. So, the total banking system exposure will be sum of the exposure across all these banks.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Capital Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Total Capital ratio. Total Capital Ratio is defined as Total Eligible Capital Amount by Total Risk weighted Asset i.e. RWA Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Expenditure",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total expenditure that the party i.e. company has incurred as a result of doing business. This amount is for a period and is captured in Profit and Loss statement.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Liabilities",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the sum of current liabilities plus long term debt plus other non current liabilities i.e. including deferred taxes, investment tax credit and minority interest.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Revenue",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total revenue from the account. This includes all types of charges, fees, interest income, non interest income include deposit and transaction fees, insufficient funds, NSF, fees, annual fees, monthly account service charges, inactivity fees, check and deposit slip fees, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Senior Debt",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the debt that takes priority over other unsecured or otherwise more junior debt owed by the issuer. Senior debt has greater seniority in the capital structure of issuer than subordinated debt.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unhedged Foreign Currency Exposure Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Unhedged Foreign Currency Exposure Amount of the counterparty. UFCE means all the foreign currency exposure of borrowing clients of bank that is not completely hedged. The amounts in all the foreign currencies need to be converted into USD and provided as input in this column. This is used in the calculation of incremental provisioning and incremental capital requirements for UFCE as per RBI guidelines for India.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unlisted Privately Placed Debt With Banking Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total aggregate of the unlisted privately placed debt with the banking system for the party by the banking system, where banking system means all banks in India including RRBs and co-operative banks and branches of Indian banks abroad.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV31376",
+                    "btLogicalName": "Minimum Capital To Risk Adequacy Ratio Compliance Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34891",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34892",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34893",
+                    "btLogicalName": "Balance Sheet Creation Date",
+                    "dqDesc": "Reference Check for Balance Sheet Creation Date in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34894",
+                    "btLogicalName": "Balance Sheet Creation Date",
+                    "dqDesc": "Reference Check for Balance Sheet Creation Date in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34895",
+                    "btLogicalName": "Last Audit Date",
+                    "dqDesc": "Reference Check for Last Audit Date in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34896",
+                    "btLogicalName": "Last Audit Date",
+                    "dqDesc": "Reference Check for Last Audit Date in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34897",
+                    "btLogicalName": "Financial Period End Date",
+                    "dqDesc": "Reference Check for Financial Period End Date in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34898",
+                    "btLogicalName": "Financial Period End Date",
+                    "dqDesc": "Reference Check for Financial Period End Date in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34899",
+                    "btLogicalName": "Financial Period Start Date",
+                    "dqDesc": "Reference Check for Financial Period Start Date in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34900",
+                    "btLogicalName": "Financial Period Start Date",
+                    "dqDesc": "Reference Check for Financial Period Start Date in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34901",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34902",
+                    "btLogicalName": "Group Currency Code",
+                    "dqDesc": "Reference Check for Group Currency Code in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34903",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34904",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF34905",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Party Financials",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

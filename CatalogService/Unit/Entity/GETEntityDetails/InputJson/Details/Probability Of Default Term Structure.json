@@ -1,0 +1,222 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability Of Default Term Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the frequency at which the PD values are generated (valid for). Then number value stored in this column and unit stored in PD Term Structure Frequency Unit column will be used together for computation.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability Of Default Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the probability of default type, either Marginal or Cumulative. It contains the value M or C, corresponding to Marginal PD or Cumulative PD respectively.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability of Default Term Structure Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the PD Term Structure Identifier represents a specific set of PD term structures against multiple homogenous credit identifiers. Each series have a set of probability to default values against multiple time periods. Credit Identifiers could either be Rating or Delinquency Past Due days band. One ID can only be either Rating based or DPD based but not both. Ideally, a PD Term structure Identifier will be associated to a specific PD Term Structure model which used by the banking institution to generate the PD values.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability of Default Term Structure Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the PD Term Structure Identifier represents a specific set of PD term structures against multiple homogenous credit identifiers. Each series have a set of probability to default values against multiple time periods. Credit Identifiers could either be Rating or Delinquency Past Due days band. One ID can only be either Rating based or DPD based but not both. Ideally, a PD Term structure Identifier will be associated to a specific PD Term Structure model which used by the banking institution to generate the PD values.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability of Default Term Structure Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description that describes the features of the PD Term Structure identifier (likely associated to a model).\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability of Default Term Structure Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the frequency at which the PD values are generated (valid for). The possible values are M - Monthly, Q-Quarterly, H- Half Yearly, Y-Yearly, D- Daily.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability of Default Term Structure Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the PD Term Structure Name which represents the unique features of the PD Term Structure identifier (likely associated to a model).\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability of Default Term Structure Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Probability of Default Term Structure Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability of Default Term Structure Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the value that indicates the basis of PD Term Structure, either Rating based or DPD based. It contains the value 'R' or 'D' for Rating or DPD band respectively.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1293",
+                    "srcLogicalName": "Stage Pd Term Structure Master",
+                    "scdName": "scd_1293_DIM_PD_TERM_STRUCTURE_STG_PD_TERM_STRUCTURE_MASTER",
+                    "scdDesc": "Data movement from pd term structure master source to pd term structure dimension",
+                    "createdDate": "2024-10-26 06:02:40.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42563",
+                    "btLogicalName": "Probability of Default Term Structure Numeric Identifier",
+                    "dqDesc": "Probability of Default Term Structure Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQCUS42564",
+                    "btLogicalName": "Probability of Default Term Structure Numeric Identifier",
+                    "dqDesc": "Probability of Default Term Structure Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQLOV33426",
+                    "btLogicalName": "Probability of Default Term Structure Frequency Unit",
+                    "dqDesc": "Should have list of values as D,H,M,Q,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQLOV33427",
+                    "btLogicalName": "Probability Of Default Type",
+                    "dqDesc": "Should have list of values as C,M",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQLOV33428",
+                    "btLogicalName": "Probability of Default Term Structure Type",
+                    "dqDesc": "Should have list of values as D,R",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQLOV33429",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQNMDUP42162",
+                    "btLogicalName": "Probability of Default Term Structure Numeric Identifier",
+                    "dqDesc": "Probability of Default Term Structure Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQSPLCH42817",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

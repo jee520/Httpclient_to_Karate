@@ -1,0 +1,284 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contingent Interest Of Beneficiary",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the contingent interest of a beneficiary in the irrevocable trust deposit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Discretionary Authority Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the discretionary authority indicates the advisor has the authority to decide which securities to purchase, sell and or retain for their clients. Expected values are NONDISC is Non Discretionary i.e. Non Discretionary are accounts which do not have discretionary powers, FRMDISCRTN is Firm Discretionary i.e. A firm discretionary managed account is an account managed by the firm. Asset Management Services i.e. AMS manage these accounts, FADISCRTN is FA Discretionary i.e. Account is Managed by Financial Advisory, OUTDISCRTN is Outside Discretionary i.e. Account is Managed by Another Party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Allocation Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of interest each participant is entitled to in the account. This attribute is used in the context of Trusts and Employee benefit plan accounts wherein each participant receives different coverage based on the type of allocation. The values to be seeded are CONT is Contingent Interest, NONCONT is Non Contingent Interest, RETINT is Retained Interest, LEB is Life Estate Beneficiary.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Life Estate Beneficiary Factor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Number_Factor",
+                    "gcd": "Refers to the Life Estate Beneficiary Factor attribute stores the factor to be applied to a beneficiary of a trust account who is a designated life estate beneficiary. A Life estate beneficiary is one who has the right to receive income from the trust or to use the trust assets prior to all other beneficiaries. He or She can use the estate during his or her life and the ownership is changed upon death. The beneficiaries who inherit the estate after the LEB are called Remainder beneficiaries. The worth of a life estate beneficiary is calculated via Actuary tables which are based on age, interest rates, etc. If the worth of an Estate is x and an LEB factor is 0.6, then the worth of the LEB for insurance purposes is calculated as 0.6x and the worth of the remainder beneficiaries are taken as 0.4x.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Non Contingent Interest Of Beneficiary",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the non contingent interest of a beneficiary in the irrevocable trust deposit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ownership Category Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code for Ownership Category. Ownership Category dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Participant Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the participant type of a account. This column will have the list of the Beneficial Owner i.e. Account Participants, such as OC is Official Custodian, BEN is Beneficiary, BHR is Bond Holder, MOR is Mortgagor, EPP is Employee Benefit Plan Participant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Proxy Voting Rights Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the investment adviser has what kind of authority to vote for their client. Expected values are T is Power To Vote Trustee, M is Power To Vote Manager, C is Power To Vote Client N is No Proxy.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Related Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the related account for the Account Code of the transaction This will be TD Account or Loan Account etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Related Party Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the related party identifier, who is participating in the account in any relationship like spouse, parent, etc. to the primary customer or the account holder.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Related Party Share Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the Percentage share of related party with respect to customer belonging to account. For example, Customer can have multiple nominees for a single account. The percentage share of amount for a particular nominee gets stored in this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Relationship Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of the party relationship between the party and the related party. The relationship type can be an affiliate, joint venture, Related Party, Significant Invested Party, common brand name, promoters, Non Operative Financial Holding as NOFHC, parent, spouse etc. For example, in FDIC relationship type can be OC as Official Custodian, BEN as Beneficiary, BHR as Bond Holder, MOR as Mortgagor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Signature Card Signed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether a co owner of an account has signed the signature card or not. List of values are Y, N. A Value of Yes indicates that the co owner has signed the signature card. For example, in deposit insurance FDIC calculation this attributes will be used to determine ownership category of type Joint account co owners.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32776",
+                    "btLogicalName": "Signature Card Signed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF38148",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Party Party Account Relationship",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF38149",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Party Party Account Relationship",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF38150",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Party Party Account Relationship",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF38151",
+                    "btLogicalName": "Insurance Allocation Type",
+                    "dqDesc": "Reference Check for Insurance Allocation Type in Stage Party Party Account Relationship",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF38152",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Party Party Account Relationship",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF38153",
+                    "btLogicalName": "Ownership Category Code",
+                    "dqDesc": "Reference Check for Ownership Category Code in Stage Party Party Account Relationship",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF38154",
+                    "btLogicalName": "Participant Type",
+                    "dqDesc": "Reference Check for Participant Type in Stage Party Party Account Relationship",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF38155",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Party Party Account Relationship",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF38156",
+                    "btLogicalName": "Related Account Number",
+                    "dqDesc": "Reference Check for Related Account Number in Stage Party Party Account Relationship",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF38157",
+                    "btLogicalName": "Related Party Identifier",
+                    "dqDesc": "Reference Check for Related Party Identifier in Stage Party Party Account Relationship",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF38158",
+                    "btLogicalName": "Relationship Type",
+                    "dqDesc": "Reference Check for Relationship Type in Stage Party Party Account Relationship",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

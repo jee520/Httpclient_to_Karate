@@ -1,0 +1,489 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Annual Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the annual income of the applicant or applicant or party or customer. Annual income is the total amount of income earned annually. Gross annual income represents the amount of money a person earns in one year from all sources before annual taxes are evaluated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Capital Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Long",
+                    "gcd": "This is the capital rate maintained as per capital adequacy regulation of legal entity. It parameter used for effective capital cost calculation during the KVA Capital Valuation Adjustment calculation. The value is expected in percentage terms, example 8 percent, which must be expressed as 8.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Client Profile Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicating whether Client Profile Information, CPI, documentation is present for this account . Valid values are 'Y' and 'N'",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Curve Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the collateral curve id that is used to determine the cheapest collateral to deliver and calculate COLVA i.e. Collateral Valuation Adjustment. For example, IR.USD FEDFUNDS ON.MID.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Count Of 314 Fincen Request Party Information",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "This is the number of times FINCEN has approached to financial institutions on information of the party. FINCEN receives requests from law enforcement and upon review, sends notifications to designated contacts within financial institutions across the country once every 2 weeks informing them new information has been made available via a secure Internet web site. The requests contain subject and business names, addresses, and as much identifying data as possible to assist the financial industry in searching their records. The financial institutions must query their records for data matches, including accounts maintained by the named subject during the preceding 12 months and transactions conducted within the last 6 months. Financial institutions have 2 weeks from the posting date of the request to respond with any positive matches. If the search does not uncover any matching of accounts or transactions, the financial institution is instructed not to reply to the 314,a, request.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Curve Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the key string to use for looking up credit curve data and creating the ID of credit models when used with a hybrid model during XVA calculation. The id should include the documentation clause, seniority and currency. Example: CR.USD BAC_SNRFOR_MM.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the credit score of the customer. In case of retail customers, this can be FICO score. A credit score is commonly used by financial institutions to assess the credit worthiness of a prospect or customer. Generally a customer with a higher credit score gets better terms in terms of interest rates, repayment schedule etc. In case score is reported at account granularity then it will store the credit score of the primary customer associated with the account.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Debt Service Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Current Debt Service Ratio. Debt service ratio or the Debt service coverage ratio is a measure used to understand the financial status of the borrower or customer. In case of retail borrowers, the debt service ratio is calculated by summing up the obligations such as annual or periodic payments on loans, property taxes, etc. and dividing the sum by the gross income.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day Count Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the day count indicator. Expected values are A/360, A/365, A/A, 30/360, 30/360 EUROPEAN, 30/A. Suggested default value are 1=30/360 for amortizing transactions OR 3=Act/Act. for non amortization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Default Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the date on which the party is treated as default.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Default Status Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the date on which the default status of the party has changed. E.g. the date on which the status has changed from Default to Not in Default.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Defaulted Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This attribute stores the Country in Default or Not Information. Possible values are Y or N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Defaulted Flag Update Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the date on which the defaulted flag of the party has lasted updated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquent Life Times",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of times the account has been delinquent on installment payment during the life of the account. An account can be in and out of delinquency a number of times during its life.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Do Not Solicit Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "A date on which an individual exercised his wish not to receive any marketing sales solicitation material from said financial Entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Institution Employee Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "An indicator of whether this customer is an employee of a financial institution. Valid values are Y or N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Profile Last Update Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the date on which the financial profile of the party was last updated.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Foreign Assets Held Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicating whether this party has assets outside the country of the primary branch to which he is associated. Valid values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Funding Curve Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the funding curve id that is used to determine the FVA, Funding Valuation Adjustment, for a counterparty. Example: IR.EUR EURIBOR 6M.MID.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Funding Proportion",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Number_Factor",
+                    "gcd": "This is the funding proportion parameter that is used for effective capital cost calculation while calculating FVA, Funding Valuation Adjustment. It relates to the funds that a bank must borrow to post as collateral in transactions such as collateralised swap. The value is expected in percentage terms, example 50 percent must be given as 50.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Income Refreshed Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the date the new income information was received.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Income Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Whether the income information was for the primary cardholder only or for joint or household members also.\n1  is  Individual\n2  is  Household\n3  is  Other.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Income Source Code At Origination",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Whether the income information at Origination was for the primary cardholder only or for joint or household members also.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Proceeding Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the legal proceeding start date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Leveraged Party Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "A flag to indicate if the party is leveraged or not. Party is considered as leveraged when there has been excessive debt on boarded to substitute equity of the party. List of values are Y  Leveraged and N  Not Leveraged.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Given Default Advanced Internal Rating Based Approach",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "This is the loss given default value of the counterparty under Advanced Internal Rating Based Approach. Loss given default is the expected amount to be lost by the financial institution if the borrower defaults. Institutions such as banks will determine their credit losses through an analysis of the actual loan defaults. While quantifying some losses may be simple, in some situations it may be quite difficult and require the analysis of multiple variables. For example, if Bank X loans $1 million to ABC Company and ABC defaults on the note, Bank X's loss isn't necessarily $1 million. This is because Bank X may hold substantial assets as collateral, and/or may use the courts in an effort to be made whole. When all of these variables are factored in, Bank X may have lost substantially less than the original $1 million loan. The process of analyzing all of these variables, as well as all of the other loans in Bank X's portfolio, is paramount to determining the loss given default. The value is expected in percentage terms, example 10% must be given as 10.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Given Default Foundation Internal Rating Based Approach",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "This is the loss given default value of the counterparty under Foundation Internal Rating Based Approach. Loss given default is the expected amount to be lost by the financial institution if the borrower defaults. Institutions such as banks will determine their credit losses through an analysis of the actual loan defaults. While quantifying some losses may be simple, in some situations it may be quite difficult and require the analysis of multiple variables. For example, if Bank X loans $1 million to ABC Company and ABC defaults on the note, Bank X's loss isn't necessarily $1 million. This is because Bank X may hold substantial assets as collateral, and/or may use the courts in an effort to be made whole. When all of these variables are factored in, Bank X may have lost substantially less than the original $1 million loan. The process of analyzing all of these variables, as well as all of the other loans in Bank X's portfolio, is paramount to determining the loss given default. The value is expected in percentage terms, example 10% must be given as 10.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Model Curve Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the model curve identifier that is used during XVA calculation to determine collateral spread and funding spread. The spreads are used to estimate COLVA and FVA. Example: IR.USD LIBOR 3M.MID.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Annual Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This is the borrowers total annual income obtained at the accounts origination.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Primary Source Of Wealth",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "The primary self reported source of wealth of the party. Source of wealth refers to the source of income of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability Of Default Advanced Internal Rating Based Approach",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "This is the probability of default of a counterparty under Advanced Internal Rating Based Approach over a period of one year, as required for regulatory capital calculation. This will be used in RWA calculation based on advanced approach. This is expressed in decimal number; For example, 30% will be 30.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability Of Default Foundation Internal Rating Based Approach",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "This is the probability of default of a counterparty under Foundation Internal Rating Based Approach over a period of one year, as required for regulatory capital calculation. This will be used in RWA calculation based on advanced approach. This is expressed in decimal number; For example, 30% will be 30.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability Of Default Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the probability of default of an exposure over a period of one year, as required for regulatory capital calculation. This will be used in RWA calculation based on advanced approach. This is expressed in decimal number, For example, 30 percent will be 0.3.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recovery Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Number_Factor",
+                    "gcd": "This is the recovery rate of legal entity for calculating CVA. This is the portion of exposure expected to be recovered by counterparty when the entity defaults. The value is expected in percentage terms, example 12 percent must be given as 12.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Stated Liquid Net Worth",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This is the partys self reported liquid assets.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Stated Net Worth",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This is the partys self reported net worth.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33280",
+                    "btLogicalName": "Financial Institution Employee Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33281",
+                    "btLogicalName": "Defaulted Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33282",
+                    "btLogicalName": "Leveraged Party Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33283",
+                    "btLogicalName": "Foreign Assets Held Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33284",
+                    "btLogicalName": "Client Profile Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF39342",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Party Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF39343",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Party Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF39344",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Party Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF39345",
+                    "btLogicalName": "Day Count Indicator",
+                    "dqDesc": "Reference Check for Day Count Indicator in Stage Party Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF39346",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Party Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF39347",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Party Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQREF39348",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Party Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                },
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                },
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

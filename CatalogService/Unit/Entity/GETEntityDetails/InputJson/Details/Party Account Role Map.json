@@ -1,0 +1,395 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Absolutely Entitled Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This attribute indicates if the depositor is absolutely entitled to the sums held in an account or not. List of values Y indicates absolutely entitled and N indicates not absolutely entitled.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Manager Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the account manager is an employee who is responsible for the day to day management of accounts of a particular customer. The account manager is a point of contact, and provides customer support, up selling, technical assistance and general relationship management. An account manager may be in charge of a number of smaller accounts, or may focus on a few larger accounts. This column Refers to the account manager code or the unique employee identifier of the manager assigned by the financial institution. Management Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Open Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the account was opened in the financial institution. This is the system date on which the financial institution opens the account. It may or may not be equal to effective date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Open Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is open. List of values are Y,N. If the value is selected as Y means the account is open & if the value is selected as N means the account is closed.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Party Role Name",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description",
+                    "gcd": "This is the role that this party plays with respect to the account. List of values can be Customer, Guarantor, Nominee, Beneficiary, Contact, Customers Legal Advisor, Power of attorney etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Acquisition Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the channel through which customer was acquired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Entity Relationship Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This is the relationship of the party with the legal entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Joint Liability Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the joint liability share in percentage per debtor as per the contractual agreement.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Credit Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the credit score of the customer at the time of on-boarding. Credit score is a metric commonly employed to assess the credit strength or credit-worthiness of an individual or corporation. Credit score sources can be institutions like Fair Issac (FICO), Experian, TransUnion etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original External Credit Score Source",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Original External Credit Score Source.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Operation Role Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This is the unique identifier for each role information. It should be unique id for the combination of AUTHORITY TO TRADE Indicator, AUTHority TO WITHDRAW FUNDS indicator, POWER OF ATTORNEY indicator, OWNERSHIP indicator and GUARDIANSHIP Indicator. The list of Values for this column is TRDNG ie Trading, WDRWL i.e. Withdrawal, POA i.e. Power of Attorney, OWNER i.e. Owner, GRDN i.e. Guardian, JTOWN i.e. Joint Owner, OBLIG i.e. Obligatory .",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Role Effective Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the effective date from when the role was associated with this application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Role Effective End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the party role has ended with this account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party To Party Relationship Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This is the party  relationship. List of values can be Self, Spouse, Child, Parent, Sibling, Family, Employee, Employer, Friend, Domestic Partner, Legal Guardian, Dependent, Trustee, Grandparent, Grandchild, Stepchild, Power of Attorney, Step Parent and others.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Primary Secondary Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates the primary secondary indicator. The list of values are P and S.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Related Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether through this role, the account should be considered related to other accounts associated with this customer. List of values are Y or N.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Signature Card Signed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether a co owner of an account has signed the signature card or not. List of values are Y, N. A Value of Yes indicates that the co owner has signed the signature card. For example, in deposit insurance FDIC calculation this attributes will be used to determine ownership category of type Joint account co owners.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32989",
+                    "btLogicalName": "Primary Secondary Indicator",
+                    "dqDesc": "Should have list of values as P,S",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32990",
+                    "btLogicalName": "Signature Card Signed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32991",
+                    "btLogicalName": "Absolutely Entitled Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38722",
+                    "btLogicalName": "Account Open Date",
+                    "dqDesc": "Reference Check for Account Open Date in Stage Party Account Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38723",
+                    "btLogicalName": "Account Open Date",
+                    "dqDesc": "Reference Check for Account Open Date in Stage Party Account Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38724",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Party Account Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38725",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Party Account Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38726",
+                    "btLogicalName": "Party Role Effective End Date",
+                    "dqDesc": "Reference Check for Party Role Effective End Date in Stage Party Account Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38727",
+                    "btLogicalName": "Party Role Effective End Date",
+                    "dqDesc": "Reference Check for Party Role Effective End Date in Stage Party Account Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38728",
+                    "btLogicalName": "Account Manager Code",
+                    "dqDesc": "Reference Check for Account Manager Code in Stage Party Account Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38729",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Party Account Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38730",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Party Account Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38731",
+                    "btLogicalName": "Acquisition Channel Code",
+                    "dqDesc": "Reference Check for Acquisition Channel Code in Stage Party Account Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38732",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Party Account Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38733",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Party Account Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38734",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Party Account Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38735",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Party Account Role Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                }
+            ]
+        }
+    ]
+}

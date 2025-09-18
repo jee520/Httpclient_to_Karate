@@ -1,0 +1,1669 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "ATM Expenses",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the ATM expense, typically based on number of ATM transactions multiply with unit cost.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Close Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the account is closed. Account can be an active or closed, this column will remain blank till account is active. Accounts can be closed upon maturity, transfer or death of a customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Group Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the account group to which this account is assigned. Account group is a grouping of accounts based on certain criteria. Examples of account group types include household, statement bundling etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Officer Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to unique identifier assigned to the account officer. Account officer may receive and pay out money and assist customers with loans, foreign currency exchange and investments, He will be involved in identifying customer needs and refer customers to appropriate banking services and specialists.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accrued Gross Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the accrued gross amount computed for the period last payment date of interest and As of Date and is used for determining Exposure At Default.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accrued Transfer Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the accrued transfer amount computed for the period last payment date of interest and As of Date and is used for determining Exposure At Default.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Acquisition Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the channel through which customer was acquired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Adjustment Effective Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the adjustment Effective Date for determining the reference date for the IRC rate lookup.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amortization Term",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the amortization term is used in conjunction with amortization term unit to define the term over which the payment is amortized, depreciated. Amortization term identifies whether a record is a balloon and is used in calculation of payment amounts. It is also used when recalculating payment amounts for User Defined Payment Pattern records that are defined as percentage of Current Payment and have more than one payment frequency defined in the Payment Pattern interface.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amortization Term Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the amortization term unit is used in conjunction with amortization term, AMRT_TERM, to define the term over which the payment is amortized. Expected values are D Days, M Months and Y Years.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Attrition Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the reason code for which customer has canceled the contract or the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Gross Book Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the average book balance for the latest month. The book balance is the term financial institutions use to describe the amount of money available before any adjustments have been made for deposits in transit, checks that have not yet been cleared, reserve requirements and interest received from 'float funds' hence is generally greater than end of period balance, Also called as 'gross balance'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Net Book Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the average net book balance for latest month. Book balance includes deferred expense or income on that account and hence is generally greater than the EOP balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bank Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code or identifier of the financial institution which owns the transaction, assigned by the central bank. Bank identifier can be one of the following identifier or code: BIC Code, Bank Identifier Codes, ABA Code, Routing transfer number, IFSC Code, Indian Financial System Code, BCHH etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Platform Expenses",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the fixed cost per product or number of transactions multiply with unit cost.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Teller Expenses",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Branch Teller Expense is typically based on the number of teller transactions multiply with unit cost.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Calculation Option Display Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the choice between Just shifting the dates for holiday calendar and recalculating the payments based on the new dates.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Call Center Expenses",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the call center expense, typically based on number of calls multiply with unit cost.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Common Chart Of Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the chart of accounts is a listing of the names of the accounts that a financial institution has identified and made available for recording transactions in its general ledger. A financial institution has the flexibility to define its chart of accounts as per requirement, including adding accounts as needed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contribution After Capital Change",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the contribution after capital charge. This is typically calculated as Allocated Equity multiply with hurdle rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Deferred Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to deferred current balance refers to Current un amortized deferred balance representing future income or expense such as premium or discount. Deferred Current Balance holds the discount or premium associated with an instrument. A discount loan or instrument is one with interest deducted from the face value of the loan at its origination. The discount amount is the difference between the loans current market price and its stated par value. The deferred current balance, which represents income, will be amortized over the life of the instrument according to a constant yield calculation. Therefore, as the instrument approaches maturity, the book balance approaches the face value or par balance. For discounted instruments, the deferred current balance is a negative balance. This indicates to the cash flow engine that the balance is income.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Fees",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount of fees accrued and outstanding for the current reporting period. Current fees may include over the limit fees, wire transfer fees, cheque book issued, bankers draft etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Gross Book Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the current gross book balance. Current gross book balance is the sum of total of End of Period Balance + Deferred Balance, represented as a negative amount to depict the unamortized portion. This is used while calculating amortization. The book balance is the term financial institutions use to describe the amount of money available before any adjustments have been made for deposits in transit, checks that have not yet been cleared, reserve requirements and interest received from float funds hence is generally greater than end of period balance, Also called as gross balance.\nIt also excludes any deferred balance that is unamortized.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Gross Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "This stores current annualized gross rate of an account. This rate would be different in case of a consortium funding. When conventionally amortizing the balance of a record with the Model with Gross Rates option selected, the cash flow engine uses the cu .",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Gross Yield",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the current gross yield on the investment. Gross yield is defined as the yield on an investment before the deduction of taxes and expenses. Gross yield is expressed in percentage terms. Current yield is calculated as interest received plus total fees and charges, all are annual, divided by the principal.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Net Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Long",
+                    "gcd": "Refers to the current interest rate or Current nominal interest rate is used to derive the interest cash flow, income or expense, that is due to the financial institution, referred to as net. All term accounts require a valid current interest rate. For non interest earning or bearing accounts, current interest rate equal to 0. For transaction accounts where the rate changes daily based upon average balances, current interest rate should be the spot rate at the time the extract program is run. For interest bearing accounts, current interest rate is greater than or equal to 0.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Payment Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the current period payment made. Current Payment is the installment amount received from the customer. Current payment in the case of asset products represents the current periodic payment made to repay the outstanding balance. For standard amortization types, those that are not non patterned and non scheduled, Transfer Pricing Application, remaining term methods, uses the current payment from the detail record for the life of the record until a payment recalculation occurs. This will same as maturity amount in case of repo contracts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Transfer Pricing Period Average Daily Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to average Daily Balance for Current Transfer Pricing Repricing Period  used in selected TP or FTP methods  with Mid Period Repricing option. When processing with the mid period repricing option, Transfer Pricing application references CUR_TP_PER_ADB as the average daily balance at the time of the last repricing event. This field is used in conjunction with the PRIOR_TP_PER_ADB field. If the last reprice date occurred during the processing period, the rate that would be applied would be the repriced rate on the balance held by the customer, instead a weighted average is calculated individually on balance prior to reprice and balance after reprice.\nExample: if the data extracted is for the month of Dec 2012, and the interest rate has been repriced on 15 Dec 2012, a normal scenario would require the repriced rate on the entire end of period balance, instead the FTP engine calculates a weighted average of both the rates to arrive at a weighted average rate to be applied.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Customer Information File Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the original CIF key for the account from the source Customer Information File system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Processing Expenses",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the data processing expense. This is typically based on the number of transactions. It is calculated by multiplying the number of transactions with unit cost.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day Count Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the day count indicator. Expected values are A/360, A/365, A/A, 30/360, 30/360 EUROPEAN, 30/A. Suggested default value are 1=30/360 for amortizing transactions OR 3=Act/Act. for non amortization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Interest Rate For Hedge Management",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the effective interest rate of the instrument for Hedge Management application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Electronic Banking Expenses",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the electronic banking expense, typically based on number of electronic transactions multiply with unit cost.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Embedded Options Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the security has an embedded option within it. Embedded option refers to a provision in a security that is an inseparable part of the instrument. An embedded option is a special condition attached to a security, and in particular, a bond that gives the holder or the issuer the right to perform a specified action at some point in the future. An embedded option is part of another security, and as such does not trade by itself. Nevertheless, it can affect the value of the security of which it is a component. A security is not limited to one embedded option, as there may be several embedded options in one security.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to end of period balance which includes accrued interest. All the calculations such as interest, prepayment amounts etc. are based on this amount. This is used in all the calculations performed by cash flow engine. In Case of LC Contracts, EOP Balance should be populated when LC Is executed. Till LC is executed, LC amount sanctioned should be hold in Total Commitment Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Equity Credit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the equity credit for the account. This is calculated as the product of allocated equity and the equity credit rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fees For Effective Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the consolidated current un amortized, portion of the, fees which is or are applicable for, or are integral part of, Effective Interest Rate computation as per IFRS 9. This value will be used within the Cash Flow Engine.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiduciary Service Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Fiduciary Service type code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique general ledger account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Gross Fee Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the fee income of the financial institution before offering any waivers. Fee income is charged for service rendered by financial institutions. Components that generate fee income include annual fee, over the limit fees, wire transfer fees, cheque book issued, bankers draft etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Gross Margin",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to contractual spread above or below pricing index applied to CUR_GROSS_RATE. However, cur_net_rate and cur_gross_rate would be different only in case of consortium funding. Otherwise, it would be the same. This is applicable for floating rate accounts, which are typically funded by a consortium. The current net rate = Applicable rate from the IRC Plus margin. This is used along with Current Gross Rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holiday Display Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the holiday calendar code as per the holiday calendar defined through the UI.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Initial Fees For Ifrs9 Effective Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the consolidated initial (un-amortized) fees which is/are applicable for (or are integral part of) Effective Interest Rate computation as per IFRS 9. This value will be used to compute the Effective Interest rate as of account inception date.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of instrument type, which is defined as code identifying the instrument category of the customer account. Instrument Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Accrued Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the accrued interest amount associated with the contract. This is the interest that has accumulated on an instrument since the last interest payment up to, but not including, the settlement date. Accrued Interest is defined as Interest earned but not received, realized. For example, bonds usually pay interest every six months, therefore interest accrues between one interest payment and the next. The buyer of a bond pays its market value plus the interest earned up to the settlement date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Calculation Method",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the method of computing interest. Expected values are Simple and Compounded.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest income earned from the account by the financial institution for the period. Interest income is calculated as the sum of the interest component of the payments received from customers. This does not include other fees or revenues such as processing revenue, maintenance fee etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Income Expense",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest income or expense associated with the account. In case of asset products like Loans and Cards, Refers to the interest income. In case of accounts like Term deposits, Refers to the interest expense. This is calculated as the product of the average balance and interest rate. Currently this attribute is only consumed by ALM application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the interest rate code that identifies the index to which adjustable rate accounts are tied. Transfer Pricing references interest rate code when calculating option costs and uses the relevant interest rate from the defined interest rate code, IRC, together with the margin to determine the reprice rate for the instrument. The value populated in this column for each account record must be synchronized with the actual interest rate code values defined in Transfer Pricing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Margin Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of Margin. Margin can be provided as Rate or Percentage. If provided as Rate then current net rate is Applicable rate from the IRC plus margin. If Percentage, Margin is calculated using IRC and Margin provided as percent. If it is Rate and input is 2 percent, then 2 needs to be provided in spread or margin column. If it is Percent and input is 5 percent of IRC, then 5 needs to be provided in spread or margin column. This column has been added to support Tiered Balance Interest Rates.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of interest rate paid on this transaction., For instance Fixed Or Floating.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Timing Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of interest timing. if the interest accrual is in advance or in arrears. If the value is selected as Arrears than interest payments are paid at the end of the payment period along with the principal payments. If the value is selected as Advance than Interest payments are paid at the beginning of the payment period starting from the origination date. Payments are made on every payment date except for the Maturity date. Expected values are ARR, Interest In Arrears, ADV, Interest In Advance, or SIA, Set In Arrears. For repo it can be defaulted to ARR.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issue Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Date on which the account was originated or issued by the originating institution. For accounts originated by the current institution, ISSUE DATE is equal to ORIGINATION DATE. For accounts acquired through acquisition of another institution, or purchase of a pool of accounts, ISSUE DATE less than ORIGINATION DATE. If ORIGINATION DATE from the original institution is not available, ISSUE DATE is equal to ORIGINATION DATE. ISSUE DATE less than or equal to ORIGINATION DATE, ISSUE DATE cannot be greater than ORIGINATION DATE.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Item Processing Expenses",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the item processing expense. This is typically a set expense for the type or item. Processing expenses are usually the expenses associated with creating or opening an account or contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Joint Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account is jointly held by two or more individuals which means if the value is updated as Y the account is held by two or more people and if the value is updated as N the account is held by single entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Payment Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the immediate past date on which the payment was made to the account. For a repo contract this will generally be same as origination date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Reprice Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the adjustable instruments last repriced or the date on which the current interest rate changed. For a repo contract this will generally be same as origination date. For an adjustable rate straight term transfer priced record, Transfer Pricing uses the Last reprice date to identify the assignment date, Yield Curve Date. The assignment date of the Interest Rate Code just before, or equal to, the last reprice date of the record is used as the transfer pricing yield curve. For example, if the last reprice date of the record is 15th Jan 2006 and the Historical Rate interest rate code, IRC, is defined at monthly intervals and only at month end, the assignment date would be 31st Dec 2005. The reprice frequency is then matched to the same term on the transfer pricing yield curve, IRC, defined in the Historical Rates in Transfer Pricing. For fixed rate records, the last reprice date and next reprice date are not referenced. Origination date and maturity dates are used instead. This column has been added to support Tiered Balance Interest Rates.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Repricing Date Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the balance as on Last Reprice Date when transfer pricing adjustable rate records. When transfer pricing adjustable rate records, Last Reprice Date BALANCE is used as the starting balance from the LAST_REPRICE_DATE. It will same as EOP Balance for a repo contract.\nIf payments, amortization, occurred in between the Last Reprice Date and the extract period, the end of period balance of the record is smaller than it was on the LAST_REPRICE_DATE. Therefore, in order to provide an accurate balance amount at the time of the Last Reprice Date, the Last Reprice Balance has been provided.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Load Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the load run identifier. Load run identifier enables user to load multiple versions intraday or post back dated adjustment entries to the table. Refers to the Load run identifier of the equivalent record in product processor that needs to be adjusted. Default value of  1 indicates that the latest load run is being adjusted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lock Box Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the lock box number provided to a cash management customer.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Managed Asset Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if assets underlying the given account are managed or unmanaged. An account should be categorized as managed if the institution has investment discretion over the assets of the account. Investment discretion is defined as the sole or shared authority, whether or not that authority is exercised, to determine what securities or other assets to purchase or sell on behalf of the fiduciary related account. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Margin Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the margin is the contractual spread that is added to the pricing index and results in the financial institutions retention, net, rate, for adjustable rate accounts. It is used as current net rate = Applicable rate from the Interest Rate Curve Plus margin. The gross rate, CUR_GROSS_RATE, is equal to the index to which the record is tied to plus a spread, which is defined by the MARGIN_GROSS field.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the contractual date on which the principal balance is expected to fully amortize and the balance payable would be nil. This is applicable for term loan products but not for revolving credit or overdraft type of account. In case of insurance policy, for some whole life insurance products the maturity date is aligned to maximum attained age and the policy is payable upon the earlier of the maturity date or the death of the insured. In case of Term Life insurance policies the maturity date is determined as policy issue date plus Term of the contract. In case of an annuity it is the date from which the annuitant has chosen to take the payouts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Negative Amortization Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to total amount of principal increase due to payments, which do not cover the entire interest component. This is used while calculating current payment for floating rate accounts.\nNegative amortization can occur if the installment payment is insufficient to cover the interest portion of the installment as per amortization schedule.\nNegative amortization can also result from the financial institution offering artificially reduced rate of interest contractually agreed between the financial institution and the customer over a period of time which results in accruing of interest as per market rate during the period the concessional rate is in vogue.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Negative Amortization Equalization Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the negative amortization occurs when the loan installment payment is insufficient to cover the interest portion of the installment, resulting in the residual interest amount getting capitalized to the loan amount. Date on which a negative amortization type account fully re amortizes, regardless of payment caps and floors. The Oracle Transfer Pricing adjustable type cash flow methodologies reference NEG_AMRT_EQ_DATE when calculating the current payment for negative amortization type accounts. NEG_AMRT_EQ_DATE is only relevant for adjustable rate accounts. On the NEG_AMRT_EQ_DATE, the payment for a negatively amortizing record is recalculated. On this date, the CUR_PAYMENT for the record is fully re amortized. NEG_AMRT_EQ_DATE ignores payment decrease or increase limits per period and payment decrease or increase limits for the life of the record. Therefore, after the payment recalculation of a NEG_AMRT_EQ_DATE, the record is no longer negatively amortizing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Negative Amortization Equalization Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the negative amortization equalization frequency. This is used in conjunction with Negative amortization equalization frequency unit to define the frequency that negatively amortizing accounts are fully re amortized. Negative amortization occurs when the loan installment payment is insufficient to cover the interest portion of the installment, resulting in the residual interest amount getting capitalized to the loan amount. Date on which a negative amortization type account fully re amortizes, regardless of payment caps and floors.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Negative Amortization Equalization Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the negative amortization equalization frequency unit. This is used in conjunction with Negative amortization equalization frequency to define the frequency that negatively amortizing accounts are fully re amortized. Negative amortization occurs when the loan installment payment is insufficient to cover the interest portion of the installment, resulting in the residual interest amount getting capitalized to the loan amount. Date on which a negative amortization type account fully re amortizes, regardless of payment caps and floors. List of values for the unit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Negative Amortization Limit Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the maximum negative amortization allowed as a percentage of the original balance. Transfer Pricing applications cash flow methodologies reference NEG_AMRT_LIMIT to determine if the NEG_AMRT_AMT is exceeding its defined limits, if the negative amortization limit is exceeded, the engine recalculates current payment, cur_payment.\n\nWhile calculating a payment event, payment date, if the cash flow engine calculates negative principal runoff, the cash flow engine also checks the negative amortization limit, NEG_AMRT_LIMIT, in order to ensure that the current NEG_AMRT_AMT is not exceeding its limit. NEG_AMRT_LIMIT is defined as a percentage of the original principal balance. For example, NEG_AMRT_LIMIT = 25 means that the negative amortization amount should never exceed 25 percent of the original principal balance, principal balance should never exceed 125 percent of the original balance. The formula for this check is:\n, 1 * calculated, negative, principal runoff + negative amortization balance > NEG_AMRT_LIMIT divided by 100 * ORG_PAR_BAL,\nIf NEG_AMRT_AMT is exceeding this limit, the cash flow engine recalculates the payment amount in order to fully amortize the instrument.\nWhen deriving the recalculated payment amount after exceeding the NEG_AMRT_LIMIT, the cash flow engine also applies payment decrease or increase limits per period, PMT_DECR_CYCLE, PMT_INCR_CYCLE, and payment decrease or increase limits for the life of the record, PMT_DECR_LIFE,\nPMT_INCR_LIFE. Because these fields limit how much the CUR_PAYMENT can be changed, it is possible that the record continues to negatively amortize even after\na NEG_AMRT_LIMIT has been exceeded. If negative amortization does continue, the NEG_AMRT_AMT continues to grow.\nRefers to the maximum loan balance permitted under the negative amortization for the loan. Negative amortization is an increase in the principal balance of a loan caused by a failure to make payments that cover the interest due. The remaining amount of interest owed is added to the principal of the loan.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Fee Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to net fee income generated from an instrument and is computed as Gross Fee Income  Waived Fees. This can be NULL for a repo contract as generally no fee applicable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Interest Margin",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the net interest margin. The net interest margin is a measure of the difference between the interest income generated and the interest expense or funding expense. This is typically calculated as Transfer Charge or Credit + Interest Income or Expense  Loan Loss Provision.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Margin Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the net margin. This defines the relationship between current gross rate and current net rate. The values for net margin code are Floating Net Rate, NET_MARGIN_CD = 0, Fixed Net Rate, NET_MARGIN_CD = 1. The default value for net margin code is 0. The account will reprice at relevant reprice dates as described by next reprice date value. The value of Net_Margin_Cd=1 is used by financial institutions that maintain the loans of other financial institutions. For example, Bank A may service, operate and process, the loans of Bank B. Bank B pays Bank A fixed spread or margin as payment for maintaining the loans. Because Bank A receives a guaranteed fixed spread, only Bank B gains or loses when the actual loan reprices. For this reason, if the record reprices, Bank A should not experience any change in interest income.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Next Payment Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Due date of the next scheduled payment. Otherwise known as cash flow date or date of runoff. Otherwise known as cash flow date or date of runoff. NEXT PAYMENT DATE is used to define the next scheduled, forecasted, payment date. If REMAINING NO PAYMENTS > 1, NEXT PAYMENT DATE < MATURITY DATE, If REMAINING NUMBER OF PAYMENTS = 1, NEXT PAYMENT DATE = MATURITY DATE. If next payment date is unknown, set to either: CALENDAR PERIOD + PMT FREQ, or MATURITY DATE.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Next Reprice Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which interest rate will be reprice for the instrument. It is applicable for adjustable rate accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Return Items",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of return items. This is an informational column to convey the number of returned cheques in the reporting period. This is used for allocation of cost to determine charged fees or waived fees. There are several reasons why cheques can return. Common reasons are  Insufficient balance in the account to clear or honor the cheque, Drawer Signature illegible, Stop payment by drawer, Instrument mutilated etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Open Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Indicates if the account is open. Accounts are in open status for all active accounts and accounts in dormant state. Account is considered to be closed if the account has reached maturity date with Nil end of period balance or if the customer has prematurely closed the account in the case of fixed term accounts or has notified in writing for closure of the account in the case of CASA or Overdraft account. \nA CASA or OD type of account can have a Nil end of period balance and still be open.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the cost center to which the account belongs to. Organization Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Deferred Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the original non amortized income or expense, such as premiums discounts, fees, charges but it does not includes deferred cost incurred by bank which is not directly associated at account level. Unamortized income or expense are the unrealized income or expense on the account and would begin to accrue after issue of the security. The discounted bonds are sold at a price lower than the par value and would amortize to mature at par. Likewise, the premium bonds are sold at a premium over the par value of the bond as it may be offering a higher coupon rate compared to market. The premium paid is amortized over the period to mature at par value on the maturity date. Commitment contracts charge a commitment fee, which is amortized over a period based on the drawdown from the commitment contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Gross Book Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the book balance at the time of origination. Original gross book balance is the sum total of End of Period Balance Plus Deferred Balance, represented as a negative amount to depict the unamortized portion. This is used while calculating amortization. The book balance is the term financial institutions use to describe the amount of money available before any adjustments have been made for deposits in transit, checks that have not yet been cleared, reserve requirements and interest received from 'float funds' hence is generally greater than end of period balance, Also called as 'gross balance'.\nIt also excludes any deferred balance that is unamortized.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Gross Par Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the par balance at the time of origination. Original par balance represents the starting balance from which all fixed rate transfer pricing cash flows are generated, including principal run off, prepayments, and interest cash flows. ORG_PAR_BAL = ORG_BOOK_BAL  DEFERRED_ORG_BAL .",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to contractual interest rate at origination date whereas the interest rate field would store the interest rate applicable to the instrument as on As of Date. This is used for computing Effective Interest Rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Market Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to market value of the instrument as of origination date. Generally, this would be same as the End of period balance as on the origination date. Market value is what investors believe a stock is worth, the price is determined by the market demand and supply basis. A stock can be benchmarked against a price during the trading day  however, the same method of evaluation has to be maintained consistently.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Net Book Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the original net book value  net of participations. Percent Sold is a column used to calculate net balance when the instrument is partially participated out to another financial institution. In the case of a participated loan, the bank partially owns the loan. A bank would participate out the balance of the loan to another financial institution if it was not able to lend the entire amount or if lending the entire amount would exceed the banks legal lending limits. By selling most of the financing to another financial institution, the bank would earn fee income from servicing the loan and would be able to retain other banking relationships, such as checking accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Net Par Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the par value net of participations at date of origination. Percent Sold is a column used to calculate net balance when the instrument is partially participated out to another financial institution. In the case of a participated loan the bank partially owns the loan. A bank would participate out the balance of the loan to another financial institution if it was not able to lend the entire amount or if lending the entire amount would exceed the banks legal lending limits. By selling most of the financing to another financial institution the bank would earn fee income from servicing the loan and would be able to retain other banking relationships such as checking accounts. In case of accounts with tiered interest rate this amount is required for each tiered separately.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Payment Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to payment amount at the date of origination. Cash flow transfer pricing methodologies for fixed rate records use original payment amount as the payment amount for amortization purposes. For a fixed rate record, the cash flow engine rolls forward from the origination date by payment frequency when defining payment dates up to the maturity date of the record. From origination, the cash flow engine amortizes the original balance by the original payment amount. The precise method of this amortization depends on the amortization type code. Original payment amount is also used if the User Defined Payment Pattern payment method percent Original Payment is designated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Term",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to contractual term as on origination date. Original Term is used in conjunction with original term unit to define the contractual term at origination date. Transfer Pricing cash flow methodologies use original term when calculating the current payment for adjustable rate accounts and in transfer pricing fixed rate accounts. For adjustable rate accounts, the cash flow engine compares original term against amort term, checking to see if the account is a balloon type account. If original term < amort term, the engine recognizes the record as a balloon. The cash flow engine amortizes the outstanding principal balance over the calculated number of payments, based upon the amortization maturity date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Term Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the unit of the original term such in D days, M months or Y year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Origination Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Date on which current institution originated or acquired the instrument. For rolled instruments the greater of date last rolled or date acquired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Account Expenses",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the other account expenses. This is a catch all bucket to capture all the miscellaneous expenses for which no specific head exists.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Processing Expense",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the other account expenses. This is a catch all bucket to capture all the miscellaneous expenses for which no specific head exists.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Parent Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the parent account number of the contract or account. For instance, if the asset is an underlying for a repurchase agreement, then the account number of the repo contract is expected in this column. Incase of Borrowings, it can also store the account as parent account which is help by the financial institution in fiduciary capacity. In case of cards, parent account number refers to corporate card master account number. Incase of OD Accounts, it should refer to the parent savings, checking account number or loan account number if the overdraft has arisen due to breach of limits or funds from those respective accounts. It will store loan account number as parent account number even for the cases where the overdraft has arisen in the escrow account for the payment of taxes and or insurance. It should be left NULL, if parent child relationship does not exist.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Parent Service Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the parent service.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Type Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of payment taking place on the given date. Indicative values are PANDI (Principal and Interest), P (Principal Only), I (Interest Only).\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Percentage Sold",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to percent of balance sold to investors, not owned by the bank. This is used compute Current Net Balance, Current Payment Net, Original Net Balance, etc. This is related to syndication, where there are several financial institution that participate in the syndication. The percent sold refers to the portion of exposure that is participated by other financial institutions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prior Transfer Pricing Period Average Daily Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Average Daily Balance as of the prior transfer period. When processing with the mid period repricing option, Transfer Pricing application references PRIOR_TP_PER_ADB as the average daily balance at the time of the last repricing event. This field is used in conjunction with the CUR_TP_PER_ADB field. If the last reprice date occurred during the processing period, the rate that would be applied would be the repriced rate on the balance held by the customer, instead a weighted average is calculated individually on balance prior to reprice and balance after reprice.\nExample: if the data extracted is for the month of Dec 2012, and the interest rate has been repriced on 15 Dec 2012, a normal scenario would require the repriced rate on the entire end of period balance, instead the FTP engine calculates a weighted average of both the rates to arrive at a weighted average rate to be applied.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Processing Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the frequency at which the services availed by the customer will be processed.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Processing Frequency Multiplier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the frequency unit in days, months or year.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Type Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the product type that should be picked from Product Dimension using Product Code. Currently this attribute is only consumed by ALM application.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Receipt Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the receipt number for the lockbox services.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Count",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of records aggregated to the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Remaining Tenor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the remaining tenor of the account. Tenor is the term to maturity. The remaining tenor is computed as Maturity Date  As Of Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Remaining Tenor Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Remaining term unit is used in conjunction with remaining term to determine the remaining term of an account as on processing date. List of values are D Day, M Month and Y Year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Renewal Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the account was renewed. Renewal is defined as the action of extending the period of validity of a license, subscription, or contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repayment Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of repayment associated with the account. Indicated values are Conventional Fixed, Balloon, Adjustable Negative Amortizing, Rule of 78s, Level Principal, Conventional Adjustable etc. Conventional Amortization  This AMRT_TYPE_CD conventionally amortizes a record whose cash flows are defined in the PAYMENT_SCHEDULE table. Payment amounts should contain both principal + interest. Level Principal Payment Schedule  This AMRT_TYPE_CD level principal amortizes a record whose cash flows are defined in the PAYMENT_SCHEDULE table. Payment amounts should contain principal only. Negative amortization is applicable when the payment amount is not sufficient to cover the interest component of the loan for the period. Rule of 78 loans have a pre computed schedule.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Retail Operations Expense",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to retail operations expense, typically a fixed cost per product or number of transactions multiply with unit cost.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Return On Equity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the return on equity which is calculated as Net Income divided by Total Equity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Safe Deposit Box Fee",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Safe Deposit Box Fee.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Safe Deposit Box Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the safe deposit box provided for customers seeking safe deposit locker.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sales And Distribution Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the sales and distribution channel used to acquire the account. Distribution channels are mediums which are used to sell the product. In most cases, there is no difference between sales channels and distribution channels. Channels like Internet, branch, telephone, newspaper etc. are examples of distribution channels. Channel dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Service Option Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to an internal code to identify the auxiliary service provided to the customer.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tax Exempt Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to percent of interest income that is tax exempt. For instance, if 40 percent of interest income is exempt from tax and the balance is taxable, then this field would store 40 percent.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tax Expense",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the tax amount associated with this account. This is the actual tax amount withheld by the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Teaser End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the tease rate, introductory rate, ends and the normal product interest rate begins. The Teaser End Date defines the end of a tease period, which is an initial low interest rate period from the origination of a loan. At the Teaser End Date, the low rate is repriced to a value defined by the market index plus margin.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Account Expenses",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the sum of all expenses incurred on the account during the period. Types of expenses include administrative, collections and recovery expenses, legal expenses etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Distribution Expenses",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the sum of distribution related expenses for the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Fees And Charges",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total fees and charges collected or levied by the bank. This includes penal charges, fees, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Process Expenses",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the expenses pertaining to data processing, item processing, retail operations, deposit insurance etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Transactions",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to total number of transactions done in that account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "VIP Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the member is categorized as a VIP by the financial institution.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Waived Fees",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the fees that is waived by the financial intuition during the download period. Waivers are provided on processing fee, annual fee, joining fee or any other fee that may be levied.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV31829",
+                    "btLogicalName": "Processing Frequency Multiplier",
+                    "dqDesc": "Should have list of values as D,M,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQLOV31830",
+                    "btLogicalName": "VIP Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQLOV31831",
+                    "btLogicalName": "Remaining Tenor Unit",
+                    "dqDesc": "Should have list of values as D,M,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQLOV31832",
+                    "btLogicalName": "Joint Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQLOV31833",
+                    "btLogicalName": "Original Term Unit",
+                    "dqDesc": "Should have list of values as D,M,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQLOV31834",
+                    "btLogicalName": "Open Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQLOV31835",
+                    "btLogicalName": "Embedded Options Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQLOV31836",
+                    "btLogicalName": "Amortization Term Unit",
+                    "dqDesc": "Should have list of values as D,M,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQLOV31837",
+                    "btLogicalName": "Managed Asset Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35945",
+                    "btLogicalName": "Account Close Date",
+                    "dqDesc": "Reference Check for Account Close Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35946",
+                    "btLogicalName": "Account Close Date",
+                    "dqDesc": "Reference Check for Account Close Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35947",
+                    "btLogicalName": "Adjustment Effective Date",
+                    "dqDesc": "Reference Check for Adjustment Effective Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35948",
+                    "btLogicalName": "Adjustment Effective Date",
+                    "dqDesc": "Reference Check for Adjustment Effective Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35949",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35950",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35951",
+                    "btLogicalName": "Issue Date",
+                    "dqDesc": "Reference Check for Issue Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35952",
+                    "btLogicalName": "Issue Date",
+                    "dqDesc": "Reference Check for Issue Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35953",
+                    "btLogicalName": "Last Payment Date",
+                    "dqDesc": "Reference Check for Last Payment Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35954",
+                    "btLogicalName": "Last Payment Date",
+                    "dqDesc": "Reference Check for Last Payment Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35955",
+                    "btLogicalName": "Last Reprice Date",
+                    "dqDesc": "Reference Check for Last Reprice Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35956",
+                    "btLogicalName": "Last Reprice Date",
+                    "dqDesc": "Reference Check for Last Reprice Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35957",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35958",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35959",
+                    "btLogicalName": "Negative Amortization Equalization Date",
+                    "dqDesc": "Reference Check for Negative Amortization Equalization Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35960",
+                    "btLogicalName": "Negative Amortization Equalization Date",
+                    "dqDesc": "Reference Check for Negative Amortization Equalization Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35961",
+                    "btLogicalName": "Next Payment Date",
+                    "dqDesc": "Reference Check for Next Payment Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35962",
+                    "btLogicalName": "Next Payment Date",
+                    "dqDesc": "Reference Check for Next Payment Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35963",
+                    "btLogicalName": "Next Reprice Date",
+                    "dqDesc": "Reference Check for Next Reprice Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35964",
+                    "btLogicalName": "Next Reprice Date",
+                    "dqDesc": "Reference Check for Next Reprice Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35965",
+                    "btLogicalName": "Origination Date",
+                    "dqDesc": "Reference Check for Origination Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35966",
+                    "btLogicalName": "Origination Date",
+                    "dqDesc": "Reference Check for Origination Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35967",
+                    "btLogicalName": "Renewal Date",
+                    "dqDesc": "Reference Check for Renewal Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35968",
+                    "btLogicalName": "Renewal Date",
+                    "dqDesc": "Reference Check for Renewal Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35969",
+                    "btLogicalName": "Teaser End Date",
+                    "dqDesc": "Reference Check for Teaser End Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35970",
+                    "btLogicalName": "Teaser End Date",
+                    "dqDesc": "Reference Check for Teaser End Date in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35971",
+                    "btLogicalName": "Account Group Identifier",
+                    "dqDesc": "Reference Check for Account Group Identifier in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35972",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35973",
+                    "btLogicalName": "Attrition Reason Code",
+                    "dqDesc": "Reference Check for Attrition Reason Code in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35974",
+                    "btLogicalName": "Bank Code",
+                    "dqDesc": "Reference Check for Bank Code in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35975",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35976",
+                    "btLogicalName": "Acquisition Channel Code",
+                    "dqDesc": "Reference Check for Acquisition Channel Code in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35977",
+                    "btLogicalName": "Common Chart Of Account Code",
+                    "dqDesc": "Reference Check for Common Chart Of Account Code in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35978",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35979",
+                    "btLogicalName": "Day Count Indicator",
+                    "dqDesc": "Reference Check for Day Count Indicator in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35980",
+                    "btLogicalName": "Sales And Distribution Channel Code",
+                    "dqDesc": "Reference Check for Sales And Distribution Channel Code in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35981",
+                    "btLogicalName": "Fiduciary Service Type",
+                    "dqDesc": "Reference Check for Fiduciary Service Type in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35982",
+                    "btLogicalName": "General Ledger Account Code",
+                    "dqDesc": "Reference Check for General Ledger Account Code in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35983",
+                    "btLogicalName": "Instrument Type",
+                    "dqDesc": "Reference Check for Instrument Type in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35984",
+                    "btLogicalName": "Interest Calculation Method",
+                    "dqDesc": "Reference Check for Interest Calculation Method in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35985",
+                    "btLogicalName": "Interest Rate Code",
+                    "dqDesc": "Reference Check for Interest Rate Code in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35986",
+                    "btLogicalName": "Interest Timing Type",
+                    "dqDesc": "Reference Check for Interest Timing Type in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35987",
+                    "btLogicalName": "Interest Rate Type",
+                    "dqDesc": "Reference Check for Interest Rate Type in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35988",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35989",
+                    "btLogicalName": "Line Of Business Code",
+                    "dqDesc": "Reference Check for Line Of Business Code in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35990",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35991",
+                    "btLogicalName": "Organization Unit Code",
+                    "dqDesc": "Reference Check for Organization Unit Code in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35992",
+                    "btLogicalName": "Parent Account Number",
+                    "dqDesc": "Reference Check for Parent Account Number in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35993",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35994",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF35995",
+                    "btLogicalName": "Repayment Type",
+                    "dqDesc": "Reference Check for Repayment Type in Stage Other Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "ALM",
+                    "ucName": "Asset Liability Management"
+                },
+                {
+                    "ucId": "BSP",
+                    "ucName": "Balance Sheet Planning"
+                },
+                {
+                    "ucId": "FTP",
+                    "ucName": "Funds Transfer Pricing"
+                },
+                {
+                    "ucId": "PFT",
+                    "ucName": "Profitability Management"
+                }
+            ]
+        }
+    ]
+}

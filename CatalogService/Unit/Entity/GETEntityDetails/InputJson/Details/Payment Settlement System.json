@@ -1,0 +1,176 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Settlement System Closing Time",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the closing time for a payment or settlement system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Settlement System Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Payment Settlement system Identifier. A payment and settlement system can be described as a system which consists of a particular group of institutions and a set of instruments and procedures, designed to ensure the circulation of money and speed up interbank and other settlements resulting from the various economic transactions either within a country or between countries.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Settlement System Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Payment Settlement system Identifier. A payment and settlement system can be described as a system which consists of a particular group of institutions and a set of instruments and procedures, designed to ensure the circulation of money and speed up interbank and other settlements resulting from the various economic transactions either within a country or between countries.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Settlement System Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This column stores the Payment Settlement system Description. A payment and settlement system can be described as a system which consists of a particular group of institutions and a set of instruments and procedures, designed to ensure the circulation of money and speed up interbank and other settlements resulting from the various economic transactions either within a country or between countries.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Settlement System Mapped Primary Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the field is used to map the payment system to a primary payment system, if such a linkage exists. A primary payment system, usually an RTGS-Real time gross settlement) system, is a central payment system, which is connected to other relatively smaller scale payment systems, through technical real time intraday liquidity bridges or other mechanisms. Intraday liquidity is considered fungible between the primary payment system and its linked systems. This field is only used if the payment system under consideration is not a primary payment system in itself. This is applicable only for Payment System Type as Large value payment systems(LVPS)",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Settlement System Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This is the numeric identifier associated with the payment settlement system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Settlement System Opening Time",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the opening time for a payment or settlement system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "204",
+                    "srcLogicalName": "Stage Payment And Settlement System",
+                    "scdName": "scd_204_DIM_PAYMENT_SETTLEMENT_SYSTEM_STG_PAYMENT_SETTLEMENT_SYSTEM_MASTER",
+                    "scdDesc": "Data movement from payment settlement system master source to payment settlement system dimension",
+                    "createdDate": "2024-10-26 06:02:41.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42711",
+                    "btLogicalName": "Payment Settlement System Numeric Identifier",
+                    "dqDesc": "Payment Settlement System Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQCUS42712",
+                    "btLogicalName": "Payment Settlement System Numeric Identifier",
+                    "dqDesc": "Payment Settlement System Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQLOV33171",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQNMDUP42153",
+                    "btLogicalName": "Payment Settlement System Numeric Identifier",
+                    "dqDesc": "Payment Settlement System Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQSPLCH42753",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

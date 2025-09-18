@@ -1,0 +1,380 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Jurisdiction",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the mantas classification associated with this record. This can be a jurisdiction which represents geographical or legal entity monitoring on data restrictions. Values can be AMEA, INDV, CORP etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Assessment Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of application assessment for which this identification document has provided. For example, KYC or FATCA i.e. Foreign Account Tax Compliance Act.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Expiry Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the expiry date of the document received from party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the document submitted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Issue Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the issuing date of the document received from party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Issued By",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the issuing authority of the document received from party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the name of the received document. For example, PAN Card, Passport, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the purpose of the document submitted. For CRS purposes this field will capture the NO TIN reason codes.\nList of reason code is as below.\nIRAS101: Pre-existing Account. IN is not available. No TIN reason code for CRS reporting Singapore template specific.\nIRAS102: New Account. Residence Jurisdiction does not issue IN. No TIN reason code for CRS reporting Singapore template specific.\nIRAS103: New Account. Residence Jurisdiction does not require IN to be reported. No TIN reason code for CRS reporting Singapore template specific.\nIRAS104: New Account, with reasonable explanation and documentation on the absence of IN. No TIN reason code for CRS reporting Singapore template specific.\nCA1: The account holder will apply or has applied for a TIN but has not yet received it. No TIN reason code for CRS reporting Canada template specific.\nCA2: The account holder’s jurisdiction of tax residence does not issue TINs to its residents. No TIN reason code for CRS reporting Canada template specific.\nCA3: Other reason. No TIN reason code for CRS reporting Canada template specific.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Reference Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the party submits financial and identity documents to the financial institution as part of the KYC Verification or Covenants which is periodic basis. The document reference number uniquely identifies the document submitted by the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the document status. Possible List of valid values are Provided, Will Provide Later, Not Providing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Status Reason",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Description or reason that further explains the document Status.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Sub Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the document sub type. Sample values are like if the document type is visa then the sub type will be student or tourist visa.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Entity Government Documentation Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether any official documentation has been issued by an authorized government body for this party. List of values are Y, N. Y is yes, N is no.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the business. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions. In case of party, it Refers to the country of birth of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identification Document Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the code of the type of the document submitted. List of valid values are ART is Registered articles of incorporation, BC is Certificate of Birth, BL is Business License, BR is Report of Birth Abroad, BS is Bank Statement, CC is Cancelled Check, CIC is Certificate of Citizenship, CID is Citizen Identification Card, CO is Court Order for Name Change or Gender Change or Adoption or Divorce, DPS is Domestic Passport, EMP is Employment Authorization Card, FPS is Foreign Passport with Appropriate Immigration Documents, IDV is IDV, LS is Legal Structure Documents, MC is Marriage Certificate, MD is Mortgage Documents, MIL is Military Identification Card, News Search is News Search, NTR is Certificate of Naturalization, PA is Partnership Agreement, PC is Paycheck Stub with Name or Address, PIV is Personal Identity Verification Card, PRES is Permanent Resident Alien Card, Qualified is Qualified, RTD is Unexpired Refugee Travel Document, SS is Social Security Card, TI is Trust Instruments, TRES is Temporary Resident Identification Card, UB is Utility Bill Address, USTD is U.S. Tribal or Bureau of Indian Affairs Identification Card, VR is Vehicle Registration Card or Title, VRC is Voters Registration Card, Watch List is Watch List, Firm specified is Other values as specified by the client.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identification Programme Verification Method",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the customer identity verification performed manually or by system. If it is by system, it needs to provide the external source system name who has performed the verification.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identification Programme Verification Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the status of the identification verification performed in the system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identification Programme Verified By",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the user of the source system who has verified the identification process.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Primary Document Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates that the party submitted the corresponding document as his or her primary document. There can be more than one document getting submitted by party. This flag identifies the primary document. List of values are Y, N. If Y, the document is primary document and if N, the document is not primary document.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tax Resident Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the party is considered a resident of the jurisdiction for Govt ID. Nation is used to indicate if the party is a tax resident of the indicated country, Jurisdiction to indicate if the party is a tax resident of a particular country. List of values are Y, N.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV34340",
+                    "btLogicalName": "Entity Government Documentation Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQLOV34341",
+                    "btLogicalName": "Tax Resident Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQLOV34342",
+                    "btLogicalName": "Primary Document Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF41782",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Party Identification Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF41783",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Party Identification Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF41784",
+                    "btLogicalName": "Document Expiry Date",
+                    "dqDesc": "Reference Check for Document Expiry Date in Stage Party Identification Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF41785",
+                    "btLogicalName": "Document Expiry Date",
+                    "dqDesc": "Reference Check for Document Expiry Date in Stage Party Identification Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF41786",
+                    "btLogicalName": "Document Issue Date",
+                    "dqDesc": "Reference Check for Document Issue Date in Stage Party Identification Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF41787",
+                    "btLogicalName": "Document Issue Date",
+                    "dqDesc": "Reference Check for Document Issue Date in Stage Party Identification Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF41788",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Party Identification Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF41789",
+                    "btLogicalName": "Document Sub Type",
+                    "dqDesc": "Reference Check for Document Sub Type in Stage Party Identification Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF41790",
+                    "btLogicalName": "Party Identification Document Type",
+                    "dqDesc": "Reference Check for Party Identification Document Type in Stage Party Identification Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF41791",
+                    "btLogicalName": "Document Status",
+                    "dqDesc": "Reference Check for Document Status in Stage Party Identification Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF41792",
+                    "btLogicalName": "ISO Country Code",
+                    "dqDesc": "Reference Check for ISO Country Code in Stage Party Identification Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF41793",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Party Identification Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF41794",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Party Identification Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

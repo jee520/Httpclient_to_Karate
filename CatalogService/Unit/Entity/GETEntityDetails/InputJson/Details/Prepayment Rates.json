@@ -1,0 +1,191 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Coupon Rate",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the current coupon rate of all coupon bearing instruments. The coupon rate is the yield the instrument paid on its issue date. This yield, however, will change as the value of the instrument changes, thus giving the instruments yield to maturity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Expired Term",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the expired term of the contract and represents one of the prepayment model dimensions.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Folder Name",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the name of folder that holds the interest rate code definition.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Rate",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the pre determined rate to be used at settlement. Applicable for FRAs.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Term",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to contractual term as on origination date. Original Term is used in conjunction with original term unit to define the contractual term at origination date. Transfer Pricing cash flow methodologies use original term when calculating the current payment for adjustable rate accounts and in transfer pricing fixed rate accounts. For adjustable rate accounts, the cash flow engine compares original term against amort term, checking to see if the account is a balloon type account. If original term < amort term, the engine recognizes the record as a balloon. The cash flow engine amortizes the outstanding principal balance over the calculated number of payments, based upon the amortization maturity date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prepayment Mode Name",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the prepayment model being used for fetching the rates.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prepayment Model System Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the system identifier of the prepayment model.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prepayment Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the rates if the prepayment method is Constant.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Difference",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the spread between the current gross rate and the market rate; one of the prepayment model dimensions.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Ratio",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the ratio of the current gross rate to the market rate; one of the prepayment model dimensions.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Remaining Tenor",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the remaining tenor of the account. Tenor is the term to maturity. The remaining tenor is computed as Maturity Date  As Of Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repricing Frequency",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to reprice Frequency is used in conjunction with Repricing Frequency Unit to define the frequency of rate change of an account. Repricing Frequency is used to identify whether records are adjustable or not. If Repricing Frequency> 0, the record is considered adjustable. If Reprice Frequency = 0, the record is fixed rate. It is used to compute the re price dates after the next_reprice_date. REPRICE_FREQ must be either 0 or positive.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Term To Reprice",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the repricing term of the contract and represents one of the prepayment model dimensions.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF36083",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Prepayment Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF36084",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Prepayment Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF36085",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Prepayment Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "ALM",
+                    "ucName": "Asset Liability Management"
+                },
+                {
+                    "ucId": "BSP",
+                    "ucName": "Balance Sheet Planning"
+                },
+                {
+                    "ucId": "FTP",
+                    "ucName": "Funds Transfer Pricing"
+                }
+            ]
+        }
+    ]
+}
