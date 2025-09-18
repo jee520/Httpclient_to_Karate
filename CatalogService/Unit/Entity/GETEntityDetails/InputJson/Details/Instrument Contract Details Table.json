@@ -1,0 +1,266 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Amortized Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amortized amount of the tranche or the instrument. This will be the sum of all the amortized amount of the exposure as of the MIS date. This is used for calculating the exposure at default of the securitization exposures.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Enhancement Level",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the ratio of the sum of all subordinated tranches and the credit enhancement to the total outstanding pool balance. This will be in decimals.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantee Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount specified in the guarantee which financial institution will cover in case the debtor fails to settle a debt. A guarantee from a lending institution ensuring that the liabilities of a debtor will be met. In other words, if the debtor fails to settle a debt, the financial institution will cover it. It is the maximum amount recoverable from the guarantor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Information Verified By Third Party Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates that the periodic information provided for the instrument, along with the relevant underlying information are verified by the third parties like auditors, depository, custodian, fund management company, or any other regulatory body. The expected values are Y and N. A value of Y indicates that the information provided, with respect to the instrument, has been verified by the third party. A value of N indicates that this information has not been verified by third party. A null value indicates that this is not relevant for the instrument in question. This is used for the regulatory capital calculations pertaining to the Equity investment in funds. List of values: Y or N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Investment In Depository Institution Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether an instrument invests in the holding depository institution. List of values are Y and N. A value of 'Y' indicates that the instrument has invested in a depository institution holding the instrument. In the EU Jurisdiction, this is applicable for CIU treatment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issue Current Outstanding Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Current Outstanding Issue Amount. In case of grandfathered instruments, the amount provided as on 1st January 2013 i.e. As of Date for India jurisdiction will be taken as the base for the phase-in calculations for capital recognition of the instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issue Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Date on which the account was originated or issued by the originating institution. For accounts originated by the current institution, ISSUE DATE is equal to ORIGINATION DATE. For accounts acquired through acquisition of another institution, or purchase of a pool of accounts, ISSUE DATE less than ORIGINATION DATE. If ORIGINATION DATE from the original institution is not available, ISSUE DATE is equal to ORIGINATION DATE. ISSUE DATE less than or equal to ORIGINATION DATE, ISSUE DATE cannot be greater than ORIGINATION DATE.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issue Size Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the issue size of an instrument in terms of an amount. The amount captured is the total value of the instrument issued at the time of offering or launch of the instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issue Total Outstanding Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Outstanding Total Issue Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Price Percentage Change Over Thirty Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to maximum price percentage change in the last 30 days. This attribute is used to establish if mitigant is reliable source of liquidity in the markets. If maximum. Decline of price does not exceed 10 percent over a 30 day period then it qualifies as a reliable source of liquidity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Volatility Haircut Over Thirty Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to maximum volatility haircut in last 30 days. This attribute is used to establish if account is reliable source of liquidity in the markets. If haircut is not exceeding.10 percentage points over a 30 day period then it qualifies as a reliable source of liquidity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Returnable Asset Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the returnable asset value. This is associated with the sponsored or issued securities that would allow the return of assets in a financing arrangement. This is required as per para 125 of BCBS 238.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Weight",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the risk weight assigned to an exposures. In case of the tranche, it will be allocated risk weight based on the rating assigned to the tranche.\nPre mitigation risk weight for the exposure or the mitigant, depending on whether it is an eligible mitigant or an uncovered mitigant, as applicable for the corresponding asset class. This risk weight is generally calculated based on the effective rating of the mitigant or exposure. Risk weight is applied based on Asset class and Rating combinations.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Secondary Market Haircut Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the haircut that is to be applied to the value of the asset while raising funds either from the secondary market or through central bank standing facilities by pledging such assets as collateral. The haircut is used to determine the expected monetized value of the asset which can be placed as collateral and is captured in terms of a percentage.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Third Party Detailed Information Provided To Bank Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the third party has provided the bank with the detailed information on the exposures, and any other relevant information that was used to derive the risk weight and other calculations. A value of Y means that the third party has provided information to it, and a value of N means the third party has not provided the detailed information. List of Values are Y and N. Null will be treated on par with N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Fund Issued As Debt In Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the information of the debt issued by the mutual fund. This will be the accounting value of the debt issued by the mutual fund in natural currency.  In the case of a mutual fund, the fund manager has the discretion to issue the mutual fund as either equity shares with dividend payout on a periodic basis or as debt with interest payments on a periodic basis. This will be specific to the mutual fund, and will not change with respect to the type of mutual fund, like mutual fund investing in equity and debt can also issue all the shares as equity shares. This is used for regulatory capital computation in line with the guideline pertaining to equity investment in funds.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Fund Issued As Equity In Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the information of the equity shares issued by the mutual fund. This will be the accounting value of the equity shares issued by the mutual fund in natural currency. In the case of a mutual fund, the fund manager has the discretion to issue the mutual fund as either equity shares with dividend payout on a periodic basis or as debt with interest payments on a periodic basis. This will be specific to the mutual fund, and will not change with respect to the type of mutual fund, like mutual fund investing in equity and debt can also issue all the shares as equity shares. This is used for regulatory capital computation in line with the guideline pertaining to equity investment in funds.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tranche Loss Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the percentage loss of the instrument, as of that date. This will be the actual principal loss of the instrument, which will be based on the underlying assets loss, in the case of securitization transaction.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF38907",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Instrument Contract Details Table",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF38908",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Instrument Contract Details Table",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF38909",
+                    "btLogicalName": "Issue Date",
+                    "dqDesc": "Reference Check for Issue Date in Stage Instrument Contract Details Table",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF38910",
+                    "btLogicalName": "Issue Date",
+                    "dqDesc": "Reference Check for Issue Date in Stage Instrument Contract Details Table",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF38911",
+                    "btLogicalName": "Risk Weight",
+                    "dqDesc": "Reference Check for Risk Weight in Stage Instrument Contract Details Table",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF38912",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Instrument Contract Details Table",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF38913",
+                    "btLogicalName": "Instrument Code",
+                    "dqDesc": "Reference Check for Instrument Code in Stage Instrument Contract Details Table",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

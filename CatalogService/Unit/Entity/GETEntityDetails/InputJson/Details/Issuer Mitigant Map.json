@@ -1,0 +1,202 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the issuer code for the financial instruments. Issuer is defined as a legal entity that develops, registers and sells securities or financial instruments. Issuers may be domestic or foreign governments, corporations or investment trusts. Issuers are legally responsible for the obligations of the issue and for reporting financial conditions, material developments and any other operational activities as required by the regulations of their jurisdictions. The most common types of financial instruments issued are common and preferred stocks, bonds, notes, debentures, negotiable instruments, bills and derivatives.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Mitigant End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the mapping of the mitigant issuer ends for the associated mitigant. According to BECRIS definition, it means the date when a counterparty cease to be a protection provider.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Mitigant Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the mapping of the mitigant issuer starts for the associated mitigant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lead Guarantor Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the issuer is lead guarantor. List of values are Y, N. Y if the issuer is the Lead Guarantor or else it is N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique of the collateral or mitigant. In case of derivatives such as Futures and options, collateral such as bonds, letters of credit, Stocks, Exchange traded funds, precious metals etc. can be provided as collateral or mitigant. In case of Lease contracts, operating lease, the collateral or mitigant is the asset being leased. Dim_Mitigant is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ownership Percent",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the ownership percent of a issuer for a mitigant issuer combination and if the asset represents a joint savings account and the share is evenly split amongst two parties this value would be fifty.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32713",
+                    "btLogicalName": "Lead Guarantor Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF38009",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Issuer Mitigant Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF38010",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Issuer Mitigant Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF38011",
+                    "btLogicalName": "Issuer Mitigant End Date",
+                    "dqDesc": "Reference Check for Issuer Mitigant End Date in Stage Issuer Mitigant Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF38012",
+                    "btLogicalName": "Issuer Mitigant End Date",
+                    "dqDesc": "Reference Check for Issuer Mitigant End Date in Stage Issuer Mitigant Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF38013",
+                    "btLogicalName": "Issuer Mitigant Start Date",
+                    "dqDesc": "Reference Check for Issuer Mitigant Start Date in Stage Issuer Mitigant Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF38014",
+                    "btLogicalName": "Issuer Mitigant Start Date",
+                    "dqDesc": "Reference Check for Issuer Mitigant Start Date in Stage Issuer Mitigant Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF38015",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Issuer Mitigant Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF38016",
+                    "btLogicalName": "Issuer Identifier",
+                    "dqDesc": "Reference Check for Issuer Identifier in Stage Issuer Mitigant Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF38017",
+                    "btLogicalName": "Issuer Identifier",
+                    "dqDesc": "Reference Check for Issuer Identifier in Stage Issuer Mitigant Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF38018",
+                    "btLogicalName": "Mitigant Code",
+                    "dqDesc": "Reference Check for Mitigant Code in Stage Issuer Mitigant Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

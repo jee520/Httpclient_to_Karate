@@ -1,0 +1,231 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Asset Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to an unique code representing a particular Market Risk Asset.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the benchmark code associated with the floating rate instrument. The floating rate loans have a benchmark interest rate such as London Inter bank Offer Rate ,LIBOR,, Euro Interbank Offered Rate ,EURIBOR, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the effective date of the account or contract or interest rate or exchange rate from which it is effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the interest rate code that identifies the index to which adjustable rate accounts are tied. Transfer Pricing references interest rate code when calculating option costs and uses the relevant interest rate from the defined interest rate code, IRC, together with the margin to determine the reprice rate for the instrument. The value populated in this column for each account record must be synchronized with the actual interest rate code values defined in Transfer Pricing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Expiry Multiplier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the interest rate expiry multiplier.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Expiry Term",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the volatility  interest rate expiry term.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Term",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refer to the Interest Rate Term Defined for the Interest Rate Name.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Term Unit Indicator",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the Interest Rate Term Multiplier for the Interest Rate Name.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Free Rate Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates risk free rate. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Volatile Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the volatile rate of interest.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV31857",
+                    "btLogicalName": "Risk Free Rate Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF36093",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Interest Rate Volatility Rate History",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF36094",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Interest Rate Volatility Rate History",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF36095",
+                    "btLogicalName": "Effective Date",
+                    "dqDesc": "Reference Check for Effective Date in Stage Interest Rate Volatility Rate History",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF36096",
+                    "btLogicalName": "Effective Date",
+                    "dqDesc": "Reference Check for Effective Date in Stage Interest Rate Volatility Rate History",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF36097",
+                    "btLogicalName": "Benchmark Code",
+                    "dqDesc": "Reference Check for Benchmark Code in Stage Interest Rate Volatility Rate History",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF36098",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Interest Rate Volatility Rate History",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF36099",
+                    "btLogicalName": "Interest Rate Code",
+                    "dqDesc": "Reference Check for Interest Rate Code in Stage Interest Rate Volatility Rate History",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF36100",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Interest Rate Volatility Rate History",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "BSP",
+                    "ucName": "Balance Sheet Planning"
+                },
+                {
+                    "ucId": "FTP",
+                    "ucName": "Funds Transfer Pricing"
+                }
+            ]
+        }
+    ]
+}

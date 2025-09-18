@@ -1,0 +1,126 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the benchmark code associated with the floating rate instrument. The floating rate loans have a benchmark interest rate such as London Inter bank Offer Rate ,LIBOR,, Euro Interbank Offered Rate ,EURIBOR, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Risk Asset Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code representing a particular Market Risk Asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mean Reversion Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Mean Reversion Rate. Mean Reversion refers to the tendency that prices will continue to return to an average value over a period of time.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mean Reversion Speed",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Mean reversion Speed. Mean reversion Speed determines the speed by which prices will revert back to the mean.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF35397",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Interest Rate Parameters",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF35398",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Interest Rate Parameters",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF35399",
+                    "btLogicalName": "Benchmark Code",
+                    "dqDesc": "Reference Check for Benchmark Code in Stage Interest Rate Parameters",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF35400",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Interest Rate Parameters",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF35401",
+                    "btLogicalName": "Market Risk Asset Code",
+                    "dqDesc": "Reference Check for Market Risk Asset Code in Stage Interest Rate Parameters",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,271 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Issue Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the reference issue was issued. It would be used to derive the original maturity for the issue. Start date is valid for all instruments, however in case of reference issue it is usually a debt instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issue Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This stores and identifier for an issue of an issuer. Applying a set criteria to the issues we arrive at the reference rating for the unrated exposure to the issuer.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issue Seniority",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Numeric",
+                    "gcd": "Refers to the seniority of issues of an issuer. For example, it will have values like 1, 2, 3, etc. 1 being the highest seniority. This information will be used to arrive at the reference rating for an unrated exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the issuer code for the financial instruments. Issuer is defined as a legal entity that develops, registers and sells securities or financial instruments. Issuers may be domestic or foreign governments, corporations or investment trusts. Issuers are legally responsible for the obligations of the issue and for reporting financial conditions, material developments and any other operational activities as required by the regulations of their jurisdictions. The most common types of financial instruments issued are common and preferred stocks, bonds, notes, debentures, negotiable instruments, bills and derivatives.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the contractual date on which the principal balance is expected to fully amortize and the balance payable would be nil. This is applicable for term loan products but not for revolving credit or overdraft type of account. In case of insurance policy, for some whole life insurance products the maturity date is aligned to maximum attained age and the policy is payable upon the earlier of the maturity date or the death of the insured. In case of Term Life insurance policies the maturity date is determined as policy issue date plus Term of the contract. In case of an annuity it is the date from which the annuitant has chosen to take the payouts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the original maturity date of the reference issue, typically debt securities. It would be used to derive residual maturity and original maturity of the reference issue. Original maturity date is the contractual date on which the principal balance of an earning asset or debt instrument is due and payable to the holder.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Secured Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or contract number is secured with a collateral or not. The collaterals to be considered here will be the collaterals other than margins. In case of deposits, this indicates it is Collateralized or Secured Deposit. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32848",
+                    "btLogicalName": "Secured Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF38333",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Issue Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF38334",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Issue Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF38335",
+                    "btLogicalName": "Instrument Issue Date",
+                    "dqDesc": "Reference Check for Instrument Issue Date in Stage Issue Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF38336",
+                    "btLogicalName": "Instrument Issue Date",
+                    "dqDesc": "Reference Check for Instrument Issue Date in Stage Issue Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF38337",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Issue Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF38338",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Issue Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF38339",
+                    "btLogicalName": "Original Maturity Date",
+                    "dqDesc": "Reference Check for Original Maturity Date in Stage Issue Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF38340",
+                    "btLogicalName": "Original Maturity Date",
+                    "dqDesc": "Reference Check for Original Maturity Date in Stage Issue Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF38341",
+                    "btLogicalName": "Start Date",
+                    "dqDesc": "Reference Check for Start Date in Stage Issue Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF38342",
+                    "btLogicalName": "Start Date",
+                    "dqDesc": "Reference Check for Start Date in Stage Issue Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF38343",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Issue Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF38344",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Issue Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF38345",
+                    "btLogicalName": "Issuer Identifier",
+                    "dqDesc": "Reference Check for Issuer Identifier in Stage Issue Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQREF38346",
+                    "btLogicalName": "Issuer Identifier",
+                    "dqDesc": "Reference Check for Issuer Identifier in Stage Issue Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

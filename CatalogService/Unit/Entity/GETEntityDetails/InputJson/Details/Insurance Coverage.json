@@ -1,0 +1,274 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Category Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is a unique code identifying the category in which the product coverage can be classified.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Category Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This is the definition of the category in which the product coverage can be classified.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This stores the description of insurance coverage band .",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Family",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This attribute indicates the coverage family to which the coverage belongs to.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Family Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This is the description of the coverage family.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Group",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Unique identifier of highest level of coverage groups.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Group Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This is the description of the coverage group.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the coverage.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the coverage.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the coverage maturity date. With multiple coverages for same policy, the coverage maturity date will differ from that of policy maturity date, in case of reinsurance coverages the coverage maturity date will be same as reinsurance maturity date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This is the numeric identifier corresponding to Coverage .",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Sub Category",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "The sub category of coverages under the category of coverages as Home loan, vehicle loan etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Sub Category Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This refers to the coverage sub category.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the coverage type for which the insurance or protection is provided. Example are Bodily Injury, Property Damage, etc. Sample values are OTHER is other , UNKNOWN is unknown , ABE is Accelerated Benefit , ACCPAY is Accelerated Payment Rider , ADD is Accidental Death and Dismemberment , ADIB is Accidental Death and or Disability , ACCFRAC is Accidental Fracture , AIDS is Aids , BUSVALINC is Business Value Increase , PRECANCER is Cancer Stage 0 , CANCER is Cancer Stage 1 , CHILDBRTH is Child birth benefit , CHILDCRIT is Child critical illness , CHILDTERM is Child Term Rider , COMBI is Combined Risk Benefit , COMPLVBENE is Compassionate Leave Benefit , CONDRECEIPT is Conditional Receipt , CTD is Connective tissue diseases , COLI is Cost of Living Adjustment or Inflation Guard , CREDITMORT is Credit Mortgage , CRITILLNESS is Critical Illness , WPCRIT is Critical illness premium waiver.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the effective date of the account or contract or interest rate or exchange rate from which it is effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Coverage Of Lower Bound Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Number_Factor",
+                    "gcd": "This stores the lower range value of the insurance coverage for a given band code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Coverage Of Upper Bound Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Number_Factor",
+                    "gcd": "This stores the upper range value of the insurance coverage for a given band code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Optional Coverage Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This indicates if said coverage or benefit is optional or built in as part of base insurance product or plan definition. List of values are Y is Yes meaning optional benefit, \nN is No meaning mandatory or built in as part of base insurance product or plan.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "309",
+                    "srcLogicalName": "Stage Insurance Coverage Master",
+                    "scdName": "scd_309_DIM_INSURANCE_COVERAGE_STG_INSURANCE_COVERAGE_MASTER",
+                    "scdDesc": "Data movement from insurance coverage master source to insurance coverage dimension",
+                    "createdDate": "2024-10-26 06:02:42.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42685",
+                    "btLogicalName": "Coverage Numeric Identifier",
+                    "dqDesc": "Coverage Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:26.0"
+                },
+                {
+                    "dqId": "DQCUS42686",
+                    "btLogicalName": "Coverage Numeric Identifier",
+                    "dqDesc": "Coverage Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:26.0"
+                },
+                {
+                    "dqId": "DQLOV33853",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:26.0"
+                },
+                {
+                    "dqId": "DQLOV33854",
+                    "btLogicalName": "Optional Coverage Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:26.0"
+                },
+                {
+                    "dqId": "DQNMDUP42198",
+                    "btLogicalName": "Coverage Numeric Identifier",
+                    "dqDesc": "Coverage Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:26.0"
+                },
+                {
+                    "dqId": "DQSPLCH43024",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:26.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

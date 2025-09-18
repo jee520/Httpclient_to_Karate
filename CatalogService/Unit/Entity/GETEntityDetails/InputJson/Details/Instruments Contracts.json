@@ -1,0 +1,1811 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Acceleration Clause Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Indicates if the instruments are issued with an acceleration clause. An acceleration clause is a provision that allows a holder of the debt instrument to demand payment of the total outstanding balance or demand additional collateral under certain circumstances before the maturity of the instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accrual Resets On",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to when the accrued interest is reset to zero, it identifies the end of the period for the purpose of calculating accrued interest. \nFor END DATE, the interest accrues until the day before the end of the accrual period. On that day, the interest equals one days interest less than the full payment. Then on the accrual end date, the accrued interest resets to zero, whether or not the payment has been made. When END DATE is chosen, the clean price is not necessarily a smooth function of time.\n\nFor PAYMENT DATE, if the payment is part of the dirty price on the value date, then the accrued interest will include the full amount of that payment, and possibly more, on the value date. If the payment on the value date is not part of the dirty price, then the accrued interest on the value date will not include the payment. If there is a payment lag, the accrued interest on the payment date may be larger than the payment amount because there will also be an accrued amount over the current accrual period.\n\nPossible values are  END DATE, Accrued interest for the period resets to zero on the accrual end date, and PAYMENT DATE, Default, accrued interest for the period resets to zero when the payment is no longer included in the dirty price.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Approved By Central Government Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the exposure is in 'Investments in other approved securities guaranteed by Central Government' or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Approved By State Government Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the exposure is in 'Investments in other approved securities guaranteed by state Government' or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Asset Backed Commercial Paper Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether an exposure is to an Asset Backed Commercial Paper, ABCP, or not. This flag is used for reporting purpose as well as for regulatory capital calculations as in Basel. In the case of Basel, this is used to assign risk weight as ABCP has a different set of regulatory treatment. As per Basel accord ABCP is an asset backed commercial paper, ABCP, program predominately issues commercial paper with an original maturity of one year or less that is backed by assets or other exposures held in a bankruptcy remote, special purpose entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Auction Rate Security Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the Security is Auction Rate Security or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Barrier Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to Barrier is an predetermined amount in Barrier options where options either come alive or die when barriers is reached. This Barrier Amount is store here.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Barrier Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the various barrier types available in barrier option. List of values are NA, Knock In and Knock Out, Up and In, Down and In, Up and Out, Down and Out and Double Barrier Options. Corresponding dimension is Barrier Type Dimension.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basket Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Basket type of the basket option. Possible values are MIN or MAX, case sensitive.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bearer Instrument",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Refers to the negotiable certificates of deposit or commonly abbreviated as NCDs is a short term to medium investment. They are bearer instruments and are also negotiable securities. They are issued by banks that tend to issue NCDs with a term to maturity that are up to 1 year. The investment is sold at a discount to its face value and these securities are negotiable within the secondary market.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the benchmark code associated with the floating rate instrument. The floating rate loans have a benchmark interest rate such as London Inter bank Offer Rate ,LIBOR,, Euro Interbank Offered Rate ,EURIBOR, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Day Counter",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the Business day convention for Benchmark Index. The possible values are Actual/360, Actual/365 ,Fixed,, Actual/Actual, Business/252, Thirty/360.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Index Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the primary currency associated with the benchmark of the interest rate. This is applicable in case of adjustable rate instruments. For example, if the interest rate benchmark is LIBOR USD, the currency will be USD and the benchmark code will be LIBOR.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Tenor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the Benchmark Tenor. Tenor is the corresponding Tenor of Benchmark Yield Curve rate which is used for floating rate of return. For example 3M.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Tenor Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Indicates the unit of underlying IR index tenor, possible values are D for days, BD for business days, W for Weeks, M for month, y for Year. This is applicable for Index Annuities or Annuity contracts where benefit payment is linked to benchmark like 1 year USD Treasury yield, 3 month GBP LIBOR etc. This column store unit part of the 1 year or 3 month in above example.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bond Equivalent Day Count",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the day count basis for calculating Bond Equivalent Yield for T Bills. Refers to the accrual basis code, basis on which interest accrual is calculated. List of values are 30/360, 30/365, 30/ACT, ACT/360, ACT/365 and ACT/ACT. Suggested defaults 30/360 for amortizing transactions and Act/Act for non amortizing transactions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bond Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the Status of this Bond or Fixed Income security, for example normal, default, bankrupt, called. List of Values are A  Normal,B Default,C Bankrupt,D Called,E Flat,X Expired,J Cash Journal,P Past Due, Delinquency Days greater than 90, U Unidentified, H Hold, W Worthless.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Borrowing Through Conduit Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if particular instrument has been issued by SPV formed by reporting entity. This indicates borrowing done through conduits.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "CUSIP Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identification number issued to the instrument. CUSIP stands for 'Committee on Uniform Securities Identification Procedures' and refers to a 9 digit alphanumeric code assigned to all security issues approved for trading. By acting as a unique identifier for each security, CUSIPs help market participants avoid confusion and ensure that securities transactions are correctly matched and settled. Additionally, they are also needed to ensure that dividends, interest, and other payments are properly applied.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Call Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the call option was exercised. Call option is defined as an agreement that gives an investor the right, but not the obligation, to buy a stock, bond, commodity, or other instrument at a specified price within a specific time period, in that specified time period if the investor exercised the option, this column will store that date on which the option was exercised.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cap Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the maximum rate of interest agreed in the contract. An interest is payable if the prevailing rate of the interest greater than Cap rate. Hence, it is different from rate cap life.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Commodity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to a unique Code representing a particular tradable commodity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Commodity Grade Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to a unique Code representing a particular grade of the tradable commodity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Commodity Stock Financing Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the commodity position is kept for the purpose of Stock financing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Complementary Identification Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Complementary Identification Code. CIC Code is EIOPA Code used to classify securities. First two Positions of the CIC code are 'ISO 3166 1 alpha 2 country code or XL, for not listed, or XT, for not exchange tradable,', Position 3 and 4 are specified in Standard Product Type dimension table.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Component Of Major Index Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Refers to if the instrument is part of a major index or not. Indices are composed of securities that are well reputed, the increase and decrease of price of these securities which are weighted decides the movement of the index itself.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compounding Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to compounding frequency, which is used calculate interest income. Compounded interest is calculated only when the compounding frequency is <less than payment frequency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compounding Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the unit of compounding frequency, possible values are D, for days, BD, for business days, W, for Weeks, M, for month, y, for Year. Column is applicable for instruments like Equity convertible bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contractual Offset Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the holder of the instrument has a contractual right to offset its liabilities or the liabilities of an affiliate of the holder, towards the instrument issuing entity or its subsidiaries against the instrument issuing entity liability under the instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contractual Subordinate Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the Bank opts to contractually subordinate the long term debts of the Bank. Contractual subordination indicates an explicit agreement from the subordinated debt holders that more senior debt does exist or may exist. Contractually subordinated debt ranks below other debt regarding claims against the assets of the issuer, due to provisions in the documentation of the debt instruments and therefore has a relatively higher risk of loss on investment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Conversion Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the number of common shares received at the time of conversion for each convertible security. This field is also used for conversion ratio between the currencies in case of currency swaps.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Convertibility Option",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to convertible option for instrument which are issued. List of values are MANDATORY and OPTIONAL.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Convertible Bond Flavor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of convertible bond. Allowed values Convertible, Exchangeable. Column is applicable for instruments like Equity convertible bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Convertible Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the security can be converted to another security.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Counter Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the counter currency. For FX instruments, the counter currency is the term for the second currency in the pair. The exchange rate represents the number of units of the counter currency that one unit of the base currency can purchase. The value of this field must be represented as per ISO standard.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coupon Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the coupon frequency of the bond. Needs to be specified as the number corresponding to the frequency as following. No Frequency =  1, Once = 0, Annual = 1, Semiannual = 2, EveryFourthMonth = 3, Quarterly = 4, Bimonthly = 6, Monthly = 12, Biweekly = 26, Weekly = 52, Daily = 365.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coupon Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Indicates the unit of coupon frequency, possible values are D for day, BD for Business Days, W for Weeks, M for month, Y for Year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Covered Fund Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Indicates whether the transaction is pertaining to that of a covered fund or not. A covered fund is a fund, which is detailed in the Section 619 of the Dodd Frank Act. \nAs per Volcker rule, the term ‘‘covered fund’’ specifies the types of entities to which the prohibition contained in ll.10,a, applies, unless the activity is specifically permitted under an available exemption contained in subpart C of the final rule.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Default Swap Recovery Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the recovery rate of the credit default swap contract, bond. It denotes the percentage of notional that is expected to be recovered in case the reference entity, ex. issuer of bond, defaults. It must be expressed in decimal form. Example  if recovery rate is 40 Percent then 0.40 is expected here.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Derivative Credit Event Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the credit event of credit derivative that triggers the payment. Expected values are Bankruptcy, Failure to Pay, Modified Restructuring.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Derivative Deliverable Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the underlying deliverable type of the CD index instrument. Expected values are ENTITY, OBLIGATION.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Derivative Reference Entity Database Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the RED ID of Credit derivatives traded on Market Index. Reference Entity Database, RED, is the market standard that confirms the legal relationship \nbetween reference entities that trade in the credit default swap market and their associated reference obligations, known as “pairs”. Each entity is identified with a unique 6 digit alphanumeric code, and a 9 digit code identifies the pair. RED codes are widely and successfully used by CDS market participants to electronically match and confirm CDS transactions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cumulative Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the dividends are to be accumulated or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Coupon Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the current coupon rate of all coupon bearing instruments. The coupon rate is the yield the instrument paid on its issue date. This yield, however, will change as the value of the instrument changes, thus giving the instruments yield to maturity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Custom Observation Schedule Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Indicate whether a custom schedule will be used. In this case, the observation schedule changes based on conventions defined by the user.\nInstrument Used: Equity Asian.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day Convention",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the conventions to be used in algorithm to adjust a date in case it is not a valid business day. The possible values are Following, Modified Following, Preceding, Modified Preceding and Unadjusted, case sensitive.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day Counter",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the Day Counter to be used. Day Counter is a system used to determine the number of days between two coupon dates. The possible values are Actual/360, Actual/365, Fixed, Actual/Actual, Business/252, Thirty/360.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Debt Seniority",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the debt seniority where 1 is the senior most debt.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Debt Seniority Level Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to type of debt which is the underlying of a credit default swap or survival probabilities. It represents the seniority level of the debts and possible values can be JRSUBUT2, Junior Subordinated or Upper Tier 2 Debt, Banks, PREFT1, Preference Shares, or Tier 1 Capital, Banks, SECDOM, Secured Debt, Corporate or Financial, or Domestic Currency Sovereign Debt, Government, SNRFOR, Senior Unsecured Debt, Corporate or Financial, Foreign Currency Sovereign Debt, Government, SUBLT2, Subordinated or Lower Tier 2 Debt, Banks, or others as per market convention. Column is applicable for instruments like Equity convertible bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delivery Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the physical delivery date for commodity contracts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Designated Maturity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the maturity in days of the associated benchmark. This is applicable in case of floating rate instruments. If the benchmark is a 30 day LIBOR, 30 is stored and if it is a 3M LIBOR, 90 is stored.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dirty Quote Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the quoted price is dirty, i.e. includes Interest Accrued. Column is applicable for instruments like Equity convertible bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Discounting Day Counter",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the discounting day convention. The possible values are Actual/360, Actual/365, Fixed, Actual/Actual, Business/252, Thirty/360 etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dividend Convention",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the convention used for pricing with discrete dividends Allowed values are: Forward, Spot, Mixed, Pure Jump. Column is applicable for instruments like Equity American Option.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Economies Group",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to categorization of an economy into a group. Groups include but not limited to Advanced, Emerging Europe etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the effective date of the account or contract or interest rate or exchange rate from which it is effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Embedded Options Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the security has an embedded option within it. Embedded option refers to a provision in a security that is an inseparable part of the instrument. An embedded option is a special condition attached to a security, and in particular, a bond that gives the holder or the issuer the right to perform a specified action at some point in the future. An embedded option is part of another security, and as such does not trade by itself. Nevertheless, it can affect the value of the security of which it is a component. A security is not limited to one embedded option, as there may be several embedded options in one security.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Equity Dividend Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the dividend as a percent of face value for the equity instrument. The dividend percent as a percent of face value is calculated by dividing yearly dividend per share by the face value per share.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Equity Tranche Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the retained exposure is an equity tranche of securitization or not. An equity tranche receives the excess spread of the securitization as the income, and do not receive monthly fixed interest payments. Also, there are no principal payments on this tranche.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ex Coupon Lag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Indicates Ex Coupon Lag for instrument. The ex coupon date is the date on which instrument starts trading without the coupon attached to it. If instrument is purchased on or after the ex coupon date, no coupon is included with the asset. Ex Coupon Lag  Lag to be specified is tenor prior to coupon payment that bond becomes ex coupon. Column is applicable for instruments like Equity convertible bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ex Coupon Lag Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Indicates the unit of Ex Coupon lag for instrument, possible values are D, for days, BD, for business days, W, for Weeks, M, for month, Y, for Year.\nEx Coupon Date  The ex coupon date is the date on which instrument starts trading without the coupon attached to it. If instrument is purchased on or after the ex coupon date, no coupon is included with the asset. Column is applicable for instruments like Equity convertible bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exchange Delivery Settlement Price Lag Tenor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to Exchange Delivery Settlement Price Lag Tenor. Exchange Delivery Settlement Price, EDSP, On expiry of a futures contract, final settlement shall be carried out at the final settlement price in cash. All open positions at close of last day of trading shall be settled to the Exchange Delivery Settlement Price, EDSP.\nLast day of trading with reference to maturity date  Derivative contracts, for example, options and futures, have an expiration date, at which time the terms of the contract become null. Holders must settle the contract through delivery of the actual asset or closing it out in cash. The last trading day on an option or futures contract will be day,s, after contracts expiration date. \nThis day usually is immediately preceding business day of contracts expiration date, in such case value tenor column will be 1 and tenor unit column will be BD. For example, suppose a futures contract has an expiration date of Thursday, September 22, 2011. The contracts last trading day would be Wednesday, September 21, 2011. Similarly if expiration is after 2 days then values will be 2 and BD.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exchange Delivery Settlement Price Lag Tenor Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to Exchange Delivery Settlement Price Lag Tenor unit. Exchange Delivery Settlement Price, EDSP, On expiry of a futures contract, final settlement shall be carried out at the final settlement price in cash. All open positions at close of last day of trading shall be settled to the Exchange Delivery Settlement Price, EDSP,\n\nLast day of trading with reference to maturity date  Derivative contracts, for example, options and futures, have an expiration date, at which time the terms of the contract become null. Holders must settle the contract through delivery of the actual asset or closing it out in cash. The last trading day on an option or futures contract will be days, after contracts expiration date. \n\nThis day usually is immediately preceding business day of contracts expiration date, in such case value tenor column will be 1 and tenor unit column will be BD. For example, suppose a futures contract has an expiration date of Thursday, September 22, 2011. The contracts last trading day would be Wednesday, September 21, 2011. Similarly if expiration is after 2 days then values will be 2 and BD.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exchange Traded Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if instrument is exchange traded or not. This is one of the criteria which is used to qualify instrument as high quality liquid asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exercise Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the frequency at which an instrument, option, can be exercised. Based on the timing of exercise, options are classified into 3 types, i, American  this can be exercised at any time till expiry of an option., ii, European  this can be exercised only on the last day when an option expires., iii, Bermudan  this can be exercised at some specified times till expiry of an option. Hence, this field is applicable for Bermudan type of options.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exercise Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the units, D days or M months or Y years or W weeks, of Exercise Frequency. This should be used in conjunction with Exercise Frequency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exercise Notice Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the notice period before which an option can be exercised. Exercise dates  Dates on which potion can be Exercised. With reference to callable bond this is the period after which issuer will recall the callable bond. Column is applicable for instruments like callable bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exercise Notice Period Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the notice period before which an option can be exercised. Exercise dates  Dates on which potion can be Exercised.\nWith reference to callable bond this is the period after which issuer will recall the callable bond. possible values are D, for days, BD, for business days, W, for Weeks, M, for month, y, for Year. OR Alternatively user can also provide A, for Annual, SA, for Semiannual, Q, for Quarterly, M, for Monthly. Column is applicable for instruments like callable bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Face Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to face value of the instrument. For stocks, it is the original cost of the stock shown on the certificate. For bonds, it is the amount paid to the holder at maturity. Also known as par value or simply par. This is applicable to financial securities, typically shares, bonds, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "First Coupon Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the first coupon date of the fixed income security. Coupon payments are fixed periodic payments and are applicable to fixed income securities like bonds, bills, notes etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "First Exercise Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the first exercise dates for instruments. Exercise dates: Dates on which potion can be Exercised. Column is applicable for instruments like callable bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixing Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of days on which floating will be fixed for floating rate instruments.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixing Lag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the period between fixing date and date on which fixing rate is applicable. Column is applicable for instruments like Cap Floor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixing Lag Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Indicates the unit of fixing lag, possible values are D, for days, BD, for business days, W, for Weeks, M, for month, y, for Year. Column is applicable for instruments like Cap Floor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Floating Leg Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the frequency of the floating leg and is applicable for instruments involving floating or adjustable rate. In case of floating rate loans, Refers to the payment frequency. In case of interest rate swap contracts, Refers to the frequency of payment of the floating leg.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Floating Rate Spread",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "The column stores the spread or margin that is added, in case of asset it will be a positive spread and for liability it will be a negative spread, to the benchmark floating rate for all adjustable rate instruments, this is the rate that is offered to the customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Floor Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the floor rate of the collar and Floor instrument type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forward Rate Agreement Roll Over Duration",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of days after which a forward rate agreement is about to start. This is also known as FRA Roll over duration.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forward Rate Agreement Term Months",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the tenor of the forward rate agreement represented in months.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Front Stub Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if instrument is having irregular time period at the beginning, Front, or end, Back, of the contract. List of Values are Y and N. Select Y for First irregular Payment, include front, or N Last irregular Payment, not including front, of contract. If there are no irregular payment leave column blank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Full Recourse Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates full recourse flag. Underlying mortgages of RMBS, received as Mitigant, are considered as “full recourse’’ if in the case of foreclosure the mortgage owner remains liable for any shortfall in sales proceeds from the property i.e. the lender can go after the borrowers personal assets to collect if the loan is defaulted. Default value should be N. Specific to RMBS. This is one of the criteria which is used to qualify mitigant as high quality liquid asset. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Future Maturity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the maturity code for equity futures representing the month and date on which the futures instrument matures. Ex  Z12. As per market convention each calendar month is assigned a code like F = January, G = February, H = March etc. This is required for Equity Futures and Equity Dividend Futures.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Government Debt Guarantee Program",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the name of the guarantor debt program that supports the debt.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Grandfathered Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether said instrument is exempted from certain rules generally called grandfathered. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantee Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of guarantee that is being provided by the guarantor, whether conditional, unconditional etc. Refers to the unique code for the guarantee type. Expected values are\n1, Unconditional\n2, Full and Explicit\n3, Conditional\n4, Implicit\nGuarantee type is one of the criteria for classifying assets as high quality liquid asset, HQLA, or not for the purpose of inclusion in the stock of high quality liquid assets while computing the Liquidity Coverage Ratio, LCR.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guaranteed By Parent Office Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify if the account with the corresponding branch is legally guaranteed by the parent head office. List of values are Y is yes and N is no.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantor Agency Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to unique identifier for the Guarantor Agency Type. This refer to the Agency type dimension and is used for identifying Agency type in case guarantor is Agency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantor Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the identifier of the Party who guaranteed the program.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "High Quality Liquid Asset Eligibility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if asset qualifies to be treated as High Quality Liquid Asset, HQLA. In most jurisdictions, HQLA should be central bank eligible in addition to being liquid in markets during stressed periods. In jurisdictions where central bank eligibility is limited to an extremely narrow list of assets, a supervisor may allow unencumbered, non central bank eligible assets to be part of HQLA. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "High Trading Volume Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates that the trading volumes in a particular instrument are very high. This is not specific to an exchange as the definition of high volumes differs from exchange to exchange. It is related to the overall trading volumes irrespective of the exchange in which it trades. This is required to identify whether an asset is liquid and readily marketable or not. An asset is considered liquid and readily marketable if it is \n1, Traded in an active secondary market \n2, With more than two committed market makers\n3, Has a large number of committed non market maker participants on both the buying and selling sides of transactions\n4, Has timely and observable market prices and\n5, Has high trading volumes\nLiquid and readily marketable indicator is one of the criteria for classifying assets as high quality liquid asset, HQLA, or not for the purpose of inclusion in the stock of high quality liquid assets while computing the Liquidity Coverage Ratio, LCR. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ijara",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Rental rate paid on participating securities.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Incentive To Redeem",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the attributes embedded in the instrument that could trigger the incentive to redeem. Attributes include but not limited to Step up and Step Down.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Index Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to a code to represent a particular market index. For example SNP5, DJW5 etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Inflation Index",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the inflation index like CPI, WPI etc. This is required for Inflation Linked Bonds, Zero Coupon Inflation Indexed Swaps and Options and Year on Year Options.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Inflation Index Lag Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the how the INDEX LAG is used when computing a fixing for index computations. Possible inputs  Daily Index Reference, DIR, Monthly Index Reference, MIR, and Quarterly Index Reference, QIR.\n\nInflation linked instruments cash flows are linked very closely to inflation, but, value of the inflation index is not yet known for the cash flow date and a lagged index value is taken. Lagged index value is derived using reference index value which in turn can be calculated using a linear interpolation of the index values. This reference number is calculated using either Daily, Monthly or Quarterly index values. Column is applicable for instruments like Inflation Linked Bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Inflation Seasonality Flavor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to inflation seasonality represents a seasonal variation in inflation. Flavor depicts the way in which seasonality is expressed. Expected values are:, 1, Default: Seasonality is specified with twelve values, which may be positive or negative, one for each month of the year. Each value represents a seasonal variation in inflation for the given month. The idea is that these changes are meant to represent relative deviations from the regular inflation pattern within a year, but should not reflect any cumulative or absolute inflation, and, 2, Kerkhof: Seasonality values should add up to zero, so that there is no yearly drift. Unlike the default approach, which considers seasonality to be monthly quotes, approach of Kerkhof sees them as yearly quotes.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Initial Index Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the initial index value. With instrument like Inflation Zero Coupon Swap, Inflation Linked Bond, etc. the performance of the instrument is linked to the movement of an underlying index. In order to measure this performance value of the underlying index is recorded at the start of the investment term. This recording is called the initial index value. Column is applicable for instruments like Inflation Linked Bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the description of the Instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Issuer Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the issuer type of the instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the instrument code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Short Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to abbreviated text description of the instrument or the ticker symbol used to identify this instrument when displayed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Tenor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the tenor or maturity of the instrument like swap, swaption, cap. In case of swaption this represents option tenor. This attribute is read together with Tenor Unit. This is required for Equity Dividend Swaps, Zero Coupon Inflation Indexed Swaps and Options and Year on Year Options.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Tenor Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the unit in which tenor of instrument is given. This attribute must be read together with Tenor. Expected values are  ON  Overnight, TN  Tomorrow next, SN  Spot next, D  calendar days, BD  business days, W  weeks, M  months, Y  years. When unit is ON, TN and SN then Tenor will be null. This is required for Equity Dividend Swaps, Zero Coupon Inflation Indexed Swaps and Options and Year on Year Options.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of instrument type, which is defined as code identifying the instrument category of the customer account. Instrument Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Bearing Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if said instrument is interest bearing or non interest bearing security. List of Values: Y indicates instrument is interest bearing and N indicates instrument is not interest bearing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Payment Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the coupon frequency of all the coupon bearing instruments. List of values is defined as No Frequency =  1, Once = 0, Annual = 1, Semiannual = 2, Every Fourth Month = 3, Quarterly = 4, Bimonthly = 6, Monthly = 12, Biweekly = 26, Weekly = 52, Daily = 365. Column is applicable for instruments like Equity convertible bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Payment Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Payment frequency unit is used in conjunction with Interest payment frequency to define the payment frequency of an account. List of values are D days, M months and Y years.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Code For Base Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Stored the interest rate code that identifies the index to which other currency, base currency, is associated with. \nInstrument Used: Fx American.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Code Tenor For Base Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the underlying IR index tenor used in instrument for base currency. Instrument Used: Fx Forward. This should be used in the conjunction with Interest Rate Code Tenor Unit For Base Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Code Tenor Unit For Base Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unit of underlying IR index tenor for base currency, possible values are D, for days, BD, for business days, W, for Weeks, M, for month, Q, for Quarter, Y, for Year. This should be used in the conjunction with Interest Rate Code Tenor For Base Currency. Instrument Used: Fx American, Fx Forward.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Maturity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the maturity of the underlying of the interest forward or future.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Structured Instrument Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Structured Security type Code. In general, structured notes are debt securities whose cash flow characteristics, coupon rate, redemption amount, or stated maturity, depend upon one or more indices and or that have embedded forwards.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of interest rate paid on this transaction., For instance Fixed Or Floating.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Yield",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the yield of the underlying of the interest rate forward or future.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "International Securities Identification Number Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the ISIN, International Securities Identification Number, code of the instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Invested Through Private Place Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the investment in security has been done via private place. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Investment Grade Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the instrument is an Investment grade security for Level 2A classification. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issue Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Date on which the account was originated or issued by the originating institution. For accounts originated by the current institution, ISSUE DATE is equal to ORIGINATION DATE. For accounts acquired through acquisition of another institution, or purchase of a pool of accounts, ISSUE DATE less than ORIGINATION DATE. If ORIGINATION DATE from the original institution is not available, ISSUE DATE is equal to ORIGINATION DATE. ISSUE DATE less than or equal to ORIGINATION DATE, ISSUE DATE cannot be greater than ORIGINATION DATE.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issue Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to whether the Investment in Specific Debt to purchase Non performing Loan of State owned Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issued At Discount Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether security has been issued at discount. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issued In Domestic Market Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the instruments are issued only in the domestic country of the issuer or if instrument is issued in a foreign jurisdictions or foreign country. List of valid values are Y, which indicates that the instrument is issued only in the domestic country of the issuer and N, which indicates that the instrument is issued in foreign country. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Agency Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to unique identifier for the Issuer Agency Type. This refer to the Agency type dimension and is used for identifying Agency type in case issuer is Agency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the issuer code for the financial instruments. Issuer is defined as a legal entity that develops, registers and sells securities or financial instruments. Issuers may be domestic or foreign governments, corporations or investment trusts. Issuers are legally responsible for the obligations of the issue and for reporting financial conditions, material developments and any other operational activities as required by the regulations of their jurisdictions. The most common types of financial instruments issued are common and preferred stocks, bonds, notes, debentures, negotiable instruments, bills and derivatives.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Is Primary Market Maker Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the covered issuer of securities is the primary market maker. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Risk Retention Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the risk retention. Securitizations are subject to risk retention regulations which require issuers to retain an interest in the assets they securitize.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Coupon Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the last coupon date of the instrument. Coupon payments are fixed periodic payments and are applicable to fixed income securities like bonds, bills, notes etc. Column is applicable for instruments like Inflation Linked Bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Exercise Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the last exercise date for instruments Exercise dates: Dates on which potion can be Exercised. Column is applicable for instruments like callable bond, FX options, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Listed In Recognized Exchange Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag that indicates if underlying Instrument is listed on the recognized exchange or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Long Stub Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if instrument is having irregular payment in the beginning or end of the contract, then this attribute states if that irregular payment tenor is shorter or longer than regular payment tenor. If Longer then value will be Y if shorter then value will be N. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Margin Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the margin amount. Margins are cushion required by the financial institution to allow the customer to trade in derivative instruments like Options and Futures. These are highly volatile products and the potential loss is high, hence only informed customers are allowed to trade in such products. Margin amount is also relevant in the case of OTC contracts, this is maintained with the counterparty of the transaction. Margin amount refers to the difference between the market value of a collateral and amount of the loan advanced against it.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Center Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the venue, Market Center, at which this instrument is traded. For exchanges, the value of this field must be a valid ISO Standard 10383 code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Exchange Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the name of the primary exchange where this security is listed or traded. An instrument can trade on multiple exchanges and market centers. Refers to the primary exchange where the instrument trades. Refers to the values like BSE, SICOM etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Quote Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the market prices for a particular instrument are available frequently and are observable e.g. quoted prices. This is required to identify whether an asset is liquid and readily marketable or not. An asset is considered liquid and readily marketable if it is \n1, Traded in an active secondary market \n2, With more than two committed market makers\n3, Has a large number of committed non market maker participants on both the buying and selling sides of transactions\n4, Has timely and observable market prices and\n5, Has high trading volumes\nLiquid and readily marketable indicator is one of the criteria for classifying assets as high quality liquid asset, HQLA, or not for the purpose of inclusion in the stock of high quality liquid assets while computing the Liquidity Coverage Ratio, LCR.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Value Methodology",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the market value methodology. Values expected are  Level 1 – Mark to market\nLevel 2 – Mark to model, inputs into the model are observable in the secondary market,\nLevel 3 – Internal Model, inputs into the model are not observable in the secondary market.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Marketable Security Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the security is marketable or not. Marketable securities are very liquid securities that can be converted into cash quickly at a reasonable price. If the value is updated as Y which means the security is marketable and if the value is updated as N which means the security is non marketable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the contractual date on which the principal balance is expected to fully amortize and the balance payable would be nil. This is applicable for term loan products but not for revolving credit or overdraft type of account. In case of insurance policy, for some whole life insurance products the maturity date is aligned to maximum attained age and the policy is payable upon the earlier of the maturity date or the death of the insured. In case of Term Life insurance policies the maturity date is determined as policy issue date plus Term of the contract. In case of an annuity it is the date from which the annuitant has chosen to take the payouts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maturity Extendibility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Indicates if the contract can be extended beyond its maturity period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Money Market Fund Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether banks equity exposure to an investment fund is a money market fund or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Nettability Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether the exposure is nettable against any other nettable exposures of the same customer. This is valid only for OTC derivatives and Repos. If the value is updated as Y means the exposure is nettable against any other nettable exposure and if the value is updated as N means the exposure is not nettable against any other exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Netting Agreement Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the netting agreement code on which the contract is made. A netting agreement is an arrangement between two parties   known as counterparties   that governs the treatment of certain offsetting transactions or contracts. Two transactions offset each other if a gain in one results in a loss in the other. In other words, the transactions hedge each other. This allows for net settlement of all contracts governed by this netting agreement, with a single counterparty, through a single payment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Next To Last Coupon Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the next to last coupon date of the fixed income security. Coupon payments are fixed periodic payments and are applicable to fixed income securities like bonds, bills, notes etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Nth To Default Position",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the nth to default position in nth to default Swap.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Underlying Contract",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the total number of the underlying contract of a Swap contract. E.g. If Future contract is CME Crude petrol and standard size of one contract is 500 Barrels. The total bought quantity is 100 future contracts. Then this new column will hold the value of 100 and Contract quantity will hold 50000.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Obligation Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Store the values of US obligation type securities information like whether General Obligation Municipal Security, Revenue Obligation Municipal Security or Assessment Obligation Municipal Security. Expected values are GEN: General Obligation Municipal Security, REV: Revenue Obligation Municipal Security,\nASSES: Assessment Obligation Municipal Security.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Observation Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to observation frequency for instruments like Equity Option. This frequency is used for averaging the equity price. Instrument Used: Equity Asian.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Observation Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Indicates the unit of observation frequency, possible values are D, for days, BD, for business days, W, for Weeks, M, for month, y, for Year. OR Alternatively user can also provide A, for Annual, SA, for Semiannual, Q, for Quarterly, M, for Monthly. Instrument Used  Equity Asian.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Observation Period End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which observation period ends. Observation Period: Observation period is set of trading times idle for taking price observation. Instrument Used: Equity Asian.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Observation Period Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the observation period starts. Observation Period: Observation period is set of trading times idle for taking price observation. Instrument Used: Equity Asian.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "On The Run Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Refers to the Credit index trade information stating if the securities under the index are 'On the Run' type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operational Capability To Monetize High Quality Liquid Asset Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates that a bank has appropriate policies and procedures in place for periodically monetizing an asset class and that it has monetized a sample of eligible HQLA asset class on a periodic basis to prove such a capability. This is required to identify whether an asset classified as a high quality liquid asset, HQLA, meets all the operational requirements for being eligible to be included in the stock of HQLA. Only an HQLA that meets operational and generally applicable criteria is considered eligible to be included in the stock of HQLA.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Option Premium Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the premium amount paid by the Financial Institution for the option contract. Generally, this is computed as the premium percent multiply with Notional balance covered under the option contract. Currently this attribute is only consumed by ALM application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Option Rebate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Option Rebate which is for a barrier option that offers a predetermined rebate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Option Style",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the option style of the embedded option. Option Style refers to the type of expiry of the embedded option. List of valid values are European, American or Bermudan. A European option can be exercised only on the expiry date of the option. An American option can be exercised on or before the expiry date of the option. A Bermudan option can be exercised on specific dates before the expiry date of the option.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Credit Default Swap Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount at the Inception of the CDS Contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the original maturity date of the reference issue, typically debt securities. It would be used to derive residual maturity and original maturity of the reference issue. Original maturity date is the contractual date on which the principal balance of an earning asset or debt instrument is due and payable to the holder.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Over The Counter Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to Indicate whether a derivative exposure is traded on an exchange or over the counter. List of values are Y, N. If the value is updated as Y means the exposure is traded over the counter and if the value is updated as N means the exposure is traded in an exchange.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Overcollateralization Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the percentage of overcollateralization of the underlying asset pool covering an investment asset such as a covered bond. It is used to identify whether the asset coverage requirement of the underlying pool of assets is in excess of a certain percentage of the amount required to meet the claims attaching to the investment asset. The value expected here is the percentage over and above the 100Percent coverage requirement. For instance, if the underlying pool of assets is covering the covered bond claims by 107Percent, the value to be provided here is 7Percent.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Lag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Payment lag is period between accrual end date and date on which actual payment occurs for instrument. Column is applicable for instruments like Cap Floor. Incase of coupon payment, it is the period between coupon date and date on which actual payment occurs. This is used in conjunction with Payment Lag Unit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Lag Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unit of payment lag of instrument, possible values are D, for days, BD, for business days, W, for Weeks, M, for month, y, for Year. Column is applicable for instruments like Cap Floor. This should be used in conjunction with Payment Lag.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Perpetual Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the debt instrument does not have maturity date and is perpetual in nature.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pre Conversion Instrument Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of the instrument which was converted and resulted into the current instrument. For example, if BOND A has converted into EQUITY B. Then for Equity B, instrument code of A is expected as part of this data element.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Premium Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the premium rate applicable for credit protection in case of credit default swaps. A credit default swap is an agreement that the protection seller of the CDS will compensate the protection buyer in case of default/bankruptcy of the reference entity or loan. The protection buyer makes a series of payments to the protection seller. These series of payment are similar to that of an insurance and are termed as premium.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Price Index Lag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Lag from a monitoring date to the reference inflation month. This should be used in combustion with Price Index Lag Unit. Column is applicable for instruments like Inflation Linked Bond, Zero Coupon Inflation Swap.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Price Index Lag Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Unit of period between Lag from a monitoring date to the reference inflation month. Possible values are D, for days, BD, for Business Days. W, for Weeks, M, for month, Y, for Year. This should be used in combustion with Price Index Lag.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Protection Buy Sell Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates the protection is bought or sold. List of values are B and S. B for protection buyer and S for protection seller.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Qualifying Instrument Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the instrument deemed to be of comparable investment quality by the reporting bank, and the issuer has securities listed on a recognized stock exchange or not. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Cap Life",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Rate cap life refers to maximum interest rate allowed during life of an adjustable rate instrument. If Forecast Rate Plus Margin > Rate Cap Life, then the rate specified in Rate Cap Life is used.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Floor Life",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Rate floor life refers to Minimum interest rate allowed during the life of an adjustable rate instrument. If Forecast Rate + Margin < Rate Floor Life, then the rate specified in Rate Floor Life is used.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rating Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code representing the rating of the Instrument or the exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Redeemable Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of days within which the instrument is redemable. This value is usually useful for instruments that are not listed, and hence do not have specific measure of their liquidity. The lesser the number of redeemable days, the more liquid the asset is.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Redemption Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the redemption value. Redemption value is the value at which the issuer of the instrument may choose to repurchase the instrument before maturity. In case of bonds, if the purchase price of the bond is less than the redemption value, it is said to be bought at a discount. If the price of the bond is more than the redemption value, it is said to be bought at a premium.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regulator Authorization Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the authorization code given to the instrument by the regulator or any competent authority. As per BOT LCR guidelines, attachment 1, paragraphs 1.2.1.4, the debt securities issued by state enterprises or Specialized Financial Institutions whose principal and interest amounts are not guaranteed by the Ministry of Finance as HQLA assets should have given no problem status, according to State Enterprises Policy Committee, SEPO, guidelines. Indicative values are NOPROBLEM etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rehypothecable Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the instrument can be rehypothecated or not. List of Values are Y and N. Y means Instrument is available for encumbrance and can be rehypothecated whereas N means Instrument is not available for encumbrance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Renewal Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the account was renewed. Renewal is defined as the action of extending the period of validity of a license, subscription, or contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repricing Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to reprice Frequency is used in conjunction with Repricing Frequency Unit to define the frequency of rate change of an account. Repricing Frequency is used to identify whether records are adjustable or not. If Repricing Frequency> 0, the record is considered adjustable. If Reprice Frequency = 0, the record is fixed rate. It is used to compute the re price dates after the next_reprice_date. REPRICE_FREQ must be either 0 or positive.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repricing Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to reprice frequency unit is used in conjunction with Repricing Frequency to store the unit of frequency of rate change for an account. List of values are D, M and Y for Days, Months and Years respectively. Example  if the rate adjustment is 6 months, the repricing frequency will be 6 and repricing frequency unit will be M.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Resecuritized Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the pool is resecuritized or not. Resecuritization means that the pool has at least a single asset which is a securitized tranche. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restructured Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the account has been Restructured, Renegotiated or Modified. Restructuring can happen mostly for the debt securities, when the borrower is unable to cope up with the repayments as per the original amortization schedule published by the financial institution. In some cases, restructuring happens as a less expensive alternate to bankruptcy. Restructuring can involve debt reduction, interest rate reduction, extension of payment terms etc. If the column is populated, indicates the account has been Restructured, Renegotiated or Modified. If NULL, indicates that the account has not been Restructured, Renegotiated or Modified.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restructuring Clause",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of restructuring clause as per ISDA definition. Restructuring clause defines the credit event that triggers a default. This is applicable to credit default swap or survival probabilities. Expected values are XR, Ex Restructuring, CR, Cum Restructuring or Old Restructuring, MR, Modified Restructuring, or MM, Mod Mod Restructuring. Used for instruments like Equity convertible bond, Amortizing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "SEDOL Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Stock Exchange Daily Official List, SEDOL, Code, is a list of security identifiers used in the United Kingdom and Ireland for clearing purposes. The seven digit numbers are assigned by the London Stock Exchange, on request by the security issuer. SEDOLs serve as the National Securities Identifying Number or NSIN for all securities issued in the United Kingdom and are therefore part of the securities International Securities Identifying Number or ISIN as well.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Second Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to a Code representing a Second Currency of the Foreign Exchange Risk Factor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Secondary Market Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates for existence of secondary market for the product. This is required to identify whether an asset is liquid and readily marketable or not. An asset is considered liquid and readily marketable if it is \n1, Traded in an active secondary market \n2, With more than two committed market makers\n3, Has a large number of committed non market maker participants on both the buying and selling sides of transactions\n4, Has timely and observable market prices and\n5, Has high trading volumes\nLiquid and readily marketable indicator is one of the criteria for classifying assets as high quality liquid asset, HQLA, or not for the purpose of inclusion in the stock of high quality liquid assets while computing the Liquidity Coverage Ratio, LCR. \nThe list of values are Y and N. A value of Y indicates the existence of secondary market. This attribute will be derived using app specific rules.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Secured Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or contract number is secured with a collateral or not. The collaterals to be considered here will be the collaterals other than margins. In case of deposits, this indicates it is Collateralized or Secured Deposit. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitization Pool Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Unique identifier of the organization defined codes for a securitization pool. Securitize refers to a pooled group of financial assets that together create a new security, which is then marketed and sold to investors. The value and cash flows of the new security are based off of the underlying value and cash flows of the assets used in the securitization process. Companies will securitize illiquid assets into liquid assets in order to increase their overall liquidity and generate immediate proceeds from their assets.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitization Program Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Unique Code of the Securitization Program Type. This will be used for identifying the overlapping exposures, wherein exposures will be identified based on them belonging to the same program ID. This will be also used in reporting securitization tranches belonging to the same program.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitization Tranche Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the securitization tranche identifier, for the particular securitization exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitization Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the securitization type codes. For example, TRD for Tradition securitization, SYN for synthetic securitization etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitized Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the exposure is securitized or not. Securitize refers to a pooled group of financial assets that together create a new security, which is then marketed and sold to investors. The value and cash flows of the new security are based off of the underlying value and cash flows of the assets used in the securitization process. Companies will securitize illiquid assets into liquid assets in order to increase their overall liquidity and generate immediate proceeds from their assets. List of values are Y, N. If the value is updated as Y means the exposure is securitized and if the value is updated as N means the exposure is not securitized.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitized Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier for the Securitized Product. This refer to the lower level of security type like Residential Pass Through securities which are grouped under Pass through securities class. E.g.. Pass Through Certificates, mortgage backed securities.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seniority Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the exposure seniority in the event of bankruptcy of the counterparty. Seniority refers to the order of repayment in the event of a sale or bankruptcy of the issuer. \nSeniority can refer to either debt or preferred stock. Senior debt must be repaid before subordinated, or junior, debt is repaid. Each security, either debt or equity, that a company issues has a specific seniority or ranking. Bonds that have the same seniority in capital structure of a company are described as being pair passu. Preferred stock is senior to common stock in a sale when preferred shareholders must receive back their preference, typically their original investment amount, before the common shareholders receive anything.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seniority Enhancement Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the instrument is issued with seniority enhancement option, which means that the seniority of the instrument can be improved based on specific conditions or depending on certain circumstances. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Settlement Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of days required for settlement after the transaction is performed. Usually the number of business days is captured here. In case of T Plus 2 settlement, it would store a value of 2.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Single Seller Multi Seller Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if instrument is single seller or multi seller instrument. Single seller programs involve a conduit that issues instruments backed by assets from only one originator. Multi seller programs involve a conduit that issues instruments backed by assets from more then one originator. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sold Exclusively In Retail Market Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or investment is sold exclusively to retail customers. The list of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Spot Lag Tenor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the spot lag between the Valuation date and the underlying, underlying can be commodity, FX, inflation index etc., spot date. If difference is of 2 business day then, this column will hold 2 as value . Column is applicable for instruments like Equity American Option, Commodity Forward, Zero Coupon Inflation Swap.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Spot Lag Tenor Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the spot lag between the Valuation date and the underlying, underlying can be commodity, FX, inflation index etc., spot date. If difference is of 2 business day then, this column will hold BD as value . Column is applicable for instruments like Equity American Option, Commodity Forward, Zero Coupon Inflation Swap.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Standard Industry Classification Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the industry associated with the customer. Standard Industrial Classification SIC is a standardized four digit code to classify industries.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Strike Rate Or Price",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the strike price or strike rate. In case of options, this stores the strike price. Strike price is the price at which an option to buy or to sell can be exercised. This is predetermined at the time of entering into the contract. In case of forward rate agreements, Refers to the forward rate of interest for the contract period as agreed between the parties. This column is also applicable to instruments like bullet swaps, equity total return swap, equity variance swap.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Strike Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the strike type of the embedded option. A strike type of price assumes that the price of the instrument is used as the strike. A strike type of rate assumes that the interest rate of the instrument is used as the strike. List of valid values are Price and Rate. The type of strike. In case of equity and commodity volatility expected values are either ABSLT for absolute strikes or RLTV for relative strikes. In case of equity and commodity volatility expected values are STRIKE ABSLT, STRIKE RLTV, STRIKE DEL. For equities listed on an exchange, the Strike Type must be ABSLT.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Structured Security Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier for the Structured Security type for Interest Rate securities. Expected values are Step Up Bond, Index Amortizing Notes, Dual index Notes, Deleveraged Bonds, Range Bonds, Inverse Floaters.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Subordinated Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether said instrument has been issued as a subordinated instrument. List of Values Y if it has been issued as a subordinated instrument else N. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Third Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the third currency in which profits are realized in a triangular arbitrage transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ticker Symbol",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to a ticker symbol is the unique identifier used to identify the stock on a stock exchange.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tranche Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the tranche identifier. A Tranche is a piece, portion or slice of a deal or structured financing. This indicates which for which securitized tranche the particular mitigant covers.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Asset Originated From The Bank Or Its Affiliated Entities Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies whether the underlying assets of a securitization transaction have been originated by the bank itself or any of its affiliated entities. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Asset Pool Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code identifying the type of asset backing the securitization i.e. underlying asset. This is used for Mortgage backed securities, Asset backed securities, etc. Underlying Asset Pool Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Guarantor Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Underlying Guarantor Identifier of the Account or Securities Position. An Underlying Guarantor is the Guarantor of a security that is underlying a structured security issue or a re securitization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Index Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to identifier of the Aggregated Non Index Exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Instrument Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the instrument code of the underlying of the derivative. In case of convertible bonds, the code of the equity instrument is stored, in case of basket options, multiple codes separated by # are to be stored. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Instrument Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unit of underlying. For instance gm in case of gold, Quintal in case of commodity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Issuer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Underlying Issuer Identifier of the Account or Securities Position. An Underlying Issuer is the Issuer of a security that is underlying a structured security issue or a re securitization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Upfront Premium Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the upfront Premium rate given in the CDO.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Value At Risk Portfolio Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the portfolio ID used for Value At Risk calculation in the Trading Book.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Volatility Day Count Convention",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the basis code, day count convention, column Refers to Day count convention used to measure time when calculating volatility. List of values are 30/360, 30/365, 30/ACT, ACT/360, ACT/365 and ACT/ACT. Suggested defaults 30/360 for amortizing transactions and Act/Act for non amortizing transactions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Voting Rights Class Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if the security has voting rights, enhanced or restricted voting rights, or no voting rights. Indicative list of values are\n1 Non Voting - No voting rights attached to this security\n2 Restricted - Restricted voting rights attached to this security\n3 Enhanced - Enhanced voting rights attached to this security\n4 Voting Rights - Voting rights attached to the security\nZ Other situation\nEquivalent dimension is Indicator Value Dimension with indicator type description as Voting Rights Class Indicator.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Voting Rights Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates to the Voting Rights Indicator (VOTI), available for preferred securities, identifies issues that have voting rights equal to holders of common stock or that vote as a class on all issues. Indicative list of values are\nA Issue may not vote equal to common stock nor as a class\nC Issue votes on all matters as a class\nB Issue votes on all matters with rights.\nEquivalent dimension is Indicator Values Dimension with Indicator Type Description as Voting Rights Indicator.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Voting Rights Per Share",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Number_Factor",
+                    "gcd": "Refers to the number of voting rights per share attached to the class of shares. A value of zero means either there are no voting rights per share or the voting rights per share has not been determined. This item should be used in conjunction with the Voting Rights Indicator to determine the meaning.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

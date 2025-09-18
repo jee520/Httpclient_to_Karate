@@ -1,0 +1,639 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bank Holding Company Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether legal entity is Bank Holding Company or not. If value is Y and country code is US. If country code is Non US then FBO.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Broker Dealer Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the legal entity is providing any broker dealer activities.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Domain",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the business domain., such as Institutional or Retail Brokerage. This is used to control access to data across distinct business operations.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Segment Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique key identifying the business segment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Capital Adequacy Regulator Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the code of capital adequacy regulator where the party is a financial institution. For example, for India  RBI, for US  FED, for UK  FSA etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Comprehensive Capital Assessment And Review Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to Comprehensive Capital Assessment and Review internal identification number.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Consolidated Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies whether a legal entity has to be consolidated in the books of the parent or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Jurisdiction",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the mantas classification associated with this record. This can be a jurisdiction which represents geographical or legal entity monitoring on data restrictions. Values can be AMEA, INDV, CORP etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deposit Insurance Guarantor Registration Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to Deposit Insurance Guarantor number for the said party or legal entity.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Depository Institution Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the party is depository institution. This is an exclusion criteria and is required for classifying common equities as level 2B high quality liquid assets, HQLA, for the purpose of inclusion in the stock of HQLA while computing the Liquidity Coverage Ratio, LCR. A common equity held by a depository institution cannot be classified as an HQLA if it was acquired in satisfaction of a debt previously contracted. If such an equity was held by any entity which is not a depository institution, it can be classified as level 2B asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Domicile State Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the state within the country in which the party is domiciled. The definition of state differs from country to country. In the context of the United States of America, as per 12 USC 1318, the term state includes any state of the United States, the District of Columbia, any territory of the United States, Puerto Rico, Guam, American Samoa, the Trust Territory of the Pacific Islands, the Virgin Islands, and the Northern Mariana Islands.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Eligible For Modified Liquidity Coverage Ratio Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if legal entity is eligible for calculation of modified liquidity coverage ratio calculation. Modified liquidity coverage ratio standard is based on a 21 calendar day stress scenario rather than a 30 calendar day stress scenario for bank holding companies where they have USD 50 billion or more in total consolidated assets. Please refer to NPR Liquidity Coverage Ratio: Liquidity Risk Measurement, Standards, and Monitoring document.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Entity Class Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the class code used to identify whether the entity is a scheduled or non scheduled bank. Expected values will be SCHB and NSCHB.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Calendar Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Financial Calendar code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Institute Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to Financial Institution identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Subsidiary Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies whether the entity is a financial subsidiary of an institution as per US Basel III final rules, section 22 Regulatory Capital Adjustments and deductions, in subsection a7. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiscal Period Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to unique fiscal period code of each Jurisdiction example IND_RBI for Indian Regulatory reporting.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holding Company Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of holding company. A holding company is a parent corporation, limited liability company, or limited partnership that owns enough voting stock in another company to control its policies and management. Refers to the holding company type. The indicative values are IHC, BHC, FBO etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holding Interest And Noninterest Bearing Balance Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether party or entity has permission to hold interest and non interest bearing balances or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holiday Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the holiday code for the legal entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Incorporation Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the ISO country code of incorporation or legal registration of the Party. For branches, agencies, representative offices, subsidiaries it refers to the country where such entity is formally or legally registered or licensed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Industry Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the code that describes the primary business activity of the obligor or the industry to which the party is associated to as per the North American Industry Classification System, NAICS. If the NAICS code is not available, provide either the Standard Industrial Classification, SIC, or Global Industry Classification Standard, GICS. If the obligor is an individual, the industry code should be consistent with the industry in which the commercial purpose of the loan operates.\nIf the business or individual operates in multiple industries, the BHC or IHC should report the industry that best represents the commercial risk of the loan, i.e., the predominant industry.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "Refers to the legal entity description. For example Oracle Financial Software Services is a legal entity of Oracle India but they are two separate entities.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Identifier Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the legal entity identifier code of the counterparty. The use of the LEI has been mandated by the European Securities and Markets Authority, ESMA, for the reporting of derivative transactions to Trade Repositories under European Market Infrastructure Regulation, EMIR.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to name of the legal entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the legal entity code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Ownership Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of the legal entity. Indicates whether an entity is a wholly owned subsidiary or an entity functioning with minority interest.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the status of Legal entity like merged or consolidated or split etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Tax Jurisdiction Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the 2 digit ISO country code of Tax for the Legal entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code that indicates whether the particular legal entity is internal or external.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Liquidity Restricted Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the liquidity is restricted of an legal entity. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Local Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to a unique ISO code representing a particular local currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Local Ticker Symbol",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to ticker Symbol of the legal entity used in local Market. A stock symbol or ticker symbol is an abbreviation used to uniquely identify publicly traded shares of a particular stock on a particular stock market. A stock symbol may consist of letters, numbers or a combination of both. 'Ticker symbol' refers to the symbols that were printed on the ticker tape of a ticker tape machine.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Member Bank Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if it is a Member bank. Member banks are part of the Federal Reserve System or more generally, a bank that is part of a central clearing or central banking system. It is a bank which guarantees the performance of a client to a CCP.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Merged Entity Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Refers to weather said entity is merged with reporting entity or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Merger Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date of merger if it is an entity merged with reporting entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operating Entity Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the party is an operating entity or not. An operating entity is defined as a company established to conduct business with clients with the intention of earning a profit in its own right. This is applicable for parties wherein the party type is a corporate, and not retail or individual. List of Values are Y, N and NULL treated as N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization Unit Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the Leaf column which Refers to the id for the organization unit dimension.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the rate data source system from where data is extracted. Data can be sourced from multiple sources, this column will refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tax Exempt Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the policy was opened as part of a tax free policy prevailing in that country. List of Values are Y and N.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "3",
+                    "srcLogicalName": "Stage Legal Entity Master",
+                    "scdName": "scd_3_DIM_LEGAL_ENTITY_STG_LEGAL_ENTITY_MASTER",
+                    "scdDesc": "Data movement from legal entity master source to legal entity dimension",
+                    "createdDate": "2024-10-26 06:02:43.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42573",
+                    "btLogicalName": "Legal Entity Numeric Identifier",
+                    "dqDesc": "Legal Entity Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQCUS42574",
+                    "btLogicalName": "Legal Entity Numeric Identifier",
+                    "dqDesc": "Legal Entity Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV31150",
+                    "btLogicalName": "Depository Institution Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV31151",
+                    "btLogicalName": "Member Bank Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV31152",
+                    "btLogicalName": "Broker Dealer Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV31153",
+                    "btLogicalName": "Eligible For Modified Liquidity Coverage Ratio Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV31154",
+                    "btLogicalName": "Merged Entity Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV31155",
+                    "btLogicalName": "Bank Holding Company Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV31156",
+                    "btLogicalName": "Financial Subsidiary Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV31157",
+                    "btLogicalName": "Operating Entity Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV31158",
+                    "btLogicalName": "Tax Exempt Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV31159",
+                    "btLogicalName": "Consolidated Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV31160",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV31161",
+                    "btLogicalName": "Liquidity Restricted Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQLOV31162",
+                    "btLogicalName": "Holding Interest And Noninterest Bearing Balance Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQNMDUP41967",
+                    "btLogicalName": "Legal Entity Numeric Identifier",
+                    "dqDesc": "Legal Entity Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQSPLCH42974",
+                    "btLogicalName": "Legal Entity Name",
+                    "dqDesc": "Legal Entity Name should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQSPLCH42975",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQSPLCH42976",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Legal Entity Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                },
+                {
+                    "dqId": "DQSPLCH42977",
+                    "btLogicalName": "Legal Entity Description",
+                    "dqDesc": "Legal Entity Description should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:32.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                },
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                },
+                {
+                    "ucId": "CIRCA",
+                    "ucName": "Customer Analytics"
+                },
+                {
+                    "ucId": "PFTI",
+                    "ucName": "Insurance Allocation Manager for Enterprise Profitability"
+                }
+            ]
+        }
+    ]
+}

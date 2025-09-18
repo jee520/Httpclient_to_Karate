@@ -1,0 +1,642 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bulk Loss Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates Bulk Loss Flag of Internal Operational Loss Event. This stores flag either as Y or N. This indicates whether this is a bulk loss incident, i.e. a single event was logged to cover multiple impacts. This will also help in inclusion / exclusion from modeling.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Segment Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique key identifying the business segment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Capture Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the event is captured.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cause Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Code for the Cause.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compliance Incident Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Indicates Compliance Incident Flag of Internal Operational Loss Event. This stores flag either as Y or N. This indicates whether it is a compliance incident, incident arising because of regulatory breaches.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Confidential Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates Confidential Flag of Internal Operational Loss Event. This stores flag either as Y or N. This indicates whether the incident is a confidential or non confidential incident. This helps in restricting user access in reporting.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contingent Liability Recognition Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Contingent Liability Recognition Date of Internal Operational Loss Event. This is the date on which contingent liability was recognized. Example, date on which it was accepted that there could be a loss because of an ongoing legal case.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Excluded From Capital Calculation Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether it is excluded from capital calculation due to divestiture or any other operational requirements. List of Values are Y and N. A value of Y indicates that the exposure is excluded, and a value of N indicates that the exposure is included. Null is treated as N.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Gain Amount of Internal Operational Loss Event",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Gain Amount of Internal Operational Loss Event. If the incident has resulted in a gain, then it will be shown here.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Gross Loss Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the gross loss amount. Gross loss amount is the difference between cost of sales and turnover, or net sales, when cost of sales is the greater item.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Incident Owner Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to Incident Owner Name of Internal Operational Loss Event.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Incident Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Incident Type Code of Internal or External Operational Loss Event. List of values of this column is referred from Incident Type Dimension- Incident Type Code. This indicates whether it is a border area loss or pure operational loss. Possible values are Operational Risk, Operational Risk in Credit area, Operational Risk in Market area, etc. This will help in deciding to include / exclude from operational loss modeling.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Initial Action Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Initial Action Description of Internal Operational Loss Event. This contains a brief description of what initial actions were taken when the incident was identified.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Recovery Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Insurance Recovery Amount of Internal Operational Loss Event. This includes only the recovery from Insurance.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal Event Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Internal Event Type code as followed by the bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This is Code for the Line of Business as followed by the Bank for the loss .",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Ledger Entry Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Last Ledger Entry Date of Internal Operational Loss Event.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Incident Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates Legal Incident Flag of Internal Operational Loss Event. This stores flag either as Y or N. This indicates whether it is a legal incident, like incident arising because of legal cases.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Litigation Settlement Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Loss Litigation Settlement Date for the loss event\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Location Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique location code. Location code is defined as the code which will represent the address of the property from zip code onwards like which city, country etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the calendar date when the loss has occurred.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Event Accounting Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to Accounting Date of Operational Loss Event.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Event Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to unique code of the loss event.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Event Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Long",
+                    "gcd": "Refers to loss event description.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Event Identification Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Identification Date of External Operational Loss Event.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Event Name Or Incident Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the Incident Name of External Operational Loss Event.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Impact Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the code for Impact Type of Internal Operational Loss Event. List of values of this column is referred from Operational Risk Effect Type Dimension-Effect Type Code. This is the actual impact of the event. Possible values could be Actual Loss, Recovery, Near Miss, Gains.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Provision Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Loss Provision Amount of Internal Operational Loss Event. This is the provision created for a loss event. This reserve creation is important from legal losses perspective. This amount can be used for modeling when pending legal losses are included.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Loss Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Net Loss Amount excluding Gains and Non Insurance Recoveries and Insurance Recoveries.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Loss Non Insurance Recovery Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Net Loss Amount excluding Gains and Non Insurance Recoveries. This is loss net of all non insurance recoveries. This can be used for severity modeling.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Non Insurance Recovery Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Non Insurance Recovery Amount of Internal Operational Loss Event. This includes recovery from all sources except insurance.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Occurrence End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This column contains End Date of Occurrence of Internal Operational Loss Event. This is the date on which the incident last occurred.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Occurrence Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Start Date of Occurrence of Internal Operational Loss Event. This is the date on which the incident first occurred.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operation Risk Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Status Code of Internal Operational Loss Event. List of values of this column is referred from Operational Risk Status Dimension.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pending Legal Loss Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates Pending Legal Loss Flag of Internal Operational Loss Event. This stores flag either as Y or N. This indicates whether the incident is pending legal loss and allows for inclusion / exclusion from modeling.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Potential Financial Impact Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Potential Financial Impact Amount of Internal Operational Loss Event. When the incident is still under investigation and the loss amount is not properly ascertained, potential financial impact amount can be entered. This is more important for legal losses and near misses. Near Misses will not have actual loss but only potential impact. Similarly, pending legal losses may have only potential impact initially.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Process Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to Process Identifier of Internal Operational Loss Event. List of values of this column is referred from Organization Process Dimension-Parent Legal Entity Code. This indicates the process failure which resulted in this incident.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Reserve Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Reserve Creation Date of Internal Operational Loss Event. This is the date on which reserve / provision was created for this incident. This helps in capping legal losses by this date.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Category Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Risk Category Code corresponding to the exposure underlying type. Risk category can be Interest Rate, Foreign Exchange, Credit Derivatives, Commodity and Equity. This column is used in PFE calculation In SA CCR.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Inventory Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to Risk Inventory Code of Internal Operational Loss Event. List of values of this column is referred from Risk Inventory Dimension-Risk Inventory Code. This indicates as to which risk inventory this incident belongs to.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unscaled Loss Severity Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to external data that is optionally subjected for scaling. This column will store the Un-Scaled Operational Loss Severity. The values will be in the natural currency.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32601",
+                    "btLogicalName": "Pending Legal Loss Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQLOV32602",
+                    "btLogicalName": "Bulk Loss Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQLOV32603",
+                    "btLogicalName": "Compliance Incident Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQLOV32604",
+                    "btLogicalName": "Excluded From Capital Calculation Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQLOV32605",
+                    "btLogicalName": "Confidential Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQLOV32606",
+                    "btLogicalName": "Legal Incident Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37704",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37705",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37706",
+                    "btLogicalName": "Capture Date",
+                    "dqDesc": "Reference Check for Capture Date in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37707",
+                    "btLogicalName": "Capture Date",
+                    "dqDesc": "Reference Check for Capture Date in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37708",
+                    "btLogicalName": "Loss Date",
+                    "dqDesc": "Reference Check for Loss Date in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37709",
+                    "btLogicalName": "Loss Date",
+                    "dqDesc": "Reference Check for Loss Date in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37710",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37711",
+                    "btLogicalName": "Business Segment Code",
+                    "dqDesc": "Reference Check for Business Segment Code in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37712",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37713",
+                    "btLogicalName": "Internal Event Type",
+                    "dqDesc": "Reference Check for Internal Event Type in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37714",
+                    "btLogicalName": "Internal Line Of Business Code",
+                    "dqDesc": "Reference Check for Internal Line Of Business Code in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37715",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37716",
+                    "btLogicalName": "Line Of Business Code",
+                    "dqDesc": "Reference Check for Line Of Business Code in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37717",
+                    "btLogicalName": "Location Code",
+                    "dqDesc": "Reference Check for Location Code in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37718",
+                    "btLogicalName": "Loss Event Code",
+                    "dqDesc": "Reference Check for Loss Event Code in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37719",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF37720",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Internal Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

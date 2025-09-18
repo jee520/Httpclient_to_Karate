@@ -1,0 +1,651 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Accounting Capital And Surplus",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total accounting capital and surplus.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Additional Tier One Capital Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This Attribute stores the Additional Tier 1 Capital of an entity.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Advanced Method Additional Collateral Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the additional collateral required due to the impact of adverse market conditions on an entity’s derivative portfolio computed based on the advanced method for additional outflows (AMAO). The AMAO is an internal model based method to compute the additional collateral outflow due to adverse market condition and can be used only by institutions that already have an approved Internal Model Method (IMM) for counterparty credit risk as per the requirement of EBA/RTS/2014/05. This value is used along with the amount computed under the Historical Lookback approach to determine the outflow due to adverse market conditions.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Affiliate Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Refers to an affiliate according to FRB23 A i.e. the term 'affiliate' with respect to a member bank means-- any company that controls the member bank and any other company that is controlled by the company that controls the member bank; a bank subsidiary of the member bank; any company-- that is controlled directly or indirectly, by a trust or otherwise, by or for the benefit of shareholders who beneficially or otherwise control, directly or indirectly, by trust or otherwise, the member bank or any company that controls the member bank; or in which a majority of its directors or trustees constitute a majority of the persons holding any such office with the member bank or any company that controls the member bank; any investment fund with respect to which a member bank or affiliate thereof is an investment adviser; and any company that the Board determines by regulation or order to have a relationship with the member bank or any subsidiary or affiliate of the member bank, such that covered transactions by the member bank or its subsidiary with that company may be affected by the relationship to the detriment of the member bank or its subsidiary.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Annual Dividend Paid During Last Three Years",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the average amount of annual dividends paid during last three years.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Consolidated Assets",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This attribute stores the quarterly average consolidated assets of the entity as reported in FR Y - 9C reports.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Capital Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Long",
+                    "gcd": "This is the capital rate maintained as per capital adequacy regulation of legal entity. It parameter used for effective capital cost calculation during the KVA Capital Valuation Adjustment calculation. The value is expected in percentage terms, example 8 percent, which must be expressed as 8.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Capital Surplus Or Deficit Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Capital surplus or deficit amount for a Subsidiary. If this Amount is positive then it is surplus and if it is negative then it is deficit.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Curve Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the collateral curve id that is used to determine the cheapest collateral to deliver and calculate COLVA i.e. Collateral Valuation Adjustment. For example, IR.USD FEDFUNDS ON.MID.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Common Equity Tier One Capital Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This Attribute stores the Common Equity Tier 1 Capital of the entity.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Consolidation Approach Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code identifying the approach used for consolidating the accounts of related undertaking by its parent undertaking.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Constituted Form Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code identifying the form of establishment or Legal Nature or Constituted as like company or corporation, trust, partnership, or limited liability company.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Curve Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the key string to use for looking up credit curve data and creating the ID of credit models when used with a hybrid model during XVA calculation. The id should include the documentation clause, seniority and currency. Example: CR.USD BAC_SNRFOR_MM.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Hurdle Rating Skey",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the hurdle rating code, which is the minimum rating by the bank before lending to its customers. If a bank is lending to customers where exposure is rated below hurdle rating, then bank is exposed to default risk. For E.g.- AAA+, BB- etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Economic Zone Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to a unique key identifying the economic zone for example, OECD, Euro zone etc. Economic Zone Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Employee Count",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the employee count.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Entity Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code identifying the type of entity in the organization structure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Equity Capital Of Entity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the equity capital of legal entity in natural currency.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Funding Curve Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the funding curve id that is used to determine the FVA, Funding Valuation Adjustment, for a counterparty. Example: IR.EUR EURIBOR 6M.MID.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Funding Proportion",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Number_Factor",
+                    "gcd": "This is the funding proportion parameter that is used for effective capital cost calculation while calculating FVA, Funding Valuation Adjustment. It relates to the funds that a bank must borrow to post as collateral in transactions such as collateralised swap. The value is expected in percentage terms, example 50 percent must be given as 50.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Global Systemically Important Bank Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This stores the GSIB Flag which indicates whether the Entity is GSIB or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Goodwill Amount Of Entity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to goodwill which is an intangible asset that arises as a result of the acquisition of one company by another for a premium value. The value of brand name of the company, solid customer base, good customer relations, good employee relations and any patents or proprietary technology represent goodwill. Goodwill is considered an intangible asset because it is not a physical asset like buildings or equipment. The goodwill account can be found in the assets portion of balance sheet of the entity. The amount of goodwill of the investee in natural currency.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantee Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of guarantee that is being provided by the guarantor, whether conditional, unconditional etc. Refers to the unique code for the guarantee type. Expected values are\n1, Unconditional\n2, Full and Explicit\n3, Conditional\n4, Implicit\nGuarantee type is one of the criteria for classifying assets as high quality liquid asset, HQLA, or not for the purpose of inclusion in the stock of high quality liquid assets while computing the Liquidity Coverage Ratio, LCR.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantor Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier for the Guarantor type code. This is linked to Party type of the guarantor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Investment Performance Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Re-insurance/Insurance undertakings should report their investment performance. An absolute amount should be reported.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "LCR Applicable Weight",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the applicable weight. Applicable weight is, in simple words, haircut. This can be either specified by the user or can be computed as per the methodology laid down in the regulation.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lead Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the lead entity code in the group.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Regulated Minimum Jurisdiction Management Defined Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Legal Entity Regulated Minimum Jurisdiction Management Defined Balance.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Regulated Minimum Jurisdiction Regulatory Defined Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Legal Entity Regulated Minimum Jurisdiction Regulatory Defined Balance.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Absorbency Bucket Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Loss absorbency Bucket Identifier.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Absorbency Override",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the Bucket Loss Absorbency Percentage.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mark-To-Market Collateral Inflows Valuation Changes",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Mark-To-Market Collateral Inflows Due To Derivative Transaction Valuation Changes in local currency of legal entity. As per US LCR Final Rules, Collateral outflow amount for derivative valuation change is the absolute value of the largest 30-consecutive calendar day cumulative net mark-to-market collateral outflow or inflow realized during the preceding 24 months resulting from derivative transaction valuation change.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mark-To-Market Collateral Outflows Valuation Changes",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Mark-To-Market Collateral Outflows Due To Derivative Transaction Valuation Changes in local currency of legal entity. As per US LCR Final Rules, Collateral outflow amount for derivative valuation change is he absolute value of the largest 30-consecutive calendar day cumulative net mark-to-market collateral outflow or inflow realized during the preceding 24 months resulting from derivative transaction valuation change.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Minimum Statutory Liquidity Reserves Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This column capture the minimum Central Bank Excess Amount Against Statutory Liquidity Reserves for India LCR requirement.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Model Curve Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the model curve identifier that is used during XVA calculation to determine collateral spread and funding spread. The spreads are used to estimate COLVA and FVA. Example: IR.USD LIBOR 3M.MID.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Demand And Time Liability Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total demand and time liabilities for the bank (with the public or the other bank) net off deposits with other banks. This is required primarily for the computation of the statutory reserve requirements (SLR/CRR) set by RBI in accordance with RBI Circular - DBOD. No. Ret. BC. 14/12.01.001/2003-04. This is captured separately for each legal entity. LRM uses NDTL for calculating the value of Marginal Standing Facility (MSF) and Facility to Avail Liquidity for Liquidity Coverage Ratio (FALLCR) in accordance with RBI Circular - DBR.BP.BC.No.2/21.04.098/2016-17.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Profit Of Entity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the net profit that the legal entity has earned as a result of doing business. This amount is for a period and is captured in Profit and Loss statement in natural currency. It is also known as Profit after tax (PAT).\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Profit Up To The Current Quarter",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the 'Net profit' up to the current quarter ‘t’ of the current financial year; t varies from 1 to 4.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Primary Function Exposure Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the exposure from the primary function of the institution. It is used in the context of EBA DA article 33 to determine preferential inflow & outflow rate for the specialised institution.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Quarter Profit Inclusion Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This column stores the eligibility flag to include up to the previous quarter profit in CET1. Flag indicates that the incremental provisions made for non-performing assets at the end of any of the four quarters of the previous financial year have not deviation.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recovery Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Number_Factor",
+                    "gcd": "This is the recovery rate of legal entity for calculating CVA. This is the portion of exposure expected to be recovered by counterparty when the entity defaults. The value is expected in percentage terms, example 12 percent must be given as 12.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Supervisor Approval For Capital Surplus Or Deficit Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Refers to the indicator whether Supervisor approves to account for Capital Surplus/Deficit.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Third Party Investment Percentage In Additional Tier One Capital",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "This Attribute stores the Third Party investment in percentage in Additional Tier1 Capital.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Third Party Investment Percentage In Common Equity Tier One Capital",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "This Attribute stores the Third Party investment in percentage in Common Equity Tier 1 Capital\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Third Party Investment Percentage In Tier Two Capital",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "This Attribute stores the Third Party investment in percentage in Tier 2 Capital.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tier Two Capital Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This Attribute stores the Tier 2 Capital of an entity\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Asset Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total asset value. It is used in the context of EBA article 33 to calculate primary function to balance sheet ratio for the specialised institution. The ratio is used to determine inflow cap percentage.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Assets Of Entity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total assets as present in the balance sheet of the legal entity in natural currency. Total assets is the final amount of all gross investments, cash and equivalents, receivables, and other assets as they are presented on the balance sheet.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Number Of Full Time Employees",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "This is the number of full time Employees.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Performance Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to all the undertakings within the group should report their total performance. An absolute amount should be reported.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Regulatory Capital Of Entity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total regulatory capital amount of legal entity in natural currency.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underwriting Performance Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Re-insurance/Insurance undertakings should report their underwriting performance. An absolute amount should be reported.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32618",
+                    "btLogicalName": "Quarter Profit Inclusion Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32619",
+                    "btLogicalName": "Global Systemically Important Bank Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF37753",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Legal Entity Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF37754",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Legal Entity Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF37755",
+                    "btLogicalName": "Accounting Standard Code",
+                    "dqDesc": "Reference Check for Accounting Standard Code in Stage Legal Entity Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF37756",
+                    "btLogicalName": "Consolidation Approach Code",
+                    "dqDesc": "Reference Check for Consolidation Approach Code in Stage Legal Entity Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF37757",
+                    "btLogicalName": "Constituted Form Code",
+                    "dqDesc": "Reference Check for Constituted Form Code in Stage Legal Entity Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF37758",
+                    "btLogicalName": "Country Code",
+                    "dqDesc": "Reference Check for Country Code in Stage Legal Entity Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF37759",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Legal Entity Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF37760",
+                    "btLogicalName": "Economic Zone Code",
+                    "dqDesc": "Reference Check for Economic Zone Code in Stage Legal Entity Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF37761",
+                    "btLogicalName": "Entity Type",
+                    "dqDesc": "Reference Check for Entity Type in Stage Legal Entity Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF37762",
+                    "btLogicalName": "Guarantee Type",
+                    "dqDesc": "Reference Check for Guarantee Type in Stage Legal Entity Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF37763",
+                    "btLogicalName": "Guarantor Type",
+                    "dqDesc": "Reference Check for Guarantor Type in Stage Legal Entity Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF37764",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Legal Entity Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF37765",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Legal Entity Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                },
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

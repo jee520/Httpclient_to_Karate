@@ -1,0 +1,190 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Buy Or Sell Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if the contract holder is the buyer or seller of the contract. This is applicable in case of derivative contracts like futures, forwards, options etc. A Buyer of a futures contract is said to be long while the seller is said to be short. In case of repo transactions, the party doing the reverse repo is referred to as the buyer. The seller of securities sells to the party with an agreement to buy back at a later date. List of Values are B, Buy, and S, Sell.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restricted List",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Restriction list code that identifies a restricted list in either the list of Security Trading Restrictions or the list of Employee Trading Restrictions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restricted Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the client-specified Restriction Reason Code associated with this Security Trading Restriction.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restriction Comment",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Restriction comment associated with the Security Trading Restriction.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restriction Effective Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the restriction was applied to this account.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restriction Effective Time",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Timestamp",
+                    "gcd": "Refers to the time at which trading in this security was restricted.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restriction Expiration Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the restriction was removed on the account.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restriction Expiration Time",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Timestamp",
+                    "gcd": "Refers to the time this employee restriction for this security was no longer restricted.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restriction List Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Identifier for this restriction list that is unique across the enterprise.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restriction Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the fund whether is restricted or not. Indicative values are RES, UNRES and UNSPC which are Restricted, Unrestricted and Unspecified.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restriction Unit Quantity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the maximum number of units of this security this employee is limited to buy or sell, depending on the buy or sell restriction set on this security.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33412",
+                    "btLogicalName": "Buy Or Sell Indicator",
+                    "dqDesc": "Should have list of values as B,S",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF39555",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Instrument Trading Restriction",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF39556",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Instrument Trading Restriction",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF39557",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Instrument Trading Restriction",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF39558",
+                    "btLogicalName": "Instrument Code",
+                    "dqDesc": "Reference Check for Instrument Code in Stage Instrument Trading Restriction",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

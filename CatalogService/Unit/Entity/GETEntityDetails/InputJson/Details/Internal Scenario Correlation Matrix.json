@@ -1,0 +1,170 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Correlation Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the correlation value between the Reporting groups. The value stored should be in the range of -1 to +1.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal Event Type Code One",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the internal Event type code 1 and Internal Line of business code 1 is required to draw the correlation with Internal event type code 2 and Internal Line of Business code 2. This is used to bring the correlation between the Reporting group level.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal Event Type Code Two",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Internal Event Type Code2.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal Line Of Business Code One",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Internal Line of Business Code 1.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal Line Of Business Code Two",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Internal Line of Business Code 2.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Scenario Identifier One",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the scenario Identifier.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Scenario Identifier Two",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the scenario Identifier.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF39562",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Internal Scenario Correlation Matrix",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:35.0",
+                    "modifiedDate": "2024-11-04 04:39:38.0"
+                },
+                {
+                    "dqId": "DQREF39563",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Internal Scenario Correlation Matrix",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:35.0",
+                    "modifiedDate": "2024-11-04 04:39:38.0"
+                },
+                {
+                    "dqId": "DQREF39564",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Internal Scenario Correlation Matrix",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:35.0",
+                    "modifiedDate": "2024-11-04 04:39:38.0"
+                },
+                {
+                    "dqId": "DQREF39565",
+                    "btLogicalName": "Internal Event Type Code One",
+                    "dqDesc": "Reference Check for Internal Event Type Code One in Stage Internal Scenario Correlation Matrix",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:35.0",
+                    "modifiedDate": "2024-11-04 04:39:38.0"
+                },
+                {
+                    "dqId": "DQREF39566",
+                    "btLogicalName": "Internal Event Type Code Two",
+                    "dqDesc": "Reference Check for Internal Event Type Code Two in Stage Internal Scenario Correlation Matrix",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:35.0",
+                    "modifiedDate": "2024-11-04 04:39:38.0"
+                },
+                {
+                    "dqId": "DQREF39567",
+                    "btLogicalName": "Internal Line Of Business Code One",
+                    "dqDesc": "Reference Check for Internal Line Of Business Code One in Stage Internal Scenario Correlation Matrix",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:35.0",
+                    "modifiedDate": "2024-11-04 04:39:38.0"
+                },
+                {
+                    "dqId": "DQREF39568",
+                    "btLogicalName": "Internal Line Of Business Code Two",
+                    "dqDesc": "Reference Check for Internal Line Of Business Code Two in Stage Internal Scenario Correlation Matrix",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:35.0",
+                    "modifiedDate": "2024-11-04 04:39:38.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}
