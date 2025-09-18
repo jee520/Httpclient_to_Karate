@@ -1,0 +1,252 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Corporate Action Reference Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the unique identifier for the corporate action reference.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Corporate Action Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of corporate action. List of values can be Cash Dividend, Stock Dividend, Stock Bonus, Stock Split, Coupon, Merger, De Merger, Spinoff, Name Change, Liquidation etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Outstanding Underwriting Commitment Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Outstanding Underwriting Commitment amount. In underwriting transactions where the financial institution has legal recourse to the investors who have committed to take up the positions such that the financial institution is effectively not exposed to underwriting risk.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Outstanding Underwriting Commitment Reporting Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Outstanding Underwriting Commitment Reporting Date. In underwriting transactions where the financial institution has legal recourse to the investors who have committed to take up the positions such that the financial institution is effectively not exposed to underwriting risk, the Outstanding underwriting commitment at reporting date can be left blank but the details of the underwriting deals needs to be captured.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Related Party Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if it is a self led transaction. i.e. any bond equity hybrid securities offering where the issuer also acts as an underwriter to the offering or if the customer is related to the financial institution. Values are Y means customer is related to the financial institution and N means it is a self led transaction. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Share Of Issuance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the financial institutions share of issuance underwritten or allocated to the institution. Financial institution may involve in corporate finance deals whereby 1. Agreements-mandates signed by the Bank, 2. Agreements-mandates signed by Banks related corporation group e.g. Parent, Head Office, Branch, Subsidiary, Subsidiary, Branch of Head Office, Parent and Bank participated in the deals or 3. Deals are booked by the Bank. In the case of an underwriting transaction which the Bank obtains the mandate or where the deal is booked by the Bank, report the value of the issuance underwritten by the Bank. For 2., reporting is limited to the Banks participation in the transactions. For example, where the customer enters into an underwriting agreement with the Banks Head Office or related corporation group and the underwriting activity is sub allocated to the Bank, report the value of the issuance sub allocated to the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Subscribed Portion",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers the financial institutions share of issuance that is fully-partially subscribed by investors.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Subscription Period End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the end date of subscription period. Subscription period refers to the time during which underwriters attempt to place a new issue with investors. Bank is Underwriter and Subscribers are general public.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Subscription Period Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the start date of subscription period. Subscription period refers to the time during which underwriters attempt to place a new issue with investors. Bank is Underwriter and Subscribers are general public.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unsubscribed Portion",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to underwritten commitments not fully subscribed by investors for which the financial institution may have recognized as assets in its books at the close of the subscription period.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33175",
+                    "btLogicalName": "Related Party Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF39187",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Underwriting Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF39188",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Underwriting Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF39189",
+                    "btLogicalName": "Outstanding Underwriting Commitment Reporting Date",
+                    "dqDesc": "Reference Check for Outstanding Underwriting Commitment Reporting Date in Stage Underwriting Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF39190",
+                    "btLogicalName": "Outstanding Underwriting Commitment Reporting Date",
+                    "dqDesc": "Reference Check for Outstanding Underwriting Commitment Reporting Date in Stage Underwriting Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF39191",
+                    "btLogicalName": "Subscription Period End Date",
+                    "dqDesc": "Reference Check for Subscription Period End Date in Stage Underwriting Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF39192",
+                    "btLogicalName": "Subscription Period End Date",
+                    "dqDesc": "Reference Check for Subscription Period End Date in Stage Underwriting Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF39193",
+                    "btLogicalName": "Subscription Period Start Date",
+                    "dqDesc": "Reference Check for Subscription Period Start Date in Stage Underwriting Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF39194",
+                    "btLogicalName": "Subscription Period Start Date",
+                    "dqDesc": "Reference Check for Subscription Period Start Date in Stage Underwriting Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF39195",
+                    "btLogicalName": "Corporate Action Type",
+                    "dqDesc": "Reference Check for Corporate Action Type in Stage Underwriting Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF39196",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Underwriting Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF39197",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Underwriting Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

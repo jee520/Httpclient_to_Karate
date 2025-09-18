@@ -1,0 +1,134 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Distribution Fitting Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the distribution code for which parameters are being downloaded. These are the distributions supported in the system for frequency and severity modelling.  Examples are poisson, lognormal, normal, weibull, etc. List of values of this column is referred from DIM_DISTRIBUTION_FITTING_TYPE.V_DISTR_FITTING_TYPE_CODE.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Distribution Parameter Estimate Name",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "This column stores the name of the parameter for the distribution. For example, if poison is the distribution, then lambda is the parameter name. If lognormal is the distribution, then mean log and sdlog are the parameter names. This parameter name should match with the parameter name for the distribution code in DIM_DISTRIBUTION_FITTING_TYPE. V_DISTR_FIT_PARAM1_NAME, V_DISTR_FIT_PARAM2_NAME, V_DISTR_FIT_PARAM3_NAME, V_DISTR_FIT_PARAM4_NAME, V_DISTR_FIT_PARAM5_NAME. If a distribution has more than one parameter, then order of download should be same as given in DIM_DISTRIBUTION_FITTING_TYPE in different rows.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Distribution Parameter Estimate Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Number_Factor",
+                    "gcd": "Refers to the value for the parameter provided in Distribution Parameter Estimate Name. If distribution is poisson and lambda is the parameter, then value for the parameter is stored in this column. If distribution is lognormal and parameters are mean log and sdlog then value for those parameters should be provided in different rows in the same order as parameters stored in Distribution Fitting Type Dimension.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Severity Tailed Distribution Flag",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the parameter downloaded is for a Tail Severity  Distribution or not. In case of Frequency Modeling Parameters, this column should be -1. In case of Severity Modeling Parameters this column should be either Y or N. List of values are Y,N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unit Of Measure Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code for Unit of Measure for which parameters are being downloaded. UOMs are defined through AMHM. List of values of this column is referred from Unit Of Measures Dimension table and Unit Of Measure Code column. UOM  is the granularity at which frequency and severity modelling happens. UOM Mapping can be defined at granularity of Line of Business, Event Type, risk category, etc. Combination of members of these source hierarchies are assigned unique Unit of Measure code.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33664",
+                    "btLogicalName": "Severity Tailed Distribution Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF40148",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Unit Of Measure Distribution Parameters",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF40149",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Unit Of Measure Distribution Parameters",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF40150",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Unit Of Measure Distribution Parameters",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF40151",
+                    "btLogicalName": "Unit Of Measure Code",
+                    "dqDesc": "Reference Check for Unit Of Measure Code in Stage Unit Of Measure Distribution Parameters",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

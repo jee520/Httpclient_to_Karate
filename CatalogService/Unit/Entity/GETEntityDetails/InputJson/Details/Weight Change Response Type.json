@@ -1,0 +1,152 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Weight Change Response Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Insurance Weight Change Response Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Weight Change Response Type",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Weight Change Response Type. On Risk, additional details relating to an affirmative response that does not relate to a documented medical condition may be modeled using the Weight Change Reason property also under Risk. Weight changes associated with a documented medical condition including pregnancy should be specified using the Weight Change property under Medical Condition. Sample values are POS as Applies, NEG as Does not apply, Other, unknown, UNKNOWN as Stated as Not Known.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Weight Change Response Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Weight Change Response Type. On Risk, additional details relating to an affirmative response that does not relate to a documented medical condition may be modeled using the Weight Change Reason property also under Risk. Weight changes associated with a documented medical condition including pregnancy should be specified using the Weight Change property under Medical Condition. Sample values are POS as Applies, NEG as Does not apply, Other, unknown, UNKNOWN as Stated as Not Known.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Weight Change Response Type Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This column stores the Weight Change Response Type description. On Risk, additional details relating to an affirmative response that does not relate to a documented medical condition may be modeled using the WeightChangeReason property also under Risk. Weight changes associated with a documented medical condition (including pregnancy) should be specified using the WeightChange property under Medical Condition. Sample values are POS=Applies, NEG = Does not apply, Other, unknown, UNKNOWN = Stated as Not Known.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1300",
+                    "srcLogicalName": "Stage Weight Change Response Type Master",
+                    "scdName": "scd_1300_DIM_INS_WEIGHT_CR_TYPE_STG_INS_WEIGHT_CR_TYPE_MASTER",
+                    "scdDesc": "Data movement from ins weight cr type master source to ins weight cr type dimension",
+                    "createdDate": "2024-10-26 06:02:43.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42509",
+                    "btLogicalName": "Insurance Weight Change Response Numeric Identifier",
+                    "dqDesc": "Insurance Weight Change Response Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:00.0"
+                },
+                {
+                    "dqId": "DQCUS42510",
+                    "btLogicalName": "Insurance Weight Change Response Numeric Identifier",
+                    "dqDesc": "Insurance Weight Change Response Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:00.0"
+                },
+                {
+                    "dqId": "DQLOV33032",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:00.0"
+                },
+                {
+                    "dqId": "DQNMDUP42133",
+                    "btLogicalName": "Insurance Weight Change Response Numeric Identifier",
+                    "dqDesc": "Insurance Weight Change Response Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:00.0"
+                },
+                {
+                    "dqId": "DQSPLCH43029",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:00.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}
