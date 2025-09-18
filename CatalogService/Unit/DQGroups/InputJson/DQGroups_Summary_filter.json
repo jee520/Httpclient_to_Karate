@@ -1,0 +1,29 @@
+{
+    "totalCount": 2,
+    "body": [
+        {
+            "id": "C_ENT120",
+            "dqGroupName": "CUSTOM_DQ_GROUP",
+            "dqGroupDesc": "CUSTOM_DQ_GROUP",
+            "entityName": "Stage Account Address",
+            "isCustomized": "Custom",
+            "noOfDQs": 1,
+            "noOfEntBts": 16,
+            "noOfEntBtsWithDQ": 1,
+            "noOfCustDQs": 1,
+            "noOfSeedDQs": 0
+        },
+        {
+            "id": "ENT1463",
+            "dqGroupName": "STG_ACCOUNT_ADDRESS",
+            "dqGroupDesc": "Data Quality Group for Stage Account Address",
+            "entityName": "Stage Account Address",
+            "isCustomized": "Seeded",
+            "noOfDQs": 7,
+            "noOfEntBts": 16,
+            "noOfEntBtsWithDQ": 6,
+            "noOfCustDQs": 0,
+            "noOfSeedDQs": 7
+        }
+    ]
+}

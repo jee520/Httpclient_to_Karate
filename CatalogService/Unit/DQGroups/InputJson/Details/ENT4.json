@@ -1,0 +1,572 @@
+{
+    "dataQualityChecks": [
+        {
+            "dqCheck": "DQREF39771",
+            "desc": "Reference Check for Authorizer Identifier in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Authorizer Identifier",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQLOV33430",
+            "desc": "Should have list of values as N,Y",
+            "entityName": "",
+            "btName": "Authorization Flag",
+            "checkType": "List of Values or Code Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39775",
+            "desc": "Reference Check for Acquisition Channel Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Acquisition Channel Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQMNDTR281",
+            "desc": "If not NULL then should not have spaces.",
+            "entityName": "",
+            "btName": "Batch Code",
+            "checkType": "BLANK Value Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39765",
+            "desc": "Reference Check for Branch Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Branch Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39766",
+            "desc": "Reference Check for Account Currency Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Account Currency Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39767",
+            "desc": "Reference Check for Account Ledger Tag Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Account Ledger Tag Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39768",
+            "desc": "Reference Check for Product Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Product Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQMNDTR225",
+            "desc": "Mandatory",
+            "entityName": "",
+            "btName": "Accounting Entry Identifier",
+            "checkType": "NULL Value Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39770",
+            "desc": "Reference Check for Amount Tag Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Amount Tag Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39773",
+            "desc": "Reference Check for Business Segment Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Business Segment Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39774",
+            "desc": "Reference Check for Business Unit Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Business Unit Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQLOV33431",
+            "desc": "Should have list of values as N,Y",
+            "entityName": "",
+            "btName": "Canceling Flag",
+            "checkType": "List of Values or Code Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39752",
+            "desc": "Reference Check for As Of Date in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "As Of Date",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39776",
+            "desc": "Reference Check for Counterparty Reference Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Counterparty Reference Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39780",
+            "desc": "Reference Check for General Ledger Account Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "General Ledger Account Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39781",
+            "desc": "Reference Check for Instrument Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Instrument Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQLOV33432",
+            "desc": "Should have list of values as N,Y",
+            "entityName": "",
+            "btName": "Inter Brach Flag",
+            "checkType": "List of Values or Code Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39778",
+            "desc": "Reference Check for Data Source Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Data Source Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39779",
+            "desc": "Reference Check for Error Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Error Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39777",
+            "desc": "Reference Check for Created By in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Created By",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39762",
+            "desc": "Reference Check for Value Date in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Value Date",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQMNDTR11",
+            "desc": "Mandatory",
+            "entityName": "",
+            "btName": "Debit Credit Indicator",
+            "checkType": "NULL Value Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39756",
+            "desc": "Reference Check for Processing Date in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Processing Date",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQMNDTR280",
+            "desc": "If not NULL then should not have spaces.",
+            "entityName": "",
+            "btName": "Transaction Bank Code",
+            "checkType": "BLANK Value Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39792",
+            "desc": "Reference Check for Transaction Branch Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Transaction Branch Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQMNDTR227_1",
+            "desc": "Should not have spaces",
+            "entityName": "",
+            "btName": "Transaction Event Code",
+            "checkType": "BLANK Value Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39794",
+            "desc": "Reference Check for Transaction Mnemonic Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Transaction Mnemonic Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39783",
+            "desc": "Reference Check for Legal Entity Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Legal Entity Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39786",
+            "desc": "Reference Check for Location Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Location Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39787",
+            "desc": "Reference Check for Organization Unit Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Organization Unit Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39788",
+            "desc": "Reference Check for Party Identifier in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Party Identifier",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39769",
+            "desc": "Reference Check for Accounting Standard Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Accounting Standard Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39793",
+            "desc": "Reference Check for Transaction Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Transaction Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39758",
+            "desc": "Reference Check for Transaction Reversal Date in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Transaction Reversal Date",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQMNDTR282",
+            "desc": "If not NULL then should not have spaces.",
+            "entityName": "",
+            "btName": "User Reference Code",
+            "checkType": "BLANK Value Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39785",
+            "desc": "Reference Check for Local Currency Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Local Currency Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39761",
+            "desc": "Reference Check for Transaction Date in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Transaction Date",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39754",
+            "desc": "Reference Check for Transaction Posting Date in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Transaction Posting Date",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQMNDTR226",
+            "desc": "Mandatory",
+            "entityName": "",
+            "btName": "Transaction Reference Number",
+            "checkType": "NULL Value Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQLOV33433",
+            "desc": "Should have list of values as N,Y",
+            "entityName": "",
+            "btName": "Module Suspense Flag",
+            "checkType": "List of Values or Code Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39790",
+            "desc": "Reference Check for Project Code in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Project Code",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39784",
+            "desc": "Reference Check for Ledger Identifier in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Ledger Identifier",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39782",
+            "desc": "Reference Check for Intercompany Identifier in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Intercompany Identifier",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39789",
+            "desc": "Reference Check for Policy Identifier in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Policy Identifier",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39764",
+            "desc": "Reference Check for Account Or Contract Number in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Account Or Contract Number",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "dqCheck": "DQREF39791",
+            "desc": "Reference Check for Related Account Number in Stage Accounting Entries",
+            "entityName": "",
+            "btName": "Related Account Number",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        }
+    ],
+    "bTsWithoutDQChecks": [
+        {
+            "logicalName": "Account Currency Amount",
+            "ldd": "Amount",
+            "gcd": "Refers to the account currency amount of the transaction.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Account Local Rate",
+            "ldd": "Rate_Percent_Long",
+            "gcd": "Refers to the exchange rate applied to derive the Local Currency Amount from the Account Currency amount of the transaction.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Account Module Type",
+            "ldd": "Currency",
+            "gcd": "Refers to the account transaction module for the transaction sent in by the module.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Account Transaction Type",
+            "ldd": "Currency",
+            "gcd": "Refers to the entry is template derived or JV or Other.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Accounting Entry Type",
+            "ldd": "Code_Alphanumeric_Long",
+            "gcd": "Refers to the type of accounting entries.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Accounting Period",
+            "ldd": "Currency",
+            "gcd": "Refers to the accounting period for which the transaction is being posted.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Canceled Pairing Transaction Identifier",
+            "ldd": "Code_Alphanumeric_Long",
+            "gcd": "Store the Transaction Reference Identifier of the cancelled transaction. For cancelled transactions, contains the Transaction Reference Identifier of the cancelling transaction.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Code Combination Identifier",
+            "ldd": "Code_Alphanumeric_Long",
+            "gcd": "Refers to the code combinations received from accounting hub",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Conversion Type",
+            "ldd": "Code_Alphanumeric",
+            "gcd": "Refers to the conversion type for rate conversion between entered amount and accounted amount for FAH. This may be populated for specific FAH related activities. Possible Values include spot, corporate, user.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Current Batch Number",
+            "ldd": "Numeric_Long",
+            "gcd": "Refers to the current entry number sent as part of the common batch code belonging to the current transaction that is sent.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Error Code Description",
+            "ldd": "Description_Long",
+            "gcd": "Sores the error description that has occurred for the accounting entry.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Event Date Number",
+            "ldd": "Numeric",
+            "gcd": "Refers to the date on which transaction event occurred in a number format i.e. YYYYMMDD for FAH.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Event Identifier",
+            "ldd": "Numeric_Long",
+            "gcd": "Refers to the event identifier generated via the FAH event generation program. This column should not be populated during implementation.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Event Sequence Number",
+            "ldd": "Numeric_Long",
+            "gcd": "Refers to the transaction event sequence for the transaction Retail modules will generally send the value as 1.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Financial Cycle Code",
+            "ldd": "Code_Alphanumeric",
+            "gcd": "Refers to the financial cycle for which the transaction is being posted.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Header Identifier",
+            "ldd": "Code_Alphanumeric",
+            "gcd": "Refers to the header identifier required for FAH header line Processing. A header record will have multiple transaction lines in the transaction tables.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Ledger Flag",
+            "ldd": "Indicator",
+            "gcd": "Flag to identify whether the account code is a customer account or ledger account.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Local Currency Amount",
+            "ldd": "Amount",
+            "gcd": "Refers to the local currency amount of the transaction.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Original Entry Identifier",
+            "ldd": "Code_Alphanumeric_Long",
+            "gcd": "Refers to the original Entry Id when an entry is being reversed.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Record Creation Date",
+            "ldd": "Date",
+            "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Related Module Type",
+            "ldd": "Currency",
+            "gcd": "Refers to the related transaction module for the transaction sent in by the module.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Transaction Description",
+            "ldd": "Description_Medium",
+            "gcd": "Refers to the description relating to each of the transaction.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        },
+        {
+            "logicalName": "Transaction Sub Sequence Number",
+            "ldd": "Numeric_Long",
+            "gcd": "Refers to the transaction sub sequence number for the transaction. Used to identify a pair of accounting entry for a transaction.",
+            "isPk": "NO",
+            "isNull": "YES",
+            "isPii": "NO"
+        }
+    ],
+    "executionDetails": [
+        {
+            "label": "Execution Status",
+            "value": "Execution Not Started"
+        }
+    ]
+}

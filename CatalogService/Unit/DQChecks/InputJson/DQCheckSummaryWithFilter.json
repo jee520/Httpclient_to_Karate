@@ -1,0 +1,21 @@
+{
+    "totalCount": 2,
+    "body": [
+        {
+            "id": "DQREF36665",
+            "desc": "Reference Check for As Of Date in Stage Account Address",
+            "entityName": "Stage Account Address",
+            "btName": "As Of Date",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQREF36666",
+            "desc": "Reference Check for As Of Date in Stage Account Address",
+            "entityName": "Stage Account Address",
+            "btName": "As Of Date",
+            "checkType": "Referential Integrity Check",
+            "customizedFlag": "Seeded"
+        }
+    ]
+}

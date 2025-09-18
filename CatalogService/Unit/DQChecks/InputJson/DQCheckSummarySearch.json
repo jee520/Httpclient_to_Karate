@@ -1,0 +1,2101 @@
+{
+    "totalCount": 262,
+    "body": [
+        {
+            "id": "DQNMDUP42114",
+            "desc": "Account Deviation Numeric Identifier should not have duplicates",
+            "entityName": "Stage Account Deviation Master",
+            "btName": "Account Deviation Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42196",
+            "desc": "Account Group Numeric Identifier should not have duplicates",
+            "entityName": "Stage Account Group Master",
+            "btName": "Account Group Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42188",
+            "desc": "Account Manager Numeric Identifier should not have duplicates",
+            "entityName": "Stage Account Mgmt Master",
+            "btName": "Account Manager Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42166",
+            "desc": "Account Or Contract Numeric Identifier should not have duplicates",
+            "entityName": "Stage Account Master",
+            "btName": "Account Or Contract Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42155",
+            "desc": "Account Purpose Numeric Identifier should not have duplicates",
+            "entityName": "Stage Account Purpose Master",
+            "btName": "Account Purpose Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41995",
+            "desc": "Account Status Numeric Identifier should not have duplicates",
+            "entityName": "Stage Account Status Master",
+            "btName": "Account Status Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42033",
+            "desc": "Acquired Firms Legal Entity Numeric Identifier should not have duplicates",
+            "entityName": "Stage Acquired Firm Master",
+            "btName": "Acquired Firms Legal Entity Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42072",
+            "desc": "Activity Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Opportunity Activity Type Master",
+            "btName": "Activity Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42168",
+            "desc": "Address Numeric Identifier should not have duplicates",
+            "entityName": "Stage Address Master",
+            "btName": "Address Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42073",
+            "desc": "Address Purpose Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Address Purpose Type Master",
+            "btName": "Address Purpose Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42208",
+            "desc": "Applicant Status Numeric Identifier should not have duplicates",
+            "entityName": "Stage Application Status Master",
+            "btName": "Applicant Status Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42078",
+            "desc": "Application Decision Event Numeric Identifier should not have duplicates",
+            "entityName": "Stage Application Decision Event Master",
+            "btName": "Application Decision Event Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42151",
+            "desc": "Application Decision Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Decision Status Master",
+            "btName": "Application Decision Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42144",
+            "desc": "Application Group Numeric Identifier should not have duplicates",
+            "entityName": "Stage Application Group Master",
+            "btName": "Application Group Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42101",
+            "desc": "Application Numeric Identifier should not have duplicates",
+            "entityName": "Stage Application Master",
+            "btName": "Application Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42131",
+            "desc": "Application Purpose Numeric Identifier should not have duplicates",
+            "entityName": "Stage Application Purpose Master",
+            "btName": "Application Purpose Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42039",
+            "desc": "Application Rejection Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Application Reject Reasons Master",
+            "btName": "Application Rejection Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42209",
+            "desc": "Application Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Application Type Master",
+            "btName": "Application Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42132",
+            "desc": "Assumed Policy Numeric Identifier should not have duplicates",
+            "entityName": "Stage Assumed Policy Master",
+            "btName": "Assumed Policy Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42105",
+            "desc": "Attrition Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Attrition Master",
+            "btName": "Attrition Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42087",
+            "desc": "Authorization Decision Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Authorization Decision Reasons Master",
+            "btName": "Authorization Decision Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41984",
+            "desc": "Available Intraday Liquidity Source Numeric Identifier should not have duplicates",
+            "entityName": "Stage Available Intraday Liquidity Source",
+            "btName": "Available Intraday Liquidity Source Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42191",
+            "desc": "Balance Category Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Card Balance Category Master",
+            "btName": "Balance Category Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42003",
+            "desc": "Balance Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Balance Type Master",
+            "btName": "Balance Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42035",
+            "desc": "Bankruptcy Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Bankruptcy Type Master",
+            "btName": "Bankruptcy Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42056",
+            "desc": "Batch Numeric Identifier should not have duplicates",
+            "entityName": "Stage Accounting Entries Batch Code Master",
+            "btName": "Batch Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42180",
+            "desc": "Bill Plan Numeric Identifier should not have duplicates",
+            "entityName": "Stage Bill Plan Master",
+            "btName": "Bill Plan Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42102",
+            "desc": "Branch Numeric Identifier should not have duplicates",
+            "entityName": "Stage Branch Master",
+            "btName": "Branch Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42075",
+            "desc": "Bucket Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Simulation Bucket Type Master",
+            "btName": "Bucket Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42118",
+            "desc": "Business Class Numeric Identifier should not have duplicates",
+            "entityName": "Stage Business Class Master",
+            "btName": "Business Class Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42062",
+            "desc": "Business Segment Numeric Identifier should not have duplicates",
+            "entityName": "Stage Business Segment",
+            "btName": "Business Segment Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42189",
+            "desc": "Business Unit Numeric Identifier should not have duplicates",
+            "entityName": "Stage Business Unit Master",
+            "btName": "Business Unit Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41978",
+            "desc": "Campaign Channel Numeric Identifier should not have duplicates",
+            "entityName": "Stage Campaign Channel Master",
+            "btName": "Campaign Channel Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42130",
+            "desc": "Campaign Numeric Identifier should not have duplicates",
+            "entityName": "Stage Campaign Master",
+            "btName": "Campaign Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42210",
+            "desc": "Campaign Response Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Response Type Master",
+            "btName": "Campaign Response Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41981",
+            "desc": "Campaign Status Numeric Identifier should not have duplicates",
+            "entityName": "Stage Campaign Status Master",
+            "btName": "Campaign Status Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41972",
+            "desc": "Campaign Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Campaign Type Master",
+            "btName": "Campaign Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42115",
+            "desc": "Campaign Wave Numeric Identifier should not have duplicates",
+            "entityName": "Stage Campaign Wave Master",
+            "btName": "Campaign Wave Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41982",
+            "desc": "Capital Requirement Numeric Identifier should not have duplicates",
+            "entityName": "Stage Capital Requirement Type Master",
+            "btName": "Capital Requirement Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42084",
+            "desc": "Card Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Card Type Master",
+            "btName": "Card Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42135",
+            "desc": "Cash Flow Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Cash Flow Type Master",
+            "btName": "Cash Flow Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42228",
+            "desc": "Catastrophe Numeric Identifier should not have duplicates",
+            "entityName": "Stage Catastrophe Events Master",
+            "btName": "Catastrophe Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42120",
+            "desc": "Cedent Asset Classification Numeric Identifier should not have duplicates",
+            "entityName": "Stage Cedent Asset Classification Master",
+            "btName": "Cedent Asset Classification Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42013",
+            "desc": "Central Authority Numeric Identifier should not have duplicates",
+            "entityName": "Stage Central Authority Master",
+            "btName": "Central Authority Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42093",
+            "desc": "Channel Code Numeric Identifier should not have duplicates",
+            "entityName": "Transaction Channel Master",
+            "btName": "Channel Code Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42055",
+            "desc": "Channel Numeric Identifier should not have duplicates",
+            "entityName": "Stage Channel Master",
+            "btName": "Channel Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42029",
+            "desc": "Claim Numeric Identifier should not have duplicates",
+            "entityName": "Stage Claim Master",
+            "btName": "Claim Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41983",
+            "desc": "Cohort Composition Numeric Identifier should not have duplicates",
+            "entityName": "Stage Cohort Composition Master",
+            "btName": "Cohort Composition Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42014",
+            "desc": "Collection Officer Numeric Identifier should not have duplicates",
+            "entityName": "Stage Collection Officer Master",
+            "btName": "Collection Officer Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42121",
+            "desc": "Commodity Grade Numeric Identifier should not have duplicates",
+            "entityName": "Stage Commodity Grade Master",
+            "btName": "Commodity Grade Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42218",
+            "desc": "Commodity Group Numeric Identifier should not have duplicates",
+            "entityName": "Stage Commodity Group Master",
+            "btName": "Commodity Group Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42182",
+            "desc": "Commodity Numeric Identifier should not have duplicates",
+            "entityName": "Stage Commodity Master",
+            "btName": "Commodity Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42193",
+            "desc": "Common Chart Of Account Numeric Identifier should not have duplicates",
+            "entityName": "Stage Common Coa Master",
+            "btName": "Common Chart Of Account Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41985",
+            "desc": "Compensation Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Compensation Type Master",
+            "btName": "Compensation Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42090",
+            "desc": "Consent Purpose Numeric Identifier should not have duplicates",
+            "entityName": "Stage Consent Purpose Master",
+            "btName": "Consent Purpose Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42122",
+            "desc": "Consolidation Approach Numeric Identifier should not have duplicates",
+            "entityName": "Stage Consolidation Approach",
+            "btName": "Consolidation Approach Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42016",
+            "desc": "Constituted Form Numeric Identifier should not have duplicates",
+            "entityName": "Stage Constituted Form Master",
+            "btName": "Constituted Form Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42015",
+            "desc": "Contact Method Numeric Identifier should not have duplicates",
+            "entityName": "Stage Contact Method Master",
+            "btName": "Contact Method Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41988",
+            "desc": "Contract Unwinding Trigger Numeric Identifier should not have duplicates",
+            "entityName": "Stage Contract Unwind Trigger Master",
+            "btName": "Contract Unwinding Trigger Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42170",
+            "desc": "Country Numeric Identifier should not have duplicates",
+            "entityName": "Stage Country Master",
+            "btName": "Country Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42198",
+            "desc": "Coverage Numeric Identifier should not have duplicates",
+            "entityName": "Stage Insurance Coverage Master",
+            "btName": "Coverage Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42089",
+            "desc": "Credit Center Location Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Center Master",
+            "btName": "Credit Center Location Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42215",
+            "desc": "Credit Default Swap Index Numeric Identifier should not have duplicates",
+            "entityName": "Stage CDS Index Name Master",
+            "btName": "Credit Default Swap Index Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42080",
+            "desc": "Credit Line Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Facility Master",
+            "btName": "Credit Line Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42192",
+            "desc": "Credit Line Purpose Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Facility Purpose Master",
+            "btName": "Credit Line Purpose Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42082",
+            "desc": "Credit Line Status Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Line Status Master",
+            "btName": "Credit Line Status Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42212",
+            "desc": "Credit Line Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Facility Type Master",
+            "btName": "Credit Line Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42083",
+            "desc": "Credit Loss Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Loss Reason Master",
+            "btName": "Credit Loss Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41986",
+            "desc": "Credit Officer Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Officer Master",
+            "btName": "Credit Officer Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42194",
+            "desc": "Credit Participation Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Participation Master",
+            "btName": "Credit Participation Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42100",
+            "desc": "Credit Participation Tranche Identifier Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Participation Tranch",
+            "btName": "Credit Participation Tranche Identifier Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42109",
+            "desc": "Credit Quality Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Quality Type Master",
+            "btName": "Credit Quality Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42221",
+            "desc": "Credit Rating Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Rating Master",
+            "btName": "Credit Rating Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42017",
+            "desc": "Credit Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Reason Master",
+            "btName": "Credit Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42018",
+            "desc": "Credit Score Model Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Score Model Master",
+            "btName": "Credit Score Model Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42186",
+            "desc": "Currency Rate Version Numeric Identifier should not have duplicates",
+            "entityName": "Stage Currency Rate Version Master",
+            "btName": "Currency Rate Version Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42159",
+            "desc": "Customer Education Numeric Identifier should not have duplicates",
+            "entityName": "Stage Customer Education Master",
+            "btName": "Customer Education Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42063",
+            "desc": "Customer Employment Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Customer Employment Type Master",
+            "btName": "Customer Employment Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42034",
+            "desc": "Customer Profession Numeric Identifier should not have duplicates",
+            "entityName": "Stage Profession Master",
+            "btName": "Customer Profession Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42030",
+            "desc": "Data Source Numeric Identifier should not have duplicates",
+            "entityName": "Stage Data Source Master",
+            "btName": "Data Source Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42107",
+            "desc": "Deal Numeric Identifier should not have duplicates",
+            "entityName": "Stage Deal Master",
+            "btName": "Deal Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42143",
+            "desc": "Dealer Group Numeric Identifier should not have duplicates",
+            "entityName": "Stage Dealer Group Master",
+            "btName": "Dealer Group Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42125",
+            "desc": "Dealer Numeric Identifier should not have duplicates",
+            "entityName": "Stage Dealer Master",
+            "btName": "Dealer Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42025",
+            "desc": "Deductible Numeric Identifier should not have duplicates",
+            "entityName": "Stage Deductible Master",
+            "btName": "Deductible Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42064",
+            "desc": "Deviation Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Deviation Reason Master",
+            "btName": "Deviation Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42163",
+            "desc": "Dividend Payout Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Dividend Payout Type Master",
+            "btName": "Dividend Payout Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42142",
+            "desc": "Document Sub Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Document Sub Type Master",
+            "btName": "Document Sub Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42183",
+            "desc": "Document Submission Status Numeric Identifier should not have duplicates",
+            "entityName": "Stage Document Submission Status Master",
+            "btName": "Document Submission Status Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42141",
+            "desc": "Document Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Document Type Master",
+            "btName": "Document Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42048",
+            "desc": "Economic Zone Numeric Identifier should not have duplicates",
+            "entityName": "Stage Economic Zone Master",
+            "btName": "Economic Zone Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42052",
+            "desc": "Email Address Purpose Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Email Address Purpose Type Master",
+            "btName": "Email Address Purpose Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42071",
+            "desc": "Employee Numeric Identifier should not have duplicates",
+            "entityName": "Stage Employee Master",
+            "btName": "Employee Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42049",
+            "desc": "Encumbrance Source Numeric Identifier should not have duplicates",
+            "entityName": "Stage Encumbrance Sources",
+            "btName": "Encumbrance Source Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42021",
+            "desc": "Error Code Numeric Identifier should not have duplicates",
+            "entityName": "Stage Accounting Entries Error Code Master",
+            "btName": "Error Code Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42184",
+            "desc": "Expense Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Expense Type Master",
+            "btName": "Expense Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42145",
+            "desc": "Feature Numeric Identifier should not have duplicates",
+            "entityName": "Stage Product Feature Master",
+            "btName": "Feature Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42150",
+            "desc": "Financial Variable Numeric Identifier should not have duplicates",
+            "entityName": "Stage Financial Variable Master",
+            "btName": "Financial Variable Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42066",
+            "desc": "Financial Year Numeric Identifier should not have duplicates",
+            "entityName": "Stage Financial Year Master",
+            "btName": "Financial Year Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42022",
+            "desc": "Fixed Asset Numeric Identifier should not have duplicates",
+            "entityName": "Stage Fixed Assets Master",
+            "btName": "Fixed Asset Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42037",
+            "desc": "Fixed Asset Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Fixed Assets Type Master",
+            "btName": "Fixed Asset Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42086",
+            "desc": "Forbearance Status Numeric Identifier should not have duplicates",
+            "entityName": "Stage Forborne Status",
+            "btName": "Forbearance Status Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42088",
+            "desc": "Forecast Scenario Numeric Identifier should not have duplicates",
+            "entityName": "Stage Forecast Scenario Master",
+            "btName": "Forecast Scenario Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42011",
+            "desc": "Fraud Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Fraud Reason Master",
+            "btName": "Fraud Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42127",
+            "desc": "Fund Numeric Identifier should not have duplicates",
+            "entityName": "Stage Fund Master",
+            "btName": "Fund Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41993",
+            "desc": "Fund Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Fund Type Master",
+            "btName": "Fund Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42207",
+            "desc": "General Ledger Combination Numeric Identifier should not have duplicates",
+            "entityName": "Stage General Ledger Combination Master",
+            "btName": "General Ledger Combination Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42134",
+            "desc": "General Ledger Numeric Identifier should not have duplicates",
+            "entityName": "Stage General Ledger Account Master",
+            "btName": "General Ledger Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42036",
+            "desc": "Guarantee Scheme Numeric Identifier should not have duplicates",
+            "entityName": "Stage Credit Guarantee Scheme Dimension Master",
+            "btName": "Guarantee Scheme Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42038",
+            "desc": "Guarantor Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Guarantor Type",
+            "btName": "Guarantor Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42172",
+            "desc": "Hedge Name Numeric Identifier should not have duplicates",
+            "entityName": "Stage Hedge Master",
+            "btName": "Hedge Name Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42059",
+            "desc": "Hedge Numeric Identifier should not have duplicates",
+            "entityName": "Stage Hedge Type Master",
+            "btName": "Hedge Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42058",
+            "desc": "Hedge Portfolio Set Numeric Identifier should not have duplicates",
+            "entityName": "Stage Hedge Portfolio Set Master",
+            "btName": "Hedge Portfolio Set Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42031",
+            "desc": "Hedge Status Numeric Identifier should not have duplicates",
+            "entityName": "Stage Hedge Status Master",
+            "btName": "Hedge Status Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42174",
+            "desc": "Hedging Strategy Numeric Identifier should not have duplicates",
+            "entityName": "Stage Hedging Strategy Master",
+            "btName": "Hedging Strategy Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42149",
+            "desc": "Home Ownership Numeric Identifier should not have duplicates",
+            "entityName": "Stage Home Ownership Master",
+            "btName": "Home Ownership Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41973",
+            "desc": "Household Numeric Identifier should not have duplicates",
+            "entityName": "Stage Household Master",
+            "btName": "Household Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42065",
+            "desc": "Index Numeric Identifier should not have duplicates",
+            "entityName": "Stage Index Master",
+            "btName": "Index Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42190",
+            "desc": "Industry Numeric Identifier should not have duplicates",
+            "entityName": "Stage Industry Master",
+            "btName": "Industry Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42106",
+            "desc": "Inflation Index Numeric Identifier should not have duplicates",
+            "entityName": "Stage Inflation Index Name Master",
+            "btName": "Inflation Index Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42091",
+            "desc": "Institution Primary Function Numeric Identifier should not have duplicates",
+            "entityName": "Stage Institution Primary Function Staging",
+            "btName": "Institution Primary Function Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42200",
+            "desc": "Instrument Numeric Identifier should not have duplicates",
+            "entityName": "Stage Instrument Contract Master",
+            "btName": "Instrument Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41997",
+            "desc": "Instrument Numeric Identifier should not have duplicates",
+            "entityName": "Stage Bank Instrument Type Master",
+            "btName": "Instrument Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42148",
+            "desc": "Insurance Loss Modeling Component Numeric Identifier should not have duplicates",
+            "entityName": "Stage Insurance Loss Modeling Component Master",
+            "btName": "Insurance Loss Modeling Component Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42214",
+            "desc": "Insurance Risk Category Numeric Identifier should not have duplicates",
+            "entityName": "Stage Insurance Loss Simulation Risk Category Master",
+            "btName": "Insurance Risk Category Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42085",
+            "desc": "Insurance Underwriting Issue Sub Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Insurance Underwriting Issue Sub Type Master",
+            "btName": "Insurance Underwriting Issue Sub Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42147",
+            "desc": "Insurance Underwriting Issue Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Insurance Underwriting Issue Type Master",
+            "btName": "Insurance Underwriting Issue Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42133",
+            "desc": "Insurance Weight Change Response Numeric Identifier should not have duplicates",
+            "entityName": "Stage Weight Change Response Type Master",
+            "btName": "Insurance Weight Change Response Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41975",
+            "desc": "Interest Rate Numeric Identifier should not have duplicates",
+            "entityName": "Stage Interest Rate Curve",
+            "btName": "Interest Rate Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42222",
+            "desc": "Issuer Numeric Identifier should not have duplicates",
+            "entityName": "Stage Issuer Master",
+            "btName": "Issuer Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42226",
+            "desc": "Lease Purpose Numeric Identifier should not have duplicates",
+            "entityName": "Stage Lease Purpose Master",
+            "btName": "Lease Purpose Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42061",
+            "desc": "Ledger Numeric Identifier should not have duplicates",
+            "entityName": "Stage Ledger master",
+            "btName": "Ledger Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41979",
+            "desc": "Legal Entity Group Numeric Identifier should not have duplicates",
+            "entityName": "Stage Legal Entity Group Master",
+            "btName": "Legal Entity Group Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41967",
+            "desc": "Legal Entity Numeric Identifier should not have duplicates",
+            "entityName": "Stage Legal Entity Master",
+            "btName": "Legal Entity Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42005",
+            "desc": "Legal Proceeding Status Numeric Identifier should not have duplicates",
+            "entityName": "Stage Legal Proceeding Status Master",
+            "btName": "Legal Proceeding Status Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41987",
+            "desc": "Level Of Influence Numeric Identifier should not have duplicates",
+            "entityName": "Stage Entity Influence Master",
+            "btName": "Level Of Influence Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42103",
+            "desc": "Line Of Business Numeric Identifier should not have duplicates",
+            "entityName": "Stage Line Of Business Master",
+            "btName": "Line Of Business Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41994",
+            "desc": "Litigation Numeric Identifier should not have duplicates",
+            "entityName": "Stage Litigation Master",
+            "btName": "Litigation Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42171",
+            "desc": "Loan Purpose Numeric Identifier should not have duplicates",
+            "entityName": "Stage Loan Purpose Master",
+            "btName": "Loan Purpose Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42175",
+            "desc": "Loan Recourse Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Loan Recourse Type Master",
+            "btName": "Loan Recourse Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42077",
+            "desc": "Loan Waiver Scheme Numeric Identifier should not have duplicates",
+            "entityName": "Stage Loan Waiver Scheme Dimension Master",
+            "btName": "Loan Waiver Scheme Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42000",
+            "desc": "Location Numeric Identifier should not have duplicates",
+            "entityName": "Stage Location Master",
+            "btName": "Location Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42070",
+            "desc": "Loss Event Numeric Identifier should not have duplicates",
+            "entityName": "Stage Loss Event Master",
+            "btName": "Loss Event Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42076",
+            "desc": "Loss Mitigation Program Numeric Identifier should not have duplicates",
+            "entityName": "Stage Loss Mitigation Program Master",
+            "btName": "Loss Mitigation Program Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42006",
+            "desc": "Loss Share Agreement Numeric Identifier should not have duplicates",
+            "entityName": "Stage Loss Share Agreement Master",
+            "btName": "Loss Share Agreement Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42201",
+            "desc": "Macro Economic Variable Numeric Identifier should not have duplicates",
+            "entityName": "Stage Macro Economic Variables Master",
+            "btName": "Macro Economic Variable Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42116",
+            "desc": "Marital Status Numeric Identifier should not have duplicates",
+            "entityName": "Stage Marital Status Master",
+            "btName": "Marital Status Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41989",
+            "desc": "Market Cell Numeric Identifier should not have duplicates",
+            "entityName": "Stage Market Cell Master",
+            "btName": "Market Cell Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42223",
+            "desc": "Market Centre Numeric Identifier should not have duplicates",
+            "entityName": "Stage Market Center Master",
+            "btName": "Market Centre Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42225",
+            "desc": "Market Risk Asset Numeric Identifier should not have duplicates",
+            "entityName": "Stage Mr Asset Master",
+            "btName": "Market Risk Asset Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42146",
+            "desc": "Market Risk Position Numeric Identifier should not have duplicates",
+            "entityName": "Stage Position Type Master",
+            "btName": "Market Risk Position Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42051",
+            "desc": "Market Variable Numeric Identifier should not have duplicates",
+            "entityName": "Stage Market Variables Master",
+            "btName": "Market Variable Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42185",
+            "desc": "Marketing Program Numeric Identifier should not have duplicates",
+            "entityName": "Stage Marketing Program Master",
+            "btName": "Marketing Program Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41977",
+            "desc": "Merchant Category Numeric Identifier should not have duplicates",
+            "entityName": "Stage Merchant Category Master",
+            "btName": "Merchant Category Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42027",
+            "desc": "Merchant Numeric Identifier should not have duplicates",
+            "entityName": "Stage Merchant Master",
+            "btName": "Merchant Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42046",
+            "desc": "Migration Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Migration Reason Master",
+            "btName": "Migration Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42001",
+            "desc": "Mitigant Numeric Identifier should not have duplicates",
+            "entityName": "Stage Mitigant Master",
+            "btName": "Mitigant Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42050",
+            "desc": "Mitigant Security Interest Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Mitigant Security Interest Type Table",
+            "btName": "Mitigant Security Interest Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42012",
+            "desc": "Mitigant Sub Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Mitigant Sub Type Master",
+            "btName": "Mitigant Sub Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42204",
+            "desc": "Mitigant Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Mitigant Type Master",
+            "btName": "Mitigant Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42224",
+            "desc": "Mortgage Servicing Rights Numeric Identifier should not have duplicates",
+            "entityName": "Stage Mortgage Servicing Rights Master",
+            "btName": "Mortgage Servicing Rights Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42024",
+            "desc": "Netting Agreement Numeric Identifier should not have duplicates",
+            "entityName": "Stage Netting Agreement Master",
+            "btName": "Netting Agreement Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42123",
+            "desc": "Non Performing Category Numeric Identifier should not have duplicates",
+            "entityName": "Stage Non Performing Category",
+            "btName": "Non Performing Category Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42067",
+            "desc": "Offer Numeric Identifier should not have duplicates",
+            "entityName": "Stage Offer Master",
+            "btName": "Offer Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42152",
+            "desc": "Online Account User Numeric Identifier should not have duplicates",
+            "entityName": "Stage Online Account",
+            "btName": "Online Account User Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41999",
+            "desc": "Operating Economic Zone Numeric Identifier should not have duplicates",
+            "entityName": "Stage Operating Economic Zone Master",
+            "btName": "Operating Economic Zone Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42195",
+            "desc": "Opportunity Win Loss Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Opportunity Win Loss Reason Master",
+            "btName": "Opportunity Win Loss Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41968",
+            "desc": "Organization Unit Numeric Identifier should not have duplicates",
+            "entityName": "Stage Organization Unit Master",
+            "btName": "Organization Unit Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42205",
+            "desc": "Ownership Category Numeric Identifier should not have duplicates",
+            "entityName": "Stage Ownership Category",
+            "btName": "Ownership Category Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42044",
+            "desc": "Participation Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Participation Type Master",
+            "btName": "Participation Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42197",
+            "desc": "Partner Numeric Identifier should not have duplicates",
+            "entityName": "Stage Partner Master",
+            "btName": "Partner Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42199",
+            "desc": "Party Numeric Identifier should not have duplicates",
+            "entityName": "Stage Party Master",
+            "btName": "Party Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42227",
+            "desc": "Party Or Account Phone Purpose Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Phone Purpose Type Master",
+            "btName": "Party Or Account Phone Purpose Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42217",
+            "desc": "Party Role Numeric Identifier should not have duplicates",
+            "entityName": "Stage Party Role Master",
+            "btName": "Party Role Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42167",
+            "desc": "Party Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Party Type Master",
+            "btName": "Party Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42126",
+            "desc": "Payment Numeric Identifier should not have duplicates",
+            "entityName": "Stage Payment Type Master",
+            "btName": "Payment Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42153",
+            "desc": "Payment Settlement System Numeric Identifier should not have duplicates",
+            "entityName": "Stage Payment And Settlement System",
+            "btName": "Payment Settlement System Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42202",
+            "desc": "Placed Collateral Numeric Identifier should not have duplicates",
+            "entityName": "Stage Placed Collateral Master",
+            "btName": "Placed Collateral Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42216",
+            "desc": "Placed Collateral Purpose Numeric Identifier should not have duplicates",
+            "entityName": "Stage Collateral Purpose",
+            "btName": "Placed Collateral Purpose Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42028",
+            "desc": "Policy Numeric Identifier should not have duplicates",
+            "entityName": "Stage Policy Master",
+            "btName": "Policy Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42158",
+            "desc": "Portfolio Numeric Identifier should not have duplicates",
+            "entityName": "Stage Portfolio Master",
+            "btName": "Portfolio Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42045",
+            "desc": "Portfolio Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Portfolio Type Master",
+            "btName": "Portfolio Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42164",
+            "desc": "Premium Offset Method Numeric Identifier should not have duplicates",
+            "entityName": "Stage Premium Offset Method Master",
+            "btName": "Premium Offset Method Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42213",
+            "desc": "Premium Payment Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Premium Payment Type Master",
+            "btName": "Premium Payment Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42068",
+            "desc": "Premium Suspense Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Premium Suspense Reason Master",
+            "btName": "Premium Suspense Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42004",
+            "desc": "Prepayment Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Prepayment Reason Master",
+            "btName": "Prepayment Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42181",
+            "desc": "Probability Of Default Model Numeric Identifier should not have duplicates",
+            "entityName": "Stage Probability Of Default Model Master",
+            "btName": "Probability Of Default Model Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42162",
+            "desc": "Probability of Default Term Structure Numeric Identifier should not have duplicates",
+            "entityName": "Stage Pd Term Structure Master",
+            "btName": "Probability of Default Term Structure Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42165",
+            "desc": "Producer Numeric Identifier should not have duplicates",
+            "entityName": "Stage Producer Master",
+            "btName": "Producer Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41996",
+            "desc": "Product Category Numeric Identifier should not have duplicates",
+            "entityName": "Stage Product Category Master",
+            "btName": "Product Category Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42069",
+            "desc": "Product Numeric Identifier should not have duplicates",
+            "entityName": "Stage Product Master",
+            "btName": "Product Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41980",
+            "desc": "Product Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Product Type Master",
+            "btName": "Product Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42177",
+            "desc": "Profession Sub Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Profession Sub Type Master",
+            "btName": "Profession Sub Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42179",
+            "desc": "Program Numeric Identifier should not have duplicates",
+            "entityName": "Stage Program Master",
+            "btName": "Program Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42129",
+            "desc": "Project Numeric Identifier should not have duplicates",
+            "entityName": "Stage Project master",
+            "btName": "Project Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42097",
+            "desc": "Property Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Property Type Master",
+            "btName": "Property Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42157",
+            "desc": "Prospect Numeric Identifier should not have duplicates",
+            "entityName": "Stage Prospect Master",
+            "btName": "Prospect Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42104",
+            "desc": "Purchase Category Numeric Identifier should not have duplicates",
+            "entityName": "Stage Purchase Category Master",
+            "btName": "Purchase Category Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42079",
+            "desc": "Quote Declination Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Quote Declination Type",
+            "btName": "Quote Declination Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42008",
+            "desc": "Quote Source Method Numeric Identifier should not have duplicates",
+            "entityName": "Stage Quote Source Method",
+            "btName": "Quote Source Method Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42178",
+            "desc": "Quote Source Numeric Identifier should not have duplicates",
+            "entityName": "Stage Quote Source",
+            "btName": "Quote Source Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42140",
+            "desc": "Quote Status Numeric Identifier should not have duplicates",
+            "entityName": "Stage Quote Status Master",
+            "btName": "Quote Status Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42007",
+            "desc": "Quote Submission Method Numeric Identifier should not have duplicates",
+            "entityName": "Stage Quote Submission Method",
+            "btName": "Quote Submission Method Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42032",
+            "desc": "Quote Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Quote Type Master",
+            "btName": "Quote Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42099",
+            "desc": "Rate Plan Numeric Identifier should not have duplicates",
+            "entityName": "Stage Rate Plan Master",
+            "btName": "Rate Plan Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41971",
+            "desc": "Recovery Agent Numeric Identifier should not have duplicates",
+            "entityName": "Stage Recovery Agent Master",
+            "btName": "Recovery Agent Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42139",
+            "desc": "Recovery Numeric Identifier should not have duplicates",
+            "entityName": "Stage Recovery Type Master",
+            "btName": "Recovery Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42138",
+            "desc": "Region Numeric Identifier should not have duplicates",
+            "entityName": "Stage Region Master",
+            "btName": "Region Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42010",
+            "desc": "Rejection Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Rejection Reason Master",
+            "btName": "Rejection Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42098",
+            "desc": "Relationship Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Party Relationship Type Master",
+            "btName": "Relationship Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41990",
+            "desc": "Report Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Report Type",
+            "btName": "Report Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42211",
+            "desc": "Repurchase Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Repurchase Reasons Master",
+            "btName": "Repurchase Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41976",
+            "desc": "Reserve Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Reserve Type Master",
+            "btName": "Reserve Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42113",
+            "desc": "Retention Offer Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Retention Offer Master",
+            "btName": "Retention Offer Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42219",
+            "desc": "Run Off Measure Numeric Identifier should not have duplicates",
+            "entityName": "Stage Run-Off Measure Master",
+            "btName": "Run Off Measure Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42054",
+            "desc": "Sales Representative Numeric Identifier should not have duplicates",
+            "entityName": "Stage Sales Rep Master",
+            "btName": "Sales Representative Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42019",
+            "desc": "Sales Stage Numeric Identifier should not have duplicates",
+            "entityName": "Stage Sales Stage Master",
+            "btName": "Sales Stage Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42108",
+            "desc": "Securitization Facility Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Securitization Facility Type Master",
+            "btName": "Securitization Facility Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42119",
+            "desc": "Securitization Pool Class Numeric Identifier should not have duplicates",
+            "entityName": "Stage Pool Class Master",
+            "btName": "Securitization Pool Class Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42047",
+            "desc": "Securitization Pool Numeric Identifier should not have duplicates",
+            "entityName": "Stage Pool Identification Master",
+            "btName": "Securitization Pool Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41974",
+            "desc": "Securitization Pool Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Securitization Pool Type Master",
+            "btName": "Securitization Pool Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42053",
+            "desc": "Securitization Program Numeric Identifier should not have duplicates",
+            "entityName": "Stage Securitization Program Master",
+            "btName": "Securitization Program Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42176",
+            "desc": "Securitization Status Numeric Identifier should not have duplicates",
+            "entityName": "Stage Securitization Status Master",
+            "btName": "Securitization Status Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41998",
+            "desc": "Securitization Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Securitisation Type Master",
+            "btName": "Securitization Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42117",
+            "desc": "Seniority Numeric Identifier should not have duplicates",
+            "entityName": "Stage Exposure Seniority Master",
+            "btName": "Seniority Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42094",
+            "desc": "Service Charge Numeric Identifier should not have duplicates",
+            "entityName": "Stage Service Charge Master",
+            "btName": "Service Charge Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42092",
+            "desc": "Service Representative Numeric Identifier should not have duplicates",
+            "entityName": "Stage Service Rep Master",
+            "btName": "Service Representative Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42009",
+            "desc": "Service Request Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Request Type Master",
+            "btName": "Service Request Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41991",
+            "desc": "Service Slippage Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Service Slippage Reason Master",
+            "btName": "Service Slippage Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42096",
+            "desc": "Shareholder Numeric Identifier should not have duplicates",
+            "entityName": "Stage Shareholder Master",
+            "btName": "Shareholder Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42206",
+            "desc": "Social Media Numeric Identifier should not have duplicates",
+            "entityName": "Stage Social Media Master",
+            "btName": "Social Media Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42203",
+            "desc": "Special Term Numeric Identifier should not have duplicates",
+            "entityName": "Stage Special Term Master",
+            "btName": "Special Term Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42136",
+            "desc": "Stock Or Index Numeric Identifier should not have duplicates",
+            "entityName": "Stage Stock Index Master",
+            "btName": "Stock Or Index Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42220",
+            "desc": "Survey Numeric Identifier should not have duplicates",
+            "entityName": "Stage Survey Master",
+            "btName": "Survey Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42154",
+            "desc": "Target Method Numeric Identifier should not have duplicates",
+            "entityName": "Stage Targeting Method Master",
+            "btName": "Target Method Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42160",
+            "desc": "Term Structure Numeric Identifier should not have duplicates",
+            "entityName": "Stage Term Structure Master",
+            "btName": "Term Structure Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42187",
+            "desc": "Terminal Numeric Identifier should not have duplicates",
+            "entityName": "Stage Terminal Master",
+            "btName": "Terminal Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42137",
+            "desc": "Terminal Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Terminal Type Master",
+            "btName": "Terminal Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42173",
+            "desc": "Ticker Symbol Numeric Identifier should not have duplicates",
+            "entityName": "Stage Stock Ticker Master",
+            "btName": "Ticker Symbol Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42095",
+            "desc": "Trading Desk Numeric Identifier should not have duplicates",
+            "entityName": "Stage Trading Desk Master",
+            "btName": "Trading Desk Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42002",
+            "desc": "Transaction Failure Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Transactions Failure Reason Master",
+            "btName": "Transaction Failure Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41992",
+            "desc": "Transaction Mnemonic Numeric Identifier should not have duplicates",
+            "entityName": "Transaction Mnemonic Master",
+            "btName": "Transaction Mnemonic Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41969",
+            "desc": "Transaction Numeric Identifier should not have duplicates",
+            "entityName": "Stage Transaction Master",
+            "btName": "Transaction Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42060",
+            "desc": "Transaction Purpose Numeric Identifier should not have duplicates",
+            "entityName": "Stage Transaction Purpose Master",
+            "btName": "Transaction Purpose Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP41970",
+            "desc": "Treatment Numeric Identifier should not have duplicates",
+            "entityName": "Stage Treatment Master",
+            "btName": "Treatment Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42156",
+            "desc": "Underlying Numeric Identifier should not have duplicates",
+            "entityName": "Stage Underlying Master",
+            "btName": "Underlying Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42020",
+            "desc": "Underlying Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Underlying Type Master",
+            "btName": "Underlying Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42074",
+            "desc": "Underlying Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Exp Underlying Type Master",
+            "btName": "Underlying Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42026",
+            "desc": "Underwriter Numeric Identifier should not have duplicates",
+            "entityName": "Stage Underwriter Master",
+            "btName": "Underwriter Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42043",
+            "desc": "Valuation Method Numeric Identifier should not have duplicates",
+            "entityName": "Stage Valuation Method Master",
+            "btName": "Valuation Method Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42112",
+            "desc": "Vehicle Body Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Vehicle Body Type Master",
+            "btName": "Vehicle Body Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42111",
+            "desc": "Vehicle Lease Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Vehicle Lease Type Master",
+            "btName": "Vehicle Lease Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42128",
+            "desc": "Vehicle Numeric Identifier should not have duplicates",
+            "entityName": "Stage Vehicle Master",
+            "btName": "Vehicle Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42042",
+            "desc": "Vehicle Purpose Numeric Identifier should not have duplicates",
+            "entityName": "Stage Vehicle Purpose Master",
+            "btName": "Vehicle Purpose Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42023",
+            "desc": "Vehicle Rating Numeric Identifier should not have duplicates",
+            "entityName": "Stage Vehicle Rating Master",
+            "btName": "Vehicle Rating Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42169",
+            "desc": "Vehicle Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Vehicle Type Master",
+            "btName": "Vehicle Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42081",
+            "desc": "Vehicle Tyre Type Numeric Identifier should not have duplicates",
+            "entityName": "Stage Vehicle Tyre Type Master",
+            "btName": "Vehicle Tyre Type Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42057",
+            "desc": "Vendor Numeric Identifier should not have duplicates",
+            "entityName": "Stage Vendor Master",
+            "btName": "Vendor Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42124",
+            "desc": "Vintage Numeric Identifier should not have duplicates",
+            "entityName": "Stage Vintage Master",
+            "btName": "Vintage Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42110",
+            "desc": "Watch List Numeric Identifier should not have duplicates",
+            "entityName": "Stage Watch List Master",
+            "btName": "Watch List Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42041",
+            "desc": "Web Log Analytics Event Numeric Identifier should not have duplicates",
+            "entityName": "Stage Web Log Analytics Event Master",
+            "btName": "Web Log Analytics Event Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42161",
+            "desc": "Web Page Numeric Identifier should not have duplicates",
+            "entityName": "Stage Weblog Analytics Page",
+            "btName": "Web Page Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        },
+        {
+            "id": "DQNMDUP42040",
+            "desc": "Write Off Reason Numeric Identifier should not have duplicates",
+            "entityName": "Stage Writeoff Reason Master",
+            "btName": "Write Off Reason Numeric Identifier",
+            "checkType": "Generic Check",
+            "customizedFlag": "Seeded"
+        }
+    ]
+}

@@ -1,0 +1,4135 @@
+{
+    "entityNames": [
+        {
+            "entityName": "Intraday Payment Transaction Table"
+        },
+        {
+            "entityName": "Life Events Staging"
+        },
+        {
+            "entityName": "Stage Account Account Relationship"
+        },
+        {
+            "entityName": "Stage Account Address"
+        },
+        {
+            "entityName": "Stage Account Address Map"
+        },
+        {
+            "entityName": "Stage Account Alternate Currency Values"
+        },
+        {
+            "entityName": "Stage Account Anticipatory Profile"
+        },
+        {
+            "entityName": "Stage Account Balances"
+        },
+        {
+            "entityName": "Stage Account Cash Flows"
+        },
+        {
+            "entityName": "Stage Account Credit Quality Status Details"
+        },
+        {
+            "entityName": "Stage Account Credit Score Details"
+        },
+        {
+            "entityName": "Stage Account Customer Relationship Change"
+        },
+        {
+            "entityName": "Stage Account Deviation Master"
+        },
+        {
+            "entityName": "Stage Account Deviations"
+        },
+        {
+            "entityName": "Stage Account Effective Interest Rates"
+        },
+        {
+            "entityName": "Stage Account Email Map"
+        },
+        {
+            "entityName": "Stage Account Feature Map"
+        },
+        {
+            "entityName": "Stage Account Group Details"
+        },
+        {
+            "entityName": "Stage Account Group Master"
+        },
+        {
+            "entityName": "Stage Account Group Member"
+        },
+        {
+            "entityName": "Stage Account Hierarchy"
+        },
+        {
+            "entityName": "Stage Account Index Value History"
+        },
+        {
+            "entityName": "Stage Account Investment Objective"
+        },
+        {
+            "entityName": "Stage Account Lendable Percent"
+        },
+        {
+            "entityName": "Stage Account Manager Relationship"
+        },
+        {
+            "entityName": "Stage Account Master"
+        },
+        {
+            "entityName": "Stage Account Mgmt Master"
+        },
+        {
+            "entityName": "Stage Account Mitigant Map"
+        },
+        {
+            "entityName": "Stage Account Peer Group"
+        },
+        {
+            "entityName": "Stage Account Phone Map"
+        },
+        {
+            "entityName": "Stage Account Placed Collateral Map"
+        },
+        {
+            "entityName": "Stage Account Position"
+        },
+        {
+            "entityName": "Stage Account Position Pair"
+        },
+        {
+            "entityName": "Stage Account Purpose Master"
+        },
+        {
+            "entityName": "Stage Account Rate Tiers"
+        },
+        {
+            "entityName": "Stage Account Rating Details"
+        },
+        {
+            "entityName": "Stage Account Recovery Cashflows"
+        },
+        {
+            "entityName": "Stage Account Recovery Details"
+        },
+        {
+            "entityName": "Stage Account Restriction"
+        },
+        {
+            "entityName": "Stage Account Segment Month On Book"
+        },
+        {
+            "entityName": "Stage Account Stability Criteria"
+        },
+        {
+            "entityName": "Stage Account Status Master"
+        },
+        {
+            "entityName": "Stage Account Write Off Details"
+        },
+        {
+            "entityName": "Stage Accounting Entries"
+        },
+        {
+            "entityName": "Stage Accounting Entries Batch Code Master"
+        },
+        {
+            "entityName": "Stage Accounting Entries Error Code Master"
+        },
+        {
+            "entityName": "Stage Accounting Entries Header"
+        },
+        {
+            "entityName": "Stage Accounting Head"
+        },
+        {
+            "entityName": "Stage Accounting Head Master"
+        },
+        {
+            "entityName": "Stage Acquired Firm Master"
+        },
+        {
+            "entityName": "Stage Additional Insurance For High Balance"
+        },
+        {
+            "entityName": "Stage Address Master"
+        },
+        {
+            "entityName": "Stage Address Purpose Type Master"
+        },
+        {
+            "entityName": "Stage Annuity Contracts"
+        },
+        {
+            "entityName": "Stage Annuity Transactions"
+        },
+        {
+            "entityName": "Stage Annuity Transactions Summary"
+        },
+        {
+            "entityName": "Stage Application Decision Event Master"
+        },
+        {
+            "entityName": "Stage Application Document"
+        },
+        {
+            "entityName": "Stage Application Document Map"
+        },
+        {
+            "entityName": "Stage Application Event Decision"
+        },
+        {
+            "entityName": "Stage Application Group"
+        },
+        {
+            "entityName": "Stage Application Group Event Decision"
+        },
+        {
+            "entityName": "Stage Application Group Master"
+        },
+        {
+            "entityName": "Stage Application Party Role Map"
+        },
+        {
+            "entityName": "Stage Application Purpose Master"
+        },
+        {
+            "entityName": "Stage Application Reject Reasons Master"
+        },
+        {
+            "entityName": "Stage Application Status Master"
+        },
+        {
+            "entityName": "Stage Application Type Master"
+        },
+        {
+            "entityName": "Stage Applications"
+        },
+        {
+            "entityName": "Stage Applications Deviations"
+        },
+        {
+            "entityName": "Stage Applications Document Print Log"
+        },
+        {
+            "entityName": "Stage Assets Sold"
+        },
+        {
+            "entityName": "Stage Assumed Policy Hierarchy Master"
+        },
+        {
+            "entityName": "Stage Assumed Policy Master"
+        },
+        {
+            "entityName": "Stage Attrition Master"
+        },
+        {
+            "entityName": "Stage Authorization Decision Reasons Master"
+        },
+        {
+            "entityName": "Stage Automatic Teller Machine Transactions"
+        },
+        {
+            "entityName": "Stage Available Intraday Liquidity Source"
+        },
+        {
+            "entityName": "Stage Balance Type Master"
+        },
+        {
+            "entityName": "Stage Bank Instrument Type Master"
+        },
+        {
+            "entityName": "Stage Bank Positions"
+        },
+        {
+            "entityName": "Stage Bankruptcy Type Master"
+        },
+        {
+            "entityName": "Stage Behaviour Pattern Non Replicating Portfolio"
+        },
+        {
+            "entityName": "Stage Benchmark Capital Conservation Ratio"
+        },
+        {
+            "entityName": "Stage Benchmark Counter Cyclical Buffer"
+        },
+        {
+            "entityName": "Stage Benchmark Details"
+        },
+        {
+            "entityName": "Stage Bill Contract Transactions"
+        },
+        {
+            "entityName": "Stage Bill Contracts"
+        },
+        {
+            "entityName": "Stage Bill Plan Master"
+        },
+        {
+            "entityName": "Stage Blocked Deposit Details"
+        },
+        {
+            "entityName": "Stage Borrowings"
+        },
+        {
+            "entityName": "Stage Borrowings Transactions"
+        },
+        {
+            "entityName": "Stage Borrowings Transactions Summary"
+        },
+        {
+            "entityName": "Stage Branch Hierarchy"
+        },
+        {
+            "entityName": "Stage Branch Master"
+        },
+        {
+            "entityName": "Stage Branch Transactions"
+        },
+        {
+            "entityName": "Stage Broker Deposits"
+        },
+        {
+            "entityName": "Stage Business Class Master"
+        },
+        {
+            "entityName": "Stage Business Segment"
+        },
+        {
+            "entityName": "Stage Business Segment Hierarchy"
+        },
+        {
+            "entityName": "Stage Business Unit Hierarchy"
+        },
+        {
+            "entityName": "Stage Business Unit Master"
+        },
+        {
+            "entityName": "Stage CDS Index Name Master"
+        },
+        {
+            "entityName": "Stage Campaign Channel Master"
+        },
+        {
+            "entityName": "Stage Campaign Master"
+        },
+        {
+            "entityName": "Stage Campaign Status Master"
+        },
+        {
+            "entityName": "Stage Campaign Summary"
+        },
+        {
+            "entityName": "Stage Campaign Type Master"
+        },
+        {
+            "entityName": "Stage Campaign Wave Master"
+        },
+        {
+            "entityName": "Stage Capital Investments Positions Table"
+        },
+        {
+            "entityName": "Stage Capital Requirement Type Master"
+        },
+        {
+            "entityName": "Stage Card Account Mapping"
+        },
+        {
+            "entityName": "Stage Card Type Master"
+        },
+        {
+            "entityName": "Stage Cards"
+        },
+        {
+            "entityName": "Stage Cards Master"
+        },
+        {
+            "entityName": "Stage Cards Payments Transactions"
+        },
+        {
+            "entityName": "Stage Cards Settlement Transactions"
+        },
+        {
+            "entityName": "Stage Cards Transactions Summary"
+        },
+        {
+            "entityName": "Stage Casa"
+        },
+        {
+            "entityName": "Stage Casa Transactions"
+        },
+        {
+            "entityName": "Stage Casa Transactions Summary"
+        },
+        {
+            "entityName": "Stage Cash Flow Type Hierarchy"
+        },
+        {
+            "entityName": "Stage Cash Flow Type Master"
+        },
+        {
+            "entityName": "Stage Catastrophe Events Master"
+        },
+        {
+            "entityName": "Stage Cause Master"
+        },
+        {
+            "entityName": "Stage Cedent Asset Classification Master"
+        },
+        {
+            "entityName": "Stage Central Authority Master"
+        },
+        {
+            "entityName": "Stage Channel Hierarchy"
+        },
+        {
+            "entityName": "Stage Channel Master"
+        },
+        {
+            "entityName": "Stage Channel Session"
+        },
+        {
+            "entityName": "Stage Claim Hierarchy Master"
+        },
+        {
+            "entityName": "Stage Claim Master"
+        },
+        {
+            "entityName": "Stage Cohort Composition Master"
+        },
+        {
+            "entityName": "Stage Collateral Debt Swap Spreads"
+        },
+        {
+            "entityName": "Stage Collateral Purpose"
+        },
+        {
+            "entityName": "Stage Collaterals Posted"
+        },
+        {
+            "entityName": "Stage Collection Officer Master"
+        },
+        {
+            "entityName": "Stage Collections"
+        },
+        {
+            "entityName": "Stage Collector Contacts"
+        },
+        {
+            "entityName": "Stage Commitment Contract Transactions"
+        },
+        {
+            "entityName": "Stage Commitment Contracts"
+        },
+        {
+            "entityName": "Stage Commodities Transactions"
+        },
+        {
+            "entityName": "Stage Commodity Contracts"
+        },
+        {
+            "entityName": "Stage Commodity Future Curves"
+        },
+        {
+            "entityName": "Stage Commodity Grade Master"
+        },
+        {
+            "entityName": "Stage Commodity Group Master"
+        },
+        {
+            "entityName": "Stage Commodity Location Details"
+        },
+        {
+            "entityName": "Stage Commodity Master"
+        },
+        {
+            "entityName": "Stage Common Coa Master"
+        },
+        {
+            "entityName": "Stage Compensation Details"
+        },
+        {
+            "entityName": "Stage Compensation Type Master"
+        },
+        {
+            "entityName": "Stage Consent Purpose Master"
+        },
+        {
+            "entityName": "Stage Consolidation Approach"
+        },
+        {
+            "entityName": "Stage Constituted Form Master"
+        },
+        {
+            "entityName": "Stage Contact Method Master"
+        },
+        {
+            "entityName": "Stage Contract Unwind Trigger Master"
+        },
+        {
+            "entityName": "Stage Controlling Customer"
+        },
+        {
+            "entityName": "Stage Corporate Actions"
+        },
+        {
+            "entityName": "Stage Correlated Currency Mapping"
+        },
+        {
+            "entityName": "Stage Correspondent Account Transactions"
+        },
+        {
+            "entityName": "Stage Correspondent Accounts"
+        },
+        {
+            "entityName": "Stage Correspondent- Markets Served"
+        },
+        {
+            "entityName": "Stage Correspondent- Products Served"
+        },
+        {
+            "entityName": "Stage Country Master"
+        },
+        {
+            "entityName": "Stage Countrywise Risk Summary"
+        },
+        {
+            "entityName": "Stage Credit Card Balance Category Master"
+        },
+        {
+            "entityName": "Stage Credit Card Balance Summary"
+        },
+        {
+            "entityName": "Stage Credit Center Master"
+        },
+        {
+            "entityName": "Stage Credit Default Swap Index Composition"
+        },
+        {
+            "entityName": "Stage Credit Derivative Fee Cash Flows"
+        },
+        {
+            "entityName": "Stage Credit Derivatives"
+        },
+        {
+            "entityName": "Stage Credit Derivatives Transactions"
+        },
+        {
+            "entityName": "Stage Credit Facility Details"
+        },
+        {
+            "entityName": "Stage Credit Facility Master"
+        },
+        {
+            "entityName": "Stage Credit Facility Purpose Master"
+        },
+        {
+            "entityName": "Stage Credit Facility Type Master"
+        },
+        {
+            "entityName": "Stage Credit Guarantee Scheme Dimension Master"
+        },
+        {
+            "entityName": "Stage Credit Line Mitigant Map"
+        },
+        {
+            "entityName": "Stage Credit Line Status Master"
+        },
+        {
+            "entityName": "Stage Credit Lines Transactions Summary"
+        },
+        {
+            "entityName": "Stage Credit Loss Reason Master"
+        },
+        {
+            "entityName": "Stage Credit Officer Master"
+        },
+        {
+            "entityName": "Stage Credit Participation Contract"
+        },
+        {
+            "entityName": "Stage Credit Participation Details"
+        },
+        {
+            "entityName": "Stage Credit Participation Master"
+        },
+        {
+            "entityName": "Stage Credit Participation Tranch"
+        },
+        {
+            "entityName": "Stage Credit Participation Tranch Member Map"
+        },
+        {
+            "entityName": "Stage Credit Participation Tranche Details"
+        },
+        {
+            "entityName": "Stage Credit Quality Details"
+        },
+        {
+            "entityName": "Stage Credit Quality Type Master"
+        },
+        {
+            "entityName": "Stage Credit Rating Master"
+        },
+        {
+            "entityName": "Stage Credit Reason Master"
+        },
+        {
+            "entityName": "Stage Credit Score Model Master"
+        },
+        {
+            "entityName": "Stage Ctd Mappings"
+        },
+        {
+            "entityName": "Stage Currency Exchange Rates"
+        },
+        {
+            "entityName": "Stage Currency Rate Version Master"
+        },
+        {
+            "entityName": "Stage Custodial Accounts"
+        },
+        {
+            "entityName": "Stage Custodian Account Transactions"
+        },
+        {
+            "entityName": "Stage Customer Alternate Currency Values"
+        },
+        {
+            "entityName": "Stage Customer Anticipatory Profile"
+        },
+        {
+            "entityName": "Stage Customer Attrition Plans"
+        },
+        {
+            "entityName": "Stage Customer Country Relation"
+        },
+        {
+            "entityName": "Stage Customer Education Master"
+        },
+        {
+            "entityName": "Stage Customer Employment Type Master"
+        },
+        {
+            "entityName": "Stage Customer Feature Map"
+        },
+        {
+            "entityName": "Stage Customer Product Score"
+        },
+        {
+            "entityName": "Stage Customer Service Enrollment"
+        },
+        {
+            "entityName": "Stage Data Source Master"
+        },
+        {
+            "entityName": "Stage Days Past Due Transition Matrix"
+        },
+        {
+            "entityName": "Stage Deal Master"
+        },
+        {
+            "entityName": "Stage Dealer Group Master"
+        },
+        {
+            "entityName": "Stage Dealer Master"
+        },
+        {
+            "entityName": "Stage Decision Status Master"
+        },
+        {
+            "entityName": "Stage Deductible Master"
+        },
+        {
+            "entityName": "Stage Depository Receipt Issue Mapping"
+        },
+        {
+            "entityName": "Stage Deviation Reason Master"
+        },
+        {
+            "entityName": "Stage Dimension Creation Using kalari11 Master"
+        },
+        {
+            "entityName": "Stage Distance To Default"
+        },
+        {
+            "entityName": "Stage Dividend Payout Type Master"
+        },
+        {
+            "entityName": "Stage Dividend Protection Detail"
+        },
+        {
+            "entityName": "Stage Document Sub Type Master"
+        },
+        {
+            "entityName": "Stage Document Submission Status Master"
+        },
+        {
+            "entityName": "Stage Document Type Master"
+        },
+        {
+            "entityName": "Stage Documentary Collection Contract Acceptance"
+        },
+        {
+            "entityName": "Stage Documentary Collection Contract Acknowledgement"
+        },
+        {
+            "entityName": "Stage Documentary Collection Contract Event"
+        },
+        {
+            "entityName": "Stage Documentary Collection Discrepancy Detail"
+        },
+        {
+            "entityName": "Stage Documentary Collection Shipment Detail"
+        },
+        {
+            "entityName": "Stage Downgrade Trigger"
+        },
+        {
+            "entityName": "Stage Economic Indicators"
+        },
+        {
+            "entityName": "Stage Economic Zone Master"
+        },
+        {
+            "entityName": "Stage Email Address Purpose Type Master"
+        },
+        {
+            "entityName": "Stage Embedded Options Schedule"
+        },
+        {
+            "entityName": "Stage Employee Expenses Details"
+        },
+        {
+            "entityName": "Stage Employee Hierarchy"
+        },
+        {
+            "entityName": "Stage Employee Master"
+        },
+        {
+            "entityName": "Stage Employee Phone"
+        },
+        {
+            "entityName": "Stage Employee Service Account"
+        },
+        {
+            "entityName": "Stage Employee Trading Restriction"
+        },
+        {
+            "entityName": "Stage Encumbrance Sources"
+        },
+        {
+            "entityName": "Stage Entity Allocation Factor"
+        },
+        {
+            "entityName": "Stage Entity Influence Master"
+        },
+        {
+            "entityName": "Stage Entity Measure Summary"
+        },
+        {
+            "entityName": "Stage Entity Org Exchange Map"
+        },
+        {
+            "entityName": "Stage Entity Parent Details"
+        },
+        {
+            "entityName": "Stage Equity Arbitrage Strategy Mapping"
+        },
+        {
+            "entityName": "Stage Equity Indices"
+        },
+        {
+            "entityName": "Stage Equity Other Asset Losses"
+        },
+        {
+            "entityName": "Stage Exp Underlying Type Master"
+        },
+        {
+            "entityName": "Stage Expected Account Cashflows"
+        },
+        {
+            "entityName": "Stage Expense Type Master"
+        },
+        {
+            "entityName": "Stage Exposure Seniority Master"
+        },
+        {
+            "entityName": "Stage External Operational Risk Loss"
+        },
+        {
+            "entityName": "Stage External Reporting Group"
+        },
+        {
+            "entityName": "Stage External Scaling Factor"
+        },
+        {
+            "entityName": "Stage External Underlying Account Rating Details Table"
+        },
+        {
+            "entityName": "Stage Facility Rating Details"
+        },
+        {
+            "entityName": "Stage Financial Spread Map"
+        },
+        {
+            "entityName": "Stage Financial Statement Forecast"
+        },
+        {
+            "entityName": "Stage Financial Variable Master"
+        },
+        {
+            "entityName": "Stage Financial Year Master"
+        },
+        {
+            "entityName": "Stage Fixed Assets Details"
+        },
+        {
+            "entityName": "Stage Fixed Assets Master"
+        },
+        {
+            "entityName": "Stage Fixed Assets Type Master"
+        },
+        {
+            "entityName": "Stage Forborne Status"
+        },
+        {
+            "entityName": "Stage Forecast Aggregate Cash Flows"
+        },
+        {
+            "entityName": "Stage Forecast And Plan Data"
+        },
+        {
+            "entityName": "Stage Forecast Balances"
+        },
+        {
+            "entityName": "Stage Forecast Download Net Exposure"
+        },
+        {
+            "entityName": "Stage Forecast Economic Indicator"
+        },
+        {
+            "entityName": "Stage Forecast Exchange Rate"
+        },
+        {
+            "entityName": "Stage Forecast Interest Rate Code"
+        },
+        {
+            "entityName": "Stage Forecast Liquidity Balances"
+        },
+        {
+            "entityName": "Stage Forecast Scenario Master"
+        },
+        {
+            "entityName": "Stage Forecasted General Ledger Data"
+        },
+        {
+            "entityName": "Stage Forecasted Party Share Holding Percentage"
+        },
+        {
+            "entityName": "Stage Forecasted Securitization Underlying Collections"
+        },
+        {
+            "entityName": "Stage Foreign Currency Utilization Details"
+        },
+        {
+            "entityName": "Stage Foreign Exchange Contracts"
+        },
+        {
+            "entityName": "Stage Foreign Exchange Rates"
+        },
+        {
+            "entityName": "Stage Forex Account Transactions"
+        },
+        {
+            "entityName": "Stage Forward Accumulated Fx Targets"
+        },
+        {
+            "entityName": "Stage Forward Exchange Rates"
+        },
+        {
+            "entityName": "Stage Forwards Contracts"
+        },
+        {
+            "entityName": "Stage Forwards Transactions"
+        },
+        {
+            "entityName": "Stage Fraud Reason Master"
+        },
+        {
+            "entityName": "Stage Front Office Transaction Party"
+        },
+        {
+            "entityName": "Stage Fund Details"
+        },
+        {
+            "entityName": "Stage Fund Equity Investments"
+        },
+        {
+            "entityName": "Stage Fund Master"
+        },
+        {
+            "entityName": "Stage Fund Type Master"
+        },
+        {
+            "entityName": "Stage Fund Underlying Composition"
+        },
+        {
+            "entityName": "Stage Funds Composition"
+        },
+        {
+            "entityName": "Stage Futures Contracts"
+        },
+        {
+            "entityName": "Stage Futures Transactions"
+        },
+        {
+            "entityName": "Stage General Ledger Account Master"
+        },
+        {
+            "entityName": "Stage General Ledger Combination Master"
+        },
+        {
+            "entityName": "Stage General Ledger Data"
+        },
+        {
+            "entityName": "Stage General Ledger Hierarchy"
+        },
+        {
+            "entityName": "Stage Guarantees Transactions Summary"
+        },
+        {
+            "entityName": "Stage Guarantor Type"
+        },
+        {
+            "entityName": "Stage Hedge Master"
+        },
+        {
+            "entityName": "Stage Hedge Portfolio Set Account Map"
+        },
+        {
+            "entityName": "Stage Hedge Portfolio Set Master"
+        },
+        {
+            "entityName": "Stage Hedge Status Master"
+        },
+        {
+            "entityName": "Stage Hedge Type Master"
+        },
+        {
+            "entityName": "Stage Hedged Instrument Map"
+        },
+        {
+            "entityName": "Stage Hedging Instrument Map"
+        },
+        {
+            "entityName": "Stage Hedging Strategy Master"
+        },
+        {
+            "entityName": "Stage High Run Off Category"
+        },
+        {
+            "entityName": "Stage Home Ownership Master"
+        },
+        {
+            "entityName": "Stage Household Master"
+        },
+        {
+            "entityName": "Stage Ijarah Accounts"
+        },
+        {
+            "entityName": "Stage Ijarah Transactions"
+        },
+        {
+            "entityName": "Stage Index Composition"
+        },
+        {
+            "entityName": "Stage Index Master"
+        },
+        {
+            "entityName": "Stage Industry Master"
+        },
+        {
+            "entityName": "Stage Inflation Index Name Master"
+        },
+        {
+            "entityName": "Stage Inflation Rate"
+        },
+        {
+            "entityName": "Stage Inflation Rates"
+        },
+        {
+            "entityName": "Stage Institution Primary Function Staging"
+        },
+        {
+            "entityName": "Stage Instrument Contract Master"
+        },
+        {
+            "entityName": "Stage Instrument Group Member"
+        },
+        {
+            "entityName": "Stage Instrument Hierarchy"
+        },
+        {
+            "entityName": "Stage Instrument Lendable Percent"
+        },
+        {
+            "entityName": "Stage Instrument Probability Of Default Details"
+        },
+        {
+            "entityName": "Stage Instrument Rating Details"
+        },
+        {
+            "entityName": "Stage Instrument Schedule"
+        },
+        {
+            "entityName": "Stage Instrument Trading Restriction"
+        },
+        {
+            "entityName": "Stage Insurance Coverage Hierarchy Master"
+        },
+        {
+            "entityName": "Stage Insurance Coverage Master"
+        },
+        {
+            "entityName": "Stage Insurance Loss Modeling Component Master"
+        },
+        {
+            "entityName": "Stage Insurance Loss Simulation Risk Category Master"
+        },
+        {
+            "entityName": "Stage Insurance Underwriting Issue Sub Type Master"
+        },
+        {
+            "entityName": "Stage Insurance Underwriting Issue Type Master"
+        },
+        {
+            "entityName": "Stage Interbank Transactions"
+        },
+        {
+            "entityName": "Stage Interest Rate Curve"
+        },
+        {
+            "entityName": "Stage Interest Rate Parameters"
+        },
+        {
+            "entityName": "Stage Interest Rate Volatility Rate History"
+        },
+        {
+            "entityName": "Stage Internal Allocation Factor"
+        },
+        {
+            "entityName": "Stage Internal Loss Correlation Matrix"
+        },
+        {
+            "entityName": "Stage Internal Operational Risk Loss"
+        },
+        {
+            "entityName": "Stage Internal Scenario Correlation Matrix"
+        },
+        {
+            "entityName": "Stage Internal Scenario Severity Details"
+        },
+        {
+            "entityName": "Stage Investment Transactions"
+        },
+        {
+            "entityName": "Stage Investment Transactions Summary"
+        },
+        {
+            "entityName": "Stage Investments"
+        },
+        {
+            "entityName": "Stage Ir Index"
+        },
+        {
+            "entityName": "Stage Irc Rates"
+        },
+        {
+            "entityName": "Stage Irc Volume Surface Rate History"
+        },
+        {
+            "entityName": "Stage Issue Details"
+        },
+        {
+            "entityName": "Stage Issuer Master"
+        },
+        {
+            "entityName": "Stage Issuer Mitigant Map"
+        },
+        {
+            "entityName": "Stage Issuer Type"
+        },
+        {
+            "entityName": "Stage Istisna Accounts"
+        },
+        {
+            "entityName": "Stage Istisna Transactions"
+        },
+        {
+            "entityName": "Stage Lease Purpose Master"
+        },
+        {
+            "entityName": "Stage Leases Contracts"
+        },
+        {
+            "entityName": "Stage Leases Transactions"
+        },
+        {
+            "entityName": "Stage Leases Transactions Summary"
+        },
+        {
+            "entityName": "Stage Ledger Hierarchy"
+        },
+        {
+            "entityName": "Stage Ledger master"
+        },
+        {
+            "entityName": "Stage Legal Entity Consolidation Map"
+        },
+        {
+            "entityName": "Stage Legal Entity Details"
+        },
+        {
+            "entityName": "Stage Legal Entity Gaap Map"
+        },
+        {
+            "entityName": "Stage Legal Entity Group Master"
+        },
+        {
+            "entityName": "Stage Legal Entity Hierarchy"
+        },
+        {
+            "entityName": "Stage Legal Entity Master"
+        },
+        {
+            "entityName": "Stage Legal Entity Rating Details"
+        },
+        {
+            "entityName": "Stage Legal Proceeding Status Master"
+        },
+        {
+            "entityName": "Stage Letter Of Credit Contracts"
+        },
+        {
+            "entityName": "Stage Letter Of Credit Transactions"
+        },
+        {
+            "entityName": "Stage Line Of Business Allocation Factor"
+        },
+        {
+            "entityName": "Stage Line Of Business Hierarchy"
+        },
+        {
+            "entityName": "Stage Line Of Business Master"
+        },
+        {
+            "entityName": "Stage Litigation Details"
+        },
+        {
+            "entityName": "Stage Litigation Master"
+        },
+        {
+            "entityName": "Stage Loan Contracts"
+        },
+        {
+            "entityName": "Stage Loan Contracts Transactions"
+        },
+        {
+            "entityName": "Stage Loan Contracts Transactions Summary"
+        },
+        {
+            "entityName": "Stage Loan Purpose Master"
+        },
+        {
+            "entityName": "Stage Loan Recourse Type Master"
+        },
+        {
+            "entityName": "Stage Loan Waiver Scheme Dimension Master"
+        },
+        {
+            "entityName": "Stage Loans Serviced"
+        },
+        {
+            "entityName": "Stage Loans Serviced Customer Relationship"
+        },
+        {
+            "entityName": "Stage Loans Serviced Mitigant Map"
+        },
+        {
+            "entityName": "Stage Location Hierarchy"
+        },
+        {
+            "entityName": "Stage Location Master"
+        },
+        {
+            "entityName": "Stage Loss Event Master"
+        },
+        {
+            "entityName": "Stage Loss Mitigation Program Master"
+        },
+        {
+            "entityName": "Stage Loss Share Agreement Master"
+        },
+        {
+            "entityName": "Stage Macro Economic Variable Details"
+        },
+        {
+            "entityName": "Stage Macro Economic Variables Master"
+        },
+        {
+            "entityName": "Stage Marital Status Master"
+        },
+        {
+            "entityName": "Stage Market Cell Master"
+        },
+        {
+            "entityName": "Stage Market Center Master"
+        },
+        {
+            "entityName": "Stage Market Instrument Contract"
+        },
+        {
+            "entityName": "Stage Market News Event"
+        },
+        {
+            "entityName": "Stage Market Risk Portfolio Actual Profit And Loss Value"
+        },
+        {
+            "entityName": "Stage Market Variables"
+        },
+        {
+            "entityName": "Stage Market Variables Master"
+        },
+        {
+            "entityName": "Stage Marketing Program Master"
+        },
+        {
+            "entityName": "Stage Merchant Cards"
+        },
+        {
+            "entityName": "Stage Merchant Cards Transactions"
+        },
+        {
+            "entityName": "Stage Merchant Cards Transactions Summary"
+        },
+        {
+            "entityName": "Stage Merchant Category Master"
+        },
+        {
+            "entityName": "Stage Merchant Master"
+        },
+        {
+            "entityName": "Stage Migration Reason Master"
+        },
+        {
+            "entityName": "Stage Mitigant Charge Details"
+        },
+        {
+            "entityName": "Stage Mitigant Master"
+        },
+        {
+            "entityName": "Stage Mitigant Security Interest Type Table"
+        },
+        {
+            "entityName": "Stage Mitigant Sub Type Master"
+        },
+        {
+            "entityName": "Stage Mitigant Type Master"
+        },
+        {
+            "entityName": "Stage Mitigants"
+        },
+        {
+            "entityName": "Stage Mitigants Counter Guarantee Details Table"
+        },
+        {
+            "entityName": "Stage Mitigants Counter Guarantee Mapping Table"
+        },
+        {
+            "entityName": "Stage Mortgage Servicing Rights Master"
+        },
+        {
+            "entityName": "Stage Mr Asset Master"
+        },
+        {
+            "entityName": "Stage Mudarabah Transactions"
+        },
+        {
+            "entityName": "Stage Mudarbah Accounts"
+        },
+        {
+            "entityName": "Stage Murabahah Accounts"
+        },
+        {
+            "entityName": "Stage Murabahah Transactions"
+        },
+        {
+            "entityName": "Stage Musharakah Transactions"
+        },
+        {
+            "entityName": "Stage Musharkah Accounts"
+        },
+        {
+            "entityName": "Stage Mutual Fund Breakpoint"
+        },
+        {
+            "entityName": "Stage Nettable Liabilities"
+        },
+        {
+            "entityName": "Stage Netting Agreement Master"
+        },
+        {
+            "entityName": "Stage Non Contractual Obligation"
+        },
+        {
+            "entityName": "Stage Non Performing Category"
+        },
+        {
+            "entityName": "Stage Obligor Details"
+        },
+        {
+            "entityName": "Stage Offer Master"
+        },
+        {
+            "entityName": "Stage Online Account"
+        },
+        {
+            "entityName": "Stage Online Account To Account Map"
+        },
+        {
+            "entityName": "Stage Operating Economic Zone Master"
+        },
+        {
+            "entityName": "Stage Operation Risk External Loss Threshold"
+        },
+        {
+            "entityName": "Stage Operation Risk Internal Loss Threshold"
+        },
+        {
+            "entityName": "Stage Operational Risk Loss Scenario Bucket Data"
+        },
+        {
+            "entityName": "Stage Operational Risk Reserve Schedules"
+        },
+        {
+            "entityName": "Stage Opportunity Activity Type Master"
+        },
+        {
+            "entityName": "Stage Opportunity Win Loss Reason Master"
+        },
+        {
+            "entityName": "Stage Option Contracts"
+        },
+        {
+            "entityName": "Stage Option Contracts Transactions"
+        },
+        {
+            "entityName": "Stage Options Conversion Detail"
+        },
+        {
+            "entityName": "Stage Organization Unit Hierarchy"
+        },
+        {
+            "entityName": "Stage Organization Unit Master"
+        },
+        {
+            "entityName": "Stage Other Assets"
+        },
+        {
+            "entityName": "Stage Other Liabilities"
+        },
+        {
+            "entityName": "Stage Other Services"
+        },
+        {
+            "entityName": "Stage Other Services Transactions"
+        },
+        {
+            "entityName": "Stage Other Services Transactions Summary"
+        },
+        {
+            "entityName": "Stage Over Draft Accounts"
+        },
+        {
+            "entityName": "Stage Over Draft Accounts Transactions"
+        },
+        {
+            "entityName": "Stage Ownership Category"
+        },
+        {
+            "entityName": "Stage Participation Type Master"
+        },
+        {
+            "entityName": "Stage Partner Expense"
+        },
+        {
+            "entityName": "Stage Partner Master"
+        },
+        {
+            "entityName": "Stage Party Account Role Map"
+        },
+        {
+            "entityName": "Stage Party Address Map"
+        },
+        {
+            "entityName": "Stage Party Asset Details"
+        },
+        {
+            "entityName": "Stage Party Central Authority Mapping"
+        },
+        {
+            "entityName": "Stage Party Consent"
+        },
+        {
+            "entityName": "Stage Party Details"
+        },
+        {
+            "entityName": "Stage Party Email Map"
+        },
+        {
+            "entityName": "Stage Party Expense Details"
+        },
+        {
+            "entityName": "Stage Party Financial Institution Identification Details"
+        },
+        {
+            "entityName": "Stage Party Financials"
+        },
+        {
+            "entityName": "Stage Party Hierarchy"
+        },
+        {
+            "entityName": "Stage Party Identification Document"
+        },
+        {
+            "entityName": "Stage Party Income Details"
+        },
+        {
+            "entityName": "Stage Party Master"
+        },
+        {
+            "entityName": "Stage Party Operating Economic Zone"
+        },
+        {
+            "entityName": "Stage Party Other Names"
+        },
+        {
+            "entityName": "Stage Party Party Account Relationship"
+        },
+        {
+            "entityName": "Stage Party Phone Map"
+        },
+        {
+            "entityName": "Stage Party Probability Of Default Details"
+        },
+        {
+            "entityName": "Stage Party Product Type Summary"
+        },
+        {
+            "entityName": "Stage Party Rating Details"
+        },
+        {
+            "entityName": "Stage Party Relationship Type Master"
+        },
+        {
+            "entityName": "Stage Party Role Map"
+        },
+        {
+            "entityName": "Stage Party Role Master"
+        },
+        {
+            "entityName": "Stage Party Shareholding Percent"
+        },
+        {
+            "entityName": "Stage Party To Party Relationship"
+        },
+        {
+            "entityName": "Stage Party Type Master"
+        },
+        {
+            "entityName": "Stage Payment And Settlement System"
+        },
+        {
+            "entityName": "Stage Payment Mechanism Master"
+        },
+        {
+            "entityName": "Stage Payment Schedule"
+        },
+        {
+            "entityName": "Stage Payment Settlement Accounts"
+        },
+        {
+            "entityName": "Stage Payment Type Master"
+        },
+        {
+            "entityName": "Stage Pd Term Structure Details"
+        },
+        {
+            "entityName": "Stage Pd Term Structure Master"
+        },
+        {
+            "entityName": "Stage Peer Group Master"
+        },
+        {
+            "entityName": "Stage Peer Information"
+        },
+        {
+            "entityName": "Stage Peer Product Details"
+        },
+        {
+            "entityName": "Stage Phone Purpose Type Master"
+        },
+        {
+            "entityName": "Stage Placed Collateral Master"
+        },
+        {
+            "entityName": "Stage Placed Collateral Source Details"
+        },
+        {
+            "entityName": "Stage Point Of Sale Transactions"
+        },
+        {
+            "entityName": "Stage Policy Master"
+        },
+        {
+            "entityName": "Stage Policy Master Hierarchy"
+        },
+        {
+            "entityName": "Stage Policy Vehicle Rating Details"
+        },
+        {
+            "entityName": "Stage Pool Class Master"
+        },
+        {
+            "entityName": "Stage Pool Identification Master"
+        },
+        {
+            "entityName": "Stage Portfolio Data"
+        },
+        {
+            "entityName": "Stage Portfolio Master"
+        },
+        {
+            "entityName": "Stage Portfolio Master Hierarchies"
+        },
+        {
+            "entityName": "Stage Portfolio Type Master"
+        },
+        {
+            "entityName": "Stage Position Type Master"
+        },
+        {
+            "entityName": "Stage Premium Offset Method Hierarchy Master"
+        },
+        {
+            "entityName": "Stage Premium Offset Method Master"
+        },
+        {
+            "entityName": "Stage Premium Payment Type Master"
+        },
+        {
+            "entityName": "Stage Premium Suspense Reason Hierarchy Master"
+        },
+        {
+            "entityName": "Stage Premium Suspense Reason Master"
+        },
+        {
+            "entityName": "Stage Prepaid Cards"
+        },
+        {
+            "entityName": "Stage Prepaid Cards Transactions"
+        },
+        {
+            "entityName": "Stage Prepayment Parameters"
+        },
+        {
+            "entityName": "Stage Prepayment Rates"
+        },
+        {
+            "entityName": "Stage Prepayment Reason Master"
+        },
+        {
+            "entityName": "Stage Probability Of Default Model Master"
+        },
+        {
+            "entityName": "Stage Process Line Of Business Location Map"
+        },
+        {
+            "entityName": "Stage Process Master"
+        },
+        {
+            "entityName": "Stage Producer Hierarchy Master"
+        },
+        {
+            "entityName": "Stage Producer Master"
+        },
+        {
+            "entityName": "Stage Product Bundle Master"
+        },
+        {
+            "entityName": "Stage Product Category Master"
+        },
+        {
+            "entityName": "Stage Product Feature Master"
+        },
+        {
+            "entityName": "Stage Product Hierarchy"
+        },
+        {
+            "entityName": "Stage Product Master"
+        },
+        {
+            "entityName": "Stage Product Rate Matrix Table"
+        },
+        {
+            "entityName": "Stage Product Riders"
+        },
+        {
+            "entityName": "Stage Product Type Master"
+        },
+        {
+            "entityName": "Stage Profession Master"
+        },
+        {
+            "entityName": "Stage Profession Sub Type Master"
+        },
+        {
+            "entityName": "Stage Program Master"
+        },
+        {
+            "entityName": "Stage Project Hierarchy"
+        },
+        {
+            "entityName": "Stage Project master"
+        },
+        {
+            "entityName": "Stage Property Type Master"
+        },
+        {
+            "entityName": "Stage Prospect Master"
+        },
+        {
+            "entityName": "Stage Provision Matrix"
+        },
+        {
+            "entityName": "Stage Purchase Category Master"
+        },
+        {
+            "entityName": "Stage Quote Declination Type"
+        },
+        {
+            "entityName": "Stage Quote Source"
+        },
+        {
+            "entityName": "Stage Quote Source Method"
+        },
+        {
+            "entityName": "Stage Quote Status Master"
+        },
+        {
+            "entityName": "Stage Quote Submission Method"
+        },
+        {
+            "entityName": "Stage Quote Type Master"
+        },
+        {
+            "entityName": "Stage Rate Plan Master"
+        },
+        {
+            "entityName": "Stage Rating Risk Parameter Data"
+        },
+        {
+            "entityName": "Stage Rating Transition Matrix"
+        },
+        {
+            "entityName": "Stage Recoveries"
+        },
+        {
+            "entityName": "Stage Recovery Agent Master"
+        },
+        {
+            "entityName": "Stage Recovery Type Master"
+        },
+        {
+            "entityName": "Stage Reg Entity Class Details"
+        },
+        {
+            "entityName": "Stage Region Master"
+        },
+        {
+            "entityName": "Stage Rejection Reason Master"
+        },
+        {
+            "entityName": "Stage Repo Contracts"
+        },
+        {
+            "entityName": "Stage Repo Transactions"
+        },
+        {
+            "entityName": "Stage Report Type"
+        },
+        {
+            "entityName": "Stage Reported Market Sale"
+        },
+        {
+            "entityName": "Stage Repurchase Reasons Master"
+        },
+        {
+            "entityName": "Stage Request Type Master"
+        },
+        {
+            "entityName": "Stage Reserve Type Master"
+        },
+        {
+            "entityName": "Stage Response Type Master"
+        },
+        {
+            "entityName": "Stage Restriction List"
+        },
+        {
+            "entityName": "Stage Restriction Type Master"
+        },
+        {
+            "entityName": "Stage Retention Offer Master"
+        },
+        {
+            "entityName": "Stage Retirement Accts Transactions Summary"
+        },
+        {
+            "entityName": "Stage Risk Adjusted Pricing Details"
+        },
+        {
+            "entityName": "Stage Risk Position Mapping"
+        },
+        {
+            "entityName": "Stage Run-Off Measure Master"
+        },
+        {
+            "entityName": "Stage Salam Accounts"
+        },
+        {
+            "entityName": "Stage Salam Transactions"
+        },
+        {
+            "entityName": "Stage Sales Rep Master"
+        },
+        {
+            "entityName": "Stage Sales Representative Compensation"
+        },
+        {
+            "entityName": "Stage Sales Stage Master"
+        },
+        {
+            "entityName": "Stage Scenario Covariance Data"
+        },
+        {
+            "entityName": "Stage Sec Pool Master"
+        },
+        {
+            "entityName": "Stage Securitisation Type Master"
+        },
+        {
+            "entityName": "Stage Securitization Activity"
+        },
+        {
+            "entityName": "Stage Securitization Facility Type Master"
+        },
+        {
+            "entityName": "Stage Securitization Inception Data"
+        },
+        {
+            "entityName": "Stage Securitization Pool Type Master"
+        },
+        {
+            "entityName": "Stage Securitization Program Master"
+        },
+        {
+            "entityName": "Stage Securitization Status Master"
+        },
+        {
+            "entityName": "Stage Security Tranche Credit Enhancement Map"
+        },
+        {
+            "entityName": "Stage Service Charge Master"
+        },
+        {
+            "entityName": "Stage Service Plans"
+        },
+        {
+            "entityName": "Stage Service Rep Master"
+        },
+        {
+            "entityName": "Stage Service Requests"
+        },
+        {
+            "entityName": "Stage Service Slippage Reason Master"
+        },
+        {
+            "entityName": "Stage Service Team"
+        },
+        {
+            "entityName": "Stage Service Team Member"
+        },
+        {
+            "entityName": "Stage Serviced Account Credit Score Details"
+        },
+        {
+            "entityName": "Stage Share Holding Details"
+        },
+        {
+            "entityName": "Stage Shareholder Master"
+        },
+        {
+            "entityName": "Stage Shareholding Percent"
+        },
+        {
+            "entityName": "Stage Simulation Bucket Type Master"
+        },
+        {
+            "entityName": "Stage Social Media Master"
+        },
+        {
+            "entityName": "Stage Social Media Post"
+        },
+        {
+            "entityName": "Stage Sovereign Rating Details"
+        },
+        {
+            "entityName": "Stage Special Term Master"
+        },
+        {
+            "entityName": "Stage Special Terms Covenants"
+        },
+        {
+            "entityName": "Stage Standard Accounting Head"
+        },
+        {
+            "entityName": "Stage Standard Allocation Factor"
+        },
+        {
+            "entityName": "Stage Standard Scenario Severity Details"
+        },
+        {
+            "entityName": "Stage Stock Index Master"
+        },
+        {
+            "entityName": "Stage Stock Ticker Master"
+        },
+        {
+            "entityName": "Stage Sukuk Accounts"
+        },
+        {
+            "entityName": "Stage Sukuk Transactions"
+        },
+        {
+            "entityName": "Stage Survey Master"
+        },
+        {
+            "entityName": "Stage Survey Response"
+        },
+        {
+            "entityName": "Stage Swap Account Transactions"
+        },
+        {
+            "entityName": "Stage Swaps Contracts"
+        },
+        {
+            "entityName": "Stage System Logon"
+        },
+        {
+            "entityName": "Stage Targeting Method Master"
+        },
+        {
+            "entityName": "Stage Telebanking Transactions"
+        },
+        {
+            "entityName": "Stage Term Deposit Contracts"
+        },
+        {
+            "entityName": "Stage Term Deposits Transactions"
+        },
+        {
+            "entityName": "Stage Term Deposits Transactions Summary"
+        },
+        {
+            "entityName": "Stage Term Structure Details"
+        },
+        {
+            "entityName": "Stage Term Structure Master"
+        },
+        {
+            "entityName": "Stage Terminal Master"
+        },
+        {
+            "entityName": "Stage Terminal Type Master"
+        },
+        {
+            "entityName": "Stage Time To Peak Exposure"
+        },
+        {
+            "entityName": "Stage Trade Finance Contract Amendment Status"
+        },
+        {
+            "entityName": "Stage Trade Finance Contract Event Acknowledgement"
+        },
+        {
+            "entityName": "Stage Trade Finance Document"
+        },
+        {
+            "entityName": "Stage Trade Finance Goods Alternate Currency Values"
+        },
+        {
+            "entityName": "Stage Trade Finance Goods Category Table"
+        },
+        {
+            "entityName": "Stage Trade Finance Goods Master"
+        },
+        {
+            "entityName": "Stage Trade Finance Goods Or Services"
+        },
+        {
+            "entityName": "Stage Trade Finance Goods Subtype Table"
+        },
+        {
+            "entityName": "Stage Trade Finance Goods Type Table"
+        },
+        {
+            "entityName": "Stage Trade Finance To Account"
+        },
+        {
+            "entityName": "Stage Trading Account"
+        },
+        {
+            "entityName": "Stage Trading Account Transactions"
+        },
+        {
+            "entityName": "Stage Trading Desk Master"
+        },
+        {
+            "entityName": "Stage Transaction Alternate Currency Values"
+        },
+        {
+            "entityName": "Stage Transaction Header"
+        },
+        {
+            "entityName": "Stage Transaction Master"
+        },
+        {
+            "entityName": "Stage Transaction Purpose Master"
+        },
+        {
+            "entityName": "Stage Transactions Failure Reason Master"
+        },
+        {
+            "entityName": "Stage Transition Matrix"
+        },
+        {
+            "entityName": "Stage Transition Matrix Master"
+        },
+        {
+            "entityName": "Stage Treatment Master"
+        },
+        {
+            "entityName": "Stage Trusts"
+        },
+        {
+            "entityName": "Stage Trusts Transactions"
+        },
+        {
+            "entityName": "Stage Trusts Transactions Summary"
+        },
+        {
+            "entityName": "Stage Underlying Details"
+        },
+        {
+            "entityName": "Stage Underlying Master"
+        },
+        {
+            "entityName": "Stage Underlying Type Master"
+        },
+        {
+            "entityName": "Stage Underwriter Master"
+        },
+        {
+            "entityName": "Stage Underwriting Details"
+        },
+        {
+            "entityName": "Stage Underwriting Positions"
+        },
+        {
+            "entityName": "Stage Undrawn Limit"
+        },
+        {
+            "entityName": "Stage Unit Of Measure Allocation Factor"
+        },
+        {
+            "entityName": "Stage Unit Of Measure Covariance Data"
+        },
+        {
+            "entityName": "Stage Unit Of Measure Distribution Parameters"
+        },
+        {
+            "entityName": "Stage Unit Of Measure Modeling Parameters"
+        },
+        {
+            "entityName": "Stage Valuation Method Master"
+        },
+        {
+            "entityName": "Stage Vehicle Body Type Master"
+        },
+        {
+            "entityName": "Stage Vehicle Lease Type Master"
+        },
+        {
+            "entityName": "Stage Vehicle Master"
+        },
+        {
+            "entityName": "Stage Vehicle Purpose Master"
+        },
+        {
+            "entityName": "Stage Vehicle Rating Master"
+        },
+        {
+            "entityName": "Stage Vehicle Type Master"
+        },
+        {
+            "entityName": "Stage Vehicle Tyre Type Master"
+        },
+        {
+            "entityName": "Stage Vendor Master"
+        },
+        {
+            "entityName": "Stage Vintage Master"
+        },
+        {
+            "entityName": "Stage Watch List Master"
+        },
+        {
+            "entityName": "Stage Watchlist Member Entry"
+        },
+        {
+            "entityName": "Stage Web Log Analytics Event Master"
+        },
+        {
+            "entityName": "Stage Weblog Analytics Page"
+        },
+        {
+            "entityName": "Stage Weight Change Response Type Master"
+        },
+        {
+            "entityName": "Stage Writeoff Reason Master"
+        },
+        {
+            "entityName": "Staging For Lifetime Value Of Product By Customer Segment"
+        },
+        {
+            "entityName": "Staging For Summary Of Social Media Analytics"
+        },
+        {
+            "entityName": "Staging Of Sma Event Types"
+        },
+        {
+            "entityName": "Staging Reporting Line Mapper"
+        },
+        {
+            "entityName": "Staging Standard Product Mapper"
+        },
+        {
+            "entityName": "Staging Table For Customer Offers Types"
+        },
+        {
+            "entityName": "Staging Table For Margins Kept With Central Counterparty"
+        },
+        {
+            "entityName": "Staging Table For Source Platforms For Social Media Analytics"
+        },
+        {
+            "entityName": "Staging Table Of Score Types"
+        },
+        {
+            "entityName": "Staging for SMA Score Rule For Influencer Score"
+        },
+        {
+            "entityName": "Transaction Channel Master"
+        },
+        {
+            "entityName": "Transaction Mnemonic Master"
+        }
+    ],
+    "groupNames": [
+        {
+            "groupName": "CUSTOM_DQ_GROUP"
+        },
+        {
+            "groupName": "STG_ACCOUNTING_ENTRIES"
+        },
+        {
+            "groupName": "STG_ACCOUNTING_HEAD"
+        },
+        {
+            "groupName": "STG_ACCOUNTING_HEAD_MASTER"
+        },
+        {
+            "groupName": "STG_ACCOUNT_ADDRESS"
+        },
+        {
+            "groupName": "STG_ACCOUNT_ADDRESS_MAP"
+        },
+        {
+            "groupName": "STG_ACCOUNT_ALT_CCY_VALUES"
+        },
+        {
+            "groupName": "STG_ACCOUNT_BALANCES"
+        },
+        {
+            "groupName": "STG_ACCOUNT_CASH_FLOWS"
+        },
+        {
+            "groupName": "STG_ACCOUNT_DEVIATIONS"
+        },
+        {
+            "groupName": "STG_ACCOUNT_DEVIATION_MASTER"
+        },
+        {
+            "groupName": "STG_ACCOUNT_EMAIL_MAP"
+        },
+        {
+            "groupName": "STG_ACCOUNT_GROUP_DETAILS"
+        },
+        {
+            "groupName": "STG_ACCOUNT_GROUP_MEMBER"
+        },
+        {
+            "groupName": "STG_ACCOUNT_HIER"
+        },
+        {
+            "groupName": "STG_ACCOUNT_INCEPTION_RATES"
+        },
+        {
+            "groupName": "STG_ACCOUNT_INDEX_HIST"
+        },
+        {
+            "groupName": "STG_ACCOUNT_INV_OBJECTIVE"
+        },
+        {
+            "groupName": "STG_ACCOUNT_MASTER"
+        },
+        {
+            "groupName": "STG_ACCOUNT_MGMT_MASTER"
+        },
+        {
+            "groupName": "STG_ACCOUNT_MGR_REL"
+        },
+        {
+            "groupName": "STG_ACCOUNT_MITIGANT_MAP"
+        },
+        {
+            "groupName": "STG_ACCOUNT_PEER_GROUP"
+        },
+        {
+            "groupName": "STG_ACCOUNT_PHONE_MAP"
+        },
+        {
+            "groupName": "STG_ACCOUNT_POSITION"
+        },
+        {
+            "groupName": "STG_ACCOUNT_POSITION_PAIR"
+        },
+        {
+            "groupName": "STG_ACCOUNT_PURPOSE_MASTER"
+        },
+        {
+            "groupName": "STG_ACCOUNT_RATE_TIERS"
+        },
+        {
+            "groupName": "STG_ACCOUNT_RATING_DETAILS"
+        },
+        {
+            "groupName": "STG_ACCOUNT_RESTRICTION"
+        },
+        {
+            "groupName": "STG_ACCOUNT_STATUS_MASTER"
+        },
+        {
+            "groupName": "STG_ACCT_ACCT_RELATIONSHIP"
+        },
+        {
+            "groupName": "STG_ACCT_ANTICIPATORY_PROFILE"
+        },
+        {
+            "groupName": "STG_ACCT_CREDIT_QUALITY_DTLS"
+        },
+        {
+            "groupName": "STG_ACCT_CREDIT_SCORE_DETAILS"
+        },
+        {
+            "groupName": "STG_ACCT_CR_QUALITY_STS_DTLS"
+        },
+        {
+            "groupName": "STG_ACCT_CUST_CHG_REL"
+        },
+        {
+            "groupName": "STG_ACCT_ENTRIES_HEADER"
+        },
+        {
+            "groupName": "STG_ACCT_ENT_BATCH_CD_MASTER"
+        },
+        {
+            "groupName": "STG_ACCT_ENT_ERROR_CD_MASTER"
+        },
+        {
+            "groupName": "STG_ACCT_FEATURE_MAP"
+        },
+        {
+            "groupName": "STG_ACCT_GROUP_MASTER"
+        },
+        {
+            "groupName": "STG_ACCT_LENDABLE_PERCENT"
+        },
+        {
+            "groupName": "STG_ACCT_PLACED_COLL_MAP"
+        },
+        {
+            "groupName": "STG_ACCT_RECOVERY_CASH_FLOWS"
+        },
+        {
+            "groupName": "STG_ACCT_RECOVERY_DETAILS"
+        },
+        {
+            "groupName": "STG_ACCT_SEGMENT_MOB"
+        },
+        {
+            "groupName": "STG_ACCT_STBL_CRITERIA_MAST"
+        },
+        {
+            "groupName": "STG_ACCT_WRITE_OFF_DETAILS"
+        },
+        {
+            "groupName": "STG_ACQUIRED_FIRM_MASTER"
+        },
+        {
+            "groupName": "STG_ACTIVITY_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_ADDITIONAL_INS_HIGH_BAL"
+        },
+        {
+            "groupName": "STG_ADDRESS_MASTER"
+        },
+        {
+            "groupName": "STG_ADDR_PURPOSE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_ANNUITY_CONTRACTS"
+        },
+        {
+            "groupName": "STG_ANNUITY_TXNS"
+        },
+        {
+            "groupName": "STG_ANNUITY_TXNS_SUMMARY"
+        },
+        {
+            "groupName": "STG_APPLICATIONS"
+        },
+        {
+            "groupName": "STG_APPLICATIONS_DEVIATION"
+        },
+        {
+            "groupName": "STG_APPLICATIONS_DOC_PRINT_LOG"
+        },
+        {
+            "groupName": "STG_APPLICATION_DOCUMENT"
+        },
+        {
+            "groupName": "STG_APPLICATION_DOCUMENT_MAP"
+        },
+        {
+            "groupName": "STG_APPLICATION_EVENT_DECISION"
+        },
+        {
+            "groupName": "STG_APPLICATION_GROUP"
+        },
+        {
+            "groupName": "STG_APPLICATION_GROUP_MASTER"
+        },
+        {
+            "groupName": "STG_APPLICATION_PURPOSE_MASTER"
+        },
+        {
+            "groupName": "STG_APPLN_DECISION_EVNT_MASTER"
+        },
+        {
+            "groupName": "STG_APPLN_GROUP_EVENT_DECISION"
+        },
+        {
+            "groupName": "STG_APPLN_PARTY_ROLE_MAP"
+        },
+        {
+            "groupName": "STG_APPL_REJECT_REASON_MASTER"
+        },
+        {
+            "groupName": "STG_APPL_STATUS_MASTER"
+        },
+        {
+            "groupName": "STG_APPL_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_ASSETS_SOLD"
+        },
+        {
+            "groupName": "STG_ASSUMED_POLICY_MASTER"
+        },
+        {
+            "groupName": "STG_ASSUMED_POLICY_MASTER_HIER"
+        },
+        {
+            "groupName": "STG_ATTRITION_REASON_MASTER"
+        },
+        {
+            "groupName": "STG_AUTH_DECISION_REAS_MASTER"
+        },
+        {
+            "groupName": "STG_AVAIL_INTRA_LIQ_SRC_MASTER"
+        },
+        {
+            "groupName": "STG_BALANCE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_BANKRUPTCY_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_BANK_INSTR_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_BANK_POSITIONS"
+        },
+        {
+            "groupName": "STG_BEHAVIOUR_PATTERN_NRP"
+        },
+        {
+            "groupName": "STG_BENCHMARK_CAP_CONS_RATIO"
+        },
+        {
+            "groupName": "STG_BENCHMARK_CNTR_CYC_BUFFER"
+        },
+        {
+            "groupName": "STG_BENCHMARK_DETAILS"
+        },
+        {
+            "groupName": "STG_BILLS_CONTRACTS"
+        },
+        {
+            "groupName": "STG_BILL_CONTRACTS_TXNS"
+        },
+        {
+            "groupName": "STG_BILL_PLAN_MASTER"
+        },
+        {
+            "groupName": "STG_BORROWINGS"
+        },
+        {
+            "groupName": "STG_BORROWINGS_TXNS"
+        },
+        {
+            "groupName": "STG_BORROWINGS_TXNS_SUMMARY"
+        },
+        {
+            "groupName": "STG_BRANCH_HIER"
+        },
+        {
+            "groupName": "STG_BRANCH_MASTER"
+        },
+        {
+            "groupName": "STG_BROKER_DEPOSITS"
+        },
+        {
+            "groupName": "STG_BUSINESS_CLASS_MASTER"
+        },
+        {
+            "groupName": "STG_BUSINESS_SEGMENT_HIER"
+        },
+        {
+            "groupName": "STG_BUSINESS_SEGMENT_MASTER"
+        },
+        {
+            "groupName": "STG_BUSINESS_UNIT_HIER"
+        },
+        {
+            "groupName": "STG_BUSINESS_UNIT_MASTER"
+        },
+        {
+            "groupName": "STG_CAMPAIGN_CHANNEL_MASTER"
+        },
+        {
+            "groupName": "STG_CAMPAIGN_MASTER"
+        },
+        {
+            "groupName": "STG_CAMPAIGN_STATUS_MASTER"
+        },
+        {
+            "groupName": "STG_CAMPAIGN_SUMMARY"
+        },
+        {
+            "groupName": "STG_CAMPAIGN_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_CAMPAIGN_WAVE_MASTER"
+        },
+        {
+            "groupName": "STG_CAPITAL_REQMNT_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_CAP_INVESTMENTS_POSITIONS"
+        },
+        {
+            "groupName": "STG_CARDS"
+        },
+        {
+            "groupName": "STG_CARDS_BALANCE_SUMMARY"
+        },
+        {
+            "groupName": "STG_CARDS_BAL_CATEGORY_MASTER"
+        },
+        {
+            "groupName": "STG_CARDS_MASTER"
+        },
+        {
+            "groupName": "STG_CARDS_PAYMENT_TXNS"
+        },
+        {
+            "groupName": "STG_CARDS_SETTLEMENT_TXNS"
+        },
+        {
+            "groupName": "STG_CARDS_TXNS_SUMMARY"
+        },
+        {
+            "groupName": "STG_CARD_ACCT_MAPPING"
+        },
+        {
+            "groupName": "STG_CARD_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_CASA"
+        },
+        {
+            "groupName": "STG_CASA_TXNS"
+        },
+        {
+            "groupName": "STG_CASA_TXNS_SUMMARY"
+        },
+        {
+            "groupName": "STG_CASH_FLOW_TYPE_HIER"
+        },
+        {
+            "groupName": "STG_CASH_FLOW_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_CATASTROPHE_EVENTS_MASTER"
+        },
+        {
+            "groupName": "STG_CAUSE_MASTER"
+        },
+        {
+            "groupName": "STG_CDS_INDEX_COMPOSITION"
+        },
+        {
+            "groupName": "STG_CDS_INDEX_MASTER"
+        },
+        {
+            "groupName": "STG_CDS_SPREADS"
+        },
+        {
+            "groupName": "STG_CD_FEE_CASH_FLOWS"
+        },
+        {
+            "groupName": "STG_CEDENT_ASSET_CLASS_MASTER"
+        },
+        {
+            "groupName": "STG_CENTRAL_AUTHORITY_MASTER"
+        },
+        {
+            "groupName": "STG_CHANNEL_HIER"
+        },
+        {
+            "groupName": "STG_CHANNEL_SESSION"
+        },
+        {
+            "groupName": "STG_CLAIM_MASTER"
+        },
+        {
+            "groupName": "STG_CLAIM_MASTER_HIER"
+        },
+        {
+            "groupName": "STG_CNTRPRTY_PROD_TYPE_SUMMARY"
+        },
+        {
+            "groupName": "STG_COHORT_COMPOSITION_MASTER"
+        },
+        {
+            "groupName": "STG_COLLATERAL_PURPOSE_MASTER"
+        },
+        {
+            "groupName": "STG_COLLECTIONS"
+        },
+        {
+            "groupName": "STG_COLLECTION_OFFICER_MASTER"
+        },
+        {
+            "groupName": "STG_COLLECTOR_CONTACTS"
+        },
+        {
+            "groupName": "STG_COMMITMENT_CONTRACTS"
+        },
+        {
+            "groupName": "STG_COMMITMENT_CONTRACT_TXNS"
+        },
+        {
+            "groupName": "STG_COMMODITIES"
+        },
+        {
+            "groupName": "STG_COMMODITIES_TXNS"
+        },
+        {
+            "groupName": "STG_COMMODITY_FUTURE_CURVES"
+        },
+        {
+            "groupName": "STG_COMMODITY_GRADE_MASTER"
+        },
+        {
+            "groupName": "STG_COMMODITY_GROUP_MASTER"
+        },
+        {
+            "groupName": "STG_COMMODITY_LOCATION_DTLS"
+        },
+        {
+            "groupName": "STG_COMMODITY_MASTER"
+        },
+        {
+            "groupName": "STG_COMMON_COA_MASTER"
+        },
+        {
+            "groupName": "STG_COMPENSATION_DETAILS"
+        },
+        {
+            "groupName": "STG_COMPENSATION_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_CONSENT_PURPOSE_MASTER"
+        },
+        {
+            "groupName": "STG_CONSOL_APPROACH_MASTER"
+        },
+        {
+            "groupName": "STG_CONSTITUTED_FRM_MASTER"
+        },
+        {
+            "groupName": "STG_CONTACT_METHOD_MASTER"
+        },
+        {
+            "groupName": "STG_CONTROLLING_CUSTOMER"
+        },
+        {
+            "groupName": "STG_CORPORATE_ACTIONS"
+        },
+        {
+            "groupName": "STG_CORRELATED_CCY_MAPPING"
+        },
+        {
+            "groupName": "STG_CORRESPONDENT_ACCOUNT"
+        },
+        {
+            "groupName": "STG_CORRESPONDENT_ACCT_TXNS"
+        },
+        {
+            "groupName": "STG_CORRESPONDENT_MKT_SERVED"
+        },
+        {
+            "groupName": "STG_CORRESPONDENT_PROD_SERVED"
+        },
+        {
+            "groupName": "STG_COUNTRYWISE_RISK_SUMMARY"
+        },
+        {
+            "groupName": "STG_COUNTRY_MASTER"
+        },
+        {
+            "groupName": "STG_CR105_1_MASTER"
+        },
+        {
+            "groupName": "STG_CRD_PARTCPN_TRN_MEMBR_MAP"
+        },
+        {
+            "groupName": "STG_CREDIT_CENTER_MASTER"
+        },
+        {
+            "groupName": "STG_CREDIT_DERIVATIVES"
+        },
+        {
+            "groupName": "STG_CREDIT_DERIVATIVES_TXNS"
+        },
+        {
+            "groupName": "STG_CREDIT_LINES_TXNS_SUMMARY"
+        },
+        {
+            "groupName": "STG_CREDIT_LINE_DETAILS"
+        },
+        {
+            "groupName": "STG_CREDIT_LINE_MASTER"
+        },
+        {
+            "groupName": "STG_CREDIT_LINE_MITIGANT_MAP"
+        },
+        {
+            "groupName": "STG_CREDIT_LINE_PURPOSE_MASTER"
+        },
+        {
+            "groupName": "STG_CREDIT_LINE_STATUS_MASTER"
+        },
+        {
+            "groupName": "STG_CREDIT_LINE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_CREDIT_LOSS_REASON_MASTER"
+        },
+        {
+            "groupName": "STG_CREDIT_OFFICER_MASTER"
+        },
+        {
+            "groupName": "STG_CREDIT_PARTCPN_DETAILS"
+        },
+        {
+            "groupName": "STG_CREDIT_PARTCPN_MASTER"
+        },
+        {
+            "groupName": "STG_CREDIT_PARTCPN_TRNCH_DETL"
+        },
+        {
+            "groupName": "STG_CREDIT_PARTCPTION_CONTRACT"
+        },
+        {
+            "groupName": "STG_CREDIT_PARTCPTION_TRANCHE_MASTER"
+        },
+        {
+            "groupName": "STG_CREDIT_QUALITY_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_CREDIT_RATING_MASTER"
+        },
+        {
+            "groupName": "STG_CREDIT_REASON_MASTER"
+        },
+        {
+            "groupName": "STG_CREDIT_SCORE_MODEL_MASTER"
+        },
+        {
+            "groupName": "STG_CTD_MAPPING"
+        },
+        {
+            "groupName": "STG_CTRCT_UNWND_TRGGR_MASTER"
+        },
+        {
+            "groupName": "STG_CURRENCY_EXCHANGE_RATES"
+        },
+        {
+            "groupName": "STG_CURRENCY_RATE_VERSION_MASTER"
+        },
+        {
+            "groupName": "STG_CUSTODIAL_ACCOUNTS"
+        },
+        {
+            "groupName": "STG_CUSTODIAN_ACCOUNT_TXNS"
+        },
+        {
+            "groupName": "STG_CUSTOMER_ALT_CCY_VALUES"
+        },
+        {
+            "groupName": "STG_CUSTOMER_COUNTRY_RELATION"
+        },
+        {
+            "groupName": "STG_CUSTOMER_PRODUCT_SCORE"
+        },
+        {
+            "groupName": "STG_CUSTOMER_SERVICE_ENROLL"
+        },
+        {
+            "groupName": "STG_CUSTSEG_PROD_LTV"
+        },
+        {
+            "groupName": "STG_CUST_ANTICIPATORY_PROFILE"
+        },
+        {
+            "groupName": "STG_CUST_ATTRITION_PLAN"
+        },
+        {
+            "groupName": "STG_CUST_EDUCATION_MASTER"
+        },
+        {
+            "groupName": "STG_CUST_EMPL_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_CUST_FEATURE_MAP"
+        },
+        {
+            "groupName": "STG_DATA_SOURCE_MASTER"
+        },
+        {
+            "groupName": "STG_DEALER_GROUP_MASTER"
+        },
+        {
+            "groupName": "STG_DEALER_MASTER"
+        },
+        {
+            "groupName": "STG_DEAL_MASTER"
+        },
+        {
+            "groupName": "STG_DECISION_STATUS_MASTER"
+        },
+        {
+            "groupName": "STG_DEDUCTIBLE_MASTER"
+        },
+        {
+            "groupName": "STG_DEPOSIT_BLOCK_DTLS"
+        },
+        {
+            "groupName": "STG_DEVIATION_REASON_MASTER"
+        },
+        {
+            "groupName": "STG_DIST_TO_DEFAULT"
+        },
+        {
+            "groupName": "STG_DIVIDEND_PO_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_DIVIDEND_PROTECT_DETAIL"
+        },
+        {
+            "groupName": "STG_DOCUMENT_SUB_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_DOCUMENT_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_DOC_COLLCTN_CNTRCT_ACC"
+        },
+        {
+            "groupName": "STG_DOC_COLLCTN_CNTRCT_ACK"
+        },
+        {
+            "groupName": "STG_DOC_COLLCTN_CNTRCT_EVENT"
+        },
+        {
+            "groupName": "STG_DOC_COLLCTN_CNTRCT_SHP_DTL"
+        },
+        {
+            "groupName": "STG_DOC_COLLCTN_DISCPNT_DTL"
+        },
+        {
+            "groupName": "STG_DOC_SUBMISSN_STATUS_MASTER"
+        },
+        {
+            "groupName": "STG_DOWNGRADE_TRIGGER"
+        },
+        {
+            "groupName": "STG_DPD_TRANSITION_MATRIX"
+        },
+        {
+            "groupName": "STG_DR_ISSUE_MAPPING"
+        },
+        {
+            "groupName": "STG_ECONOMIC_ZONE_MASTER"
+        },
+        {
+            "groupName": "STG_ECO_IND_HIST_RATES"
+        },
+        {
+            "groupName": "STG_EMAIL_ADRS_PRP_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_EMBEDDED_OPTIONS_SCHEDULE"
+        },
+        {
+            "groupName": "STG_EMPLOYEE_EXPENSE_DETAILS"
+        },
+        {
+            "groupName": "STG_EMPLOYEE_HIER"
+        },
+        {
+            "groupName": "STG_EMPLOYEE_MASTER"
+        },
+        {
+            "groupName": "STG_EMPLOYEE_PHONE"
+        },
+        {
+            "groupName": "STG_EMPLOYEE_SERVICE_ACCOUNT"
+        },
+        {
+            "groupName": "STG_EMPLOYEE_TRD_RESTRICTION"
+        },
+        {
+            "groupName": "STG_ENCUMBRANCE_SOURCES_MASTER"
+        },
+        {
+            "groupName": "STG_ENTITY_CCP_DETAILS"
+        },
+        {
+            "groupName": "STG_ENTITY_INFLUENCE_MASTER"
+        },
+        {
+            "groupName": "STG_ENTITY_MEASURE_SUMMARY"
+        },
+        {
+            "groupName": "STG_ENTITY_ORG_EXCHG_MAP"
+        },
+        {
+            "groupName": "STG_ENTITY_PARENT_DETAILS"
+        },
+        {
+            "groupName": "STG_ENTITY_SHR_HLD_PERCENT"
+        },
+        {
+            "groupName": "STG_EQUITY_INDICES"
+        },
+        {
+            "groupName": "STG_EQUITY_OTHER_ASSET_LOSS"
+        },
+        {
+            "groupName": "STG_EQ_ARBITRAGE_STRGY_MAPPING"
+        },
+        {
+            "groupName": "STG_EXPECTED_ACCT_CASHFLOW"
+        },
+        {
+            "groupName": "STG_EXPENSE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_EXPOSURE_SENIORITY_MASTER"
+        },
+        {
+            "groupName": "STG_EXP_UNDERLYING_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_EXT_OPERATIONAL_RISK_LOSS"
+        },
+        {
+            "groupName": "STG_EXT_REPORTING_GROUP"
+        },
+        {
+            "groupName": "STG_EXT_SCALING_FACTOR"
+        },
+        {
+            "groupName": "STG_EXT_ULY_ACCT_RATING_DTL"
+        },
+        {
+            "groupName": "STG_FACILITY_RATING_DETAILS"
+        },
+        {
+            "groupName": "STG_FCAST_AGG_CASH_FLOWS"
+        },
+        {
+            "groupName": "STG_FCAST_EI"
+        },
+        {
+            "groupName": "STG_FCAST_IRCS"
+        },
+        {
+            "groupName": "STG_FCAST_LIQUIDITY_BALANCES"
+        },
+        {
+            "groupName": "STG_FCAST_NET_EXPOSURES"
+        },
+        {
+            "groupName": "STG_FCAST_XRATES"
+        },
+        {
+            "groupName": "STG_FCST_SEC_UNDLYG_COLLCTN"
+        },
+        {
+            "groupName": "STG_FINANCIAL_VARIABLE_MASTER"
+        },
+        {
+            "groupName": "STG_FINANCIAL_YEAR_MASTER"
+        },
+        {
+            "groupName": "STG_FINANCL_STMT_FORECAST"
+        },
+        {
+            "groupName": "STG_FINSPREAD_DEAL_MAP"
+        },
+        {
+            "groupName": "STG_FIXED_ASSETS_DETAILS"
+        },
+        {
+            "groupName": "STG_FIXED_ASSETS_MASTER"
+        },
+        {
+            "groupName": "STG_FIXED_ASSETS_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_FORBORNE_STATUS_MASTER"
+        },
+        {
+            "groupName": "STG_FORECAST_BALANCES"
+        },
+        {
+            "groupName": "STG_FORECAST_GL_DATA"
+        },
+        {
+            "groupName": "STG_FORECAST_PARTY_SHR_HLD"
+        },
+        {
+            "groupName": "STG_FORECAST_SCENARIO_MASTER"
+        },
+        {
+            "groupName": "STG_FOREIGN_CCY_UTIL_DETAILS"
+        },
+        {
+            "groupName": "STG_FOREX_TXNS"
+        },
+        {
+            "groupName": "STG_FORWARDS"
+        },
+        {
+            "groupName": "STG_FORWARDS_TXNS"
+        },
+        {
+            "groupName": "STG_FORWARD_EXCHG_RATES"
+        },
+        {
+            "groupName": "STG_FRAUD_REASON_MASTER"
+        },
+        {
+            "groupName": "STG_FRONT_OFFICE_TXN_PARTY"
+        },
+        {
+            "groupName": "STG_FUNDS_COMPOSITION"
+        },
+        {
+            "groupName": "STG_FUND_DETAILS"
+        },
+        {
+            "groupName": "STG_FUND_EQUITY_INVESTMENTS"
+        },
+        {
+            "groupName": "STG_FUND_MASTER"
+        },
+        {
+            "groupName": "STG_FUND_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_FUND_UNDERLYNG_COMPOSITION"
+        },
+        {
+            "groupName": "STG_FUTURES"
+        },
+        {
+            "groupName": "STG_FUTURES_TXNS"
+        },
+        {
+            "groupName": "STG_FWD_ACCUMULATED_TARGETS"
+        },
+        {
+            "groupName": "STG_FX_CONTRACTS"
+        },
+        {
+            "groupName": "STG_GL_ACCOUNT_HIER"
+        },
+        {
+            "groupName": "STG_GL_ACCOUNT_MASTER"
+        },
+        {
+            "groupName": "STG_GL_COMBINATION_MASTER"
+        },
+        {
+            "groupName": "STG_GL_DATA"
+        },
+        {
+            "groupName": "STG_GL_REPLINE_MAPPER"
+        },
+        {
+            "groupName": "STG_GUARANTEES_TXNS_SUMMARY"
+        },
+        {
+            "groupName": "STG_GUARANTEE_SCHEME_MASTER"
+        },
+        {
+            "groupName": "STG_GUARANTOR_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_HEDGED_INST_MAP"
+        },
+        {
+            "groupName": "STG_HEDGE_MASTER"
+        },
+        {
+            "groupName": "STG_HEDGE_PORTFL_SET_ACCT_MAP"
+        },
+        {
+            "groupName": "STG_HEDGE_PORTFOLIO_SET_MASTER"
+        },
+        {
+            "groupName": "STG_HEDGE_STATUS_MASTER"
+        },
+        {
+            "groupName": "STG_HEDGE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_HEDGING_INST_MAP"
+        },
+        {
+            "groupName": "STG_HEDGING_STRATEGY_MASTER"
+        },
+        {
+            "groupName": "STG_HIGH_RUN_OFF_CATEGORY"
+        },
+        {
+            "groupName": "STG_HOME_OWNERSHIP_MASTER"
+        },
+        {
+            "groupName": "STG_HOUSEHOLD_MASTER"
+        },
+        {
+            "groupName": "STG_IJARAH"
+        },
+        {
+            "groupName": "STG_IJARAH_TXNS"
+        },
+        {
+            "groupName": "STG_INDEX_COMPOSITION"
+        },
+        {
+            "groupName": "STG_INDEX_MASTER"
+        },
+        {
+            "groupName": "STG_INDUSTRY_MASTER"
+        },
+        {
+            "groupName": "STG_INFLATION_RATE"
+        },
+        {
+            "groupName": "STG_INFLUENCE_SMA_RULES"
+        },
+        {
+            "groupName": "STG_INFL_INDEX_MASTER"
+        },
+        {
+            "groupName": "STG_INSTN_PRIMARY_FUNCTION_MASTER"
+        },
+        {
+            "groupName": "STG_INSTRUMENT_CONTRACT_HIER"
+        },
+        {
+            "groupName": "STG_INSTRUMENT_CONTRACT_MASTER"
+        },
+        {
+            "groupName": "STG_INSTRUMENT_GROUP_MEMBER"
+        },
+        {
+            "groupName": "STG_INSTRUMENT_LENDABLE_PCT"
+        },
+        {
+            "groupName": "STG_INSTRUMENT_PD_DETAILS"
+        },
+        {
+            "groupName": "STG_INSTRUMENT_RATING_DETAILS"
+        },
+        {
+            "groupName": "STG_INSTRUMENT_SCHEDULE"
+        },
+        {
+            "groupName": "STG_INST_TRADE_RESTRICTION"
+        },
+        {
+            "groupName": "STG_INSURANCE_COVERAGE_MASTER"
+        },
+        {
+            "groupName": "STG_INS_COVERAGE_MSTR_HIER"
+        },
+        {
+            "groupName": "STG_INS_LOSS_MDL_RSKCAT_MASTER"
+        },
+        {
+            "groupName": "STG_INS_LOSS_MODEL_COMP_MASTER"
+        },
+        {
+            "groupName": "STG_INS_UNW_ISSUE_STYPE_MASTER"
+        },
+        {
+            "groupName": "STG_INS_UNW_ISSUE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_INS_WEIGHT_CR_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_INTERBANK_TXNS"
+        },
+        {
+            "groupName": "STG_INTEREST_RATE_PARAMETERS"
+        },
+        {
+            "groupName": "STG_INT_ALLOCATION_FACTOR"
+        },
+        {
+            "groupName": "STG_INT_LOSS_CORRELATION_MTRX"
+        },
+        {
+            "groupName": "STG_INT_OPERATIONAL_RISK_LOSS"
+        },
+        {
+            "groupName": "STG_INT_SCENARIO_SEVERITY_DTLS"
+        },
+        {
+            "groupName": "STG_INT_SCEN_CORRELATION_MTRX"
+        },
+        {
+            "groupName": "STG_INVESTMENTS"
+        },
+        {
+            "groupName": "STG_INVESTMENT_TXNS"
+        },
+        {
+            "groupName": "STG_INVESTMENT_TXNS_SUMMARY"
+        },
+        {
+            "groupName": "STG_IRCS_MASTER"
+        },
+        {
+            "groupName": "STG_IRC_RATE_HIST"
+        },
+        {
+            "groupName": "STG_IRC_VOLATILITY_RATE_HIST"
+        },
+        {
+            "groupName": "STG_IRC_VOL_SUR_RATE_HIST"
+        },
+        {
+            "groupName": "STG_IR_INDEX"
+        },
+        {
+            "groupName": "STG_ISSUER_MASTER"
+        },
+        {
+            "groupName": "STG_ISSUER_MITIGANT_MAP"
+        },
+        {
+            "groupName": "STG_ISSUER_TYPE"
+        },
+        {
+            "groupName": "STG_ISSUE_DETAILS"
+        },
+        {
+            "groupName": "STG_ISTISNA"
+        },
+        {
+            "groupName": "STG_ISTISNA_TXNS"
+        },
+        {
+            "groupName": "STG_LC_CONTRACTS"
+        },
+        {
+            "groupName": "STG_LC_TXNS"
+        },
+        {
+            "groupName": "STG_LEASES_CONTRACTS"
+        },
+        {
+            "groupName": "STG_LEASES_TXNS"
+        },
+        {
+            "groupName": "STG_LEASES_TXNS_SUMMARY"
+        },
+        {
+            "groupName": "STG_LEASE_PURPOSE_MASTER"
+        },
+        {
+            "groupName": "STG_LEDGER_HIER"
+        },
+        {
+            "groupName": "STG_LEDGER_MASTER"
+        },
+        {
+            "groupName": "STG_LEGAL_ENTITY_CNSLDTN_MAP"
+        },
+        {
+            "groupName": "STG_LEGAL_ENTITY_DETAILS"
+        },
+        {
+            "groupName": "STG_LEGAL_ENTITY_GAAP_MAP"
+        },
+        {
+            "groupName": "STG_LEGAL_ENTITY_GROUP_MASTER"
+        },
+        {
+            "groupName": "STG_LEGAL_ENTITY_HIER"
+        },
+        {
+            "groupName": "STG_LEGAL_ENTITY_MASTER"
+        },
+        {
+            "groupName": "STG_LEGAL_ENTITY_RATING_DTLS"
+        },
+        {
+            "groupName": "STG_LEGAL_PROCEDING_STS_MASTER"
+        },
+        {
+            "groupName": "STG_LIFE_EVENTS"
+        },
+        {
+            "groupName": "STG_LITIGATION_DETAILS"
+        },
+        {
+            "groupName": "STG_LITIGATION_MASTER"
+        },
+        {
+            "groupName": "STG_LOANS_SERVICED"
+        },
+        {
+            "groupName": "STG_LOAN_CONTRACTS"
+        },
+        {
+            "groupName": "STG_LOAN_CONTRACT_TXNS"
+        },
+        {
+            "groupName": "STG_LOAN_CONTRACT_TXNS_SUMMARY"
+        },
+        {
+            "groupName": "STG_LOAN_PURPOSE_MASTER"
+        },
+        {
+            "groupName": "STG_LOAN_RECOURSE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_LOAN_SERVICED_MITIGANT_MAP"
+        },
+        {
+            "groupName": "STG_LOAN_WAIVER_SCHEME_MASTER"
+        },
+        {
+            "groupName": "STG_LOB_CAP_ALLOCATION_FACTOR"
+        },
+        {
+            "groupName": "STG_LOB_HIER"
+        },
+        {
+            "groupName": "STG_LOB_MASTER"
+        },
+        {
+            "groupName": "STG_LOCATION_HIER"
+        },
+        {
+            "groupName": "STG_LOCATION_MASTER"
+        },
+        {
+            "groupName": "STG_LOSS_EVENT_MASTER"
+        },
+        {
+            "groupName": "STG_LOSS_MITIGATION_PRG_MASTER"
+        },
+        {
+            "groupName": "STG_LOSS_SHARE_AGREEMENT_MASTER"
+        },
+        {
+            "groupName": "STG_LV_CAP_ALLOCATION_FACTOR"
+        },
+        {
+            "groupName": "STG_MACRO_ECONOMIC_VAR_DTLS"
+        },
+        {
+            "groupName": "STG_MACRO_ECONOMIC_VAR_MASTER"
+        },
+        {
+            "groupName": "STG_MARITAL_STATUS_MASTER"
+        },
+        {
+            "groupName": "STG_MARKET_CELL_MASTER"
+        },
+        {
+            "groupName": "STG_MARKET_CENTER_MASTER"
+        },
+        {
+            "groupName": "STG_MARKET_NEWS_EVENT"
+        },
+        {
+            "groupName": "STG_MARKET_VARIABLES"
+        },
+        {
+            "groupName": "STG_MARKET_VARIABLES_MASTER"
+        },
+        {
+            "groupName": "STG_MERCHANT_CARDS"
+        },
+        {
+            "groupName": "STG_MERCHANT_CARDS_TXNS"
+        },
+        {
+            "groupName": "STG_MERCHANT_CARD_TXNS_SUMMARY"
+        },
+        {
+            "groupName": "STG_MERCHANT_CATEGORY_MASTER"
+        },
+        {
+            "groupName": "STG_MERCHANT_MASTER"
+        },
+        {
+            "groupName": "STG_MGMT_FORECAST"
+        },
+        {
+            "groupName": "STG_MIGRATION_REASON_MASTER"
+        },
+        {
+            "groupName": "STG_MITIGANTS"
+        },
+        {
+            "groupName": "STG_MITIGANT_CHARGE_DETAILS"
+        },
+        {
+            "groupName": "STG_MITIGANT_CNTR_GUAR_MAPPING"
+        },
+        {
+            "groupName": "STG_MITIGANT_COUNTER_GUARANTEE"
+        },
+        {
+            "groupName": "STG_MITIGANT_MASTER"
+        },
+        {
+            "groupName": "STG_MITIGANT_SUB_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_MITIGANT_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_MIT_SEC_INT_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_MKTG_PROGRAM_MASTER"
+        },
+        {
+            "groupName": "STG_MKT_INSTRUMENT_CONTRACT"
+        },
+        {
+            "groupName": "STG_MORT_SERV_RIGHTS_MASTER"
+        },
+        {
+            "groupName": "STG_MR_ASSET_MASTER"
+        },
+        {
+            "groupName": "STG_MR_PORTFLO_ACT_PNL_VALUE"
+        },
+        {
+            "groupName": "STG_MUDARABAH"
+        },
+        {
+            "groupName": "STG_MUDARABAH_TXNS"
+        },
+        {
+            "groupName": "STG_MURABAHAH"
+        },
+        {
+            "groupName": "STG_MURABAHAH_TXNS"
+        },
+        {
+            "groupName": "STG_MUSHARAKAH"
+        },
+        {
+            "groupName": "STG_MUSHARAKAH_TXNS"
+        },
+        {
+            "groupName": "STG_MUTUAL_FUND_BREAKPOINT"
+        },
+        {
+            "groupName": "STG_NETTABLE_LIABILITIES"
+        },
+        {
+            "groupName": "STG_NETTING_AGREEMENT_MASTER"
+        },
+        {
+            "groupName": "STG_NON_CONTRACTUAL_OBLIGS"
+        },
+        {
+            "groupName": "STG_NON_PERFORMING_CATEGORY_MASTER"
+        },
+        {
+            "groupName": "STG_OBLIGOR_DETAILS"
+        },
+        {
+            "groupName": "STG_OD_ACCOUNTS"
+        },
+        {
+            "groupName": "STG_OD_ACCOUNTS_TXNS"
+        },
+        {
+            "groupName": "STG_OFFERS_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_OFFER_MASTER"
+        },
+        {
+            "groupName": "STG_ONLINE_ACCOUNT_MASTER"
+        },
+        {
+            "groupName": "STG_ONLINE_ACCT_ACCT_MAP"
+        },
+        {
+            "groupName": "STG_OPTIONS_CONVERSION_DETAIL"
+        },
+        {
+            "groupName": "STG_OPTION_CONTRACTS"
+        },
+        {
+            "groupName": "STG_OPTION_CONTRACTS_TXNS"
+        },
+        {
+            "groupName": "STG_OPTY_WL_REASON_MASTER"
+        },
+        {
+            "groupName": "STG_OP_ECONOMIC_ZONE_MASTER"
+        },
+        {
+            "groupName": "STG_OP_RISK_RESERVE_SCHEDULE"
+        },
+        {
+            "groupName": "STG_ORG_UNIT_HIER"
+        },
+        {
+            "groupName": "STG_ORG_UNIT_MASTER"
+        },
+        {
+            "groupName": "STG_OR_LOSS_THRESHOLD_EXT_RG"
+        },
+        {
+            "groupName": "STG_OR_LOSS_THRESHOLD_INT_RG"
+        },
+        {
+            "groupName": "STG_OR_SCEN_COVARIANCE_DATA"
+        },
+        {
+            "groupName": "STG_OR_SCEN_INTERVAL_DATA"
+        },
+        {
+            "groupName": "STG_OTHER_ASSETS"
+        },
+        {
+            "groupName": "STG_OTHER_LIABILITIES"
+        },
+        {
+            "groupName": "STG_OTHER_SERVICES"
+        },
+        {
+            "groupName": "STG_OTHER_SERVICES_TXNS"
+        },
+        {
+            "groupName": "STG_OTHER_SERVICE_TXNS_SUMMARY"
+        },
+        {
+            "groupName": "STG_OWNERSHIP_CATEGORY_MASTER"
+        },
+        {
+            "groupName": "STG_PARTICIPATION_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_PARTNER_EXPENSE"
+        },
+        {
+            "groupName": "STG_PARTNER_MASTER"
+        },
+        {
+            "groupName": "STG_PARTY_ACCOUNT_ROLE_MAP"
+        },
+        {
+            "groupName": "STG_PARTY_ADDRESS_MAP"
+        },
+        {
+            "groupName": "STG_PARTY_ASSET_DETAILS"
+        },
+        {
+            "groupName": "STG_PARTY_CENTRAL_AUTH_MAP"
+        },
+        {
+            "groupName": "STG_PARTY_CONSENT"
+        },
+        {
+            "groupName": "STG_PARTY_DETAILS"
+        },
+        {
+            "groupName": "STG_PARTY_EMAIL_MAP"
+        },
+        {
+            "groupName": "STG_PARTY_EXPENSE_DETAILS"
+        },
+        {
+            "groupName": "STG_PARTY_FINANCIALS"
+        },
+        {
+            "groupName": "STG_PARTY_FIN_INST_IDENTIFCTN"
+        },
+        {
+            "groupName": "STG_PARTY_HIER"
+        },
+        {
+            "groupName": "STG_PARTY_IDENTIFICATION_DOC"
+        },
+        {
+            "groupName": "STG_PARTY_INCOME_DETAILS"
+        },
+        {
+            "groupName": "STG_PARTY_MASTER"
+        },
+        {
+            "groupName": "STG_PARTY_OP_ECONOMIC_ZONE"
+        },
+        {
+            "groupName": "STG_PARTY_OTHER_NAMES"
+        },
+        {
+            "groupName": "STG_PARTY_PARTY_ACCT_RELTNSHP"
+        },
+        {
+            "groupName": "STG_PARTY_PARTY_RELATIONSHIP"
+        },
+        {
+            "groupName": "STG_PARTY_PD_DETAILS"
+        },
+        {
+            "groupName": "STG_PARTY_PHONE_MAP"
+        },
+        {
+            "groupName": "STG_PARTY_RATING_DETAILS"
+        },
+        {
+            "groupName": "STG_PARTY_RELTNSHP_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_PARTY_ROLE_MAP"
+        },
+        {
+            "groupName": "STG_PARTY_ROLE_MASTER"
+        },
+        {
+            "groupName": "STG_PARTY_SHR_HLD_PERCENT"
+        },
+        {
+            "groupName": "STG_PARTY_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_PAYMENT_MECHANISM_MASTER"
+        },
+        {
+            "groupName": "STG_PAYMENT_SCHEDULE"
+        },
+        {
+            "groupName": "STG_PAYMENT_SETTLEMENT_ACCOUNT"
+        },
+        {
+            "groupName": "STG_PAYMENT_SETTLEMENT_SYSTEM_MASTER"
+        },
+        {
+            "groupName": "STG_PAYMENT_TRANSACTIONS"
+        },
+        {
+            "groupName": "STG_PAYMENT_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_PD_MODEL_MASTER"
+        },
+        {
+            "groupName": "STG_PD_TERM_STRUCTURE_DTL"
+        },
+        {
+            "groupName": "STG_PD_TERM_STRUCTURE_MASTER"
+        },
+        {
+            "groupName": "STG_PEER_GROUP_MASTER"
+        },
+        {
+            "groupName": "STG_PEER_INFO"
+        },
+        {
+            "groupName": "STG_PEER_PRODUCT_DETAILS"
+        },
+        {
+            "groupName": "STG_PHONE_PURPOSE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_PLACED_COLLATERAL"
+        },
+        {
+            "groupName": "STG_PLACED_COLLATERAL_MASTER"
+        },
+        {
+            "groupName": "STG_PLACED_COLLAT_SRC_DTLS"
+        },
+        {
+            "groupName": "STG_POLICY_MASTER"
+        },
+        {
+            "groupName": "STG_POLICY_MASTER_HIER"
+        },
+        {
+            "groupName": "STG_POLICY_VEHICLE_RATING_DTLS"
+        },
+        {
+            "groupName": "STG_POOL_CLASS_MASTER"
+        },
+        {
+            "groupName": "STG_POOL_IDENTIFICATION_MASTER"
+        },
+        {
+            "groupName": "STG_PORTFOLIO_DATA"
+        },
+        {
+            "groupName": "STG_PORTFOLIO_MASTER"
+        },
+        {
+            "groupName": "STG_PORTFOLIO_MASTER_HIER"
+        },
+        {
+            "groupName": "STG_PORTFOLIO_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_POSITION_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_PPMT_CALC_PARAMS"
+        },
+        {
+            "groupName": "STG_PPMT_MODEL_HYPERCUBE"
+        },
+        {
+            "groupName": "STG_PREMIUM_PYMT_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_PREM_OFFSET_METHOD_MASTER"
+        },
+        {
+            "groupName": "STG_PREM_OFFSET_MTHD_MSTR_HIER"
+        },
+        {
+            "groupName": "STG_PREM_SUSP_REASON_MASTER"
+        },
+        {
+            "groupName": "STG_PREM_SUSP_REASON_MSTR_HIER"
+        },
+        {
+            "groupName": "STG_PREPAID_CARDS"
+        },
+        {
+            "groupName": "STG_PREPAID_CARDS_TXNS"
+        },
+        {
+            "groupName": "STG_PREPAYMENT_REASON_MASTER"
+        },
+        {
+            "groupName": "STG_PROCESS_LOB_LOC_MAP"
+        },
+        {
+            "groupName": "STG_PROCESS_MASTER"
+        },
+        {
+            "groupName": "STG_PRODUCER_MASTER"
+        },
+        {
+            "groupName": "STG_PRODUCER_MASTER_HIER"
+        },
+        {
+            "groupName": "STG_PRODUCT_BUNDLE_MASTER"
+        },
+        {
+            "groupName": "STG_PRODUCT_CATEGORY_MASTER"
+        },
+        {
+            "groupName": "STG_PRODUCT_FEATURE_MASTER"
+        },
+        {
+            "groupName": "STG_PRODUCT_HIER"
+        },
+        {
+            "groupName": "STG_PRODUCT_MASTER"
+        },
+        {
+            "groupName": "STG_PRODUCT_RATE_MATRIX"
+        },
+        {
+            "groupName": "STG_PRODUCT_RIDER_DETAILS"
+        },
+        {
+            "groupName": "STG_PRODUCT_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_PROD_STDPROD_MAPPER"
+        },
+        {
+            "groupName": "STG_PROFESSION_MASTER"
+        },
+        {
+            "groupName": "STG_PROFESSION_SUB_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_PROGRAM_MASTER"
+        },
+        {
+            "groupName": "STG_PROJECT_HIER"
+        },
+        {
+            "groupName": "STG_PROJECT_MASTER"
+        },
+        {
+            "groupName": "STG_PROPERTY_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_PROSPECT_MASTER"
+        },
+        {
+            "groupName": "STG_PROVISION_MATRIX"
+        },
+        {
+            "groupName": "STG_PURCHASE_CATEGORY_MASTER"
+        },
+        {
+            "groupName": "STG_QUOTE_DECLINATION_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_QUOTE_SOURCE_MASTER"
+        },
+        {
+            "groupName": "STG_QUOTE_SOURCE_METHOD_MASTER"
+        },
+        {
+            "groupName": "STG_QUOTE_STATUS_MASTER"
+        },
+        {
+            "groupName": "STG_QUOTE_SUBMISSION_METHOD_MASTER"
+        },
+        {
+            "groupName": "STG_QUOTE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_RAPM"
+        },
+        {
+            "groupName": "STG_RATE_PLAN_MASTER"
+        },
+        {
+            "groupName": "STG_RATING_RISK_PARAMETERS"
+        },
+        {
+            "groupName": "STG_RATING_TRANSITION_MATRIX"
+        },
+        {
+            "groupName": "STG_RECOVERIES"
+        },
+        {
+            "groupName": "STG_RECOVERY_AGENT_MASTER"
+        },
+        {
+            "groupName": "STG_RECOVERY_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_REF_FOREX_RATE"
+        },
+        {
+            "groupName": "STG_REF_INFLATION_RATE"
+        },
+        {
+            "groupName": "STG_REGION_MASTER"
+        },
+        {
+            "groupName": "STG_REG_ENTITY_CLASS_DETAILS"
+        },
+        {
+            "groupName": "STG_REJECTION_REASON_MASTER"
+        },
+        {
+            "groupName": "STG_REPORTED_MKT_SALE"
+        },
+        {
+            "groupName": "STG_REPORT_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_REPO_CONTRACTS"
+        },
+        {
+            "groupName": "STG_REPO_TXNS"
+        },
+        {
+            "groupName": "STG_REPURCHASE_REASONS_MASTER"
+        },
+        {
+            "groupName": "STG_REQUEST_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_RESERVE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_RESPONSE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_RESTRICTION_LIST"
+        },
+        {
+            "groupName": "STG_RETENTION_OFFER_MASTER"
+        },
+        {
+            "groupName": "STG_RETIREMNT_ACT_TXNS_SUMMARY"
+        },
+        {
+            "groupName": "STG_RISK_POSITION_MAPPING"
+        },
+        {
+            "groupName": "STG_RUN_OFF_MEASURES_MASTER"
+        },
+        {
+            "groupName": "STG_SALAM"
+        },
+        {
+            "groupName": "STG_SALAM_TXNS"
+        },
+        {
+            "groupName": "STG_SALES_CHANNEL_MASTER"
+        },
+        {
+            "groupName": "STG_SALES_REP_COMPENSATION"
+        },
+        {
+            "groupName": "STG_SALES_REP_MASTER"
+        },
+        {
+            "groupName": "STG_SALES_STAGE_MASTER"
+        },
+        {
+            "groupName": "STG_SCORE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_SECURITIZATION_ACTIVITY"
+        },
+        {
+            "groupName": "STG_SEC_FACILITY_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_SEC_INCEPTION_DATA"
+        },
+        {
+            "groupName": "STG_SEC_POOL_MASTER"
+        },
+        {
+            "groupName": "STG_SEC_POOL_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_SEC_PROGRAM_MASTER"
+        },
+        {
+            "groupName": "STG_SEC_STATUS_MASTER"
+        },
+        {
+            "groupName": "STG_SEC_TRNCH_CREDIT_ENH_MAP"
+        },
+        {
+            "groupName": "STG_SEC_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_SERVICE"
+        },
+        {
+            "groupName": "STG_SERVICE_CHARGE_MASTER"
+        },
+        {
+            "groupName": "STG_SERVICE_PLAN_DATA"
+        },
+        {
+            "groupName": "STG_SERVICE_TEAM"
+        },
+        {
+            "groupName": "STG_SERVICE_TEAM_MEMBER"
+        },
+        {
+            "groupName": "STG_SERV_ACCT_CREDIT_SCORE_DTL"
+        },
+        {
+            "groupName": "STG_SERV_LN_CUST_RELATIONSHIP"
+        },
+        {
+            "groupName": "STG_SERV_REPRES_MASTER"
+        },
+        {
+            "groupName": "STG_SERV_SLIP_REASON_MASTER"
+        },
+        {
+            "groupName": "STG_SHAREHOLDER_MASTER"
+        },
+        {
+            "groupName": "STG_SHARE_HOLDING_DETAILS"
+        },
+        {
+            "groupName": "STG_SIMULATION_BKT_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_SMA_EVENTS"
+        },
+        {
+            "groupName": "STG_SMA_EVENT_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_SMA_PLATFORM_MASTER"
+        },
+        {
+            "groupName": "STG_SOCIAL_MEDIA_MASTER"
+        },
+        {
+            "groupName": "STG_SOCIAL_MEDIA_POST"
+        },
+        {
+            "groupName": "STG_SOVEREIGN_RATING_DETAILS"
+        },
+        {
+            "groupName": "STG_SPECIAL_TERMS_COVENANTS"
+        },
+        {
+            "groupName": "STG_SPECIAL_TERM_MASTER"
+        },
+        {
+            "groupName": "STG_SRC_ATM_TXNS"
+        },
+        {
+            "groupName": "STG_SRC_BRANCH_TXNS"
+        },
+        {
+            "groupName": "STG_SRC_POS_TXNS"
+        },
+        {
+            "groupName": "STG_SRC_TB_TXNS"
+        },
+        {
+            "groupName": "STG_STANDARD_ACCT_HEAD"
+        },
+        {
+            "groupName": "STG_STD_ALLOCATION_FACTOR"
+        },
+        {
+            "groupName": "STG_STD_SCENARIO_SEVERITY_DTLS"
+        },
+        {
+            "groupName": "STG_STOCK_INDEX_MASTER"
+        },
+        {
+            "groupName": "STG_STOCK_TICKER_MASTER"
+        },
+        {
+            "groupName": "STG_SUKUK"
+        },
+        {
+            "groupName": "STG_SUKUK_TXNS"
+        },
+        {
+            "groupName": "STG_SURVEY_MASTER"
+        },
+        {
+            "groupName": "STG_SURVEY_RESPONSE"
+        },
+        {
+            "groupName": "STG_SWAPS_CONTRACTS"
+        },
+        {
+            "groupName": "STG_SWAP_ACCOUNT_TXNS"
+        },
+        {
+            "groupName": "STG_SYSTEM_LOGON_MASTER"
+        },
+        {
+            "groupName": "STG_TARGETING_METHOD_MASTER"
+        },
+        {
+            "groupName": "STG_TD_CONTRACTS"
+        },
+        {
+            "groupName": "STG_TERMDEPOSITS_TXNS"
+        },
+        {
+            "groupName": "STG_TERMDEPOSITS_TXNS_SUMMARY"
+        },
+        {
+            "groupName": "STG_TERMINAL_MASTER"
+        },
+        {
+            "groupName": "STG_TERMINAL_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_TERM_STRUCTURE_DTL"
+        },
+        {
+            "groupName": "STG_TERM_STRUCTURE_MASTER"
+        },
+        {
+            "groupName": "STG_TIME_TO_PEAK_EXPOSURE"
+        },
+        {
+            "groupName": "STG_TRADE_FINANCE_ACCT"
+        },
+        {
+            "groupName": "STG_TRADE_FINANCE_DOCUMENT"
+        },
+        {
+            "groupName": "STG_TRADE_FINANCE_GOODS"
+        },
+        {
+            "groupName": "STG_TRADE_FIN_GOODS_CATEGORY"
+        },
+        {
+            "groupName": "STG_TRADE_FIN_GOODS_MASTER"
+        },
+        {
+            "groupName": "STG_TRADE_FIN_GOODS_SUBTYPE"
+        },
+        {
+            "groupName": "STG_TRADE_FIN_GOODS_TYPE"
+        },
+        {
+            "groupName": "STG_TRADING_ACCOUNT"
+        },
+        {
+            "groupName": "STG_TRADING_ACCOUNT_TXNS"
+        },
+        {
+            "groupName": "STG_TRADING_DESK_MASTER"
+        },
+        {
+            "groupName": "STG_TRANSACTION_MASTER"
+        },
+        {
+            "groupName": "STG_TRANSITION_MATRIX"
+        },
+        {
+            "groupName": "STG_TRANSITION_MTRX_MASTER"
+        },
+        {
+            "groupName": "STG_TRD_FIN_CNTRCT_AMD_STATUS"
+        },
+        {
+            "groupName": "STG_TRD_FIN_CNTRCT_EVENT_ACK"
+        },
+        {
+            "groupName": "STG_TRD_FIN_GOODS_ALT_CCY_VAL"
+        },
+        {
+            "groupName": "STG_TRD_RESTRICTN_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_TREATMENT_MASTER"
+        },
+        {
+            "groupName": "STG_TRUSTS"
+        },
+        {
+            "groupName": "STG_TRUSTS_TXNS"
+        },
+        {
+            "groupName": "STG_TRUSTS_TXNS_SUMMARY"
+        },
+        {
+            "groupName": "STG_TXN_ALT_CCY_VALUES"
+        },
+        {
+            "groupName": "STG_TXN_CHANNEL_MASTER"
+        },
+        {
+            "groupName": "STG_TXN_FAILURE_REASON_MASTER"
+        },
+        {
+            "groupName": "STG_TXN_HEADER"
+        },
+        {
+            "groupName": "STG_TXN_MNEMONIC_MASTER"
+        },
+        {
+            "groupName": "STG_TXN_PURPOSE_MASTER"
+        },
+        {
+            "groupName": "STG_UNDERLYING_DTL"
+        },
+        {
+            "groupName": "STG_UNDERLYING_MASTER"
+        },
+        {
+            "groupName": "STG_UNDERLYING_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_UNDERWRITER_MASTER"
+        },
+        {
+            "groupName": "STG_UNDERWRITING_DETAILS"
+        },
+        {
+            "groupName": "STG_UNDERWRITING_POSITIONS"
+        },
+        {
+            "groupName": "STG_UNDRAWN_LIMIT"
+        },
+        {
+            "groupName": "STG_UOM_CAP_ALLOCATION_FACTOR"
+        },
+        {
+            "groupName": "STG_UOM_COVARIANCE_DATA"
+        },
+        {
+            "groupName": "STG_UOM_DISTRIBUTION_PARAMS"
+        },
+        {
+            "groupName": "STG_UOM_MODEL_PARAMS"
+        },
+        {
+            "groupName": "STG_VALUATION_METHOD_MASTER"
+        },
+        {
+            "groupName": "STG_VEHCILE_PURPOSE_MASTER"
+        },
+        {
+            "groupName": "STG_VEHICLE_BODY_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_VEHICLE_LEASE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_VEHICLE_MASTER"
+        },
+        {
+            "groupName": "STG_VEHICLE_RATING_MASTER"
+        },
+        {
+            "groupName": "STG_VEHICLE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_VEHICLE_TYRE_TYPE_MASTER"
+        },
+        {
+            "groupName": "STG_VENDOR_MASTER"
+        },
+        {
+            "groupName": "STG_VINTAGE_MASTER"
+        },
+        {
+            "groupName": "STG_WATCHLIST_MASTER"
+        },
+        {
+            "groupName": "STG_WATCHLIST_MEMBER_ENTRY"
+        },
+        {
+            "groupName": "STG_WLA_EVENT_MASTER"
+        },
+        {
+            "groupName": "STG_WLA_PAGE_MASTER"
+        },
+        {
+            "groupName": "STG_WRITEOFF_REASON_MASTER"
+        }
+    ],
+    "isCustomized": [
+        {
+            "id": "1",
+            "lov": "Custom"
+        },
+        {
+            "id": "2",
+            "lov": "Seeded"
+        }
+    ]
+}

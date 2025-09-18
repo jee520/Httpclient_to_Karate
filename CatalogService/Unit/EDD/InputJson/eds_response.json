@@ -1,0 +1,23 @@
+{
+    "code": "DIH0000",
+    "body": {
+        "DSData": [
+            {
+                "dsId": "3847",
+                "dsName": "FOUNDATION_DATA_STORE",
+                "dsDesc": "Data Store for DFCS Extracts",
+                "dsType": "FILE",
+                "dbCon": "",
+                "dsFileLoc": "/home/oracle/data/erp_files/extracts",
+                "dsStatus": "Saved",
+                "dsMBy": "dfcsqa",
+                "dsMDate": "2024-07-16 16:24:00",
+                "dsUsed": "Y",
+                "typeId": "1",
+                "typeCd": "FILE",
+                "superType": "FILE",
+                "dsStatusVal": "S"
+            }
+        ]
+    }
+}

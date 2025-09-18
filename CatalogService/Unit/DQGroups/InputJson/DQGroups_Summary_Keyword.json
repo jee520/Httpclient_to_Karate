@@ -1,0 +1,17 @@
+{
+    "totalCount": 1,
+    "body": [
+        {
+            "id": "ENT4",
+            "dqGroupName": "STG_ACCOUNTING_ENTRIES",
+            "dqGroupDesc": "Data Quality Group for STG_ACCOUNTING_ENTRIES",
+            "entityName": "Stage Accounting Entries",
+            "isCustomized": "Seeded",
+            "noOfDQs": 62,
+            "noOfEntBts": 70,
+            "noOfEntBtsWithDQ": 47,
+            "noOfCustDQs": 0,
+            "noOfSeedDQs": 62
+        }
+    ]
+}
