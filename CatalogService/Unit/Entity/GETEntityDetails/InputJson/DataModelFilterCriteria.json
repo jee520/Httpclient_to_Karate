@@ -1,0 +1,2848 @@
+{
+    "DataModelFilterCriteria": [
+        {
+            "objNames": [
+                {
+                    "objName": "Account"
+                },
+                {
+                    "objName": "Account Account Relationship"
+                },
+                {
+                    "objName": "Account Address"
+                },
+                {
+                    "objName": "Account Address Map"
+                },
+                {
+                    "objName": "Account Alternate Currency Values"
+                },
+                {
+                    "objName": "Account Anticipatory Profile"
+                },
+                {
+                    "objName": "Account Balances"
+                },
+                {
+                    "objName": "Account Cash Flows"
+                },
+                {
+                    "objName": "Account Classification"
+                },
+                {
+                    "objName": "Account Credit Quality Status Details"
+                },
+                {
+                    "objName": "Account Credit Score Details"
+                },
+                {
+                    "objName": "Account Customer Relationship Change"
+                },
+                {
+                    "objName": "Account Deviation"
+                },
+                {
+                    "objName": "Account Deviations Details"
+                },
+                {
+                    "objName": "Account Effective Interest Rates"
+                },
+                {
+                    "objName": "Account Email Map"
+                },
+                {
+                    "objName": "Account Feature Map"
+                },
+                {
+                    "objName": "Account Group Details"
+                },
+                {
+                    "objName": "Account Group Master"
+                },
+                {
+                    "objName": "Account Group Member"
+                },
+                {
+                    "objName": "Account Hierarchy"
+                },
+                {
+                    "objName": "Account Index Value History"
+                },
+                {
+                    "objName": "Account Investment Objective"
+                },
+                {
+                    "objName": "Account Lendable Percent"
+                },
+                {
+                    "objName": "Account Management"
+                },
+                {
+                    "objName": "Account Manager Relationship"
+                },
+                {
+                    "objName": "Account Mitigant Map"
+                },
+                {
+                    "objName": "Account Peer Group"
+                },
+                {
+                    "objName": "Account Phone Map"
+                },
+                {
+                    "objName": "Account Placed Collateral Map"
+                },
+                {
+                    "objName": "Account Portfolio"
+                },
+                {
+                    "objName": "Account Position"
+                },
+                {
+                    "objName": "Account Position Pair"
+                },
+                {
+                    "objName": "Account Purpose"
+                },
+                {
+                    "objName": "Account Rate Tiers"
+                },
+                {
+                    "objName": "Account Rating Details"
+                },
+                {
+                    "objName": "Account Recovery Cashflows"
+                },
+                {
+                    "objName": "Account Recovery Details"
+                },
+                {
+                    "objName": "Account Restriction"
+                },
+                {
+                    "objName": "Account Segment Month On Book"
+                },
+                {
+                    "objName": "Account Sold Exemption"
+                },
+                {
+                    "objName": "Account Status"
+                },
+                {
+                    "objName": "Account Type"
+                },
+                {
+                    "objName": "Account Write Off Details"
+                },
+                {
+                    "objName": "Accounting Entries"
+                },
+                {
+                    "objName": "Accounting Entries Batch"
+                },
+                {
+                    "objName": "Accounting Entries Error"
+                },
+                {
+                    "objName": "Accounting Entries Header"
+                },
+                {
+                    "objName": "Accounting Head"
+                },
+                {
+                    "objName": "Accounting Head Details"
+                },
+                {
+                    "objName": "Accounting Standard"
+                },
+                {
+                    "objName": "Accrual Status"
+                },
+                {
+                    "objName": "Acquired Firm"
+                },
+                {
+                    "objName": "Acquisition Channel"
+                },
+                {
+                    "objName": "Additional Insurance For High Balance"
+                },
+                {
+                    "objName": "Address"
+                },
+                {
+                    "objName": "Address Purpose Type"
+                },
+                {
+                    "objName": "Adjustment Type"
+                },
+                {
+                    "objName": "Agency Type"
+                },
+                {
+                    "objName": "Amortization Type"
+                },
+                {
+                    "objName": "Annual Percentage Rate Reset Type"
+                },
+                {
+                    "objName": "Annuity Contracts"
+                },
+                {
+                    "objName": "Annuity Transactions"
+                },
+                {
+                    "objName": "Application Decision Event"
+                },
+                {
+                    "objName": "Application Document"
+                },
+                {
+                    "objName": "Application Document Map"
+                },
+                {
+                    "objName": "Application Event Decision"
+                },
+                {
+                    "objName": "Application Group Details"
+                },
+                {
+                    "objName": "Application Group"
+                },
+                {
+                    "objName": "Application Group Event Decision"
+                },
+                {
+                    "objName": "Application Party Role Map"
+                },
+                {
+                    "objName": "Application Purpose Master"
+                },
+                {
+                    "objName": "Application Reject Reasons"
+                },
+                {
+                    "objName": "Application Status"
+                },
+                {
+                    "objName": "Application Type"
+                },
+                {
+                    "objName": "Applications"
+                },
+                {
+                    "objName": "Application Details"
+                },
+                {
+                    "objName": "Applications Deviations"
+                },
+                {
+                    "objName": "Applications Document Print Log"
+                },
+                {
+                    "objName": "Asset Intent Type"
+                },
+                {
+                    "objName": "Assets Sold"
+                },
+                {
+                    "objName": "Assumed Policy"
+                },
+                {
+                    "objName": "Assumed Policy Hierarchy"
+                },
+                {
+                    "objName": "Attrition"
+                },
+                {
+                    "objName": "Authorization Decision Reasons"
+                },
+                {
+                    "objName": "Automatic Teller Machine Transactions"
+                },
+                {
+                    "objName": "Available Intraday Liquidity Source"
+                },
+                {
+                    "objName": "Balance Sheet Category"
+                },
+                {
+                    "objName": "Balance Type"
+                },
+                {
+                    "objName": "Bands"
+                },
+                {
+                    "objName": "Bank Cards"
+                },
+                {
+                    "objName": "Bank Instrument Type Master"
+                },
+                {
+                    "objName": "Bank Positions"
+                },
+                {
+                    "objName": "Bankruptcy Chapter"
+                },
+                {
+                    "objName": "Bankruptcy Type"
+                },
+                {
+                    "objName": "Barrier Type"
+                },
+                {
+                    "objName": "Basel Asset Class"
+                },
+                {
+                    "objName": "Basel Asset Class Category"
+                },
+                {
+                    "objName": "Basel Bank Roles"
+                },
+                {
+                    "objName": "Basel Consolidation Option Dimension"
+                },
+                {
+                    "objName": "Basel Credit Ratings"
+                },
+                {
+                    "objName": "Basel Methodology"
+                },
+                {
+                    "objName": "Basel Product Types"
+                },
+                {
+                    "objName": "Behaviour Pattern Non Replicating Portfolio"
+                },
+                {
+                    "objName": "Behaviour Type"
+                },
+                {
+                    "objName": "Benchmark Capital Conservation Ratio"
+                },
+                {
+                    "objName": "Benchmark Counter Cyclical Buffer"
+                },
+                {
+                    "objName": "Benchmark Details"
+                },
+                {
+                    "objName": "Benchmark Source"
+                },
+                {
+                    "objName": "Bill Contract Transactions"
+                },
+                {
+                    "objName": "Bill Contracts"
+                },
+                {
+                    "objName": "Bill Plan"
+                },
+                {
+                    "objName": "Bills Acceptances"
+                },
+                {
+                    "objName": "Blocked Deposit Details"
+                },
+                {
+                    "objName": "Boolean Flag"
+                },
+                {
+                    "objName": "Borrowings"
+                },
+                {
+                    "objName": "Borrowings Transactions"
+                },
+                {
+                    "objName": "Branch"
+                },
+                {
+                    "objName": "Branch Hierarchy"
+                },
+                {
+                    "objName": "Branch Transactions"
+                },
+                {
+                    "objName": "Broker Deposit Type"
+                },
+                {
+                    "objName": "Broker Deposits"
+                },
+                {
+                    "objName": "Business Class"
+                },
+                {
+                    "objName": "Business Domain"
+                },
+                {
+                    "objName": "Business Segment"
+                },
+                {
+                    "objName": "Business Segment Category"
+                },
+                {
+                    "objName": "Business Segment Hierarchy"
+                },
+                {
+                    "objName": "Business Unit"
+                },
+                {
+                    "objName": "Business Unit Hierarchy"
+                },
+                {
+                    "objName": "Campaign"
+                },
+                {
+                    "objName": "Campaign Channel"
+                },
+                {
+                    "objName": "Campaign Status"
+                },
+                {
+                    "objName": "Campaign Summary"
+                },
+                {
+                    "objName": "Campaign Type"
+                },
+                {
+                    "objName": "Campaign Wave"
+                },
+                {
+                    "objName": "Capital Computation Group"
+                },
+                {
+                    "objName": "Capital Computation Method"
+                },
+                {
+                    "objName": "Capital Investments Positions"
+                },
+                {
+                    "objName": "Capital Requirement Type"
+                },
+                {
+                    "objName": "Card Account Mapping"
+                },
+                {
+                    "objName": "Card Risk Exposure Type"
+                },
+                {
+                    "objName": "Card Type"
+                },
+                {
+                    "objName": "Cards"
+                },
+                {
+                    "objName": "Cards Payments Transactions"
+                },
+                {
+                    "objName": "Cards Settlement Transactions"
+                },
+                {
+                    "objName": "Casa"
+                },
+                {
+                    "objName": "Casa Transaction"
+                },
+                {
+                    "objName": "Cash Flow Scenario"
+                },
+                {
+                    "objName": "Cash Flow Type"
+                },
+                {
+                    "objName": "Cash Flow Type Hierarchy"
+                },
+                {
+                    "objName": "Catastrophe Events"
+                },
+                {
+                    "objName": "Cause Master"
+                },
+                {
+                    "objName": "Cedent Asset Classification"
+                },
+                {
+                    "objName": "Central Authority"
+                },
+                {
+                    "objName": "Central Authority Type"
+                },
+                {
+                    "objName": "Channel Hierarchy"
+                },
+                {
+                    "objName": "Channel Session"
+                },
+                {
+                    "objName": "Channel Transaction"
+                },
+                {
+                    "objName": "Claim"
+                },
+                {
+                    "objName": "Claim Hierarchy"
+                },
+                {
+                    "objName": "Cleared Transaction Bank Role"
+                },
+                {
+                    "objName": "Cohort Composition"
+                },
+                {
+                    "objName": "Collateral Debt Swap Spreads"
+                },
+                {
+                    "objName": "Collateral Purpose"
+                },
+                {
+                    "objName": "Collateral Release Reason"
+                },
+                {
+                    "objName": "Collateral Type"
+                },
+                {
+                    "objName": "Collateral Valuation Basis"
+                },
+                {
+                    "objName": "Collaterals Posted"
+                },
+                {
+                    "objName": "Collection Buckets"
+                },
+                {
+                    "objName": "Collection Officer"
+                },
+                {
+                    "objName": "Collections"
+                },
+                {
+                    "objName": "Collector Contacts"
+                },
+                {
+                    "objName": "Commitment Contract Transactions"
+                },
+                {
+                    "objName": "Commitment Contracts"
+                },
+                {
+                    "objName": "Commodities Transactions"
+                },
+                {
+                    "objName": "Commodity"
+                },
+                {
+                    "objName": "Commodity Contracts"
+                },
+                {
+                    "objName": "Commodity Future Curves"
+                },
+                {
+                    "objName": "Commodity Grade"
+                },
+                {
+                    "objName": "Commodity Group"
+                },
+                {
+                    "objName": "Commodity Location Details"
+                },
+                {
+                    "objName": "Common Account Derived Attributes"
+                },
+                {
+                    "objName": "Common Account Summary"
+                },
+                {
+                    "objName": "Common Chart Of Accounts"
+                },
+                {
+                    "objName": "Compensation Details"
+                },
+                {
+                    "objName": "Compensation Type"
+                },
+                {
+                    "objName": "Consent Purpose"
+                },
+                {
+                    "objName": "Consolidation Approach"
+                },
+                {
+                    "objName": "Constituent Type"
+                },
+                {
+                    "objName": "Constituted Form"
+                },
+                {
+                    "objName": "Construction Loan Type"
+                },
+                {
+                    "objName": "Contact Method"
+                },
+                {
+                    "objName": "Contract Unwind Trigger"
+                },
+                {
+                    "objName": "Controlling Customer"
+                },
+                {
+                    "objName": "Corporate Actions"
+                },
+                {
+                    "objName": "Correlated Currency Mapping"
+                },
+                {
+                    "objName": "Correspondent Account Transactions"
+                },
+                {
+                    "objName": "Correspondent Accounts"
+                },
+                {
+                    "objName": "Correspondent- Markets Served"
+                },
+                {
+                    "objName": "Correspondent- Products Served"
+                },
+                {
+                    "objName": "Country"
+                },
+                {
+                    "objName": "Countrywise Risk Summary"
+                },
+                {
+                    "objName": "Credit Card Balance Category"
+                },
+                {
+                    "objName": "Credit Card Balance Summary"
+                },
+                {
+                    "objName": "Credit Card Co Brand Type"
+                },
+                {
+                    "objName": "Credit Card Lending Type"
+                },
+                {
+                    "objName": "Credit Card Network"
+                },
+                {
+                    "objName": "Credit Card Reward Type"
+                },
+                {
+                    "objName": "Credit Card Type"
+                },
+                {
+                    "objName": "Credit Center"
+                },
+                {
+                    "objName": "Credit Class Type"
+                },
+                {
+                    "objName": "Credit Default Swap Index Composition"
+                },
+                {
+                    "objName": "Credit Default Swap Index Name"
+                },
+                {
+                    "objName": "Credit Derivative Fee Cash Flows"
+                },
+                {
+                    "objName": "Credit Derivatives"
+                },
+                {
+                    "objName": "Credit Derivatives Transactions"
+                },
+                {
+                    "objName": "Credit Facility"
+                },
+                {
+                    "objName": "Credit Facility Details"
+                },
+                {
+                    "objName": "Credit Facility Purpose"
+                },
+                {
+                    "objName": "Credit Facility Type"
+                },
+                {
+                    "objName": "Credit Guarantee Scheme"
+                },
+                {
+                    "objName": "Credit Line Mitigant Map"
+                },
+                {
+                    "objName": "Credit Line Purpose Category"
+                },
+                {
+                    "objName": "Credit Line Status"
+                },
+                {
+                    "objName": "Credit Line Valuation Type"
+                },
+                {
+                    "objName": "Credit Loss Reason"
+                },
+                {
+                    "objName": "Credit Officer"
+                },
+                {
+                    "objName": "Credit Participation"
+                },
+                {
+                    "objName": "Credit Participation Contract"
+                },
+                {
+                    "objName": "Credit Participation Contract Type"
+                },
+                {
+                    "objName": "Credit Participation Details"
+                },
+                {
+                    "objName": "Credit Participation Tranche"
+                },
+                {
+                    "objName": "Credit Participation Tranche Member Map"
+                },
+                {
+                    "objName": "Credit Participation Tranche Details"
+                },
+                {
+                    "objName": "Credit Quality Details"
+                },
+                {
+                    "objName": "Credit Quality Grade"
+                },
+                {
+                    "objName": "Credit Quality Type"
+                },
+                {
+                    "objName": "Credit Rating"
+                },
+                {
+                    "objName": "Credit Reason"
+                },
+                {
+                    "objName": "Credit Score Model"
+                },
+                {
+                    "objName": "Credit Score Type"
+                },
+                {
+                    "objName": "Credit Status"
+                },
+                {
+                    "objName": "Cheapest To Deliver Mappings"
+                },
+                {
+                    "objName": "Currency"
+                },
+                {
+                    "objName": "Currency Exchange Rates"
+                },
+                {
+                    "objName": "Currency Rate Nature"
+                },
+                {
+                    "objName": "Currency Rate Type"
+                },
+                {
+                    "objName": "Currency Rate Version"
+                },
+                {
+                    "objName": "Custodial Accounts"
+                },
+                {
+                    "objName": "Custodian"
+                },
+                {
+                    "objName": "Custodian Account Transactions"
+                },
+                {
+                    "objName": "Customer Alternate Currency Values"
+                },
+                {
+                    "objName": "Customer Anticipatory Profile"
+                },
+                {
+                    "objName": "Customer Attrition Plans"
+                },
+                {
+                    "objName": "Customer Country Relation"
+                },
+                {
+                    "objName": "Customer Education"
+                },
+                {
+                    "objName": "Customer Employment Type Master"
+                },
+                {
+                    "objName": "Customer Feature"
+                },
+                {
+                    "objName": "Customer Feature Map"
+                },
+                {
+                    "objName": "Customer Product Score"
+                },
+                {
+                    "objName": "Customer Service Enrollment"
+                },
+                {
+                    "objName": "Data Quality Check"
+                },
+                {
+                    "objName": "Data Quality Check Severity"
+                },
+                {
+                    "objName": "Data Quality Check Type"
+                },
+                {
+                    "objName": "Data Quality Entity"
+                },
+                {
+                    "objName": "Data Quality Entity Attribute"
+                },
+                {
+                    "objName": "Data Quality Entity Error Data Profile"
+                },
+                {
+                    "objName": "Data Quality Error Data Profile"
+                },
+                {
+                    "objName": "Data Quality Error Records"
+                },
+                {
+                    "objName": "Data Quality Error Summary"
+                },
+                {
+                    "objName": "Data Quality Group"
+                },
+                {
+                    "objName": "Data Quality Report Execution Master"
+                },
+                {
+                    "objName": "Data Source"
+                },
+                {
+                    "objName": "Date"
+                },
+                {
+                    "objName": "Day Count Indicator"
+                },
+                {
+                    "objName": "Days Past Due Transition Matrix"
+                },
+                {
+                    "objName": "Deal"
+                },
+                {
+                    "objName": "Dealer"
+                },
+                {
+                    "objName": "Dealer Group"
+                },
+                {
+                    "objName": "Debt Obligation Type"
+                },
+                {
+                    "objName": "Decision Status"
+                },
+                {
+                    "objName": "Deductible"
+                },
+                {
+                    "objName": "Delinquency Status"
+                },
+                {
+                    "objName": "Delinquency Workout Program"
+                },
+                {
+                    "objName": "Delinquency Workout Program Status"
+                },
+                {
+                    "objName": "Delinquency Workout Program Type"
+                },
+                {
+                    "objName": "Deposit Primary Purpose"
+                },
+                {
+                    "objName": "Depository Receipt Issue Mapping"
+                },
+                {
+                    "objName": "Deposits"
+                },
+                {
+                    "objName": "Derivative Type"
+                },
+                {
+                    "objName": "Derivative Underlying"
+                },
+                {
+                    "objName": "Deviation Reasons"
+                },
+                {
+                    "objName": "Dimension Basel Pool Type"
+                },
+                {
+                    "objName": "Distance To Default"
+                },
+                {
+                    "objName": "Dividend Payout Type"
+                },
+                {
+                    "objName": "Dividend Protection Detail"
+                },
+                {
+                    "objName": "Document Sub Type"
+                },
+                {
+                    "objName": "Document Submission Status"
+                },
+                {
+                    "objName": "Document Type"
+                },
+                {
+                    "objName": "Documentary Collection Contract Acceptance"
+                },
+                {
+                    "objName": "Documentary Collection Contract Acknowledgement"
+                },
+                {
+                    "objName": "Documentary Collection Contract Event"
+                },
+                {
+                    "objName": "Documentary Collection Discrepancy Detail"
+                },
+                {
+                    "objName": "Documentary Collection Shipment Detail"
+                },
+                {
+                    "objName": "Downgrade Trigger"
+                },
+                {
+                    "objName": "Economic Indicators"
+                },
+                {
+                    "objName": "Economic Zone"
+                },
+                {
+                    "objName": "Email Address Purpose Type"
+                },
+                {
+                    "objName": "Embedded Options Schedule"
+                },
+                {
+                    "objName": "Employee"
+                },
+                {
+                    "objName": "Employee Expenses Details"
+                },
+                {
+                    "objName": "Employee Hierarchy"
+                },
+                {
+                    "objName": "Employee Phone"
+                },
+                {
+                    "objName": "Employee Service Account"
+                },
+                {
+                    "objName": "Employee Trading Restriction"
+                },
+                {
+                    "objName": "Employment Type"
+                },
+                {
+                    "objName": "Encumbrance Status"
+                },
+                {
+                    "objName": "Encumbrance Reason"
+                },
+                {
+                    "objName": "Encumbrance Sources"
+                },
+                {
+                    "objName": "Encumbrance Type"
+                },
+                {
+                    "objName": "Entity Allocation Factor"
+                },
+                {
+                    "objName": "Entity Influence"
+                },
+                {
+                    "objName": "Entity Measure Summary"
+                },
+                {
+                    "objName": "Entity Org Exchange Map"
+                },
+                {
+                    "objName": "Entity Parent Details"
+                },
+                {
+                    "objName": "Entity Type"
+                },
+                {
+                    "objName": "Equity Arbitrage Strategy Mapping"
+                },
+                {
+                    "objName": "Equity Indices"
+                },
+                {
+                    "objName": "Equity Other Asset Losses"
+                },
+                {
+                    "objName": "Expected Account Cashflows"
+                },
+                {
+                    "objName": "Expense Type"
+                },
+                {
+                    "objName": "Exposure Seniority"
+                },
+                {
+                    "objName": "Exposure Underlying Type"
+                },
+                {
+                    "objName": "External Operational Risk Loss"
+                },
+                {
+                    "objName": "External Reporting Group"
+                },
+                {
+                    "objName": "External Scaling Factor"
+                },
+                {
+                    "objName": "External Underlying Account Rating Details Table"
+                },
+                {
+                    "objName": "Facility Rating Details"
+                },
+                {
+                    "objName": "Fiduciary Relationship Type"
+                },
+                {
+                    "objName": "Fiduciary Service Role"
+                },
+                {
+                    "objName": "Fiduciary Service Type"
+                },
+                {
+                    "objName": "Financial Derivatives"
+                },
+                {
+                    "objName": "Financial Element"
+                },
+                {
+                    "objName": "Financial Market Quote Type Code"
+                },
+                {
+                    "objName": "Financial Spread Map"
+                },
+                {
+                    "objName": "Financial Statement Forecast"
+                },
+                {
+                    "objName": "Financial Variable"
+                },
+                {
+                    "objName": "Financial Variable Domain"
+                },
+                {
+                    "objName": "Financial Year Master"
+                },
+                {
+                    "objName": "Fiscal Periods"
+                },
+                {
+                    "objName": "Fixed Assets"
+                },
+                {
+                    "objName": "Fixed Assets Details"
+                },
+                {
+                    "objName": "Fixed Assets Type"
+                },
+                {
+                    "objName": "Forborne Status"
+                },
+                {
+                    "objName": "Forecast Aggregate Cash Flows"
+                },
+                {
+                    "objName": "Forecast And Plan Data"
+                },
+                {
+                    "objName": "Forecast Balances"
+                },
+                {
+                    "objName": "Forecast Download Net Exposure"
+                },
+                {
+                    "objName": "Forecast Economic Indicator"
+                },
+                {
+                    "objName": "Forecast Exchange Rate"
+                },
+                {
+                    "objName": "Forecast Interest Rate Code"
+                },
+                {
+                    "objName": "Forecast Liquidity Balances"
+                },
+                {
+                    "objName": "Forecast Scenario"
+                },
+                {
+                    "objName": "Forecasted General Ledger Data"
+                },
+                {
+                    "objName": "Forecasted Party Share Holding Percentage"
+                },
+                {
+                    "objName": "Forecasted Risk Weighted Assets Category"
+                },
+                {
+                    "objName": "Forecasted Securitization Underlying Collections"
+                },
+                {
+                    "objName": "Foreclosure Status"
+                },
+                {
+                    "objName": "Foreign Currency Utilization Details"
+                },
+                {
+                    "objName": "Foreign Exchange Contracts"
+                },
+                {
+                    "objName": "Foreign Exchange Rates"
+                },
+                {
+                    "objName": "Forex Account Transactions"
+                },
+                {
+                    "objName": "Forward Accumulated Fx Targets"
+                },
+                {
+                    "objName": "Forward Exchange Rates"
+                },
+                {
+                    "objName": "Forwards Contracts"
+                },
+                {
+                    "objName": "Forwards Transactions"
+                },
+                {
+                    "objName": "Fraud Reasons"
+                },
+                {
+                    "objName": "Frequency"
+                },
+                {
+                    "objName": "Front Office Transaction Party"
+                },
+                {
+                    "objName": "Fund"
+                },
+                {
+                    "objName": "Fund Details"
+                },
+                {
+                    "objName": "Fund Equity Investments"
+                },
+                {
+                    "objName": "Fund Type"
+                },
+                {
+                    "objName": "Fund Underlying Composition"
+                },
+                {
+                    "objName": "Funds Composition"
+                },
+                {
+                    "objName": "Futures Contracts"
+                },
+                {
+                    "objName": "Futures Transactions"
+                },
+                {
+                    "objName": "Gender"
+                },
+                {
+                    "objName": "General Ledger"
+                },
+                {
+                    "objName": "General Ledger Account"
+                },
+                {
+                    "objName": "General Ledger Combination"
+                },
+                {
+                    "objName": "General Ledger Data"
+                },
+                {
+                    "objName": "General Ledger Hierarchy"
+                },
+                {
+                    "objName": "General Ledger Type"
+                },
+                {
+                    "objName": "Guarantee Type"
+                },
+                {
+                    "objName": "Guarantor Type"
+                },
+                {
+                    "objName": "Hedge"
+                },
+                {
+                    "objName": "Hedge Portfolio Set"
+                },
+                {
+                    "objName": "Hedge Portfolio Set Account Map"
+                },
+                {
+                    "objName": "Hedge Status"
+                },
+                {
+                    "objName": "Hedge Type"
+                },
+                {
+                    "objName": "Hedged Instrument Map"
+                },
+                {
+                    "objName": "Hedged Risk"
+                },
+                {
+                    "objName": "Hedging Instrument Map"
+                },
+                {
+                    "objName": "Hedging Strategy"
+                },
+                {
+                    "objName": "High Run Off Category"
+                },
+                {
+                    "objName": "Holding Type"
+                },
+                {
+                    "objName": "Holiday Rolling Convention"
+                },
+                {
+                    "objName": "Home Ownership"
+                },
+                {
+                    "objName": "Household"
+                },
+                {
+                    "objName": "Ifrs Account Summary"
+                },
+                {
+                    "objName": "Ifrs Mitigants Summary"
+                },
+                {
+                    "objName": "IFRS Placed Collateral"
+                },
+                {
+                    "objName": "Ijarah Accounts"
+                },
+                {
+                    "objName": "Ijarah Transactions"
+                },
+                {
+                    "objName": "Income Documentation Program"
+                },
+                {
+                    "objName": "Income Source Type"
+                },
+                {
+                    "objName": "Index"
+                },
+                {
+                    "objName": "Index Composition"
+                },
+                {
+                    "objName": "Indicator Values"
+                },
+                {
+                    "objName": "Industry"
+                },
+                {
+                    "objName": "Inflation Index Name"
+                },
+                {
+                    "objName": "Inflation Index Rate"
+                },
+                {
+                    "objName": "Inflation Rates"
+                },
+                {
+                    "objName": "Institution Primary Function"
+                },
+                {
+                    "objName": "Instrument Category"
+                },
+                {
+                    "objName": "Instrument Contract"
+                },
+                {
+                    "objName": "Instrument Group Member"
+                },
+                {
+                    "objName": "Instrument Lendable Percent"
+                },
+                {
+                    "objName": "Instrument Position Type"
+                },
+                {
+                    "objName": "Instrument Probability Of Default Details"
+                },
+                {
+                    "objName": "Instrument Rating Details"
+                },
+                {
+                    "objName": "Instrument Schedule"
+                },
+                {
+                    "objName": "Instrument Trading Restriction"
+                },
+                {
+                    "objName": "Instruments Contracts"
+                },
+                {
+                    "objName": "Instruments Contracts Hierarchy"
+                },
+                {
+                    "objName": "Insurance Allocation Type"
+                },
+                {
+                    "objName": "Insurance Coverage"
+                },
+                {
+                    "objName": "Insurance Coverage Hierarchy"
+                },
+                {
+                    "objName": "Insurance Loss Modeling Component"
+                },
+                {
+                    "objName": "Insurance Loss Simulation Risk Category"
+                },
+                {
+                    "objName": "Insurance Underwriting Issue Sub Type"
+                },
+                {
+                    "objName": "Insurance Underwriting Issue Type"
+                },
+                {
+                    "objName": "Interbank Transactions"
+                },
+                {
+                    "objName": "Interest Method"
+                },
+                {
+                    "objName": "Interest Payment Method"
+                },
+                {
+                    "objName": "Interest Rate Curve"
+                },
+                {
+                    "objName": "Interest Rate Parameters"
+                },
+                {
+                    "objName": "Interest Rate Volatility Rate History"
+                },
+                {
+                    "objName": "Interest Timing Type"
+                },
+                {
+                    "objName": "Interest Type"
+                },
+                {
+                    "objName": "Interest Type Conversion"
+                },
+                {
+                    "objName": "Internal Allocation Factor"
+                },
+                {
+                    "objName": "Internal Event Type"
+                },
+                {
+                    "objName": "Internal Loss Correlation Matrix"
+                },
+                {
+                    "objName": "Internal Operational Risk Loss"
+                },
+                {
+                    "objName": "Internal Scenario Correlation Matrix"
+                },
+                {
+                    "objName": "Internal Scenario Severity Details"
+                },
+                {
+                    "objName": "Intraday Payment Transaction"
+                },
+                {
+                    "objName": "Investment Transactions"
+                },
+                {
+                    "objName": "Investments"
+                },
+                {
+                    "objName": "Interest Rate Index"
+                },
+                {
+                    "objName": "Interest Rate Curve Rates"
+                },
+                {
+                    "objName": "Interest Rate Curve Volume Surface Rate History"
+                },
+                {
+                    "objName": "Issue Details"
+                },
+                {
+                    "objName": "Issue Purpose"
+                },
+                {
+                    "objName": "Issuer"
+                },
+                {
+                    "objName": "Issuer Mitigant Map"
+                },
+                {
+                    "objName": "Issuer Type"
+                },
+                {
+                    "objName": "Istisna Accounts"
+                },
+                {
+                    "objName": "Istisna Transactions"
+                },
+                {
+                    "objName": "Lease Purpose"
+                },
+                {
+                    "objName": "Leases Contracts"
+                },
+                {
+                    "objName": "Leases Transactions"
+                },
+                {
+                    "objName": "Ledger"
+                },
+                {
+                    "objName": "Ledger Hierarchy"
+                },
+                {
+                    "objName": "Legal Entity"
+                },
+                {
+                    "objName": "Legal Entity Consolidation Map"
+                },
+                {
+                    "objName": "Legal Entity Details"
+                },
+                {
+                    "objName": "Legal Entity Gaap Map"
+                },
+                {
+                    "objName": "Legal Entity Group"
+                },
+                {
+                    "objName": "Legal Entity Hierarchy"
+                },
+                {
+                    "objName": "Legal Entity Rating Details"
+                },
+                {
+                    "objName": "Legal Proceeding Status"
+                },
+                {
+                    "objName": "Legal Reporting"
+                },
+                {
+                    "objName": "Letter Of Credit Contracts"
+                },
+                {
+                    "objName": "Letter Of Credit Transactions"
+                },
+                {
+                    "objName": "Lien Performance"
+                },
+                {
+                    "objName": "Lien Position"
+                },
+                {
+                    "objName": "Life Events Staging"
+                },
+                {
+                    "objName": "Line Of Business"
+                },
+                {
+                    "objName": "Line Of Business Allocation Factor"
+                },
+                {
+                    "objName": "Line Of Business Hierarchy"
+                },
+                {
+                    "objName": "Liquidation Status"
+                },
+                {
+                    "objName": "Liquidity Asset Level"
+                },
+                {
+                    "objName": "Litigation"
+                },
+                {
+                    "objName": "Litigation Act Type"
+                },
+                {
+                    "objName": "Litigation Details"
+                },
+                {
+                    "objName": "Loan Account Summary"
+                },
+                {
+                    "objName": "Loan Contracts"
+                },
+                {
+                    "objName": "Loan Contracts Transactions"
+                },
+                {
+                    "objName": "Loan Default Reason"
+                },
+                {
+                    "objName": "Loan Modification Type"
+                },
+                {
+                    "objName": "Loan Purpose"
+                },
+                {
+                    "objName": "Loan Recourse Type"
+                },
+                {
+                    "objName": "Loan Repurchase Status"
+                },
+                {
+                    "objName": "Loan Service Type"
+                },
+                {
+                    "objName": "Loan Source Type"
+                },
+                {
+                    "objName": "Loan Waiver Scheme"
+                },
+                {
+                    "objName": "Loans Serviced"
+                },
+                {
+                    "objName": "Loans Serviced Customer Relationship"
+                },
+                {
+                    "objName": "Loans Serviced Mitigant Map"
+                },
+                {
+                    "objName": "Location"
+                },
+                {
+                    "objName": "Location Hierarchy"
+                },
+                {
+                    "objName": "Loss Event"
+                },
+                {
+                    "objName": "Loss Mitigation Program"
+                },
+                {
+                    "objName": "Loss Share Agreement"
+                },
+                {
+                    "objName": "Lrm Account Summary"
+                },
+                {
+                    "objName": "Macro Economic Variable Details"
+                },
+                {
+                    "objName": "Macro Economic Variables"
+                },
+                {
+                    "objName": "Management Ledger Daily Movement"
+                },
+                {
+                    "objName": "Management Ledger Period Balance And Movement"
+                },
+                {
+                    "objName": "Management Ledger Period Translated Balance"
+                },
+                {
+                    "objName": "Management Ledger Period Year To Date Balance"
+                },
+                {
+                    "objName": "Management Reporting"
+                },
+                {
+                    "objName": "Margin Type"
+                },
+                {
+                    "objName": "Marital Status"
+                },
+                {
+                    "objName": "Market Cell"
+                },
+                {
+                    "objName": "Market Centre Information"
+                },
+                {
+                    "objName": "Market Instrument Contract"
+                },
+                {
+                    "objName": "Market News Event"
+                },
+                {
+                    "objName": "Market Risk Asset"
+                },
+                {
+                    "objName": "Market Risk Asset Class"
+                },
+                {
+                    "objName": "Market Risk Charge Type"
+                },
+                {
+                    "objName": "Market Risk Class"
+                },
+                {
+                    "objName": "Market Risk Portfolio Actual Profit And Loss Value"
+                },
+                {
+                    "objName": "Market Variable Details"
+                },
+                {
+                    "objName": "Market Variables"
+                },
+                {
+                    "objName": "Marketing Program"
+                },
+                {
+                    "objName": "Maturity Optionality"
+                },
+                {
+                    "objName": "Merchant"
+                },
+                {
+                    "objName": "Merchant Cards"
+                },
+                {
+                    "objName": "Merchant Cards Transactions"
+                },
+                {
+                    "objName": "Merchant Category"
+                },
+                {
+                    "objName": "Migration Reasons"
+                },
+                {
+                    "objName": "Mitigant"
+                },
+                {
+                    "objName": "Mitigant Charge Details"
+                },
+                {
+                    "objName": "Mitigant Regulatory Capital"
+                },
+                {
+                    "objName": "Mitigant Security Interest Type Table"
+                },
+                {
+                    "objName": "Mitigant Sub Type"
+                },
+                {
+                    "objName": "Mitigant Types"
+                },
+                {
+                    "objName": "Mitigants"
+                },
+                {
+                    "objName": "Mitigants Counter Guarantee Details Table"
+                },
+                {
+                    "objName": "Mitigants Counter Guarantee Mapping Table"
+                },
+                {
+                    "objName": "Mnemonic Transactions"
+                },
+                {
+                    "objName": "Mortgage Investor Type"
+                },
+                {
+                    "objName": "Mortgage Occupancy"
+                },
+                {
+                    "objName": "Mortgage Servicing Rights"
+                },
+                {
+                    "objName": "Mudarabah Transactions"
+                },
+                {
+                    "objName": "Mudarbah Accounts"
+                },
+                {
+                    "objName": "Murabahah Accounts"
+                },
+                {
+                    "objName": "Murabahah Transactions"
+                },
+                {
+                    "objName": "Musharakah Transactions"
+                },
+                {
+                    "objName": "Musharkah Accounts"
+                },
+                {
+                    "objName": "Mutual Fund Breakpoint"
+                },
+                {
+                    "objName": "Nettable Liabilities"
+                },
+                {
+                    "objName": "Netting Agreement"
+                },
+                {
+                    "objName": "Non Contractual Obligation"
+                },
+                {
+                    "objName": "Non Contractual Obligation Type"
+                },
+                {
+                    "objName": "Non Performing Category"
+                },
+                {
+                    "objName": "Obligor Details"
+                },
+                {
+                    "objName": "Occupancy Type"
+                },
+                {
+                    "objName": "Offer Master"
+                },
+                {
+                    "objName": "Online Account"
+                },
+                {
+                    "objName": "Online Account To Account Map"
+                },
+                {
+                    "objName": "Operating Economic Zone"
+                },
+                {
+                    "objName": "Operation Risk External Loss Threshold"
+                },
+                {
+                    "objName": "Operation Risk Internal Loss Threshold"
+                },
+                {
+                    "objName": "Operational Risk Loss Scenario Bucket Data"
+                },
+                {
+                    "objName": "Operational Risk Reserve Schedules"
+                },
+                {
+                    "objName": "Opportunity Activity Type"
+                },
+                {
+                    "objName": "Opportunity Win Loss Reason Master"
+                },
+                {
+                    "objName": "Option Contracts"
+                },
+                {
+                    "objName": "Option Contracts Transactions"
+                },
+                {
+                    "objName": "Option Type"
+                },
+                {
+                    "objName": "Options Conversion Detail"
+                },
+                {
+                    "objName": "Org Unit"
+                },
+                {
+                    "objName": "Organization Unit"
+                },
+                {
+                    "objName": "Organization Unit Hierarchy"
+                },
+                {
+                    "objName": "Other Assets"
+                },
+                {
+                    "objName": "Other Liabilities"
+                },
+                {
+                    "objName": "Other Services"
+                },
+                {
+                    "objName": "Other Services Transactions"
+                },
+                {
+                    "objName": "Over Draft Accounts"
+                },
+                {
+                    "objName": "Over Draft Accounts Transactions"
+                },
+                {
+                    "objName": "Ownership"
+                },
+                {
+                    "objName": "Ownership Category"
+                },
+                {
+                    "objName": "Participant Type"
+                },
+                {
+                    "objName": "Participation Bank Role"
+                },
+                {
+                    "objName": "Participation Type"
+                },
+                {
+                    "objName": "Partner"
+                },
+                {
+                    "objName": "Partner Expense"
+                },
+                {
+                    "objName": "Party"
+                },
+                {
+                    "objName": "Party Account Role Map"
+                },
+                {
+                    "objName": "Party Address Map"
+                },
+                {
+                    "objName": "Party Asset Details"
+                },
+                {
+                    "objName": "Party Central Authority Mapping"
+                },
+                {
+                    "objName": "Party Consent"
+                },
+                {
+                    "objName": "Party Details"
+                },
+                {
+                    "objName": "Party Email Map"
+                },
+                {
+                    "objName": "Party Expense Details"
+                },
+                {
+                    "objName": "Party Financial Institution Identification Details"
+                },
+                {
+                    "objName": "Party Financials"
+                },
+                {
+                    "objName": "Party Hierarchy"
+                },
+                {
+                    "objName": "Party Identification Document"
+                },
+                {
+                    "objName": "Party Income Details"
+                },
+                {
+                    "objName": "Party Operating Economic Zone"
+                },
+                {
+                    "objName": "Party Other Names"
+                },
+                {
+                    "objName": "Party Party Account Relationship"
+                },
+                {
+                    "objName": "Party Phone Map"
+                },
+                {
+                    "objName": "Party Probability Of Default Details"
+                },
+                {
+                    "objName": "Party Product Type Summary"
+                },
+                {
+                    "objName": "Party Rating Details"
+                },
+                {
+                    "objName": "Party Relationship Type"
+                },
+                {
+                    "objName": "Party Role"
+                },
+                {
+                    "objName": "Party Role Map"
+                },
+                {
+                    "objName": "Party Shareholding Percent"
+                },
+                {
+                    "objName": "Party To Party Relationship"
+                },
+                {
+                    "objName": "Party Type"
+                },
+                {
+                    "objName": "Payment Mechanism Master"
+                },
+                {
+                    "objName": "Payment Schedule"
+                },
+                {
+                    "objName": "Payment Settlement Accounts"
+                },
+                {
+                    "objName": "Payment Settlement System"
+                },
+                {
+                    "objName": "Payment Type"
+                },
+                {
+                    "objName": "Probability Of Default Model Type"
+                },
+                {
+                    "objName": "Probability Of Default Term Structure"
+                },
+                {
+                    "objName": "Probability Of Default Term Structure Details"
+                },
+                {
+                    "objName": "Peer Group Master"
+                },
+                {
+                    "objName": "Peer Information"
+                },
+                {
+                    "objName": "Peer Product Details"
+                },
+                {
+                    "objName": "Phone Purpose Type"
+                },
+                {
+                    "objName": "Placed Collateral"
+                },
+                {
+                    "objName": "Placed Collateral Source Details"
+                },
+                {
+                    "objName": "Pledged Status"
+                },
+                {
+                    "objName": "Point Of Sale Transactions"
+                },
+                {
+                    "objName": "Policy"
+                },
+                {
+                    "objName": "Policy Hierarchy"
+                },
+                {
+                    "objName": "Policy Vehicle Rating Details"
+                },
+                {
+                    "objName": "Pool Class"
+                },
+                {
+                    "objName": "Pool Identification"
+                },
+                {
+                    "objName": "Portfolio"
+                },
+                {
+                    "objName": "Portfolio Data"
+                },
+                {
+                    "objName": "Portfolio Hierarchy"
+                },
+                {
+                    "objName": "Portfolio Type"
+                },
+                {
+                    "objName": "Position Type"
+                },
+                {
+                    "objName": "Premium Offset Method"
+                },
+                {
+                    "objName": "Premium Offset Method Hierarchy"
+                },
+                {
+                    "objName": "Premium Payment Type"
+                },
+                {
+                    "objName": "Premium Suspense Reason"
+                },
+                {
+                    "objName": "Premium Suspense Reason Hierarchy"
+                },
+                {
+                    "objName": "Prepaid Cards"
+                },
+                {
+                    "objName": "Prepaid Cards Transactions"
+                },
+                {
+                    "objName": "Prepayment Parameters"
+                },
+                {
+                    "objName": "Prepayment Rates"
+                },
+                {
+                    "objName": "Prepayment Reason"
+                },
+                {
+                    "objName": "Probability Of Default Model"
+                },
+                {
+                    "objName": "Process Line Of Business Location Map"
+                },
+                {
+                    "objName": "Process Master"
+                },
+                {
+                    "objName": "Producer"
+                },
+                {
+                    "objName": "Producer Hierarchy"
+                },
+                {
+                    "objName": "Product"
+                },
+                {
+                    "objName": "Product Book"
+                },
+                {
+                    "objName": "Product Bundle Master"
+                },
+                {
+                    "objName": "Product Category"
+                },
+                {
+                    "objName": "Product Feature"
+                },
+                {
+                    "objName": "Product Hierarchy"
+                },
+                {
+                    "objName": "Product Rate Matrix Table"
+                },
+                {
+                    "objName": "Product Riders"
+                },
+                {
+                    "objName": "Product Type"
+                },
+                {
+                    "objName": "Profession"
+                },
+                {
+                    "objName": "Profession Sub Type"
+                },
+                {
+                    "objName": "Program"
+                },
+                {
+                    "objName": "Program Activity Status"
+                },
+                {
+                    "objName": "Project"
+                },
+                {
+                    "objName": "Project Hierarchy"
+                },
+                {
+                    "objName": "Property Type"
+                },
+                {
+                    "objName": "Prospect"
+                },
+                {
+                    "objName": "Prospect Targeting Method"
+                },
+                {
+                    "objName": "Provision Matrix"
+                },
+                {
+                    "objName": "Purchase Category"
+                },
+                {
+                    "objName": "Quote Declination Type"
+                },
+                {
+                    "objName": "Quote Source"
+                },
+                {
+                    "objName": "Quote Source Method"
+                },
+                {
+                    "objName": "Quote Status"
+                },
+                {
+                    "objName": "Quote Submission Method"
+                },
+                {
+                    "objName": "Quote Type"
+                },
+                {
+                    "objName": "Rate Plan"
+                },
+                {
+                    "objName": "Rating Risk Parameter Data"
+                },
+                {
+                    "objName": "Rating Transition Matrix"
+                },
+                {
+                    "objName": "Receivables Type"
+                },
+                {
+                    "objName": "Recoveries"
+                },
+                {
+                    "objName": "Recovery Agent"
+                },
+                {
+                    "objName": "Recovery Stage"
+                },
+                {
+                    "objName": "Recovery Type"
+                },
+                {
+                    "objName": "Reg Entity Class Details"
+                },
+                {
+                    "objName": "Region"
+                },
+                {
+                    "objName": "Regulation"
+                },
+                {
+                    "objName": "Regulatory Account Balances"
+                },
+                {
+                    "objName": "Regulatory Account Mitigant Mapping"
+                },
+                {
+                    "objName": "Regulatory Account Summary"
+                },
+                {
+                    "objName": "Regulatory Aggregated Cash Flows Dataset"
+                },
+                {
+                    "objName": "Regulatory Aggregated Legal Entity Summary Dataset"
+                },
+                {
+                    "objName": "Regulatory Asset Class"
+                },
+                {
+                    "objName": "Regulatory Assets Sold"
+                },
+                {
+                    "objName": "Regulatory Capital Account Asset Class"
+                },
+                {
+                    "objName": "Regulatory Capital Account Summary"
+                },
+                {
+                    "objName": "Regulatory Capital Asset Sold Summary"
+                },
+                {
+                    "objName": "Regulatory Capital Counterparty Credit Valuation Adjustment At Risk Class Granularity"
+                },
+                {
+                    "objName": "Regulatory Capital Counterparty Credit Valuation Adjustment Summary"
+                },
+                {
+                    "objName": "Regulatory Capital Countrywise Risk Summary"
+                },
+                {
+                    "objName": "Regulatory Capital Credit Line Summary"
+                },
+                {
+                    "objName": "Regulatory Capital Exemption Criteria"
+                },
+                {
+                    "objName": "Regulatory Capital Fixed Assets Summary"
+                },
+                {
+                    "objName": "Regulatory Capital Issued Instrument Details"
+                },
+                {
+                    "objName": "Regulatory Capital Operational Risk Historical Loss"
+                },
+                {
+                    "objName": "Regulatory Capital Output Floor Details"
+                },
+                {
+                    "objName": "Regulatory Capital Placed Collateral Summary"
+                },
+                {
+                    "objName": "Regulatory Certification"
+                },
+                {
+                    "objName": "Regulatory Compensation Details"
+                },
+                {
+                    "objName": "Regulatory Compensation Type"
+                },
+                {
+                    "objName": "Regulatory Credit Line Details"
+                },
+                {
+                    "objName": "Regulatory Fixed Assets"
+                },
+                {
+                    "objName": "Regulatory Legal Entity Capital Summary"
+                },
+                {
+                    "objName": "Regulatory Market Risk Exposures"
+                },
+                {
+                    "objName": "Regulatory Operational Risk Capital Summary"
+                },
+                {
+                    "objName": "Regulatory Risk Class Charge"
+                },
+                {
+                    "objName": "Regulatory Shared National Credit"
+                },
+                {
+                    "objName": "Rejection Reason"
+                },
+                {
+                    "objName": "Repayment Status"
+                },
+                {
+                    "objName": "Repayment Type"
+                },
+                {
+                    "objName": "Repo Contracts"
+                },
+                {
+                    "objName": "Repo Transactions"
+                },
+                {
+                    "objName": "Report Type"
+                },
+                {
+                    "objName": "Reported Market Sale"
+                },
+                {
+                    "objName": "Reporting Line"
+                },
+                {
+                    "objName": "Reporting Line Mapper"
+                },
+                {
+                    "objName": "Repurchase Reasons"
+                },
+                {
+                    "objName": "Request Type"
+                },
+                {
+                    "objName": "Reserve Type"
+                },
+                {
+                    "objName": "Response Type"
+                },
+                {
+                    "objName": "Restriction List"
+                },
+                {
+                    "objName": "Restriction Type Master"
+                },
+                {
+                    "objName": "Retention Offer Type"
+                },
+                {
+                    "objName": "Retirement Accounts"
+                },
+                {
+                    "objName": "Retirement Accounts Transactions"
+                },
+                {
+                    "objName": "Revocable Status"
+                },
+                {
+                    "objName": "Risk Adjusted Pricing Details"
+                },
+                {
+                    "objName": "Risk Factor Type"
+                },
+                {
+                    "objName": "Risk Position Mapping"
+                },
+                {
+                    "objName": "Risk Scenario"
+                },
+                {
+                    "objName": "Risk Sector"
+                },
+                {
+                    "objName": "Risk Type"
+                },
+                {
+                    "objName": "Risk Weight"
+                },
+                {
+                    "objName": "Run"
+                },
+                {
+                    "objName": "Run Consolidation Type"
+                },
+                {
+                    "objName": "Run Execution Parameters"
+                },
+                {
+                    "objName": "Run Types"
+                },
+                {
+                    "objName": "Run-Off Measure"
+                },
+                {
+                    "objName": "Salam Accounts"
+                },
+                {
+                    "objName": "Salam Transactions"
+                },
+                {
+                    "objName": "Sales Representative"
+                },
+                {
+                    "objName": "Sales Representative Compensation"
+                },
+                {
+                    "objName": "Sales Stages"
+                },
+                {
+                    "objName": "Scenario"
+                },
+                {
+                    "objName": "Scenario Covariance Data"
+                },
+                {
+                    "objName": "Social Media Post"
+                },
+                {
+                    "objName": "Securitization Pool"
+                },
+                {
+                    "objName": "Securitization Type"
+                },
+                {
+                    "objName": "Securitization Activity"
+                },
+                {
+                    "objName": "Securitization Facility Type"
+                },
+                {
+                    "objName": "Securitization Inception Data"
+                },
+                {
+                    "objName": "Securitization Pool Type"
+                },
+                {
+                    "objName": "Securitization Program"
+                },
+                {
+                    "objName": "Securitization Sale Type"
+                },
+                {
+                    "objName": "Securitization Status"
+                },
+                {
+                    "objName": "Securitized Products"
+                },
+                {
+                    "objName": "Security Tranche Credit Enhancement Map"
+                },
+                {
+                    "objName": "Segment"
+                },
+                {
+                    "objName": "Service Charge"
+                },
+                {
+                    "objName": "Service Plans"
+                },
+                {
+                    "objName": "Service Representative"
+                },
+                {
+                    "objName": "Service Requests"
+                },
+                {
+                    "objName": "Service Slippage Reason"
+                },
+                {
+                    "objName": "Service Team"
+                },
+                {
+                    "objName": "Service Team Member"
+                },
+                {
+                    "objName": "Serviced Account Credit Score Details"
+                },
+                {
+                    "objName": "Serviced Loan Account"
+                },
+                {
+                    "objName": "Settlement Type"
+                },
+                {
+                    "objName": "Share Holding Details"
+                },
+                {
+                    "objName": "Shareholder"
+                },
+                {
+                    "objName": "Shareholding Percent"
+                },
+                {
+                    "objName": "Simulation Bucket Type"
+                },
+                {
+                    "objName": "Sma Score Rule Staging For Influencer Score"
+                },
+                {
+                    "objName": "Social Media"
+                },
+                {
+                    "objName": "Sovereign Rating Details"
+                },
+                {
+                    "objName": "Special Term"
+                },
+                {
+                    "objName": "Special Terms Covenants"
+                },
+                {
+                    "objName": "Staging For Lifetime Value Of Product By Customer Segment"
+                },
+                {
+                    "objName": "Staging For Summary Of Social Media Analytics"
+                },
+                {
+                    "objName": "Staging Of Sma Event Types"
+                },
+                {
+                    "objName": "Staging Table For Customer Offers Types"
+                },
+                {
+                    "objName": "Margins Kept With Central Counterparty"
+                },
+                {
+                    "objName": "Staging Table For Source Platforms For Social Media Analytics"
+                },
+                {
+                    "objName": "Staging Table Of Score Types"
+                },
+                {
+                    "objName": "Standard Accounting Head"
+                },
+                {
+                    "objName": "Standard Accounting Head Details"
+                },
+                {
+                    "objName": "Standard Allocation Factor"
+                },
+                {
+                    "objName": "Standard Balance Category"
+                },
+                {
+                    "objName": "Standard Balance Type"
+                },
+                {
+                    "objName": "Standard Central Authority"
+                },
+                {
+                    "objName": "Standard Central Banks"
+                },
+                {
+                    "objName": "Standard Commodity"
+                },
+                {
+                    "objName": "Standard Commodity Grade"
+                },
+                {
+                    "objName": "Standard Credit Facility Purpose"
+                },
+                {
+                    "objName": "Standard Credit Facility Type"
+                },
+                {
+                    "objName": "Standard General Ledger Type"
+                },
+                {
+                    "objName": "Standard Institution Primary Function"
+                },
+                {
+                    "objName": "Standard Instrument Type"
+                },
+                {
+                    "objName": "Standard Interest Rates"
+                },
+                {
+                    "objName": "Standard Line Of Business"
+                },
+                {
+                    "objName": "Standard Loss Event Type"
+                },
+                {
+                    "objName": "Standard Mitigant Type"
+                },
+                {
+                    "objName": "Standard Party Role"
+                },
+                {
+                    "objName": "Standard Party Type"
+                },
+                {
+                    "objName": "Standard Product Mapper"
+                },
+                {
+                    "objName": "Standard Product Type"
+                },
+                {
+                    "objName": "Standard Recovery Type"
+                },
+                {
+                    "objName": "Standard Scenario Severity Details"
+                },
+                {
+                    "objName": "Standard Transaction Type"
+                },
+                {
+                    "objName": "Standard Vehicle Type"
+                },
+                {
+                    "objName": "Standard Writeoff Reasons"
+                },
+                {
+                    "objName": "Stock Or Index"
+                },
+                {
+                    "objName": "Stock Ticker"
+                },
+                {
+                    "objName": "Strike Type Code"
+                },
+                {
+                    "objName": "Sukuk Accounts"
+                },
+                {
+                    "objName": "Sukuk Transactions"
+                },
+                {
+                    "objName": "Survey"
+                },
+                {
+                    "objName": "Survey Response"
+                },
+                {
+                    "objName": "Swap Account Transactions"
+                },
+                {
+                    "objName": "Swaps Contracts"
+                },
+                {
+                    "objName": "System Logon"
+                },
+                {
+                    "objName": "Table For Standard Seniority"
+                },
+                {
+                    "objName": "Telebanking Transactions"
+                },
+                {
+                    "objName": "Term Deposit Contracts"
+                },
+                {
+                    "objName": "Term Deposits Transactions"
+                },
+                {
+                    "objName": "Term Structure Details"
+                },
+                {
+                    "objName": "Term Structure"
+                },
+                {
+                    "objName": "Term Unit"
+                },
+                {
+                    "objName": "Terminal"
+                },
+                {
+                    "objName": "Terminal Type"
+                },
+                {
+                    "objName": "Time To Peak Exposure"
+                },
+                {
+                    "objName": "Time Zone"
+                },
+                {
+                    "objName": "Trade Finance Contract Amendment Status Stage"
+                },
+                {
+                    "objName": "Trade Finance Contract Event Acknowledgement Stage"
+                },
+                {
+                    "objName": "Trade Finance Document"
+                },
+                {
+                    "objName": "Trade Finance Goods Alternate Currency Values"
+                },
+                {
+                    "objName": "Trade Finance Goods Category Table"
+                },
+                {
+                    "objName": "Trade Finance Goods"
+                },
+                {
+                    "objName": "Trade Finance Goods Or Services"
+                },
+                {
+                    "objName": "Trade Finance Goods Subtype"
+                },
+                {
+                    "objName": "Trade Finance Goods Type"
+                },
+                {
+                    "objName": "Trade Finance To Account"
+                },
+                {
+                    "objName": "Trading Account"
+                },
+                {
+                    "objName": "Trading Account Transactions"
+                },
+                {
+                    "objName": "Trading Desk"
+                },
+                {
+                    "objName": "Transaction"
+                },
+                {
+                    "objName": "Transaction Alternate Currency Values"
+                },
+                {
+                    "objName": "Transaction Channel"
+                },
+                {
+                    "objName": "Transaction Failure Reason"
+                },
+                {
+                    "objName": "Transaction Header"
+                },
+                {
+                    "objName": "Transaction Lifecycle Status"
+                },
+                {
+                    "objName": "Transaction Purpose"
+                },
+                {
+                    "objName": "Transaction Summary"
+                },
+                {
+                    "objName": "Transaction Type"
+                },
+                {
+                    "objName": "Transition Matrix"
+                },
+                {
+                    "objName": "Transition Matrix Master"
+                },
+                {
+                    "objName": "Treatment"
+                },
+                {
+                    "objName": "Trust Account Type"
+                },
+                {
+                    "objName": "Trusts"
+                },
+                {
+                    "objName": "Trusts Transactions"
+                },
+                {
+                    "objName": "Underlying Asset Pool Type Table"
+                },
+                {
+                    "objName": "Underlying Details"
+                },
+                {
+                    "objName": "Underlying Type"
+                },
+                {
+                    "objName": "Underwriter"
+                },
+                {
+                    "objName": "Underwriting Agreement Type"
+                },
+                {
+                    "objName": "Underwriting Descision Basis"
+                },
+                {
+                    "objName": "Underwriting Details"
+                },
+                {
+                    "objName": "Underwriting Positions"
+                },
+                {
+                    "objName": "Undrawn Limit"
+                },
+                {
+                    "objName": "Unit Of Measure"
+                },
+                {
+                    "objName": "Unit Of Measure Allocation Factor"
+                },
+                {
+                    "objName": "Unit Of Measure Covariance Data"
+                },
+                {
+                    "objName": "Unit Of Measure Distribution Parameters"
+                },
+                {
+                    "objName": "Unit Of Measure Modeling Parameters"
+                },
+                {
+                    "objName": "Valuation Method"
+                },
+                {
+                    "objName": "Variable Definition"
+                },
+                {
+                    "objName": "Vehicle"
+                },
+                {
+                    "objName": "Vehicle Body Type"
+                },
+                {
+                    "objName": "Vehicle Lease Type"
+                },
+                {
+                    "objName": "Vehicle Purpose"
+                },
+                {
+                    "objName": "Vehicle Rating"
+                },
+                {
+                    "objName": "Vehicle Type"
+                },
+                {
+                    "objName": "Vehicle Tyre Type"
+                },
+                {
+                    "objName": "Vendor"
+                },
+                {
+                    "objName": "Vintage"
+                },
+                {
+                    "objName": "Watch List"
+                },
+                {
+                    "objName": "Watchlist Member Entry"
+                },
+                {
+                    "objName": "Web Log Analytics Event"
+                },
+                {
+                    "objName": "Weblog Analytics Page"
+                },
+                {
+                    "objName": "Weight Change Response Type"
+                },
+                {
+                    "objName": "Write-Off Reasons"
+                },
+                {
+                    "objName": "Accounting Entry Type"
+                },
+                {
+                    "objName": "Net Exposures"
+                },
+                {
+                    "objName": "Instrument Contract Details Table"
+                },
+                {
+                    "objName": "Account Immediate Counterparty Details"
+                },
+                {
+                    "objName": "Account Ultimate Counterparty Details"
+                },
+                {
+                    "objName": "Credit Score Source"
+                },
+                {
+                    "objName": "High Balance Events"
+                }
+            ],
+            "grains": [
+                {
+                    "grainName": "Others"
+                },
+                {
+                    "grainName": "Accounting Entries"
+                },
+                {
+                    "grainName": "Customer Account"
+                },
+                {
+                    "grainName": "Customer Account Transactions"
+                },
+                {
+                    "grainName": "Policy Claim"
+                },
+                {
+                    "grainName": "Policy Claim Transaction"
+                },
+                {
+                    "grainName": "Policy Identifier"
+                },
+                {
+                    "grainName": "Exchange Rates"
+                },
+                {
+                    "grainName": "Date"
+                },
+                {
+                    "grainName": "General Ledger Data"
+                },
+                {
+                    "grainName": "Group Insurance Policy Beneficiary"
+                },
+                {
+                    "grainName": "Group Insurance Summary"
+                },
+                {
+                    "grainName": "Management Ledger"
+                },
+                {
+                    "grainName": "Party Consent"
+                },
+                {
+                    "grainName": "Policy Commissions"
+                },
+                {
+                    "grainName": "Policy Commision Transactions"
+                },
+                {
+                    "grainName": "Reinsurance Held Policy"
+                },
+                {
+                    "grainName": "Reinsurance Issued Policy"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,726 @@
+{
+    "totalCount": 103,
+    "body": [
+        {
+            "id": 1,
+            "logObjName": "Account",
+            "desc": "This entity stores the account or contract information.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 2,
+            "logObjName": "Account Account Relationship",
+            "desc": "This staging table to source the relationship between two accounts, typically held by a common customer or held under a program, interdependent assets and liabilities, offset account relationship, etc.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 3,
+            "logObjName": "Account Address",
+            "desc": "An account can have multiple addresses. This staging table identifies all the addresses that are associated with an Account. Address is linked to an Account via the purpose type for which this address is used in relation to the account. E.g. Purpose could be Mailing Address, Business Address, etc.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 4,
+            "logObjName": "Account Address Map",
+            "desc": "This staging table captures the mapping between account and addresses.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 5,
+            "logObjName": "Account Alternate Currency Values",
+            "desc": "This Staging table stores the values expected in reporting or local currency for a particular account.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 6,
+            "logObjName": "Account Anticipatory Profile",
+            "desc": "This staging entity contains projections of expected trading and transaction activity collected for an account during account opening.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 7,
+            "logObjName": "Account Balances",
+            "desc": "This staging table to store account level balances which are currently not available in the product processors.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 8,
+            "logObjName": "Account Cash Flows",
+            "desc": "This staging entity stores cash flow details.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 9,
+            "logObjName": "Account Classification",
+            "desc": "This dimension entity contains the account classifications according to different regulations.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 10,
+            "logObjName": "Account Credit Quality Status Details",
+            "desc": "This staging table stores to the account credit quality status details. Credit quality status are like Low Pass, Pass, Watch List, Loss, etc.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 11,
+            "logObjName": "Account Credit Score Details",
+            "desc": "This staging entity stores the details of the credit score of account throughout its lifetime.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 12,
+            "logObjName": "Account Customer Relationship Change",
+            "desc": "This staging table contains the changes for the relationship between an Account and Customer and when the changes are effective from. This will include the changes that will indicate the customer merge or split or rename changes and the changes to the customer association with closed accounts.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 13,
+            "logObjName": "Account Deviation",
+            "desc": "This staging table stores the unique list of account level deviations.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 14,
+            "logObjName": "Account Deviations Details",
+            "desc": "This staging table stores the account deviation details like underwriting, policy exception, etc. Policy exceptions occur when a required procedure does not take place. However, if there are any shortcomings, small enough not to be rejected but still not in order, such situations are called Deviations.  On the other hand, an underwriting exception is a deviation from the established credit requirements for a borrower. When the credit score of the borrower, debt-to-income ratio, or loan-to-value ratio, etc. do not meet the defined standards of the financial institution, an underwriting exception occurs. Underwriting exceptions are important from a fair lending perspective and are typically evaluated during the compliance review.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 15,
+            "logObjName": "Account Effective Interest Rates",
+            "desc": "This staging entity stores the account parameters like Effective Interest Rate, Effective Initial Spread, Internal Rate of Return and contractual spread as of inception and current date.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 16,
+            "logObjName": "Account Email Map",
+            "desc": "This staging table captures the mapping between account and Email.\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 17,
+            "logObjName": "Account Feature Map",
+            "desc": "This staging intersection table between account and feature master to denote as an account may have multiple features attached to it and a feature can relate with multiple accounts.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 18,
+            "logObjName": "Account Group Details",
+            "desc": "This Staging table stores the details pertaining to an account group.\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 19,
+            "logObjName": "Account Group Master",
+            "desc": "This staging entity specifies account groupings that relate an account to other accounts through membership in the group. Households are an example of Account Groups.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 20,
+            "logObjName": "Account Group Member",
+            "desc": "This staging entity relates an account to an account group and thereby to all other accounts that are members of that group. It does not capture hierarchy of accounts.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 21,
+            "logObjName": "Account Hierarchy",
+            "desc": "This staging entity stores the account hierarchy information.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 22,
+            "logObjName": "Account Immediate Counterparty Details",
+            "desc": "This entity will contain account and immediate counterparty details including attributes like Primary Counterparty Flag, Joint Liability Percentage, Exposure Amount etc.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 23,
+            "logObjName": "Account Index Value History",
+            "desc": "The staging table stores history of all index values negotiated between bank and customer for the purpose of cash flow calculation. This is applicable to index adjusted instruments.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 24,
+            "logObjName": "Account Investment Objective",
+            "desc": "This staging table specifies the investment objectives for accounts. Each active customer trading account and annuity may have at least one objective.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 25,
+            "logObjName": "Account Lendable Percent",
+            "desc": "This staging table stores the lendable percent at an account level granularity. Lendable percent is a factor used to determine the amount of secured funding that a bank can expect to receive by multiplying it with the fair value of the asset that can be potentially provided as collateral. Lendable value is required for generating FR2052 a report. This table captures the lendable percent at an account level for all those assets, such as loans, which do not have a CUSIP code.\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 26,
+            "logObjName": "Account Management",
+            "desc": "This staging entity stores the organization hierarchy across the management.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 27,
+            "logObjName": "Account Manager Relationship",
+            "desc": "This staging table maps an account to multiple relationship managers.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 28,
+            "logObjName": "Account Mitigant Map",
+            "desc": "This staging entity to capture account to mitigant mapping. It supports more than one mitigant to be mapped to an account.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 29,
+            "logObjName": "Account Peer Group",
+            "desc": "This staging table relates an account to a peer group. It is used to compare account activity to more than one peer group. One account can be part of many peer groups. The peer grouping can be based on any number of criteria. Groupings can be created at the customer account level or focused at the correspondent bank level. There is complete flexibility in the manner in which the relationship is defined. Grouping can be by industry or by customer size or by risk etc. This activity is done for the purpose of monitoring transaction whether activity is normal compared to a customer’s account peer group. Behaviour is detected when a customer’s transaction activity deviates substantially from its peer group of accounts or from its peer group of correspondent banks.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 30,
+            "logObjName": "Account Phone Map",
+            "desc": "This staging table captures the mapping between account and Phone.\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 31,
+            "logObjName": "Account Placed Collateral Map",
+            "desc": "This staging table stores account to placed collateral mapping. It is an intersection table to denote a placed collateral can be used in multiple account and an account contains multiple collateral.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 32,
+            "logObjName": "Account Portfolio",
+            "desc": "Portfolios are user defined group of accounts. This dimension table holds the master list of all the portfolios of the Institution. For example, auto loan portfolio is a group of auto loans.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 33,
+            "logObjName": "Account Position",
+            "desc": "This staging table contains the holdings of specific securities in customer accounts on a given day. The holding is measured by a financial instrument in terms of share or contract quantity, current security price and type of position. The file should contain only active customer accounts. Each position in this table will be linked with the trading account number, specific instrument code and position type. Aggregation of positions can be derived from other product processors tables which are linked with trading account number.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 34,
+            "logObjName": "Account Position Pair",
+            "desc": "This staging table defines position pairings that relate a primary position and its offsetting position. The position pairs can be in any manner held for example, cash or margin. It contains only active customer account positions. Position pairing data is used to identify the relationships between security positions that might reflect those trading strategies, particularly for option strategies for example, debit spreads, credit spreads, or covered calls. The short position in an option pairing strategy must be listed as the primary position and the long position listed as the offsetting position. For a position known to be uncovered, the offsetting information can be defaulted for example, v_offset_instrument_id = 0-0, n_offset_unit_qty = 0 or left null. For a position pair involving positions in the same account, the v_offset_account_number should be left null. For each position pair relationship, exactly one record should be provided. In other words, the relationship between Position A and Position B should be reflected as either {A,B} or {B,A} but not both.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 35,
+            "logObjName": "Account Purpose",
+            "desc": "This staging table captures the account purpose for which the account is originated. The account purpose is customer provided values, suggestive list of values could be Operating Account, Escrow Account, Household Expenses, Foreign Transactions, Savings, Etc.\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 36,
+            "logObjName": "Account Rate Tiers",
+            "desc": "This staging table store balance, rate and stage or facility utilized.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 37,
+            "logObjName": "Account Rating Details",
+            "desc": "The staging Account Rating Details table stores the rating details of all Non Securitisation Accounts and Securitisation Accounts in Banking Book.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 38,
+            "logObjName": "Account Recovery Cashflows",
+            "desc": "This staging entity stores the cash flows that are expected to be recovered from the party for the given account. This is applicable for Impaired, Defaulted or restructured accounts.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 39,
+            "logObjName": "Account Recovery Details",
+            "desc": "This staging entity will hold the details of recoveries for each account.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 40,
+            "logObjName": "Account Restriction",
+            "desc": "This staging table contains restrictions you have placed on a specific account to limit privileges or activities available to the account holder. For example, you can limit the ability of an account holder to trade on margin.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 41,
+            "logObjName": "Account Segment Month On Book",
+            "desc": "This staging table stores the details of account segments at month on book and reporting line level.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 42,
+            "logObjName": "Account Sold Exemption",
+            "desc": "This table stores the status of exemption for sold accounts. Loans sold have liability on bank on legal terms.This dimension helps to identify if particular loan is exempted from reporting as it has already been repurchased or settlement been completed.\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 43,
+            "logObjName": "Account Status",
+            "desc": "This staging entity stores a set of unique codes that denote the status of an account.  This table should not store any credit status, it should only contains account status. This is a staging table for the dimension table dim_acct_status.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 44,
+            "logObjName": "Account Type",
+            "desc": "This dimension table stores the details of the account type.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 45,
+            "logObjName": "Account Ultimate Counterparty Details",
+            "desc": "This entity will contain account and ultimate counterparty details including attributes like Primary Counterparty Flag, Joint Liability Percentage, Exposure Amount etc.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 46,
+            "logObjName": "Account Write Off Details",
+            "desc": "This staging entity will hold the details of write-off for each account.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 47,
+            "logObjName": "Accounting Entries",
+            "desc": "This staging entity stores account or sub ledger or journal entries, which will be used to create enterprise GL.",
+            "grainId": "ACCT_ENT",
+            "grainName": "Accounting Entries"
+        },
+        {
+            "id": 48,
+            "logObjName": "Accounting Entries Batch",
+            "desc": "This staging entity the batch code of accounting entries which are generated by grouping transactions of a particular type.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 49,
+            "logObjName": "Accounting Entries Error",
+            "desc": "This staging entity stores the error code that had occurred for the accounting entry.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 50,
+            "logObjName": "Accounting Entries Header",
+            "desc": "This entity stores accounting entries header records for header or line processing as required by FAH.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 51,
+            "logObjName": "Accounting Entry Type",
+            "desc": "This dimension entity stores accounting entry type.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 52,
+            "logObjName": "Accounting Head",
+            "desc": "This staging entity stores this the accounting head master information.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 53,
+            "logObjName": "Accounting Head Details",
+            "desc": "This staging entity stores this the accounting head fact information.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 54,
+            "logObjName": "Accounting Standard",
+            "desc": "This dimension entity stores the unique list of accounting standards or rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 55,
+            "logObjName": "Card Account Mapping",
+            "desc": "This staging table stores details of card and respective accounts.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 56,
+            "logObjName": "Common Account Derived Attributes",
+            "desc": "This result area entity stores common account level derived attributes, which are not directly sourced by the user but are derived based on other sourced attributes in staging.",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 57,
+            "logObjName": "Common Account Summary",
+            "desc": "This result area entity stores common account level information, that usually comes as an input through staging.",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 58,
+            "logObjName": "Common Chart Of Accounts",
+            "desc": "This staging entity stores the list of Common Chart of account members.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 59,
+            "logObjName": "Correspondent Account Transactions",
+            "desc": "This staging entity stores data pertaining to correspondent account transactions.",
+            "grainId": "ACCT_TXN",
+            "grainName": "Customer Account Transactions"
+        },
+        {
+            "id": 60,
+            "logObjName": "Correspondent Accounts",
+            "desc": "This staging table stores correspondent account is used to record accounts held at other banks including central banks. A correspondent account nostro, vostro or other type of accounts established by a banking institution to receive deposits from, and to make payments on behalf of customers or on behalf of another financial institutions. Correspondent accounts are established through bilateral agreements between the two banks. Commonly, correspondent accounts are the accounts of foreign banks that require the ability to pay and receive the domestic currency.The accounts allow them to pay counterparty from the account or receive money from counterparty into the account. This allows the bank to offer various services to their customers such as foreign exchange and foreign currency denominated loans and deposits, despite their not having a bank license for the foreign country in that  currency of country. This entity covers all the correspondent accounts held by the financial institutions. Central bank accounts including reserve accounts are stored in the table.",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 61,
+            "logObjName": "Custodial Accounts",
+            "desc": "This entity will hold the details of all accounts held in a custodial capacity\n",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 62,
+            "logObjName": "Custodian Account Transactions",
+            "desc": "This table stores the transactions for a custodian account\n",
+            "grainId": "ACCT_TXN",
+            "grainName": "Customer Account Transactions"
+        },
+        {
+            "id": 63,
+            "logObjName": "Employee Service Account",
+            "desc": "This entity contains the employees who have servicing responsibilities over the specified accounts. The\nassociation is not intended to capture accounts on which the employee has direct control but rather the\naccounts on which the employee has a servicing role.\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 64,
+            "logObjName": "Expected Account Cashflows",
+            "desc": "This table stores the expected cashflows of the accounts for any fic_mis_date. This table is loaded by\ncustomer. This table is used by LLFP to calculate the allowance for AFS debt securities.\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 65,
+            "logObjName": "External Underlying Account Rating Details Table",
+            "desc": "This table stores the ratings details of external underlying exposures\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 66,
+            "logObjName": "Forex Account Transactions",
+            "desc": "This entity contains Forex account transactions. The entity stores has settled and unsettled transactions differentiated by mnemonic codes. It also stores the transactions that are settled with cash or with other means such as securities.",
+            "grainId": "ACCT_TXN",
+            "grainName": "Customer Account Transactions"
+        },
+        {
+            "id": 67,
+            "logObjName": "General Ledger Account",
+            "desc": "This entity captures the list of GL accounts.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 68,
+            "logObjName": "Hedge Portfolio Set Account Map",
+            "desc": "This table stores the unique hedge identification providing summary of accounts that are \"hedged\" and\ninstrument which is used for \"Hedging\"\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 69,
+            "logObjName": "Ifrs Account Summary",
+            "desc": "This table holds the measures related to account that are computed by IFRS application.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 70,
+            "logObjName": "Ijarah Accounts",
+            "desc": "This product processor entity captures the details of the Ijarah (Lease Financing) contracts held by the bank, in the banking book.",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 71,
+            "logObjName": "Insurance Accounting Valuation Approach",
+            "desc": "Seeded dimension table for Insurance Accounting Valuation Approach. Sample values are BBA is Building Block Approach, VFA is Variable Fee Approach, PAA is Premium Allocation Approach.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 72,
+            "logObjName": "Istisna Accounts",
+            "desc": "This product processor entity captures the details of the Istisna (Commissioned Manufacture) contracts held by the bank, in the banking book.",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 73,
+            "logObjName": "Loan Account Summary",
+            "desc": "This refers to the fact entity which is result area for Loan, Leases and  Overdraft.",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 74,
+            "logObjName": "Lrm Account Summary",
+            "desc": "This Table Stores the Details of the Account Derived in Liquidity Risk Management Solution",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 75,
+            "logObjName": "Mudarbah Accounts",
+            "desc": "This product processor entity captures the details of the Mudarabah (Unit trust) contracts held by the bank, in the banking book.",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 76,
+            "logObjName": "Murabahah Accounts",
+            "desc": "This product processor entity captures the details of the Murabahah (Trade based finance) contracts held by the bank, in the banking book.",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 77,
+            "logObjName": "Musharkah Accounts",
+            "desc": "This product processor entity captures the details of the Musharakah (Partnership) contracts held by the bank, in the banking book.",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 78,
+            "logObjName": "Online Account",
+            "desc": "This staging table stores the identifiers assciated with online accounts. Online account identifiers are those\nlogin identifiers associated with customers who are accessing their internal accounts via internet or other\ntele-banking channels\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 79,
+            "logObjName": "Online Account To Account Map",
+            "desc": "This staging table is a map between online accont identifiers and account numbers.\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 80,
+            "logObjName": "Over Draft Accounts",
+            "desc": "This product processor entity captures the details of overdraft contract. Overdraft is defined as an extension of credit from a lending institution when an account reaches zero. An overdraft allows the individual to continue withdrawing money even if the account has no funds in it. Basically the financial institution allows people to borrow a set amount of money. This entity will captures all the overdrafts occurred in CASA accounts.\nn overdraft occurs when money is withdrawn from a bank account and the available balance goes below zero. In this situation the account is said to be overdrawn. If there is a prior agreement with the account provider for an overdraft, and the amount overdrawn is within the authorized overdraft limit, then interest is normally charged at the agreed rate. If the negative balance exceeds the agreed terms, then additional fees may be charged and higher interest rates may apply. Certain retail accounts could provide ATM overdraft where institutions or ATMs may allow cash withdrawals despite insufficient availability of funds. The account holder may or may not be aware of this fact at the time of the withdrawal. If the ATM is unable to communicate with the cardholders bank, it may automatically authorize a withdrawal based on limits preset by the authorizing network. The financial institution charges a fee unexpected to the account holder, creating a negative balance or leaving insufficient funds for a subsequent debit from the same account. The interest rates charged are tiered generally, which means that interest is charged on the entire amount in slabs much like the tax liability. Interest chargeable are capitalized to the account and use the limit allowed on the account.",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 81,
+            "logObjName": "Over Draft Accounts Transactions",
+            "desc": "This entity to hold transactions that occurred on OD Accounts.",
+            "grainId": "ACCT_TXN",
+            "grainName": "Customer Account Transactions"
+        },
+        {
+            "id": 82,
+            "logObjName": "Party Account Role Map",
+            "desc": "This table maps an account to multiple roles played by a party. This table to be used inspite of\nstg_customer_relationship table.\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 83,
+            "logObjName": "Party Party Account Relationship",
+            "desc": "This stage table stores the relationship between party to party and account.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 84,
+            "logObjName": "Payment Settlement Accounts",
+            "desc": "This product processor entity captures the payment settlement account information held by a Bank with any Payment System. Payment System is any LVPS system like NEFT,RTGS or Fedwire",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 85,
+            "logObjName": "Regulatory Account Balances",
+            "desc": "This Table stores the various account balances for Regulatory Purpose.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 86,
+            "logObjName": "Regulatory Account Mitigant Mapping",
+            "desc": "This table stores the account mitigant mapping information",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 87,
+            "logObjName": "Regulatory Account Summary",
+            "desc": "This table stores the regulatory reclassifications and other information as required for regulatory reporting",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 88,
+            "logObjName": "Regulatory Capital Account Asset Class",
+            "desc": "This table stores the information related to the regulatory capital calculations, at the granularity of the account, with the drawn and undrawn portion having different details, and the mitigant and asset class. A single account can have different mitigan",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 89,
+            "logObjName": "Regulatory Capital Account Summary",
+            "desc": "Stores regulatory capital for each account. Typically this table is an input from Basel application.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 90,
+            "logObjName": "Reinsurance Accounting Basis",
+            "desc": "This staging master entity stores the Reinsurance accounting basis specifying the basis of accounting for the contract. As per Supporting Information Default Value, As per Original, As per Warranty, Accident Year, Accounting Year, Calendar Year, Underwriting Year.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 91,
+            "logObjName": "Retirement Accounts",
+            "desc": "This staging entity stores the retirement account contracts. Retirement account is an investment tool used by individuals to earn and earmark funds for retirement savings. There are several types of IRAs Traditional IRAs, Roth IRAs, SIMPLE IRAs and SEP IRAs. Traditional and Roth IRAs are established by individual taxpayers, who are allowed to contribute 100% of compensation \nself employment income for sole proprietors and partners up to a set maximum dollar amount. Contributions to the Traditional IRA may be tax deductible depending on the taxpayers income, tax filing status and coverage by an employer sponsored retirement plan. Roth IRA contributions are not tax deductible. SEPs and SIMPLEs are retirement plans established by employers. Individual participant contributions are made to SEP IRAs and SIMPLE IRAs. \nThis entity will cover products like Traditional IRAs, SEP IRAs & Roth IRAs. An IRA has an account that is used as funding account which is similar to a CASA account, the cash in this account is used to invest in multiple asset classes.\nRetirement contracts which covers accumulation as well as payment, contract should be stored in this entity. When policyholder holds retirement contracts only in accumulation period and purchases annuity contract separately on date of retirement, a new annuity contract is expected to be opened in Stage Annuity contract entity.",
+            "grainId": "POLICY",
+            "grainName": "Policy Identifier"
+        },
+        {
+            "id": 92,
+            "logObjName": "Retirement Accounts Transactions",
+            "desc": "This staging entity stores transactions that occurred on Retirement accounts.",
+            "grainId": "ACCT_TXN",
+            "grainName": "Customer Account Transactions"
+        },
+        {
+            "id": 93,
+            "logObjName": "Salam Accounts",
+            "desc": "This product processor entity captures the details of the Salam (Advance Purchase) contracts held by the bank, in the banking book.",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 94,
+            "logObjName": "Serviced Account Credit Score Details",
+            "desc": "This entity stores the details of the credit score of serviced account thoroughout its lifetime\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 95,
+            "logObjName": "Serviced Loan Account",
+            "desc": "This table stores account summary. However only for those accounts which bank holds for servicing purpose\nonly. These account may or may not be originated by bank.\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 96,
+            "logObjName": "Standard Accounting Head",
+            "desc": "This dimension lists the various standard accounting heads (Equity, Reserves and Surplus etc.) under which a bank classifies its GL sources of accounting capital.",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 97,
+            "logObjName": "Standard Accounting Head Details",
+            "desc": "Staging table to capture Non-GL data which are part of Capital Structure\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 98,
+            "logObjName": "Sukuk Accounts",
+            "desc": "This product processor entity captures the details of the Sukuk (Participation Securities) contracts held by the bank, in the banking book.",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 99,
+            "logObjName": "Swap Account Transactions",
+            "desc": "This entity contains swap account transactions. The table stores has settled and unsettled transactions differentiated by mnemonic codes. It also stores the transactions that are settled with cash or with other means such as securities.",
+            "grainId": "ACCT_TXN",
+            "grainName": "Customer Account Transactions"
+        },
+        {
+            "id": 100,
+            "logObjName": "Trade Finance To Account",
+            "desc": "This file relates a trade finance contract or documentary collection contracts to an account. It identifies\nthe account which is used for fulfilling the contract. There could be many accounts that are associated to a\ntrade finance contract/documentary collection contract and vice versa.\n",
+            "grainId": "",
+            "grainName": "Others"
+        },
+        {
+            "id": 101,
+            "logObjName": "Trading Account",
+            "desc": "Product Processor table for Trading Account.",
+            "grainId": "ACCT",
+            "grainName": "Customer Account"
+        },
+        {
+            "id": 102,
+            "logObjName": "Trading Account Transactions",
+            "desc": "This table contains transactions done on a trading account\n",
+            "grainId": "ACCT_TXN",
+            "grainName": "Customer Account Transactions"
+        },
+        {
+            "id": 103,
+            "logObjName": "Trust Account Type",
+            "desc": "This dimension table stores the trust account type details of a trust account .",
+            "grainId": "",
+            "grainName": "Others"
+        }
+    ]
+}
