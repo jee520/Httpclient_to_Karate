@@ -1,0 +1,232 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the effective date of the account or contract or interest rate or exchange rate from which it is effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exchange Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Long",
+                    "gcd": "Refers to the exchange rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Market Quote Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to financial market Quote type code. Market data for given financial quote type will be used for calculation. Possible inputs: MID, BID, ASK or LST. Instrument Used:CommodityForward.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forex Market Rate Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of rate or market for which data is given. Expected values are FX_SPOT-Foreign Exchange Spot), FX_FWD-Foreign Exchange Forward, FX_FWDND-Foreign Exchange Forward Offshore Non Deliverable and FX_FWDONSHORE-Foreign Exchange Forward Onshore.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Load Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the load run identifier. Load run identifier enables user to load multiple versions intraday or post back dated adjustment entries to the table. Refers to the Load run identifier of the equivalent record in product processor that needs to be adjusted. Default value of  1 indicates that the latest load run is being adjusted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Quote Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This Attribute stores the Quote type D or I. D if it is a direct rate between source currency and destination currency I if it is a indirect rate between source currency and destination currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Data Source Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the rate data source system from where data is extracted. Data can be sourced from multiple sources, this column will refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Real Price Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the risk factors value real or not. List of values are Y,N. Y is real and  N is not real.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Source Currency Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the source ISO currency code in the exchange.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Target Currency Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the target ISO currency code in the exchange.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tenor",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the tenor for which exchange rate is being provided. This is applicable for forward exchange rates. For example, If three month forward rate is being given then this attribute will store 3 and tenor unit will be M. In case of spot and overnight rates this must be filled as 0. Tenor or maturity of the instrument like swap, FRA, Starting Tenor. In case of swaption this represents option tenor. This attribute is read together with Tenor Unit. This is required only for Single name credit default swap and credit index swaps. Also Refers to contractual term at origination date. Maturity Date is equal to Origination Date plus Origination Term.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tenor Unit",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the unit in which tenor of instrument is given. This attribute must be read together with Tenor. Expected values are ON  Overnight, TN  Tomorrow next, SN  Spot next, D  calendar days, BD  business days, W  weeks, M  months, Y  years. When unit is ON, TN, SN or Date then Tenor will be null. This is required only for Single name credit default swap and credit index swaps.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32698",
+                    "btLogicalName": "Tenor Unit",
+                    "dqDesc": "Should have list of values as D,M,W,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQLOV32699",
+                    "btLogicalName": "Real Price Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37938",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Foreign Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37939",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Foreign Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37940",
+                    "btLogicalName": "Effective Date",
+                    "dqDesc": "Reference Check for Effective Date in Stage Foreign Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37941",
+                    "btLogicalName": "Effective Date",
+                    "dqDesc": "Reference Check for Effective Date in Stage Foreign Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37942",
+                    "btLogicalName": "Financial Market Quote Type",
+                    "dqDesc": "Reference Check for Financial Market Quote Type in Stage Foreign Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37943",
+                    "btLogicalName": "Quote Type",
+                    "dqDesc": "Reference Check for Quote Type in Stage Foreign Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37944",
+                    "btLogicalName": "Source Currency Code",
+                    "dqDesc": "Reference Check for Source Currency Code in Stage Foreign Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37945",
+                    "btLogicalName": "Target Currency Code",
+                    "dqDesc": "Reference Check for Target Currency Code in Stage Foreign Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:31.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

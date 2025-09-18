@@ -1,0 +1,441 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Asset Sold Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify if the asset is sold fully. List of values are Y & N.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Available For Sale Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account has been marked for sale or securitization in near future.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Custody Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is associated with custody relationship. Custodian is a specialized financial institution responsible for safeguarding a firms or individuals financial assets and is not necessarily engaged in traditional commercial or consumer or retail banking such as mortgage or personal lending. Such accounts are considered as operational account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiduciary Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is held with the bank under a fiduciary capacity. Fiduciary capacity means trustee, executor, administrator, registrar of stocks and bonds, transfer agent, guardian, assignee, receiver, or custodian under a uniform gifts to minors act investment adviser, if the bank receives a fee for its investment advice any capacity in which the bank possesses investment discretion on behalf of another or any other similar capacity that the regulator authorizes. For example deposits that are placed with a bank by a national bank for which the bank is a fiduciary.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixed Asset Category",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Captures the category of the fixed asset. Categories of Fixed assets are Movable and Immovable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixed Asset Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Unique code of the fixed Asset. Fixed asset are defined as physical assets such as Buildings, Land, Machinery, Automobiles, Gold bullion etc. They can be sold and appropriate profit/loss can be recognized based on appropriate accounting principles.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixed Asset Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Unique code of the fixed Asset. Fixed asset are defined as physical assets such as Buildings, Land, Machinery, Automobiles, Gold bullion etc. They can be sold and appropriate profit/loss can be recognized based on appropriate accounting principles.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixed Asset Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Captures the description of the fixed asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixed Asset Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Fixed Asset Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixed Asset Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of fixed asset. Types of fixed assets are Real Estate, Equipment, Automobiles, etc. Type under the movable category include automobiles. Type under the immovable category include real estate, equipment, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixed Asset Type Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description on the type of fixed asset. Types of fixed assets are Real Estate, Equipment, Automobiles, etc. Type under the movable category include automobiles. Type under the immovable category include real estate, equipment, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Immovable Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify if the fixed asset is an immovable asset or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lien Position Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of underlying note on the loan. This is also known as the lien position. First mortgage is a mortgage in a first lien position on the property that secures the mortgage. A first mortgage has priority over all other liens or claims on a property in the event of default. If the loan to value, LTV, ratio of a first mortgage is greater than 80 percent, lenders generally require private mortgage insurance, PMI. In such a case, it can sometimes be economical for a borrower to limit the size of the first mortgage to an 80 percent LTV and use secondary financing to borrow the remaining amount needed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Service Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the information of the type of service on Home Equity Line of Credit provided by Home Equity Line of Credit servicer like Originating the Home Equity Line of Credit, insuring the Home Equity Line of Credit, servicing the Home Equity Line of Credit. Loan Service Type Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Managed Asset Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if assets underlying the given account are managed or unmanaged. An account should be categorized as managed if the institution has investment discretion over the assets of the account. Investment discretion is defined as the sole or shared authority, whether or not that authority is exercised, to determine what securities or other assets to purchase or sell on behalf of the fiduciary related account. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Occupancy Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the attributes of occupants of the dwelling. For example, owner and tenant occupants. This information will be of Repossessed Mitigants at the time of Repossession or acquisition.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Lien Position Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the lien position code at origination. Refers to the type of underlying note on the loan. This is also known as the lien position. First mortgage is a mortgage in a first lien position on the property that secures the mortgage. A first mortgage has priority over all other liens or claims on a property in the event of default. If the loan to value, LTV, ratio of a first mortgage is greater than 80 percentage, lenders generally require private mortgage insurance, PMI. In such a case, it can sometimes be economical for a borrower to limit the size of the first mortgage to an 80 percentage LTV and use secondary financing to borrow the remaining amount needed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Real Estate Owned Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This column indicates if the fixed asset is a Other Real Estate Owned  i.e. OREO asset. Other real estate owned is most frequently a result of foreclosure on real property as a result of default by the borrower who used the property as collateral for the loan. Most items in this category are available for sale. A growth in OREO is indicative of deteriorating credit for the bank with non-earning assets that are growing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Owner Occupied Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the property is occupied by the owner or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Purchase Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date that represents the calendar date when the contract has been purchased. In an acquisition as part of a business combination, this is the date on which the control is obtained of the acquired asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repossessed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicates if the asset is repossessed. Repossession indicates possession of an asset as a result of a default on loan by the customer. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Revolving Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is a term or revolving account. Revolving credit is a type of loan or credit that does not have a fixed number of payments. The revolving limit is similar to a credit limit against which a customer can draw funds for financing. Revolving amount is applicable to products like credit cards, revolving loans or line of credit etc. Term products are those products that have pre scheduled payments or maturity. Examples of term products are term loans, term deposits or Certificate of deposit etc. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seller Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the identifier for the party from whom the asset has been acquired or purchased, repurchased or rebooked and guarantee provided under the GNMA structure. Example GNMA loans rebooked on account of deterioration of credit quality.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Service Provider Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to Home Equity Line of Credit, Lease etc. Service Provider Code as in who is servicing loan or lease. Refers to the Service Provider Code who is currently holding the servicing rights of the account for which the bank is not the servicer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Valuation Method Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code identifying the method used when valuing assets. The four most common methods used are Discounted cash flow i.e. DCF analysis, Comparable transactions method, Multiples method and Market valuation.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1164",
+                    "srcLogicalName": "Stage Fixed Assets Master",
+                    "scdName": "scd_1164_DIM_FIXED_ASSETS_STG_FIXED_ASSETS_MASTER",
+                    "scdDesc": "Data movement from fixed assets master source to fixed assets dimension",
+                    "createdDate": "2024-10-26 06:02:40.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42503",
+                    "btLogicalName": "Fixed Asset Numeric Identifier",
+                    "dqDesc": "Fixed Asset Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQCUS42504",
+                    "btLogicalName": "Fixed Asset Numeric Identifier",
+                    "dqDesc": "Fixed Asset Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV31675",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV31676",
+                    "btLogicalName": "Immovable Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV31677",
+                    "btLogicalName": "Asset Sold Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV31678",
+                    "btLogicalName": "Managed Asset Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV31679",
+                    "btLogicalName": "Owner Occupied Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV31680",
+                    "btLogicalName": "Available For Sale Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV31681",
+                    "btLogicalName": "Custody Relationship Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV31682",
+                    "btLogicalName": "Repossessed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV31683",
+                    "btLogicalName": "Fiduciary Relationship Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV31684",
+                    "btLogicalName": "Revolving Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV31685",
+                    "btLogicalName": "Other Real Estate Owned Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQNMDUP42022",
+                    "btLogicalName": "Fixed Asset Numeric Identifier",
+                    "dqDesc": "Fixed Asset Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQSPLCH42957",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

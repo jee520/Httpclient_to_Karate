@@ -1,0 +1,404 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the business unit code as defined by the organization. A business unit is generally a broader definition and represents all the units in an organization. Business Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Common Chart Of Account Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the chart of accounts is a listing of the names of the accounts that a financial institution has identified and made available for recording transactions in its general ledger. A financial institution has the flexibility to define its chart of accounts as per requirement, including adding accounts as needed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Consolidation Flag",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify if the data that is held in the GL or Account or Run is for the solo legal entity or consolidated legal entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Download Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date of download.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Element Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code that identifies the type of financial element, such as ending balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the forecast dates for which the aggregate cash flows are given .Aggregation is at Product, Currency and Legal Entity Level. This attribute also holds the forecast date for which the liquidity balances, net exposures and for the run like, 9 quarter end and 5 year end date from the Run date are provided .",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast General Ledger Amount In Natural Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Forecasted GL amount in natural currency of the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Strategy",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Forecast Strategy.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique general ledger account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the general ledger type of the GL account code. Indicative values LOS Loss, GNS Gains, EXP Expense, REV Revenue, OWNEQ Owners Equity, LIAB Liability, AST Asset, ALL . General Ledger Account Dimension is the equivalent dimension of this attribute.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Liquidation Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the estimated number of days required for the liquidation of the investment. Illiquid instruments would have higher number of days specified here.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Minority Interest Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Minority Interest Value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization Unit Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the cost center to which the account belongs to. Organization Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Scenario Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Scenario Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Stress Scenario Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Stress Scenario Code.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32711",
+                    "btLogicalName": "Consolidation Flag",
+                    "dqDesc": "Should have list of values as C,S",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37982",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37983",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37984",
+                    "btLogicalName": "Download Date",
+                    "dqDesc": "Reference Check for Download Date in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37985",
+                    "btLogicalName": "Download Date",
+                    "dqDesc": "Reference Check for Download Date in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37986",
+                    "btLogicalName": "Forecast Date",
+                    "dqDesc": "Reference Check for Forecast Date in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37987",
+                    "btLogicalName": "Forecast Date",
+                    "dqDesc": "Reference Check for Forecast Date in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37988",
+                    "btLogicalName": "Accounting Standard Code",
+                    "dqDesc": "Reference Check for Accounting Standard Code in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37989",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37990",
+                    "btLogicalName": "Business Unit Code",
+                    "dqDesc": "Reference Check for Business Unit Code in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37991",
+                    "btLogicalName": "Common Chart Of Account Code",
+                    "dqDesc": "Reference Check for Common Chart Of Account Code in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37992",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37993",
+                    "btLogicalName": "Financial Element Code",
+                    "dqDesc": "Reference Check for Financial Element Code in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37994",
+                    "btLogicalName": "General Ledger Account Code",
+                    "dqDesc": "Reference Check for General Ledger Account Code in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37995",
+                    "btLogicalName": "General Ledger Type",
+                    "dqDesc": "Reference Check for General Ledger Type in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37996",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37997",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37998",
+                    "btLogicalName": "Organization Unit Code",
+                    "dqDesc": "Reference Check for Organization Unit Code in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF37999",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF38000",
+                    "btLogicalName": "Scenario Code",
+                    "dqDesc": "Reference Check for Scenario Code in Stage Forecasted General Ledger Data",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

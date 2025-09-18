@@ -1,0 +1,116 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dividend Threshold",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the threshold beyond which if dividend is declared then conversion price or ratio of convertible bond is recalculated for pricing purpose. Data is expected in decimal form, example, if threshold is 10Percent then 0.10 must be given in this attribute. Most dividend protected convertibles have protection in the form of the adjustment to the conversion terms for all cash dividends, regardless of the size of the dividend. However, an interesting subset of issues does not give full dividend protection, but only provides protection if the cash dividend exceeds a specified dollar amount. The specified levels are called as dividend threshold.\nColumn is applicable for instruments like Equity convertible bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dividend Trigger",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the issuer of convertible bond declares a dividend in excess of an agreed level i.e. trigger, holders of convertible bond automatically receive dividend. This is required for pricing of convertible bond. Data is expected in decimal form, example, if trigger is 32Percent then 0.32 must be given in this attribute. Convertible bonds offers investors an automatic dividend trigger option and these conditions are set at the time of issuing bond. Column is applicable for instruments like Equity convertible bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ex Dividend Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the attribute stores the ex dividend date declared by stock exchange and is before the record date which determines whether an investor should get dividend. When a company declares a dividend, it sets a record date when you must be on the books of company as a shareholder to receive the dividend. Once the company sets the record date, the ex dividend date is set based on stock exchange rules. The ex dividend date is usually set for stocks two business days before the record date. If you purchase a stock on its ex-dividend date or after, you will not receive the next dividend payment. Instead, the seller gets the dividend. If you purchase before the ex dividend date, you get the dividend. Column is applicable for instruments like Equity convertible bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF37740",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Dividend Protection Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                },
+                {
+                    "dqId": "DQREF37741",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Dividend Protection Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                },
+                {
+                    "dqId": "DQREF37742",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Dividend Protection Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                },
+                {
+                    "dqId": "DQREF37743",
+                    "btLogicalName": "Instrument Code",
+                    "dqDesc": "Reference Check for Instrument Code in Stage Dividend Protection Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:07.0",
+                    "modifiedDate": "2024-11-04 04:39:01.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

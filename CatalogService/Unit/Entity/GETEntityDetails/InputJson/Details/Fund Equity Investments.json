@@ -1,0 +1,160 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Equity Exposure Class Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the categories of the exposures where the fund can be invested.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Equity Investment Fund Actual Limit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the actual limit for the fund to invest in the exposure class.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Equity Investment Fund Immaterial Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Indicates whether the Exposure in the form of Derivative Contract that are used for hedging and does not constitute a material portion of the  exposures of fund. List of values are Y,N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to unique identifier of the exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fund Investment Percentage In Capital Instrument",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "This attribute stores the investment percentage in the Capital Instrument of the financial institutions.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Investment Fund Permissible Limit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the total permissible limit for the fund to invest in the exposure class or the product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32608",
+                    "btLogicalName": "Equity Investment Fund Immaterial Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:38.0"
+                },
+                {
+                    "dqId": "DQREF37735",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Fund Equity Investments",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:38.0"
+                },
+                {
+                    "dqId": "DQREF37736",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Fund Equity Investments",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:38.0"
+                },
+                {
+                    "dqId": "DQREF37737",
+                    "btLogicalName": "Accounting Standard Code",
+                    "dqDesc": "Reference Check for Accounting Standard Code in Stage Fund Equity Investments",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:38.0"
+                },
+                {
+                    "dqId": "DQREF37738",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Fund Equity Investments",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:38.0"
+                },
+                {
+                    "dqId": "DQREF37739",
+                    "btLogicalName": "Exposure Identifier",
+                    "dqDesc": "Reference Check for Exposure Identifier in Stage Fund Equity Investments",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:38.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Scenario Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of the Forecast Scenario. The accepted value for scenario code is a number value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Scenario Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of the Forecast Scenario. The accepted value for scenario code is a number value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Scenario Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the Scenario Name for which Forecast Rate is being defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Scenario Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Forecast Scenario Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Scenario Weightage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the weightage that the Forecast Scenario.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1058",
+                    "srcLogicalName": "Stage Forecast Scenario Master",
+                    "scdName": "scd_1058_DIM_FORECAST_SCENARIO_STG_FORECAST_SCENARIO_MASTER",
+                    "scdDesc": "Data movement from forecast scenario master source to forecast scenario dimension",
+                    "createdDate": "2024-10-26 06:02:44.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42339",
+                    "btLogicalName": "Forecast Scenario Numeric Identifier",
+                    "dqDesc": "Forecast Scenario Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:10.0",
+                    "modifiedDate": "2024-11-04 04:39:04.0"
+                },
+                {
+                    "dqId": "DQCUS42340",
+                    "btLogicalName": "Forecast Scenario Numeric Identifier",
+                    "dqDesc": "Forecast Scenario Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:10.0",
+                    "modifiedDate": "2024-11-04 04:39:04.0"
+                },
+                {
+                    "dqId": "DQLOV32706",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:10.0",
+                    "modifiedDate": "2024-11-04 04:39:04.0"
+                },
+                {
+                    "dqId": "DQNMDUP42088",
+                    "btLogicalName": "Forecast Scenario Numeric Identifier",
+                    "dqDesc": "Forecast Scenario Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:10.0",
+                    "modifiedDate": "2024-11-04 04:39:04.0"
+                },
+                {
+                    "dqId": "DQSPLCH42864",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:10.0",
+                    "modifiedDate": "2024-11-04 04:39:04.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                }
+            ]
+        }
+    ]
+}

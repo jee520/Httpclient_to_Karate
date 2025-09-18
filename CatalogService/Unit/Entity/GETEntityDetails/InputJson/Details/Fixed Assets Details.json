@@ -1,0 +1,691 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accumulated Depreciation Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This is the accumulated depreciation related to an asset from inception to date. Accumulated depreciation is the cumulative depreciation of an asset up to a Single point in its life.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Acquired From Failed Insured Depository Institutions Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if particular asset has been acquired from failed depository institution of FDIC.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Acquired Through Foreclosure Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify assets acquired through foreclosure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Asset Intent Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code for various asset intent type as OPR for Operation, INV for Investment and AFS for Available for Sale.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Asset Sold Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify if the asset is sold fully. List of values are Y & N.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Change In Fair Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Captures the change in fair value with respect to the last reporting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Construction Loan Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Construction loan type code. The construction loans can be 1 4 Family, other construction type etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Debt Previous Contracted Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether asset of a customer is now held by the bank to cover the debt of the customer either through the foreclosure process, provision of the security by the customer in good faith etc. Here, even though the title is not transferred, the asset is deemed property of the bank due to default by customer or doubtful claim against the original debt contracted by the customer. This is required for classifying common equities as level 2B high quality liquid assets, HQLA, for the purpose of inclusion in the stock of HQLA while computing the Liquidity Coverage Ratio, LCR. A common equity held by a depository institution cannot be classified as an HQLA if it was acquired in satisfaction of a debt previously contracted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Encumbrance Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to encumbrance reason code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Encumbrance Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Store the value to identify the encumbrance status. Dimension Encumbrance Status dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiduciary Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is held with the bank under a fiduciary capacity. Fiduciary capacity means trustee, executor, administrator, registrar of stocks and bonds, transfer agent, guardian, assignee, receiver, or custodian under a uniform gifts to minors act investment adviser, if the bank receives a fee for its investment advice any capacity in which the bank possesses investment discretion on behalf of another or any other similar capacity that the regulator authorizes. For example deposits that are placed with a bank by a national bank for which the bank is a fiduciary.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixed Asset Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Unique code of the fixed Asset. Fixed asset are defined as physical assets such as Buildings, Land, Machinery, Automobiles, Gold bullion etc. They can be sold and appropriate profit/loss can be recognized based on appropriate accounting principles.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique general ledger account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Held By Client Or Proprietary Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account is held by client or not. If the value is updated as Y which means the security is held by client and if the value is updated as N which means the security is in the proprietary account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holding Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the holding intent of the account. Holding Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Indemnification Asset Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to indemnification amount of the asset arising from loss sharing agreement. Indemnification is the part of an agreement that provides for one party to bear the monetary costs, either directly or by reimbursement, for losses incurred by a second party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "International Banking Facility Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or transaction is belongs to an international banking facility. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Latest Record Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies the latest records for a particular combination of primary keys. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Load Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the load run identifier. Load run identifier enables user to load multiple versions intraday or post back dated adjustment entries to the table. Refers to the Load run identifier of the equivalent record in product processor that needs to be adjusted. Default value of  1 indicates that the latest load run is being adjusted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Scenario Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the scenario loss amount of each exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Share Agreement Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique reference to the loss sharing agreement that particular OREO, Other Real Estate Owned, asset is subjected to.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Marked Pay Obligations By Variable Interest Entity Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates these investments are earmarked for Variable Interest Entity obligation settlement. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the market value of the instrument as on the As of Date. Market value of the asset is the price that would be received to sell an asset in an transaction between market participants on the given day. It is often the quoted market price which is available as part of market data and used to determine the market value of the asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Value Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the captures the date on which the market price is evaluated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the contractual date on which the principal balance is expected to fully amortize and the balance payable would be nil. This is applicable for term loan products but not for revolving credit or overdraft type of account. In case of insurance policy, for some whole life insurance products the maturity date is aligned to maximum attained age and the policy is payable upon the earlier of the maturity date or the death of the insured. In case of Term Life insurance policies the maturity date is determined as policy issue date plus Term of the contract. In case of an annuity it is the date from which the annuitant has chosen to take the payouts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Amount Recoverable From Loss Sharing Agreement",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the maximum amount recoverable from sponsor under loss sharing agreements covering the other real estate owned.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operating Lease Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This column indicates as Y if the product is subject to operating lease. List of Values are  Y and N.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the cost center to which the account belongs to. Organization Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Acquisition Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Captures the original acquisition cost of the asset. This is applicable only for those assets that have been acquired by paying and not applicable in case of Other real estate owned type of assets.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Property Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the property type code associated with given account. Property Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Realized Gain Or Loss Amount For The Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the realized gain or loss on exposure. Profit and Losses are classified into realized and unrealized profit o loss. Realized gain refers to the gain realized by selling or buying a security.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Revaluation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Captures the date on which the fixed asset was revalued.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Right Of Use Asset Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This column stores right of use asset associated with a lease.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Security Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "The column stores security amount placed by obligors that carry no interest and not managed as a deposit in the deposit system. Amounts managed as deposit are to be loaded into stage casa or stage td contract.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33186",
+                    "btLogicalName": "Acquired From Failed Insured Depository Institutions Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV33187",
+                    "btLogicalName": "Acquired Through Foreclosure Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV33188",
+                    "btLogicalName": "Marked Pay Obligations By Variable Interest Entity Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV33189",
+                    "btLogicalName": "Operating Lease Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV33190",
+                    "btLogicalName": "Held By Client Or Proprietary Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV33191",
+                    "btLogicalName": "Debt Previous Contracted Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV33192",
+                    "btLogicalName": "International Banking Facility Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV33193",
+                    "btLogicalName": "Fiduciary Relationship Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV33194",
+                    "btLogicalName": "Asset Sold Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39228",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39229",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39230",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39231",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39232",
+                    "btLogicalName": "Market Value Date",
+                    "dqDesc": "Reference Check for Market Value Date in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39233",
+                    "btLogicalName": "Market Value Date",
+                    "dqDesc": "Reference Check for Market Value Date in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39234",
+                    "btLogicalName": "Revaluation Date",
+                    "dqDesc": "Reference Check for Revaluation Date in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39235",
+                    "btLogicalName": "Revaluation Date",
+                    "dqDesc": "Reference Check for Revaluation Date in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39236",
+                    "btLogicalName": "Accounting Standard Code",
+                    "dqDesc": "Reference Check for Accounting Standard Code in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39237",
+                    "btLogicalName": "Asset Intent Type",
+                    "dqDesc": "Reference Check for Asset Intent Type in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39238",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39239",
+                    "btLogicalName": "Construction Loan Type",
+                    "dqDesc": "Reference Check for Construction Loan Type in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39240",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39241",
+                    "btLogicalName": "Encumbrance Reason Code",
+                    "dqDesc": "Reference Check for Encumbrance Reason Code in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39242",
+                    "btLogicalName": "Encumbrance Status Code",
+                    "dqDesc": "Reference Check for Encumbrance Status Code in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39243",
+                    "btLogicalName": "Fixed Asset Code",
+                    "dqDesc": "Reference Check for Fixed Asset Code in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39244",
+                    "btLogicalName": "General Ledger Account Code",
+                    "dqDesc": "Reference Check for General Ledger Account Code in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39245",
+                    "btLogicalName": "Holding Type",
+                    "dqDesc": "Reference Check for Holding Type in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39246",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39247",
+                    "btLogicalName": "Line Of Business Code",
+                    "dqDesc": "Reference Check for Line Of Business Code in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39248",
+                    "btLogicalName": "Loss Share Agreement Code",
+                    "dqDesc": "Reference Check for Loss Share Agreement Code in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39249",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39250",
+                    "btLogicalName": "Organization Unit Code",
+                    "dqDesc": "Reference Check for Organization Unit Code in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF39251",
+                    "btLogicalName": "Property Type",
+                    "dqDesc": "Reference Check for Property Type in Stage Fixed Assets Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

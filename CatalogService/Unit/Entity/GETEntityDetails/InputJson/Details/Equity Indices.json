@@ -1,0 +1,128 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Index Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to a code to represent a particular market index. For example SNP5, DJW5 etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Net Present Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the end of the day Net Present value of the instrument. This will be a download in case of exchange traded instruments and will be priced using Quantlib pricing Engines in case of OTC instruments. Price at which this trade was executed, expressed in issuing currency. Value is to be expressed in the issuing currency of the associated security. Also indicates the price of the instrument on its primary market.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date for which the trading history for this instrument is captured.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF34632",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Equity Indices",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF34633",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Equity Indices",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF34634",
+                    "btLogicalName": "Market Date",
+                    "dqDesc": "Reference Check for Market Date in Stage Equity Indices",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF34635",
+                    "btLogicalName": "Market Date",
+                    "dqDesc": "Reference Check for Market Date in Stage Equity Indices",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF34636",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Equity Indices",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF34637",
+                    "btLogicalName": "Index Code",
+                    "dqDesc": "Reference Check for Index Code in Stage Equity Indices",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,372 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Office Manager Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether this employee is a branch officer manager.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Designation Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the designation code of the employee.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Designation Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the designation of the employee.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Display Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the full name of party which is used for display purpose.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Employee Cost Center",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the cost center to which this employee is assigned.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Employee Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the employee assigned by the employer or legal entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Employee Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the employee assigned by the employer or legal entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Employee Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the employee identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Employee Tax Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the Employees tax identification number, for example, SSN.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Employee Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code that identifies the type of employee, for example, employee or contractor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Employment Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the employment status, for example, active or inactive, of this employee.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Employment Status Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the employee status was last changed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Gender Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the gender of the party or customer or employee. This is applicable only to individuals. Gender dimension is the equivalent dimension table for this column.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Hire Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the employee was hired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Job Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the job code of the employee as stored in HR systems.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Job Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to description of this employees job, for example, Desk Manager or Customer Service Rep.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Job Grade Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Refers to the job grade of the employee. The values expected are O  Officer, C  Clerical, S  Subordinate etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Job Title",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Job of the party that is discharging in the organization. Some of the example of job titles are Investment Planner, Client Service Manager, Collections Manager etc. the job title is also related and based on the position held by the party in the organization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Material Risk Taker Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the employee is categorised as material risk taker or not. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Office Address Line One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the line one of address like apartment or house number, apartment name, street, cross, road etc. where the party is residing. More important fields like city, state are captured in separate fields.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Address Line Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the address line 2 of the party or customer office address details.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Organization Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the cost center to which the account belongs to. Organization Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Part Or Full Time Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates whether this employee is full time or part time. List of values are F  Full Time and P  Part Time.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party First Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the first name of the party or employee or customer etc.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Last Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the last name of the party, usually the family name.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Party Middle Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the middle name of the party, usually the father name.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Termination Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the employee was terminated from the service.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "21",
+                    "srcLogicalName": "Stage Employee Master",
+                    "scdName": "scd_21_DIM_EMPLOYEE_STG_EMPLOYEE_MASTER",
+                    "scdDesc": "Data movement from employee master source to employee dimension",
+                    "createdDate": "2024-10-26 06:02:41.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42589",
+                    "btLogicalName": "Employee Numeric Identifier",
+                    "dqDesc": "Employee Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:30.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQCUS42590",
+                    "btLogicalName": "Employee Numeric Identifier",
+                    "dqDesc": "Employee Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:30.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQLOV32673",
+                    "btLogicalName": "Branch Office Manager Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:30.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQLOV32674",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:30.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQLOV32675",
+                    "btLogicalName": "Part Or Full Time Indicator",
+                    "dqDesc": "Should have list of values as F,P",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:30.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQNMDUP42071",
+                    "btLogicalName": "Employee Numeric Identifier",
+                    "dqDesc": "Employee Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:30.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQSPLCH42998",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:30.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Downgrade Trigger Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the trigger identifier for each account. A trigger is the set of condition in a accounts agreement that initiates a specific action in the event of a change in a firms credit rating. For example, a downgrade in a firms credit rating may set off posting additional collateral.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Rating Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Legal Entity Rating Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rating Set Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Rating set ID. For each of the downgrade trigger there can be set of ratings which are specified under AND, OR condition. Rating set identifier refers to all the OR conditions specified for downgrade trigger. For Example, downgrade trigger is Rating A OR Rating B AND Rating B OR Rating C, in given example, Rating A OR Rating B will get one Rating set Identifier and Rating B OR Rating C will get another rating set Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF40439",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Downgrade Trigger",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40440",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Downgrade Trigger",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40441",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Downgrade Trigger",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40442",
+                    "btLogicalName": "Legal Entity Rating Code",
+                    "dqDesc": "Reference Check for Legal Entity Rating Code in Stage Downgrade Trigger",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                }
+            ]
+        }
+    ]
+}

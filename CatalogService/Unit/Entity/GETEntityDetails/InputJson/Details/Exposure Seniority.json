@@ -1,0 +1,157 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seniority Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the exposure seniority in the event of bankruptcy of the counterparty. Seniority refers to the order of repayment in the event of a sale or bankruptcy of the issuer. \nSeniority can refer to either debt or preferred stock. Senior debt must be repaid before subordinated, or junior, debt is repaid. Each security, either debt or equity, that a company issues has a specific seniority or ranking. Bonds that have the same seniority in capital structure of a company are described as being pair passu. Preferred stock is senior to common stock in a sale when preferred shareholders must receive back their preference, typically their original investment amount, before the common shareholders receive anything.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seniority Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the exposure seniority in the event of bankruptcy of the counterparty. Seniority refers to the order of repayment in the event of a sale or bankruptcy of the issuer. \nSeniority can refer to either debt or preferred stock. Senior debt must be repaid before subordinated, or junior, debt is repaid. Each security, either debt or equity, that a company issues has a specific seniority or ranking. Bonds that have the same seniority in capital structure of a company are described as being pair passu. Preferred stock is senior to common stock in a sale when preferred shareholders must receive back their preference, typically their original investment amount, before the common shareholders receive anything.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seniority Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Seniority Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Standard Seniority Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description related to the seniority level. The standard seniority values are Senior, Mezzanine and Subordinate. Senior refers that the account is senior in receiving any cash flows, and also receives priorities during liquidation. The Mezzanine is applicable only for debt securities, wherein there can be tranches in between the senior and the subordinate. The subordinate refers that the account receives the least priority in the cash flows and also during liquidation, is the last to be paid off.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1053",
+                    "srcLogicalName": "Stage Exposure Seniority Master",
+                    "scdName": "scd_1053_DIM_EXPOSURE_SENIORITY_STG_EXPOSURE_SENIORITY_MASTER",
+                    "scdDesc": "Data movement from exposure seniority master source to exposure seniority dimension",
+                    "createdDate": "2024-10-26 06:02:44.0",
+                    "modifiedDate": "2024-10-30 08:59:52.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42675",
+                    "btLogicalName": "Seniority Numeric Identifier",
+                    "dqDesc": "Seniority Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:33.0",
+                    "modifiedDate": "2024-11-04 04:39:36.0"
+                },
+                {
+                    "dqId": "DQCUS42676",
+                    "btLogicalName": "Seniority Numeric Identifier",
+                    "dqDesc": "Seniority Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:33.0",
+                    "modifiedDate": "2024-11-04 04:39:36.0"
+                },
+                {
+                    "dqId": "DQLOV32839",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:33.0",
+                    "modifiedDate": "2024-11-04 04:39:36.0"
+                },
+                {
+                    "dqId": "DQNMDUP42117",
+                    "btLogicalName": "Seniority Numeric Identifier",
+                    "dqDesc": "Seniority Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:33.0",
+                    "modifiedDate": "2024-11-04 04:39:36.0"
+                },
+                {
+                    "dqId": "DQSPLCH42834",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:33.0",
+                    "modifiedDate": "2024-11-04 04:39:36.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,414 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Capture Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the event is captured.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Related Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the event is a Credit Related Flag of External Operational Loss Event. This stores flag either as Y or N. This indicates whether it is a credit related operational risk loss. This will help in deciding to include / exclude from operational loss modeling.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Direct Recovery Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to Direct Recovery Amount of External Operational Loss Event. A direct recovery is any payment (other than an indirect recovery) received which offsets the loss.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Excluded From Capital Calculation Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether it is excluded from capital calculation due to divestiture or any other operational requirements. List of Values are Y and N. A value of Y indicates that the exposure is excluded, and a value of N indicates that the exposure is included. Null is treated as N.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "External Bank Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code for a Bank in the Operational Risk Data Consortium.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "External Event Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code for the Operational Loss Event Type in the Operational Loss Data Consortium.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "External Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code for the Line of Business in the Operational Loss Data Consortium.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "External Loss Cause Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Cause code of External Operational Loss Event. List of values of this column is referred from Causes Dimension-Cause Code. This indicates as to what caused this incident.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "External Loss Counterparty Type Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Counterparty Type Code of External Operational Loss Event. List of values of this column is referred from Party Type Dimension- Party Type Code. This indicates as to what type of counterparty or claimant was involved in the event.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "External Loss Jurisdiction Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Jurisdiction Code of External Operational Loss Event. List of values of this column is referred from Region Dimension-Region Code. This indicates as to which country’s law or jurisdiction governed the transaction or event.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "External Loss Process Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the failed Process Code which resulted in External Operational Loss Event. List of values of this column is referred from Organization Process Dimension. This indicates the process failure which resulted in this incident.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "External Loss Product Type Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Product Type Code of External Operational Loss Event. List of values of this column is referred from External Product Dimension-External Product Level One Code. This is the product against which the loss occurred.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Gross Loss Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the gross loss amount. Gross loss amount is the difference between cost of sales and turnover, or net sales, when cost of sales is the greater item.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Incident Description of External Operational Loss Event",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to Incident Description of External Operational Loss Event.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Indirect Recovery Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the InDirect Recovery Amount of External Operational Loss Event. An indirect recovery is generally an insurance recovery.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Location Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique location code. Location code is defined as the code which will represent the address of the property from zip code onwards like which city, country etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the calendar date when the loss has occurred.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Event Accounting Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to Accounting Date of Operational Loss Event.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Event Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to unique code of the loss event.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Event Data Provider",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the External Source Name of External Operational Loss Event. List of values of this column is referred from Data Origin Dimension-Data Source Code. Example, ORX, Fitch, etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Event Identification Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Identification Date of External Operational Loss Event.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Event Name Or Incident Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the Incident Name of External Operational Loss Event.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Event Occurrence Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This column contains Occurrence Date of External Operational Loss Event",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Loss After Direct Recovery Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Net Loss after Direct Recovery Amount for an External Operational Loss Event. This is loss net of all direct recoveries.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Loss Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Net Loss Amount excluding Gains and Non Insurance Recoveries and Insurance Recoveries.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Category Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Risk Category Code corresponding to the exposure underlying type. Risk category can be Interest Rate, Foreign Exchange, Credit Derivatives, Commodity and Equity. This column is used in PFE calculation In SA CCR.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Role Of Firm",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the role of Firm of External Operational Loss Event. List of values of this column is referred from Legal Entity Role Dimension-External Firm Role Code. This indicates the role the Firm took in relation to the transaction and in what capacity was the bank acting in the transaction underlying this event.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unscaled Loss Severity Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to external data that is optionally subjected for scaling. This column will store the Un-Scaled Operational Loss Severity. The values will be in the natural currency.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33747",
+                    "btLogicalName": "Credit Related Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQLOV33748",
+                    "btLogicalName": "Excluded From Capital Calculation Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF40483",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage External Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF40484",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage External Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF40485",
+                    "btLogicalName": "Capture Date",
+                    "dqDesc": "Reference Check for Capture Date in Stage External Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF40486",
+                    "btLogicalName": "Capture Date",
+                    "dqDesc": "Reference Check for Capture Date in Stage External Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF40487",
+                    "btLogicalName": "Loss Date",
+                    "dqDesc": "Reference Check for Loss Date in Stage External Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF40488",
+                    "btLogicalName": "Loss Date",
+                    "dqDesc": "Reference Check for Loss Date in Stage External Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF40489",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage External Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF40490",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage External Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF40491",
+                    "btLogicalName": "Location Code",
+                    "dqDesc": "Reference Check for Location Code in Stage External Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF40492",
+                    "btLogicalName": "Loss Event Code",
+                    "dqDesc": "Reference Check for Loss Event Code in Stage External Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF40493",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage External Operational Risk Loss",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

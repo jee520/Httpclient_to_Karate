@@ -1,0 +1,175 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Folder Name",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the name of folder that holds the interest rate code definition.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast End Bucket",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the End Bucket Number for the given scenario.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Interest Rate Code Name",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the IRC Name indicates the Name of Interest Rate Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Interest Rate Term",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Field indicates the Interest Rate Term Defined for the Interest Rate Name.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Interest Rate Term Multiplier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the Interest Rate Term Multiplier for the Interest Rate Name.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Name",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Forecast name indicates the Short Description for the Forecast Rate Sys ID.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Rate Method",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the Forecast method of interest rate code like Direct Input, Structured change, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Rate System Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Numeric",
+                    "gcd": "Refers to the system Identifier of the interest rate code forecast rate definition.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Scenario Name",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the Scenario Name for which Forecast Rate is being defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forecast Start Bucket",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Start Bucket Number for the given scenario.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the interest rate as applicable as on As of Date. This is expected for both, fixed rate as well as floating rate instrument. For floating rate instruments, the rate would be computed at the time of next re pricing date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF35799",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Forecast Interest Rate Code",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF35800",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Forecast Interest Rate Code",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF35801",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Forecast Interest Rate Code",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "ALM",
+                    "ucName": "Asset Liability Management"
+                },
+                {
+                    "ucId": "BSP",
+                    "ucName": "Balance Sheet Planning"
+                },
+                {
+                    "ucId": "FTP",
+                    "ucName": "Funds Transfer Pricing"
+                }
+            ]
+        }
+    ]
+}

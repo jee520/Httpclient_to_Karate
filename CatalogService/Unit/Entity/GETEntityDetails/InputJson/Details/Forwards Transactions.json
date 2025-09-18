@@ -1,0 +1,458 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contract Quantity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the contract quantity associated with the contract. One contract of a derivative like forwards can have multiple quantity associated with it.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique general ledger account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Header Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the header identifier required for FAH header line Processing. A header record will have multiple transaction lines in the transaction tables.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the market value of the instrument as on the As of Date. Market value of the asset is the price that would be received to sell an asset in an transaction between market participants on the given day. It is often the quoted market price which is available as part of market data and used to determine the market value of the asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Value Effective Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the effective date for which the market value of this transaction was determined. An effective date is the date upon which something is considered to take effect. This may be different from the date upon which the event actually occurs or is recorded.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment By Security Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the transaction payment or settlement happened by security or any other form like cash. List of Values are: Y  security, N  other than security.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Receipt Or Payment Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the indicator to identify if a transaction is a receipt to the bank or payment done by the bank. List of Values are R and P for Receipt and Payment Respectively. Use Inflow Outflow Flag.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Settlement Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount to be settled for the FRA contract as a result of the differential between contract and market rates in local currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Settlement Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date at which a security transaction must be paid by the buyer and the securities delivered by the seller. Stocks and bonds have a settlement date of three business days subsequent to the trade date . Listed options and government securities must be settled by the next business day. This is different from contract settlement date. A contract can have multiple settlements in different settlement types.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the transaction amount expressed in the transaction currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Amount In Natural Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the transaction amount in Natural currency. It Refers to the Negative value in case of reversals.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the charges like brokerage charges, brokerage commissions, taxes, and any other expenses and applicable charges.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the ISO code for the currency in which the transaction is done.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Lifecycle Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the lifecycle status code of the transaction. Expected Values includes Open, Cancelled, Confirmed, Settled.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Mnemonic Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique transaction mnemonic code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Origin Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the ISO country code where the transaction originated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Posting Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which this transaction was posted against the associated account for monetary instruments and checks.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Reference Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to transaction reference number. Transactions are cash inflows or cash outflows that occurs for each account. Each transaction will be represented with a unique identifier which is called as transaction reference number.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Value Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the transaction happened.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV31279",
+                    "btLogicalName": "Payment By Security Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV31280",
+                    "btLogicalName": "Receipt Or Payment Indicator",
+                    "dqDesc": "Should have list of values as P,R",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34670",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34671",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34672",
+                    "btLogicalName": "Market Value Effective Date",
+                    "dqDesc": "Reference Check for Market Value Effective Date in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34673",
+                    "btLogicalName": "Market Value Effective Date",
+                    "dqDesc": "Reference Check for Market Value Effective Date in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34674",
+                    "btLogicalName": "Settlement Date",
+                    "dqDesc": "Reference Check for Settlement Date in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34675",
+                    "btLogicalName": "Settlement Date",
+                    "dqDesc": "Reference Check for Settlement Date in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34676",
+                    "btLogicalName": "Transaction Posting Date",
+                    "dqDesc": "Reference Check for Transaction Posting Date in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34677",
+                    "btLogicalName": "Transaction Posting Date",
+                    "dqDesc": "Reference Check for Transaction Posting Date in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34678",
+                    "btLogicalName": "Transaction Value Date",
+                    "dqDesc": "Reference Check for Transaction Value Date in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34679",
+                    "btLogicalName": "Transaction Value Date",
+                    "dqDesc": "Reference Check for Transaction Value Date in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34680",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34681",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34682",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34683",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34684",
+                    "btLogicalName": "General Ledger Account Code",
+                    "dqDesc": "Reference Check for General Ledger Account Code in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34685",
+                    "btLogicalName": "Instrument Code",
+                    "dqDesc": "Reference Check for Instrument Code in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34686",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34687",
+                    "btLogicalName": "Transaction Currency Code",
+                    "dqDesc": "Reference Check for Transaction Currency Code in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34688",
+                    "btLogicalName": "Transaction Lifecycle Status Code",
+                    "dqDesc": "Reference Check for Transaction Lifecycle Status Code in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34689",
+                    "btLogicalName": "Transaction Mnemonic Code",
+                    "dqDesc": "Reference Check for Transaction Mnemonic Code in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF34690",
+                    "btLogicalName": "Transaction Origin Country Code",
+                    "dqDesc": "Reference Check for Transaction Origin Country Code in Stage Forwards Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

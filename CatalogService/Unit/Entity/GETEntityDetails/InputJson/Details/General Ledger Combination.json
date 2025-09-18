@@ -1,0 +1,160 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Combination Attribute Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the attribute type code. Supported list of attribute types are PARTYTYPE for Party Type Code, PRODTYPE for Product Type, LOB for Line of Business, CS for Credit Score, AGE for Age, MAT for Maturity, LE for Legal Entity, CCY for ISO Currency Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Combination Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code for the combination of attributes used for computing averages.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Combination Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code for the combination of attributes used for computing averages.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Combination Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the General Ledger Combination Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Member Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the value associated with the Attribute Type mentioned. In case the attribute type is Party then this column will have the Party_id, in case of Account it will have the Account_ID. If there is no value provided in this column, then it will be considered as applicable for all. For example, if the attribute type is Party and there is no values provided in this column, then this Cohort is applicable all Party IDs.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1060",
+                    "srcLogicalName": "Stage General Ledger Combination Master",
+                    "scdName": "scd_1060_DIM_GL_COMBINATION_STG_GL_COMBINATION_MASTER",
+                    "scdDesc": "Data movement from gl combination master source to gl combination dimension",
+                    "createdDate": "2024-10-26 06:02:41.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42343",
+                    "btLogicalName": "General Ledger Combination Numeric Identifier",
+                    "dqDesc": "General Ledger Combination Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQCUS42344",
+                    "btLogicalName": "General Ledger Combination Numeric Identifier",
+                    "dqDesc": "General Ledger Combination Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQLOV33987",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQNMDUP42207",
+                    "btLogicalName": "General Ledger Combination Numeric Identifier",
+                    "dqDesc": "General Ledger Combination Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQSPLCH42865",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

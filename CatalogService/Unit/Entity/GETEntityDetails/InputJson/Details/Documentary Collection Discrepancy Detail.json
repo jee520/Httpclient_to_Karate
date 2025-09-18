@@ -1,0 +1,154 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collection Event Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Numeric",
+                    "gcd": "Refers to the collection event number of the documentary collection contract of which to this acknowledgement applies.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the document status. Possible List of valid values are Provided, Will Provide Later, Not Providing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Documentary Collection Discrepancy Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the discrepancy code identified for the associated documentary collection contract. Discrepancy can be in terms of document provided for the contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Resolved Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which this discrepancy was resolved.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF39497",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Documentary Collection Discrepancy Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF39498",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Documentary Collection Discrepancy Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF39499",
+                    "btLogicalName": "Resolved Date",
+                    "dqDesc": "Reference Check for Resolved Date in Stage Documentary Collection Discrepancy Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF39500",
+                    "btLogicalName": "Resolved Date",
+                    "dqDesc": "Reference Check for Resolved Date in Stage Documentary Collection Discrepancy Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF39501",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Documentary Collection Discrepancy Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF39502",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Documentary Collection Discrepancy Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF39503",
+                    "btLogicalName": "Document Status",
+                    "dqDesc": "Reference Check for Document Status in Stage Documentary Collection Discrepancy Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

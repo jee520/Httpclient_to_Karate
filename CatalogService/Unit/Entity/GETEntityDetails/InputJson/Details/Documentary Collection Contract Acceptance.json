@@ -1,0 +1,190 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Acceptance Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date when the acceptance has been received or sent.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accepted Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total amount that has been accepted for payment on the given maturity date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accepted Information",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the additional Information that has been passed between the sender and the receiver during collection contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accepted Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the accepted Maturity Date on which the payment will be made for the mentioned collection contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collection Event Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Numeric",
+                    "gcd": "Refers to the collection event number of the documentary collection contract of which to this acknowledgement applies.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF35813",
+                    "btLogicalName": "Acceptance Date",
+                    "dqDesc": "Reference Check for Acceptance Date in Stage Documentary Collection Contract Acceptance",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF35814",
+                    "btLogicalName": "Acceptance Date",
+                    "dqDesc": "Reference Check for Acceptance Date in Stage Documentary Collection Contract Acceptance",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF35815",
+                    "btLogicalName": "Accepted Maturity Date",
+                    "dqDesc": "Reference Check for Accepted Maturity Date in Stage Documentary Collection Contract Acceptance",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF35816",
+                    "btLogicalName": "Accepted Maturity Date",
+                    "dqDesc": "Reference Check for Accepted Maturity Date in Stage Documentary Collection Contract Acceptance",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF35817",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Documentary Collection Contract Acceptance",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF35818",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Documentary Collection Contract Acceptance",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF35819",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Documentary Collection Contract Acceptance",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF35820",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Documentary Collection Contract Acceptance",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF35821",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Documentary Collection Contract Acceptance",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

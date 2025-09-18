@@ -1,0 +1,536 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Channel Risk",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the level of risk associated with the channel through which this transaction was conducted. The value expected is a number between 0 and 10 with 0 increasing minimum risk and 10 indicating maximum risk.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collection Event Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which this documentary collection contract event occurred.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collection Event Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Numeric",
+                    "gcd": "Refers to the collection event number of the documentary collection contract of which to this acknowledgement applies.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collection Event Time",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Timestamp",
+                    "gcd": "Refers to the time at which this documentary collection contract event occurred.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collection Event Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of documentary collection contract event that this record represents.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contract Entry System Logon Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the system logon used by the individual at the client who entered this trade finance contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contract Entry User Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the individual at the client who entered this trade finance contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dispatched Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the goods associated to the documentary collection contract has been dispatched.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Collection Contract Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the identifier of the documentary collection contract associated to a BOOK event number that is being accepted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the documentary collection contract involves the handling of documents. I.e. to identify whether the documentary collection contract is a clean bill or not. List of values are Y, N. Y is Yes and N is No.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Documentary Collection Operation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the different operation that could be performed in a documentary collection. When the product type is IDC, the operation allowed are Advance, Payment, Collection, Acceptance and Discount. If the product type is EDC, the operation allowed are Negotiation, Payment, Collection, Acceptance, Discount, Purchase.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Documentary Collection Payment Method",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the payment method through which the documentary collection contract will be settled. List of Values are S is Sight, U is Usance and M is Multi tenor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Documentary Collection Principal Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the principal amount involved in the documentary collection contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Documentary Collection Product Sub Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the product sub type designation for this documentary collection contract that has been placed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Documentary Collection Product Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the product type designation for this documentary collection contract that has been placed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Documentary Collection Purchase Or Advance Or Discount Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total Amount that has been purchased or advanced or discounted against the documentary collection contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "External Insurance Policy Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the External Insurance policy that has been linked to this documentary collection contract. This refers to the external insurance policy holding by the internal customers.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Goods Or Service Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Long",
+                    "gcd": "Refers to the Goods or Service description that has been provided in the Trade Finance Contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Risk",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the level of risk associated with the product that was involved in this transaction. The value expected is a number between 0 and 10 with 0 increasing minimum risk and 10 indicating maximum risk.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the loan if the advance operation is fulfilled by creating a loan at the organization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the contractual date on which the principal balance is expected to fully amortize and the balance payable would be nil. This is applicable for term loan products but not for revolving credit or overdraft type of account. In case of insurance policy, for some whole life insurance products the maturity date is aligned to maximum attained age and the policy is payable upon the earlier of the maturity date or the death of the insured. In case of Term Life insurance policies the maturity date is determined as policy issue date plus Term of the contract. In case of an annuity it is the date from which the annuitant has chosen to take the payouts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Multi Tenor Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the documentary collection contract has multiple tenor for payment. List of values are Y, N. Y is Yes and N is No.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Originator Or Beneficiary Charges",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the charges for the documentary collection contract to be borne by the beneficiary i.e. drawer or originator i.e. drawee. List of Values are O is Charges borne by the Originator i.e. Drawee and B is Charges borne by the Beneficiary i.e. Drawer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rebate Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount of rebate given in case of FX forward contracts such as dual target and pivot. This is required when Last payout type is given as rebate. Also refers to or the total amount of rebate that is allowed on the total collection amount of the documentary collection contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sender To Receiver Information",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the information that has been passed between the sender and the receiver during trade finance contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tenor Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the contractual term in days as on the origination date of the contract. The maturity date is calculated by adding origination term or tenor to the origination date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Collection Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total Collection amount of the documentary collection contract. This is a total of principal amount including total commission or charges amount and rebate amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Commission Or Charges Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total amount that has been charged as commission and charges from the originator i.e. drawee or beneficiary i.e. drawer for the documentary collection contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the financial institution specified channel through which this transaction was initiated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transit Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the maximum number of days taken for the documents to reach the originator i.e. drawee.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Value Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the value date of the contract. Value Date is a securities industry term describing the date on which a trade, bonds, equities, foreign exchange, commodities, etc., settles. That is, the actual day on which transfer of cash or assets is completed, or the settlement amount is calculated. \nIn case of FX swap instrument Refers to the settlement date for spot or near leg. Also considered as the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32376",
+                    "btLogicalName": "Multi Tenor Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQLOV32377",
+                    "btLogicalName": "Originator Or Beneficiary Charges",
+                    "dqDesc": "Should have list of values as B,O",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQLOV32378",
+                    "btLogicalName": "Document Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQLOV32379",
+                    "btLogicalName": "Documentary Collection Payment Method",
+                    "dqDesc": "Should have list of values as M,S,U",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37143",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37144",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37145",
+                    "btLogicalName": "Collection Event Date",
+                    "dqDesc": "Reference Check for Collection Event Date in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37146",
+                    "btLogicalName": "Collection Event Date",
+                    "dqDesc": "Reference Check for Collection Event Date in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37147",
+                    "btLogicalName": "Dispatched Date",
+                    "dqDesc": "Reference Check for Dispatched Date in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37148",
+                    "btLogicalName": "Dispatched Date",
+                    "dqDesc": "Reference Check for Dispatched Date in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37149",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37150",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37151",
+                    "btLogicalName": "Value Date",
+                    "dqDesc": "Reference Check for Value Date in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37152",
+                    "btLogicalName": "Value Date",
+                    "dqDesc": "Reference Check for Value Date in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37153",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37154",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37155",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37156",
+                    "btLogicalName": "Document Collection Contract Code",
+                    "dqDesc": "Reference Check for Document Collection Contract Code in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37157",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37158",
+                    "btLogicalName": "Loan Identifier",
+                    "dqDesc": "Reference Check for Loan Identifier in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37159",
+                    "btLogicalName": "Transaction Channel Code",
+                    "dqDesc": "Reference Check for Transaction Channel Code in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQREF37160",
+                    "btLogicalName": "Transaction Channel Code",
+                    "dqDesc": "Reference Check for Transaction Channel Code in Stage Documentary Collection Contract Event",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

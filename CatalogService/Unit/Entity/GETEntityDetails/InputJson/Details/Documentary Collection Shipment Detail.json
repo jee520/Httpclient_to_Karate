@@ -1,0 +1,194 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the number of the shipping document that contains this shipment detail record.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Place Of Destination Or Transshipment",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the place of destination for the goods that are sent by air, train, sea, road detailed in this shipping document. Location reference should be there in Stage Location master. For example, for sea consignment, place of destination refers to port of discharge or port of transshipment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Place Of Origin",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the place of origin for the goods that are sent by air, train, sea, road detailed in this shipping document. Location reference should be there in Stage Location master. For example, for sea consignment, place of origin refers to port of loading.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tracking Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the tracking number assigned to a container holding the goods which may be mentioned in this shipment detail such as a number assigned to a package sent via air or number of a container sent via sea.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transportation Carrier Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the ISO country code of the flag to which the transportation carrier belongs.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transportation Carrier Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the name of the transportation carrier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transportation Carrier Owner Company",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the name of the company owning the transportation carrier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transportation Identification Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identification number of the transportation shipping the goods detailed in this shipping document. For example, if the goods are shipped via air, then this field will contain the flight number of the plane or if shipped via sea, this field will contain the MMSI number of the shipping vessel.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transportation Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of transportation mentioned in the shipment document.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF39907",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Documentary Collection Shipment Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                },
+                {
+                    "dqId": "DQREF39908",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Documentary Collection Shipment Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                },
+                {
+                    "dqId": "DQREF39909",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Documentary Collection Shipment Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                },
+                {
+                    "dqId": "DQREF39910",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Documentary Collection Shipment Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                },
+                {
+                    "dqId": "DQREF39911",
+                    "btLogicalName": "Place Of Destination Or Transshipment",
+                    "dqDesc": "Reference Check for Place Of Destination Or Transshipment in Stage Documentary Collection Shipment Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                },
+                {
+                    "dqId": "DQREF39912",
+                    "btLogicalName": "Place Of Origin",
+                    "dqDesc": "Reference Check for Place Of Origin in Stage Documentary Collection Shipment Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                },
+                {
+                    "dqId": "DQREF39913",
+                    "btLogicalName": "Transportation Carrier Country Code",
+                    "dqDesc": "Reference Check for Transportation Carrier Country Code in Stage Documentary Collection Shipment Detail",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,195 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Alternate Friday Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the alternate Friday sequence. Expected values are FIRST, SECOND, THIRD.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Calendar Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Calendar Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day of the Fiscal Year",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the numeric value of the day of a fiscal period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiscal Half Year",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Half Year of the fiscal period. First half is represented as 1 and second half as 2.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiscal Month End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the end date for the fiscal month.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiscal Month Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the start date for the fiscal month.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiscal Period Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to unique fiscal period code of each Jurisdiction example IND_RBI for Indian Regulatory reporting.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiscal Period Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Fiscal Period Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiscal Quarter End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the end date of the fiscal quarter.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiscal Quarter Period Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the name of the fiscal quarter. Example:FYQ1, FYQ2 etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiscal Quarter Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the start date of the fiscal quarter.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiscal Year",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the numeric value of the the year of a fiscal period for a given As of Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiscal Year End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the end date of the fiscal year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiscal Year Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the name of the fiscal year. Example: FY2011, FY2012 etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiscal Year Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the start date of the fiscal year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Month Period Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Month Period Name.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Month of the Fiscal Year",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the numeric value of the month of a fiscal period for a given As Of Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Quarter of the Fiscal Year",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the numeric value of the quarter of a fiscal period for a given As Of Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

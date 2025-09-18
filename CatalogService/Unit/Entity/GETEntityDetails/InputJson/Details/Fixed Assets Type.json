@@ -1,0 +1,157 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixed Asset Type",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of fixed asset. Types of fixed assets are Real Estate, Equipment, Automobiles, etc. Type under the movable category include automobiles. Type under the immovable category include real estate, equipment, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixed Asset Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of fixed asset. Types of fixed assets are Real Estate, Equipment, Automobiles, etc. Type under the movable category include automobiles. Type under the immovable category include real estate, equipment, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixed Asset Type Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description on the type of fixed asset. Types of fixed assets are Real Estate, Equipment, Automobiles, etc. Type under the movable category include automobiles. Type under the immovable category include real estate, equipment, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixed Asset Type Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Fixed Asset Type Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1056",
+                    "srcLogicalName": "Stage Fixed Assets Type Master",
+                    "scdName": "scd_1056_DIM_FIXED_ASSETS_TYPE_STG_FIXED_ASSETS_TYPE_MASTER",
+                    "scdDesc": "Data movement from fixed assets type master source to fixed assets type dimension",
+                    "createdDate": "2024-10-26 06:02:41.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42335",
+                    "btLogicalName": "Fixed Asset Type Numeric Identifier",
+                    "dqDesc": "Fixed Asset Type Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                },
+                {
+                    "dqId": "DQCUS42336",
+                    "btLogicalName": "Fixed Asset Type Numeric Identifier",
+                    "dqDesc": "Fixed Asset Type Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                },
+                {
+                    "dqId": "DQLOV32087",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                },
+                {
+                    "dqId": "DQNMDUP42037",
+                    "btLogicalName": "Fixed Asset Type Numeric Identifier",
+                    "dqDesc": "Fixed Asset Type Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                },
+                {
+                    "dqId": "DQSPLCH42862",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:15.0",
+                    "modifiedDate": "2024-11-04 04:39:09.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

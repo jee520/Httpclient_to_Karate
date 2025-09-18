@@ -1,0 +1,388 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Address Building Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Building Number component of this address.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Address Floor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Floor component of this address.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Address Line Five",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the fifth line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line Six",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the sixth line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Purpose",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the purpose, or usage, of this address relative to this party (for example, Mailing Address or Business Address).",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Building Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the building number component of the address associated with this party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "City Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the long name of the city of this location.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Correspondent Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if credit line is provided for corresponded banking purpose.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Of Residence",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Country component of the residence address of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Residence Address Line 4",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the address line 4 for the Loss Location.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Line One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to line one of address like apartment or house number, apartment name, street, cross, road etc. Also make use of v_address_line_2, v_address_line_3. More important fields like city, state are captured in a separate field.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Line Three",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to line three of address like apartment or house number, apartment name, street, cross, road etc. Also make use of v_address_line_1, v_address_line_2. More important fields like city, state are captured in separate fields.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Line Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to line tow of address like apartment or house number, apartment name, street, cross, road etc. Also make use of v_address_line_1, v_address_line_3. More important fields like city, state are captured in separate fields.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Data Jurisdiction",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the mantas classification associated with this record. This can be a jurisdiction which represents geographical or legal entity monitoring on data restrictions. Values can be AMEA, INDV, CORP etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Department",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the department associated with this party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "District",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the name of the district associated with this location or address.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fee Amount In Activity Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the monetary value in activity currency of any fees charged on this leg of this transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the business. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions. In case of party, it Refers to the country of birth of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Intermediary Sequence",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the intermediary sequence, for electronic funds transfers, identifier of the order in which the intermediaries involved in this transaction are displayed. Typically, the ordering follows the transaction flow from the originator to the beneficiary.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account involved in this transaction is an internal account of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Normalized Party Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This is the normalized name of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Branch Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to an Identifier of the institution's branch associated with this party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Derivation Method",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the method which was used to derive the party information. If parsing instruction text of the transaction has generated this party record, this column specifies how the party information was identified within the text.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier Class",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the party identifier code that identifies whether the Party Identifier provided for this party is an organization identifier or a private identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier Issuer",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the organization or jurisdiction that issued the Party Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Identifier of the type of Party Identifier provided for this party. List of Values are: BIC SWIFT Bank Identifier Code, BIC,\nCU party Identifier\nOTF Other Financial Institution Identifier\nOT Other, Not Financial Institution",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to entity name for Organization or first name for Individual.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Party Role",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the role that the party plays with respect to the account. The various party roles are Guarantor, Nominee, Customer, Beneficiary, Contact, Legal Advisor of Customer, Power of attorney or in case of documentary credits the counterparty can play the following roles, as advising bank, confirming bank, issuing bank. \nA guarantor stands guarantee or assures to pay the debt on behalf of the borrower, should the borrower default on the obligation to the lender. A guarantor acts as a co signor, in which the guarantor could pledge their own assets or agree to service the loan to its full term in the even of default by the borrower.\n\nBorrower: Borrower is defined as a party who has subscribed to the asset products of the financial institution. Asset products include: All types of loans, overdrafts, credit card, lease etc.\n\nA nominee is a person who upon the demise of the account holder, can claim the proceeds of the account or the safe deposit locker without the financial institution insisting on a succession certificate.\n\nA beneficiary is any person who gains an advantage and/or profits from something. In the financial world, a beneficiary typically refers to someone who is eligible to receive distributions from a trust, will or life insurance policy. Beneficiaries are either named specifically in these documents or have met the stipulations that make them eligible for whatever distribution is specified.\nA Contact refers to the party who acts as a contact of an institutional customer.\nLegal advisors are lawyers who are employed by the government, large companies and other organizations to provide legal advice and services to the organization and its employees.\nAn advising bank, also known as a notifying bank, advises a beneficiary, exporter, that a letter of credit, L/C, opened by an issuing bank for an applicant, importer, is available. Advising Bank's responsibility is to authenticate the letter of credit issued by the issuer to avoid fraud.\nConfirming bank means the bank that adds its confirmation to a credit upon the issuing bank's authorization or request.' As can be seen on the above definitions confirming bank adds its undertaking to the letter of credit in addition to that of the issuing bank.\nAn issuing bank is a bank that offers card association branded payment cards directly to consumers. The name is derived from its practice of issuing payment to the acquiring bank on behalf of its customer, the purchaser in the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Postal Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This column stores the postal code or zip code of the location.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "State Or Province",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the state or province component of the address associated with the location.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sub Department",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Sub Department associated with this party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Reference Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to transaction reference number. Transactions are cash inflows or cash outflows that occurs for each account. Each transaction will be represented with a unique identifier which is called as transaction reference number.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unknown Party Name Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicating whether the name of the party on associated to this trade finance contract or documentary collection is unknown.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33451",
+                    "btLogicalName": "Correspondent Relationship Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQLOV33452",
+                    "btLogicalName": "Unknown Party Name Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39708",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Front Office Transaction Party",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39709",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Front Office Transaction Party",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39710",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Front Office Transaction Party",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39711",
+                    "btLogicalName": "ISO Country Code",
+                    "dqDesc": "Reference Check for ISO Country Code in Stage Front Office Transaction Party",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39712",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Front Office Transaction Party",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39713",
+                    "btLogicalName": "Party Role",
+                    "dqDesc": "Reference Check for Party Role in Stage Front Office Transaction Party",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}
