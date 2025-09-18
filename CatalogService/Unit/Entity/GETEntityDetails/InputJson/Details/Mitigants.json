@@ -1,0 +1,3217 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Agreement Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the mitigant or collateral value covers the entire end of period balance and not the partial amount. End of period balance includes Principal + accrued interest, All the calculations such as interest, prepayment amounts etc. are based on end of period balance amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ancillary Own Funds Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if a guarantee is classified as Ancillary Own Fund. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Asset Level Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Asset Level Code. Asset Level dimension is the equivalent dimension for this.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Asset Segregated Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates client pool asset or asset received from counterparty is segregated, kept aside from the other assets including the banks own assets, or not. Segregated client pool securities are not freely available to meet all the liquidity needs of the bank and are set aside to be utilized for some specific purpose. Such segregated assets are not considered eligible HQLA as they do not meet the generally applicable criteria for HQLA. Only an HQLA that meets operational and generally applicable criteria is considered eligible to be included in the stock of HQLA. Client pool securities that are not segregated are allowed to be included as part of HQLA.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basis Risk Weight",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the basis risk weight arising due to the spread difference between CDS index and Single name CDS. Basis risk is the risk that the value of a futures contract or an OTC hedge will not move in line with that of the underlying exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Central Counterparty Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the central counterparty code which clears the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cleared Transaction Bank Role Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of the cleared transaction role of the reporting bank. Cleared Transaction Bank Role dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cleared Transaction Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Identifies if the transaction is cleared through central counterparty. Transactions included are, 1, between the clearing member and clearing member client and, 2, clearing member and central counterparty.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Clearing Member Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the identifier Refers to the code of the Clearing member through which the CCP clears the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Area",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Number_Factor_Long",
+                    "gcd": "Refers to the area or size of the collateral, which is applicable for immovable properties as collateral.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Called For Receipt Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date at which is collateral is called for receipt.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Called For Receipt Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether is the collateral is called for receipt. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Covering All Losses Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if collateral posted covers all the losses and legal due diligence are done for the contract. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Curve Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the collateral curve id that is used to determine the cheapest collateral to deliver and calculate COLVA i.e. Collateral Valuation Adjustment. For example, IR.USD FEDFUNDS ON.MID.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Dispute Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the collateral is in dispute or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Or Mitigant Repossessed Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Collateral or mitigant repossessed date. Repossession is an action where the party having the right to ownership of the collateral or mitigant takes the collateral or mitigant back from the party having rights of possession without invoking legal proceedings.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Priority",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the priority that is used when two or more collateral rates are equal at the time cheapest to post is selected. It is used when calculate COLVA i.e. Collateral Valuation Adjustment. Integer like 1, 2, etc. is expected.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Recall Notice Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of days of notice required to be given by the party initiating the early recall before the collateral is withdrawn. It is required to determine the collateral withdrawal date. This is an HQLA exclusion criteria where any asset received under a rehypothecation right where the beneficial owner has a right to withdraw the asset anytime within the LCR horizon without incurring any significant penalty for withdrawal cannot be included in the stock of HQLA as it does not meet the generally applicable HQLA criteria. This potentially withdrawable collateral is to be reported separately in the FR2052a report.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Received Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date at which is collateral will be received.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Repossessed Sale Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Repossessed Collateral Sale Amount. Repossession is an action where the party having the right to ownership of the collateral takes the collateral back from the party having rights of possession without invoking legal proceedings. The collateral is then sold. Refers to the amount received from the sales.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Segregated Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the collateral received is from a pool of assets or posted individually for a specific purpose. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Segregated Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates whether collateral received is maintained separately from the assets of bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Settlement Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the settlement mechanisms used for Secured and Foreign Exchange products.\nFollowing Secured products are identified using this table, LOV are as follows\nTRIPARTY  secured financing transactions settled on the US based tri party platform,\nOTHER  secured financing transactions settled on other e.g., non US third party platforms,\nBILATERAL  secured financing transactions settled bilaterally.\nFollowing Foreign Exchange products are identified using the table,\nCLS  FX transactions centrally cleared via CLS,\nOTHER  FX transactions settled via other non CLS central clearinghouses,\nBILATERAL  FX transactions settled bilaterally. Column stores the codes for the settlement type dimension.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Substituted Asset Level Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to HQLA level of collateral which can be Substituted for the collateral given for an account. If received collateral for this account is HQLA, High Quality Liquid Asset, and it can be substituted for other HQLA assets without the bank’s consent. For Example 'Level 1','Level 2A','Level 2B','Other Asset'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Substitution Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates the collateral substitution. Substitution of collateral is a provision in a mortgage to allow the borrower to obtain a release of the original collateral by replacing it with another form of collateral satisfactory to the lender.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Total Priority Claim Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Total Priority Claim Amount which is the sum of all Liens with higher priority over this collateral.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Valuation Basis Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Valuation basis of the collateral Valuation. The allowed values should be from Collateral Valuation Basis seeded dimension table. The allowed values are AS IS, AS STABILIZED or AS COMPLETED.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Valuation Basis Code At Origination",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Valuation basis of the collateral Valuation at Origination. The allowed values should be from Collateral Valuation Basis seeded dimension table.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Complementary Identification Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Complementary Identification Code. CIC Code is EIOPA Code used to classify securities. First two Positions of the CIC code are 'ISO 3166 1 alpha 2 country code or XL, for not listed, or XT, for not exchange tradable,', Position 3 and 4 are specified in Standard Product Type dimension table.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Conditional Guarantee Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the guarantee is conditional or not. The validity of the guarantee might be dependent on the covenants or service agreements on the part of beneficiary or a third party. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Conforming Residential Mortgages Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates Conforming Residential Mortgages Flag. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Control By Treasury Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Indicates if asset is controlled by treasury or not. The stock should be under the control of the function charged with managing the liquidity of the bank, e.g. the treasurer, meaning the function has the continuous authority, and legal and operational capability, to monetize any asset in the stock.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Counterparty Reference Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to counterparty code of the bank in the SFT transactions. The customer reference code represents the end customer of the repo transaction. This counterparty code references the counterparty to the bank, in the case of tri party SFT transactions. In the tri party SFT transactions, one party acts as the client, one party acts as the agent, and the other party acts as the dealer. This counterparty code will refer identified of the dealer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Covering Banks Short Position Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if asset is utilized for covering short positions of bank. Example: A firm sells 100 dollar of Category B security short. The firm has such security in its trading inventory which will be used to cover it is short position, then this flag will be Y.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Covering Customer Short Position Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if asset is utilized for covering short positions of customer. Example: A customer in the US broker or dealers Prime Brokerage unit sells 100 USD of Category B security short. The firm has such security in its trading inventory which will be used to cover customers short position, then this flag will be Y.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Approval Based On Recourse Or Guarantee Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the bank relied on a sponsor or guarantor as a source of repayment when considering the credit for approval. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Default Swap Hedge Discount Factor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the computed discount factor for Single Name CDS and Index Hedge used in CVA calculation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Default Swap Index Average Spread",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the average Spread of the CDS Index hedge, averaged over the time period as specified by the regulator. This usually will be the annual spread.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Default Swap Reference Entity Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the party identifier of the CDS mitigant reference entity. The reference entity bears the credit risk of the contract, and can be a corporation, government or other legal entity that issues debt of any kind.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Enhancement Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates credit enhancement received that offset the loss. Could come from mortgage insurance proceeds, pool arrangements in deals, or other features of securities structures. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Valuation Adjustment Hedge Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the mitigant record is a CDS hedge for CVA calculation or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Occupancy Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Current Occupancy Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Occupancy Rate Evaluation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the most recent occupancy level indicated Current Occupancy was determined by the borrower.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Custody Country Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country where undertaking assets are held in custody. For identifying international custodians e.g. Euro clear, the country of custody will be the one corresponding to the legal establishment where the custody service was contractually defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Defaulted Position",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the defaulted position of the exposure, covered by the credit derivative. For example, 1st to default Credit Derivative, 2nd to default credit derivative.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of days the account has remained delinquent in the current delinquency period. The account could have been delinquent a number of time earlier, but Refers to the current delinquency days.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delivery Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the settlement movement type as defined within the BONY settlement report. Possible values are Delivery, Call, Return and Recall. Delivery means a net delivery of collateral from GE to the counterparty. Call means a net delivery of collateral from counterparty.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dilution Risk Mitigant Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicate whether the mitigant is for dilution risk or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Direct Guarantee Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the guarantee is direct or not. Direct guarantees are payable directly by the issuing bank to the beneficiary, indirect guarantees are payable by the issuing bank to the beneficiary through a correspondent. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Disputed Collateral Receipt Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if collateral to be received is in dispute. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Early Collateral Recall Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the collateral provided by a bank to its counterparty can be recalled by the bank prior to the maturity of the transaction. Such collateral may be the own asset of bank or mitigant received from counterparty which is rehypothecated. This is an HQLA exclusion criteria where any asset received under a rehypothecation right where the beneficial owner has a right to withdraw the asset anytime within the LCR horizon without incurring any significant penalty for withdrawal cannot be included in the stock of HQLA as it does not meet the generally applicable HQLA criteria. This potentially withdrawable collateral is to be reported separately in the FR2052a report. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Eligible Commercial Property Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the commercial property are eligible to be used as collateral.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Eligible For Intraday Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the particular instrument is eligible for usage as an Intraday liquidity source.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Eligible Mutual Fund Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the equity is part of mutual fund or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Eligible Non Main Index Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the contract is part of an eligible non main index.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Eligible Protection Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether this position has received the eligible CD or Guarantee from eligible securitization guarantor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Eligible Residential Property Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the residential property are eligible to be used as collateral.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Equity Traded Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether the instrument is publicly traded or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exchange Traded Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if instrument is exchange traded or not. This is one of the criteria which is used to qualify instrument as high quality liquid asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Expected Loss Given Default Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the expected loss given default.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Post Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the exposure at default amount post mitigation by all eligible mitigants\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Pre Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the pre mitigation Exposure at default amount of the total exposure, as applicable to the particular jurisdiction. This is generally equal to the sum of Exposure of default pre mitigation for the drawn portion of the exposure and the exposure of default per mitigation for the undrawn portion of the exposure.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fair Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to fair value of an asset. Fair Value is a rational and unbiased estimate of the potential market price of and asset. The Financial Accounting Standards Board, FASB, issued 'Statement of Financial Accounting Standards No. 157: Fair Value Measurements, FAS 157,' in September 2006 to provide guidance about how entities should determine fair value estimations for financial reporting purposes.\n\nFair value is however measured based on the guidelines FASB 13 which has 3 levels.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "First Lien Performance Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the performance description of the lien associated with the loan account. 0 is First Lien Not Performing, 1 is First Lien Performing, U is Status of First Lien not known.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forex Haircut",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the foreign exchange haircut applicable and is applicable for Over the counter contracts. Haircut is a generic term used in transactions involving collateral. A haircut is usually applied on the market value of the collateral to arrive at a more realistic value of the collateral. The haircut depends on multiple factors such as volatility, liquidity etc. of the collateral.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Full Recourse Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates full recourse flag. Underlying mortgages of RMBS, received as Mitigant, are considered as “full recourse’’ if in the case of foreclosure the mortgage owner remains liable for any shortfall in sales proceeds from the property i.e. the lender can go after the borrowers personal assets to collect if the loan is defaulted. Default value should be N. Specific to RMBS. This is one of the criteria which is used to qualify mitigant as high quality liquid asset. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fund Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code identifying the fund. Fund dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Government Sponsored Enterprises Eligible Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the effect of the GSEs is to enhance the availability and reduce the cost of credit to the targeted borrowing sectors primarily by reducing the risk of capital losses to investors. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantee Revocable Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the Guarantor can revoke their Guarantee. List of values are Y, N. Y indicates guarantor can revoke.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantee Revoked Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date until which the Guarantor can revoke their Guarantee. This is only populated if the Guarantee Revocable Flag is set to Y.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantee Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of guarantee that is being provided by the guarantor, whether conditional, unconditional etc. Refers to the unique code for the guarantee type. Expected values are\n1, Unconditional\n2, Full and Explicit\n3, Conditional\n4, Implicit\nGuarantee type is one of the criteria for classifying assets as high quality liquid asset, HQLA, or not for the purpose of inclusion in the stock of high quality liquid assets while computing the Liquidity Coverage Ratio, LCR.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantor Agency Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to unique identifier for the Guarantor Agency Type. This refer to the Agency type dimension and is used for identifying Agency type in case guarantor is Agency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantor Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the identifier of the Party who guaranteed the program.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Haircut As Per Credit Support Annex",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the haircut amount or percentage to apply to the collateral to be posted under a credit support annex. This is used to value the collateral. The values is expected in decimal form, For example, 20 Percent must be given as 20.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Hedge Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Indicates whether a record is used for hedging. This indicates whether the asset is used specifically to hedge another transaction. It is required to determine the amount to be included in the stock of HQLA. If an asset, which is classified as HQLA and is eligible for inclusion in the stock, is hedging another transaction, the amount that can be included in the stock of HQLA is the fair value of the asset less the hedge termination cost.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Held By Client Or Proprietary Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account is held by client or not. If the value is updated as Y which means the security is held by client and if the value is updated as N which means the security is in the proprietary account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "High Quality Liquid Asset Eligibility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if asset qualifies to be treated as High Quality Liquid Asset, HQLA. In most jurisdictions, HQLA should be central bank eligible in addition to being liquid in markets during stressed periods. In jurisdictions where central bank eligibility is limited to an extremely narrow list of assets, a supervisor may allow unencumbered, non central bank eligible assets to be part of HQLA. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holding Period For Haircut",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the holding period in days to arrive at the base volatility haircut of an exposure. The standard supervisory haircuts, are based on an assumed 10 business day minimum holding period for derivatives and eligible margin loans.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holding Period In Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the holding period in days to arrive at the base volatility haircut of an exposure. The standard supervisory haircuts, are based on an assumed 10 business day minimum holding period for derivatives and eligible margin loans.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Illiquid Collateral Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if collateral is easily liquid table or easily replaceable. List of values are Y, N.\nY, It is not easily replaceable or easily liquid table. \nN, It is easily replaceable or easily liquid table.\nIt is required for regulatory capital processing. Based on this flag and other parameters supervisory haircut is adjusted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Income Producing Real Estate Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if Real Estate is used for income generation. List of values are Y,N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Independent Appraisal Of Property Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether bank independently appraises the value of property during loan approval and also continues to revise the value from time to time as per triggers mentioned by regulator. List of values are Y, N. Null will be treated as N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Held By Custodian Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the instrument is held by the custodian or not, in a custodial agreement. A value of Y indicates the instrument is held by the custodian and a value of N indicates that the instrument is not held by custodian. In the case of EU, this is required for the mitigant eligibility of other funded credit protection mitigant type. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of instrument type, which is defined as code identifying the instrument category of the customer account. Instrument Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Issuer",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Issuer of insurance for the loan or mortgage. If the mortgage is insured against loss in any way, either through primary or pool level insurance, then report the company providing that insurance. If more than one company is insuring against losses, give preference to the company providing the primary Insurer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Issuer Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code representing a insurance protection provider.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insurance Policy Investment Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the life insurance policy is used as investment scheme and, therefore, has cash value in return or not. This is used to infer whether the policy can be used as an eligible financial collateral as per Basel III guidelines of China. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Accrued Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the accrued interest amount associated with the contract. This is the interest that has accumulated on an instrument since the last interest payment up to, but not including, the settlement date. Accrued Interest is defined as Interest earned but not received, realized. For example, bonds usually pay interest every six months, therefore interest accrues between one interest payment and the next. The buyer of a bond pays its market value plus the interest earned up to the settlement date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Investment Grade Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the instrument is an Investment grade security for Level 2A classification. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issue Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to whether the Investment in Specific Debt to purchase Non performing Loan of State owned Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Agency Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to unique identifier for the Issuer Agency Type. This refer to the Agency type dimension and is used for identifying Agency type in case issuer is Agency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the issuer code for the financial instruments. Issuer is defined as a legal entity that develops, registers and sells securities or financial instruments. Issuers may be domestic or foreign governments, corporations or investment trusts. Issuers are legally responsible for the obligations of the issue and for reporting financial conditions, material developments and any other operational activities as required by the regulations of their jurisdictions. The most common types of financial instruments issued are common and preferred stocks, bonds, notes, debentures, negotiable instruments, bills and derivatives.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Risk Retention Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the risk retention. Securitizations are subject to risk retention regulations which require issuers to retain an interest in the assets they securitize.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Net Operating Income Evaluation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the last evaluation date of the net operating income from the underlying mitigants of a loan.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lien Position Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of underlying note on the loan. This is also known as the lien position. First mortgage is a mortgage in a first lien position on the property that secures the mortgage. A first mortgage has priority over all other liens or claims on a property in the event of default. If the loan to value, LTV, ratio of a first mortgage is greater than 80 percent, lenders generally require private mortgage insurance, PMI. In such a case, it can sometimes be economical for a borrower to limit the size of the first mortgage to an 80 percent LTV and use secondary financing to borrow the remaining amount needed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Liquidity Transferability Restriction Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the transferability restriction. Sometimes, due to regulatory rules or other market conditions, excess liquidity available in a given legal entity is Trapped i.e. it is not available for use at the parent entity or the consolidated. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Load Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the load run identifier. Load run identifier enables user to load multiple versions intraday or post back dated adjustment entries to the table. Refers to the Load run identifier of the equivalent record in product processor that needs to be adjusted. Default value of  1 indicates that the latest load run is being adjusted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan To Value Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the loan to value ratio of Residential Mortgage Backed security received as mitigant. Loan to Value ratio is one of the criteria which is used to qualify mitigant as high quality liquid asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Given Default Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the loss given default value of the account. Loss given default is the expected amount to be lost by the financial institution if the borrower defaults. Institutions such as banks will determine their credit losses through an analysis of the actual loan defaults. While quantifying some losses may be simple, in some situations it may be quite difficult and require the analysis of multiple variables. For example, if Bank X loans USD 1 million to ABC Company and ABC defaults on the note, Bank Xs loss is not necessarily USD 1 million. This is because Bank X may hold substantial assets as collateral, and or may use the courts in an effort to be made whole. When all of these variables are factored in, Bank X may have lost substantially less than the original USD 1 million loan. The process of analyzing all of these variables, as well as all of the other loans in Bank Xs portfolio, is paramount to determining the loss given default. This value is calculated by the system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Given Default Refresh Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which loss given default for the contract was refreshed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Value Methodology",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the market value methodology. Values expected are  Level 1 – Mark to market\nLevel 2 – Mark to model, inputs into the model are observable in the secondary market,\nLevel 3 – Internal Model, inputs into the model are not observable in the secondary market.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Marketable Security Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the security is marketable or not. Marketable securities are very liquid securities that can be converted into cash quickly at a reasonable price. If the value is updated as Y which means the security is marketable and if the value is updated as N which means the security is non marketable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Materiality Threshold Loss Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the loss amount which will be considered as material for invoking the mitigant to cover the loss. This is mainly applicable for the credit derivatives. And any loss up to this threshold amount will not be considered to be covered by the mitigant. This column is used for regulatory capital purpose. In the case of regulatory capital, the portion of exposure amount below this materiality threshold will be treated as first loss position.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the contractual date on which the principal balance is expected to fully amortize and the balance payable would be nil. This is applicable for term loan products but not for revolving credit or overdraft type of account. In case of insurance policy, for some whole life insurance products the maturity date is aligned to maximum attained age and the policy is payable upon the earlier of the maturity date or the death of the insured. In case of Term Life insurance policies the maturity date is determined as policy issue date plus Term of the contract. In case of an annuity it is the date from which the annuitant has chosen to take the payouts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Price Increase In One Year Over Thirty Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the maximum price increase of the security over a thirty day window during the last one year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Price Percentage Change Over Thirty Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to maximum price percentage change in the last 30 days. This attribute is used to establish if mitigant is reliable source of liquidity in the markets. If maximum. Decline of price does not exceed 10 percent over a 30 day period then it qualifies as a reliable source of liquidity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Value Of Guarantee Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the maximum value of the guarantee contract in natural currency. A guarantee contract is also referred to as a bank guarantee. It is an instrument issued by the Financial institution in which the Financial institution agrees to stand guarantee against the non performance of some action or performance of a party. The quantum of guarantee is called as Guarantee Amount. The guarantee is issued upon receipt of a request from Applicant for some purpose or transaction in favor of a Beneficiary. The Issuing Bank will pay the guarantee amount to the Beneficiary of the guarantee upon receipt of the Claim from the beneficiary. This results in Invocation of the Guarantee.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Value Of Guarantee Amount In Reporting Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the maximum value of the guarantee taken as a mitigant in reporting currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Volatility Haircut Over Thirty Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to maximum volatility haircut in last 30 days. This attribute is used to establish if account is reliable source of liquidity in the markets. If haircut is not exceeding.10 percentage points over a 30 day period then it qualifies as a reliable source of liquidity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Minimum Holding Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Minimum Holding period in days for an exposure which is used to calculate the volatility haircut.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Account Coverage Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the portion which is less than or equal to the mitigant value and applicable for collateral type of mitigants at the end of period balance which is covered by the Mitigant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Anchor Tenant Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the anchor tenant id in case mitigant is real estate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Application Date Of Guarantee Or Issue",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the effective date of a mitigant. This is a date on which mitigant is assumed to provide mitigation for underlying exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Basel Rating",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Numeric",
+                    "gcd": "Refers to the Basel Rating of securities that we receive as collateral. This is expected as Download and is required for QIS and 4G Liquidity asset reclassification.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Book Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the book value of the mitigant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique of the collateral or mitigant. In case of derivatives such as Futures and options, collateral such as bonds, letters of credit, Stocks, Exchange traded funds, precious metals etc. can be provided as collateral or mitigant. In case of Lease contracts, operating lease, the collateral or mitigant is the asset being leased. Dim_Mitigant is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Consent To Adjust Maturity Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the depositor of the nettable liabilities whose is same as borrower of the loan has given explicit consent for adjusting the maturity proceeds of such deposits against the outstanding loan OR for renewal of such deposits till the full repayment of the underlying loan. List of values are Y, N.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Eligibility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the Mitigant is eligible as per Basel II guidelines. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Hypothecated Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Hypothecated Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Instrument Quantity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the quantity of the instrument. This is used in case of Futures or options case. On a new order if the Quantity is the amount intended for trade, on a market data trade message the quantity is the amount that traded at the given price.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Insurance Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the value of the mitigant which is covered by insurance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Issuer Regulatory Risk Weight",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Basel Risk Weight of issuer of the mitigant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Last Property Valuation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the mitigant was last valued.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Main Index Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the mitigant is traded in the main index or not. List of values are Y, N. A flag of Y indicates that this is traded in the main index, and flag of N indicates that this is not traded in the main index. Main index represents the performance of the stock market of a given region and reflects the investor sentiment on the state of its economy. The most regularly quoted market indices are national indices composed of the stocks of large companies listed on largest stock exchanges of a nation, such as the American S and P 500, the Japanese Nikkei 225, and the British FTSE 100.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Margin Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of margin under which the collateral has been placed with the CCP or the counterparty, as applicable. List of Values are IM, VM, DF and OTH. The IM is for indicating that this collateral has been placed as part of the initial margin. The VM indicates that this has been placed as part of the variation margin requirement. The DF indicates that it is placed as part of the Default Fund contribution. A value of OTH indicates that it is a regular collateral placed with the counterparty, and is not part of these margin type requirements. A value of NULL will also be treated as equivalent to OTH.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Market Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the market value of mitigant or collateral linked to account or contract. Market value of an instrument is easy to determine if the instrument trades on a well recognized exchange. In case the collateral does not trade on an exchange, appropriate valuation or appraisal methods may be employed to arrive at an estimated market value. It is used as an indication of the amount that could be fetched if the collateral is sold in open market as on As of Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Minimum Collateralization Level",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the minimum value for the ratio of mitigant value to exposure value. When the actual value is below this, the mitigant is not considered for mitigation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Notional Principle Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Notional amount of the mitigant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Original Fair Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Mitigant fair value as assessed by the entity which has received the collateral on initial recognition.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Original Valuation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the mitigant was originally valued.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Over Collateralization Level",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the maximum value for the ratio of mitigant value to exposure value. When the actual value is above this, the mitigant is not considered for mitigation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Percent Rehypothecated",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the percentage of the Mitigants that is rehypothecated. This is required to determine the portion of the fair value that is to be included in the stock of HQLA. Only unencumbered portion of a partially rehypothecated Mitigants i.e. 1  Percentage Rehypothecated is to be included in the stock of HQLA.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Percentage Value Change",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the percentage value change of the mitigant over a period of one year. Percent increase and percent decrease are measures of percent change, which is the extent to which a variable gains or losses intensity, magnitude, extent, or value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Pool Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the credit derivative Mitigants to be pooled based on the Exposure and Mitigant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Product Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the product type classification for mitigant products like commodity funds, infrastructure funds, Structured notes, Debt funds, Money market funds etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Property Location Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Location code of the property. Location code is defined as the code which will represent the address of the property from zip code onwards like which city, country, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Provider Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the party identifier who has provided the mitigant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Receivable Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Receivable type. It stores whether receivables are from claims arising on either sale, Lease, Services, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Rehypothecation Lock Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the re hypothecation lock till date of a mitigant. This signifies end off re hypothecation of a collateral.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Release Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the release date of the mitigant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Release Reason",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the reason for the release of the mitigant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Repossession Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the collateral is repossessed. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Sale Price",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the price which one can get if the mitigant is sold in the market.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Security Interest Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code for the security interest type. A security interest is a type of property interest created by agreement or by operation of law over assets to secure the performance of an obligation usually the payment of a debt. This is the type of preferential rights on the mitigant placed with the bank whether it is pledged or a lien or a mortgage.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Seniority Level",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Collateral is Primary or Secondary Collateral.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Significant Recall Penalty Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether a significant penalty is charged if a mitigant is recalled by the beneficial owner prior to the maturity of the transaction against which the mitigant is received. This is an HQLA exclusion criteria where any asset received under a rehypothecation right, where the beneficial owner has a right to withdraw the asset anytime within the LCR horizon without incurring any significant penalty for withdrawal, cannot be included in the stock of HQLA as it does not meet the generally applicable HQLA criteria. List of values are Y, N.\n\nUS Final Rule Page: 118, 354",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Sub Category",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the sub category of the mitigant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Sub Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code for the mitigant sub type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the mitigant type of the mitigant. E.g.. Commercial Real Estate, Land, Building etc. for Collateral category of Mitigants.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Type Of Protection Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the codes for type of mitigant or protection value. It stores NA for Notional amount, FV for Fair Value, MV for Market value, LTSV for Long term Sustainable Value and so on.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the value of mitigant or collateral linked to account or contract. Value of an instrument is easy to determine if the instrument trades on a well recognized exchange. In case the collateral does not trade on an exchange, appropriate valuation or appraisal methods may be employed to arrive at an estimated market value. It is used as an indication of the amount that could be fetched if the collateral is sold in open market as on As of Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Value Future",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the modeled value of the mitigant after one year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Operating Income Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Net Operating Income i.e. NOI expected from the Mitigant provided for availing a credit facility. The last reported NOI for the credit facility is stored in this column. Net Operating Income is defined as Operating Income less Operating Expenses of the Mitigant. Operating Income includes all type of Operating Income expected from the Mitigant including Rent and Lease amounts. Operating Expenses includes all types of Operating Expenses expected from the Mitigant including Insurance, Real Estate Taxes, Common Area Maintenance Expenses, Utilities, Replacement Reserves, Management Fees, Admin, Accounting and Legal Fees but excludes Income Tax, Debt Service Charges and Depreciation. Net Operating Income reported here is estimated for 12 months or is an Annualized amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Netting Agreement Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the netting agreement code on which the contract is made. A netting agreement is an arrangement between two parties   known as counterparties   that governs the treatment of certain offsetting transactions or contracts. Two transactions offset each other if a gain in one results in a loss in the other. In other words, the transactions hedge each other. This allows for net settlement of all contracts governed by this netting agreement, with a single counterparty, through a single payment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Occupancy Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code that indicates the occupancy of the property at origination or purchase of the loan in case of product processor tables and current occupancy in the Mitigants table. This is applicable for real estate loans. DIM OCCUPANCY TYPE is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Occupancy Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the current physical occupancy of rent paying tenants including tenants still in concessionary periods as a percentage of net rentable square footage. Use NA if Residential Construction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Occupancy Rate Evaluation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the latest date on which the Occupancy Rate for the Mitigant was recorded. Occupancy Rate is a percentage calculated as Current SqFt of Area occupied by Rent Paying Tenants including tenants still in concessionary period divided by Total Rentable SqFt Area of the Property or Mitigant. The evaluation is made either by the bank or by a bank designated third party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Maturity Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the value of Original Maturity of the collateral. Original maturity means what is the maturity value of the collateral at the start of the contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Mitigant Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the mitigant value when the mitigant is recorded in record of financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Mortgage Occupancy Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of mortgage occupancy for a given loan or account. Values expected are 1. primary, 2. Second Home, 3. Non Owner or Investment, U is Unknown.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Valuation Method Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the original property valuation method. Indicates the way the value of the property was determined. Options are\n1. Full appraisal – Prepared by a certified appraiser\n2. Limited appraisal – Prepared by a certified appraiser\n3. Broker Price Opinion as BPO.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pending Collateral Receipt Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if Receipt of collateral is pending from a counterparty. Collateral management is a process which helps to reduce counterparty credit exposures. It is normally used with over the counter derivatives like swaps and options.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pending Collateral Receive Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the collateral amount pending to be received. This is an additional amount which is demanded as part of the contract, due to certain market conditions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pending Collateral Receive Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the pending collateral has to be received. Pending collateral amount is an is an additional amount which is demanded as part of the contract, due to certain market conditions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Post Volatility Haircut Collateral Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Post volatility haircut collateral value. Haircut refers to the percentage by which market value of an asset is reduced for the purpose of calculating capital requirement, margin and collateral levels.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prime Broker Collateral Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the collateral is associated with prime brokerage services. Prime brokerage is the generic name for a bundled package of services offered by investment banks and securities firms to hedge funds and other professional investors needing the ability to borrow securities and cash to be able to invest on a netted basis and achieve an absolute return. These accounts are ignored as part of operational criteria. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability Of Default Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the probability of default of an exposure over a period of one year, as required for regulatory capital calculation. This will be used in RWA calculation based on advanced approach. This is expressed in decimal number, For example, 30 percent will be 0.3.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability Of Default Refresh Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which said probability of default for the contract was refreshed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Property Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the property code for a property.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Property Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the property type code associated with given account. Property Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Purchase Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount that the property is purchased for.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Qualified Encumbrance Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if mitigant qualifies for the encumbrance. There are set of qualitative conditions for qualifications like Mitigant should be under the control of the specific function, or functions, charged with managing the liquidity risk of the firm, typically the treasurer. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Qualified Unencumberance Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if an unencumbered asset satisfies conditions of Unencumbrance as described in FR2052a. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Real Estate Housing Development Board Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if Real Estate comes under Housing Development Board. List of values are Y,N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Real Estate Owned Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether said real estate is owned or not by financial institution. Foreclosure can lead to either owned buy or third party sale. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recourse To Guarantee Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicate whether the bank relied on a sponsor or guarantor as a source of repayment when considering the credit for approval. List of values are Y N.\nA value Y indicates that the contract is recourse to guarantee, and N indicates that the contract is not recourse to guarantee.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rehypothecated Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the financial institution has re hypothecation rights on the account or the asset received as collateral is currently rehypothecated or not.\nRehypothecation is a practice by banks and brokers of using, for their own purposes, assets that have been posted as collateral by their clients. Clients who permit rehypothecation of their collateral may be compensated either through a lower cost of borrowing or a rebate on fees. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Remargin Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the reimagining frequency of an exposure in days. This is used in calculating the volatility haircut. Reimagining frequency is the frequency at which the exposure is marked to market. For some transactions, depending on the nature and frequency of the revaluation and reimagining provisions, different holding periods are appropriate. The framework for collateral haircuts distinguishes between repo style transactions, i.e. repo or reverse repos and securities lending or borrowing, other capital market driven transactions, i.e. OTC derivatives transactions and margin lending, and secured lending. In capital market driven transactions and repo style transactions, the documentation contains reimagining clauses, in secured lending transactions, it generally does not. When the frequency of reimagining or revaluation is longer than the minimum, the minimum haircut numbers will be scaled up depending on the actual number of business days between reimagining or revaluation. Currently this attribute is only consumed by Basel application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Residual Maturity In Years",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Number_Factor",
+                    "gcd": "Refers to the Residual Maturity of a mitigant in Years. Residual maturity is defined as the remaining time until the expiration or the repayment of the instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restructured Coverage Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify if restructuring of the underlying obligation covered as credit event or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Revaluation Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the frequency at which the reference exposure is revalued to reflect its fair value in days. This is used in calculating the volatility haircut.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Weight",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the risk weight assigned to an exposures. In case of the tranche, it will be allocated risk weight based on the rating assigned to the tranche.\nPre mitigation risk weight for the exposure or the mitigant, depending on whether it is an eligible mitigant or an uncovered mitigant, as applicable for the corresponding asset class. This risk weight is generally calculated based on the effective rating of the mitigant or exposure. Risk weight is applied based on Asset class and Rating combinations.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Weight Expected Loss",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Risk Weight of the mitigant for expected loss.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sale Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the costs of sales e.g., sales commissions and buyer concessions of the property sale during the termination of the loan.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securities Guarantor Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to unique code of the guarantor for the securities. List of values are Central Government  CGG, State Government  SGG and Others  OTH.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitization Associated Receivable Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if receivables are associated with securitization, sub participation or credit derivatives. It is used to identify such receivables as ineligible financial collateral as per Basel III guidelines of China. List of values are Y, N. Y represents receivables are associated with securitization, sub participation or credit derivatives, and N as not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitized Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the exposure is securitized or not. Securitize refers to a pooled group of financial assets that together create a new security, which is then marketed and sold to investors. The value and cash flows of the new security are based off of the underlying value and cash flows of the assets used in the securitization process. Companies will securitize illiquid assets into liquid assets in order to increase their overall liquidity and generate immediate proceeds from their assets. List of values are Y, N. If the value is updated as Y means the exposure is securitized and if the value is updated as N means the exposure is not securitized.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Security Identification Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the security identification number of an exposure, either in the form of CUSIP or ISIN.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Security Issuer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code representing a security issuer. The company or other entity issuing the security is called the issuer. Regulatory structure of a country determines what qualifies as a security.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Security Under Lock In Period Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the security is in lock in period and cannot be liquidated. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Senior Collateral Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the collateral is a senior collateral or not. This helps in determining eligibility of a collateral to act as a mitigant for exposure. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Shareholding Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the Effective Shareholding Percentage of the investor entity in the investee entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Standard Account Head Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier for a standard accounting capital head.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tranche Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the tranche identifier. A Tranche is a piece, portion or slice of a deal or structured financing. This indicates which for which securitized tranche the particular mitigant covers.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Receivable Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Receivable claims type. It is used to identify receivables as eligible financial collateral as per Basel III guidelines of China. The list of values for Receivable type will be as sale, Lease and Services.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Units Of Property",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of units provided as a mitigant. Applicable for real estate only. List of Values are1 = one unit 2 = two units 3 = three units 4 = four units U = Unknown Y = Other",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unrated Debt Security Eligibility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the Debt Security is eligible or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Valuation Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the valuation amount or the present value of the investments as on the As of Date. The valuation amount of the investments is computed using standard valuation techniques.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Valuation Method Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code identifying the method used when valuing assets. The four most common methods used are Discounted cash flow i.e. DCF analysis, Comparable transactions method, Multiples method and Market valuation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Valuation Unit Price",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the unit price in natural currency of a contract calculated as apart of valuation. This is used in case of Futures or options case.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Value Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the value date of the contract. Value Date is a securities industry term describing the date on which a trade, bonds, equities, foreign exchange, commodities, etc., settles. That is, the actual day on which transfer of cash or assets is completed, or the settlement amount is calculated. \nIn case of FX swap instrument Refers to the settlement date for spot or near leg. Also considered as the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Variation Margin Daily Transfer Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the variation margin cash is transferred on daily basis or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Vehicle Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to unique code of the vehicle type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Volatility Haircut",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the volatility haircut percentage applicable for the Exposure. This is available for exposures like debt securities which are exposed to market movements.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32147",
+                    "btLogicalName": "Agreement Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32148",
+                    "btLogicalName": "Eligible Mutual Fund Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32149",
+                    "btLogicalName": "Securitized Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32150",
+                    "btLogicalName": "Recourse To Guarantee Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32151",
+                    "btLogicalName": "Mitigant Eligibility Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32152",
+                    "btLogicalName": "Unrated Debt Security Eligibility Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32153",
+                    "btLogicalName": "Conditional Guarantee Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32154",
+                    "btLogicalName": "Direct Guarantee Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32155",
+                    "btLogicalName": "Mitigant Consent To Adjust Maturity Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32156",
+                    "btLogicalName": "Insurance Policy Investment Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32157",
+                    "btLogicalName": "Securitization Associated Receivable Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32158",
+                    "btLogicalName": "Real Estate Owned Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32159",
+                    "btLogicalName": "Credit Approval Based On Recourse Or Guarantee Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32160",
+                    "btLogicalName": "Guarantee Revocable Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32161",
+                    "btLogicalName": "Income Producing Real Estate Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32162",
+                    "btLogicalName": "Dilution Risk Mitigant Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32163",
+                    "btLogicalName": "Marketable Security Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32164",
+                    "btLogicalName": "Hedge Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32165",
+                    "btLogicalName": "Collateral Covering All Losses Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32166",
+                    "btLogicalName": "Covering Banks Short Position Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32167",
+                    "btLogicalName": "Issuer Risk Retention Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32168",
+                    "btLogicalName": "Qualified Unencumberance Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32169",
+                    "btLogicalName": "Restructured Coverage Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32170",
+                    "btLogicalName": "Mitigant Main Index Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32171",
+                    "btLogicalName": "Conforming Residential Mortgages Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32172",
+                    "btLogicalName": "Credit Enhancement Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32173",
+                    "btLogicalName": "Prime Broker Collateral Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32174",
+                    "btLogicalName": "Real Estate Housing Development Board Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32175",
+                    "btLogicalName": "Eligible Residential Property Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32176",
+                    "btLogicalName": "Exchange Traded Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32177",
+                    "btLogicalName": "Liquidity Transferability Restriction Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32178",
+                    "btLogicalName": "Rehypothecated Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32179",
+                    "btLogicalName": "Senior Collateral Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32180",
+                    "btLogicalName": "Ancillary Own Funds Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32181",
+                    "btLogicalName": "Mitigant Significant Recall Penalty Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32182",
+                    "btLogicalName": "Disputed Collateral Receipt Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32183",
+                    "btLogicalName": "Collateral Called For Receipt Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32184",
+                    "btLogicalName": "Collateral Dispute Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32185",
+                    "btLogicalName": "Early Collateral Recall Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32186",
+                    "btLogicalName": "Eligible Non Main Index Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32187",
+                    "btLogicalName": "Eligible Protection Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32188",
+                    "btLogicalName": "Investment Grade Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32189",
+                    "btLogicalName": "Mitigant Repossession Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32190",
+                    "btLogicalName": "Security Under Lock In Period Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32191",
+                    "btLogicalName": "Illiquid Collateral Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32192",
+                    "btLogicalName": "Asset Segregated Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32193",
+                    "btLogicalName": "Control By Treasury Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32194",
+                    "btLogicalName": "Covering Customer Short Position Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32195",
+                    "btLogicalName": "Eligible For Intraday Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32196",
+                    "btLogicalName": "Equity Traded Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32197",
+                    "btLogicalName": "Held By Client Or Proprietary Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32198",
+                    "btLogicalName": "High Quality Liquid Asset Eligibility Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32199",
+                    "btLogicalName": "Credit Valuation Adjustment Hedge Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32200",
+                    "btLogicalName": "Collateral Segregated Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32201",
+                    "btLogicalName": "Qualified Encumbrance Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32202",
+                    "btLogicalName": "Variation Margin Daily Transfer Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32203",
+                    "btLogicalName": "Instrument Held By Custodian Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32204",
+                    "btLogicalName": "Independent Appraisal Of Property Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32205",
+                    "btLogicalName": "Cleared Transaction Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32206",
+                    "btLogicalName": "Eligible Commercial Property Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32207",
+                    "btLogicalName": "Full Recourse Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32208",
+                    "btLogicalName": "Government Sponsored Enterprises Eligible Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36843",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36844",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36845",
+                    "btLogicalName": "Collateral Called For Receipt Date",
+                    "dqDesc": "Reference Check for Collateral Called For Receipt Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36846",
+                    "btLogicalName": "Collateral Called For Receipt Date",
+                    "dqDesc": "Reference Check for Collateral Called For Receipt Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36847",
+                    "btLogicalName": "Mitigant Rehypothecation Lock Till Date",
+                    "dqDesc": "Reference Check for Mitigant Rehypothecation Lock Till Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36848",
+                    "btLogicalName": "Mitigant Rehypothecation Lock Till Date",
+                    "dqDesc": "Reference Check for Mitigant Rehypothecation Lock Till Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36849",
+                    "btLogicalName": "Collateral Or Mitigant Repossessed Date",
+                    "dqDesc": "Reference Check for Collateral Or Mitigant Repossessed Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36850",
+                    "btLogicalName": "Collateral Or Mitigant Repossessed Date",
+                    "dqDesc": "Reference Check for Collateral Or Mitigant Repossessed Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36851",
+                    "btLogicalName": "Collateral Received Date",
+                    "dqDesc": "Reference Check for Collateral Received Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36852",
+                    "btLogicalName": "Collateral Received Date",
+                    "dqDesc": "Reference Check for Collateral Received Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36853",
+                    "btLogicalName": "Current Occupancy Date",
+                    "dqDesc": "Reference Check for Current Occupancy Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36854",
+                    "btLogicalName": "Current Occupancy Date",
+                    "dqDesc": "Reference Check for Current Occupancy Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36855",
+                    "btLogicalName": "Guarantee Revoked Date",
+                    "dqDesc": "Reference Check for Guarantee Revoked Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36856",
+                    "btLogicalName": "Guarantee Revoked Date",
+                    "dqDesc": "Reference Check for Guarantee Revoked Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36857",
+                    "btLogicalName": "Last Net Operating Income Evaluation Date",
+                    "dqDesc": "Reference Check for Last Net Operating Income Evaluation Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36858",
+                    "btLogicalName": "Last Net Operating Income Evaluation Date",
+                    "dqDesc": "Reference Check for Last Net Operating Income Evaluation Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36859",
+                    "btLogicalName": "Mitigant Last Property Valuation Date",
+                    "dqDesc": "Reference Check for Mitigant Last Property Valuation Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36860",
+                    "btLogicalName": "Mitigant Last Property Valuation Date",
+                    "dqDesc": "Reference Check for Mitigant Last Property Valuation Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36861",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36862",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36863",
+                    "btLogicalName": "Mitigant Release Date",
+                    "dqDesc": "Reference Check for Mitigant Release Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36864",
+                    "btLogicalName": "Mitigant Release Date",
+                    "dqDesc": "Reference Check for Mitigant Release Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36865",
+                    "btLogicalName": "Mitigant Application Date Of Guarantee Or Issue",
+                    "dqDesc": "Reference Check for Mitigant Application Date Of Guarantee Or Issue in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36866",
+                    "btLogicalName": "Mitigant Application Date Of Guarantee Or Issue",
+                    "dqDesc": "Reference Check for Mitigant Application Date Of Guarantee Or Issue in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36867",
+                    "btLogicalName": "Occupancy Rate Evaluation Date",
+                    "dqDesc": "Reference Check for Occupancy Rate Evaluation Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36868",
+                    "btLogicalName": "Occupancy Rate Evaluation Date",
+                    "dqDesc": "Reference Check for Occupancy Rate Evaluation Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36869",
+                    "btLogicalName": "Current Occupancy Rate Evaluation Date",
+                    "dqDesc": "Reference Check for Current Occupancy Rate Evaluation Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36870",
+                    "btLogicalName": "Current Occupancy Rate Evaluation Date",
+                    "dqDesc": "Reference Check for Current Occupancy Rate Evaluation Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36871",
+                    "btLogicalName": "Mitigant Original Valuation Date",
+                    "dqDesc": "Reference Check for Mitigant Original Valuation Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36872",
+                    "btLogicalName": "Mitigant Original Valuation Date",
+                    "dqDesc": "Reference Check for Mitigant Original Valuation Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36873",
+                    "btLogicalName": "Pending Collateral Receive Date",
+                    "dqDesc": "Reference Check for Pending Collateral Receive Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36874",
+                    "btLogicalName": "Pending Collateral Receive Date",
+                    "dqDesc": "Reference Check for Pending Collateral Receive Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36875",
+                    "btLogicalName": "Value Date",
+                    "dqDesc": "Reference Check for Value Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36876",
+                    "btLogicalName": "Value Date",
+                    "dqDesc": "Reference Check for Value Date in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36877",
+                    "btLogicalName": "Risk Weight",
+                    "dqDesc": "Reference Check for Risk Weight in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36878",
+                    "btLogicalName": "Accounting Standard Code",
+                    "dqDesc": "Reference Check for Accounting Standard Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36879",
+                    "btLogicalName": "Asset Level Code",
+                    "dqDesc": "Reference Check for Asset Level Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36880",
+                    "btLogicalName": "Central Counterparty Code",
+                    "dqDesc": "Reference Check for Central Counterparty Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36881",
+                    "btLogicalName": "Cleared Transaction Bank Role Code",
+                    "dqDesc": "Reference Check for Cleared Transaction Bank Role Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36882",
+                    "btLogicalName": "Clearing Member Code",
+                    "dqDesc": "Reference Check for Clearing Member Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36883",
+                    "btLogicalName": "Collateral Settlement Type",
+                    "dqDesc": "Reference Check for Collateral Settlement Type in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36884",
+                    "btLogicalName": "Collateral Substituted Asset Level Code",
+                    "dqDesc": "Reference Check for Collateral Substituted Asset Level Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36885",
+                    "btLogicalName": "Collateral Valuation Basis Code",
+                    "dqDesc": "Reference Check for Collateral Valuation Basis Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36886",
+                    "btLogicalName": "Counterparty Reference Code",
+                    "dqDesc": "Reference Check for Counterparty Reference Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36887",
+                    "btLogicalName": "Country Code",
+                    "dqDesc": "Reference Check for Country Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36888",
+                    "btLogicalName": "Custody Country Identifier",
+                    "dqDesc": "Reference Check for Custody Country Identifier in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36889",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36890",
+                    "btLogicalName": "First Lien Performance Code",
+                    "dqDesc": "Reference Check for First Lien Performance Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36891",
+                    "btLogicalName": "Fund Code",
+                    "dqDesc": "Reference Check for Fund Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36892",
+                    "btLogicalName": "Guarantee Type",
+                    "dqDesc": "Reference Check for Guarantee Type in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36893",
+                    "btLogicalName": "Guarantor Identifier",
+                    "dqDesc": "Reference Check for Guarantor Identifier in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36894",
+                    "btLogicalName": "Guarantor Agency Type",
+                    "dqDesc": "Reference Check for Guarantor Agency Type in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36895",
+                    "btLogicalName": "Instrument Code",
+                    "dqDesc": "Reference Check for Instrument Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36896",
+                    "btLogicalName": "Instrument Type",
+                    "dqDesc": "Reference Check for Instrument Type in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36897",
+                    "btLogicalName": "Insurance Issuer",
+                    "dqDesc": "Reference Check for Insurance Issuer in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36898",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36899",
+                    "btLogicalName": "Issue Purpose Code",
+                    "dqDesc": "Reference Check for Issue Purpose Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36900",
+                    "btLogicalName": "Issuer Agency Type",
+                    "dqDesc": "Reference Check for Issuer Agency Type in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36901",
+                    "btLogicalName": "Issuer Identifier",
+                    "dqDesc": "Reference Check for Issuer Identifier in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36902",
+                    "btLogicalName": "Issuer Identifier",
+                    "dqDesc": "Reference Check for Issuer Identifier in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36903",
+                    "btLogicalName": "Lien Position Code",
+                    "dqDesc": "Reference Check for Lien Position Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36904",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36905",
+                    "btLogicalName": "Mitigant Margin Type",
+                    "dqDesc": "Reference Check for Mitigant Margin Type in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36906",
+                    "btLogicalName": "Market Value Methodology",
+                    "dqDesc": "Reference Check for Market Value Methodology in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36907",
+                    "btLogicalName": "Mitigant Code",
+                    "dqDesc": "Reference Check for Mitigant Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36908",
+                    "btLogicalName": "Mitigant Provider Identifier",
+                    "dqDesc": "Reference Check for Mitigant Provider Identifier in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36909",
+                    "btLogicalName": "Mitigant Receivable Type",
+                    "dqDesc": "Reference Check for Mitigant Receivable Type in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36910",
+                    "btLogicalName": "Mitigant Release Reason",
+                    "dqDesc": "Reference Check for Mitigant Release Reason in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36911",
+                    "btLogicalName": "Mitigant Security Interest Type",
+                    "dqDesc": "Reference Check for Mitigant Security Interest Type in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36912",
+                    "btLogicalName": "Mitigant Sub Type",
+                    "dqDesc": "Reference Check for Mitigant Sub Type in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36913",
+                    "btLogicalName": "Mitigant Type",
+                    "dqDesc": "Reference Check for Mitigant Type in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36914",
+                    "btLogicalName": "Netting Agreement Code",
+                    "dqDesc": "Reference Check for Netting Agreement Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36915",
+                    "btLogicalName": "Occupancy Code",
+                    "dqDesc": "Reference Check for Occupancy Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36916",
+                    "btLogicalName": "Collateral Valuation Basis Code At Origination",
+                    "dqDesc": "Reference Check for Collateral Valuation Basis Code At Origination in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36917",
+                    "btLogicalName": "Original Mortgage Occupancy Code",
+                    "dqDesc": "Reference Check for Original Mortgage Occupancy Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36918",
+                    "btLogicalName": "Original Valuation Method Code",
+                    "dqDesc": "Reference Check for Original Valuation Method Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36919",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36920",
+                    "btLogicalName": "Mitigant Property Location Code",
+                    "dqDesc": "Reference Check for Mitigant Property Location Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36921",
+                    "btLogicalName": "Property Type",
+                    "dqDesc": "Reference Check for Property Type in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36922",
+                    "btLogicalName": "Credit Default Swap Reference Entity Party Identifier",
+                    "dqDesc": "Reference Check for Credit Default Swap Reference Entity Party Identifier in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36923",
+                    "btLogicalName": "Securities Guarantor Identifier",
+                    "dqDesc": "Reference Check for Securities Guarantor Identifier in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36924",
+                    "btLogicalName": "Security Issuer Identifier",
+                    "dqDesc": "Reference Check for Security Issuer Identifier in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36925",
+                    "btLogicalName": "Standard Account Head Identifier",
+                    "dqDesc": "Reference Check for Standard Account Head Identifier in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36926",
+                    "btLogicalName": "Tranche Identifier",
+                    "dqDesc": "Reference Check for Tranche Identifier in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36927",
+                    "btLogicalName": "Valuation Method Code",
+                    "dqDesc": "Reference Check for Valuation Method Code in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36928",
+                    "btLogicalName": "Vehicle Type",
+                    "dqDesc": "Reference Check for Vehicle Type in Stage Mitigants",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                },
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                },
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

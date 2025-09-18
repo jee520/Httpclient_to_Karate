@@ -1,0 +1,357 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Address Line One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the first line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line Three",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the third line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the second line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Anchor Tenant Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to anchor tenant name in case mitigant is real estate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Census Tract Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Census Tract Code of the property. Census Tracts are small, relatively permanent statistical subdivisions of a county or equivalent entity that are updated by local participants prior to each decennial census as part of the Census Bureaus Participant Statistical Areas Program. The Census Bureau delineates census tracts in situations where no local participant existed or where state, local, or tribal governments declined to participate. The primary purpose of census tracts is to provide a stable set of geographic units for the presentation of statistical data.\nCensus tracts are identified by an up to four digit integer number and may have an optional two digit suffix, for example 1457.02 or 23. The census tract codes consist of six digits with an implied decimal between the fourth and fifth digit corresponding to the basic census tract number but with leading zeroes and trailing zeroes for census tracts without a suffix. The tract number examples above would have codes of 145702 and 002300, respectively.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Or Mitigant Repossessed Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Collateral or mitigant repossessed date. Repossession is an action where the party having the right to ownership of the collateral or mitigant takes the collateral or mitigant back from the party having rights of possession without invoking legal proceedings.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Eligible Commercial Property Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the commercial property are eligible to be used as collateral.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Eligible Residential Property Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the residential property are eligible to be used as collateral.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantee Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Store the guarantee account number, in the case of a triparty repo agreement, wherein the bank acts as an agent and provides guarantee to the SFT transaction. This guarantee will also be in the books of the bank. Hence, this will be the guarantee provided by the reporting bank to the SFT transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantee Limited Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Refers to whether the guarantee is unlimited or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Location Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique location code. Location code is defined as the code which will represent the address of the property from zip code onwards like which city, country etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Address Street Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the street name in the address of the mitigant location.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Mitigant Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique of the collateral or mitigant. In case of derivatives such as Futures and options, collateral such as bonds, letters of credit, Stocks, Exchange traded funds, precious metals etc. can be provided as collateral or mitigant. In case of Lease contracts, operating lease, the collateral or mitigant is the asset being leased. Dim_Mitigant is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique of the collateral or mitigant. In case of derivatives such as Futures and options, collateral such as bonds, letters of credit, Stocks, Exchange traded funds, precious metals etc. can be provided as collateral or mitigant. In case of Lease contracts, operating lease, the collateral or mitigant is the asset being leased. Dim_Mitigant is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a description for a mitigant. For example whether a mitigant is a Collateral or a Credit Derivative etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Identifier Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to ISIN if available, other 'recognized' code otherwise, CUSIP, Bloomberg ticker etc., or undertaking specific if nothing else is available, e.g.: property.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Identifier Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to type of Code specified in Mitigant Identifier Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the loss mitigant code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Region Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the region code of the mitigant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the mitigant type of the mitigant. E.g.. Commercial Real Estate, Land, Building etc. for Collateral category of Mitigants.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Lien Position Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the lien position code at origination. Refers to the type of underlying note on the loan. This is also known as the lien position. First mortgage is a mortgage in a first lien position on the property that secures the mortgage. A first mortgage has priority over all other liens or claims on a property in the event of default. If the loan to value, LTV, ratio of a first mortgage is greater than 80 percentage, lenders generally require private mortgage insurance, PMI. In such a case, it can sometimes be economical for a borrower to limit the size of the first mortgage to an 80 percentage LTV and use secondary financing to borrow the remaining amount needed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Property Area",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the property area in case mitigant is real estate. This will store only the numeric part. Unit is stored in property area unit attribute. Used in conjunction with Property Area Unit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Property Area Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the magnitude of the property area in case mitigant is real estate. Expected values are S  Square Feet, R  Rooms, U  Units, L  Lots, A  Acre, O  Others, N Not Applicable, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "15",
+                    "srcLogicalName": "Stage Mitigant Master",
+                    "scdName": "scd_15_DIM_MITIGANT_STG_MITIGANT_MASTER",
+                    "scdDesc": "Data movement from mitigant master source to mitigant dimension",
+                    "createdDate": "2024-10-26 06:02:40.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42611",
+                    "btLogicalName": "Mitigant Numeric Identifier",
+                    "dqDesc": "Mitigant Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQCUS42612",
+                    "btLogicalName": "Mitigant Numeric Identifier",
+                    "dqDesc": "Mitigant Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQLOV31508",
+                    "btLogicalName": "Property Area Unit",
+                    "dqDesc": "Should have list of values as A,L,N,O,R,S,U",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQLOV31509",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQLOV31510",
+                    "btLogicalName": "Eligible Residential Property Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQLOV31511",
+                    "btLogicalName": "Guarantee Limited Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQLOV31512",
+                    "btLogicalName": "Eligible Commercial Property Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQNMDUP42001",
+                    "btLogicalName": "Mitigant Numeric Identifier",
+                    "dqDesc": "Mitigant Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQSPLCH42992",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                },
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                },
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,261 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Location Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique location code. Location code is defined as the code which will represent the address of the property from zip code onwards like which city, country etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Macro Economic Scenario Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code identifies the type of economic scenario considered for the macro economic variable. Based on the scenario code the macro economic variables value would change. For example, Scenario Code is 1 for the base scenario, 2 for adverse scenario and 3 for severely adverse scenario. For scenario code 1, GDP is 0.08, for code 2 GDP is 0.06 and for code 3 GDP is 0.03. The scenario code is used in the LLFP models to arrive at different expected credit loss values during the attribution analysis. The default value of the scenario code should be the base scenario. And as per IFRS 9, institutions need to compute Expected Credit Loss for multiple forecasted Macro economic scenarios and the final Expected Credit Loss be the probability weighted average of these individual values.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Macro Economic Variable Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code for a macro economic variable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Macro Economic Variable Observation Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date from which the value of Macro economic variable is applicable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Macro Economic Variable Observation End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the end date from the value of Macro economic variable is applicable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Macro Economic Variable Observation Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the start date from which the value of Macro economic variable is applicable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Macro Economic Variable Projection Flag",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given macro economic data is a projection or not. List of values are Y and N. Y for projection, N for historical.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Macro Economic Variable Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to the value of the Macro economic variable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV31519",
+                    "btLogicalName": "Macro Economic Variable Projection Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF35308",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Macro Economic Variable Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF35309",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Macro Economic Variable Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF35310",
+                    "btLogicalName": "Macro Economic Variable Observation Date",
+                    "dqDesc": "Reference Check for Macro Economic Variable Observation Date in Stage Macro Economic Variable Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF35311",
+                    "btLogicalName": "Macro Economic Variable Observation Date",
+                    "dqDesc": "Reference Check for Macro Economic Variable Observation Date in Stage Macro Economic Variable Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF35312",
+                    "btLogicalName": "Macro Economic Variable Observation End Date",
+                    "dqDesc": "Reference Check for Macro Economic Variable Observation End Date in Stage Macro Economic Variable Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF35313",
+                    "btLogicalName": "Macro Economic Variable Observation End Date",
+                    "dqDesc": "Reference Check for Macro Economic Variable Observation End Date in Stage Macro Economic Variable Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF35314",
+                    "btLogicalName": "Macro Economic Variable Observation Start Date",
+                    "dqDesc": "Reference Check for Macro Economic Variable Observation Start Date in Stage Macro Economic Variable Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF35315",
+                    "btLogicalName": "Macro Economic Variable Observation Start Date",
+                    "dqDesc": "Reference Check for Macro Economic Variable Observation Start Date in Stage Macro Economic Variable Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF35316",
+                    "btLogicalName": "Country Code",
+                    "dqDesc": "Reference Check for Country Code in Stage Macro Economic Variable Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF35317",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Macro Economic Variable Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF35318",
+                    "btLogicalName": "Location Code",
+                    "dqDesc": "Reference Check for Location Code in Stage Macro Economic Variable Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF35319",
+                    "btLogicalName": "Macro Economic Variable Code",
+                    "dqDesc": "Reference Check for Macro Economic Variable Code in Stage Macro Economic Variable Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF35320",
+                    "btLogicalName": "Macro Economic Scenario Code",
+                    "dqDesc": "Reference Check for Macro Economic Scenario Code in Stage Macro Economic Variable Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                }
+            ]
+        }
+    ]
+}

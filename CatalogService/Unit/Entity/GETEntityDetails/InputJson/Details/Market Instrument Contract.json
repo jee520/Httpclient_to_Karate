@@ -1,0 +1,221 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Daily Trading Volume",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the average daily trading volume of each instrument for the last 4 quarters on a rolling basis. The data expected is in terms of an amount and not units. This attribute will be used by OFS Liquidity Risk Management to compute the average trading volume for all municipal securities issued by a US public sector entity for the purpose of identifying the maximum value permissible to be included in the stock of HQLA while computing the Liquidity Coverage Ratio-LCR as per US Federal Reserve.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bond Price Or Yield Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the bond or bill is quoted with price or yield, must have the value Price or Yield. This is required for Inflation Linked Bonds, Sovereign Bonds, Bills and Corporate Bonds.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Commodity Group",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the group information about the commodity. List of Values will be (Energy, carbon emissions, Precious metals, non-ferrous metals and Other).\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Equity Beta",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Beta value of the Equity mapped to index. This is used in order to find the value of underlying equity from simulated values of respective index., It gives correlation between underlying equity AND RESPECTIVE INDEX.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Equity Index Correlation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the correlation between Equity and Index to which the Equity is mapped to. Correlation has a range between  1 and 1. 1 indicates perfect correlation while  1 indicates a perfect negative correlation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Market Quote Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to financial market Quote type code. Market data for given financial quote type will be used for calculation. Possible inputs: MID, BID, ASK or LST. Instrument Used:CommodityForward.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Capitalization Category Of Issuer",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Market Capitalization Category of Issuer. Expected Values are Large cap, Mid cap, Small Cap.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Instrument Clean Price",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the clean price of instrument. Clean prices are prices without accrued interest. For bond prices, the convention is to list them as a percentage of par value, regardless of what the face value of the bond is, with 100 being equal to par value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Present Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the net present value of the account or investment. Net present value is the sum of discounted cash inflows and cash outflows.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Price Of The Instrument",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the end of the day Net Present value of the instrument. This will be a download in case of exchange traded instruments and will be priced using Quantlib pricing Engines in case of OTC instruments. Price at which this trade was executed, expressed in issuing currency. Value is to be expressed in the issuing currency of the associated security. Also indicates the price of the instrument on its primary market.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Real Price Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the risk factors value real or not. List of values are Y,N. Y is real and  N is not real.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Volatility Of The Instrument",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the current volatility of the instrument. Value is used in calculation of sensitivities of instrument. Volatility of the underlying is considered here.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Yield To Maturity Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the yield to maturity calculated as of Market Date, expressed as a percentage for fixed income products. Refers to the yield to maturity of the investment.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32579",
+                    "btLogicalName": "Real Price Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37603",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Market Instrument Contract",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37604",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Market Instrument Contract",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37605",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Market Instrument Contract",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37606",
+                    "btLogicalName": "Financial Market Quote Type",
+                    "dqDesc": "Reference Check for Financial Market Quote Type in Stage Market Instrument Contract",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37607",
+                    "btLogicalName": "Instrument Code",
+                    "dqDesc": "Reference Check for Instrument Code in Stage Market Instrument Contract",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

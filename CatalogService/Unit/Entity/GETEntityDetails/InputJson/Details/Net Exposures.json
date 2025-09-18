@@ -1,0 +1,500 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Variable Margin Receivable",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Variable cash margin Receivable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Pledge",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total amount which is pledged as collateral by the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Received",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total amount of collateral received by the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Settlement Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the settlement mechanisms used for Secured and Foreign Exchange products.\nFollowing Secured products are identified using this table, LOV are as follows\nTRIPARTY  secured financing transactions settled on the US based tri party platform,\nOTHER  secured financing transactions settled on other e.g., non US third party platforms,\nBILATERAL  secured financing transactions settled bilaterally.\nFollowing Foreign Exchange products are identified using the table,\nCLS  FX transactions centrally cleared via CLS,\nOTHER  FX transactions settled via other non CLS central clearinghouses,\nBILATERAL  FX transactions settled bilaterally. Column stores the codes for the settlement type dimension.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Threshold Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This attribute stores the Contractually maintained Collateral amount by the reporting entity and the counterparty. It is further used in computation of Excess Collateral to be posted by bank, formula: Net Exposure - Collateral Threshold Amount.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Conversion Factor Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the Credit Conversion factor value for an exposure. It is applicable for undrawn part of on balance sheet and drawn and undrawn part of off balance sheet exposures and is used for calculating the effective amount of exposure for which credit risk needs to be calculated. This is expressed in decimal number, For example, 30 percent will be 0.3.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Default Swap Notional Offset Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Notional offset amount of the credit default swaps.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Risk Exposure Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Credit risk exposure amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Support Annex Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the CSA,Credit Support Annex, type whether ONE WAY or TWO WAY of a Netting Agreement.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Derivative Collateral Gross Up",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the collateral gross ups related to derivative contracts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Downgrade Trigger Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the trigger identifier for each account. A trigger is the set of condition in a accounts agreement that initiates a specific action in the event of a change in a firms credit rating. For example, a downgrade in a firms credit rating may set off posting additional collateral.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Credit Default Swap Notional Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Effective Notional Amount of the Credit Default Swaps.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Excess Margin Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the excess margin amount for the reporting entity’s customer to generate funding for additional purchases or short sales of securities or others.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Gross Cash Value Offsets",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the offsets in Gross Cash value of the exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Gross Exposure Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Gross Exposure Amount before Netting.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Gross Notional Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Gross Notional Amount of the exposure in the natural currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Impacted Due To Change In Financial Condition Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether there will be an impact due to change in financial condition for a netting agreement. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Indemnification Exposure Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Indemnification Exposure Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Collateral Exchange Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which collateral was last exchanged between the counterparties. This is used in the calculation of margin period of risk for standardized approach for counterparty credit risk i.e. SA CCR approach.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Of Rehypothecation Rights Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether there will be a loss of rehypothecation rights for a netting agreement due to change in financial condition or due to change in rating of the legal entity. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Margin Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Frequency of the Margin Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Margin Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates the unit of margin frequency, List of values are D for days, M for month, Y for Year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Margin Threshold Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the threshold amount as agreed upon by the counterparty and the bank under a derivative contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Margin Threshold Amount Posted",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the threshold applicable to posting of margin.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the market value of the instrument as on the As of Date. Market value of the asset is the price that would be received to sell an asset in an transaction between market participants on the given day. It is often the quoted market price which is available as part of market data and used to determine the market value of the asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Thirty Days Cumulative Collateral Amount Over Twenty Four Months",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the maximum cumulative value of collateral provided for derivatives. Maximum Cumulative value of collateral in this column refers to Maximum of 30 Days cumulative collateral amount over period of 24 Month. Value is in natural currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Minimum Transfer Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the minimum transfer amount as agreed upon by the counterparty and the bank under a derivative contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Exposure Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Netted Exposure Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Netting Agreement Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the netting agreement code on which the contract is made. A netting agreement is an arrangement between two parties   known as counterparties   that governs the treatment of certain offsetting transactions or contracts. Two transactions offset each other if a gain in one results in a loss in the other. In other words, the transactions hedge each other. This allows for net settlement of all contracts governed by this netting agreement, with a single counterparty, through a single payment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Margin Disputes",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of margin dispute across all the trades in a netting set that have occurred in the last two financial quarters.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Netting Agreement Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether under ISDA you are permitted to net payment under one single transaction. If you have to net payments across different contracts then it has to be an add on agreement. Hence, need a payment netting agreement flag in addition to master agreement code. List of values are Y, N. If the flag is Y then netting is permitted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Potential Future Exposure Adjustments",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the adjustments to potential future exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Proprietary Position Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the position is owned by the bank or is it taken on behalf of the customer. List of values are Y, N. In case the flag is Y then it is for own position of bank else its customer position. This flag is required for FR2052a for line items S.I.1,S.I.2,S.I.4 and S.I.5.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Qualified Central Counterparty Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This attribute indicates whether the party is a qualified central counterparty for clearing trades.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Segregated Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Indicates whether the asset is segregated or not. For FR2052a in line S.I.9 Sleeper Collateral Deliverable we have to report the fair value of unsegregated collateral that the reporting entity may be required by contract to return to a counterparty because the collateral currently held by the reporting entity exceeds the current collateral requirements of counterparty under the governing contract and the fair value of collateral that the reporting entity is contractually obligated to post to a counterparty, but has not yet posted as it has not yet been called by the counterparty of reporting entity. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Settlement In Dispute Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether any of the contract settlement is in dispute. For FR2052a in line S.I.7: Collateral Disputes Deliverables we require to report fair value of collateral called by the reporting entity’s counterparties that the reporting entity has yet to deliver due to a dispute. Disputes include, but are not limited to, valuation of derivative contracts. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Settlement Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the settlement mechanisms used for secured and foreign exchange products. Expected values for secured tables are T  TRIPARTY, B  BILATERAL and O OTHER. Expected values for foreign exchange tables are C CLS,B  BILATERAL and O  OTHER.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Time To Collateral Posting In Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to Time to Collateral Posting in days. Time to collateral posting is the time after rating of the legal entity are downgraded and there is requirement to post additional collateral.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Margin Dispute Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Number_Factor",
+                    "gcd": "Refers to the total number of days margin dispute has occurred across all trades in the particular netting set for last two financial quarters.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV31500",
+                    "btLogicalName": "Segregated Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQLOV31501",
+                    "btLogicalName": "Proprietary Position Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQLOV31502",
+                    "btLogicalName": "Payment Netting Agreement Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF35281",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Net Exposures",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF35282",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Net Exposures",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF35283",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Net Exposures",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF35284",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Net Exposures",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF35285",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Net Exposures",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF35286",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Net Exposures",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF35287",
+                    "btLogicalName": "Netting Agreement Code",
+                    "dqDesc": "Reference Check for Netting Agreement Code in Stage Net Exposures",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF35288",
+                    "btLogicalName": "Collateral Settlement Type",
+                    "dqDesc": "Reference Check for Collateral Settlement Type in Stage Net Exposures",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF35289",
+                    "btLogicalName": "Settlement Type",
+                    "dqDesc": "Reference Check for Settlement Type in Stage Net Exposures",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:06.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

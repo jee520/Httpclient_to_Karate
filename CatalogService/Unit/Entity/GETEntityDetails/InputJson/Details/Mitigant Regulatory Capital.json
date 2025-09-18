@@ -1,0 +1,67 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique of the collateral or mitigant. In case of derivatives such as Futures and options, collateral such as bonds, letters of credit, Stocks, Exchange traded funds, precious metals etc. can be provided as collateral or mitigant. In case of Lease contracts, operating lease, the collateral or mitigant is the asset being leased. Dim_Mitigant is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the value of mitigant or collateral linked to account or contract. Value of an instrument is easy to determine if the instrument trades on a well recognized exchange. In case the collateral does not trade on an exchange, appropriate valuation or appraisal methods may be employed to arrive at an estimated market value. It is used as an indication of the amount that could be fetched if the collateral is sold in open market as on As of Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regulatory Accounting Head Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This column stores the standard accounting head Identifier, applicable for the asset.\nThis will be used for identifying whether the asset has to be deducted from capital due to\nvarious regulatory capital lines, or for deduction from other exposure, as part of the\nregulatory capital guidelines.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Weight",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the risk weight assigned to an exposures. In case of the tranche, it will be allocated risk weight based on the rating assigned to the tranche.\nPre mitigation risk weight for the exposure or the mitigant, depending on whether it is an eligible mitigant or an uncovered mitigant, as applicable for the corresponding asset class. This risk weight is generally calculated based on the effective rating of the mitigant or exposure. Risk weight is applied based on Asset class and Rating combinations.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

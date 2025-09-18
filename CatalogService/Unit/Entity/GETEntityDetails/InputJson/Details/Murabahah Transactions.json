@@ -1,0 +1,602 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the business unit code as defined by the organization. A business unit is generally a broader definition and represents all the units in an organization. Business Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Canceled Pairing Transaction Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Store the Transaction Reference Identifier of the cancelled transaction. For cancelled transactions, contains the Transaction Reference Identifier of the cancelling transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Canceling Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify if the transaction cancels another transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Conversion Rate From Transaction Currency To Account Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Long",
+                    "gcd": "Refers to the rate that is applied to convert the transaction amount from the transaction currency to the account currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Conversion Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the conversion type for rate conversion between entered amount and accounted amount for FAH. This may be populated for specific FAH related activities. Possible Values include spot, corporate, user.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Debit Credit Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Flag to indicate if the account balance is in debit or in credit. If the value is updated as D means the balance is in debit and if the value is updated as C means the balance is in credit. Debit balance will indicate the amount which is due and credit balance is the amount which could arise due to overpayment of the cycle balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Event Date Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the date on which transaction event occurred in a number format i.e. YYYYMMDD for FAH.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Event Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the event identifier generated via the FAH event generation program. This column should not be populated during implementation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Execution Time",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Timestamp",
+                    "gcd": "Refers to the time on Execution Date at which this transaction was conducted and is applicable for cash transactions and electronic fund transfer. Refers to the time along with time zone information.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique general ledger account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Header Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the header identifier required for FAH header line Processing. A header record will have multiple transaction lines in the transaction tables.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the line identifier of the transaction. A single logical transaction may result in multiple lines and each such line will be identified by this attribute.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Obligation Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to time specific obligation identifier. Time specific obligations are obligations which must be settled at a specific time within the day or have an expected intraday settlement deadline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Settlement System Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Payment Settlement system Identifier. A payment and settlement system can be described as a system which consists of a particular group of institutions and a set of instruments and procedures, designed to ensure the circulation of money and speed up interbank and other settlements resulting from the various economic transactions either within a country or between countries.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Reversal Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether the transaction event was as a result of a cancelled transaction. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Session Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the transaction session.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the transaction amount expressed in the transaction currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Amount Account Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the transaction amount expressed in the account currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Amount In Natural Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the transaction amount in Natural currency. It Refers to the Negative value in case of reversals.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the ISO code for the currency in which the transaction is done.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the transaction was recorded in the system. Transaction Date is the date on which a security or other financial instrument is traded. The transaction date represents the time at which ownership is transferred.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "Refers to the description relating to each of the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Mnemonic Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique transaction mnemonic code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Origin Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the ISO country code where the transaction originated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Posting Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which this transaction was posted against the associated account for monetary instruments and checks.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the purpose of this transaction. Transaction Purpose Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Reference Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to transaction reference number. Transactions are cash inflows or cash outflows that occurs for each account. Each transaction will be represented with a unique identifier which is called as transaction reference number.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Reversal Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to Date of the transaction which is a reversal entry that made to cancel out a specific entry. These reversal entries are the entries that can be passed as a result of a cancelled transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Value Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the transaction happened.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQCLREF86",
+                    "btLogicalName": "Transaction Value Date",
+                    "dqDesc": "It should be less than or equal to As of Date",
+                    "dqType": "Column Reference or Specific Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQLOV32012",
+                    "btLogicalName": "Canceling Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQLOV32013",
+                    "btLogicalName": "Reversal Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQLOV32014",
+                    "btLogicalName": "Debit Credit Indicator",
+                    "dqDesc": "Should have list of values as C,D",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQMNDTR193",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Mandatory",
+                    "dqType": "NULL Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQMNDTR194",
+                    "btLogicalName": "Transaction Reference Number",
+                    "dqDesc": "Mandatory",
+                    "dqType": "NULL Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQMNDTR195",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Mandatory",
+                    "dqType": "NULL Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQMNDTR196",
+                    "btLogicalName": "Transaction Mnemonic Code",
+                    "dqDesc": "Mandatory",
+                    "dqType": "NULL Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQMNDTR248",
+                    "btLogicalName": "Transaction Date",
+                    "dqDesc": "should be less than or equal to As OF Date",
+                    "dqType": "Column Reference or Specific Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQMNDTR248_1",
+                    "btLogicalName": "Transaction Date",
+                    "dqDesc": "Mandatory",
+                    "dqType": "NULL Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36424",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36425",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36426",
+                    "btLogicalName": "Transaction Reversal Date",
+                    "dqDesc": "Reference Check for Transaction Reversal Date in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36427",
+                    "btLogicalName": "Transaction Reversal Date",
+                    "dqDesc": "Reference Check for Transaction Reversal Date in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36428",
+                    "btLogicalName": "Transaction Date",
+                    "dqDesc": "Reference Check for Transaction Date in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36429",
+                    "btLogicalName": "Transaction Date",
+                    "dqDesc": "Reference Check for Transaction Date in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36430",
+                    "btLogicalName": "Transaction Posting Date",
+                    "dqDesc": "Reference Check for Transaction Posting Date in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36431",
+                    "btLogicalName": "Transaction Posting Date",
+                    "dqDesc": "Reference Check for Transaction Posting Date in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36432",
+                    "btLogicalName": "Transaction Value Date",
+                    "dqDesc": "Reference Check for Transaction Value Date in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36433",
+                    "btLogicalName": "Transaction Value Date",
+                    "dqDesc": "Reference Check for Transaction Value Date in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36434",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36435",
+                    "btLogicalName": "Business Unit Code",
+                    "dqDesc": "Reference Check for Business Unit Code in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36436",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36437",
+                    "btLogicalName": "General Ledger Account Code",
+                    "dqDesc": "Reference Check for General Ledger Account Code in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36438",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36439",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36440",
+                    "btLogicalName": "Payment Settlement System Code",
+                    "dqDesc": "Reference Check for Payment Settlement System Code in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36441",
+                    "btLogicalName": "Transaction Currency Code",
+                    "dqDesc": "Reference Check for Transaction Currency Code in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36442",
+                    "btLogicalName": "Transaction Mnemonic Code",
+                    "dqDesc": "Reference Check for Transaction Mnemonic Code in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36443",
+                    "btLogicalName": "Transaction Origin Country Code",
+                    "dqDesc": "Reference Check for Transaction Origin Country Code in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                },
+                {
+                    "dqId": "DQREF36444",
+                    "btLogicalName": "Transaction Purpose Code",
+                    "dqDesc": "Reference Check for Transaction Purpose Code in Stage Murabahah Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:23.0",
+                    "modifiedDate": "2024-11-04 04:39:27.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

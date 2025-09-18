@@ -1,0 +1,579 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Fiscal Period Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to unique fiscal period code of each Jurisdiction example IND_RBI for Indian Regulatory reporting.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Local Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to a unique ISO code representing a particular local currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Management Ledger Code Combination Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the management ledger chart of accounts code combination identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Month Period Name",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Month Period Name.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Period YTD Begin Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 0th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Period YTD Begin Balance in Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 0th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 1 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 1st day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 1 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 1st day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 10 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 10th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 10 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 10th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 11 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 11th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 11 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 11th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 12 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 12th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 12 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 12th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 13 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 13th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 13 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 13th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 14 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 14th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 14 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 14th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 15 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 15th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 15 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 15th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 16 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 16th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 16 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 16th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 17 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 17th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 17 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 17th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 18 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 18th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 18 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 18th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 19 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 19th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 19 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 19th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 2 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 2nd day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 2 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 2nd day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 20 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 20th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 20 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 20th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 21 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 21st day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 21 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 21st day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 22 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 22nd day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 22 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 22nd day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 23 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 23rd day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 23 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 23rd day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 24 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 24th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 24 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 24th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 25 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 25th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 25 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 25th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 26 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 26th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 26 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 26th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 27 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 27th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 27 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 27th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 28 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 28th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 28 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 28th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 29 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 29th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 29 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 29th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 3 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 3rd day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 3 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 3rd day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 30 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 30th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 30 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 30th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 31 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 31st day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 31 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 31st day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 4 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 4th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 4 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 4th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 5 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 5th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 5 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 5th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 6 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 6th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 6 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 6th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 7 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 7th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 7 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 7th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 8 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 8th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 8 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 8th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 9 Of Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Aggregate of the end balances of all days in this period, up to and including the 9th day of this accounting period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "YTD Balance As On Day 9 Of Period In Local Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to Aggregate of the end balances of all days in this period, up to and including the 9th day of this accounting period in Local Currency.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

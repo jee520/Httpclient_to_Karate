@@ -1,0 +1,99 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "First Mortgage Modification Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the code to be used for First Mortgage Loan Modification.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Home Equity Modification Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the code to be used for Home Equity Loan Modification.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Modification Type",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the loan that is currently operating under modified terms and identifies the specific terms that were altered through loss mitigation efforts.\nThis field is independent of investor and speaks only to the nature of the program. For example, a FNMA loan may be modified under either a FDIC or proprietary modification program where in these cases this field would be populated with either the FDIC or proprietary codes while the Investor field would identify the modification as being performed on a FNMA loan.\n0. Loan has not been modified \n6. ASF Streamline \n8. FHFA Streamline which is Specific to program announced on 12.15.08\n9. FDIC Streamline which is Mod in a Box\n10. Proprietary Systematic Program \n11. Proprietary Other \n12. Home Affordable Modification and\n0. Not Modified\n7. 2MP\n8. Proprietary Systematic\n9. Proprietary Other\n10. HAMP.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Modification Type Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description of loan that is currently operating under modified terms and identifies the specific terms that were altered through loss mitigation efforts.\nThis field is independent of investor and speaks only to the nature of the program. For example, a FNMA loan may be modified under either a FDIC or proprietary modification program where in these cases this field would be populated with either the FDIC or proprietary codes while the Investor field would identify the modification as being performed on a FNMA loan.\n0. Loan has not been modified \n6. ASF Streamline \n8. FHFA Streamline which Specific to program announced 12.15.08 \n9. FDIC Streamline which is Mod in a Box \n10. Proprietary Systematic Program \n11. Proprietary Other \n12. Home Affordable Modification and\n0. Not Modified\n7. 2MP\n8. Proprietary Systematic\n9. Proprietary Other\n10. HAMP.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Modification Type Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Loan Modification Type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Modification Type Regulatory Display Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the display codes to be used in regulatory report submissions for Loan Modification Type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}
