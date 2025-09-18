@@ -1,0 +1,177 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Investor Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the investor id of the investor who has invested in the instrument issued by the legal entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Reciprocal Cross Holding Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicates if the exposure has reciprocal cross holding or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Reciprocal Cross Holdings Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the reciprocal cross holdings amount. A holding is treated as reciprocal cross holding if the investee entity has also invested in any class of capital instruments of bank which need not necessarily be the same as the holdings of bank. Reciprocal cross holdings of capital in the BFSI must be fully deducted. Banks must apply a corresponding deduction approach to such investments in the capital of other banks and other financial institutions. This means the deduction should be applied to the same component of capital like Common Equity, Additional Tier 1 and Tier 2 capital for which the capital would qualify if it was issued by the bank itself. So, if Reciprocal cross holding is in CET1, the same amount needs to be deducted from the CET1 of the consolidated capital. Similarly, deduction should be applied for AT1 and T2.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV34050",
+                    "btLogicalName": "Reciprocal Cross Holding Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF41038",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Capital Investments Positions Table",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF41039",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Capital Investments Positions Table",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF41040",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Capital Investments Positions Table",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF41041",
+                    "btLogicalName": "Instrument Code",
+                    "dqDesc": "Reference Check for Instrument Code in Stage Capital Investments Positions Table",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF41042",
+                    "btLogicalName": "Investor Identifier",
+                    "dqDesc": "Reference Check for Investor Identifier in Stage Capital Investments Positions Table",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF41043",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Capital Investments Positions Table",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQREF41044",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Capital Investments Positions Table",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

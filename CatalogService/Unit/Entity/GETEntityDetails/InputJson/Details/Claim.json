@@ -1,0 +1,404 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Claim Cause Of Loss Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This is the claim cause of loss or peril triggering the loss. Sample values are fire, flood, sprinkler leakage, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Claim Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This is the text description of the claim.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Claim Group Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the unique identifier of the claim group.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Claim Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to a unique identifier for each claim made.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Claim Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to a unique identifier for each claim made.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Claim Made Retroactive Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the date the claim coverage is triggered if the claim is made during the policy period for an injury or damage that occurred after the policy retroactive date of the policy. This provision is found in claims made policies. The loss date is always after the retroactive date in this case.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Claim Management Assigned Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the calendar date when the claim was assigned to some representative in the claims management.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Claim Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This is the numeric identifier associated with the claim.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Claim Reclosed Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is latest date on which the claim was re closed by the insurance organization. In case of multiple reopen the latest date is expected.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Claim Reopened Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is latest date on which the claim was re opened by the insurance organization, if applicable. In case of multiple instances of reopening the latest date should be considered.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Claim Reported By Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the unique identifier of the individual who reported the claim.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Claim Reported Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is date on which the claim was submitted to the insurance organization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Claim Submission Method Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This is the manner in which the claimant informs the insurance company of any loss. Sample values are Internet, call, mail, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Residence Address Line 1",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the address line 1 for the Loss Location.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Line 2",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the address line 2 for the Loss Location.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Line 3",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the address line 3 for the Loss Location.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address Line 4",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the address line 4 for the Loss Location.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "First Claim Contact Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the calendar date when the first contact with the claimant was made by the representative of the Insurance company after the claim was reported.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "First Claim Payment Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the calendar date when the first payment towards the claim was generated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fraud Claim Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This is the type of fraud under which the claim can be categorized. Example Exaggerated Claim, Arson, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fraud Investigation Assignment Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicating whether or not the claim should be investigated for potential fraud. List of values are Y for Yes and N for No.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Large Loss Analysis Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicating, based on the decision of the insurance company, whether or not the claim should be counted for Large Loss Analysis. List of values are Y for Yes and N for No.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Payment Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the immediate past date on which the payment was made to the account. For a repo contract this will generally be same as origination date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Salvage Payment Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the calendar date when the last salvage payment or recovery was received by the insurance company.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Subrogation Payment Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "The is the calendar date when the last subrogation payment or recovery was received by the insurance company.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Location Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique location code. Location code is defined as the code which will represent the address of the property from zip code onwards like which city, country etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the calendar date when the loss has occurred.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Repair Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "This is the number of days or indemnity period in days that a rental was necessary while damaged property was repaired or claim settled.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Rental Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "This is the count of days that were required to repair damaged property.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Storage Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "This is the number of days that a covered item was stored before claim settlement.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Claim Identifier Reopened",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This is the unique identifier for each claim made. A previously closed claim can be reopened under certain circumstances like when the claimant has inadvertently missed out listing some of the items, or when insurer has reimbursed at the actual cost of the item and not the replacement cost or when a policy holder feels that they are entitled to reimbursement following the denial of their claim by the insurance company. This is used when claim is reopened and for every reopening new claim identifier is generated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Policy Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the unique identifier of the policy held by the customer. An insurance policy identifier or number is a unique identifier provided by insurance company which is used to identify particular contract between insurance company and policyholder wherein insurance company accepts to cover specific risks in return of premium payments by policyholder as per terms and agreements. The policy number can be referenced from policy document and needs to be quoted with all communication with insurance company.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Reinsurance Contract Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the unique identifier of the reinsurance contract associated with given direct insurance contract. Reinsurance is a process whereby one entity takes on all or part of the risk covered under a policy issued by an insurance company in consideration of a premium payment. When particular reinsurance contract is participation across multiple reinsurers, same should be updated in stage insurance participation details and not here. Users should update here only when reinsurance contracts are not participated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "326",
+                    "srcLogicalName": "Stage Claim Master",
+                    "scdName": "scd_326_DIM_CLAIM_STG_CLAIM_MASTER",
+                    "scdDesc": "Data movement from claim master source to claim dimension",
+                    "createdDate": "2024-10-26 06:02:43.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42697",
+                    "btLogicalName": "Claim Numeric Identifier",
+                    "dqDesc": "Claim Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQCUS42698",
+                    "btLogicalName": "Claim Numeric Identifier",
+                    "dqDesc": "Claim Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQLOV32019",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQLOV32020",
+                    "btLogicalName": "Fraud Investigation Assignment Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQLOV32021",
+                    "btLogicalName": "Large Loss Analysis Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQNMDUP42029",
+                    "btLogicalName": "Claim Numeric Identifier",
+                    "dqDesc": "Claim Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                },
+                {
+                    "dqId": "DQSPLCH43023",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:24.0",
+                    "modifiedDate": "2024-11-04 04:39:28.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,210 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cohort Composition Attribute Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the attribute type code of the criteria applicable for cohort and cohort group. Supported list of attribute types are PARTYTYPE  for Party Type Code, PRODTYPE for Product Type, LOB for Line of Business, CS for Credit Score, AGE for Age, MAT for Maturity, LE for Legal Entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cohort Composition Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier to represent the unique combination of V_COHORT_ID, V_COHORT_GROUP_ID, V_ATTRIBUTE_TYPE and V_MEMBER_ID.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cohort Composition Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier to represent the unique combination of V_COHORT_ID, V_COHORT_GROUP_ID, V_ATTRIBUTE_TYPE and V_MEMBER_ID.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cohort Composition Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Cohort Composition Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cohort Group Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Cohort group identifier. One cohort ID can have one or more cohort group. This is used to identify the set of conditions applicable to form the cohort.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cohort Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Cohort Mapping Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lower Bound Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Band Lower Bound Value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Member Band Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the member is associated with a range of values. List of values are Y, N. Y indicates it is a range and has different upper bound value and Lower bound value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Member Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the value associated with the Attribute Type mentioned. In case the attribute type is Party then this column will have the Party_id, in case of Account it will have the Account_ID. If there is no value provided in this column, then it will be considered as applicable for all. For example, if the attribute type is Party and there is no values provided in this column, then this Cohort is applicable all Party IDs.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Upper Bound Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Band Upper Bound Value.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1023",
+                    "srcLogicalName": "Stage Cohort Composition Master",
+                    "scdName": "scd_1023_DIM_COHORT_COMPOSITION_STG_COHORT_COMPOSITION_MASTER",
+                    "scdDesc": "Data movement from cohort composition master source to cohort composition dimension",
+                    "createdDate": "2024-10-26 06:02:42.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42273",
+                    "btLogicalName": "Cohort Composition Numeric Identifier",
+                    "dqDesc": "Cohort Composition Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:33.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQCUS42274",
+                    "btLogicalName": "Cohort Composition Numeric Identifier",
+                    "dqDesc": "Cohort Composition Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:33.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQLOV31268",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:33.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQLOV31269",
+                    "btLogicalName": "Member Band Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:33.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQNMDUP41983",
+                    "btLogicalName": "Cohort Composition Numeric Identifier",
+                    "dqDesc": "Cohort Composition Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:33.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQSPLCH42793",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:33.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

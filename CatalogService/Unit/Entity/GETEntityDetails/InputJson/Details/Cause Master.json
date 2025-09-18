@@ -1,0 +1,196 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Authorization Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates authorized state of the record. Can only have values P or A or R. P is Pending Authorization, A is Accepted and Authorized, R is Rejected.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cause Active Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the cause is active or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cause Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Code for the Cause.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cause Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Long",
+                    "gcd": "Refers to the description of the cause.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cause Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Name of the Cause.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cause Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Cause Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Checker Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the change was approved.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Checker Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the User ID who approves any change made in the dimensional definition.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Checker Remarks",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "Refers to the Approval remarks on the change in definition.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal External Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the list of values either Internal or External Cause. For example, External causes can be the actions by agents External to the firm, like, Phishing Attacks, Denial of Service, Various forms of Fraud by individuals or groups, including Mortgage Fraud. Values are 'I' for Internal Legal Entity and 'E' for External Legal Entity.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maker Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the change was requested.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maker Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the User ID who performs any change in the dimensional definition.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maker Remarks",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "Refers to the Creation remarks on the change in definition.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Parent Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Parent Undertaking code of the above entity. In case an entity has multiple parent holding companies, this column will store the parent code for which reports are generated.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32766",
+                    "btLogicalName": "Authorization Indicator",
+                    "dqDesc": "Should have list of values as A,P,R",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                },
+                {
+                    "dqId": "DQLOV32767",
+                    "btLogicalName": "Cause Active Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                },
+                {
+                    "dqId": "DQLOV32768",
+                    "btLogicalName": "Internal External Flag",
+                    "dqDesc": "Should have list of values as E,I",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                },
+                {
+                    "dqId": "DQLOV32769",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

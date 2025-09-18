@@ -1,0 +1,230 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collection Bucket Function Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the collection bucket in which the amount was due such as low balance or high balance, over limit, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collection Officer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique ID of the collection officer as available in the source system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contact Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the contact was made with the account holder.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contact Method Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the contact method as call, mail, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contact Reference Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of contact made by collection officer.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contact Status Attempt Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the attempt status as to whether contact was made or not.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mode Of Contact",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the mode of contact whether Call/Mail/Field Visit was made to contact the account holder.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Promise Taken Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Flag indicates to show on contact, account holder promised to pay, valid values are Y & N.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Promised Payment Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which account holder has promised for payment.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Promised Amount for collection",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "The total amount of all promises taken by collector for re-payment from the account\nholder.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32578",
+                    "btLogicalName": "Promise Taken Indicator",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF37595",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Collector Contacts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF37596",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Collector Contacts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF37597",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Collector Contacts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF37598",
+                    "btLogicalName": "Collection Officer Identifier",
+                    "dqDesc": "Reference Check for Collection Officer Identifier in Stage Collector Contacts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF37599",
+                    "btLogicalName": "Contact Method Code",
+                    "dqDesc": "Reference Check for Contact Method Code in Stage Collector Contacts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF37600",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Collector Contacts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF37601",
+                    "btLogicalName": "Collection Bucket Function Code",
+                    "dqDesc": "Reference Check for Collection Bucket Function Code in Stage Collector Contacts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF37602",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Collector Contacts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

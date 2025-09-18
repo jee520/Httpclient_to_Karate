@@ -1,0 +1,411 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Accepted Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the Bill is accepted by the bank for the letter of credit or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Discount Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the benchmark rate that has been used for discounting the bill. Financial Institution purchases the bill at the discounted value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bill Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount of the bill that the Financial Institution receives on maturity of the bill. A bill may be under an LC or may not be under LC. If not under LC, the exporter is liable for the payment, else it would be bank of the exporter.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bill Originator Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Unique identifier of the Bill Originator Party, A bill originator Party is the person who accepts the bill and hands over to the seller. In other words Bill originator is the person who brought the goods or services from seller or manufacturer or service provider and in return accepts, agrees the terms and conditions and signs on the bill, the bill and confirms that he or she makes the payment in the future date. The party dimension is the equivalent reference table.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Communication Charges",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount incurred by the Financial Institution towards communication charges. This would include direct expenses. Additionally, Financial Institution may allocate indirect expenses to an account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Customer Net Revenue",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the customer net revenue obtained from funds.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Devolved Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount invoked by the counterparty, also known as the beneficiary, of the guarantee on the guaranteeing institution, Bank, for non fulfillment of guarantee conditions by the Party, the customer of the bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Devolvement Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the devolvement status code. Devolvement is a process whereby if an investment issue is undersubscribed, an underwriter is required to subscribe to the remaining shares. The outstanding unsubscribed amount devolves onto the underwriter. This column will hold the values as Devolved or Not Devolved.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dilution Risk Appropriately Monitored Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the financial institution demonstrates that the dilution risk is appropriately monitored and managed to be resolved within one year. This is related to dilution risk of purchase receivables.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dilution Risk Materiality Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether Dilution Risk is material for the purchasing bank or not. Dilution refers to the possibility that the receivable amount is reduced through cash or non cash credits to the receivable obligor. If the bank can demonstrate veto to its supervisor that the dilution risk for the purchasing bank is immaterial then they can go ahead to compute capital only for default risk.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Discount Amount Accrued Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the discount accrued on the purchased bill. Bills are generally purchased at the discount as a finance option available to the exporter.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Discount Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the discount rate that is applied to a future value of a bill. If a bill has to be discounted, the negotiating bank or confirming bank would have to accept the documents submitted by the exporter. This is used to calculated price or yield of T bill. It is not required if market Price or Bond Equivalent Yield has been given.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Endorsement Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the endorsement of bills of exchange by a bank. It acts as a assurance to the counterparty and is generally used wherein the business parties are unknown to each other.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Expected Loss Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the expected loss in percent. Expected loss in percent is the product of probability of default and loss given default. The product of expected loss percent and exposure at default amount gives the expected loss amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Factor Reserve Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount retained by the factor, Credit Institution, in some factoring contracts and is held by the factor until the customer, bill originator, of the company submits the invoice payment in full.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Foreign Transaction Financing In Domestic Currency Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the bills of exchange originally between foreign importer and foreign exporter in foreign currency has been switched to domestic currency while financing. The value will be Yes if the bills of exchange between foreign parties is financed in the domestic currency. The list of values are Y or N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forward Sale Agreement Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if there is an Forward sale agreement associated with the account. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Forward Sale Agreement Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the party identifier of the Forward sale agreement associated with the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Import Financed By Seller Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether bills of exchange if financed by the seller or not. The value will be Yes when the importer is also receiving credit from the seller List of values are Y or N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ineligible Acceptance Or Borrowings Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "An ineligible acceptance is a time draft accepted by a bank, which does not meet the requirements for discount with a Federal Reserve Bank. \nAcceptances Not Based On Sales And Not Secured, Ineligible Acceptances, which are drawn by a manufacturer and accepted by a trust company, not a member of the Federal Reserve System, the proceeds of which are to be used for purchases of raw material and payment for labor, where the goods have not been sold, and no warehouse receipts or other instruments could be furnished, are held not to be eligible for purchase by a Federal Reserve bank.\nAcceptances Secured By Bill Of Sale Ineligible: A bankers acceptance drawn for the purpose of purchasing goods secured by a bill of sale of stock in hand is not eligible for purchase by Federal Reserve banks.\nBills Payable Outside The United States Ineligible: Under the regulations of the Federal Reserve Board defining bankers acceptances, any bill which is payable elsewhere than in the United States would not be eligible for purchase as a bankers acceptance, even though eligible in all other respects, but might, however, be purchased as a bill of exchange payable in a foreign country.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Payment Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the interest payment type if it is in advance or in arrears. If the value is selected as Arrears than interest payments are paid at the end of the payment period along with the principal payments. If the value is selected as Advance than Interest payments are paid at the beginning of the payment period starting from the origination date. Payments are made on every payment date except for the Maturity date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Invoice Payment Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the invoice generated for the bills of exchange has been settled or not. The value will be settles if the invoice payment has been done. The list of values are Y or N, where Y means Settled and N means Unsettled.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Delinquent Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date when the loan was last delinquent. This is the most recent data when the account was in delinquent state. The last delinquent date represent the previous time the loan was delinquent even though the loan is in Current or in Performing status.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Reprice Offset Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Store the offset balance as of last reprice date. A offset loan can be offset by balance in CASA account or multiple accounts, Refers to the credit balance in CASA account as of the last reprice date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Latest Record Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies the latest records for a particular combination of primary keys. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Load Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the load run identifier. Load run identifier enables user to load multiple versions intraday or post back dated adjustment entries to the table. Refers to the Load run identifier of the equivalent record in product processor that needs to be adjusted. Default value of  1 indicates that the latest load run is being adjusted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Delinquent Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the days past due. Days past due are the days after the due date and is application when the payment is not made by the party to the bank. This indicates by how many days a payment is overdue.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operation Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the operations performed on a letter of credit contract. Expected values are Advise, Confirm etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Charges",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the other charges levied by the financial institution. This is a catch all bucket to capture all the miscellaneous charges for which no specific head exists.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Party Charges",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to any other charges levied by the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the counterparty Financial Institution of the importer or exporter. This refers to the other party code, here would indicate the broker for the FX contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Overdue Principal Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the overdue days for the principal component of the loan contract starting from first due date. The loan installment amount consists of a principal component and the interest component. In case of late payments, a single installment may not be enough to cover the principal amount as per the schedule.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Participation Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or credit facility is a part of the syndicate. Syndicated loans are usually large loans made to corporate borrowers. More than one financial institution is involved in a syndicated loan. The main goal of syndicated lending is to spread the risk of a borrower default across multiple lenders, such as banks, or institutional investors like pensions funds and hedge funds. Because syndicated loans tend to be much larger than standard bank loans, the risk of even one borrower defaulting could cripple a single lender. Syndicated loans are also used in the leveraged buyout community to fund large corporate takeovers with primarily debt funding.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Penalty Charges",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the penalty charges applicable or levied on the account. Penalty charges may be applicable in case of late payments, prepayments etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prepayment Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to amount prepaid by the customer to reduce his outstanding balance. All prepayments are apportioned towards principal component. Prepayments are done by customers due to several reasons such as high interest rate, low penalty, emigration, windfall etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prepayment Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if prepayment is allowed on the account. Prepayment are early payments on the loan. All prepayments are apportioned towards principal component. Prepayments are done by customers due to several reasons such as high interest rate, low penalty, emigration, windfall etc. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Amount Recovered",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the principal component of the amount recovered. Recovery refers to the process of collecting overdue amount. Recovery can be applicable to loans/debt in several categories like current, delinquent, non performing, sub standard, doubtful, bad.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description of each of the Products offered by the Bank. For e.g. Automobile loans or Wire transfer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rediscounted Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the security is eligible for rediscounting by a Central Bank. Rediscounting is the act of discounting a security for the second time. Banks rediscount their securities, to generate cash and hence liquidity so as to assist the movement of a market that has a high demand for loans. The List of Values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Revolving Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is a term or revolving account. Revolving credit is a type of loan or credit that does not have a fixed number of payments. The revolving limit is similar to a credit limit against which a customer can draw funds for financing. Revolving amount is applicable to products like credit cards, revolving loans or line of credit etc. Term products are those products that have pre scheduled payments or maturity. Examples of term products are term loans, term deposits or Certificate of deposit etc. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Security Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "The column stores security amount placed by obligors that carry no interest and not managed as a deposit in the deposit system. Amounts managed as deposit are to be loaded into stage casa or stage td contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Servicer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the party Id of the Servicer who is currently holding the servicing rights of the account. Party dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Settlement Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the settlement status of the bill.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Prepayment Amount Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total prepayment amount on the account till date. Prepayments are unscheduled advance principal payments on a loan. Prepayments are done by customers for several reasons. The prepayment reasons can be High interest rates, Low prepayment penalty, High fees, Emigration, windfall etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Trade Related Transaction Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Indicates whether the bills of exchange is related to import or export for example trade. The list of values are Y or N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Weighted Account Life In Months",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Weighted Account Life reflect the weighted Account of time to principal actual repayment based on current position, the impact of new business activity, as well as the impact of behavioral assumptions such as prepayments or defaults, based on the expected remaining lives, inclusive of behavioral assumptions in months.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

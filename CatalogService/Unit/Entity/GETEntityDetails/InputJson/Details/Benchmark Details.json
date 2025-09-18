@@ -1,0 +1,134 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Balance Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the balance types like, ETL, Assignment, Offset etc. that classifies records created during allocation process.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Numeric",
+                    "gcd": "Refers to the column that stores unique Id for the benchmark balance type.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Provider Jurisdiction Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Jurisdiction or country code of the Benchmark provider",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Source",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the different benchmark sources like RBI, Moody's, crisil etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "This is the Bench Mark Value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Variable Domain Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier for the Financial Domain attribute.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF35925",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Benchmark Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF35926",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Benchmark Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF35927",
+                    "btLogicalName": "Balance Type",
+                    "dqDesc": "Reference Check for Balance Type in Stage Benchmark Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF35928",
+                    "btLogicalName": "Benchmark Source",
+                    "dqDesc": "Reference Check for Benchmark Source in Stage Benchmark Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF35929",
+                    "btLogicalName": "Financial Variable Domain Code",
+                    "dqDesc": "Reference Check for Financial Variable Domain Code in Stage Benchmark Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

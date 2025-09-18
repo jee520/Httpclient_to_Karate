@@ -1,0 +1,296 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Application Promotion Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the promotion code for the campaign.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Approved Budget Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Budget amount which is approved for the campaign to perform certain campaign related activities.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description of the campaign. For example the type of campaign used by a financial institution can be a road show, email campaign, etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Fixed Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the fixed cost involved in a campaign like rent of the place where campaign is executed, salary of the employees who are involved in a campaign etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the campaign under which the account was acquired. Campaign is defined as Specific activities designed to promote a product, service or business. A marketing campaign is a coordinated series of steps that can include promotion of a product through different mediums like television, radio, print, online using a variety of different types of advertisements. The campaign doesn't have to rely solely on advertising, and can also include demonstrations, word of mouth and other interactive techniques. Campaigns are created or started by financial institutions to promote sales, improve visibility of the brand or product and create opportunities for addon sales and cross selling.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the campaign under which the account was acquired. Campaign is defined as Specific activities designed to promote a product, service or business. A marketing campaign is a coordinated series of steps that can include promotion of a product through different mediums like television, radio, print, online using a variety of different types of advertisements. The campaign doesn't have to rely solely on advertising, and can also include demonstrations, word of mouth and other interactive techniques. Campaigns are created or started by financial institutions to promote sales, improve visibility of the brand or product and create opportunities for addon sales and cross selling.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Incentive Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the incentive cost incurred for the campaign like free-bee given, extra services provided etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Marketing Manager",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the marketing manager assigned to the campaign who will assist in promotion & marketing activities involved in a campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the name of the campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This is the numeric identifier associated with the campaign.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Region Targeted",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the region which is targeted for the campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Requested Budget Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the budget amount which is requested against the campaign to perform certain campaign related activities.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Source Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the name of the Campaign Source.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the status of the campaign such as running, completed, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Variable Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the variable cost incurred for the campaign like travelling cost, other cost etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Wave Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description of the campaign wave.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Creative Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Modeling Framework Generated Creative Name.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Customer Origination Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the customer origination code. It is a 19 digit code which stores the source from where the customer originates like from which vendor, which advertisement etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refer to the date up to which the account or contract or interest rate or exchange rate is effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Marketing Program Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the marketing program.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Family Targeted",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Product Family Targeted Value.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1299",
+                    "srcLogicalName": "Stage Campaign Master",
+                    "scdName": "scd_1299_DIM_CAMPAIGN_STG_CAMPAIGN_MASTER",
+                    "scdDesc": "Data movement from campaign master source to campaign dimension",
+                    "createdDate": "2024-10-26 06:02:41.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42707",
+                    "btLogicalName": "Campaign Numeric Identifier",
+                    "dqDesc": "Campaign Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQCUS42708",
+                    "btLogicalName": "Campaign Numeric Identifier",
+                    "dqDesc": "Campaign Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQLOV32970",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQNMDUP42130",
+                    "btLogicalName": "Campaign Numeric Identifier",
+                    "dqDesc": "Campaign Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQSPLCH42821",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

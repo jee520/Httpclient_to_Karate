@@ -1,0 +1,75 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Behavior Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Behavior Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Behavior Type",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to unique identifier of behavior type code. Expected values are Non Maturity, Non Performing And Devolvement, Recovery, Volatile, Core and Non Core. \nThe payment and repricing characteristics can be gathered for most financial instruments, but for some the contractual cashflows may be absent or may be based on occurrence of certain events. Asset Liability Management allows you to define custom behavior, payment and repricing patterns to accurately model the unique characteristics for such instruments. Behavior pattern can be defined for the following types of instruments \nNon maturity Instruments,\nNon Performing Instruments,\nDevolvement and Recovery of Guarantees.\n\nOnce you create a behavior pattern, you can use it by mapping the unique behavior pattern code as the amortization type code for your instruments. Behavior pattern codes are defined within a pre set range, 70000 – 99999. When the cash flow engine encounters an instrument with an amortization type code within this pre determined range, it understands that a Behavior Pattern should be referenced for determining the principal cash flow amounts. Non performing Asset need not have a sub type associated, all the events i.e. substandard, doubtful or loss is processed. No interest cashflow will be generated and any balance on the maturity date would be written off. In the case of non maturity instruments the core and volatile runoff events are run. Interest cashflow is paid out on the payment dates. The engine assumes the maturity of the longest non maturing instrument as the maturity date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Behavior Type Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the account Behavior or performance. List of values are Core, Volatile, Substandard, Doubtful, Loss, Sight Devolvement, Sight Recovery, and Usage Devolvement and Usage Recovery.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

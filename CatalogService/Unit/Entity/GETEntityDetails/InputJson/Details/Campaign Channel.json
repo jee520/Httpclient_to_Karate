@@ -1,0 +1,160 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Channel Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the channels which are used for campaign like Television, Radio, Banners, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Channel Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the channels which are used for campaign like Television, Radio, Banners, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Channel Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the description of the campaign channel.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Channel Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the name of the campaign channel.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Channel Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Campaign Channel Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1014",
+                    "srcLogicalName": "Stage Campaign Channel Master",
+                    "scdName": "scd_1014_DIM_CAMPAIGN_CHANNEL_STG_CAMPAIGN_CHANNEL_MASTER",
+                    "scdDesc": "Data movement from campaign channel master source to campaign channel dimension",
+                    "createdDate": "2024-10-26 06:02:40.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42257",
+                    "btLogicalName": "Campaign Channel Numeric Identifier",
+                    "dqDesc": "Campaign Channel Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:32.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQCUS42258",
+                    "btLogicalName": "Campaign Channel Numeric Identifier",
+                    "dqDesc": "Campaign Channel Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:32.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQLOV31262",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:32.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQNMDUP41978",
+                    "btLogicalName": "Campaign Channel Numeric Identifier",
+                    "dqDesc": "Campaign Channel Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:32.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQSPLCH42784",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:32.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

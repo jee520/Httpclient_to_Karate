@@ -1,0 +1,841 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Sub Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Account Sub Type Code that is sub classified as per the banking source system for their internal operational purpose.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Account Type Code that is classified as per the banking source system for their internal operational purpose. \nIn case of ALM FTP applications, Account type are fixed set of values.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Adjustment Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier for adjustment type dimension at an account. Examples can be CONTRA,NEW etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amount Due In Next Twelve Months",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Amount Due In Next 12 Months.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Book Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to if the contract is related to the banking book or trading book. Usually contracts like loans and leases are on the banking book. However, instruments like mortgage backed securities can be held on the trading book of the financial institution. If the value is updated as T then exposure or contract belongs to trading book and if the value is updated as B then it belongs to banking book.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Buy Or Sell Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if the contract holder is the buyer or seller of the contract. This is applicable in case of derivative contracts like futures, forwards, options etc. A Buyer of a futures contract is said to be long while the seller is said to be short. In case of repo transactions, the party doing the reverse repo is referred to as the buyer. The seller of securities sells to the party with an agreement to buy back at a later date. List of Values are B, Buy, and S, Sell.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Commodity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to a unique Code representing a particular tradable commodity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Commodity Group Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Commodity Group Code E.g. Oil and Gas, Other natural resources etc..",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Commodity Stock Financing Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the commodity position is kept for the purpose of Stock financing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contract Quantity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the contract quantity associated with the contract. One contract of a derivative like forwards can have multiple quantity associated with it.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Counterparty Rating",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code representing the Counter Party Rating of the Instrument in this record.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code Of Risk",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the ISO country code of the risk. Country of risk refers to the country wherein the counter party does business. Dim Country is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day Count Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the day count indicator. Expected values are A/360, A/365, A/A, 30/360, 30/360 EUROPEAN, 30/A. Suggested default value are 1=30/360 for amortizing transactions OR 3=Act/Act. for non amortization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Encumbrance Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date that an asset will change from 'Encumbered' to 'Unencumbered' status. Encumbered status refers to the status if an instrument is encumbered, either by pledging, securitization or collateralization. Encumbered securities means the securities that are owned by one entity but subject to a legal claim by another.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Encumbrance Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Long",
+                    "gcd": "Refers to the percentage of security or asset encumbered in case of encumbrance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Encumbrance Status Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if an instrument is encumbered, either by pledging, securitization or collateralization. Encumbered securities means the securities that are owned by one entity but subject to a legal claim by another.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Month Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the last payment of the instrument is on month end or not. List of values are Y, N. Alternatively it indicate the end of a calendar month.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Failed Business Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of business days delayed after the agreed settlement date. This is applicable for failed trades. There are different guidelines for capital treatment of failed trades. European standards are dictated at directive level and permit a 5 business day grace period after settlement date on delivery versus payment, DvP, transactions before any charges are imposed at which point they are subject to charges on the exposure. These increase to 100 percent after 46 days. Settlement date is not defined or subject to specific limitations. For non DvP transactions, the charge starts immediately, with a one day grace period for cross border transactions, at a flat eight percent risk weighting of the exposure to the counterparty. US banking regulators take a balance sheet approach, under which a standard risk weight, usually 100 percent but in some cases 20 percent, is applied to the full notional amount of trades that have failed to settle without a grace period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fair Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to fair value of an asset. Fair Value is a rational and unbiased estimate of the potential market price of and asset. The Financial Accounting Standards Board, FASB, issued 'Statement of Financial Accounting Standards No. 157: Fair Value Measurements, FAS 157,' in September 2006 to provide guidance about how entities should determine fair value estimations for financial reporting purposes.\n\nFair value is however measured based on the guidelines FASB 13 which has 3 levels.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiduciary Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is held with the bank under a fiduciary capacity. Fiduciary capacity means trustee, executor, administrator, registrar of stocks and bonds, transfer agent, guardian, assignee, receiver, or custodian under a uniform gifts to minors act investment adviser, if the bank receives a fee for its investment advice any capacity in which the bank possesses investment discretion on behalf of another or any other similar capacity that the regulator authorizes. For example deposits that are placed with a bank by a national bank for which the bank is a fiduciary.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fund Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code identifying the fund. Fund dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fund Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code identifying the fund type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holiday Rolling Convention Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the holiday rolling convention code, based on which the date on which cash flow has to happen is decided. This includes  Following business day, Modified following business day, Previous business day, Modified previous business day etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the description of the Instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Net Present Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the end of the day Net Present value of the instrument. This will be a download in case of exchange traded instruments and will be priced using Quantlib pricing Engines in case of OTC instruments. Price at which this trade was executed, expressed in issuing currency. Value is to be expressed in the issuing currency of the associated security. Also indicates the price of the instrument on its primary market.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of instrument type, which is defined as code identifying the instrument category of the customer account. Instrument Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "International Banking Facility Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or transaction is belongs to an international banking facility. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the issuer code for the financial instruments. Issuer is defined as a legal entity that develops, registers and sells securities or financial instruments. Issuers may be domestic or foreign governments, corporations or investment trusts. Issuers are legally responsible for the obligations of the issue and for reporting financial conditions, material developments and any other operational activities as required by the regulations of their jurisdictions. The most common types of financial instruments issued are common and preferred stocks, bonds, notes, debentures, negotiable instruments, bills and derivatives.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Marked Pay Obligations By Variable Interest Entity Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates these investments are earmarked for Variable Interest Entity obligation settlement. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Exchange Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the name of the primary exchange where this security is listed or traded. An instrument can trade on multiple exchanges and market centers. Refers to the primary exchange where the instrument trades. Refers to the values like BSE, SICOM etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the market value of the instrument as on the As of Date. Market value of the asset is the price that would be received to sell an asset in an transaction between market participants on the given day. It is often the quoted market price which is available as part of market data and used to determine the market value of the asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operational Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the balance amount of the account can be added to the high quality liquid assets. High Quality Liquid Assets are used in the calculation of liquidity coverage ratio.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the cost center to which the account belongs to. Organization Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the original account number held by the source system. If there are multiple source systems without unique account numbers, we expect the account number and source system to be concatenated as part of the primary key, while this column will store the original account number as generated by the source system.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Over The Counter Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to Indicate whether a derivative exposure is traded on an exchange or over the counter. List of values are Y, N. If the value is updated as Y means the exposure is traded over the counter and if the value is updated as N means the exposure is traded in an exchange.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Portfolio Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of a portfolio. The term portfolio refers to any collection of financial assets such as stocks, bonds, cards and cash equivalents, as well as their mutual, exchange traded and closed fund counterparts. Portfolios may be held by individual investors and or managed by financial professionals, hedge funds, banks and other financial institutions. It is a generally accepted principle that a portfolio is designed according to the risk tolerance, time frame and investment objectives of the investor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Trading Desk Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the trading desk that has entered into a trade. Banks has various trading desks specializing for specific products, like Interest Rate Products, Equity, Commodities, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Unit Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unit of underlying. For instance gm in case of gold, Quintal in case of commodity. This is used mainly for instruments like commodity swaps. Possible values are bushels, LB, Barrels, KG, Gram, Quintal etc.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQCLREF144",
+                    "btLogicalName": "Instrument Net Present Value",
+                    "dqDesc": "Should have values greater than 0",
+                    "dqType": "Column Reference or Specific Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQLOV03",
+                    "btLogicalName": "Book Type",
+                    "dqDesc": "Should have list of values as TRADING or BANKING",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQLOV33162",
+                    "btLogicalName": "Operational Relationship Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQLOV33163",
+                    "btLogicalName": "Encumbrance Status Flag",
+                    "dqDesc": "Should have list of values as N,P,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQLOV33164",
+                    "btLogicalName": "Marked Pay Obligations By Variable Interest Entity Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQLOV33165",
+                    "btLogicalName": "Buy Or Sell Indicator",
+                    "dqDesc": "Should have list of values as B,S",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQLOV33166",
+                    "btLogicalName": "Commodity Stock Financing Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQLOV33167",
+                    "btLogicalName": "Fiduciary Relationship Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQLOV33168",
+                    "btLogicalName": "International Banking Facility Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQLOV33169",
+                    "btLogicalName": "End Of Month Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQLOV33170",
+                    "btLogicalName": "Over The Counter Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQMNDTR40",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Mandatory",
+                    "dqType": "NULL Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQMNDTR41",
+                    "btLogicalName": "Market Value",
+                    "dqDesc": "Mandatory",
+                    "dqType": "NULL Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39146",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39147",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39148",
+                    "btLogicalName": "Encumbrance Maturity Date",
+                    "dqDesc": "Reference Check for Encumbrance Maturity Date in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39149",
+                    "btLogicalName": "Encumbrance Maturity Date",
+                    "dqDesc": "Reference Check for Encumbrance Maturity Date in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39150",
+                    "btLogicalName": "Account Type",
+                    "dqDesc": "Reference Check for Account Type in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39151",
+                    "btLogicalName": "Accounting Standard Code",
+                    "dqDesc": "Reference Check for Accounting Standard Code in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39152",
+                    "btLogicalName": "Adjustment Type",
+                    "dqDesc": "Reference Check for Adjustment Type in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39153",
+                    "btLogicalName": "Book Type",
+                    "dqDesc": "Reference Check for Book Type in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39154",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39155",
+                    "btLogicalName": "Commodity Code",
+                    "dqDesc": "Reference Check for Commodity Code in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39156",
+                    "btLogicalName": "Commodity Group Code",
+                    "dqDesc": "Reference Check for Commodity Group Code in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39157",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39158",
+                    "btLogicalName": "Counterparty Rating",
+                    "dqDesc": "Reference Check for Counterparty Rating in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39159",
+                    "btLogicalName": "Country Code Of Risk",
+                    "dqDesc": "Reference Check for Country Code Of Risk in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39160",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39161",
+                    "btLogicalName": "Day Count Indicator",
+                    "dqDesc": "Reference Check for Day Count Indicator in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39162",
+                    "btLogicalName": "Fund Code",
+                    "dqDesc": "Reference Check for Fund Code in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39163",
+                    "btLogicalName": "Fund Type",
+                    "dqDesc": "Reference Check for Fund Type in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39164",
+                    "btLogicalName": "Holiday Rolling Convention Code",
+                    "dqDesc": "Reference Check for Holiday Rolling Convention Code in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39165",
+                    "btLogicalName": "Instrument Code",
+                    "dqDesc": "Reference Check for Instrument Code in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39166",
+                    "btLogicalName": "Instrument Type",
+                    "dqDesc": "Reference Check for Instrument Type in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39167",
+                    "btLogicalName": "Issuer Identifier",
+                    "dqDesc": "Reference Check for Issuer Identifier in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39168",
+                    "btLogicalName": "Issuer Identifier",
+                    "dqDesc": "Reference Check for Issuer Identifier in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39169",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39170",
+                    "btLogicalName": "Line Of Business Code",
+                    "dqDesc": "Reference Check for Line Of Business Code in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39171",
+                    "btLogicalName": "Organization Unit Code",
+                    "dqDesc": "Reference Check for Organization Unit Code in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39172",
+                    "btLogicalName": "Original Account Number",
+                    "dqDesc": "Reference Check for Original Account Number in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39173",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39174",
+                    "btLogicalName": "Portfolio Code",
+                    "dqDesc": "Reference Check for Portfolio Code in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQREF39175",
+                    "btLogicalName": "Trading Desk Identifier",
+                    "dqDesc": "Reference Check for Trading Desk Identifier in Stage Commodity Contracts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                },
+                {
+                    "dqId": "DQRNG03",
+                    "btLogicalName": "Encumbrance Percentage",
+                    "dqDesc": "Should be between 0 and 100",
+                    "dqType": "Range Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:13.0",
+                    "modifiedDate": "2024-11-04 04:39:07.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                }
+            ]
+        }
+    ]
+}

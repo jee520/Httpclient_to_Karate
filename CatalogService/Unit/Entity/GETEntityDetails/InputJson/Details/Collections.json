@@ -1,0 +1,468 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Current Due Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount due from the account which is not yet paid by the customer for the most recent completed cycle.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Current Outstanding Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the current outstanding balance in the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collection Bucket Function Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the collection bucket in which the amount was due such as low balance or high balance, over limit, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collection Current Excuse Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique code for the most recent excuse given by account holder for delay in payments.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collection Current Party Contact Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the party contacted most recently for collections.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collection Officer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique ID of the collection officer as available in the source system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collection Recent Activity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code for the most recent activity on the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Letter Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code for the most recent letter sent to account holder.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Payment Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the current period payment made. Current Payment is the installment amount received from the customer. Current payment in the case of asset products represents the current periodic payment made to repay the outstanding balance. For standard amortization types, those that are not non patterned and non scheduled, Transfer Pricing Application, remaining term methods, uses the current payment from the detail record for the life of the record until a payment recalculation occurs. This will same as maturity amount in case of repo contracts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Payment Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which most recent payment happened.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Promise Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the most recently promised amount for re payment by account holder.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Promise Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the most recent promise for re payment was made by the account holder.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency System Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if the Delinquency at the end of the month in the collections system is present.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "First Payment Default Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the card holder has defaulted for the first payment. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Latest Movement System Active Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date of last movement into the collections system in active state.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Attempts Made",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of phone call attempts made for the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Contracts Made",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of contacts made for the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Promises Kept",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of promises kept by the account holder.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Promises Taken",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of promises taken by the sales executive.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Overdue Total Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to total amount of the principal, interest and any fee or charges payment outstanding at the FIC MIS date, which is contractually due and has not been paid, past due.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Past Due Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the days past due. Days past due are the days after the due date and is application when the payment is not made by the party to the bank. This indicates by how many days a payment is overdue.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Category",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the security for which this order has been placed. Expected values are EQT  Equity, FI  Fixed Income, CFI  Corporate Fixed Income, OPT  Option, FUT  Future, FX  Foreign Exchange, MF  Mutual Fund, COM  Commodity, ETF  Exchange Traded Fund, MM  Money Market, PRE  Preferred, CONV  Convertible, SWAP Swap, OTH  Other, INF  Insurance Fund.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recent Activity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date or time on which most recent activity occurred.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Second Payment Default Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the card holder has defaulted for the second payment. List of values are Y, N.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32145",
+                    "btLogicalName": "Second Payment Default Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQLOV32146",
+                    "btLogicalName": "First Payment Default Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36825",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36826",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36827",
+                    "btLogicalName": "Current Payment Date",
+                    "dqDesc": "Reference Check for Current Payment Date in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36828",
+                    "btLogicalName": "Current Payment Date",
+                    "dqDesc": "Reference Check for Current Payment Date in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36829",
+                    "btLogicalName": "Current Promise Date",
+                    "dqDesc": "Reference Check for Current Promise Date in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36830",
+                    "btLogicalName": "Current Promise Date",
+                    "dqDesc": "Reference Check for Current Promise Date in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36831",
+                    "btLogicalName": "Latest Movement System Active Date",
+                    "dqDesc": "Reference Check for Latest Movement System Active Date in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36832",
+                    "btLogicalName": "Latest Movement System Active Date",
+                    "dqDesc": "Reference Check for Latest Movement System Active Date in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36833",
+                    "btLogicalName": "Recent Activity Date",
+                    "dqDesc": "Reference Check for Recent Activity Date in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36834",
+                    "btLogicalName": "Recent Activity Date",
+                    "dqDesc": "Reference Check for Recent Activity Date in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36835",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36836",
+                    "btLogicalName": "Collection Officer Identifier",
+                    "dqDesc": "Reference Check for Collection Officer Identifier in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36837",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36838",
+                    "btLogicalName": "Collection Bucket Function Code",
+                    "dqDesc": "Reference Check for Collection Bucket Function Code in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36839",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36840",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36841",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF36842",
+                    "btLogicalName": "Product Category",
+                    "dqDesc": "Reference Check for Product Category in Stage Collections",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

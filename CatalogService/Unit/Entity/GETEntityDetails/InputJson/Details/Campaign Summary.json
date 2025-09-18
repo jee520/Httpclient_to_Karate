@@ -1,0 +1,408 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Allocated Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the allocated cost, which is generally populated by the Profitability App. This includes all the indirect expenses, like facilities, IT, Operations etc., which need to be allocated back to the account in order to arrive at the correct profitability of the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Allocated Budgeted Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the allocated budgeted cost estimated for the campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Budgeted Cost Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the budgeted cost for the period estimated for the campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Budgeted Direct Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the budgeted direct cost estimated for the campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Cost Incurred",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total of cost incurred for the campaign including fixed & variable cost.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Direct Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total of direct cost incurred for the campaign. Direct cost refers to an expense that can be traced directly to (or identified with) a specific cost center or cost object such as a department, process, or product - 'business dictionary'.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Duration In Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the duration of the campaign, in days.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Fee Charges",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the fee charges involved during the campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Fixed Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the fixed cost involved in a campaign like rent of the place where campaign is executed, salary of the employees who are involved in a campaign etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Forecasted Response Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the forecasted response rate estimated for the campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Freebee Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the freebee cost involved in the campaign. Freebee refers to something given without charge or cost, as a ticket to a performance or sports event or a free sample at a store etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the campaign under which the account was acquired. Campaign is defined as Specific activities designed to promote a product, service or business. A marketing campaign is a coordinated series of steps that can include promotion of a product through different mediums like television, radio, print, online using a variety of different types of advertisements. The campaign doesn't have to rely solely on advertising, and can also include demonstrations, word of mouth and other interactive techniques. Campaigns are created or started by financial institutions to promote sales, improve visibility of the brand or product and create opportunities for addon sales and cross selling.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Number Of Forecasted Responses",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the forecasted responses estimated for the campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Objective",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the objective of the campaign as acquiring new customer, enhancing business with existing\ncustomer etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Other Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to any other form of income generated from the campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Recurring Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the recurring cost associated with the campaign. Recurring cost refers to the regular cost incurred repeatedly, or for each item produced or each service performed.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Region Targeted",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the region which is targeted for the campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Relationship Manager",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the relationship manager associated with the campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the status of the campaign such as running, completed, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Target Base",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description of the target base for campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Targeted Number Of Calls",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the total target calls estimated for the campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Targeting Method",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the target method used during the campaign. Target method refers to\nthe method financial institution choose to achieve the campaign objective.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Total Number Of Contacts",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the total number of Contacts to be targeted for this campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of campaign, such as Increase sales revenue, Acquire new customers, Increase customer retention, Enhance up sell or cross sell opportunities, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Variable Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the variable cost incurred for the campaign like travelling cost, other cost etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contact Method Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the contact method as call, mail, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Marketing Cost For Campaign",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refer to the Marketing Cost Incurred for Campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Opt Outs",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of customers/prospects who have opted out of the campaign post the launch.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Offer Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the offer. An offer is defined as an abstract, physical and or monetary benefit attached to a product for a predetermined period of time with a view to increase the sales of a product. Offer dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Region Targeted",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the region which is targeted for the campaign.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Adjusted Revenue",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the revenue of the Financial Institution at lob, reporting line and geography level.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF38624",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Campaign Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF38625",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Campaign Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF38626",
+                    "btLogicalName": "Campaign Status Code",
+                    "dqDesc": "Reference Check for Campaign Status Code in Stage Campaign Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF38627",
+                    "btLogicalName": "Campaign Type",
+                    "dqDesc": "Reference Check for Campaign Type in Stage Campaign Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF38628",
+                    "btLogicalName": "Campaign Identifier",
+                    "dqDesc": "Reference Check for Campaign Identifier in Stage Campaign Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF38629",
+                    "btLogicalName": "Contact Method Code",
+                    "dqDesc": "Reference Check for Contact Method Code in Stage Campaign Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF38630",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Campaign Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF38631",
+                    "btLogicalName": "Line Of Business Code",
+                    "dqDesc": "Reference Check for Line Of Business Code in Stage Campaign Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF38632",
+                    "btLogicalName": "Offer Code",
+                    "dqDesc": "Reference Check for Offer Code in Stage Campaign Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                },
+                {
+                    "dqId": "DQREF38633",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Campaign Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:02.0",
+                    "modifiedDate": "2024-11-04 04:38:56.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

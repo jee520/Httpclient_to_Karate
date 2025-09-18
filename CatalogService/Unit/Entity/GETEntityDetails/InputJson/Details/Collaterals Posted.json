@@ -1,0 +1,1785 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Adjusted Loss Given Default Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the Adjusted LGD for an exposure and mainly used for Internal Model Method to arrive at RWA. This is expressed in decimal number, For example, 30 percent will be 0.3.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Agency Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the agency type acting as customer. Agency types can be Government agency, Government Sponsored agency etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Asset Level Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Asset Level Code. Asset Level dimension is the equivalent dimension for this.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Asset Segregated Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates client pool asset or asset received from counterparty is segregated, kept aside from the other assets including the banks own assets, or not. Segregated client pool securities are not freely available to meet all the liquidity needs of the bank and are set aside to be utilized for some specific purpose. Such segregated assets are not considered eligible HQLA as they do not meet the generally applicable criteria for HQLA. Only an HQLA that meets operational and generally applicable criteria is considered eligible to be included in the stock of HQLA. Client pool securities that are not segregated are allowed to be included as part of HQLA.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Loan To Value Of Underling",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the underling`s average loan to value ratio of Residential Mortgage Backed security received as mitigant. Loan to Value ratio is one of the criteria which is used to qualify mitigant as high quality liquid asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Book Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to if the contract is related to the banking book or trading book. Usually contracts like loans and leases are on the banking book. However, instruments like mortgage backed securities can be held on the trading book of the financial institution. If the value is updated as T then exposure or contract belongs to trading book and if the value is updated as B then it belongs to banking book.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Segment Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique key identifying the business segment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Central Counterparty Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the central counterparty code which clears the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cleared Transaction Bank Role Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of the cleared transaction role of the reporting bank. Cleared Transaction Bank Role dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cleared Transaction Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Identifies if the transaction is cleared through central counterparty. Transactions included are, 1, between the clearing member and clearing member client and, 2, clearing member and central counterparty.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Bankruptcy Remote Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the collateral posted for cleared transaction is bankruptcy remote. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Called For Delivery Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date at which is collateral is called for delivery.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Called For Delivery Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether is the collateral is called for delivery. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Covering All Losses Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if collateral posted covers all the losses and legal due diligence are done for the contract. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Current Book Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the book value of Collateral as present on the books of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Delivery Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date at which is collateral will be delivered.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Dispute Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the collateral is in dispute or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Fair Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the collateral fair value as assessed by the counterparty to whom the collateral is posted. For cleared transactions this amount will be used as the exposure at default.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Haircut Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the interest of collateral haircut value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Recall Notice Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of days of notice required to be given by the party initiating the early recall before the collateral is withdrawn. It is required to determine the collateral withdrawal date. This is an HQLA exclusion criteria where any asset received under a rehypothecation right where the beneficial owner has a right to withdraw the asset anytime within the LCR horizon without incurring any significant penalty for withdrawal cannot be included in the stock of HQLA as it does not meet the generally applicable HQLA criteria. This potentially withdrawable collateral is to be reported separately in the FR2052a report.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Release Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Collateral Release Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Release Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Collateral Release Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Release Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Code for the reason due to which the Collateral will be released.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Settlement Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the collateral settlement date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Settlement Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the settlement mechanisms used for Secured and Foreign Exchange products.\nFollowing Secured products are identified using this table, LOV are as follows\nTRIPARTY  secured financing transactions settled on the US based tri party platform,\nOTHER  secured financing transactions settled on other e.g., non US third party platforms,\nBILATERAL  secured financing transactions settled bilaterally.\nFollowing Foreign Exchange products are identified using the table,\nCLS  FX transactions centrally cleared via CLS,\nOTHER  FX transactions settled via other non CLS central clearinghouses,\nBILATERAL  FX transactions settled bilaterally. Column stores the codes for the settlement type dimension.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of property assigned as collateral to secure loan. List of values are Debt Security, Land, Building, Cash, Cash Certificate, Cash Equivalent, Commercial Real Estate, Eligible unrated Debt Securities, Furniture, Gold, Insurance Policies, Main Index Equity, Mutual Funds  Simplified Approach, Mutual Funds in Domestic Debt Sec, Mutual Funds in Non main index listed equities, Non Main Index Equity, Non main index listed equities, Other IRB Eligible Collateral, Plant and machinery, Receivables, Residential Real Estate, UCITS or Mutual Funds  Simplified Approach, Sukuk, Urban, Hamish Jiddiyyah for Binding PP or PL, Physical Assets, Eligible Unrated Sukuk and Hamish Jiddiyyah for Non Binding PP or PL. Collateral Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Component Of Major Index Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Refers to if the instrument is part of a major index or not. Indices are composed of securities that are well reputed, the increase and decrease of price of these securities which are weighted decides the movement of the index itself.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Control By Treasury Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Indicates if asset is controlled by treasury or not. The stock should be under the control of the function charged with managing the liquidity of the bank, e.g. the treasurer, meaning the function has the continuous authority, and legal and operational capability, to monetize any asset in the stock.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Counterparty Reference Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to counterparty code of the bank in the SFT transactions. The customer reference code represents the end customer of the repo transaction. This counterparty code references the counterparty to the bank, in the case of tri party SFT transactions. In the tri party SFT transactions, one party acts as the client, one party acts as the agent, and the other party acts as the dealer. This counterparty code will refer identified of the dealer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code Of Custodian",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the ISO country code of the custodian.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Covering Banks Short Position Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if asset is utilized for covering short positions of bank. Example: A firm sells 100 dollar of Category B security short. The firm has such security in its trading inventory which will be used to cover it is short position, then this flag will be Y.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Covering Customer Short Position Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if asset is utilized for covering short positions of customer. Example: A customer in the US broker or dealers Prime Brokerage unit sells 100 USD of Category B security short. The firm has such security in its trading inventory which will be used to cover customers short position, then this flag will be Y.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of days the account has remained delinquent in the current delinquency period. The account could have been delinquent a number of time earlier, but Refers to the current delinquency days.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delivery Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the settlement movement type as defined within the BONY settlement report. Possible values are Delivery, Call, Return and Recall. Delivery means a net delivery of collateral from GE to the counterparty. Call means a net delivery of collateral from counterparty.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Disputed Collateral Delivery Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if collateral to be delivered is in dispute. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Early Collateral Recall Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the collateral provided by a bank to its counterparty can be recalled by the bank prior to the maturity of the transaction. Such collateral may be the own asset of bank or mitigant received from counterparty which is rehypothecated. This is an HQLA exclusion criteria where any asset received under a rehypothecation right where the beneficial owner has a right to withdraw the asset anytime within the LCR horizon without incurring any significant penalty for withdrawal cannot be included in the stock of HQLA as it does not meet the generally applicable HQLA criteria. This potentially withdrawable collateral is to be reported separately in the FR2052a report. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Maturity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the effective maturity of an exposure. Typically, it would be longest possible remaining time before the counterparty is scheduled to fulfill its obligation. It is used in RWA calculation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Eligible For Intraday Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the particular instrument is eligible for usage as an Intraday liquidity source.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Eligible Non Main Index Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the contract is part of an eligible non main index.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exchange Traded Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if instrument is exchange traded or not. This is one of the criteria which is used to qualify instrument as high quality liquid asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Post Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the exposure at default amount post mitigation by all eligible mitigants\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Pre Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the pre mitigation Exposure at default amount of the total exposure, as applicable to the particular jurisdiction. This is generally equal to the sum of Exposure of default pre mitigation for the drawn portion of the exposure and the exposure of default per mitigation for the undrawn portion of the exposure.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Full Recourse Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates full recourse flag. Underlying mortgages of RMBS, received as Mitigant, are considered as “full recourse’’ if in the case of foreclosure the mortgage owner remains liable for any shortfall in sales proceeds from the property i.e. the lender can go after the borrowers personal assets to collect if the loan is defaulted. Default value should be N. Specific to RMBS. This is one of the criteria which is used to qualify mitigant as high quality liquid asset. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fund Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code identifying the fund. Fund dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Government Sponsored Enterprises Eligible Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the effect of the GSEs is to enhance the availability and reduce the cost of credit to the targeted borrowing sectors primarily by reducing the risk of capital losses to investors. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantor Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the identifier of the Party who guaranteed the program.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Hedge Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Indicates whether a record is used for hedging. This indicates whether the asset is used specifically to hedge another transaction. It is required to determine the amount to be included in the stock of HQLA. If an asset, which is classified as HQLA and is eligible for inclusion in the stock, is hedging another transaction, the amount that can be included in the stock of HQLA is the fair value of the asset less the hedge termination cost.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Held By Client Or Proprietary Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account is held by client or not. If the value is updated as Y which means the security is held by client and if the value is updated as N which means the security is in the proprietary account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "High Quality Liquid Asset Eligibility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if asset qualifies to be treated as High Quality Liquid Asset, HQLA. In most jurisdictions, HQLA should be central bank eligible in addition to being liquid in markets during stressed periods. In jurisdictions where central bank eligibility is limited to an extremely narrow list of assets, a supervisor may allow unencumbered, non central bank eligible assets to be part of HQLA. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Illiquid Collateral Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if collateral is easily liquid table or easily replaceable. List of values are Y, N.\nY, It is not easily replaceable or easily liquid table. \nN, It is easily replaceable or easily liquid table.\nIt is required for regulatory capital processing. Based on this flag and other parameters supervisory haircut is adjusted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Held By Custodian Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the instrument is held by the custodian or not, in a custodial agreement. A value of Y indicates the instrument is held by the custodian and a value of N indicates that the instrument is not held by custodian. In the case of EU, this is required for the mitigant eligibility of other funded credit protection mitigant type. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Seniority",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the instrument seniority in the event of bankruptcy of the counterparty.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Accrued Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the accrued interest amount associated with the contract. This is the interest that has accumulated on an instrument since the last interest payment up to, but not including, the settlement date. Accrued Interest is defined as Interest earned but not received, realized. For example, bonds usually pay interest every six months, therefore interest accrues between one interest payment and the next. The buyer of a bond pays its market value plus the interest earned up to the settlement date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Investment Grade Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the instrument is an Investment grade security for Level 2A classification. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the issuer code for the financial instruments. Issuer is defined as a legal entity that develops, registers and sells securities or financial instruments. Issuers may be domestic or foreign governments, corporations or investment trusts. Issuers are legally responsible for the obligations of the issue and for reporting financial conditions, material developments and any other operational activities as required by the regulations of their jurisdictions. The most common types of financial instruments issued are common and preferred stocks, bonds, notes, debentures, negotiable instruments, bills and derivatives.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Risk Retention Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the risk retention. Securitizations are subject to risk retention regulations which require issuers to retain an interest in the assets they securitize.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lendable Percent",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the lendable percent. Lendable amount is percent of Market Value or Mark to Model Value, Lendable Value = Lendable Percent * Market Value. Lendable value is the value that the firm could obtain for the assets in the repurchase markets reported in the same category, which incorporates haircuts based on factors such as liquidity, credit, and market risks.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Liquidity Transferability Restriction Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the transferability restriction. Sometimes, due to regulatory rules or other market conditions, excess liquidity available in a given legal entity is Trapped i.e. it is not available for use at the parent entity or the consolidated. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Load Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the load run identifier. Load run identifier enables user to load multiple versions intraday or post back dated adjustment entries to the table. Refers to the Load run identifier of the equivalent record in product processor that needs to be adjusted. Default value of  1 indicates that the latest load run is being adjusted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Long Run Weighted Average Loss Given Default",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the long run weighted average loss given default. This is the estimate of the average economic loss rate that is expected to be incurred in the event of default, measured over the long run. If the purchasing bank can estimate either the default weighted average loss rates of pool given default or average PD in a reliable manner, the bank may estimate the other parameter based on an estimate of the expected long run loss rate. The bank may, i, use an appropriate PD estimate to infer the long run default weighted average loss rate given default, or, ii, use a long run default weighted average loss rate given default to infer the appropriate PD.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Given Default Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the loss given default value of the account. Loss given default is the expected amount to be lost by the financial institution if the borrower defaults. Institutions such as banks will determine their credit losses through an analysis of the actual loan defaults. While quantifying some losses may be simple, in some situations it may be quite difficult and require the analysis of multiple variables. For example, if Bank X loans USD 1 million to ABC Company and ABC defaults on the note, Bank Xs loss is not necessarily USD 1 million. This is because Bank X may hold substantial assets as collateral, and or may use the courts in an effort to be made whole. When all of these variables are factored in, Bank X may have lost substantially less than the original USD 1 million loan. The process of analyzing all of these variables, as well as all of the other loans in Bank Xs portfolio, is paramount to determining the loss given default. This value is calculated by the system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Given Default Refresh Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which loss given default for the contract was refreshed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mark To Market Value In Natural Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Mark to Market value is a measure of the fair value of accounts that can change over time, such as assets and liabilities. Mark to market aims to provide a realistic appraisal of current financial situation of an institution or company. Mark to market value is the change in current market value as against the last traded value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Marketable Security Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the security is marketable or not. Marketable securities are very liquid securities that can be converted into cash quickly at a reasonable price. If the value is updated as Y which means the security is marketable and if the value is updated as N which means the security is non marketable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the contractual date on which the principal balance is expected to fully amortize and the balance payable would be nil. This is applicable for term loan products but not for revolving credit or overdraft type of account. In case of insurance policy, for some whole life insurance products the maturity date is aligned to maximum attained age and the policy is payable upon the earlier of the maturity date or the death of the insured. In case of Term Life insurance policies the maturity date is determined as policy issue date plus Term of the contract. In case of an annuity it is the date from which the annuitant has chosen to take the payouts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Price Percentage Change Over Thirty Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to maximum price percentage change in the last 30 days. This attribute is used to establish if mitigant is reliable source of liquidity in the markets. If maximum. Decline of price does not exceed 10 percent over a 30 day period then it qualifies as a reliable source of liquidity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Volatility Haircut Over Thirty Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to maximum volatility haircut in last 30 days. This attribute is used to establish if account is reliable source of liquidity in the markets. If haircut is not exceeding.10 percentage points over a 30 day period then it qualifies as a reliable source of liquidity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Basel Rating",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Numeric",
+                    "gcd": "Refers to the Basel Rating of securities that we receive as collateral. This is expected as Download and is required for QIS and 4G Liquidity asset reclassification.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Margin Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of margin under which the collateral has been placed with the CCP or the counterparty, as applicable. List of Values are IM, VM, DF and OTH. The IM is for indicating that this collateral has been placed as part of the initial margin. The VM indicates that this has been placed as part of the variation margin requirement. The DF indicates that it is placed as part of the Default Fund contribution. A value of OTH indicates that it is a regular collateral placed with the counterparty, and is not part of these margin type requirements. A value of NULL will also be treated as equivalent to OTH.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Market Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the market value of mitigant or collateral linked to account or contract. Market value of an instrument is easy to determine if the instrument trades on a well recognized exchange. In case the collateral does not trade on an exchange, appropriate valuation or appraisal methods may be employed to arrive at an estimated market value. It is used as an indication of the amount that could be fetched if the collateral is sold in open market as on As of Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Repossession Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the collateral is repossessed. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Significant Recall Penalty Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether a significant penalty is charged if a mitigant is recalled by the beneficial owner prior to the maturity of the transaction against which the mitigant is received. This is an HQLA exclusion criteria where any asset received under a rehypothecation right, where the beneficial owner has a right to withdraw the asset anytime within the LCR horizon without incurring any significant penalty for withdrawal, cannot be included in the stock of HQLA as it does not meet the generally applicable HQLA criteria. List of values are Y, N.\n\nUS Final Rule Page: 118, 354",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Netting Agreement Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the netting agreement code on which the contract is made. A netting agreement is an arrangement between two parties   known as counterparties   that governs the treatment of certain offsetting transactions or contracts. Two transactions offset each other if a gain in one results in a loss in the other. In other words, the transactions hedge each other. This allows for net settlement of all contracts governed by this netting agreement, with a single counterparty, through a single payment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Units Held",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the number of units associated with each investment account. This attribute multiplied with current NAV of the fund will provide the value of the fund for each investment account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "One Way Margin Agreement Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the collateral placed is one way margined. i.e. only the margin is placed and not received. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the cost center to which the account belongs to. Organization Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Collateral Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the value of the collateral at the time of its origination. Collateral is the property or asset that is placed by the account holder to obtain the loan. In case of property or mortgage loans, the property or the house acts as a collateral. Market value is the amount that could be fetched if the collateral is sold in open market as on As of Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Face Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Original Face Value of the Security.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pending Collateral Delivery Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the collateral amount pending to be delivered. This is an additional amount which is required to be extended as part of the contract due to certain market conditions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pending Collateral Delivery Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the pending collateral has to be delivered.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pending Collateral Delivery Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if collateral is pending to be delivered. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Placed Collateral Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the posted collateral, by the financial institution with other financial institutions in order to secure its borrowings.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Placed Collateral Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code identifying the Collateral Purpose.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pledged Collateral Is Given Rehypothecation Rights Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the counterparty has rehypothecation right on the asset posted as collateral by the bank i.e. if the counterparty can re use this collateral or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Portfolio Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of a portfolio. The term portfolio refers to any collection of financial assets such as stocks, bonds, cards and cash equivalents, as well as their mutual, exchange traded and closed fund counterparts. Portfolios may be held by individual investors and or managed by financial professionals, hedge funds, banks and other financial institutions. It is a generally accepted principle that a portfolio is designed according to the risk tolerance, time frame and investment objectives of the investor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prime Broker Collateral Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the collateral is associated with prime brokerage services. Prime brokerage is the generic name for a bundled package of services offered by investment banks and securities firms to hedge funds and other professional investors needing the ability to borrow securities and cash to be able to invest on a netted basis and achieve an absolute return. These accounts are ignored as part of operational criteria. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability Of Default Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the probability of default of an exposure over a period of one year, as required for regulatory capital calculation. This will be used in RWA calculation based on advanced approach. This is expressed in decimal number, For example, 30 percent will be 0.3.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability Of Default Refresh Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which said probability of default for the contract was refreshed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Proprietary Position Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the position is owned by the bank or is it taken on behalf of the customer. List of values are Y, N. In case the flag is Y then it is for own position of bank else its customer position. This flag is required for FR2052a for line items S.I.1,S.I.2,S.I.4 and S.I.5.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rating Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code representing the rating of the Instrument or the exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rehypothecated Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the financial institution has re hypothecation rights on the account or the asset received as collateral is currently rehypothecated or not.\nRehypothecation is a practice by banks and brokers of using, for their own purposes, assets that have been posted as collateral by their clients. Clients who permit rehypothecation of their collateral may be compensated either through a lower cost of borrowing or a rebate on fees. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Remargin Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the reimagining frequency of an exposure in days. This is used in calculating the volatility haircut. Reimagining frequency is the frequency at which the exposure is marked to market. For some transactions, depending on the nature and frequency of the revaluation and reimagining provisions, different holding periods are appropriate. The framework for collateral haircuts distinguishes between repo style transactions, i.e. repo or reverse repos and securities lending or borrowing, other capital market driven transactions, i.e. OTC derivatives transactions and margin lending, and secured lending. In capital market driven transactions and repo style transactions, the documentation contains reimagining clauses, in secured lending transactions, it generally does not. When the frequency of reimagining or revaluation is longer than the minimum, the minimum haircut numbers will be scaled up depending on the actual number of business days between reimagining or revaluation. Currently this attribute is only consumed by Basel application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Revaluation Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the frequency at which the reference exposure is revalued to reflect its fair value in days. This is used in calculating the volatility haircut.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Segregated Collateral Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if counterparty has segregated the collateral received or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Settlement Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the settlement mechanisms used for secured and foreign exchange products. Expected values for secured tables are T  TRIPARTY, B  BILATERAL and O OTHER. Expected values for foreign exchange tables are C CLS,B  BILATERAL and O  OTHER.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Substitutable Collateral Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the identifier of substitutable collateral. Certain contracts allow counterparties to Substitutable the collateral provided to the bank with others to lower quality collateral.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Trade Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the swap contract was booked.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unsettled Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amounts payable for transactions that are yet not settled i.e. unsettled transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unsettled Amount In Default",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the unsettled sale amount for the portion of the asset sold till date, which is considered as delinquent.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unsettled Amount On Sale",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the unsettled sale amount for the portion of the asset sold till date, which is not considered as delinquent.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Variation Margin Daily Transfer Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the variation margin cash is transferred on daily basis or not. List of values are Y, N.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32723",
+                    "btLogicalName": "Covering Customer Short Position Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32724",
+                    "btLogicalName": "Held By Client Or Proprietary Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32725",
+                    "btLogicalName": "Mitigant Significant Recall Penalty Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32726",
+                    "btLogicalName": "Collateral Covering All Losses Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32727",
+                    "btLogicalName": "Early Collateral Recall Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32728",
+                    "btLogicalName": "Proprietary Position Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32729",
+                    "btLogicalName": "Eligible Non Main Index Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32730",
+                    "btLogicalName": "Hedge Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32731",
+                    "btLogicalName": "Collateral Dispute Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32732",
+                    "btLogicalName": "Pledged Collateral Is Given Rehypothecation Rights Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32733",
+                    "btLogicalName": "Collateral Called For Delivery Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32734",
+                    "btLogicalName": "Covering Banks Short Position Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32735",
+                    "btLogicalName": "Government Sponsored Enterprises Eligible Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32736",
+                    "btLogicalName": "Liquidity Transferability Restriction Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32737",
+                    "btLogicalName": "Prime Broker Collateral Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32738",
+                    "btLogicalName": "Instrument Held By Custodian Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32739",
+                    "btLogicalName": "Segregated Collateral Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32740",
+                    "btLogicalName": "Eligible For Intraday Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32741",
+                    "btLogicalName": "Full Recourse Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32742",
+                    "btLogicalName": "Issuer Risk Retention Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32743",
+                    "btLogicalName": "Collateral Bankruptcy Remote Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32744",
+                    "btLogicalName": "Disputed Collateral Delivery Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32745",
+                    "btLogicalName": "Component Of Major Index Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32746",
+                    "btLogicalName": "Pending Collateral Delivery Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32747",
+                    "btLogicalName": "Asset Segregated Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32748",
+                    "btLogicalName": "Cleared Transaction Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32749",
+                    "btLogicalName": "High Quality Liquid Asset Eligibility Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32750",
+                    "btLogicalName": "Investment Grade Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32751",
+                    "btLogicalName": "Illiquid Collateral Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32752",
+                    "btLogicalName": "One Way Margin Agreement Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32753",
+                    "btLogicalName": "Control By Treasury Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32754",
+                    "btLogicalName": "Exchange Traded Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32755",
+                    "btLogicalName": "Marketable Security Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32756",
+                    "btLogicalName": "Rehypothecated Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32757",
+                    "btLogicalName": "Mitigant Repossession Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV32758",
+                    "btLogicalName": "Variation Margin Daily Transfer Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38037",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38038",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38039",
+                    "btLogicalName": "Collateral Called For Delivery Date",
+                    "dqDesc": "Reference Check for Collateral Called For Delivery Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38040",
+                    "btLogicalName": "Collateral Called For Delivery Date",
+                    "dqDesc": "Reference Check for Collateral Called For Delivery Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38041",
+                    "btLogicalName": "Collateral Settlement Date",
+                    "dqDesc": "Reference Check for Collateral Settlement Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38042",
+                    "btLogicalName": "Collateral Settlement Date",
+                    "dqDesc": "Reference Check for Collateral Settlement Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38043",
+                    "btLogicalName": "Collateral Delivery Date",
+                    "dqDesc": "Reference Check for Collateral Delivery Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38044",
+                    "btLogicalName": "Collateral Delivery Date",
+                    "dqDesc": "Reference Check for Collateral Delivery Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38045",
+                    "btLogicalName": "Collateral Release Date",
+                    "dqDesc": "Reference Check for Collateral Release Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38046",
+                    "btLogicalName": "Collateral Release Date",
+                    "dqDesc": "Reference Check for Collateral Release Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38047",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38048",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38049",
+                    "btLogicalName": "Pending Collateral Delivery Date",
+                    "dqDesc": "Reference Check for Pending Collateral Delivery Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38050",
+                    "btLogicalName": "Pending Collateral Delivery Date",
+                    "dqDesc": "Reference Check for Pending Collateral Delivery Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38051",
+                    "btLogicalName": "Start Date",
+                    "dqDesc": "Reference Check for Start Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38052",
+                    "btLogicalName": "Start Date",
+                    "dqDesc": "Reference Check for Start Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38053",
+                    "btLogicalName": "Trade Date",
+                    "dqDesc": "Reference Check for Trade Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38054",
+                    "btLogicalName": "Trade Date",
+                    "dqDesc": "Reference Check for Trade Date in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38055",
+                    "btLogicalName": "Accounting Standard Code",
+                    "dqDesc": "Reference Check for Accounting Standard Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38056",
+                    "btLogicalName": "Agency Type",
+                    "dqDesc": "Reference Check for Agency Type in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38057",
+                    "btLogicalName": "Asset Level Code",
+                    "dqDesc": "Reference Check for Asset Level Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38058",
+                    "btLogicalName": "Book Type",
+                    "dqDesc": "Reference Check for Book Type in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38059",
+                    "btLogicalName": "Business Segment Code",
+                    "dqDesc": "Reference Check for Business Segment Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38060",
+                    "btLogicalName": "Central Counterparty Code",
+                    "dqDesc": "Reference Check for Central Counterparty Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38061",
+                    "btLogicalName": "Cleared Transaction Bank Role Code",
+                    "dqDesc": "Reference Check for Cleared Transaction Bank Role Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38062",
+                    "btLogicalName": "Collateral Release Reason Code",
+                    "dqDesc": "Reference Check for Collateral Release Reason Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38063",
+                    "btLogicalName": "Collateral Settlement Type",
+                    "dqDesc": "Reference Check for Collateral Settlement Type in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38064",
+                    "btLogicalName": "Placed Collateral Purpose Code",
+                    "dqDesc": "Reference Check for Placed Collateral Purpose Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38065",
+                    "btLogicalName": "Collateral Type",
+                    "dqDesc": "Reference Check for Collateral Type in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38066",
+                    "btLogicalName": "Counterparty Reference Code",
+                    "dqDesc": "Reference Check for Counterparty Reference Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38067",
+                    "btLogicalName": "Country Code",
+                    "dqDesc": "Reference Check for Country Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38068",
+                    "btLogicalName": "Country Code Of Custodian",
+                    "dqDesc": "Reference Check for Country Code Of Custodian in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38069",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38070",
+                    "btLogicalName": "Fund Code",
+                    "dqDesc": "Reference Check for Fund Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38071",
+                    "btLogicalName": "Guarantor Identifier",
+                    "dqDesc": "Reference Check for Guarantor Identifier in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38072",
+                    "btLogicalName": "Instrument Code",
+                    "dqDesc": "Reference Check for Instrument Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38073",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38074",
+                    "btLogicalName": "Issuer Identifier",
+                    "dqDesc": "Reference Check for Issuer Identifier in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38075",
+                    "btLogicalName": "Issuer Identifier",
+                    "dqDesc": "Reference Check for Issuer Identifier in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38076",
+                    "btLogicalName": "Line Of Business Code",
+                    "dqDesc": "Reference Check for Line Of Business Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38077",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38078",
+                    "btLogicalName": "Mitigant Margin Type",
+                    "dqDesc": "Reference Check for Mitigant Margin Type in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38079",
+                    "btLogicalName": "Netting Agreement Code",
+                    "dqDesc": "Reference Check for Netting Agreement Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38080",
+                    "btLogicalName": "Organization Unit Code",
+                    "dqDesc": "Reference Check for Organization Unit Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38081",
+                    "btLogicalName": "Portfolio Code",
+                    "dqDesc": "Reference Check for Portfolio Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38082",
+                    "btLogicalName": "Placed Collateral Identifier",
+                    "dqDesc": "Reference Check for Placed Collateral Identifier in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38083",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38084",
+                    "btLogicalName": "Rating Code",
+                    "dqDesc": "Reference Check for Rating Code in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38085",
+                    "btLogicalName": "Settlement Type",
+                    "dqDesc": "Reference Check for Settlement Type in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF38086",
+                    "btLogicalName": "Substitutable Collateral Identifier",
+                    "dqDesc": "Reference Check for Substitutable Collateral Identifier in Stage Collaterals Posted",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                },
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

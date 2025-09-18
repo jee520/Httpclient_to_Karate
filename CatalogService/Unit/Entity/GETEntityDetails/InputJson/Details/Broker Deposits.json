@@ -1,0 +1,230 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Broker Deposit Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code for broker deposit type. A broker is an individual or party, brokerage firm, that arranges transactions between a buyer and a seller for a commission when the deal is executed. There are several kinds of brokers, each of whom deals in specific types of transactions. Each type of brokers provides different levels or type of service. List of Values for this table is Reciprocal, Sweep and Other. Currently this attribute is only consumed by LRM application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to end of period balance which includes accrued interest. All the calculations such as interest, prepayment amounts etc. are based on this amount. This is used in all the calculations performed by cash flow engine. In Case of LC Contracts, EOP Balance should be populated when LC Is executed. Till LC is executed, LC amount sanctioned should be hold in Total Commitment Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Principle Balance Group Lower Bound Amount",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the lower bound value for principal balance group for the product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Principle Balance Group Upper Bound Amount",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the upper bound value for principal balance group for the product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique general ledger account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Expense",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest expense incurred for the account by the financial institution during the current month to till date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Accounts In Broker",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of broker deposit accounts for combination of product and mis date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Remaining Term In Months",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the remaining tenor of the account. The remaining tenor is computed by deducting As of Date from Maturity Date from the source system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF37946",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Broker Deposits",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:32.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37947",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Broker Deposits",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:32.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37948",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Broker Deposits",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:32.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37949",
+                    "btLogicalName": "Broker Deposit Type",
+                    "dqDesc": "Reference Check for Broker Deposit Type in Stage Broker Deposits",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:32.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37950",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Broker Deposits",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:32.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37951",
+                    "btLogicalName": "General Ledger Account Code",
+                    "dqDesc": "Reference Check for General Ledger Account Code in Stage Broker Deposits",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:32.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37952",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Broker Deposits",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:32.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37953",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Broker Deposits",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:32.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                },
+                {
+                    "dqId": "DQREF37954",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Broker Deposits",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:32.0",
+                    "modifiedDate": "2024-11-04 04:39:35.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

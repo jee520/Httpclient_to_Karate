@@ -1,0 +1,260 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Catastrophe Duration Both Dates Inclusive Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicating whether the catastrophe duration is inclusive of both start date and end date. List of values are Y is yes, n is no.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Catastrophe End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the date on which the catastrophes event ended if it occurred for several days.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Catastrophe Event Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This is the description of the Catastrophe event. The event will include the name, type, source of catastrophe, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Catastrophe External Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This is the external source code assigned to the catastrophe, when the cause of the catastrophe is external to the business establishment or residence.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Catastrophe Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This the code for the catastrophe event involved in the policy. Catastrophe event refers to sudden disaster of immense proportions that has severe consequences, often accompanied by destruction of assets and or loss of life.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Catastrophe Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This the code for the catastrophe event involved in the policy. Catastrophe event refers to sudden disaster of immense proportions that has severe consequences, often accompanied by destruction of assets and or loss of life.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Catastrophe Internal Source",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This field stores the source of the catastrophe when the source of the catastrophe is internal to the business establishment or residence.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Catastrophe Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This is the name given to the catastrophe. For example the names for cyclones like Katrina, Rita.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Catastrophe National Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This is the name of the country in which the catastrophe occurred.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Catastrophe Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This is the unique numeric identifier associated with the catastrophe code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Catastrophe Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This is the date on which the catastrophes event started if it occurred for several days.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Catastrophe State Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This is the code of the state in which the catastrophe occurred.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Duration Unit Of Measures",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the unit of measurement for duration. Sample values are minutes, Hours, seconds.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Event Duration Continuous Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicator showing whether the duration is continuous or non continuous. List of values are C is continuous, N is non continuous.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Excess Catastrophe Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This system code indicates that a catastrophe loss is in excess of retention amount of the policyholder.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "505",
+                    "srcLogicalName": "Stage Catastrophe Events Master",
+                    "scdName": "scd_505_DIM_CATASTROPHE_EVENTS_STG_CATASTROPHE_EVENTS_MASTER",
+                    "scdDesc": "Data movement from catastrophe events master source to catastrophe events dimension",
+                    "createdDate": "2024-10-26 06:02:42.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42699",
+                    "btLogicalName": "Catastrophe Numeric Identifier",
+                    "dqDesc": "Catastrophe Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQCUS42700",
+                    "btLogicalName": "Catastrophe Numeric Identifier",
+                    "dqDesc": "Catastrophe Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQLOV34090",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQLOV34091",
+                    "btLogicalName": "Event Duration Continuous Indicator",
+                    "dqDesc": "Should have list of values as C,N",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQLOV34092",
+                    "btLogicalName": "Catastrophe Duration Both Dates Inclusive Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQNMDUP42228",
+                    "btLogicalName": "Catastrophe Numeric Identifier",
+                    "dqDesc": "Catastrophe Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQSPLCH42759",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

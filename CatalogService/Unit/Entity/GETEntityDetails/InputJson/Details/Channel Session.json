@@ -1,0 +1,158 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Authentication Level Utilized",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of levels of authentication an individual was required to pass for this access event before access could be granted or denied.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Event Date Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the date on which transaction event occurred in a number format i.e. YYYYMMDD for FAH.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Event End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the event completed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Event End Time",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Timestamp",
+                    "gcd": "Refers to the time at which the event completed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Event Time",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Timestamp",
+                    "gcd": "Refers to the time at which, the event started.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Primary Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of activity initiated by the event such as Account Address Change, Initiate Financial Transaction, Balance Inquiry, etc. If multiple activities are initiated by this access event, this represents the primary reason for the access.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Session Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the transaction session.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the financial institution specified channel through which this transaction was initiated.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF38656",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Channel Session",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF38657",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Channel Session",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF38658",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Channel Session",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF38659",
+                    "btLogicalName": "Transaction Channel Code",
+                    "dqDesc": "Reference Check for Transaction Channel Code in Stage Channel Session",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF38660",
+                    "btLogicalName": "Transaction Channel Code",
+                    "dqDesc": "Reference Check for Transaction Channel Code in Stage Channel Session",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

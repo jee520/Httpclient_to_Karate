@@ -1,0 +1,204 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compensation Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Compensation Amount in natural currency.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compensation Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Compensation Type Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deferred Compensation Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the deferred amount of the compensation paid to the employee and pertaining to the corresponding compensation type. In case of the entire component of the compensation being deferred, it is expected that the compensation amount and the deferred compensation amount are one and the same. And for the portion where only a portion of the compensation has been deferred, this will mention the deferred amount, and the compensation amount will be the total amount including the deferred balance.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Employee Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the employee assigned by the employer or legal entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fair Value Of Shares Allotted",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the fair value of the shares that have been allotted to the employee as part of the compensation package. This is populated only when the compensation is given in the form of shares, and is captured in the compensation type. Typically for the compensation in the form of shares, the compensation amount is derived by multiplying the number of shares and the fair value of the shares.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Shares Allotted In The Month To Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the total number of shares that have been allotted to an employee as part of the compensation package. This is populated only when the compensation is given in the form of shares, and is captured in the compensation type. Typically for the compensation in the form of shares, the compensation amount is derived by multiplying the number of shares and the fair value of the shares.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Shares Deferred",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the total number of shares that have been allotted to an employee on a deferred basis as part of the compensation package. This is populated only when the compensation is given in the form of shares, and is captured in the compensation type. Typically for the compensation in the form of shares, the compensation amount is derived by multiplying the number of shares and the fair value of the shares.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF39604",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Compensation Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQREF39605",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Compensation Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQREF39606",
+                    "btLogicalName": "Accounting Standard Code",
+                    "dqDesc": "Reference Check for Accounting Standard Code in Stage Compensation Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQREF39607",
+                    "btLogicalName": "Compensation Type",
+                    "dqDesc": "Reference Check for Compensation Type in Stage Compensation Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQREF39608",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Compensation Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQREF39609",
+                    "btLogicalName": "Employee Identifier",
+                    "dqDesc": "Reference Check for Employee Identifier in Stage Compensation Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQREF39610",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Compensation Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQREF39611",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Compensation Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

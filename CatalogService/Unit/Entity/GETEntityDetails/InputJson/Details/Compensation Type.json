@@ -1,0 +1,186 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compensation Adjustment Type Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates the different compensation type adjustment followed by the firms. The different type of adjustments are Ex Ante Quantitative Risk Adjustment represented by the code N, Ex Ante Qualitative Risk Adjustment represented by the code L, Explicit Ex Post Risk Adjustment represented by the code E, and Implicit Post Risk Adjustment Represented by the code I. List of Values are N, L, E and I. A value of NULL will be treated as N, to ensure that it is a quantitative risk adjustment related compensation type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compensation Type",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Compensation Type Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compensation Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Compensation Type Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compensation Type Category Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Compensation Type Category Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compensation Type Category Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Compensation Type Category Description.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compensation Type Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Compensation Type Description.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compensation Type Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Compensation Type Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1029",
+                    "srcLogicalName": "Stage Compensation Type Master",
+                    "scdName": "scd_1029_DIM_COMPENSATION_TYPE_STG_COMPENSATION_TYPE_MASTER",
+                    "scdDesc": "Data movement from compensation type master source to compensation type dimension",
+                    "createdDate": "2024-10-26 06:02:40.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42283",
+                    "btLogicalName": "Compensation Type Numeric Identifier",
+                    "dqDesc": "Compensation Type Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQCUS42284",
+                    "btLogicalName": "Compensation Type Numeric Identifier",
+                    "dqDesc": "Compensation Type Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQLOV31271",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQLOV31272",
+                    "btLogicalName": "Compensation Adjustment Type Indicator",
+                    "dqDesc": "Should have list of values as E,I,L,N",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQNMDUP41985",
+                    "btLogicalName": "Compensation Type Numeric Identifier",
+                    "dqDesc": "Compensation Type Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                },
+                {
+                    "dqId": "DQSPLCH42799",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:34.0",
+                    "modifiedDate": "2024-11-04 04:39:37.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}
