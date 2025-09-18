@@ -1,0 +1,30 @@
+{
+  "body" : {
+    "createdAt" : "2025-06-30 14:24:14",
+    "createdBy" : "System",
+    "updatedAt" : "2025-06-30 14:24:14",
+    "updatedBy" : "System",
+    "deprecated" : "N",
+    "glossaryMappingCode" : "PBSM-FSDF",
+    "glossaryMappingCount" : 795,
+    "glossaryMappingDescription" : "Profitability and Balance Sheet Management Catalog to Data Foundation Banking Catalog Mapping",
+    "glossaryMappingMasterId" : 1,
+    "glossaryMappingName" : "PBSM to Foundation Catalog Mapping",
+    "glossaryMappingPurpose" : "INGRESS",
+    "glossaryMappingStatus" : "PUBLISHED",
+    "glossaryMappingVersion" : "25.6.1",
+    "language" : "EN",
+    "latestRecordFlag" : "Y",
+    "mappedCatalogId" : "FSDF",
+    "mappedCatalogName" : "Foundation Catalog for Banking",
+    "mappedCatalogVersion" : "25.6.1",
+    "primaryCatalogId" : "PBSM",
+    "primaryCatalogName" : "Profitability and Balance Sheet Management",
+    "primaryCatalogVersion" : "25.6.1",
+    "publishedMappingCount" : 0,
+    "sourceOfMapping" : "SEEDED",
+    "submitMapping" : false,
+    "validatedMappingCount" : 0
+  },
+  "code" : "CV0000"
+}

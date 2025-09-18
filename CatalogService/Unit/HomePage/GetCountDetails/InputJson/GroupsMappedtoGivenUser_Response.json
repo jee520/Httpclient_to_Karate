@@ -1,0 +1,75 @@
+{
+    "payload": [
+        {
+            "v_group_desc": "User group with setup and maintainance across all service features of Data Foundation for Banking",
+            "v_group_name": "Application Admin of Data Foundation For Banking",
+            "v_group_code": "DFBAPPADMIN"
+        },
+        {
+            "v_group_desc": "FRC Catalog Owner has access to data model view, catalog extensions and custom DQ creation",
+            "v_group_name": "FRC Data Catalog Owner",
+            "v_group_code": "DFBCATLGOWN"
+        },
+        {
+            "v_group_desc": "Data Analyst has the view access of data platform features",
+            "v_group_name": "FRC Data Analyst",
+            "v_group_code": "DFBDATANALST"
+        },
+        {
+            "v_group_desc": "FRC Integration Analyst has access to create, edit, view and delete EDD, Connector, Data Extracts",
+            "v_group_name": "FRC Data Integration Analyst",
+            "v_group_code": "DFBINTANLST"
+        },
+        {
+            "v_group_desc": "User group with Object Migration Export administration features of Data Foundation for Banking",
+            "v_group_name": "Object Migration Export Admin of Data Foundation For Banking",
+            "v_group_code": "DFBOBJEXPGRP"
+        },
+        {
+            "v_group_desc": "User group with Object Migration Import administration features of Data Foundation for Banking",
+            "v_group_name": "Object Migration Import Admin of Data Foundation For Banking",
+            "v_group_code": "DFBOBJIMPGRP"
+        },
+        {
+            "v_group_desc": "Process Orchestration Administrator has access to create,edit,view,delete and execute data pipelines",
+            "v_group_name": "FRC Process Orchestration Administrator",
+            "v_group_code": "DFBPRCADMIN"
+        },
+        {
+            "v_group_desc": "Quality Controller of Data Foundation for Banking",
+            "v_group_name": "Quality Controller of Data Foundation For Banking",
+            "v_group_code": "DFBQLTCNTRL"
+        },
+        {
+            "v_group_desc": "Reconciliation Adiminstrator of Data Foundation for Banking",
+            "v_group_name": "Recon Admin of Data Foundation For Banking",
+            "v_group_code": "DFBRECONADMIN"
+        },
+        {
+            "v_group_desc": "User group with system administration features of Data Foundation for Banking",
+            "v_group_name": "System Admin of Data Foundation For Banking",
+            "v_group_code": "DFBSYSADMN"
+        },
+        {
+            "v_group_desc": "FRC Data Platform Administrator has access to file operations and all service administrations",
+            "v_group_name": "FRC Data Platform Administrator",
+            "v_group_code": "DPADMIN"
+        },
+        {
+            "v_group_desc": "Identity Administrator group",
+            "v_group_name": "Identity Administrator group",
+            "v_group_code": "IDNTY_ADMN"
+        },
+        {
+            "v_group_desc": "Identity Authorizer group",
+            "v_group_name": "Identity Authorizer group",
+            "v_group_code": "IDNTY_AUTH"
+        },
+        {
+            "v_group_desc": "Right To Forget Admin of Data Foundation for Banking",
+            "v_group_name": "RTF Admin of Data Foundation For Banking",
+            "v_group_code": "RTFADMNGRP"
+        }
+    ],
+    "count": 14
+}

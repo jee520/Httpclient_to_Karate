@@ -1,0 +1,112 @@
+{
+    "userId": "dfcsqa",
+    "tenantId": "lj5h8i-prd",
+    "appVersion": "25.3.1",
+    "landingPage": "FL",
+    "domains": [
+        {
+            "domainId": "Banking",
+            "selected": "Y",
+            "deployed": "Y",
+            "isLoggedInUser": "N"
+        }
+    ],
+    "menuItems": [
+        {
+            "label": "Home",
+            "id": "/fl"
+        },
+        {
+            "label": "Data Catalog",
+            "id": "Data Catalog",
+            "children": [
+                {
+                    "label": "Catalogs",
+                    "id": "/external/catalogs"
+                },
+                {
+                    "label": "Glossary Mapping",
+                    "id": "/external/glsMapping"
+                },
+                {
+                    "label": "Business Terms",
+                    "id": "/external/bus-terms"
+                },
+                {
+                    "label": "Entities",
+                    "id": "/external/data-model"
+                },
+                {
+                    "label": "Connectors",
+                    "id": "/external/connectors"
+                }
+            ]
+        },
+        {
+            "label": "Data Integration",
+            "id": "Data Integration",
+            "children": [
+                {
+                    "label": "Data Source Template",
+                    "id": "/di?tab=edd"
+                },
+                {
+                    "label": "Connectors",
+                    "id": "/di?tab=incon"
+                },
+                {
+                    "label": "Data Operatons",
+                    "id": "/external/pmf"
+                },
+                {
+                    "label": "Data Extraction",
+                    "id": "/di?tab=de"
+                }
+            ]
+        },
+        {
+            "label": "Data Controls",
+            "id": "Data Controls",
+            "children": [
+                {
+                    "label": "Data Quality Check",
+                    "id": "/dq?tab=dqChecks"
+                },
+                {
+                    "label": "Data Quality Group",
+                    "id": "/dq?tab=dqGoups"
+                },
+                {
+                    "label": "Data Quality Exceptions",
+                    "id": "/external/dqexception"
+                },
+                {
+                    "label": "Reconciliation Rules",
+                    "id": "/external/recon"
+                }
+            ]
+        },
+        {
+            "label": "Data Visualization",
+            "id": "Data Visualization",
+            "children": [
+                {
+                    "label": "Source Data Visualisation",
+                    "id": ""
+                },
+                {
+                    "label": "Result Data Visualisation",
+                    "id": ""
+                },
+                {
+                    "label": "Data Quality Dashboard",
+                    "id": ""
+                },
+                {
+                    "label": "GL Reconciliation Dashboard",
+                    "id": ""
+                }
+            ]
+        }
+    ]
+}

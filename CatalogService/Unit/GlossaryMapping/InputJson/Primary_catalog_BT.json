@@ -1,0 +1,2551 @@
+{
+  "body" : [ {
+    "btLogicalName" : "Other Add On Average Life",
+    "businessTermId" : "BPBSM8123"
+  }, {
+    "btLogicalName" : "Other Add On Rate Pay Leg",
+    "businessTermId" : "BPBSM8124"
+  }, {
+    "btLogicalName" : "Overdraft Protection Code",
+    "businessTermId" : "BPBSM8125"
+  }, {
+    "btLogicalName" : "Primary Account Indicator",
+    "businessTermId" : "BPBSM8126"
+  }, {
+    "btLogicalName" : "Rate Cap Life Receive Leg",
+    "businessTermId" : "BPBSM8127"
+  }, {
+    "btLogicalName" : "Rate Change Rounding Code",
+    "businessTermId" : "BPBSM8128"
+  }, {
+    "btLogicalName" : "Relationship Manager Code",
+    "businessTermId" : "BPBSM8129"
+  }, {
+    "btLogicalName" : "Remaining Term Multiplier",
+    "businessTermId" : "BPBSM8130"
+  }, {
+    "btLogicalName" : "Settlement Account Number",
+    "businessTermId" : "BPBSM8131"
+  }, {
+    "btLogicalName" : "Tp Effective Date Pay Leg",
+    "businessTermId" : "BPBSM8132"
+  }, {
+    "btLogicalName" : "Transfer Pricing Duration",
+    "businessTermId" : "BPBSM8133"
+  }, {
+    "btLogicalName" : "Transfer Rate Receive Leg",
+    "businessTermId" : "BPBSM8134"
+  }, {
+    "btLogicalName" : "Account Close Date Pay Leg",
+    "businessTermId" : "BPBSM8135"
+  }, {
+    "btLogicalName" : "Accrual Basis Code Pay Leg",
+    "businessTermId" : "BPBSM8136"
+  }, {
+    "btLogicalName" : "All In Transfer Price Rate",
+    "businessTermId" : "BPBSM8137"
+  }, {
+    "btLogicalName" : "Automatic Inheritance Flag",
+    "businessTermId" : "BPBSM8138"
+  }, {
+    "btLogicalName" : "Average Gross Book Balance",
+    "businessTermId" : "BPBSM8139"
+  }, {
+    "btLogicalName" : "Breakage Cumulative Amount",
+    "businessTermId" : "BPBSM8140"
+  }, {
+    "btLogicalName" : "Breakage Type Code Pay Leg",
+    "businessTermId" : "BPBSM8141"
+  }, {
+    "btLogicalName" : "Commitment Balance Pay Leg",
+    "businessTermId" : "BPBSM8142"
+  }, {
+    "btLogicalName" : "Commitment Fee To Customer",
+    "businessTermId" : "BPBSM8143"
+  }, {
+    "btLogicalName" : "Commitment Term Multiplier",
+    "businessTermId" : "BPBSM8144"
+  }, {
+    "btLogicalName" : "Current Delinquent Balance",
+    "businessTermId" : "BPBSM8145"
+  }, {
+    "btLogicalName" : "Current Gross Book Balance",
+    "businessTermId" : "BPBSM8146"
+  }, {
+    "btLogicalName" : "Current Gross Rate Pay Leg",
+    "businessTermId" : "BPBSM8147"
+  }, {
+    "btLogicalName" : "Date Of Last Status Change",
+    "businessTermId" : "BPBSM8148"
+  }, {
+    "btLogicalName" : "Exchange Of Principal Flag",
+    "businessTermId" : "BPBSM8149"
+  }, {
+    "btLogicalName" : "Inflation Index Start Date",
+    "businessTermId" : "BPBSM8150"
+  }, {
+    "btLogicalName" : "Interest Payment Frequency",
+    "businessTermId" : "BPBSM8151"
+  }, {
+    "btLogicalName" : "Interest Rate Gross Margin",
+    "businessTermId" : "BPBSM8152"
+  }, {
+    "btLogicalName" : "Interest Rate Risk Capital",
+    "businessTermId" : "BPBSM8153"
+  }, {
+    "btLogicalName" : "Last Interest Payment Date",
+    "businessTermId" : "BPBSM8154"
+  }, {
+    "btLogicalName" : "Liquidity Premium Duration",
+    "businessTermId" : "BPBSM8155"
+  }, {
+    "btLogicalName" : "Matched Spread Receive Leg",
+    "businessTermId" : "BPBSM8156"
+  }, {
+    "btLogicalName" : "Next Interest Payment Date",
+    "businessTermId" : "BPBSM8157"
+  }, {
+    "btLogicalName" : "Other Add On Charge Credit",
+    "businessTermId" : "BPBSM8158"
+  }, {
+    "btLogicalName" : "Over The Counter Indicator",
+    "businessTermId" : "BPBSM8159"
+  }, {
+    "btLogicalName" : "Pricing Incentive Duration",
+    "businessTermId" : "BPBSM8160"
+  }, {
+    "btLogicalName" : "Remaining Term Receive Leg",
+    "businessTermId" : "BPBSM8161"
+  }, {
+    "btLogicalName" : "Residual Amount Guaranteed",
+    "businessTermId" : "BPBSM8162"
+  }, {
+    "btLogicalName" : "Tenor Date Term Multiplier",
+    "businessTermId" : "BPBSM8163"
+  }, {
+    "btLogicalName" : "Transactional Account Flag",
+    "businessTermId" : "BPBSM8164"
+  }, {
+    "btLogicalName" : "Accident And Health Premium",
+    "businessTermId" : "BPBSM8165"
+  }, {
+    "btLogicalName" : "Account Classification Code",
+    "businessTermId" : "BPBSM8166"
+  }, {
+    "btLogicalName" : "Autopay Bank Transit Number",
+    "businessTermId" : "BPBSM8167"
+  }, {
+    "btLogicalName" : "Break Tolerance Expiry Date",
+    "businessTermId" : "BPBSM8168"
+  }, {
+    "btLogicalName" : "Breakage Amount Receive Leg",
+    "businessTermId" : "BPBSM8169"
+  }, {
+    "btLogicalName" : "Capital Protection Category",
+    "businessTermId" : "BPBSM8170"
+  }, {
+    "btLogicalName" : "Compound Basis Code Pay Leg",
+    "businessTermId" : "BPBSM8171"
+  }, {
+    "btLogicalName" : "Credit Risk Weighted Assets",
+    "businessTermId" : "BPBSM8172"
+  }, {
+    "btLogicalName" : "Current Par Balance Pay Leg",
+    "businessTermId" : "BPBSM8173"
+  }, {
+    "btLogicalName" : "Data File Specifications Id",
+    "businessTermId" : "BPBSM8174"
+  }, {
+    "btLogicalName" : "Disbursement Account Number",
+    "businessTermId" : "BPBSM8175"
+  }, {
+    "btLogicalName" : "General Ledger Account Code",
+    "businessTermId" : "BPBSM8176"
+  }, {
+    "btLogicalName" : "Hierarchy Level Description",
+    "businessTermId" : "BPBSM8177"
+  }, {
+    "btLogicalName" : "Largest Outstanding Balance",
+    "businessTermId" : "BPBSM8178"
+  }, {
+    "btLogicalName" : "Last Principal Payment Date",
+    "businessTermId" : "BPBSM8179"
+  }, {
+    "btLogicalName" : "Last Repricing Date Pay Leg",
+    "businessTermId" : "BPBSM8180"
+  }, {
+    "btLogicalName" : "Mandatory Disbursement Date",
+    "businessTermId" : "BPBSM8181"
+  }, {
+    "btLogicalName" : "Membership Anniversary Date",
+    "businessTermId" : "BPBSM8182"
+  }, {
+    "btLogicalName" : "Negative Amortization Limit",
+    "businessTermId" : "BPBSM8183"
+  }, {
+    "btLogicalName" : "Net Margin Code Receive Leg",
+    "businessTermId" : "BPBSM8184"
+  }, {
+    "btLogicalName" : "Next Principal Payment Date",
+    "businessTermId" : "BPBSM8185"
+  }, {
+    "btLogicalName" : "Original Gross Book Balance",
+    "businessTermId" : "BPBSM8186"
+  }, {
+    "btLogicalName" : "Other Add On Amount Pay Leg",
+    "businessTermId" : "BPBSM8187"
+  }, {
+    "btLogicalName" : "Principal Payment Frequency",
+    "businessTermId" : "BPBSM8188"
+  }, {
+    "btLogicalName" : "Rate Change Minimum Pay Leg",
+    "businessTermId" : "BPBSM8189"
+  }, {
+    "btLogicalName" : "Rate Change Rounding Factor",
+    "businessTermId" : "BPBSM8190"
+  }, {
+    "btLogicalName" : "Rate Decrease Cycle Pay Leg",
+    "businessTermId" : "BPBSM8191"
+  }, {
+    "btLogicalName" : "Rate Floor Life Receive Leg",
+    "businessTermId" : "BPBSM8192"
+  }, {
+    "btLogicalName" : "Rate Increase Cycle Pay Leg",
+    "businessTermId" : "BPBSM8193"
+  }, {
+    "btLogicalName" : "Repricing Frequency Pay Leg",
+    "businessTermId" : "BPBSM8194"
+  }, {
+    "btLogicalName" : "Student Year In School Code",
+    "businessTermId" : "BPBSM8195"
+  }, {
+    "btLogicalName" : "Teaser First Reset Cap Rate",
+    "businessTermId" : "BPBSM8196"
+  }, {
+    "btLogicalName" : "Transfer Rate Charge Credit",
+    "businessTermId" : "BPBSM8197"
+  }, {
+    "btLogicalName" : "Accrued Net Interest Pay Leg",
+    "businessTermId" : "BPBSM8198"
+  }, {
+    "btLogicalName" : "Adjustable Type Code Pay Leg",
+    "businessTermId" : "BPBSM8199"
+  }, {
+    "btLogicalName" : "Amortization Term Multiplier",
+    "businessTermId" : "BPBSM8200"
+  }, {
+    "btLogicalName" : "Basis Risk Cost Average Life",
+    "businessTermId" : "BPBSM8201"
+  }, {
+    "btLogicalName" : "Basis Risk Cost Rate Pay Leg",
+    "businessTermId" : "BPBSM8202"
+  }, {
+    "btLogicalName" : "Common Chart Of Account Code",
+    "businessTermId" : "BPBSM8203"
+  }, {
+    "btLogicalName" : "Credit Risk Capital Economic",
+    "businessTermId" : "BPBSM8204"
+  }, {
+    "btLogicalName" : "Current Net Rate Receive Leg",
+    "businessTermId" : "BPBSM8205"
+  }, {
+    "btLogicalName" : "Date Last Credit Line Change",
+    "businessTermId" : "BPBSM8206"
+  }, {
+    "btLogicalName" : "Discount Rate Margin Pay Leg",
+    "businessTermId" : "BPBSM8207"
+  }, {
+    "btLogicalName" : "Economic Value Transfer Rate",
+    "businessTermId" : "BPBSM8208"
+  }, {
+    "btLogicalName" : "Interest Dividends Frequency",
+    "businessTermId" : "BPBSM8209"
+  }, {
+    "btLogicalName" : "Interest Payment Method Code",
+    "businessTermId" : "BPBSM8210"
+  }, {
+    "btLogicalName" : "Market Risk Capital Economic",
+    "businessTermId" : "BPBSM8211"
+  }, {
+    "btLogicalName" : "Negative Amortization Amount",
+    "businessTermId" : "BPBSM8212"
+  }, {
+    "btLogicalName" : "Number Of Inventoried Assets",
+    "businessTermId" : "BPBSM8213"
+  }, {
+    "btLogicalName" : "Original Credit Score Source",
+    "businessTermId" : "BPBSM8214"
+  }, {
+    "btLogicalName" : "Original Par Balance Pay Leg",
+    "businessTermId" : "BPBSM8215"
+  }, {
+    "btLogicalName" : "Remaining Number Of Payments",
+    "businessTermId" : "BPBSM8216"
+  }, {
+    "btLogicalName" : "Transfer Rate Remaining Term",
+    "businessTermId" : "BPBSM8217"
+  }, {
+    "btLogicalName" : "Above Compensation Limit Flag",
+    "businessTermId" : "BPBSM8218"
+  }, {
+    "btLogicalName" : "Add On Effective Date Pay Leg",
+    "businessTermId" : "BPBSM8219"
+  }, {
+    "btLogicalName" : "After Payment Balance Pay Leg",
+    "businessTermId" : "BPBSM8220"
+  }, {
+    "btLogicalName" : "Central Bank Eligibility Flag",
+    "businessTermId" : "BPBSM8221"
+  }, {
+    "btLogicalName" : "Commitment Number Receive Leg",
+    "businessTermId" : "BPBSM8222"
+  }, {
+    "btLogicalName" : "Credit Life Insurance Premium",
+    "businessTermId" : "BPBSM8223"
+  }, {
+    "btLogicalName" : "Current Static Spread Pay Leg",
+    "businessTermId" : "BPBSM8224"
+  }, {
+    "btLogicalName" : "Customer Hierarchy Child Code",
+    "businessTermId" : "BPBSM8225"
+  }, {
+    "btLogicalName" : "Direct Deposit Account Number",
+    "businessTermId" : "BPBSM8226"
+  }, {
+    "btLogicalName" : "Other Add On Amount Alternate Output Receive Leg",
+    "businessTermId" : "BPBSM8490"
+  }, {
+    "btLogicalName" : "All In Transfer Prince Rate Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8491"
+  }, {
+    "btLogicalName" : "Economic Value All In Transfer Price Rate Pay Leg",
+    "businessTermId" : "BPBSM8492"
+  }, {
+    "btLogicalName" : "Economic Value Liquidity Premium Rate Receive Leg",
+    "businessTermId" : "BPBSM8493"
+  }, {
+    "btLogicalName" : "Economic Value Pricing Incentive Rate Receive Leg",
+    "businessTermId" : "BPBSM8494"
+  }, {
+    "btLogicalName" : "Historic Option Adjusted Spread Alternate Pay Leg",
+    "businessTermId" : "BPBSM8495"
+  }, {
+    "btLogicalName" : "Interest Payment Frequency Multiplier Receive Leg",
+    "businessTermId" : "BPBSM8496"
+  }, {
+    "btLogicalName" : "Accumulated Other Add On Charge Credit Receive Leg",
+    "businessTermId" : "BPBSM8497"
+  }, {
+    "btLogicalName" : "Current Static Spread Alternate Output Receive Leg",
+    "businessTermId" : "BPBSM8498"
+  }, {
+    "btLogicalName" : "Economic Value Other Add On Alternate Rate Pay Leg",
+    "businessTermId" : "BPBSM8499"
+  }, {
+    "btLogicalName" : "Principal Payment Frequency Multiplier Receive Leg",
+    "businessTermId" : "BPBSM8500"
+  }, {
+    "btLogicalName" : "Transfer Rate Remaining Term Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8501"
+  }, {
+    "btLogicalName" : "Accumulated Liquidity Premium Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8502"
+  }, {
+    "btLogicalName" : "Accumulated Pricing Incentive Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8503"
+  }, {
+    "btLogicalName" : "Accumulated Transfer Rate Charge Credit Receive Leg",
+    "businessTermId" : "BPBSM8504"
+  }, {
+    "btLogicalName" : "Current Transfer Price Period Average Daily Balance",
+    "businessTermId" : "BPBSM8505"
+  }, {
+    "btLogicalName" : "Expected Credit Loss On Date Of Initial Recognition",
+    "businessTermId" : "BPBSM8506"
+  }, {
+    "btLogicalName" : "Historic Static Spread Alternate Output Receive Leg",
+    "businessTermId" : "BPBSM8507"
+  }, {
+    "btLogicalName" : "Prior Transfer Pricing Period Average Daily Balance",
+    "businessTermId" : "BPBSM8508"
+  }, {
+    "btLogicalName" : "Accumulated All In Transfer Price Rate Charge Credit",
+    "businessTermId" : "BPBSM8509"
+  }, {
+    "btLogicalName" : "Current Option Adjusted Spread Alternate Receive Leg",
+    "businessTermId" : "BPBSM8510"
+  }, {
+    "btLogicalName" : "Fees For Effective Interest Rate Computation Pay Leg",
+    "businessTermId" : "BPBSM8511"
+  }, {
+    "btLogicalName" : "Option Cost Charge Credit For Remaining Term Pay Leg",
+    "businessTermId" : "BPBSM8512"
+  }, {
+    "btLogicalName" : "All In Transfer Prince Rate Charge Credit Receive Leg",
+    "businessTermId" : "BPBSM8513"
+  }, {
+    "btLogicalName" : "Economic Value All In Transfer Price Rate Receive Leg",
+    "businessTermId" : "BPBSM8514"
+  }, {
+    "btLogicalName" : "Historic Option Adjusted Spread Alternate Receive Leg",
+    "businessTermId" : "BPBSM8515"
+  }, {
+    "btLogicalName" : "Transfer Rate Remaining Term Alternate Output Pay Leg",
+    "businessTermId" : "BPBSM8516"
+  }, {
+    "btLogicalName" : "Accumulated Transfer Rate Remaining Term Charge Credit",
+    "businessTermId" : "BPBSM8517"
+  }, {
+    "btLogicalName" : "Economic Value Other Add On Alternate Rate Receive Leg",
+    "businessTermId" : "BPBSM8518"
+  }, {
+    "btLogicalName" : "Transfer Rate Remaining Term Charge Credit Receive Leg",
+    "businessTermId" : "BPBSM8519"
+  }, {
+    "btLogicalName" : "Accumulated Liquidity Premium Charge Credit Receive Leg",
+    "businessTermId" : "BPBSM8520"
+  }, {
+    "btLogicalName" : "Accumulated Pricing Incentive Charge Credit Receive Leg",
+    "businessTermId" : "BPBSM8521"
+  }, {
+    "btLogicalName" : "Additional Fees For Effective Interest Rate Payable Leg",
+    "businessTermId" : "BPBSM8522"
+  }, {
+    "btLogicalName" : "Negative Amortization Equalization Frequency Multiplier",
+    "businessTermId" : "BPBSM8523"
+  }, {
+    "btLogicalName" : "Fees For Effective Interest Rate Computation Receive Leg",
+    "businessTermId" : "BPBSM8524"
+  }, {
+    "btLogicalName" : "Option Cost Charge Credit For Remaining Term Receive Leg",
+    "businessTermId" : "BPBSM8525"
+  }, {
+    "btLogicalName" : "Negative Amortization Payment Change Frequency Multiplier",
+    "businessTermId" : "BPBSM8526"
+  }, {
+    "btLogicalName" : "Transfer Rate Remaining Term Alternate Output Receive Leg",
+    "businessTermId" : "BPBSM8527"
+  }, {
+    "btLogicalName" : "Additional Fees For Effective Interest Rate Receivable Leg",
+    "businessTermId" : "BPBSM8528"
+  }, {
+    "btLogicalName" : "Current Transfer Price Period Average Daily Balance Pay Leg",
+    "businessTermId" : "BPBSM8529"
+  }, {
+    "btLogicalName" : "Prior Transfer Pricing Period Average Daily Balance Pay Leg",
+    "businessTermId" : "BPBSM8530"
+  }, {
+    "btLogicalName" : "Age",
+    "businessTermId" : "BPBSM7689"
+  }, {
+    "btLogicalName" : "Cost",
+    "businessTermId" : "BPBSM7690"
+  }, {
+    "btLogicalName" : "Volume",
+    "businessTermId" : "BPBSM7691"
+  }, {
+    "btLogicalName" : "Sic Code",
+    "businessTermId" : "BPBSM7692"
+  }, {
+    "btLogicalName" : "Bank Code",
+    "businessTermId" : "BPBSM7693"
+  }, {
+    "btLogicalName" : "Cash Rate",
+    "businessTermId" : "BPBSM7694"
+  }, {
+    "btLogicalName" : "Late Fees",
+    "businessTermId" : "BPBSM7695"
+  }, {
+    "btLogicalName" : "Leaf Flag",
+    "businessTermId" : "BPBSM7696"
+  }, {
+    "btLogicalName" : "Member Id",
+    "businessTermId" : "BPBSM7697"
+  }, {
+    "btLogicalName" : "Penalties",
+    "businessTermId" : "BPBSM7698"
+  }, {
+    "btLogicalName" : "Plan Code",
+    "businessTermId" : "BPBSM7699"
+  }, {
+    "btLogicalName" : "Tier Name",
+    "businessTermId" : "BPBSM7700"
+  }, {
+    "btLogicalName" : "As Of Date",
+    "businessTermId" : "BPBSM7701"
+  }, {
+    "btLogicalName" : "Created By",
+    "businessTermId" : "BPBSM7702"
+  }, {
+    "btLogicalName" : "Issue Date",
+    "businessTermId" : "BPBSM7703"
+  }, {
+    "btLogicalName" : "Issue Term",
+    "businessTermId" : "BPBSM7704"
+  }, {
+    "btLogicalName" : "Other Fees",
+    "businessTermId" : "BPBSM7705"
+  }, {
+    "btLogicalName" : "Tenor Date",
+    "businessTermId" : "BPBSM7706"
+  }, {
+    "btLogicalName" : "Account Age",
+    "businessTermId" : "BPBSM7707"
+  }, {
+    "btLogicalName" : "Agency Code",
+    "businessTermId" : "BPBSM7708"
+  }, {
+    "btLogicalName" : "Agency Fees",
+    "businessTermId" : "BPBSM7709"
+  }, {
+    "btLogicalName" : "Annual Fees",
+    "businessTermId" : "BPBSM7710"
+  }, {
+    "btLogicalName" : "Binary Rate",
+    "businessTermId" : "BPBSM7711"
+  }, {
+    "btLogicalName" : "Branch Code",
+    "businessTermId" : "BPBSM7712"
+  }, {
+    "btLogicalName" : "Daily Limit",
+    "businessTermId" : "BPBSM7713"
+  }, {
+    "btLogicalName" : "Folder Code",
+    "businessTermId" : "BPBSM7714"
+  }, {
+    "btLogicalName" : "Fund Number",
+    "businessTermId" : "BPBSM7715"
+  }, {
+    "btLogicalName" : "Issuer Code",
+    "businessTermId" : "BPBSM7716"
+  }, {
+    "btLogicalName" : "Member Code",
+    "businessTermId" : "BPBSM7717"
+  }, {
+    "btLogicalName" : "Member Name",
+    "businessTermId" : "BPBSM7718"
+  }, {
+    "btLogicalName" : "Option Cost",
+    "businessTermId" : "BPBSM7719"
+  }, {
+    "btLogicalName" : "Bonus Amount",
+    "businessTermId" : "BPBSM7720"
+  }, {
+    "btLogicalName" : "Cash Balance",
+    "businessTermId" : "BPBSM7721"
+  }, {
+    "btLogicalName" : "Channel Code",
+    "businessTermId" : "BPBSM7722"
+  }, {
+    "btLogicalName" : "Credit Score",
+    "businessTermId" : "BPBSM7723"
+  }, {
+    "btLogicalName" : "Cusip Number",
+    "businessTermId" : "BPBSM7724"
+  }, {
+    "btLogicalName" : "Data Version",
+    "businessTermId" : "BPBSM7725"
+  }, {
+    "btLogicalName" : "Dimension Id",
+    "businessTermId" : "BPBSM7726"
+  }, {
+    "btLogicalName" : "Drawn Amount",
+    "businessTermId" : "BPBSM7727"
+  }, {
+    "btLogicalName" : "Enabled Flag",
+    "businessTermId" : "BPBSM7728"
+  }, {
+    "btLogicalName" : "Lock In Term",
+    "businessTermId" : "BPBSM7729"
+  }, {
+    "btLogicalName" : "Market Value",
+    "businessTermId" : "BPBSM7730"
+  }, {
+    "btLogicalName" : "Payment Date",
+    "businessTermId" : "BPBSM7731"
+  }, {
+    "btLogicalName" : "Percent Sold",
+    "businessTermId" : "BPBSM7732"
+  }, {
+    "btLogicalName" : "Product Code",
+    "businessTermId" : "BPBSM7733"
+  }, {
+    "btLogicalName" : "Purpose Code",
+    "businessTermId" : "BPBSM7734"
+  }, {
+    "btLogicalName" : "Rank Of Tier",
+    "businessTermId" : "BPBSM7735"
+  }, {
+    "btLogicalName" : "Rate Set Lag",
+    "businessTermId" : "BPBSM7736"
+  }, {
+    "btLogicalName" : "Record Count",
+    "businessTermId" : "BPBSM7737"
+  }, {
+    "btLogicalName" : "Secured Flag",
+    "businessTermId" : "BPBSM7738"
+  }, {
+    "btLogicalName" : "Strike Value",
+    "businessTermId" : "BPBSM7739"
+  }, {
+    "btLogicalName" : "Total Amount",
+    "businessTermId" : "BPBSM7740"
+  }, {
+    "btLogicalName" : "Annual Income",
+    "businessTermId" : "BPBSM7741"
+  }, {
+    "btLogicalName" : "Approval Date",
+    "businessTermId" : "BPBSM7742"
+  }, {
+    "btLogicalName" : "Breakage Flag",
+    "businessTermId" : "BPBSM7743"
+  }, {
+    "btLogicalName" : "Credit Losses",
+    "businessTermId" : "BPBSM7744"
+  }, {
+    "btLogicalName" : "Currency Code",
+    "businessTermId" : "BPBSM7745"
+  }, {
+    "btLogicalName" : "Customer Code",
+    "businessTermId" : "BPBSM7746"
+  }, {
+    "btLogicalName" : "Customer Name",
+    "businessTermId" : "BPBSM7747"
+  }, {
+    "btLogicalName" : "Dealer Number",
+    "businessTermId" : "BPBSM7748"
+  }, {
+    "btLogicalName" : "Display Order",
+    "businessTermId" : "BPBSM7749"
+  }, {
+    "btLogicalName" : "Equity Credit",
+    "businessTermId" : "BPBSM7750"
+  }, {
+    "btLogicalName" : "Exchange Rate",
+    "businessTermId" : "BPBSM7751"
+  }, {
+    "btLogicalName" : "Inflation Index Maximum Value",
+    "businessTermId" : "BPBSM8227"
+  }, {
+    "btLogicalName" : "Interest Rate Term Multiplier",
+    "businessTermId" : "BPBSM8228"
+  }, {
+    "btLogicalName" : "Lower Amount Of Balance Range",
+    "businessTermId" : "BPBSM8229"
+  }, {
+    "btLogicalName" : "Next Reprice Date Receive Leg",
+    "businessTermId" : "BPBSM8230"
+  }, {
+    "btLogicalName" : "Open Account Flag Receive Leg",
+    "businessTermId" : "BPBSM8231"
+  }, {
+    "btLogicalName" : "Original Market Value Pay Leg",
+    "businessTermId" : "BPBSM8232"
+  }, {
+    "btLogicalName" : "Other Add On Rate Receive Leg",
+    "businessTermId" : "BPBSM8233"
+  }, {
+    "btLogicalName" : "Property Purpose Subtype Code",
+    "businessTermId" : "BPBSM8234"
+  }, {
+    "btLogicalName" : "Risk Weighted Average Balance",
+    "businessTermId" : "BPBSM8235"
+  }, {
+    "btLogicalName" : "Teaser First Reset Floor Rate",
+    "businessTermId" : "BPBSM8236"
+  }, {
+    "btLogicalName" : "Tp Effective Date Receive Leg",
+    "businessTermId" : "BPBSM8237"
+  }, {
+    "btLogicalName" : "Transfer Pricing Average Life",
+    "businessTermId" : "BPBSM8238"
+  }, {
+    "btLogicalName" : "Upper Amount Of Balance Range",
+    "businessTermId" : "BPBSM8239"
+  }, {
+    "btLogicalName" : "Account Close Date Receive Leg",
+    "businessTermId" : "BPBSM8240"
+  }, {
+    "btLogicalName" : "Accrual Basis Code Receive Leg",
+    "businessTermId" : "BPBSM8241"
+  }, {
+    "btLogicalName" : "Accrued Gross Interest Pay Leg",
+    "businessTermId" : "BPBSM8242"
+  }, {
+    "btLogicalName" : "Accrued Transfer Rate Interest",
+    "businessTermId" : "BPBSM8243"
+  }, {
+    "btLogicalName" : "Authorization Device Type Code",
+    "businessTermId" : "BPBSM8244"
+  }, {
+    "btLogicalName" : "Auto Pay Instruction Type Code",
+    "businessTermId" : "BPBSM8245"
+  }, {
+    "btLogicalName" : "Basis Risk Cost Amount Pay Leg",
+    "businessTermId" : "BPBSM8246"
+  }, {
+    "btLogicalName" : "Break Tolerance Amount Pay Leg",
+    "businessTermId" : "BPBSM8247"
+  }, {
+    "btLogicalName" : "Breakage Type Code Receive Leg",
+    "businessTermId" : "BPBSM8248"
+  }, {
+    "btLogicalName" : "Commitment Balance Receive Leg",
+    "businessTermId" : "BPBSM8249"
+  }, {
+    "btLogicalName" : "Commitment Option Cost Percent",
+    "businessTermId" : "BPBSM8250"
+  }, {
+    "btLogicalName" : "Credit Risk Capital Regulatory",
+    "businessTermId" : "BPBSM8251"
+  }, {
+    "btLogicalName" : "Current Gross Rate Receive Leg",
+    "businessTermId" : "BPBSM8252"
+  }, {
+    "btLogicalName" : "Current Option Adjusted Spread",
+    "businessTermId" : "BPBSM8253"
+  }, {
+    "btLogicalName" : "Current Payment Amount Pay Leg",
+    "businessTermId" : "BPBSM8254"
+  }, {
+    "btLogicalName" : "Customer Hierarchy Parent Code",
+    "businessTermId" : "BPBSM8255"
+  }, {
+    "btLogicalName" : "Disbursement Account Type Code",
+    "businessTermId" : "BPBSM8256"
+  }, {
+    "btLogicalName" : "Discount Rate Margin Type Code",
+    "businessTermId" : "BPBSM8257"
+  }, {
+    "btLogicalName" : "Early Access Period Multiplier",
+    "businessTermId" : "BPBSM8258"
+  }, {
+    "btLogicalName" : "Geographic Location State Code",
+    "businessTermId" : "BPBSM8259"
+  }, {
+    "btLogicalName" : "Historic Static Spread Pay Leg",
+    "businessTermId" : "BPBSM8260"
+  }, {
+    "btLogicalName" : "Interest Dividends Option Code",
+    "businessTermId" : "BPBSM8261"
+  }, {
+    "btLogicalName" : "Interest Rate Margin Type Code",
+    "businessTermId" : "BPBSM8262"
+  }, {
+    "btLogicalName" : "Interest Rate Option Type Code",
+    "businessTermId" : "BPBSM8263"
+  }, {
+    "btLogicalName" : "Liquidity Premium Average Life",
+    "businessTermId" : "BPBSM8264"
+  }, {
+    "btLogicalName" : "Liquidity Premium Rate Pay Leg",
+    "businessTermId" : "BPBSM8265"
+  }, {
+    "btLogicalName" : "Mortgage Offset Account Number",
+    "businessTermId" : "BPBSM8266"
+  }, {
+    "btLogicalName" : "Option Volatility Surface Name",
+    "businessTermId" : "BPBSM8267"
+  }, {
+    "btLogicalName" : "Original Interest Payment Date",
+    "businessTermId" : "BPBSM8268"
+  }, {
+    "btLogicalName" : "Percent Of Security Encumbered",
+    "businessTermId" : "BPBSM8269"
+  }, {
+    "btLogicalName" : "Pricing Incentive Average Life",
+    "businessTermId" : "BPBSM8270"
+  }, {
+    "btLogicalName" : "Pricing Incentive Rate Pay Leg",
+    "businessTermId" : "BPBSM8271"
+  }, {
+    "btLogicalName" : "Repricing Frequency Multiplier",
+    "businessTermId" : "BPBSM8272"
+  }, {
+    "btLogicalName" : "Spot Exchange Rate For Fx Swap",
+    "businessTermId" : "BPBSM8273"
+  }, {
+    "btLogicalName" : "Transfer Rate Alternate Output",
+    "businessTermId" : "BPBSM8274"
+  }, {
+    "btLogicalName" : "Amortizing Swap Minimum Balance",
+    "businessTermId" : "BPBSM8275"
+  }, {
+    "btLogicalName" : "Compound Basis Code Receive Leg",
+    "businessTermId" : "BPBSM8276"
+  }, {
+    "btLogicalName" : "Current Effective Interest Rate",
+    "businessTermId" : "BPBSM8277"
+  }, {
+    "btLogicalName" : "Current Par Balance Receive Leg",
+    "businessTermId" : "BPBSM8278"
+  }, {
+    "btLogicalName" : "Historic Option Adjusted Spread",
+    "businessTermId" : "BPBSM8279"
+  }, {
+    "btLogicalName" : "Holiday Calculation Option Code",
+    "businessTermId" : "BPBSM8280"
+  }, {
+    "btLogicalName" : "Holiday Rolling Convention Code",
+    "businessTermId" : "BPBSM8281"
+  }, {
+    "btLogicalName" : "Last Repricing Date Receive Leg",
+    "businessTermId" : "BPBSM8282"
+  }, {
+    "btLogicalName" : "Liquidity Premium Charge Credit",
+    "businessTermId" : "BPBSM8283"
+  }, {
+    "btLogicalName" : "Matched Spread Alternate Output",
+    "businessTermId" : "BPBSM8284"
+  }, {
+    "btLogicalName" : "Mortgage Offset Minimum Balance",
+    "businessTermId" : "BPBSM8285"
+  }, {
+    "btLogicalName" : "Original Payment Amount Pay Leg",
+    "businessTermId" : "BPBSM8286"
+  }, {
+    "btLogicalName" : "Original Principal Payment Date",
+    "businessTermId" : "BPBSM8287"
+  }, {
+    "btLogicalName" : "Other Add On Amount Receive Leg",
+    "businessTermId" : "BPBSM8288"
+  }, {
+    "btLogicalName" : "Pricing Incentive Charge Credit",
+    "businessTermId" : "BPBSM8289"
+  }, {
+    "btLogicalName" : "Rate Change Minimum Receive Leg",
+    "businessTermId" : "BPBSM8290"
+  }, {
+    "btLogicalName" : "Rate Decrease Cycle Receive Leg",
+    "businessTermId" : "BPBSM8291"
+  }, {
+    "btLogicalName" : "Rate Increase Cycle Receive Leg",
+    "businessTermId" : "BPBSM8292"
+  }, {
+    "btLogicalName" : "Rate Set Lag Multiplier Pay Leg",
+    "businessTermId" : "BPBSM8293"
+  }, {
+    "btLogicalName" : "Referral Organization Unit Code",
+    "businessTermId" : "BPBSM8294"
+  }, {
+    "btLogicalName" : "Repricing Frequency Receive Leg",
+    "businessTermId" : "BPBSM8295"
+  }, {
+    "btLogicalName" : "Settlement Account Service Code",
+    "businessTermId" : "BPBSM8296"
+  }, {
+    "btLogicalName" : "Accrued Net Interest Receive Leg",
+    "businessTermId" : "BPBSM8297"
+  }, {
+    "btLogicalName" : "Adjustable Type Code Receive Leg",
+    "businessTermId" : "BPBSM8298"
+  }, {
+    "btLogicalName" : "Application Override Reason Code",
+    "businessTermId" : "BPBSM8299"
+  }, {
+    "btLogicalName" : "Basis Risk Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8300"
+  }, {
+    "btLogicalName" : "Basis Risk Cost Rate Receive Leg",
+    "businessTermId" : "BPBSM8301"
+  }, {
+    "btLogicalName" : "Direct Deposit Account Type Code",
+    "businessTermId" : "BPBSM8302"
+  }, {
+    "btLogicalName" : "Discount Rate Margin Receive Leg",
+    "businessTermId" : "BPBSM8303"
+  }, {
+    "btLogicalName" : "Economic Value Other Add On Rate",
+    "businessTermId" : "BPBSM8304"
+  }, {
+    "btLogicalName" : "Interest Rate Curve Name Pay Leg",
+    "businessTermId" : "BPBSM8305"
+  }, {
+    "btLogicalName" : "Interest Rate Net Margin Pay Leg",
+    "businessTermId" : "BPBSM8306"
+  }, {
+    "btLogicalName" : "Liquidity Premium Amount Pay Leg",
+    "businessTermId" : "BPBSM8307"
+  }, {
+    "btLogicalName" : "Mortgage Offset Original Balance",
+    "businessTermId" : "BPBSM8308"
+  }, {
+    "btLogicalName" : "Original Par Balance Receive Leg",
+    "businessTermId" : "BPBSM8309"
+  }, {
+    "btLogicalName" : "Previous Delinquency Status Code",
+    "businessTermId" : "BPBSM8310"
+  }, {
+    "btLogicalName" : "Pricing Incentive Amount Pay Leg",
+    "businessTermId" : "BPBSM8311"
+  }, {
+    "btLogicalName" : "Unexpected Loss Economic Capital",
+    "businessTermId" : "BPBSM8312"
+  }, {
+    "btLogicalName" : "Actual Account Or Contract Number",
+    "businessTermId" : "BPBSM8313"
+  }, {
+    "btLogicalName" : "Add On Effective Date Receive Leg",
+    "businessTermId" : "BPBSM8314"
+  }, {
+    "btLogicalName" : "After Payment Balance Receive Leg",
+    "businessTermId" : "BPBSM8315"
+  }, {
+    "btLogicalName" : "Average Daily Collateral Required",
+    "businessTermId" : "BPBSM8316"
+  }, {
+    "btLogicalName" : "Commitment Utilization Percentage",
+    "businessTermId" : "BPBSM8317"
+  }, {
+    "btLogicalName" : "Current Static Spread Receive Leg",
+    "businessTermId" : "BPBSM8318"
+  }, {
+    "btLogicalName" : "Forward Exchange Rate For Fx Swap",
+    "businessTermId" : "BPBSM8319"
+  }, {
+    "btLogicalName" : "Last Reprice Date Balance Pay Leg",
+    "businessTermId" : "BPBSM8320"
+  }, {
+    "btLogicalName" : "Operational Risk Economic Capital",
+    "businessTermId" : "BPBSM8321"
+  }, {
+    "btLogicalName" : "Option Cost Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8322"
+  }, {
+    "btLogicalName" : "Original Market Value Receive Leg",
+    "businessTermId" : "BPBSM8323"
+  }, {
+    "btLogicalName" : "Rate Change Rounding Code Pay Leg",
+    "businessTermId" : "BPBSM8324"
+  }, {
+    "btLogicalName" : "Remaining Term Multiplier Pay Leg",
+    "businessTermId" : "BPBSM8325"
+  }, {
+    "btLogicalName" : "Transfer Pricing Duration Pay Leg",
+    "businessTermId" : "BPBSM8326"
+  }, {
+    "btLogicalName" : "Accrued Gross Interest Receive Leg",
+    "businessTermId" : "BPBSM8327"
+  }, {
+    "btLogicalName" : "All In Transfer Price Rate Pay Leg",
+    "businessTermId" : "BPBSM8328"
+  }, {
+    "btLogicalName" : "Average Gross Book Balance Pay Leg",
+    "businessTermId" : "BPBSM8329"
+  }, {
+    "btLogicalName" : "Basis Risk Cost Amount Receive Leg",
+    "businessTermId" : "BPBSM8330"
+  }, {
+    "btLogicalName" : "Break Tolerance Amount Receive Leg",
+    "businessTermId" : "BPBSM8331"
+  }, {
+    "btLogicalName" : "Breakage Cumulative Amount Pay Leg",
+    "businessTermId" : "BPBSM8332"
+  }, {
+    "btLogicalName" : "Charge Or Credit For Float Balance",
+    "businessTermId" : "BPBSM8333"
+  }, {
+    "btLogicalName" : "Credit Life Insurance Company Code",
+    "businessTermId" : "BPBSM8334"
+  }, {
+    "btLogicalName" : "Current Gross Book Balance Pay Leg",
+    "businessTermId" : "BPBSM8335"
+  }, {
+    "btLogicalName" : "Current Payment Amount Receive Leg",
+    "businessTermId" : "BPBSM8336"
+  }, {
+    "btLogicalName" : "Forward Leg Sell Or Funding Amount",
+    "businessTermId" : "BPBSM8337"
+  }, {
+    "btLogicalName" : "Historic Static Spread Receive Leg",
+    "businessTermId" : "BPBSM8338"
+  }, {
+    "btLogicalName" : "Inflation Index Adjustment Type Id",
+    "businessTermId" : "BPBSM8339"
+  }, {
+    "btLogicalName" : "Interest Payment Frequency Pay Leg",
+    "businessTermId" : "BPBSM8340"
+  }, {
+    "btLogicalName" : "Interest Rate Gross Margin Pay Leg",
+    "businessTermId" : "BPBSM8341"
+  }, {
+    "btLogicalName" : "Last Interest Payment Date Pay Leg",
+    "businessTermId" : "BPBSM8342"
+  }, {
+    "btLogicalName" : "Liquidity Premium Rate Receive Leg",
+    "businessTermId" : "BPBSM8343"
+  }, {
+    "btLogicalName" : "Next Interest Payment Date Pay Leg",
+    "businessTermId" : "BPBSM8344"
+  }, {
+    "btLogicalName" : "Other Add On Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8345"
+  }, {
+    "btLogicalName" : "Other Add On Rate Alternate Output",
+    "businessTermId" : "BPBSM8346"
+  }, {
+    "btLogicalName" : "Pricing Incentive Rate Receive Leg",
+    "businessTermId" : "BPBSM8347"
+  }, {
+    "btLogicalName" : "Repricing Pattern Payable Leg Name",
+    "businessTermId" : "BPBSM8348"
+  }, {
+    "btLogicalName" : "Unexpected Loss Regulatory Capital",
+    "businessTermId" : "BPBSM8349"
+  }, {
+    "btLogicalName" : "Amortization Of Discount Or Premium",
+    "businessTermId" : "BPBSM8350"
+  }, {
+    "btLogicalName" : "Break Tolerance Expiry Date Pay Leg",
+    "businessTermId" : "BPBSM8351"
+  }, {
+    "btLogicalName" : "Economic Value Basis Risk Cost Rate",
+    "businessTermId" : "BPBSM8352"
+  }, {
+    "btLogicalName" : "Last Principal Payment Date Pay Leg",
+    "businessTermId" : "BPBSM8353"
+  }, {
+    "btLogicalName" : "Next Principal Payment Date Pay Leg",
+    "businessTermId" : "BPBSM8354"
+  }, {
+    "btLogicalName" : "Original Gross Book Balance Pay Leg",
+    "businessTermId" : "BPBSM8355"
+  }, {
+    "btLogicalName" : "Original Payment Amount Receive Leg",
+    "businessTermId" : "BPBSM8356"
+  }, {
+    "btLogicalName" : "Principal Payment Frequency Pay Leg",
+    "businessTermId" : "BPBSM8357"
+  }, {
+    "btLogicalName" : "Rate Change Rounding Factor Pay Leg",
+    "businessTermId" : "BPBSM8358"
+  }, {
+    "btLogicalName" : "Rate Set Lag Multiplier Receive Leg",
+    "businessTermId" : "BPBSM8359"
+  }, {
+    "btLogicalName" : "Transfer Rate Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8360"
+  }, {
+    "btLogicalName" : "Accumulated Basis Risk Charge Credit",
+    "businessTermId" : "BPBSM8361"
+  }, {
+    "btLogicalName" : "Basis Risk Charge Credit Receive Leg",
+    "businessTermId" : "BPBSM8362"
+  }, {
+    "btLogicalName" : "Deferred Current Premium Or Discount",
+    "businessTermId" : "BPBSM8363"
+  }, {
+    "btLogicalName" : "Economic Value Transfer Rate Pay Leg",
+    "businessTermId" : "BPBSM8364"
+  }, {
+    "btLogicalName" : "Interest Rate Curve Name Receive Leg",
+    "businessTermId" : "BPBSM8365"
+  }, {
+    "btLogicalName" : "Interest Rate Net Margin Receive Leg",
+    "businessTermId" : "BPBSM8366"
+  }, {
+    "btLogicalName" : "Liquidity Premium Amount Receive Leg",
+    "businessTermId" : "BPBSM8367"
+  }, {
+    "btLogicalName" : "Other Add On Amount Alternate Output",
+    "businessTermId" : "BPBSM8368"
+  }, {
+    "btLogicalName" : "Pricing Incentive Amount Receive Leg",
+    "businessTermId" : "BPBSM8369"
+  }, {
+    "btLogicalName" : "Remaining Number Of Payments Pay Leg",
+    "businessTermId" : "BPBSM8370"
+  }, {
+    "btLogicalName" : "Transfer Rate Remaining Term Pay Leg",
+    "businessTermId" : "BPBSM8371"
+  }, {
+    "btLogicalName" : "Deferred Original Premium Or Discount",
+    "businessTermId" : "BPBSM8372"
+  }, {
+    "btLogicalName" : "Economic Value Liquidity Premium Rate",
+    "businessTermId" : "BPBSM8373"
+  }, {
+    "btLogicalName" : "Economic Value Pricing Incentive Rate",
+    "businessTermId" : "BPBSM8374"
+  }, {
+    "btLogicalName" : "Interest Payment Frequency Multiplier",
+    "businessTermId" : "BPBSM8375"
+  }, {
+    "btLogicalName" : "Last Reprice Date Balance Receive Leg",
+    "businessTermId" : "BPBSM8376"
+  }, {
+    "btLogicalName" : "Option Cost Charge Credit Receive Leg",
+    "businessTermId" : "BPBSM8377"
+  }, {
+    "btLogicalName" : "Option Interest Calculation Type Code",
+    "businessTermId" : "BPBSM8378"
+  }, {
+    "btLogicalName" : "Rate Change Rounding Code Receive Leg",
+    "businessTermId" : "BPBSM8379"
+  }, {
+    "btLogicalName" : "Remaining Term Multiplier Receive Leg",
+    "businessTermId" : "BPBSM8380"
+  }, {
+    "btLogicalName" : "Repricing Pattern Receivable Leg Name",
+    "businessTermId" : "BPBSM8381"
+  }, {
+    "btLogicalName" : "Transfer Pricing Average Life Pay Leg",
+    "businessTermId" : "BPBSM8382"
+  }, {
+    "btLogicalName" : "Transfer Pricing Duration Receive Leg",
+    "businessTermId" : "BPBSM8383"
+  }, {
+    "btLogicalName" : "Accreting Swap Maximum Balance Pay Leg",
+    "businessTermId" : "BPBSM8384"
+  }, {
+    "btLogicalName" : "Accrued Transfer Rate Interest Pay Leg",
+    "businessTermId" : "BPBSM8385"
+  }, {
+    "btLogicalName" : "Accumulated Other Add On Charge Credit",
+    "businessTermId" : "BPBSM8386"
+  }, {
+    "btLogicalName" : "All In Transfer Price Rate Receive Leg",
+    "businessTermId" : "BPBSM8387"
+  }, {
+    "btLogicalName" : "Average Gross Book Balance Receive Leg",
+    "businessTermId" : "BPBSM8388"
+  }, {
+    "btLogicalName" : "Average Peak Intra Day Collateral Used",
+    "businessTermId" : "BPBSM8389"
+  }, {
+    "btLogicalName" : "Breakage Cumulative Amount Receive Leg",
+    "businessTermId" : "BPBSM8390"
+  }, {
+    "btLogicalName" : "Current Gross Book Balance Receive Leg",
+    "businessTermId" : "BPBSM8391"
+  }, {
+    "btLogicalName" : "Current Option Adjusted Spread Pay Leg",
+    "businessTermId" : "BPBSM8392"
+  }, {
+    "btLogicalName" : "Current Static Spread Alternate Output",
+    "businessTermId" : "BPBSM8393"
+  }, {
+    "btLogicalName" : "Effective Interest Rate At Origination",
+    "businessTermId" : "BPBSM8394"
+  }, {
+    "btLogicalName" : "Interest Payment Frequency Receive Leg",
+    "businessTermId" : "BPBSM8395"
+  }, {
+    "btLogicalName" : "Interest Rate Gross Margin Receive Leg",
+    "businessTermId" : "BPBSM8396"
+  }, {
+    "btLogicalName" : "Last Interest Payment Date Receive Leg",
+    "businessTermId" : "BPBSM8397"
+  }, {
+    "btLogicalName" : "Next Interest Payment Date Receive Leg",
+    "businessTermId" : "BPBSM8398"
+  }, {
+    "btLogicalName" : "Option Strike Interest Rate Curve Name",
+    "businessTermId" : "BPBSM8399"
+  }, {
+    "btLogicalName" : "Original Interest Payment Date Pay Leg",
+    "businessTermId" : "BPBSM8400"
+  }, {
+    "btLogicalName" : "Other Add On Charge Credit Receive Leg",
+    "businessTermId" : "BPBSM8401"
+  }, {
+    "btLogicalName" : "Principal Payment Frequency Multiplier",
+    "businessTermId" : "BPBSM8402"
+  }, {
+    "btLogicalName" : "Repricing Frequency Multiplier Pay Leg",
+    "businessTermId" : "BPBSM8403"
+  }, {
+    "btLogicalName" : "Transfer Rate Alternate Output Pay Leg",
+    "businessTermId" : "BPBSM8404"
+  }, {
+    "btLogicalName" : "Accumulated Transfer Rate Charge Credit",
+    "businessTermId" : "BPBSM8405"
+  }, {
+    "btLogicalName" : "Alphanumeric Code Of Customer Hierarchy",
+    "businessTermId" : "BPBSM8406"
+  }, {
+    "btLogicalName" : "Break Tolerance Expiry Date Receive Leg",
+    "businessTermId" : "BPBSM8407"
+  }, {
+    "btLogicalName" : "Current Effective Interest Rate Pay Leg",
+    "businessTermId" : "BPBSM8408"
+  }, {
+    "btLogicalName" : "Historic Option Adjusted Spread Pay Leg",
+    "businessTermId" : "BPBSM8409"
+  }, {
+    "btLogicalName" : "Historic Static Spread Alternate Output",
+    "businessTermId" : "BPBSM8410"
+  }, {
+    "btLogicalName" : "Interest Dividends Frequency Multiplier",
+    "businessTermId" : "BPBSM8411"
+  }, {
+    "btLogicalName" : "Last Principal Payment Date Receive Leg",
+    "businessTermId" : "BPBSM8412"
+  }, {
+    "btLogicalName" : "Liquidity Premium Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8413"
+  }, {
+    "btLogicalName" : "Matched Spread Alternate Output Pay Leg",
+    "businessTermId" : "BPBSM8414"
+  }, {
+    "btLogicalName" : "Negative Amortization Equalization Date",
+    "businessTermId" : "BPBSM8415"
+  }, {
+    "btLogicalName" : "Next Principal Payment Date Receive Leg",
+    "businessTermId" : "BPBSM8416"
+  }, {
+    "btLogicalName" : "Original Gross Book Balance Receive Leg",
+    "businessTermId" : "BPBSM8417"
+  }, {
+    "btLogicalName" : "Original Principal Payment Date Pay Leg",
+    "businessTermId" : "BPBSM8418"
+  }, {
+    "btLogicalName" : "Pricing Incentive Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8419"
+  }, {
+    "btLogicalName" : "Principal Payment Frequency Receive Leg",
+    "businessTermId" : "BPBSM8420"
+  }, {
+    "btLogicalName" : "Rate Change Rounding Factor Receive Leg",
+    "businessTermId" : "BPBSM8421"
+  }, {
+    "btLogicalName" : "Transfer Rate Charge Credit Receive Leg",
+    "businessTermId" : "BPBSM8422"
+  }, {
+    "btLogicalName" : "All In Transfer Price Rate Charge Credit",
+    "businessTermId" : "BPBSM8423"
+  }, {
+    "btLogicalName" : "Current Option Adjusted Spread Alternate",
+    "businessTermId" : "BPBSM8424"
+  }, {
+    "btLogicalName" : "Economic Value Other Add On Rate Pay Leg",
+    "businessTermId" : "BPBSM8425"
+  }, {
+    "btLogicalName" : "Economic Value Transfer Rate Receive Leg",
+    "businessTermId" : "BPBSM8426"
+  }, {
+    "btLogicalName" : "Remaining Number Of Payments Receive Leg",
+    "businessTermId" : "BPBSM8427"
+  }, {
+    "btLogicalName" : "Transfer Rate Remaining Term Receive Leg",
+    "businessTermId" : "BPBSM8428"
+  }, {
+    "btLogicalName" : "Economic Value All In Transfer Price Rate",
+    "businessTermId" : "BPBSM8429"
+  }, {
+    "btLogicalName" : "Historic Option Adjusted Spread Alternate",
+    "businessTermId" : "BPBSM8430"
+  }, {
+    "btLogicalName" : "Mortgage Offset Last Reprice Date Balance",
+    "businessTermId" : "BPBSM8431"
+  }, {
+    "btLogicalName" : "Option Risk Free Interest Rate Curve Name",
+    "businessTermId" : "BPBSM8432"
+  }, {
+    "btLogicalName" : "Transfer Pricing Average Life Receive Leg",
+    "businessTermId" : "BPBSM8433"
+  }, {
+    "btLogicalName" : "Accident And Health Insurance Company Code",
+    "businessTermId" : "BPBSM8434"
+  }, {
+    "btLogicalName" : "Accreting Swap Maximum Balance Receive Leg",
+    "businessTermId" : "BPBSM8435"
+  }, {
+    "btLogicalName" : "Accrued Transfer Rate Interest Receive Leg",
+    "businessTermId" : "BPBSM8436"
+  }, {
+    "btLogicalName" : "Current Option Adjusted Spread Receive Leg",
+    "businessTermId" : "BPBSM8437"
+  }, {
+    "btLogicalName" : "Economic Value Other Add On Alternate Rate",
+    "businessTermId" : "BPBSM8438"
+  }, {
+    "btLogicalName" : "Original Interest Payment Date Receive Leg",
+    "businessTermId" : "BPBSM8439"
+  }, {
+    "btLogicalName" : "Other Add On Rate Alternate Output Pay Leg",
+    "businessTermId" : "BPBSM8440"
+  }, {
+    "btLogicalName" : "Pay Equivalent Compounding Convention Code",
+    "businessTermId" : "BPBSM8441"
+  }, {
+    "btLogicalName" : "Repricing Frequency Multiplier Receive Leg",
+    "businessTermId" : "BPBSM8442"
+  }, {
+    "btLogicalName" : "Transfer Rate Alternate Output Receive Leg",
+    "businessTermId" : "BPBSM8443"
+  }, {
+    "btLogicalName" : "Transfer Rate Remaining Term Charge Credit",
+    "businessTermId" : "BPBSM8444"
+  }, {
+    "btLogicalName" : "Accumulated Liquidity Premium Charge Credit",
+    "businessTermId" : "BPBSM8445"
+  }, {
+    "btLogicalName" : "Accumulated Pricing Incentive Charge Credit",
+    "businessTermId" : "BPBSM8446"
+  }, {
+    "btLogicalName" : "Additional Cost For Effective Interest Rate",
+    "businessTermId" : "BPBSM8447"
+  }, {
+    "btLogicalName" : "Additional Fees For Effective Interest Rate",
+    "businessTermId" : "BPBSM8448"
+  }, {
+    "btLogicalName" : "Amortizing Swap Minimum Balance Payable Leg",
+    "businessTermId" : "BPBSM8449"
+  }, {
+    "btLogicalName" : "Current Effective Interest Rate Receive Leg",
+    "businessTermId" : "BPBSM8450"
+  }, {
+    "btLogicalName" : "Economic Value Basis Risk Cost Rate Pay Leg",
+    "businessTermId" : "BPBSM8451"
+  }, {
+    "btLogicalName" : "Historic Option Adjusted Spread Receive Leg",
+    "businessTermId" : "BPBSM8452"
+  }, {
+    "btLogicalName" : "Liquidity Premium Charge Credit Receive Leg",
+    "businessTermId" : "BPBSM8453"
+  }, {
+    "btLogicalName" : "Matched Spread Alternate Output Receive Leg",
+    "businessTermId" : "BPBSM8454"
+  }, {
+    "btLogicalName" : "Negative Amortization Payment Decrease Life",
+    "businessTermId" : "BPBSM8455"
+  }, {
+    "btLogicalName" : "Negative Amortization Payment Increase Life",
+    "businessTermId" : "BPBSM8456"
+  }, {
+    "btLogicalName" : "Original Principal Payment Date Receive Leg",
+    "businessTermId" : "BPBSM8457"
+  }, {
+    "btLogicalName" : "Pricing Incentive Charge Credit Receive Leg",
+    "businessTermId" : "BPBSM8458"
+  }, {
+    "btLogicalName" : "Accumulated Basis Risk Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8459"
+  }, {
+    "btLogicalName" : "Economic Value Other Add On Rate Receive Leg",
+    "businessTermId" : "BPBSM8460"
+  }, {
+    "btLogicalName" : "Fees For Effective Interest Rate Computation",
+    "businessTermId" : "BPBSM8461"
+  }, {
+    "btLogicalName" : "Negative Amortization Equalization Frequency",
+    "businessTermId" : "BPBSM8462"
+  }, {
+    "btLogicalName" : "Negative Amortization Payment Decrease Cycle",
+    "businessTermId" : "BPBSM8463"
+  }, {
+    "btLogicalName" : "Negative Amortization Payment Increase Cycle",
+    "businessTermId" : "BPBSM8464"
+  }, {
+    "btLogicalName" : "Option Cost Charge Credit For Remaining Term",
+    "businessTermId" : "BPBSM8465"
+  }, {
+    "btLogicalName" : "Other Add On Amount Alternate Output Pay Leg",
+    "businessTermId" : "BPBSM8466"
+  }, {
+    "btLogicalName" : "Purchased Or Originated Credit Impaired Flag",
+    "businessTermId" : "BPBSM8467"
+  }, {
+    "btLogicalName" : "Significant Early Withdraw Penalty Indicator",
+    "businessTermId" : "BPBSM8468"
+  }, {
+    "btLogicalName" : "Economic Value Liquidity Premium Rate Pay Leg",
+    "businessTermId" : "BPBSM8469"
+  }, {
+    "btLogicalName" : "Economic Value Pricing Incentive Rate Pay Leg",
+    "businessTermId" : "BPBSM8470"
+  }, {
+    "btLogicalName" : "Interest Payment Frequency Multiplier Pay Leg",
+    "businessTermId" : "BPBSM8471"
+  }, {
+    "btLogicalName" : "Negative Amortization Payment Adjustment Date",
+    "businessTermId" : "BPBSM8472"
+  }, {
+    "btLogicalName" : "Spot Leg Buy Or Borrowed Currency For Fx Swap",
+    "businessTermId" : "BPBSM8473"
+  }, {
+    "btLogicalName" : "Spot Leg Sell Or Funding Currency For Fx Swap",
+    "businessTermId" : "BPBSM8474"
+  }, {
+    "btLogicalName" : "Transfer Rate Remaining Term Alternate Output",
+    "businessTermId" : "BPBSM8475"
+  }, {
+    "btLogicalName" : "Accumulated Other Add On Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8476"
+  }, {
+    "btLogicalName" : "Amortization Method Code For Premium Discounts",
+    "businessTermId" : "BPBSM8477"
+  }, {
+    "btLogicalName" : "Amortizing Swap Minimum Balance Receivable Leg",
+    "businessTermId" : "BPBSM8478"
+  }, {
+    "btLogicalName" : "Current Static Spread Alternate Output Pay Leg",
+    "businessTermId" : "BPBSM8479"
+  }, {
+    "btLogicalName" : "Forward Leg Buy Or Borrowed Amount For Fx Swap",
+    "businessTermId" : "BPBSM8480"
+  }, {
+    "btLogicalName" : "Negative Amortization Payment Change Frequency",
+    "businessTermId" : "BPBSM8481"
+  }, {
+    "btLogicalName" : "Other Add On Rate Alternate Output Receive Leg",
+    "businessTermId" : "BPBSM8482"
+  }, {
+    "btLogicalName" : "Principal Payment Frequency Multiplier Pay Leg",
+    "businessTermId" : "BPBSM8483"
+  }, {
+    "btLogicalName" : "Accumulated Transfer Rate Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8484"
+  }, {
+    "btLogicalName" : "Economic Value Basis Risk Cost Rate Receive Leg",
+    "businessTermId" : "BPBSM8485"
+  }, {
+    "btLogicalName" : "Historic Static Spread Alternate Output Pay Leg",
+    "businessTermId" : "BPBSM8486"
+  }, {
+    "btLogicalName" : "Accumulated Basis Risk Charge Credit Receive Leg",
+    "businessTermId" : "BPBSM8487"
+  }, {
+    "btLogicalName" : "Current Option Adjusted Spread Alternate Pay Leg",
+    "businessTermId" : "BPBSM8488"
+  }, {
+    "btLogicalName" : "Mortgage Offset Expect Balance Growth Percentage",
+    "businessTermId" : "BPBSM8489"
+  }, {
+    "btLogicalName" : "Maximum Amount Guaranteed",
+    "businessTermId" : "BPBSM8115"
+  }, {
+    "btLogicalName" : "Next Reprice Date Pay Leg",
+    "businessTermId" : "BPBSM8116"
+  }, {
+    "btLogicalName" : "Number Of Disposed Assets",
+    "businessTermId" : "BPBSM8117"
+  }, {
+    "btLogicalName" : "Open Account Flag Pay Leg",
+    "businessTermId" : "BPBSM8118"
+  }, {
+    "btLogicalName" : "Option Cost Charge Credit",
+    "businessTermId" : "BPBSM8119"
+  }, {
+    "btLogicalName" : "Option Exercise Type Code",
+    "businessTermId" : "BPBSM8120"
+  }, {
+    "btLogicalName" : "Original Net Book Balance",
+    "businessTermId" : "BPBSM8121"
+  }, {
+    "btLogicalName" : "Original Rate Receive Leg",
+    "businessTermId" : "BPBSM8122"
+  }, {
+    "btLogicalName" : "Accumulated All In Transfer Price Rate Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8531"
+  }, {
+    "btLogicalName" : "Prior Transfer Price Period Average Daily Balance Receive Leg",
+    "businessTermId" : "BPBSM8532"
+  }, {
+    "btLogicalName" : "Accumulated Transfer Rate Remaining Term Charge Credit Pay Leg",
+    "businessTermId" : "BPBSM8533"
+  }, {
+    "btLogicalName" : "Current Transfer Price Period Average Daily Balance Receive Leg",
+    "businessTermId" : "BPBSM8534"
+  }, {
+    "btLogicalName" : "Accumulated Transfer Rate Remaining Term Charge Credit Receive Leg",
+    "businessTermId" : "BPBSM8535"
+  }, {
+    "btLogicalName" : "Accumulated All In Transfer Price Rate Charge Credit Receivable Leg",
+    "businessTermId" : "BPBSM8536"
+  }, {
+    "btLogicalName" : "Amortization Change Date",
+    "businessTermId" : "BPBSM8601"
+  }, {
+    "btLogicalName" : "Float Balance",
+    "businessTermId" : "BPBSM7752"
+  }, {
+    "btLogicalName" : "Industry Code",
+    "businessTermId" : "BPBSM7753"
+  }, {
+    "btLogicalName" : "Interest Rate",
+    "businessTermId" : "BPBSM7754"
+  }, {
+    "btLogicalName" : "Language Code",
+    "businessTermId" : "BPBSM7755"
+  }, {
+    "btLogicalName" : "Leg Type Code",
+    "businessTermId" : "BPBSM7756"
+  }, {
+    "btLogicalName" : "Margin Amount",
+    "businessTermId" : "BPBSM7757"
+  }, {
+    "btLogicalName" : "Maturity Date",
+    "businessTermId" : "BPBSM7758"
+  }, {
+    "btLogicalName" : "Original Rate",
+    "businessTermId" : "BPBSM7759"
+  }, {
+    "btLogicalName" : "Original Term",
+    "businessTermId" : "BPBSM7760"
+  }, {
+    "btLogicalName" : "Other Capital",
+    "businessTermId" : "BPBSM7761"
+  }, {
+    "btLogicalName" : "Present Value",
+    "businessTermId" : "BPBSM7762"
+  }, {
+    "btLogicalName" : "Rate Cap Life",
+    "businessTermId" : "BPBSM7763"
+  }, {
+    "btLogicalName" : "Transfer Rate",
+    "businessTermId" : "BPBSM7764"
+  }, {
+    "btLogicalName" : "Account Number",
+    "businessTermId" : "BPBSM7765"
+  }, {
+    "btLogicalName" : "Attribute Name",
+    "businessTermId" : "BPBSM7766"
+  }, {
+    "btLogicalName" : "Behavior Score",
+    "businessTermId" : "BPBSM7767"
+  }, {
+    "btLogicalName" : "Book Type Code",
+    "businessTermId" : "BPBSM7768"
+  }, {
+    "btLogicalName" : "Brokerage Firm",
+    "businessTermId" : "BPBSM7769"
+  }, {
+    "btLogicalName" : "Exception Code",
+    "businessTermId" : "BPBSM7770"
+  }, {
+    "btLogicalName" : "Float Days Ytd",
+    "businessTermId" : "BPBSM7771"
+  }, {
+    "btLogicalName" : "Hierarchy Code",
+    "businessTermId" : "BPBSM7772"
+  }, {
+    "btLogicalName" : "Hierarchy Name",
+    "businessTermId" : "BPBSM7773"
+  }, {
+    "btLogicalName" : "Last Sale Date",
+    "businessTermId" : "BPBSM7774"
+  }, {
+    "btLogicalName" : "Leaf Only Flag",
+    "businessTermId" : "BPBSM7775"
+  }, {
+    "btLogicalName" : "Loan Type Code",
+    "businessTermId" : "BPBSM7776"
+  }, {
+    "btLogicalName" : "Matched Spread",
+    "businessTermId" : "BPBSM7777"
+  }, {
+    "btLogicalName" : "Maximum Levels",
+    "businessTermId" : "BPBSM7778"
+  }, {
+    "btLogicalName" : "Net Fee Income",
+    "businessTermId" : "BPBSM7779"
+  }, {
+    "btLogicalName" : "Occupancy Code",
+    "businessTermId" : "BPBSM7780"
+  }, {
+    "btLogicalName" : "Overdraft Fees",
+    "businessTermId" : "BPBSM7781"
+  }, {
+    "btLogicalName" : "Pay Ahead Code",
+    "businessTermId" : "BPBSM7782"
+  }, {
+    "btLogicalName" : "Read Only Flag",
+    "businessTermId" : "BPBSM7783"
+  }, {
+    "btLogicalName" : "Remaining Term",
+    "businessTermId" : "BPBSM7784"
+  }, {
+    "btLogicalName" : "School Id Code",
+    "businessTermId" : "BPBSM7785"
+  }, {
+    "btLogicalName" : "Statement Fees",
+    "businessTermId" : "BPBSM7786"
+  }, {
+    "btLogicalName" : "Undrawn Amount",
+    "businessTermId" : "BPBSM7787"
+  }, {
+    "btLogicalName" : "Version Number",
+    "businessTermId" : "BPBSM7788"
+  }, {
+    "btLogicalName" : "Agent Bank Code",
+    "businessTermId" : "BPBSM7789"
+  }, {
+    "btLogicalName" : "Annual Fee Code",
+    "businessTermId" : "BPBSM7790"
+  }, {
+    "btLogicalName" : "Approved Amount",
+    "businessTermId" : "BPBSM7791"
+  }, {
+    "btLogicalName" : "Attribute Value",
+    "businessTermId" : "BPBSM7792"
+  }, {
+    "btLogicalName" : "Break Type Code",
+    "businessTermId" : "BPBSM7793"
+  }, {
+    "btLogicalName" : "Breakage Amount",
+    "businessTermId" : "BPBSM7794"
+  }, {
+    "btLogicalName" : "Child Member Id",
+    "businessTermId" : "BPBSM7795"
+  }, {
+    "btLogicalName" : "Collateral Code",
+    "businessTermId" : "BPBSM7796"
+  }, {
+    "btLogicalName" : "Commitment Fees",
+    "businessTermId" : "BPBSM7797"
+  }, {
+    "btLogicalName" : "Commitment Term",
+    "businessTermId" : "BPBSM7798"
+  }, {
+    "btLogicalName" : "Correction Fees",
+    "businessTermId" : "BPBSM7799"
+  }, {
+    "btLogicalName" : "Cwb Status Code",
+    "businessTermId" : "BPBSM7800"
+  }, {
+    "btLogicalName" : "Daily Limit Atm",
+    "businessTermId" : "BPBSM7801"
+  }, {
+    "btLogicalName" : "Daily Limit Pos",
+    "businessTermId" : "BPBSM7802"
+  }, {
+    "btLogicalName" : "Devolved Amount",
+    "businessTermId" : "BPBSM7803"
+  }, {
+    "btLogicalName" : "Discounted Fees",
+    "businessTermId" : "BPBSM7804"
+  }, {
+    "btLogicalName" : "Display Signage",
+    "businessTermId" : "BPBSM7805"
+  }, {
+    "btLogicalName" : "Entered Balance",
+    "businessTermId" : "BPBSM7806"
+  }, {
+    "btLogicalName" : "Expiration Date",
+    "businessTermId" : "BPBSM7807"
+  }, {
+    "btLogicalName" : "Input File Name",
+    "businessTermId" : "BPBSM7808"
+  }, {
+    "btLogicalName" : "Interest Amount",
+    "businessTermId" : "BPBSM7809"
+  }, {
+    "btLogicalName" : "Load Identifier",
+    "businessTermId" : "BPBSM7810"
+  }, {
+    "btLogicalName" : "Lock Box Number",
+    "businessTermId" : "BPBSM7811"
+  }, {
+    "btLogicalName" : "Maturity Amount",
+    "businessTermId" : "BPBSM7812"
+  }, {
+    "btLogicalName" : "Membership Dues",
+    "businessTermId" : "BPBSM7813"
+  }, {
+    "btLogicalName" : "Moa Offset Flag",
+    "businessTermId" : "BPBSM7814"
+  }, {
+    "btLogicalName" : "Net Margin Code",
+    "businessTermId" : "BPBSM7815"
+  }, {
+    "btLogicalName" : "Over Limit Fees",
+    "businessTermId" : "BPBSM7816"
+  }, {
+    "btLogicalName" : "Prepayment Fees",
+    "businessTermId" : "BPBSM7817"
+  }, {
+    "btLogicalName" : "Processing Fees",
+    "businessTermId" : "BPBSM7818"
+  }, {
+    "btLogicalName" : "Purchase Amount",
+    "businessTermId" : "BPBSM7819"
+  }, {
+    "btLogicalName" : "Rate Floor Life",
+    "businessTermId" : "BPBSM7820"
+  }, {
+    "btLogicalName" : "Settlement Date",
+    "businessTermId" : "BPBSM7821"
+  }, {
+    "btLogicalName" : "Swap Class Code",
+    "businessTermId" : "BPBSM7822"
+  }, {
+    "btLogicalName" : "Teaser End Date",
+    "businessTermId" : "BPBSM7823"
+  }, {
+    "btLogicalName" : "Tenor Date Term",
+    "businessTermId" : "BPBSM7824"
+  }, {
+    "btLogicalName" : "Advice Type Code",
+    "businessTermId" : "BPBSM7825"
+  }, {
+    "btLogicalName" : "Application Date",
+    "businessTermId" : "BPBSM7826"
+  }, {
+    "btLogicalName" : "Commissions Date",
+    "businessTermId" : "BPBSM7827"
+  }, {
+    "btLogicalName" : "Convenience Fees",
+    "businessTermId" : "BPBSM7828"
+  }, {
+    "btLogicalName" : "Current Net Rate",
+    "businessTermId" : "BPBSM7829"
+  }, {
+    "btLogicalName" : "Data Source Code",
+    "businessTermId" : "BPBSM7830"
+  }, {
+    "btLogicalName" : "Date Last Active",
+    "businessTermId" : "BPBSM7831"
+  }, {
+    "btLogicalName" : "Delinquency Days",
+    "businessTermId" : "BPBSM7832"
+  }, {
+    "btLogicalName" : "Future Type Code",
+    "businessTermId" : "BPBSM7833"
+  }, {
+    "btLogicalName" : "Ifrs9 Stage Code",
+    "businessTermId" : "BPBSM7834"
+  }, {
+    "btLogicalName" : "Interchange Fees",
+    "businessTermId" : "BPBSM7835"
+  }, {
+    "btLogicalName" : "Interest Overdue",
+    "businessTermId" : "BPBSM7836"
+  }, {
+    "btLogicalName" : "Last Modified By",
+    "businessTermId" : "BPBSM7837"
+  }, {
+    "btLogicalName" : "Option Type Code",
+    "businessTermId" : "BPBSM7838"
+  }, {
+    "btLogicalName" : "Origination Date",
+    "businessTermId" : "BPBSM7839"
+  }, {
+    "btLogicalName" : "Origination Fees",
+    "businessTermId" : "BPBSM7840"
+  }, {
+    "btLogicalName" : "Other Party Code",
+    "businessTermId" : "BPBSM7841"
+  }, {
+    "btLogicalName" : "Parent Member Id",
+    "businessTermId" : "BPBSM7842"
+  }, {
+    "btLogicalName" : "Principal Amount",
+    "businessTermId" : "BPBSM7843"
+  }, {
+    "btLogicalName" : "Required Balance",
+    "businessTermId" : "BPBSM7844"
+  }, {
+    "btLogicalName" : "Return On Equity",
+    "businessTermId" : "BPBSM7845"
+  }, {
+    "btLogicalName" : "Revolving Amount",
+    "businessTermId" : "BPBSM7846"
+  }, {
+    "btLogicalName" : "Sales Commission",
+    "businessTermId" : "BPBSM7847"
+  }, {
+    "btLogicalName" : "Sanctioned Limit",
+    "businessTermId" : "BPBSM7848"
+  }, {
+    "btLogicalName" : "Tenor Date Label",
+    "businessTermId" : "BPBSM7849"
+  }, {
+    "btLogicalName" : "To Currency Code",
+    "businessTermId" : "BPBSM7850"
+  }, {
+    "btLogicalName" : "Transaction Fees",
+    "businessTermId" : "BPBSM7851"
+  }, {
+    "btLogicalName" : "X Sell Indicator",
+    "businessTermId" : "BPBSM7852"
+  }, {
+    "btLogicalName" : "Account Open Date",
+    "businessTermId" : "BPBSM7853"
+  }, {
+    "btLogicalName" : "Amortization Term",
+    "businessTermId" : "BPBSM7854"
+  }, {
+    "btLogicalName" : "Application Score",
+    "businessTermId" : "BPBSM7855"
+  }, {
+    "btLogicalName" : "Cash Advance Fees",
+    "businessTermId" : "BPBSM7856"
+  }, {
+    "btLogicalName" : "Commitment Number",
+    "businessTermId" : "BPBSM7857"
+  }, {
+    "btLogicalName" : "Credit Score Date",
+    "businessTermId" : "BPBSM7858"
+  }, {
+    "btLogicalName" : "Deposit Type Code",
+    "businessTermId" : "BPBSM7859"
+  }, {
+    "btLogicalName" : "Funding Type Code",
+    "businessTermId" : "BPBSM7860"
+  }, {
+    "btLogicalName" : "Last Deposit Date",
+    "businessTermId" : "BPBSM7861"
+  }, {
+    "btLogicalName" : "Legal Entity Code",
+    "businessTermId" : "BPBSM7862"
+  }, {
+    "btLogicalName" : "Open Account Flag",
+    "businessTermId" : "BPBSM7863"
+  }, {
+    "btLogicalName" : "Option Start Date",
+    "businessTermId" : "BPBSM7864"
+  }, {
+    "btLogicalName" : "Other Add On Rate",
+    "businessTermId" : "BPBSM7865"
+  }, {
+    "btLogicalName" : "Payment Type Code",
+    "businessTermId" : "BPBSM7866"
+  }, {
+    "btLogicalName" : "Product Type Code",
+    "businessTermId" : "BPBSM7867"
+  }, {
+    "btLogicalName" : "Record Start Date",
+    "businessTermId" : "BPBSM7868"
+  }, {
+    "btLogicalName" : "Tp Effective Date",
+    "businessTermId" : "BPBSM7869"
+  }, {
+    "btLogicalName" : "Account Close Date",
+    "businessTermId" : "BPBSM7870"
+  }, {
+    "btLogicalName" : "Account Group Code",
+    "businessTermId" : "BPBSM7871"
+  }, {
+    "btLogicalName" : "Accrual Basis Code",
+    "businessTermId" : "BPBSM7872"
+  }, {
+    "btLogicalName" : "Authorization Fees",
+    "businessTermId" : "BPBSM7873"
+  }, {
+    "btLogicalName" : "Behavior Type Code",
+    "businessTermId" : "BPBSM7874"
+  }, {
+    "btLogicalName" : "Branch Access Flag",
+    "businessTermId" : "BPBSM7875"
+  }, {
+    "btLogicalName" : "Break Funding Fees",
+    "businessTermId" : "BPBSM7876"
+  }, {
+    "btLogicalName" : "Charge Off Balance",
+    "businessTermId" : "BPBSM7877"
+  }, {
+    "btLogicalName" : "Commitment Balance",
+    "businessTermId" : "BPBSM7878"
+  }, {
+    "btLogicalName" : "Consolidation Code",
+    "businessTermId" : "BPBSM7879"
+  }, {
+    "btLogicalName" : "Credit Rating Code",
+    "businessTermId" : "BPBSM7880"
+  }, {
+    "btLogicalName" : "Credit Status Code",
+    "businessTermId" : "BPBSM7881"
+  }, {
+    "btLogicalName" : "Current Gross Rate",
+    "businessTermId" : "BPBSM7882"
+  }, {
+    "btLogicalName" : "Customer Type Code",
+    "businessTermId" : "BPBSM7883"
+  }, {
+    "btLogicalName" : "Cycle Day Of Month",
+    "businessTermId" : "BPBSM7884"
+  }, {
+    "btLogicalName" : "Date Last Rejected",
+    "businessTermId" : "BPBSM7885"
+  }, {
+    "btLogicalName" : "Delinquent Balance",
+    "businessTermId" : "BPBSM7886"
+  }, {
+    "btLogicalName" : "Documentation Code",
+    "businessTermId" : "BPBSM7887"
+  }, {
+    "btLogicalName" : "First Payment Date",
+    "businessTermId" : "BPBSM7888"
+  }, {
+    "btLogicalName" : "Fra Term In Months",
+    "businessTermId" : "BPBSM7889"
+  }, {
+    "btLogicalName" : "From Currency Code",
+    "businessTermId" : "BPBSM7890"
+  }, {
+    "btLogicalName" : "Functional Balance",
+    "businessTermId" : "BPBSM7891"
+  }, {
+    "btLogicalName" : "Interest Rate Name",
+    "businessTermId" : "BPBSM7892"
+  }, {
+    "btLogicalName" : "Interest Rate Term",
+    "businessTermId" : "BPBSM7893"
+  }, {
+    "btLogicalName" : "Investor Type Code",
+    "businessTermId" : "BPBSM7894"
+  }, {
+    "btLogicalName" : "Joint Account Flag",
+    "businessTermId" : "BPBSM7895"
+  }, {
+    "btLogicalName" : "Last Modified Date",
+    "businessTermId" : "BPBSM7896"
+  }, {
+    "btLogicalName" : "Last Purchase Date",
+    "businessTermId" : "BPBSM7897"
+  }, {
+    "btLogicalName" : "Lien Position Code",
+    "businessTermId" : "BPBSM7898"
+  }, {
+    "btLogicalName" : "Loan Approval Date",
+    "businessTermId" : "BPBSM7899"
+  }, {
+    "btLogicalName" : "Member Description",
+    "businessTermId" : "BPBSM7900"
+  }, {
+    "btLogicalName" : "Option Expiry Date",
+    "businessTermId" : "BPBSM7901"
+  }, {
+    "btLogicalName" : "Orphan Branch Flag",
+    "businessTermId" : "BPBSM7902"
+  }, {
+    "btLogicalName" : "Over Limit Balance",
+    "businessTermId" : "BPBSM7903"
+  }, {
+    "btLogicalName" : "Overdue Times Life",
+    "businessTermId" : "BPBSM7904"
+  }, {
+    "btLogicalName" : "Overdue Times Year",
+    "businessTermId" : "BPBSM7905"
+  }, {
+    "btLogicalName" : "Property Type Code",
+    "businessTermId" : "BPBSM7906"
+  }, {
+    "btLogicalName" : "Reason Closed Code",
+    "businessTermId" : "BPBSM7907"
+  }, {
+    "btLogicalName" : "Tax Exempt Percent",
+    "businessTermId" : "BPBSM7908"
+  }, {
+    "btLogicalName" : "Total Transactions",
+    "businessTermId" : "BPBSM7909"
+  }, {
+    "btLogicalName" : "Account Status Code",
+    "businessTermId" : "BPBSM7910"
+  }, {
+    "btLogicalName" : "Base Value Of Index",
+    "businessTermId" : "BPBSM7911"
+  }, {
+    "btLogicalName" : "Billing Method Code",
+    "businessTermId" : "BPBSM7912"
+  }, {
+    "btLogicalName" : "Compound Basis Code",
+    "businessTermId" : "BPBSM7913"
+  }, {
+    "btLogicalName" : "Credit Score Source",
+    "businessTermId" : "BPBSM7914"
+  }, {
+    "btLogicalName" : "Current Par Balance",
+    "businessTermId" : "BPBSM7915"
+  }, {
+    "btLogicalName" : "Early Access Period",
+    "businessTermId" : "BPBSM7916"
+  }, {
+    "btLogicalName" : "Effective From Date",
+    "businessTermId" : "BPBSM7917"
+  }, {
+    "btLogicalName" : "Funding Status Code",
+    "businessTermId" : "BPBSM7918"
+  }, {
+    "btLogicalName" : "Future Subtype Code",
+    "businessTermId" : "BPBSM7919"
+  }, {
+    "btLogicalName" : "Hierarchy Type Code",
+    "businessTermId" : "BPBSM7920"
+  }, {
+    "btLogicalName" : "Last Deposit Amount",
+    "businessTermId" : "BPBSM7921"
+  }, {
+    "btLogicalName" : "Last Payment Amount",
+    "businessTermId" : "BPBSM7922"
+  }, {
+    "btLogicalName" : "Last Repricing Date",
+    "businessTermId" : "BPBSM7923"
+  }, {
+    "btLogicalName" : "Market Risk Capital",
+    "businessTermId" : "BPBSM7924"
+  }, {
+    "btLogicalName" : "Market Segment Code",
+    "businessTermId" : "BPBSM7925"
+  }, {
+    "btLogicalName" : "Master Agreement Id",
+    "businessTermId" : "BPBSM7926"
+  }, {
+    "btLogicalName" : "Merchandise Balance",
+    "businessTermId" : "BPBSM7927"
+  }, {
+    "btLogicalName" : "Merchant Chain Code",
+    "businessTermId" : "BPBSM7928"
+  }, {
+    "btLogicalName" : "Merchant Class Code",
+    "businessTermId" : "BPBSM7929"
+  }, {
+    "btLogicalName" : "Next Repricing Date",
+    "businessTermId" : "BPBSM7930"
+  }, {
+    "btLogicalName" : "Option Cost Pay Leg",
+    "businessTermId" : "BPBSM7931"
+  }, {
+    "btLogicalName" : "Option Strike Value",
+    "businessTermId" : "BPBSM7932"
+  }, {
+    "btLogicalName" : "Other Add On Amount",
+    "businessTermId" : "BPBSM7933"
+  }, {
+    "btLogicalName" : "Ownership Type Code",
+    "businessTermId" : "BPBSM7934"
+  }, {
+    "btLogicalName" : "Parent Service Code",
+    "businessTermId" : "BPBSM7935"
+  }, {
+    "btLogicalName" : "Payment Method Code",
+    "businessTermId" : "BPBSM7936"
+  }, {
+    "btLogicalName" : "Pledged Status Code",
+    "businessTermId" : "BPBSM7937"
+  }, {
+    "btLogicalName" : "Rate Change Minimum",
+    "businessTermId" : "BPBSM7938"
+  }, {
+    "btLogicalName" : "Rate Decrease Cycle",
+    "businessTermId" : "BPBSM7939"
+  }, {
+    "btLogicalName" : "Rate Increase Cycle",
+    "businessTermId" : "BPBSM7940"
+  }, {
+    "btLogicalName" : "Repricing Frequency",
+    "businessTermId" : "BPBSM7941"
+  }, {
+    "btLogicalName" : "Service Option Code",
+    "businessTermId" : "BPBSM7942"
+  }, {
+    "btLogicalName" : "Service Source Code",
+    "businessTermId" : "BPBSM7943"
+  }, {
+    "btLogicalName" : "Unencumbered Amount",
+    "businessTermId" : "BPBSM7944"
+  }, {
+    "btLogicalName" : "Account Officer Code",
+    "businessTermId" : "BPBSM7945"
+  }, {
+    "btLogicalName" : "Accrued Net Interest",
+    "businessTermId" : "BPBSM7946"
+  }, {
+    "btLogicalName" : "Adjustable Type Code",
+    "businessTermId" : "BPBSM7947"
+  }, {
+    "btLogicalName" : "Basis Risk Cost Rate",
+    "businessTermId" : "BPBSM7948"
+  }, {
+    "btLogicalName" : "Commitment Type Code",
+    "businessTermId" : "BPBSM7949"
+  }, {
+    "btLogicalName" : "Current Credit Limit",
+    "businessTermId" : "BPBSM7950"
+  }, {
+    "btLogicalName" : "Current Market Value",
+    "businessTermId" : "BPBSM7951"
+  }, {
+    "btLogicalName" : "Date First Activated",
+    "businessTermId" : "BPBSM7952"
+  }, {
+    "btLogicalName" : "Discount Rate Margin",
+    "businessTermId" : "BPBSM7953"
+  }, {
+    "btLogicalName" : "First Dispersal Date",
+    "businessTermId" : "BPBSM7954"
+  }, {
+    "btLogicalName" : "Hierarchy Level Name",
+    "businessTermId" : "BPBSM7955"
+  }, {
+    "btLogicalName" : "Hierarchy Usage Code",
+    "businessTermId" : "BPBSM7956"
+  }, {
+    "btLogicalName" : "Inflation Index Name",
+    "businessTermId" : "BPBSM7957"
+  }, {
+    "btLogicalName" : "Input Data File Name",
+    "businessTermId" : "BPBSM7958"
+  }, {
+    "btLogicalName" : "Instrument Type Code",
+    "businessTermId" : "BPBSM7959"
+  }, {
+    "btLogicalName" : "Joint Agreement Code",
+    "businessTermId" : "BPBSM7960"
+  }, {
+    "btLogicalName" : "Last Withdrawal Date",
+    "businessTermId" : "BPBSM7961"
+  }, {
+    "btLogicalName" : "Liquidity Class Code",
+    "businessTermId" : "BPBSM7962"
+  }, {
+    "btLogicalName" : "Margin Required Flag",
+    "businessTermId" : "BPBSM7963"
+  }, {
+    "btLogicalName" : "Market Value Pay Leg",
+    "businessTermId" : "BPBSM7964"
+  }, {
+    "btLogicalName" : "Moa Expected Balance",
+    "businessTermId" : "BPBSM7965"
+  }, {
+    "btLogicalName" : "Original Credit Line",
+    "businessTermId" : "BPBSM7966"
+  }, {
+    "btLogicalName" : "Original Par Balance",
+    "businessTermId" : "BPBSM7967"
+  }, {
+    "btLogicalName" : "Overdue Days Current",
+    "businessTermId" : "BPBSM7968"
+  }, {
+    "btLogicalName" : "Parent Customer Code",
+    "businessTermId" : "BPBSM7969"
+  }, {
+    "btLogicalName" : "Participation Amount",
+    "businessTermId" : "BPBSM7970"
+  }, {
+    "btLogicalName" : "Payment Pattern Name",
+    "businessTermId" : "BPBSM7971"
+  }, {
+    "btLogicalName" : "Rate Set Lag Pay Leg",
+    "businessTermId" : "BPBSM7972"
+  }, {
+    "btLogicalName" : "Servicing Agent Code",
+    "businessTermId" : "BPBSM7973"
+  }, {
+    "btLogicalName" : "Add On Effective Date",
+    "businessTermId" : "BPBSM7974"
+  }, {
+    "btLogicalName" : "After Payment Balance",
+    "businessTermId" : "BPBSM7975"
+  }, {
+    "btLogicalName" : "Average Ticket Amount",
+    "businessTermId" : "BPBSM7976"
+  }, {
+    "btLogicalName" : "Backup Liquidity Cost",
+    "businessTermId" : "BPBSM7977"
+  }, {
+    "btLogicalName" : "Balance Transfer Fees",
+    "businessTermId" : "BPBSM7978"
+  }, {
+    "btLogicalName" : "Behavior Pattern Name",
+    "businessTermId" : "BPBSM7979"
+  }, {
+    "btLogicalName" : "Breakage Flag Pay Leg",
+    "businessTermId" : "BPBSM7980"
+  }, {
+    "btLogicalName" : "Commit Option Type Id",
+    "businessTermId" : "BPBSM7981"
+  }, {
+    "btLogicalName" : "Commitment Start Date",
+    "businessTermId" : "BPBSM7982"
+  }, {
+    "btLogicalName" : "Credit Loss Provision",
+    "businessTermId" : "BPBSM7983"
+  }, {
+    "btLogicalName" : "Currency Code Pay Leg",
+    "businessTermId" : "BPBSM7984"
+  }, {
+    "btLogicalName" : "Current Static Spread",
+    "businessTermId" : "BPBSM7985"
+  }, {
+    "btLogicalName" : "Customer Service Fees",
+    "businessTermId" : "BPBSM7986"
+  }, {
+    "btLogicalName" : "Deferred Current Cost",
+    "businessTermId" : "BPBSM7987"
+  }, {
+    "btLogicalName" : "Deferred Current Fees",
+    "businessTermId" : "BPBSM7988"
+  }, {
+    "btLogicalName" : "Embedded Options Flag",
+    "businessTermId" : "BPBSM7989"
+  }, {
+    "btLogicalName" : "Float Management Fees",
+    "businessTermId" : "BPBSM7990"
+  }, {
+    "btLogicalName" : "Hierarchy Description",
+    "businessTermId" : "BPBSM7991"
+  }, {
+    "btLogicalName" : "Holiday Calendar Name",
+    "businessTermId" : "BPBSM7992"
+  }, {
+    "btLogicalName" : "Inflation Index Value",
+    "businessTermId" : "BPBSM7993"
+  }, {
+    "btLogicalName" : "Initial Display Level",
+    "businessTermId" : "BPBSM7994"
+  }, {
+    "btLogicalName" : "Issue Term Multiplier",
+    "businessTermId" : "BPBSM7995"
+  }, {
+    "btLogicalName" : "Last Transaction Date",
+    "businessTermId" : "BPBSM7996"
+  }, {
+    "btLogicalName" : "Lease Residual Amount",
+    "businessTermId" : "BPBSM7997"
+  }, {
+    "btLogicalName" : "Margin Agreement Code",
+    "businessTermId" : "BPBSM7998"
+  }, {
+    "btLogicalName" : "Original Credit Score",
+    "businessTermId" : "BPBSM7999"
+  }, {
+    "btLogicalName" : "Original Market Value",
+    "businessTermId" : "BPBSM8000"
+  }, {
+    "btLogicalName" : "Original Rate Pay Leg",
+    "businessTermId" : "BPBSM8001"
+  }, {
+    "btLogicalName" : "Other Add On Duration",
+    "businessTermId" : "BPBSM8002"
+  }, {
+    "btLogicalName" : "Parent Customer Share",
+    "businessTermId" : "BPBSM8003"
+  }, {
+    "btLogicalName" : "Property Purpose Code",
+    "businessTermId" : "BPBSM8004"
+  }, {
+    "btLogicalName" : "Rate Cap Life Pay Leg",
+    "businessTermId" : "BPBSM8005"
+  }, {
+    "btLogicalName" : "Rate Data Source Code",
+    "businessTermId" : "BPBSM8006"
+  }, {
+    "btLogicalName" : "Seeded Hierarchy Flag",
+    "businessTermId" : "BPBSM8007"
+  }, {
+    "btLogicalName" : "Show Member Code Flag",
+    "businessTermId" : "BPBSM8008"
+  }, {
+    "btLogicalName" : "System Hierarchy Flag",
+    "businessTermId" : "BPBSM8009"
+  }, {
+    "btLogicalName" : "Transfer Balance Date",
+    "businessTermId" : "BPBSM8010"
+  }, {
+    "btLogicalName" : "Transfer Rate Pay Leg",
+    "businessTermId" : "BPBSM8011"
+  }, {
+    "btLogicalName" : "Account Age Multiplier",
+    "businessTermId" : "BPBSM8012"
+  }, {
+    "btLogicalName" : "Accrued Gross Interest",
+    "businessTermId" : "BPBSM8013"
+  }, {
+    "btLogicalName" : "Amortization Type Code",
+    "businessTermId" : "BPBSM8014"
+  }, {
+    "btLogicalName" : "Basis Risk Cost Amount",
+    "businessTermId" : "BPBSM8015"
+  }, {
+    "btLogicalName" : "Behavior Sub Type Code",
+    "businessTermId" : "BPBSM8016"
+  }, {
+    "btLogicalName" : "Break Tolerance Amount",
+    "businessTermId" : "BPBSM8017"
+  }, {
+    "btLogicalName" : "Buyer Seller Indicator",
+    "businessTermId" : "BPBSM8018"
+  }, {
+    "btLogicalName" : "Charge Off Reason Code",
+    "businessTermId" : "BPBSM8019"
+  }, {
+    "btLogicalName" : "Commitment Option Cost",
+    "businessTermId" : "BPBSM8020"
+  }, {
+    "btLogicalName" : "Current Payment Amount",
+    "businessTermId" : "BPBSM8021"
+  }, {
+    "btLogicalName" : "Deferred Original Cost",
+    "businessTermId" : "BPBSM8022"
+  }, {
+    "btLogicalName" : "Deferred Original Fees",
+    "businessTermId" : "BPBSM8023"
+  }, {
+    "btLogicalName" : "Delinquency Times Life",
+    "businessTermId" : "BPBSM8024"
+  }, {
+    "btLogicalName" : "Delinquency Times Year",
+    "businessTermId" : "BPBSM8025"
+  }, {
+    "btLogicalName" : "Existing Borrower Code",
+    "businessTermId" : "BPBSM8026"
+  }, {
+    "btLogicalName" : "Financial Element Code",
+    "businessTermId" : "BPBSM8027"
+  }, {
+    "btLogicalName" : "Hierarchy Level Number",
+    "businessTermId" : "BPBSM8028"
+  }, {
+    "btLogicalName" : "Historic Static Spread",
+    "businessTermId" : "BPBSM8029"
+  }, {
+    "btLogicalName" : "Last Withdrawal Amount",
+    "businessTermId" : "BPBSM8030"
+  }, {
+    "btLogicalName" : "Liquidity Premium Rate",
+    "businessTermId" : "BPBSM8031"
+  }, {
+    "btLogicalName" : "Liquidity Risk Capital",
+    "businessTermId" : "BPBSM8032"
+  }, {
+    "btLogicalName" : "Matched Spread Pay Leg",
+    "businessTermId" : "BPBSM8033"
+  }, {
+    "btLogicalName" : "Merchant System Number",
+    "businessTermId" : "BPBSM8034"
+  }, {
+    "btLogicalName" : "Number Of Cards Issued",
+    "businessTermId" : "BPBSM8035"
+  }, {
+    "btLogicalName" : "Organization Unit Code",
+    "businessTermId" : "BPBSM8036"
+  }, {
+    "btLogicalName" : "Other Provision Amount",
+    "businessTermId" : "BPBSM8037"
+  }, {
+    "btLogicalName" : "Pricing Incentive Rate",
+    "businessTermId" : "BPBSM8038"
+  }, {
+    "btLogicalName" : "Relationship Type Code",
+    "businessTermId" : "BPBSM8039"
+  }, {
+    "btLogicalName" : "Remaining Term Pay Leg",
+    "businessTermId" : "BPBSM8040"
+  }, {
+    "btLogicalName" : "Repricing Pattern Name",
+    "businessTermId" : "BPBSM8041"
+  }, {
+    "btLogicalName" : "Rollover Facility Code",
+    "businessTermId" : "BPBSM8042"
+  }, {
+    "btLogicalName" : "Savings Account Number",
+    "businessTermId" : "BPBSM8043"
+  }, {
+    "btLogicalName" : "Special Payment Amount",
+    "businessTermId" : "BPBSM8044"
+  }, {
+    "btLogicalName" : "Application Final Score",
+    "businessTermId" : "BPBSM8045"
+  }, {
+    "btLogicalName" : "Auto Pay Account Number",
+    "businessTermId" : "BPBSM8046"
+  }, {
+    "btLogicalName" : "Breakage Amount Pay Leg",
+    "businessTermId" : "BPBSM8047"
+  }, {
+    "btLogicalName" : "Checking Account Number",
+    "businessTermId" : "BPBSM8048"
+  }, {
+    "btLogicalName" : "Collateral Market Value",
+    "businessTermId" : "BPBSM8049"
+  }, {
+    "btLogicalName" : "Current Net Par Balance",
+    "businessTermId" : "BPBSM8050"
+  }, {
+    "btLogicalName" : "Dealer Reserve Original",
+    "businessTermId" : "BPBSM8051"
+  }, {
+    "btLogicalName" : "Dealer Reserve Unearned",
+    "businessTermId" : "BPBSM8052"
+  }, {
+    "btLogicalName" : "Delinquency Status Code",
+    "businessTermId" : "BPBSM8053"
+  }, {
+    "btLogicalName" : "Deposit Reserves Charge",
+    "businessTermId" : "BPBSM8054"
+  }, {
+    "btLogicalName" : "Devolvement Status Code",
+    "businessTermId" : "BPBSM8055"
+  }, {
+    "btLogicalName" : "Direct Or Indirect Code",
+    "businessTermId" : "BPBSM8056"
+  }, {
+    "btLogicalName" : "Interest Dividends Date",
+    "businessTermId" : "BPBSM8057"
+  }, {
+    "btLogicalName" : "Ira Funding Status Code",
+    "businessTermId" : "BPBSM8058"
+  }, {
+    "btLogicalName" : "Lock In Term Multiplier",
+    "businessTermId" : "BPBSM8059"
+  }, {
+    "btLogicalName" : "Mortgage Offset Percent",
+    "businessTermId" : "BPBSM8060"
+  }, {
+    "btLogicalName" : "Net Margin Code Pay Leg",
+    "businessTermId" : "BPBSM8061"
+  }, {
+    "btLogicalName" : "Option Cost Receive Leg",
+    "businessTermId" : "BPBSM8062"
+  }, {
+    "btLogicalName" : "Option Rate Lookup Code",
+    "businessTermId" : "BPBSM8063"
+  }, {
+    "btLogicalName" : "Option Strike Type Code",
+    "businessTermId" : "BPBSM8064"
+  }, {
+    "btLogicalName" : "Original Payment Amount",
+    "businessTermId" : "BPBSM8065"
+  }, {
+    "btLogicalName" : "Rate Floor Life Pay Leg",
+    "businessTermId" : "BPBSM8066"
+  }, {
+    "btLogicalName" : "Rate Set Lag Multiplier",
+    "businessTermId" : "BPBSM8067"
+  }, {
+    "btLogicalName" : "Safe Deposit Box Number",
+    "businessTermId" : "BPBSM8068"
+  }, {
+    "btLogicalName" : "Settlement Country Code",
+    "businessTermId" : "BPBSM8069"
+  }, {
+    "btLogicalName" : "Application Analyst Code",
+    "businessTermId" : "BPBSM8070"
+  }, {
+    "btLogicalName" : "Average Net Book Balance",
+    "businessTermId" : "BPBSM8071"
+  }, {
+    "btLogicalName" : "Basis Risk Charge Credit",
+    "businessTermId" : "BPBSM8072"
+  }, {
+    "btLogicalName" : "Basis Risk Cost Duration",
+    "businessTermId" : "BPBSM8073"
+  }, {
+    "btLogicalName" : "Collateral Nominal Value",
+    "businessTermId" : "BPBSM8074"
+  }, {
+    "btLogicalName" : "Commitment Maturity Date",
+    "businessTermId" : "BPBSM8075"
+  }, {
+    "btLogicalName" : "Corporate Agreement Code",
+    "businessTermId" : "BPBSM8076"
+  }, {
+    "btLogicalName" : "Current Net Book Balance",
+    "businessTermId" : "BPBSM8077"
+  }, {
+    "btLogicalName" : "Current Net Rate Pay Leg",
+    "businessTermId" : "BPBSM8078"
+  }, {
+    "btLogicalName" : "Deferred Balance Current",
+    "businessTermId" : "BPBSM8079"
+  }, {
+    "btLogicalName" : "Deposit Insurance Amount",
+    "businessTermId" : "BPBSM8080"
+  }, {
+    "btLogicalName" : "Disbursement Method Code",
+    "businessTermId" : "BPBSM8081"
+  }, {
+    "btLogicalName" : "Early Exercise Indicator",
+    "businessTermId" : "BPBSM8082"
+  }, {
+    "btLogicalName" : "Fiduciary Agreement Code",
+    "businessTermId" : "BPBSM8083"
+  }, {
+    "btLogicalName" : "Foreign Transaction Fees",
+    "businessTermId" : "BPBSM8084"
+  }, {
+    "btLogicalName" : "Geographic Location Code",
+    "businessTermId" : "BPBSM8085"
+  }, {
+    "btLogicalName" : "Inflation Index End Date",
+    "businessTermId" : "BPBSM8086"
+  }, {
+    "btLogicalName" : "Interest Rate Curve Code",
+    "businessTermId" : "BPBSM8087"
+  }, {
+    "btLogicalName" : "Interest Rate Curve Name",
+    "businessTermId" : "BPBSM8088"
+  }, {
+    "btLogicalName" : "Interest Rate Net Margin",
+    "businessTermId" : "BPBSM8089"
+  }, {
+    "btLogicalName" : "Liquidity Premium Amount",
+    "businessTermId" : "BPBSM8090"
+  }, {
+    "btLogicalName" : "Market Value Receive Leg",
+    "businessTermId" : "BPBSM8091"
+  }, {
+    "btLogicalName" : "Marketable Security Flag",
+    "businessTermId" : "BPBSM8092"
+  }, {
+    "btLogicalName" : "Operational Risk Capital",
+    "businessTermId" : "BPBSM8093"
+  }, {
+    "btLogicalName" : "Original Net Par Balance",
+    "businessTermId" : "BPBSM8094"
+  }, {
+    "btLogicalName" : "Original Term Multiplier",
+    "businessTermId" : "BPBSM8095"
+  }, {
+    "btLogicalName" : "Outside Info Source Code",
+    "businessTermId" : "BPBSM8096"
+  }, {
+    "btLogicalName" : "Over Limit Current Cycle",
+    "businessTermId" : "BPBSM8097"
+  }, {
+    "btLogicalName" : "Pricing Incentive Amount",
+    "businessTermId" : "BPBSM8098"
+  }, {
+    "btLogicalName" : "Rate Set Lag Receive Leg",
+    "businessTermId" : "BPBSM8099"
+  }, {
+    "btLogicalName" : "Renewal Option Indicator",
+    "businessTermId" : "BPBSM8100"
+  }, {
+    "btLogicalName" : "Retail Or Wholesale Flag",
+    "businessTermId" : "BPBSM8101"
+  }, {
+    "btLogicalName" : "Savings Account Location",
+    "businessTermId" : "BPBSM8102"
+  }, {
+    "btLogicalName" : "Short Position Indicator",
+    "businessTermId" : "BPBSM8103"
+  }, {
+    "btLogicalName" : "Solicitation Source Code",
+    "businessTermId" : "BPBSM8104"
+  }, {
+    "btLogicalName" : "Average Collected Balance",
+    "businessTermId" : "BPBSM8105"
+  }, {
+    "btLogicalName" : "Breakage Flag Receive Leg",
+    "businessTermId" : "BPBSM8106"
+  }, {
+    "btLogicalName" : "Commission On Collections",
+    "businessTermId" : "BPBSM8107"
+  }, {
+    "btLogicalName" : "Commitment Number Pay Leg",
+    "businessTermId" : "BPBSM8108"
+  }, {
+    "btLogicalName" : "Currency Code Receive Leg",
+    "businessTermId" : "BPBSM8109"
+  }, {
+    "btLogicalName" : "Deferred Balance Original",
+    "businessTermId" : "BPBSM8110"
+  }, {
+    "btLogicalName" : "Disputed Transfer Balance",
+    "businessTermId" : "BPBSM8111"
+  }, {
+    "btLogicalName" : "Fra Forward Interest Rate",
+    "businessTermId" : "BPBSM8112"
+  }, {
+    "btLogicalName" : "Interest Timing Type Code",
+    "businessTermId" : "BPBSM8113"
+  }, {
+    "btLogicalName" : "Last Reprice Date Balance",
+    "businessTermId" : "BPBSM8114"
+  } ],
+  "code" : "CV0000"
+}
