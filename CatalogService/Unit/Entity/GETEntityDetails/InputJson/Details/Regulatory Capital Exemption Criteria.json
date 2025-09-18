@@ -1,0 +1,91 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regulatory Capital Exemption Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the exemption criteria as specified under the regulatory capital guidelines. This exemption criteria will be applicable for any exposures to be exempted from the regulatory calculation like leverage ratio or large exposures. Some of the exemption criteria are as below:\n 1) Fiduciary assets that are derecognized or deconsolidated on the balance sheet as per IFRS or IAS guidelines\n 2) Assets that are used for funding general interest investments\n 3) Eligible Cash Variation Margin received, used to offset Derivatives Market Value\n 4) Eligible Cash Variation Margin posted, used to offset Derivatives Market Value\n 5) Exempted CCP leg of trade exposures of clearing member\n 6) Eligible Purchased Credit Derivative, used to offset Written Credit Derivatives",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regulatory Capital Exemption Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This column stores the description of the exemption criteria as specified under the regulatory capital guidelines. This exemption criteria will be applicable for any exposures to be exempted from the regulatory calculation like leverage ratio or large exposures. Some of the exemption criteria are as below:  1) Fiduciary assets that are derecognized or deconsolidated on the balance sheet as per IFRS or IAS guidelines  2) Assets that are used for funding general interest investments  3) Eligible Cash Variation Margin received, used to offset Derivatives Market Value  4) Eligible Cash Variation Margin posted, used to offset Derivatives Market Value  5) Exempted CCP leg of trade exposures of clearing member  6) Eligible Purchased Credit Derivative, used to offset Written Credit Derivatives.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regulatory Capital Exemption Level One Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This will be an identifier to store the level 1 grouping of the exemption criteria as specified under the regulatory capital guidelines. This grouping will be based on the calculations for which this will be applicable like leverage ratio or large exposures. The level 1 grouping will indicate whether this exemption is applicable for leverage ratio or for large exposure or any other calculations.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regulatory Capital Exemption Level One Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This will be the description of the identifier to store the level 1 grouping of the exemption criteria as specified under the regulatory capital guidelines. This grouping will be based on the calculations for which this will be applicable like leverage ratio or large exposures. The level 1 grouping will indicate whether this exemption is applicable for leverage ratio or for large exposure or any other calculations.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regulatory Capital Exemption Level One Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey",
+                    "gcd": "Refers to the equivalent numeric identifier of the Regulatory Capital Exemption Level One Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

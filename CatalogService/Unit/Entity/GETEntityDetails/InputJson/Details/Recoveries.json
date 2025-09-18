@@ -1,0 +1,398 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Open Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the account was opened in the financial institution. This is the system date on which the financial institution opens the account. It may or may not be equal to effective date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the status of the account. List of values can be Active, Inactive, in foreclosure, Re negotiated, Dispute, Frozen, Past Due, Closed etc. Account Status Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dealer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the dealer who assisted in acquiring the account. Financial institution set up dealer networks to cover the geographic area at a low cost.\nIn the case of treasury a dealer would refer to a market maker. They provide quotes on the buy price and sell price of the instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Excess Amount Recovered",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the excess amount that is recovered.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Excess Amount Written-Off By Court Judgment",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the excess amount written-off as per court judgment for a loan/ lease/ Overdraft etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Full Payoff Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the full payoff amount.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Amount Written-Off By Court Judgment",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest amount written-off as per court judgment for a loan/ lease/Overdraft etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Recovered Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest component of the amount recovered. Recovery refers to the process of collecting overdue amount. Recovery can be applicable to loans or debt in several categories like current, delinquent, non performing, sub standard, doubtful, bad.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Write Off Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount Interest that has been written or Charged off. This amount includes only overdue interest on that account. Asset write offs happen when a loan repayment is delayed and any efforts by the collection and recovery department of the financial institution are unsuccessful or partially successful.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Amount Written-Off By Court Judgment",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the other amount written-off as per court judgment for a loan/ lease/ Overdraft etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Recovery Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This is the other recovery amount occurred in a claim process, other than recovered amount made from salvation, Subrogation etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Write Off Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount written off as bad debt at cycle end. This amount includes any amount other than principal and interest on overdue principal. For example, some charges levied by the bank, which are disputed by the customer and hence are outstanding. Asset write offs happen when a loan repayment is delayed and any efforts by the collection and recovery department of the financial institution are unsuccessful or partially successful.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Amount Recovered",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the principal component of the amount recovered. Recovery refers to the process of collecting overdue amount. Recovery can be applicable to loans/debt in several categories like current, delinquent, non performing, sub standard, doubtful, bad.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Amount Written-Off By Court Judgment",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the principal amount written-off as per court judgment for a loan/ lease/Overdraft etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Write Off Amount Inception To Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Account Principal Write off Amount Inception to date that has been written or Charged off.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recovery Agent Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Recovery Agent is a person who is issued a public key certificate for the purpose of recovering user data that is encrypted with Encrypting File System-EFS. When an administrator adds one or more recovery agents, a recovery agent policy is in effect.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recovery Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the recovery type such as manual or system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Write Off Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the asset was written off from the books of the financial institution. Asset write offs happen when a loan repayment is delayed and any efforts by the collection and recovery department of the financial institution are unsuccessful or partially successful.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Write Off Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the write off reason in case of accounts with write offs. Common reasons for write offs include bankruptcy, legal issues, death of the customer etc.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF38639",
+                    "btLogicalName": "Account Open Date",
+                    "dqDesc": "Reference Check for Account Open Date in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38640",
+                    "btLogicalName": "Account Open Date",
+                    "dqDesc": "Reference Check for Account Open Date in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38641",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38642",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38643",
+                    "btLogicalName": "Write Off Date",
+                    "dqDesc": "Reference Check for Write Off Date in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38644",
+                    "btLogicalName": "Write Off Date",
+                    "dqDesc": "Reference Check for Write Off Date in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38645",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38646",
+                    "btLogicalName": "Account Status Code",
+                    "dqDesc": "Reference Check for Account Status Code in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38647",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38648",
+                    "btLogicalName": "Dealer Identifier",
+                    "dqDesc": "Reference Check for Dealer Identifier in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38649",
+                    "btLogicalName": "Dealer Identifier",
+                    "dqDesc": "Reference Check for Dealer Identifier in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38650",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38651",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38652",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38653",
+                    "btLogicalName": "Recovery Agent Identifier",
+                    "dqDesc": "Reference Check for Recovery Agent Identifier in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38654",
+                    "btLogicalName": "Recovery Type",
+                    "dqDesc": "Reference Check for Recovery Type in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF38655",
+                    "btLogicalName": "Write Off Reason Code",
+                    "dqDesc": "Reference Check for Write Off Reason Code in Stage Recoveries",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

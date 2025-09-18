@@ -1,0 +1,99 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Methodology Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Basel methodology code.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Valuation Adjustment Capital Charge For Hedged Portion",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Credit Valuation Adjustment capital across the counterparties of the entity, as per the regulatory definition for the hedges. In the case of banks following CVA Basic Approach wherein the hedges are recognized, this column stores the interim value specific to the hedges.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Valuation Adjustment Capital Charge Using Reduced Approach",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Credit Valuation Adjustment capital across the counterparties of the entity, as per the regulatory definition for the Reduced approach. In the case of banks following CVA Basic Approach wherein the hedges are recognized, this column stores the interim value using the reduced approach.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Valuation Adjustment Risk Weighted Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Regulatory CVA Risk Weighted Amount prorated at the account granularity.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Idiosyncratic Risk Component Of Total Credit Valuation Adjustment",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers the idiosyncratic risk component. The idiosyncratic risk component is used along with the systematic risk component to arrive at the total CVA charge for the Bank, across all the counterparties.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Systemic Risk Component Of Total Credit Valuation Adjustment",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the systematic risk component. The systematic risk component is used along with the idiosyncratic risk component to arrive at the total CVA charge for the Bank, across all the counterparties.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Counterparty Count",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the distinct number of counterparties that have been considered for the CVA Calculation under the respective methods.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

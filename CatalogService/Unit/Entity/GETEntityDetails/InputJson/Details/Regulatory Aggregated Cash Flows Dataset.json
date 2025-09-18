@@ -1,0 +1,99 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Aggregate Cash Flow Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This column stores the hash value of different column passed as an attribute for hashing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Inflow Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This is the Cash Inflow Amount for each Policy. This amount will be in natural currency. Inflow amount refers to the Premium received, reserves released etc. but excludes the reinsurance amount if any.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Outflow Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This is Cash Outflow Amount for each Policy. This amount will be in natural currency. Out flow amount covers benefit payouts, expenses.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Collateral Asset Level Category Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the collateral asset level category code.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Non Operational Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the non operational balance.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operational Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the operational balance in reporting currency. Operational balances are mainly used for operational activities of the bank such as rent, salaries.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Weight",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the risk weight assigned to an exposures. In case of the tranche, it will be allocated risk weight based on the rating assigned to the tranche.\nPre mitigation risk weight for the exposure or the mitigant, depending on whether it is an eligible mitigant or an uncovered mitigant, as applicable for the corresponding asset class. This risk weight is generally calculated based on the effective rating of the mitigant or exposure. Risk weight is applied based on Asset class and Rating combinations.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Wholesale Retail Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates wholesale and retail code. Seeded values will be R and W.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

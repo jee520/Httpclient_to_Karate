@@ -1,0 +1,83 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Asset Class Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Code for Basel II Exposure Type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dilution Risk Eligibility Flag",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Flag",
+                    "gcd": "This flag stores the eligibility of purchased receivables exposure for dilution risk. Normally all purchased receivables exposure require dilution risk to be calculated under IRB Approach. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Leverage Exposure Granular Amount",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the leverage exposure amount, as computed for the corresponding jurisdiction. In the case of US, this will be the 3 month average leverage exposure measure, which will be computed on the reporting date. In the case of other jurisdictions, this will be the actual leverage exposure measure to be considered in the calculations. This is prorated and stored at the account and asset class granularity.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique of the collateral or mitigant. In case of derivatives such as Futures and options, collateral such as bonds, letters of credit, Stocks, Exchange traded funds, precious metals etc. can be provided as collateral or mitigant. In case of Lease contracts, operating lease, the collateral or mitigant is the asset being leased. Dim_Mitigant is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Undrawn Exposure Indicator",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Indicator",
+                    "gcd": "This stores a indicator to say whether the exposure is pertaining to the drawn part (EOP balance) or the undrawn part (undrawn amount) of the total exposure. A value of D indicates it is Drawn and U indicates it is Undrawn. List of Values are D and U.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

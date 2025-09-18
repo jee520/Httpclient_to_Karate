@@ -1,0 +1,123 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Central Counterparty Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the central counterparty code which clears the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cleared Transaction Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Identifies if the transaction is cleared through central counterparty. Transactions included are, 1, between the clearing member and clearing member client and, 2, clearing member and central counterparty.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Margin Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of margin under which the collateral has been placed with the CCP or the counterparty, as applicable. List of Values are IM, VM, DF and OTH. The IM is for indicating that this collateral has been placed as part of the initial margin. The VM indicates that this has been placed as part of the variation margin requirement. The DF indicates that it is placed as part of the Default Fund contribution. A value of OTH indicates that it is a regular collateral placed with the counterparty, and is not part of these margin type requirements. A value of NULL will also be treated as equivalent to OTH.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Collateral Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the value of the assets expressed in account currency that have been provided as collateral in this account. This amount represents the net value that can be counted toward collateral obligations, after applying any reductions based on the volatility or liquidity of the assets involved.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Placed Collateral Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the posted collateral, by the financial institution with other financial institutions in order to secure its borrowings.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regulatory Accounting Head Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This column stores the standard accounting head Identifier, applicable for the asset.\nThis will be used for identifying whether the asset has to be deducted from capital due to\nvarious regulatory capital lines, or for deduction from other exposure, as part of the\nregulatory capital guidelines.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regulatory Capital Exemption Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the exemption criteria as specified under the regulatory capital guidelines. This exemption criteria will be applicable for any exposures to be exempted from the regulatory calculation like leverage ratio or large exposures. Some of the exemption criteria are as below:\n 1) Fiduciary assets that are derecognized or deconsolidated on the balance sheet as per IFRS or IAS guidelines\n 2) Assets that are used for funding general interest investments\n 3) Eligible Cash Variation Margin received, used to offset Derivatives Market Value\n 4) Eligible Cash Variation Margin posted, used to offset Derivatives Market Value\n 5) Exempted CCP leg of trade exposures of clearing member\n 6) Eligible Purchased Credit Derivative, used to offset Written Credit Derivatives",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regulatory Capital Product Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This stores an unique regulatory capital product types. This will be the standard product types reclassified into any regulatory capital specific product types as used by BASEL etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Reporting Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the reporting currency code. Usually, it is the currency code of the country in which the financial institution that owns the account operates.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Weighted Amount Pre Mitigation For Unexpected Loss",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to the pre mitigation risk weight for the exposure, pertaining to the unexpected loss, as applicable to the particular jurisdiction. This risk weight is generally calculated based on the effective rating of the exposure.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Standard Mitigant Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the identifier of the mitigant type corresponding to first level of the mitigant type hierarchy.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Year Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Financial year code.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal Loss Multiplier Supervisory Or Calculated Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to whether internal loss multiplier is computed by the bank, or being taken directly as a supervisory provided values. The supervisory provided value can either be 1 or 1.25 as prescribed by the regulator. The calculated value means computation using the logic prescribed by the regulation. List of Values are S and C. A value of S indicates that it is treated as Supervisory prescribed value, and ILM is not being computed. A value of C indicates that the regulator has not prescribed any specific value, and rather expects bank to compute the value using a prescribed logic. Null will be treated as C and\ntaken as computed value.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal Loss Multiplier Used For Operational Risk Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether internal loss is being used for the Internal Loss Multiplier calculation. The list of values are Y and N. A value of Y indicates that internal loss is being used for the calculation. A value of N indicates that internal loss is not used, and only external losses are being considered for the calculation. Null is treated as N, and only external losses are being considered.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Event Threshold Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the minimum threshold of loss amount to be considered for the loss event. This is based on the regulatory approved value to be considered for the regulatory capital calculations.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Loss Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Net Loss Amount excluding Gains and Non Insurance Recoveries and Insurance Recoveries.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Loss Before Exclusion Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the net loss amount which is computed as the gross loss less the recoveries that have occurred on the losses occurred. This is computed without considering the exclusions due to mergers and acquisition, or divestiture or any other form of exclusions. Also, this is the loss considering both the internal and external loss, that are being considered for the purpose of regulatory capital calculations.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Loss Excluded Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total net loss that have been excluded from the regulatory capital calculations. This is inclusive of both internal and external loss, as applicable for the entity and considered for the regulatory capital calculations.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Number Of Losses Before Exclusion",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the total number of losses that are to be considered in the regulatory capital calculations, without considering any exclusions but post adjustment. The consideration of only internal loss, or only external loss or both external and internal loss are dependent on the regulatory capital calculation.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Number Of Losses Excluded",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the total number of losses that been excluded in the regulatory capital calculations.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

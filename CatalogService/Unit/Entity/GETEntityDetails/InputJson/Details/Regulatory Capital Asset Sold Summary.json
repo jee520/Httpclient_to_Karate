@@ -1,0 +1,115 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Maturity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the effective maturity of an exposure. Typically, it would be longest possible remaining time before the counterparty is scheduled to fulfill its obligation. It is used in RWA calculation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Expected Loss Amount Pre Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the expected loss amount pre mitigation for the exposure. The expected loss is the loss which the exposure is expected to undergo, and is computed using the probability of default and loss given default and the exposure at default. This is calculated using the pre mitigation values\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Post Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the exposure at default amount post mitigation by all eligible mitigants\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Post Mitigation And Pre Conversion Factor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Exposure at default amount of the exposure post mitigation, and without considering the impact of the credit conversion factor. This will be populated only in the case of EU specific runs.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Pre Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the pre mitigation Exposure at default amount of the total exposure, as applicable to the particular jurisdiction. This is generally equal to the sum of Exposure of default pre mitigation for the drawn portion of the exposure and the exposure of default per mitigation for the undrawn portion of the exposure.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability Of Default Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the probability of default of an exposure over a period of one year, as required for regulatory capital calculation. This will be used in RWA calculation based on advanced approach. This is expressed in decimal number, For example, 30 percent will be 0.3.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Weighted Amount Pre Mitigation For Expected Loss",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the risk weighted amount of the exposure, pre mitigation for the expected loss.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Weighted Amount Pre Mitigation For Unexpected Loss",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to the pre mitigation risk weight for the exposure, pertaining to the unexpected loss, as applicable to the particular jurisdiction. This risk weight is generally calculated based on the effective rating of the exposure.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Weighted Average Loss Given Default Percentage Post Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to the loss given default of the exposure, after considering the effects of all the eligible mitigants viz. collateral, guarantee and credit derivatives.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Adjusted Excess High Quality Liquid Asset",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to adjusted Excess HQLA=Adjusted Level two Cap excess Amount Adjusted Level 2B Cap Excess Amount. Refer to NPR LCR Computation guideline.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Liquidity Coverage Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Liquidity Coverage Ratio for given Legal Entity and Currency. Liquidity Coverage Ration is Equal to Stock of HQLA (High Quality Liquid Asset) added to Total Amount due to usage of Option 1) added to Total Amount due to usage of Option 2) added to Total Amount due to usage of Option 3) by Net Cash flows.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Cash Flow Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Net Cash flows at the legal Entity and Currency Level. This Column is further used for calculating Liquidity Coverage ratio. Net Cash flows is equal to Min (Cash Inflows or 75 percent of Cash Outflows).\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regulatory Aggregated Legal Entity Summary Dataset Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Numeric",
+                    "gcd": "This column stores unique regulatory aggregated legal entity summary dataset identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Stock Of High Quality Liquid Asset",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Stock of HQLA (High Quality Liquid Assets) for given Legal Entity and Currency. Stock of HQLA is further used for calculating Liquidity Coverage ratio. Stock of HQLA is equal to (Total Level 1 asset added to Minimum of (Total Level 2 Asset or (40 by 60) Total Level 1 Asset).\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compensation Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Compensation Type Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deferred Compensation Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the deferred amount of the compensation paid to the employee and pertaining to the corresponding compensation type. In case of the entire component of the compensation being deferred, it is expected that the compensation amount and the deferred compensation amount are one and the same. And for the portion where only a portion of the compensation has been deferred, this will mention the deferred amount, and the compensation amount will be the total amount including the deferred balance.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Employee Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the employee assigned by the employer or legal entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fair Value Of Shares Allotted",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the fair value of the shares that have been allotted to the employee as part of the compensation package. This is populated only when the compensation is given in the form of shares, and is captured in the compensation type. Typically for the compensation in the form of shares, the compensation amount is derived by multiplying the number of shares and the fair value of the shares.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Shares Deferred",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the total number of shares that have been allotted to an employee on a deferred basis as part of the compensation package. This is populated only when the compensation is given in the form of shares, and is captured in the compensation type. Typically for the compensation in the form of shares, the compensation amount is derived by multiplying the number of shares and the fair value of the shares.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regulatory Compensation Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Compensation amount.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

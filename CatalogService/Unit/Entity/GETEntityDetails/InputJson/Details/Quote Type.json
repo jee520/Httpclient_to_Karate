@@ -1,0 +1,152 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Quote Type",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This Attribute stores the Quote type D or I. D if it is a direct rate between source currency and destination currency I if it is a indirect rate between source currency and destination currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Quote Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This Attribute stores the Quote type D or I. D if it is a direct rate between source currency and destination currency I if it is a indirect rate between source currency and destination currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Quote Type Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the classification as to the type of quote in which the quote transaction happens. Example of quote types are new business quote, renewal quote, endorsement quote, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Quote Type Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This is the unique numeric identifier associated with the Quote Type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1109",
+                    "srcLogicalName": "Stage Quote Type Master",
+                    "scdName": "scd_1109_DIM_QUOTE_TYPE_STG_QUOTE_TYPE_MASTER",
+                    "scdDesc": "Data movement from quote type master source to quote type dimension",
+                    "createdDate": "2024-10-26 06:02:42.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42725",
+                    "btLogicalName": "Quote Type Numeric Identifier",
+                    "dqDesc": "Quote Type Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:30.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQCUS42726",
+                    "btLogicalName": "Quote Type Numeric Identifier",
+                    "dqDesc": "Quote Type Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:30.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQLOV32082",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:30.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQNMDUP42032",
+                    "btLogicalName": "Quote Type Numeric Identifier",
+                    "dqDesc": "Quote Type Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:30.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                },
+                {
+                    "dqId": "DQSPLCH42847",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:30.0",
+                    "modifiedDate": "2024-11-04 04:39:34.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

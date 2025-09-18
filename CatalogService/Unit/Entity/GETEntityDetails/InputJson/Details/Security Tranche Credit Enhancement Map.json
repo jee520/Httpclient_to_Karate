@@ -1,0 +1,180 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Enhancement Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the account number of the credit enhancement.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Enhancement Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the credit enhancement id.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Enhancement Issuer Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the issuer code of the credit enhancement.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Enhancement Line Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the issuer code of the credit enhancement line code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Contractual Exposure Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the column Refers to Maximum contractual probable contractual exposure arising from sale with recourse.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tranche Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the tranche identifier. A Tranche is a piece, portion or slice of a deal or structured financing. This indicates which for which securitized tranche the particular mitigant covers.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF35290",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Security Tranche Credit Enhancement Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF35291",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Security Tranche Credit Enhancement Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF35292",
+                    "btLogicalName": "Credit Enhancement Account Number",
+                    "dqDesc": "Reference Check for Credit Enhancement Account Number in Stage Security Tranche Credit Enhancement Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF35293",
+                    "btLogicalName": "Credit Enhancement Issuer Code",
+                    "dqDesc": "Reference Check for Credit Enhancement Issuer Code in Stage Security Tranche Credit Enhancement Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF35294",
+                    "btLogicalName": "Credit Enhancement Line Code",
+                    "dqDesc": "Reference Check for Credit Enhancement Line Code in Stage Security Tranche Credit Enhancement Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF35295",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Security Tranche Credit Enhancement Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF35296",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Security Tranche Credit Enhancement Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF35297",
+                    "btLogicalName": "Tranche Identifier",
+                    "dqDesc": "Reference Check for Tranche Identifier in Stage Security Tranche Credit Enhancement Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

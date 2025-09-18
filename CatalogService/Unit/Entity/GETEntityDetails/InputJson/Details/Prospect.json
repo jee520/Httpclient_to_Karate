@@ -1,0 +1,567 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Address Line One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the first line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line Three",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the third line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Address Line Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the second line of the address component of this address.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Annual Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the annual income of the applicant or applicant or party or customer. Annual income is the total amount of income earned annually. Gross annual income represents the amount of money a person earns in one year from all sources before annual taxes are evaluated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Applicant Or Co Applicant Profession",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the profession of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Segment Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique key identifying the business segment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the credit score of the customer. In case of retail customers, this can be FICO score. A credit score is commonly used by financial institutions to assess the credit worthiness of a prospect or customer. Generally a customer with a higher credit score gets better terms in terms of interest rates, repayment schedule etc. In case score is reported at account granularity then it will store the credit score of the primary customer associated with the account.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address City",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the city of the party where he is currently residing.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address District",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the district of the party where he is currently residing.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Current Residence Address State",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the state or province component of the address associated with the location where currently party is residing.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Customer Education Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the highest educational qualification or certificate course that an individual has secured.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Customer Nationality",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the nationality of the party. For multinational corporate, the country where the corporate has its registered office is considered.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Date Of Birth",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date of birth of the party. Date of birth refers to the day, month, and year when person was born.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Deceased Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the person who is no longer alive and is attributable to an individual.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Email Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the business key of Party Email identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Employing Company",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "The name of the company in which the party is an employee.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Gender Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the gender of the party or customer or employee. This is applicable only to individuals. Gender dimension is the equivalent dimension table for this column.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Group Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of the account group, used to indicate a general grouping of accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Incorporation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the customer company or corporate was formed or incorporated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Industry Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the code that describes the primary business activity of the obligor or the industry to which the party is associated to as per the North American Industry Classification System, NAICS. If the NAICS code is not available, provide either the Standard Industrial Classification, SIC, or Global Industry Classification Standard, GICS. If the obligor is an individual, the industry code should be consistent with the industry in which the commercial purpose of the loan operates.\nIf the business or individual operates in multiple industries, the BHC or IHC should report the industry that best represents the commercial risk of the loan, i.e., the predominant industry.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Job Title",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Job of the party that is discharging in the organization. Some of the example of job titles are Investment Planner, Client Service Manager, Collections Manager etc. the job title is also related and based on the position held by the party in the organization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mailing Instruction Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the mailing instruction given by the customer, office, Res. Address, hold mail, different address, etc...Expected values are O, R, H, D, this is not available.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Marital Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the marital status of the applicant or co applicant. Marital status of a person indicates whether the person is married, single, or otherwise. Expected values are Married, Unmarried, Other.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "New Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account is a new account which means if the value is updated as Y the account is new account as of current extraction date and if the value is updated as N the account is an old account as of current extraction date. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Office Address Line One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the line one of address like apartment or house number, apartment name, street, cross, road etc. where the party is residing. More important fields like city, state are captured in separate fields.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Address Line Three",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the line three of address like apartment or house number, apartment name, street, cross, road etc. where the party is residing. More important fields like city, state are captured in separate fields.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Address Line Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the address line 2 of the party or customer office address details.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office City",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the city name where office is located.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Country",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the country of the party where the office of the party is located.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Office District",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the district of the party where the office of the party is located.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office State",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the state of the party where the office of the party is located.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Office Telephone Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the telephone country code of the party where the office of the party is located.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Category",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the party category. e.g. individual, firm, corporate, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Last Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the last name of the party, usually the family name.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Party Middle Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the middle name of the party, usually the father name.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Preferred Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the code of the preferred currency of the party or customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prospect Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the prospect.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prospect Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the prospect.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prospect Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Prospect Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Region Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the geographical grouping of the market based on certain common characteristics like language, ethnicity, country, continent, city and state. The region can vary based on the definition of market. Global market vs local market can have different definition of region.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Residence Address Street Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This is the name of the street in the customer address details.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Salutation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the salutation of the party in the address, the personal titles that is used before addressing a individual. Indicative values are Mr., Mrs., Miss, Ms. etc.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Segment Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Segment Identifier value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Self Employed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates party is self employed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Spouse Date Of Birth",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date of birth of the spouse of the party. Date of birth refers to the day, month, and year when person was born.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "VIP Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the member is categorized as a VIP by the financial institution.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Vendor Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This is the identifier of the vendor from whom a particular service is received.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Zip Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the postal code or zip code component of this address.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1167",
+                    "srcLogicalName": "Stage Prospect Master",
+                    "scdName": "scd_1167_DIM_PROSPECT_STG_PROSPECT_MASTER",
+                    "scdDesc": "Data movement from prospect master source to prospect dimension",
+                    "createdDate": "2024-10-26 06:02:42.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42517",
+                    "btLogicalName": "Prospect Numeric Identifier",
+                    "dqDesc": "Prospect Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:20.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQCUS42518",
+                    "btLogicalName": "Prospect Numeric Identifier",
+                    "dqDesc": "Prospect Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:20.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQLOV33385",
+                    "btLogicalName": "VIP Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:20.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQLOV33386",
+                    "btLogicalName": "Deceased Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:20.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQLOV33387",
+                    "btLogicalName": "New Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:20.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQLOV33388",
+                    "btLogicalName": "Self Employed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:20.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQLOV33389",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:20.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQNMDUP42157",
+                    "btLogicalName": "Prospect Numeric Identifier",
+                    "dqDesc": "Prospect Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:20.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQSPLCH42961",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:20.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQSPLCH42962",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Legal Entity Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:20.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "CIRCA",
+                    "ucName": "Customer Analytics"
+                }
+            ]
+        }
+    ]
+}

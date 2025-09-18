@@ -1,0 +1,299 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Alpha Value For EAD Calculation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Number_Factor",
+                    "gcd": "Refers to the alpha value that is used in calculating the Exposure at Default amount. This is a factor which is used for arriving at the EAD. This is generally used for derivative EAD calculations and used in the Internal Modeling approach.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Bank Role Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Substitute Key Identifier for the Bank Role Identifier(Natural Key)",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Capital Deduction Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount by which the exposure is reduced because it has exceeded the materiality level as mentioned by the supervisor. This amount is taken for deduction from the capital of the entity from where the exposure has originated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Capital For Unexpected Loss Post Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the post mitigation capital pertaining to the unexpected loss of the exposure, as applicable to the particular jurisdiction. This is the capital computed for the unexpected loss of the exposure after considering the effect of all the eligible mitigants",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Counterparty Credit Risk Exposures Add On Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the add-on amount of the CCR Exposures. This add on amount, will be the value of notional amount of the exposure multiplied by the add-on percent in the case of derivatives. In the case of SFT exposures, this will be the difference between the value of the SFT Transactions, and the collateral received or placed with respect to that transaction. This will be populated only in the case of leverage ratio run.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Valuation Adjustment Risk Weighted Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Regulatory CVA Risk Weighted Amount prorated at the account granularity.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Maturity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the effective maturity of an exposure. Typically, it would be longest possible remaining time before the counterparty is scheduled to fulfill its obligation. It is used in RWA calculation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Expected Loss Amount Post Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the expected loss amount post mitigation for the exposure.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure Amount In Natural Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount of the exposures. This will be the amount, post adjustment for any regulatory capital calculation purpose. If there are any adjustments to the accounting exposure amount due to netting, or any other regulatory capital related computations, the same will be updated. This will be the End of period balance for the on balance sheet exposures, and the adjusted notional balance for the derivatives.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Post Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the exposure at default amount post mitigation by all eligible mitigants\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Post Mitigation And Pre Conversion Factor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Exposure at default amount of the exposure post mitigation, and without considering the impact of the credit conversion factor. This will be populated only in the case of EU specific runs.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Post Mitigation For Drawn Portion Of The Exposure",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the exposure at default amount post mitigation for the drawn portion of the exposure.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Post Mitigation For Undrawn Portion Of The Exposure",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the exposure at default amount post mitigation for the undrawn portion of the exposure.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Pre Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the pre mitigation Exposure at default amount of the total exposure, as applicable to the particular jurisdiction. This is generally equal to the sum of Exposure of default pre mitigation for the drawn portion of the exposure and the exposure of default per mitigation for the undrawn portion of the exposure.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Pre Mitigation For Drawn Portion Of Exposure",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the exposure at default amount before mitigation process, for the drawn portion of the exposure. This is calculated as the product of the drawn portion of the exposure multiplied by the credit conversion factor for the drawn portion of the exposure.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Pre Mitigation For Drawn Portion Of Exposure Without Credit Conversion Factors",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the exposure at default amount before mitigation process, for the drawn portion of the exposure, and before the application of the Credit conversion factor. This is generally the End of Period balance of the on balance sheet exposures (or the drawn portion of the off balance sheet exposures), less the provision amount pertaining to this drawn portion of the exposure, and less any other jurisdiction specific computations.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Pre Mitigation For Undrawn Portion Of Exposure",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the exposure at default amount before mitigation process, for the undrawn portion of the exposure. This is generally calculated as the undrawn portion of the exposure multiplied by the credit conversion factor applicable.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure At Default Pre Mitigation For Undrawn Portion Of Exposure Without Credit Conversion Factors",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the exposure at default amount before mitigation process, for the undrawn portion of the exposure, and before the application of the Credit conversion factor. This is generally the undrawn balance of the off balance sheet exposures (or the undrawn portion of the on balance sheet exposures), less the provision amount pertaining to this undrawn portion of the exposure, and less any other jurisdiction specific computations.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Leverage Exposure Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the leverage exposure amount, as computed for the corresponding jurisdiction. In the case of US, this will be the 3 month average leverage exposure measure, which will be computed on the reporting date. In the case of other jurisdictions, this will be the actual leverage exposure measure to be considered in the calculations.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mark To Market Value In Natural Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Mark to Market value is a measure of the fair value of accounts that can change over time, such as assets and liabilities. Mark to market aims to provide a realistic appraisal of current financial situation of an institution or company. Mark to market value is the change in current market value as against the last traded value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Notional Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the notional amount of the exposure or instrument. This will be the amount, post adjustment for any regulatory capital calculation purpose. If there are any adjustments to the accounting exposure amount due to netting, or any other regulatory capital related computations, the same will be updated. For futures and options corresponds to contract size multiplied by the number of contracts and for swaps and forwards corresponds to the contract amount. This is applicable to off balance sheet instruments such as swaps.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Potential Future Exposure",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the potential future exposure calculated for the derivatives. This is computed using the corresponding approach of calculation relevant for the jurisdiction. Some of the approaches used for calculating this are Standardized Approach (SA CCR), Original Exposure Method (OEM), Current Exposure Method (CEM), Simplified Standardized Approach (SA CCR). The calculation approaches applicable for each of the jurisdiction are based on the supervisory guidelines. For example, BIS recommends only SA CCR, EBA recommends SA CCR, OEM and Simplified SA CCR, US recommends SA CCR and CEM.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Potential Future Exposure For Leverage Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the potential future exposure calculated for the derivatives, as applicable for Leverage Ratio Calculations. This is computed using the corresponding approach of calculation relevant for the jurisdiction. Some of the approaches used for calculating this are Standardized Approach (SA CCR), Original Exposure Method (OEM), Current Exposure Method (CEM), Simplified Standardized Approach (SA CCR). The calculation approaches applicable for each of the jurisdiction are based on the supervisory guidelines. For example, BIS recommends only SA CCR, EBA recommends SA CCR, OEM and Simplified SA CCR, US recommends SA CCR and CEM.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Probability Of Default Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the probability of default of an exposure over a period of one year, as required for regulatory capital calculation. This will be used in RWA calculation based on advanced approach. This is expressed in decimal number, For example, 30 percent will be 0.3.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regulatory Capital Product Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This stores an unique regulatory capital product types. This will be the standard product types reclassified into any regulatory capital specific product types as used by BASEL etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Regulatory Defaulted Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the account has defaulted or not. This will be part of the regulatory definition of the default, and not the bank's definition of the default. This definition will be used for any regulatory capital related reporting. List of values: Y, N, NULL.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Replacement Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "This is the length of structure addition to the mobile home.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Replacement Cost For Leverage Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the replacement cost calculated for the derivatives, as applicable for Leverage Ratio Calculations. This is computed using the corresponding approach of calculation relevant for the jurisdiction. Some of the approaches used for calculating this are Standardized Approach (SA CCR), Original Exposure Method (OEM), Current Exposure Method (CEM), Simplified Standardized Approach (SA CCR). The calculation approaches applicable for each of the jurisdiction are based on the supervisory guidelines. For example, BIS recommends only SA CCR, EBA recommends SA CCR, OEM and Simplified SA CCR, US recommends SA CCR and CEM.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Weighted Amount Post Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Risk Weighted Amount of the Exposure, pertaining to the unexpected loss, post mitigation by all eligible mitigants. This is generally equivalent to the Exposure at default post mitigation multiplied by the risk weight applicable for the unexpected loss portion of the exposure.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Weighted Amount Post Mitigation For Expected Loss",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the risk weighted amount for the expected loss pertaining to the exposure, post mitigation by all eligible mitigants.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Weighted Amount Pre Mitigation For Unexpected Loss",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to the pre mitigation risk weight for the exposure, pertaining to the unexpected loss, as applicable to the particular jurisdiction. This risk weight is generally calculated based on the effective rating of the exposure.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Weighted Average Loss Given Default Percentage Post Mitigation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to the loss given default of the exposure, after considering the effects of all the eligible mitigants viz. collateral, guarantee and credit derivatives.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,203 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Banking Book Net Profit And Loss",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the net Profit and loss associated with the LOB with respect to the banking book.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Indicator Component",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Business Indicator Component (BIC) which is part of Operational Risk Weighted Amount Calculation is the value of Business Indicator (BI) multiplied by the alpha value or the BI marginal coefficients. BIC = BI x α where value of α is based on the BI Range Bucket.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Indicator Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Business Indicator (BI) which is part of Operational Risk Weighted Amount Calculation comprises different components as defined by Basel Regulation. The three components are - the interest, leases and dividend component (ILDC), the services component (SC), and the financial component (FC). BI = ILDC + SC + FC.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dividend Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to dividend income earned during the current period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fee Commission Expense",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the fee commission expense paid for receiving advice and services, associated with the LOB. This includes but is not limited to expenses paid for outsourcing of financial services, clearing and settlement, custody, servicing of securitizations, loan commitments and guarantees received and foreign transactions.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fee Commission Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the fee commission income received for providing advice and services, associated with the LOB. This includes but is not limited to income from securities services (e.g. issuance, origination, reception, transmission, or execution on behalf of customers), clearing and settlement services, asset management and custody services, fiduciary transactions, payment services, structured finance, servicing of securitizations, loan commitments and guarantees given, foreign transactions and providing outsourced financial services.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Component",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the net amount associated with the LOB by considering the net profit and loss associated with the banking book and trading book.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Year Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Financial year code.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Earning Assets",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest earning assets associated with the LOB. This includes but is not limited to the sum of loans and advances, trading securities, investment securities, property, plant and equipment under operating leases, finance lease receivables, and the interest-earning assets adjustment.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Expense",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest expense incurred for the account by the financial institution during the current month to till date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest income earned from the account by the financial institution for the period. Interest income is calculated as the sum of the interest component of the payments received from customers. This does not include other fees or revenues such as processing revenue, maintenance fee etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Lease Dividend Component",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the net amount associated with the LOB by considering the interest income, interest expense, interest earning assets and dividend income.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal Loss Multiplier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the internal loss multiplier calculated as per the regulatory provided definition. This is used for calculating the operational risk weighted asset amount.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operational Risk Capital Charge",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total capital required to cover market risk for a commodity group.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Operating Expense",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to expenses and losses from ordinary banking operations not included in other business indicator items but of a similar nature, or from operational loss events. This may include, but is not limited to losses from non-current assets and disposal groups classified as held for sale, losses incurred as a consequence of operational loss events (e.g. fines, penalties, settlements, or replacement cost of damaged assets), and expenses related to establishing provisions and reserves for operational loss events.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Operating Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the income from ordinary banking operations not included in other business indicator items but of a similar nature. This may include, but is not limited to rental income from investment properties, gains from non-current assets and disposal groups classified as held for sale.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Weighted Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to the post mitigation RWA for Credit Risk and RWA for specific risk for Market Risk.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Service Component",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the net amount associated with the LOB by considering the fee income, fee expense, operating income and operating expense.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Trading Book Net Profit And Loss",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the net Profit and loss associated with the LOB with respect to the trading book.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,847 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Defaulted Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the account has defaulted. This is an account that is under prolonged delinquent state.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account is closed. Account can be closed upon maturity of the account, transfer of the account, death of the account holder or write off.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the status of the account. List of values can be Active, Inactive, in foreclosure, Re negotiated, Dispute, Frozen, Past Due, Closed etc. Account Status Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Sub Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Account Sub Type Code that is sub classified as per the banking source system for their internal operational purpose.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Account Type Code that is classified as per the banking source system for their internal operational purpose. \nIn case of ALM FTP applications, Account type are fixed set of values.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Actual Number Of Business Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the actual Number of Business Days between Remargining for Capital Market Transaction or Revaluation for Secured Transaction. This information is required in the volatility hair cut calculation. When the frequency of remargining or revaluation is longer than the minimum, the minimum haircut numbers will be scaled up depending on the actual number of business days between remargining or revaluation using the square root of time formula.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Attrition Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the reason code for which customer has canceled the contract or the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Automatic Cancellation Of Commitment Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the contract has a feature of automatic cancellation in it. An automatic cancellable contract means that the contract can be cancelled automatically, if certain conditions mentioned in the contract agreement are satisfied. This is used for the assignment of credit conversion factor, in the case of Regulatory capital calculations like Basel.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Book Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to if the contract is related to the banking book or trading book. Usually contracts like loans and leases are on the banking book. However, instruments like mortgage backed securities can be held on the trading book of the financial institution. If the value is updated as T then exposure or contract belongs to trading book and if the value is updated as B then it belongs to banking book.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Days Needed For Long Transaction",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the business days needed for Long Settlement Transactions, this signifies that number of business days to deliver the agreed items after date of transaction, future date. PFD Ref  Non Sec STD Long settlement transactions. As per Basel accord Annex 4 para no. 2B, Long Settlement Transactions are transactions where a counterparty undertakes to deliver a security, a commodity, or a foreign exchange amount against cash, other financial instruments, or commodities, or vice versa, at a settlement or delivery date that is contractually specified as more than the lower of the market standard for this particular instrument and five business days after the date on which the bank enters into the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the business unit code as defined by the organization. A business unit is generally a broader definition and represents all the units in an organization. Business Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contract Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the contract amount associated with the letter of credit contract. In case of LC it is the maximum amount available under the letter of credit contract. In case of loan contracts, Refers to the total loan amount. In case of derivatives, Refers to the notional principal or contract value. In case of investments, Refers to the investment amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Principal Outstanding",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the principal component of the current end of period balance of the account or contract. Each account will have principal and interest component, this column will capture the outstanding principal component at the end of the month. This is different from End of period balance because the end of period balance has the accrued interest and this column does not have accrued interest.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Write Off Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount written off once the loan or receivable has turned bad. This is done when no recovery is possible and the due date of repayment has elapsed a while ago. The write off amount is for the current period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of days the account has remained delinquent in the current delinquency period. The account could have been delinquent a number of time earlier, but Refers to the current delinquency days.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to end of period balance which includes accrued interest. All the calculations such as interest, prepayment amounts etc. are based on this amount. This is used in all the calculations performed by cash flow engine. In Case of LC Contracts, EOP Balance should be populated when LC Is executed. Till LC is executed, LC amount sanctioned should be hold in Total Commitment Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure Amount In Natural Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount of the exposures. This will be the amount, post adjustment for any regulatory capital calculation purpose. If there are any adjustments to the accounting exposure amount due to netting, or any other regulatory capital related computations, the same will be updated. This will be the End of period balance for the on balance sheet exposures, and the adjusted notional balance for the derivatives.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure Mark To Market Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Mark to Market value of the position. In case, the contract is freely tradable, then this price is available freely else this is computed using industry standard valuation technique.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique general ledger account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operational Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the balance amount of the account can be added to the high quality liquid assets. High Quality Liquid Assets are used in the calculation of liquidity coverage ratio.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the cost center to which the account belongs to. Organization Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the original account number held by the source system. If there are multiple source systems without unique account numbers, we expect the account number and source system to be concatenated as part of the primary key, while this column will store the original account number as generated by the source system.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Parent Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the parent account number of the contract or account. For instance, if the asset is an underlying for a repurchase agreement, then the account number of the repo contract is expected in this column. Incase of Borrowings, it can also store the account as parent account which is help by the financial institution in fiduciary capacity. In case of cards, parent account number refers to corporate card master account number. Incase of OD Accounts, it should refer to the parent savings, checking account number or loan account number if the overdraft has arisen due to breach of limits or funds from those respective accounts. It will store loan account number as parent account number even for the cases where the overdraft has arisen in the escrow account for the payment of taxes and or insurance. It should be left NULL, if parent child relationship does not exist.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Past Due Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to Indicate whether the exposure is past due or not. If delinquency days are greater than 90 then its past due. If the value is updated as Y means the exposure is past due and if the value is updated as N means the exposure is not past due. List of Values are Y,N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Preferential Treatment Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether there is a preferential treatment on the exposure or not. At national discretion, a lower risk weight may be applied to exposures of the bank to their sovereign, or central bank, of incorporation denominated in domestic currency and funded19 in that currency.20 Where this discretion is exercised, other national supervisory authorities may also permit their banks to apply the same risk weight to domestic currency exposures to this sovereign, or central bank, funded in that currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Bundle Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of product bundle code. Bundling is a marketing strategy that joins products or services together in order to sell them as a single combined unit. Bundling allows the convenient purchase of several products and or services from the same financial institution. The products and services are usually related, but they can also consist of dissimilar products which appeal to one group of customers. For example Credit card product is bundled with savings account product or loan product is bundled with a CASA account. There are certain interest cost advantages that are available as part of product bundle, should the customer close a product which is part of the bundle, the financial institution could review the advantage provided to other accounts as part of the bundle.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Provision Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the provision amount set against the account. Provisions are set aside by financial institution to cover against expected future loss. Provision amount on the loan increases as the credit quality deteriorates signifying high likelihood of default and thereby mandating more allocation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Provision General Ledger Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the GL code corresponding to the ledger account that holds provision amount. All asset exposures need to be provisioned for to set off any future losses arising out of these exposures. General Ledger Account Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Referral Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Line of Business that is responsible to acquiring the account. Line of business, LOB, is a functional unit that offers the products of the financial entity to the customer. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. This column Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Remaining Tenor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the remaining tenor of the account. Tenor is the term to maturity. The remaining tenor is computed as Maturity Date  As Of Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Remargin Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the reimagining frequency of an exposure in days. This is used in calculating the volatility haircut. Reimagining frequency is the frequency at which the exposure is marked to market. For some transactions, depending on the nature and frequency of the revaluation and reimagining provisions, different holding periods are appropriate. The framework for collateral haircuts distinguishes between repo style transactions, i.e. repo or reverse repos and securities lending or borrowing, other capital market driven transactions, i.e. OTC derivatives transactions and margin lending, and secured lending. In capital market driven transactions and repo style transactions, the documentation contains reimagining clauses, in secured lending transactions, it generally does not. When the frequency of reimagining or revaluation is longer than the minimum, the minimum haircut numbers will be scaled up depending on the actual number of business days between reimagining or revaluation. Currently this attribute is only consumed by Basel application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Revaluation Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the frequency at which the reference exposure is revalued to reflect its fair value in days. This is used in calculating the volatility haircut.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Risk Weight By Discretion Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the risk weight for the exposure is given by the financial institution itself. This required for Standardized approach. Subject to national discretion, claims on domestic PSEs may also be treated as claims on the sovereigns in whose jurisdictions the PSEs are established. Where this discretion is exercised, other national supervisors may allow their banks to risk weight claims on such PSEs in the same manner. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitization Pool Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Unique identifier of the organization defined codes for a securitization pool. Securitize refers to a pooled group of financial assets that together create a new security, which is then marketed and sold to investors. The value and cash flows of the new security are based off of the underlying value and cash flows of the assets used in the securitization process. Companies will securitize illiquid assets into liquid assets in order to increase their overall liquidity and generate immediate proceeds from their assets.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitized Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the exposure is securitized or not. Securitize refers to a pooled group of financial assets that together create a new security, which is then marketed and sold to investors. The value and cash flows of the new security are based off of the underlying value and cash flows of the assets used in the securitization process. Companies will securitize illiquid assets into liquid assets in order to increase their overall liquidity and generate immediate proceeds from their assets. List of values are Y, N. If the value is updated as Y means the exposure is securitized and if the value is updated as N means the exposure is not securitized.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sovereign Rating Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the rating of sovereign of the exposure. This is required for standardized approach when bank is using option 1, which is less favorable than the claims that are assigned to sovereigns.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tenor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the tenor for which exchange rate is being provided. This is applicable for forward exchange rates. For example, If three month forward rate is being given then this attribute will store 3 and tenor unit will be M. In case of spot and overnight rates this must be filled as 0. Tenor or maturity of the instrument like swap, FRA, Starting Tenor. In case of swaption this represents option tenor. This attribute is read together with Tenor Unit. This is required only for Single name credit default swap and credit index swaps. Also Refers to contractual term at origination date. Maturity Date is equal to Origination Date plus Origination Term.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unconditionally Cancellable Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if the exposure or claim is unconditionally cancellable or conditionally cancellable, e.g. cancellable upon certain events, or not cancellable. In certain countries, retail commitments are considered unconditionally cancellable if the terms permit the bank to cancel them to the full extent allowable under consumer protection and related legislation. List of values are Y  Unconditionally Cancellable, C  Conditionally Cancellable and N or NULL  Not Cancellable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Undrawn Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the undrawn amount till date. In case of borrowings, it is computed as Sanctioned Limit  Drawn Amount. In case of cards, it is computed as Sanctioned Limit  EOP Balance. In case of facility it is derived by subtracting the committed amount if any from the facility amount and also by reducing the total amount exposures from the facility amount. In case of commitment contract it is the difference between the committed amount and the drawn or utilized amount in the loan exposures.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Undrawn General Ledger Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the GL code specific to the undrawn amount of the account. The undrawn amount is the sanctioned amount less the drawn portion of the account. General Ledger Account Dimension is the equivalent dimension table for this.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Write Off Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the asset was written off from the books of the financial institution. Asset write offs happen when a loan repayment is delayed and any efforts by the collection and recovery department of the financial institution are unsuccessful or partially successful.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Write Off General Ledger Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the GL code corresponding to the ledger account that holds write off amount. The write off impacts the Profit and Loss account of the enterprise. General Ledger Account Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Write Off Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the write off reason in case of accounts with write offs. Common reasons for write offs include bankruptcy, legal issues, death of the customer etc.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32922",
+                    "btLogicalName": "Account Defaulted Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV32923",
+                    "btLogicalName": "Automatic Cancellation Of Commitment Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV32924",
+                    "btLogicalName": "Preferential Treatment Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV32925",
+                    "btLogicalName": "Operational Relationship Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV32926",
+                    "btLogicalName": "Unconditionally Cancellable Indicator",
+                    "dqDesc": "Should have list of values as C,N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV32927",
+                    "btLogicalName": "Account Or Contract Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV32928",
+                    "btLogicalName": "Past Due Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV32929",
+                    "btLogicalName": "Securitized Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQLOV32930",
+                    "btLogicalName": "Risk Weight By Discretion Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38460",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38461",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38462",
+                    "btLogicalName": "Start Date",
+                    "dqDesc": "Reference Check for Start Date in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38463",
+                    "btLogicalName": "Start Date",
+                    "dqDesc": "Reference Check for Start Date in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38464",
+                    "btLogicalName": "Write Off Date",
+                    "dqDesc": "Reference Check for Write Off Date in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38465",
+                    "btLogicalName": "Write Off Date",
+                    "dqDesc": "Reference Check for Write Off Date in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38466",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38467",
+                    "btLogicalName": "Account Type",
+                    "dqDesc": "Reference Check for Account Type in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38468",
+                    "btLogicalName": "Account Status Code",
+                    "dqDesc": "Reference Check for Account Status Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38469",
+                    "btLogicalName": "Attrition Reason Code",
+                    "dqDesc": "Reference Check for Attrition Reason Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38470",
+                    "btLogicalName": "Book Type",
+                    "dqDesc": "Reference Check for Book Type in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38471",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38472",
+                    "btLogicalName": "Business Unit Code",
+                    "dqDesc": "Reference Check for Business Unit Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38473",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38474",
+                    "btLogicalName": "Country Code",
+                    "dqDesc": "Reference Check for Country Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38475",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38476",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38477",
+                    "btLogicalName": "General Ledger Account Code",
+                    "dqDesc": "Reference Check for General Ledger Account Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38478",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38479",
+                    "btLogicalName": "Line Of Business Code",
+                    "dqDesc": "Reference Check for Line Of Business Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38480",
+                    "btLogicalName": "Organization Unit Code",
+                    "dqDesc": "Reference Check for Organization Unit Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38481",
+                    "btLogicalName": "Original Account Number",
+                    "dqDesc": "Reference Check for Original Account Number in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38482",
+                    "btLogicalName": "Parent Account Number",
+                    "dqDesc": "Reference Check for Parent Account Number in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38483",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38484",
+                    "btLogicalName": "Provision General Ledger Code",
+                    "dqDesc": "Reference Check for Provision General Ledger Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38485",
+                    "btLogicalName": "Referral Line Of Business Code",
+                    "dqDesc": "Reference Check for Referral Line Of Business Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38486",
+                    "btLogicalName": "Securitization Pool Identifier",
+                    "dqDesc": "Reference Check for Securitization Pool Identifier in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38487",
+                    "btLogicalName": "Undrawn General Ledger Code",
+                    "dqDesc": "Reference Check for Undrawn General Ledger Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38488",
+                    "btLogicalName": "Write Off General Ledger Code",
+                    "dqDesc": "Reference Check for Write Off General Ledger Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                },
+                {
+                    "dqId": "DQREF38489",
+                    "btLogicalName": "Write Off Reason Code",
+                    "dqDesc": "Reference Check for Write Off Reason Code in Stage Salam Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:37.0",
+                    "modifiedDate": "2024-11-04 04:39:40.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                }
+            ]
+        }
+    ]
+}

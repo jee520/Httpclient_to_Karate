@@ -1,0 +1,184 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Plan Base Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "The base rate is the starting rate to which factors and algorithms are applied. In other words Base rate is the rate which commensurate to the risk.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Plan Base Rate Currency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "This is the code of the currency applicable for the rate plan.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Plan Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This is the description of the rate plan.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Plan Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier assigned to the rate plan that quoted premiums were calculated from.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Plan Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier assigned to the rate plan that quoted premiums were calculated from.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Plan Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "This is the name given to the rate plan by the appropriate authority.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Plan Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This is the unique numeric identifier associated with the rate plan.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Plan Version",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This is the version number of the rate plan.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "503",
+                    "srcLogicalName": "Stage Rate Plan Master",
+                    "scdName": "scd_503_DIM_RATE_PLAN_STG_RATE_PLAN_MASTER",
+                    "scdDesc": "Data movement from rate plan master source to rate plan dimension",
+                    "createdDate": "2024-10-26 06:02:44.0",
+                    "modifiedDate": "2024-10-30 08:59:52.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42741",
+                    "btLogicalName": "Rate Plan Numeric Identifier",
+                    "dqDesc": "Rate Plan Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQCUS42742",
+                    "btLogicalName": "Rate Plan Numeric Identifier",
+                    "dqDesc": "Rate Plan Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQLOV32722",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQNMDUP42099",
+                    "btLogicalName": "Rate Plan Numeric Identifier",
+                    "dqDesc": "Rate Plan Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQSPLCH42757",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

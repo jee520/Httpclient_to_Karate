@@ -1,0 +1,131 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Created By",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Store the user identifier of the the user who created the record.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Created Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the record was created.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Currency Rate Nature Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code that defines the nature of the currency. Example of currency natures are FIXED, FLOATING, FORECASTED.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Currency Rate Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code that defines the rate type of the currency. Example of currency natures are SPOT, AVG  Average, EOP  End of the period, SOP  Start of the period etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Currency Rate Version Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique rate version code defined for the combination of Legal Entity, Branch, Time Zone, Geography, Data source and the time period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Modified By",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the user identifier of the user who modified the record.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Modified Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date when the record was last modified.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Parameter Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the detailed description of the Run execution parameters it contains.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Parameter Description",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description",
+                    "gcd": "Refers to the detailed description of the Run execution parameters it contains.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Parameter Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Numeric",
+                    "gcd": "Refers to the numeric Identifier to uniquely identify the parameter.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Parameter Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the name or code of the Run execution parameter. Parameter name represents the nature of the parameter set it holds.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Parameter Name",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the name or code of the Run execution parameter. Parameter name represents the nature of the parameter set it holds.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Target Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the target ISO currency code in the exchange.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}
