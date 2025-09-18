@@ -1,0 +1,207 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Terminal Atm Or Pos Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates whether the terminal is an ATM or a point of sale. Values expected are ATM, POS.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Terminal Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This column stores the unique identifier of the terminal.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Terminal Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This column stores the unique identifier of the terminal.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Terminal Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the description of the terminal.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Terminal Loading Unloading Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates whether the terminal is a loading or unloading terminal. These terminals are usually the card terminals that are owned by bank where money can be loaded into or unloaded from prepaid cards. Unloading is not same as swiping of a card at a merchant terminal for a payment transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Terminal Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Terminal Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Terminal Online Or Offline Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if a terminal is online or offline. Online terminals are those where the card holder needs to enter a PIN for completion of a transaction. Offline terminals are those where no PIN is required and only signature is sufficient for completion of transaction. The list of values are ON and OFF.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Terminal Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the terminal type code whether terminal of bank or other banks terminal.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1134",
+                    "srcLogicalName": "Stage Terminal Master",
+                    "scdName": "scd_1134_DIM_TERMINAL_STG_TERMINAL_MASTER",
+                    "scdDesc": "Data movement from terminal master source to terminal dimension",
+                    "createdDate": "2024-10-26 06:02:40.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42461",
+                    "btLogicalName": "Terminal Numeric Identifier",
+                    "dqDesc": "Terminal Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQCUS42462",
+                    "btLogicalName": "Terminal Numeric Identifier",
+                    "dqDesc": "Terminal Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQLOV33684",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQNMDUP42187",
+                    "btLogicalName": "Terminal Numeric Identifier",
+                    "dqDesc": "Terminal Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQSPLCH42927",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Legal Entity Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQSPLCH42928",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "CIRCA",
+                    "ucName": "Customer Analytics"
+                }
+            ]
+        }
+    ]
+}

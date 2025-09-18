@@ -1,0 +1,198 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the name of the received document. For example, PAN Card, Passport, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the number of the shipping document that contains this shipment detail record.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Received Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the document is received from the applicant.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Document Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of the document provided or submitted. Indicative values are 3 Month Pay Slips, Agreement for Sale, Balance Sheet, Bank Statements for last Six, Certificate of Procession, Company Registration, Employee Certificate, Employment Proof Letter, Pension Card, Personal Guarantee, Photo, Power Of Attorney etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Documentary Collection Contract Type Flag",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the trade finance party events are associated to a contract that is a documentary collection contract, otherwise the association will be made to a trade finance contract. Allowable values are Y-Yes or N-No.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Document Provided Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether an original copy of the document is required under the trade finance contract. List of values are Y and N. Y for Yes and N for No.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Trade Finance Or Documentary Collection Event Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the trade finance contract or documentary collection event of which this document applies.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV34055",
+                    "btLogicalName": "Original Document Provided Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQLOV34056",
+                    "btLogicalName": "Documentary Collection Contract Type Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF41077",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Trade Finance Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF41078",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Trade Finance Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF41079",
+                    "btLogicalName": "Document Received Date",
+                    "dqDesc": "Reference Check for Document Received Date in Stage Trade Finance Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF41080",
+                    "btLogicalName": "Document Received Date",
+                    "dqDesc": "Reference Check for Document Received Date in Stage Trade Finance Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF41081",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Trade Finance Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF41082",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Trade Finance Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF41083",
+                    "btLogicalName": "Document Type",
+                    "dqDesc": "Reference Check for Document Type in Stage Trade Finance Document",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

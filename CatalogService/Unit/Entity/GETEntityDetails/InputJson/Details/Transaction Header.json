@@ -1,0 +1,318 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the business unit code as defined by the organization. A business unit is generally a broader definition and represents all the units in an organization. Business Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Event Date Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the date on which transaction event occurred in a number format i.e. YYYYMMDD for FAH.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Event Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the event identifier generated via the FAH event generation program. This column should not be populated during implementation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Event Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the FAH event type code. Possible values are Adjustment, Advance, Asset, Amortization, Buyer Settlement, Close, Deposit, Returned etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fah Entity Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the FAH entity type code as defined for the FAH subledger application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique general ledger account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to GL account name.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Header Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the header identifier required for FAH header line Processing. A header record will have multiple transaction lines in the transaction tables.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ledger Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the ledger identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Policy Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This is the unique identifier of the policy held by the customer. An insurance policy identifier or number is a unique identifier provided by insurance company which is used to identify particular contract between insurance company and policyholder wherein insurance company accepts to cover specific risks in return of premium payments by policyholder as per terms and agreements. The policy number can be referenced from policy document and needs to be quoted with all communication with insurance company.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Reversal Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether the transaction event was as a result of a cancelled transaction. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Subledger Application Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the FAH Subledger application code under which under the transaction is to accounted for.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Reference Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to transaction reference number. Transactions are cash inflows or cash outflows that occurs for each account. Each transaction will be represented with a unique identifier which is called as transaction reference number.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Reversal Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to Date of the transaction which is a reversal entry that made to cancel out a specific entry. These reversal entries are the entries that can be passed as a result of a cancelled transaction.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV31544",
+                    "btLogicalName": "Reversal Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF35434",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Transaction Header",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF35435",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Transaction Header",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF35436",
+                    "btLogicalName": "Transaction Reversal Date",
+                    "dqDesc": "Reference Check for Transaction Reversal Date in Stage Transaction Header",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF35437",
+                    "btLogicalName": "Transaction Reversal Date",
+                    "dqDesc": "Reference Check for Transaction Reversal Date in Stage Transaction Header",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF35438",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Transaction Header",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF35439",
+                    "btLogicalName": "Business Unit Code",
+                    "dqDesc": "Reference Check for Business Unit Code in Stage Transaction Header",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF35440",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Transaction Header",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF35441",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Transaction Header",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF35442",
+                    "btLogicalName": "General Ledger Account Code",
+                    "dqDesc": "Reference Check for General Ledger Account Code in Stage Transaction Header",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF35443",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Transaction Header",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF35444",
+                    "btLogicalName": "Policy Identifier",
+                    "dqDesc": "Reference Check for Policy Identifier in Stage Transaction Header",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF35445",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Transaction Header",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

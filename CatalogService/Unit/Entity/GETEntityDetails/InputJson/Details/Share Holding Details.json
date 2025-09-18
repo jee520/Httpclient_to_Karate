@@ -1,0 +1,274 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Custodian Or Central Securities Depository Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Custodian or Central Securities depository identifier, if any used for the instrument record.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Face Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to face value of the instrument. For stocks, it is the original cost of the stock shown on the certificate. For bonds, it is the amount paid to the holder at maturity. Also known as par value or simply par. This is applicable to financial securities, typically shares, bonds, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Fair Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the fair value of an asset. Fair Value is a rational and unbiased estimate of the potential market price of and asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of instrument type, which is defined as code identifying the instrument category of the customer account. Instrument Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issue Price",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the issue price of the instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Market Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the market value of the instrument as on the As of Date. Market value of the asset is the price that would be received to sell an asset in an transaction between market participants on the given day. It is often the quoted market price which is available as part of market data and used to determine the market value of the asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Units Held",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the number of units associated with each investment account. This attribute multiplied with current NAV of the fund will provide the value of the fund for each investment account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Face Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Original Face Value of the Security.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Settlement Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date at which a security transaction must be paid by the buyer and the securities delivered by the seller. Stocks and bonds have a settlement date of three business days subsequent to the trade date . Listed options and government securities must be settled by the next business day. This is different from contract settlement date. A contract can have multiple settlements in different settlement types.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Shareholder Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the investor id of the investor who has invested in the instrument issued by the legal entity. A shareholder is an individual or entity that owns the shares of a corporation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Shareholder Role Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the role of share holder. The indicative values are expected to come from Party Role Dimension.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Shareholding Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the Effective Shareholding Percentage of the investor entity in the investee entity.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF38280",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Share Holding Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF38281",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Share Holding Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF38282",
+                    "btLogicalName": "Settlement Date",
+                    "dqDesc": "Reference Check for Settlement Date in Stage Share Holding Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF38283",
+                    "btLogicalName": "Settlement Date",
+                    "dqDesc": "Reference Check for Settlement Date in Stage Share Holding Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF38284",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Share Holding Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF38285",
+                    "btLogicalName": "Instrument Code",
+                    "dqDesc": "Reference Check for Instrument Code in Stage Share Holding Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF38286",
+                    "btLogicalName": "Instrument Type",
+                    "dqDesc": "Reference Check for Instrument Type in Stage Share Holding Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF38287",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Share Holding Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF38288",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Share Holding Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF38289",
+                    "btLogicalName": "Shareholder Identifier",
+                    "dqDesc": "Reference Check for Shareholder Identifier in Stage Share Holding Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF38290",
+                    "btLogicalName": "Shareholder Role Type",
+                    "dqDesc": "Reference Check for Shareholder Role Type in Stage Share Holding Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

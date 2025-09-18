@@ -1,0 +1,243 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Rating",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Numeric",
+                    "gcd": "Refers to the unique code of the Credit Rating as per Basel II Rating Type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Rating Assigned Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the last assigned date of the rating.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Outlook Watch Assigned Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Date on which the outlook watch indicator has been assigned.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Purpose Description",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description",
+                    "gcd": "Refers to the purpose for which the contract or account, loan, lease etc., was entered and approved. Common purposes for loans include Refinancing, Project Finance, Home Improvement, Education, Personal expenses etc. The purposes can vary depending on whether the loan is extended to a corporation or an individual borrower. In case of ratings the purpose of rating whether the rating is DOMESTIC or FOREIGN.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rating Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code representing the rating of the Instrument or the exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rating Eligibility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether rating provided is eligible for Capital Calculation under Basel II guidelines. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rating Outlook Watch Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates how the rating agency feels that this party might be rated in the next few months. A value of P indicates positive outlook which means that there will be an increase in the credit rating for this party, a value of N indicates negative outlook which means that there will be a decrease in the credit rating of this party and a value of S indicates neutral or same outlook which means that there is a possibility of neither an increase nor a decrease in the rating and the same will be maintained. For EU, this is required as per article 197 section 4 d.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rating Source Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description",
+                    "gcd": "Refers to the code applicable to the Rating Source along with Horizon separated by a space. E.g. FIT L, FIT S.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unsolicited Credit Rating Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the credit rating is an unsolicited rating or a solicited rating. Unsolicited rating refers to a rating assessment of agency of creditworthiness of a borrower without any involvement of the borrower itself. A value of Y indicates that the credit rating is Unsolicited rating and a value of N indicates that the credit rating is a Solicited rating. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Watchlist Reason Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the reason description of watch list.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33137",
+                    "btLogicalName": "Rating Eligibility Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQLOV33138",
+                    "btLogicalName": "Unsolicited Credit Rating Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQLOV33139",
+                    "btLogicalName": "Rating Outlook Watch Indicator",
+                    "dqDesc": "Should have list of values as N,P,S",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF39054",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Sovereign Rating Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF39055",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Sovereign Rating Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF39056",
+                    "btLogicalName": "Outlook Watch Assigned Date",
+                    "dqDesc": "Reference Check for Outlook Watch Assigned Date in Stage Sovereign Rating Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF39057",
+                    "btLogicalName": "Outlook Watch Assigned Date",
+                    "dqDesc": "Reference Check for Outlook Watch Assigned Date in Stage Sovereign Rating Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF39058",
+                    "btLogicalName": "Last Rating Assigned Date",
+                    "dqDesc": "Reference Check for Last Rating Assigned Date in Stage Sovereign Rating Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF39059",
+                    "btLogicalName": "Last Rating Assigned Date",
+                    "dqDesc": "Reference Check for Last Rating Assigned Date in Stage Sovereign Rating Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF39060",
+                    "btLogicalName": "Country Code",
+                    "dqDesc": "Reference Check for Country Code in Stage Sovereign Rating Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                },
+                {
+                    "dqId": "DQREF39061",
+                    "btLogicalName": "Rating Code",
+                    "dqDesc": "Reference Check for Rating Code in Stage Sovereign Rating Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:16.0",
+                    "modifiedDate": "2024-11-04 04:39:10.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                },
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

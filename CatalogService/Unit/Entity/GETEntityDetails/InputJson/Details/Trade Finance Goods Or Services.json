@@ -1,0 +1,186 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Documentary Collection Contract Type Flag",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the trade finance party events are associated to a contract that is a documentary collection contract, otherwise the association will be made to a trade finance contract. Allowable values are Y-Yes or N-No.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Goods Or Service Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the good or service associated to this trade finance contract or documentary collection and imported or exported by the customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Harmonized System Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Numeric",
+                    "gcd": "Refers to the internationally standardized system of numerical codes created and maintained by the World Customs Organization-WCO to classify traded products of this good associated to the trade finance contract or documentary collection.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Trade Finance Or Documentary Collection Event Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the trade finance contract or documentary collection event of which this document applies.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unit Of Measurement",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the unit of measurement of this good or service.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unit Price",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to the cost per one unit of measurement of this good, in base currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unit Quantity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "This column stores the number of units, for example, shares or contracts of the specified\nsecurity being transferred via this transaction.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33683",
+                    "btLogicalName": "Documentary Collection Contract Type Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF40291",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Trade Finance Goods Or Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF40292",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Trade Finance Goods Or Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF40293",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Trade Finance Goods Or Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF40294",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Trade Finance Goods Or Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF40295",
+                    "btLogicalName": "Goods Or Service Code",
+                    "dqDesc": "Reference Check for Goods Or Service Code in Stage Trade Finance Goods Or Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                },
+                {
+                    "dqId": "DQREF40296",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Trade Finance Goods Or Services",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:25.0",
+                    "modifiedDate": "2024-11-04 04:39:29.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

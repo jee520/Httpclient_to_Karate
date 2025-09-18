@@ -1,0 +1,700 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Phone Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the phone number associated with the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Acquisition Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the channel through which customer was acquired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Authorization Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the authorization code Indicator  whether system authorized or manual.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Authorization Decision Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the authorization decision reason codes.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Available Limit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the available limit is the limit available to customer to carry out purchase transaction or originate additional loans, this limit is reduced by the amount of loans that are originated using the credit cards and any other outstanding payment on purchase transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bank To Bank Instructions",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "Refers to the instructions that the sending bank provides to the receiving bank for processing this transaction. For segmented instructions, all components should be loaded as a concatenated value.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bankcard Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the unique identifier of the Bankcard utilized in this transaction.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Operator Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique branch operator code.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the credit card or debit card or prepaid card number used in the transaction. Generally, the first number or two of a credit or debit signifies the card provider, followed by digits that determine everything from the currency being used, to the bank processing the transaction, to the individuals account number.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Flag to identify the status of the transacting card. This could be a card which is issued by the reporting entity or by others.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Card Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the card type as gold, platinum etc. Credit card Type dimension is the equivalent dimension for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Channel Transaction Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the channel transaction was recorded in the system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "City Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique city code of this location.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Conversion Factor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the conversion factor is provided by the exchange as a daily value for the underlying instrument, which is used to calculate the cheapest to Deliver set of instruments.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cross Border Transaction Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if this transaction passed through multiple countries.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Customer Resident Status",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the customer resident status, it will indicate whether the customer who has transacted is a resident or a foreigner.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Debit Credit Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Flag to indicate if the account balance is in debit or in credit. If the value is updated as D means the balance is in debit and if the value is updated as C means the balance is in credit. Debit balance will indicate the amount which is due and credit balance is the amount which could arise due to overpayment of the cycle balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Execution Time",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Timestamp",
+                    "gcd": "Refers to the time on Execution Date at which this transaction was conducted and is applicable for cash transactions and electronic fund transfer. Refers to the time along with time zone information.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Feature Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the feature such as credit shield, bill pay etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Local Instrument Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the local instrument code which provides additional information about the type of payment. For wire transactions, this code determines additional required and permissible tags in sequence B of the Customer Transfer Plus message format. List of valid values are: ANSI  ANSI X12 format, COVS  Cover Payment Structured, GXML  General XML format, IXML  ISO 20022 XML format, NARR  Narrative Text, PROP  Proprietary Local Instrument Code, RMTS  Remittance Information Structured, RRMT  Related Remittance Information, S820  STP 820 format, SWIF  Remittance Information, UEDI  UN or EDIFACT format.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Merchant Category Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Merchant Category Code for payment product related transactions. This is useful as input for Merchant Purchase Likelihood Model, to get the propensity of a customer to buy from a particular Merchant Category using a Payment Product of the Bank. Sample list of values Home Furniture, Electronics, Travel.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Monetary Transaction Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the transaction is Financial or Non-Financial transaction. Non financial transaction includes request for Account Statement, balance verification, cheesebox request etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "On Us Or Off Us Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "This indicates if the monetary instrument associated with this transaction is an on us item , which the financial institution issued, or an off us item , which another institution issued, . Values expected for this as 1 On Us and 2 Off Us.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Online Account User Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the user id of the customer with online access.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Originator To Beneficiary Instructions",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "Refers to the instructions that the transactions originator provides to be conveyed to the beneficiary upon receipt of this transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Proprietary Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the proprietary code associated with this transaction. Proprietary code provides additional information about the type of payment. This code is usually available when the Local Instrument Code has a value equal to PROP.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Session Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the transaction session.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Teller Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the Teller who attended the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique Transfer Account Number.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Adjustment Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code identifying the type of adjustment being made by this transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the transaction amount expressed in the transaction currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Approval Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the transaction has been approved. Values expected are Y/N where Y represents as Approved & N represent as Not approved.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Channel Pin Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the channel pin code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Charges",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total transaction charges applicable to this investment contract. The typical transaction charges could include brokerage, commissions and transaction taxes.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to unique list of the transaction code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the ISO code for the currency in which the transaction is done.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Duration",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the total duration of a transaction. It will record the total time took place to complete the transaction.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction End Time",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Timestamp",
+                    "gcd": "Refers to the time at which the transaction ends in (HHMMSS) format.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Failure Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the reason for failure of the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Group Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the identifier of the set of transactions of which this transaction is a part. For example this can be used to identify a pouch or deposit that included several monetary instruments, of which one is this transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the purpose of this transaction. Transaction Purpose Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Reference Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to transaction reference number. Transactions are cash inflows or cash outflows that occurs for each account. Each transaction will be represented with a unique identifier which is called as transaction reference number.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Reversal Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to Date of the transaction which is a reversal entry that made to cancel out a specific entry. These reversal entries are the entries that can be passed as a result of a cancelled transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Start Time",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Timestamp",
+                    "gcd": "Refers to the time at which the transaction starts in (HHMMSS) format.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Status Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the status of the transaction performed as success or failure.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Value Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the value date of the contract. Value Date is a securities industry term describing the date on which a trade, bonds, equities, foreign exchange, commodities, etc., settles. That is, the actual day on which transfer of cash or assets is completed, or the settlement amount is calculated. \nIn case of FX swap instrument Refers to the settlement date for spot or near leg. Also considered as the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV34113",
+                    "btLogicalName": "Debit Credit Indicator",
+                    "dqDesc": "Should have list of values as C,D",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQLOV34114",
+                    "btLogicalName": "Transaction Status Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQLOV34115",
+                    "btLogicalName": "Cross Border Transaction Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQLOV34116",
+                    "btLogicalName": "On Us Or Off Us Indicator",
+                    "dqDesc": "Should have list of values as 1,2",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQLOV34117",
+                    "btLogicalName": "Monetary Transaction Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41259",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41260",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41261",
+                    "btLogicalName": "Channel Transaction Date",
+                    "dqDesc": "Reference Check for Channel Transaction Date in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41262",
+                    "btLogicalName": "Channel Transaction Date",
+                    "dqDesc": "Reference Check for Channel Transaction Date in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41263",
+                    "btLogicalName": "Transaction Reversal Date",
+                    "dqDesc": "Reference Check for Transaction Reversal Date in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41264",
+                    "btLogicalName": "Transaction Reversal Date",
+                    "dqDesc": "Reference Check for Transaction Reversal Date in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41265",
+                    "btLogicalName": "Value Date",
+                    "dqDesc": "Reference Check for Value Date in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41266",
+                    "btLogicalName": "Value Date",
+                    "dqDesc": "Reference Check for Value Date in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41267",
+                    "btLogicalName": "Card Type",
+                    "dqDesc": "Reference Check for Card Type in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41268",
+                    "btLogicalName": "Acquisition Channel Code",
+                    "dqDesc": "Reference Check for Acquisition Channel Code in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41269",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41270",
+                    "btLogicalName": "Authorization Decision Reason Code",
+                    "dqDesc": "Reference Check for Authorization Decision Reason Code in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41271",
+                    "btLogicalName": "Transaction Failure Reason Code",
+                    "dqDesc": "Reference Check for Transaction Failure Reason Code in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41272",
+                    "btLogicalName": "Feature Code",
+                    "dqDesc": "Reference Check for Feature Code in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41273",
+                    "btLogicalName": "Merchant Category Code",
+                    "dqDesc": "Reference Check for Merchant Category Code in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41274",
+                    "btLogicalName": "Online Account User Identifier",
+                    "dqDesc": "Reference Check for Online Account User Identifier in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41275",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41276",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41277",
+                    "btLogicalName": "Teller Identifier",
+                    "dqDesc": "Reference Check for Teller Identifier in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41278",
+                    "btLogicalName": "Transaction Currency Code",
+                    "dqDesc": "Reference Check for Transaction Currency Code in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41279",
+                    "btLogicalName": "Transaction Code",
+                    "dqDesc": "Reference Check for Transaction Code in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41280",
+                    "btLogicalName": "Transaction Purpose Code",
+                    "dqDesc": "Reference Check for Transaction Purpose Code in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                },
+                {
+                    "dqId": "DQREF41281",
+                    "btLogicalName": "Transaction Account Number",
+                    "dqDesc": "Reference Check for Transaction Account Number in Stage Telebanking Transactions",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:04.0",
+                    "modifiedDate": "2024-11-04 04:38:58.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,250 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Product Type Level One Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code corresponding to the product type one level higher than the product Type Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Book Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to if the contract is related to the banking book or trading book. Usually contracts like loans and leases are on the banking book. However, instruments like mortgage backed securities can be held on the trading book of the financial institution. If the value is updated as T then exposure or contract belongs to trading book and if the value is updated as B then it belongs to banking book.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to unique identifier of the exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Long Settlement Transaction Flag",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether it is a Long transaction or not. Needed for Long Settlement Transactions or Failed Trades. Non Sec STD Long settlement transactions. This is determined as per the Basel accord annex 4 para 2B, Long Settlement Transactions are transactions where a counterparty undertakes to deliver a security, a commodity, or a foreign exchange amount against cash, other financial instruments, or commodities, or vice versa, at a settlement or delivery date that is contractually specified as more than the lower of the market standard for this particular instrument and five business days after the date on which the bank enters into the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lower Bound Inclusive Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the range start value is inclusive or exclusive for the propagation of band codes to each account. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Nettability Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether the exposure is nettable against any other nettable exposures of the same customer. This is valid only for OTC derivatives and Repos. If the value is updated as Y means the exposure is nettable against any other nettable exposure and if the value is updated as N means the exposure is not nettable against any other exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Netting Agreement Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the netting agreement code on which the contract is made. A netting agreement is an arrangement between two parties   known as counterparties   that governs the treatment of certain offsetting transactions or contracts. Two transactions offset each other if a gain in one results in a loss in the other. In other words, the transactions hedge each other. This allows for net settlement of all contracts governed by this netting agreement, with a single counterparty, through a single payment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Peak Exposure Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the peak exposure amount in the time  band.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Time Range Lower Bound",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the lower range value of the time band.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Time Range Upper Bound",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the upper range value of the time band.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Upper Bound Inclusive Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the range upper value is inclusive or exclusive for the propagation of band codes to each account. List of values are Y, N.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32093",
+                    "btLogicalName": "Long Settlement Transaction Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQLOV32094",
+                    "btLogicalName": "Lower Bound Inclusive Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQLOV32095",
+                    "btLogicalName": "Nettability Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQLOV32096",
+                    "btLogicalName": "Upper Bound Inclusive Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF36658",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Time To Peak Exposure",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF36659",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Time To Peak Exposure",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF36660",
+                    "btLogicalName": "Book Type",
+                    "dqDesc": "Reference Check for Book Type in Stage Time To Peak Exposure",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF36661",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Time To Peak Exposure",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF36662",
+                    "btLogicalName": "Exposure Identifier",
+                    "dqDesc": "Reference Check for Exposure Identifier in Stage Time To Peak Exposure",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF36663",
+                    "btLogicalName": "Netting Agreement Code",
+                    "dqDesc": "Reference Check for Netting Agreement Code in Stage Time To Peak Exposure",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                },
+                {
+                    "dqId": "DQREF36664",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Time To Peak Exposure",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:17.0",
+                    "modifiedDate": "2024-11-04 04:39:11.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

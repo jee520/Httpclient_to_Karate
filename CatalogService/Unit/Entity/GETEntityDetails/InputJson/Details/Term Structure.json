@@ -1,0 +1,227 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "PD Term Structure Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the value that indicates the basis of PD Term Structure, either Rating based or DPD based. It contains the value 'R' or 'D' for Rating or DPD band respectively.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Term Structure Basis Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the type of the term structure, either Marginal or Cumulative. List of Values are M and C corresponding to Marginal or Cumulative values respectively.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Term Structure Category",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the category of the term structure. Indicative Values are CCF (Credit Conversion Factor) and LGD (Loss Given Factor).\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Term Structure Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This column stores the description that describes the features of the Term Structure identifier.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Term Structure Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the frequency at which the values are generated. List of Values are M - Monthly, Q-Quarterly, H- Half Yearly, Y-Yearly, D - Daily.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Term Structure Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Term Structure Identifier represents a specific set of term structures against multiple homogenous credit identifiers. Each series have a set of values against multiple time periods. Credit Identifiers could either be Rating or Delinquency Past Due days band. One ID can only be either Rating based or DPD based but not both.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Term Structure Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Term Structure Identifier represents a specific set of term structures against multiple homogenous credit identifiers. Each series have a set of values against multiple time periods. Credit Identifiers could either be Rating or Delinquency Past Due days band. One ID can only be either Rating based or DPD based but not both.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Term Structure Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Term Structure Name is expected to be self-explanatory to represent unique features of the Term Structure identifier.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Term Structure Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Term Structure Numeric Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1169",
+                    "srcLogicalName": "Stage Term Structure Master",
+                    "scdName": "scd_1169_DIM_TERM_STRUCTURE_STG_TERM_STRUCTURE_MASTER",
+                    "scdDesc": "Data movement from term structure master source to term structure dimension",
+                    "createdDate": "2024-10-26 06:02:40.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42521",
+                    "btLogicalName": "Term Structure Numeric Identifier",
+                    "dqDesc": "Term Structure Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                },
+                {
+                    "dqId": "DQCUS42522",
+                    "btLogicalName": "Term Structure Numeric Identifier",
+                    "dqDesc": "Term Structure Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                },
+                {
+                    "dqId": "DQLOV33416",
+                    "btLogicalName": "Term Structure Basis Type",
+                    "dqDesc": "Should have list of values as C,M",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                },
+                {
+                    "dqId": "DQLOV33417",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                },
+                {
+                    "dqId": "DQLOV33418",
+                    "btLogicalName": "PD Term Structure Type",
+                    "dqDesc": "Should have list of values as D,R",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                },
+                {
+                    "dqId": "DQLOV33419",
+                    "btLogicalName": "Term Structure Frequency Unit",
+                    "dqDesc": "Should have list of values as D,H,M,Q,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                },
+                {
+                    "dqId": "DQNMDUP42160",
+                    "btLogicalName": "Term Structure Numeric Identifier",
+                    "dqDesc": "Term Structure Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                },
+                {
+                    "dqId": "DQSPLCH42963",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:36.0",
+                    "modifiedDate": "2024-11-04 04:39:39.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                }
+            ]
+        }
+    ]
+}

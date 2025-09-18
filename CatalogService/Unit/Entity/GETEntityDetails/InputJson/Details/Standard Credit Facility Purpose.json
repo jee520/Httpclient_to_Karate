@@ -1,0 +1,83 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Standard Credit Line Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the purpose of the said Standard credit facility. This is LOV with following values which are unique to US Banking system. Sorting. Only Number is expected here. This is also synch up with Shared National Credit data codes. \n0 OTHER\n1 ACQUISITION AND OR MERGER FINANCING\n2 ASSET SECURITIZATION FINANCING\n3 CAPITAL EXPENDITURES EXCLUDING REAL ESTATE\n4 COMMERCIAL PAPER BACK UP\n5 INDUSTRIAL REVENUE BOND BACK UP\n6 MORTGAGE WAREHOUSING\n7 TRADE FINANCING\n8 PERFORMANCE GUARANTEE\n9 WORKING CAPITAL  SHORT TERM or SEASONAL\n10 WORKING CAPITAL  PERMANENT\n11 GENERAL CORPORATE PURPOSES\n12 DEBT REFINANCE or CONSOLIDATION\n13 ESOP FINANCING\n14 AGRICULTURE AND OR LIVESTOCK PRODUCTION\n15 AGRICULTURE AND OR RANCHING REAL ESTATE\n16 STOCK BUYBACK\n17 PORTFOLIO ACQUISITION INCLUDING NOTE PURCHASE AGREEMENTS\n18 REAL ESTATE ACQUISITION or DEVELOPMENT or CONSTRUCTION  LAND\n19 REAL ESTATE ACQUISITION or DEVELOPMENT or CONSTRUCTION  RESIDENTIAL\n20 REAL ESTATE ACQUISITION or DEVELOPMENT/CONSTRUCTION  COMML and INDL\n21 REAL ESTATE INVESTMENT or PERMANENT FINANCING  RESIDENTIAL\n22 REAL ESTATE INVESTMENT or PERMANENT FINANCING  COMMERCIAL AND INDUSTRIAL\n23 BUSINESS RECAPITALIZATION/DIVIDENDS\n24 NEW PRODUCT DEVELOPMENT\n25 PROJECT FINANCING.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Standard Credit Line Purpose Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the purpose of the said Standard credit facility. This is LOV with following values which are unique to US Banking system.\nSorting. Only description is expected here. This is also synch up with Shared National Credit data codes. \n0 OTHER\n1 ACQUISITION AND OR MERGER FINANCING\n2 ASSET SECURITIZATION FINANCING\n3 CAPITAL EXPENDITURES EXCLUDING REAL ESTATE\n4 COMMERCIAL PAPER BACK UP\n5 INDUSTRIAL REVENUE BOND BACK UP\n6 MORTGAGE WAREHOUSING\n7 TRADE FINANCING\n8 PERFORMANCE GUARANTEE\n9 WORKING CAPITAL  SHORT TERM or SEASONAL\n10 WORKING CAPITAL  PERMANENT\n11 GENERAL CORPORATE PURPOSES\n12 DEBT REFINANCE or CONSOLIDATION\n13 ESOP FINANCING\n14 AGRICULTURE AND or OR LIVESTOCK PRODUCTION\n15 AGRICULTURE AND OR RANCHING REAL ESTATE\n16 STOCK BUYBACK\n17 PORTFOLIO ACQUISITION INCLUDING NOTE PURCHASE AGREEMENTS\n18 REAL ESTATE ACQUISITION or DEVELOPMENT or CONSTRUCTION  LAND\n19 REAL ESTATE ACQUISITION or DEVELOPMENT or CONSTRUCTION  RESIDENTIAL\n20 REAL ESTATE ACQUISITION or DEVELOPMENT or CONSTRUCTION  COMML and INDL\n21 REAL ESTATE INVESTMENT or PERMANENT FINANCING  RESIDENTIAL\n22 REAL ESTATE INVESTMENT or PERMANENT FINANCING  COMMERCIAL AND INDUSTRIAL\n23 BUSINESS RECAPITALIZATION or DIVIDENDS\n24 NEW PRODUCT DEVELOPMENT\n25 PROJECT FINANCING.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Standard Credit Line Purpose Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Standard Credit Line Purpose Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Standard Credit Line Purpose Regulatory Display Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the display codes to be used in regulatory report submissions for Standard Credit Line Purpose.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}
