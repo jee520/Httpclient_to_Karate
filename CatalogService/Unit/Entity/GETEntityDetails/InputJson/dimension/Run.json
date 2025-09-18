@@ -1,0 +1,86 @@
+[
+    {
+        "As Of Date": "11/30/2010",
+        "Run Identifier": "DFCS_SYS_DQGRP_PRC",
+        "Run Description": "Source Data Quality Check Data Foundation Process",
+        "Run Status": "COMPLETED",
+        "Run Execution Identifier": "1730171257267"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Run Identifier": "DFCS_SYS_SCD_PROC",
+        "Run Description": "Dimension Population Data Foundation Process",
+        "Run Status": "COMPLETED",
+        "Run Execution Identifier": "1730104780003"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Run Identifier": "1730106048046",
+        "Run Description": "Copy RAC",
+        "Run Status": "COMPLETED",
+        "Run Execution Identifier": "Reports_281024"
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Run Identifier": "RADL_PMF_PC",
+        "Run Description": "Result Area Entities Data Population",
+        "Run Status": "FAILED",
+        "Run Execution Identifier": "1730274885635"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Run Identifier": "DFCS_SYS_DQGRP_PRC",
+        "Run Description": "Source Data Quality Check Data Foundation Process",
+        "Run Status": "COMPLETED",
+        "Run Execution Identifier": "1730282314516"
+    },
+    {
+        "As Of Date": "11/04/2024",
+        "Run Identifier": "DF_RIGHT_TO_FORGET",
+        "Run Description": "Right To Forget",
+        "Run Status": "COMPLETED",
+        "Run Execution Identifier": "1730707189258"
+    },
+    {
+        "As Of Date": "11/04/2024",
+        "Run Identifier": "DF_RIGHT_TO_FORGET",
+        "Run Description": "Right To Forget",
+        "Run Status": "COMPLETED",
+        "Run Execution Identifier": "1730707928034"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Run Identifier": "1730106048046",
+        "Run Description": "Copy RAC",
+        "Run Status": "COMPLETED",
+        "Run Execution Identifier": "Reports_281024_2"
+    },
+    {
+        "As Of Date": "11/04/2024",
+        "Run Identifier": "DF_RIGHT_TO_FORGET",
+        "Run Description": "Right To Forget",
+        "Run Status": "COMPLETED",
+        "Run Execution Identifier": "1730707905939"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Run Identifier": "DFCS_SYS_SCD_PROC",
+        "Run Description": "Dimension Population Data Foundation Process",
+        "Run Status": "COMPLETED",
+        "Run Execution Identifier": "1730791210968"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Run Identifier": "1730784636140",
+        "Run Description": "ExchangeRates",
+        "Run Status": "COMPLETED",
+        "Run Execution Identifier": "1730784663369"
+    },
+    {
+        "As Of Date": "11/05/2024",
+        "Run Identifier": "1730784710743",
+        "Run Description": "GL_HierarchyResave",
+        "Run Status": "FAILED",
+        "Run Execution Identifier": "GL_HierarchyResave1"
+    }
+]

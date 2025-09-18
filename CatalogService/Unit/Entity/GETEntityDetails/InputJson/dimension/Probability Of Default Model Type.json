@@ -1,0 +1,44 @@
+[
+    {
+        "As Of Date": "10/30/2024",
+        "Probability Of Default Model Type": "OTH",
+        "Probability Of Default Model Type Display Code": "-1",
+        "Probability Of Default Model Type Description": "Others",
+        "Data Source Code": ""
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Probability Of Default Model Type": "MSG",
+        "Probability Of Default Model Type Display Code": "0",
+        "Probability Of Default Model Type Description": "Missing",
+        "Data Source Code": ""
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Probability Of Default Model Type": "THIRPARINTMAP",
+        "Probability Of Default Model Type Display Code": "3",
+        "Probability Of Default Model Type Description": "Third party and internal mapping were applied to derive the PDs for different segments of loans within the product type.",
+        "Data Source Code": ""
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Probability Of Default Model Type": "PDINTMAP",
+        "Probability Of Default Model Type Display Code": "2",
+        "Probability Of Default Model Type Description": "PDs assigned to the loans were derived using an internally developed mapping  approach. ",
+        "Data Source Code": ""
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Probability Of Default Model Type": "TOTREPZERO",
+        "Probability Of Default Model Type Display Code": "0",
+        "Probability Of Default Model Type Description": "Total reported  for a product type is zero",
+        "Data Source Code": ""
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Probability Of Default Model Type": "PDCRETDEF",
+        "Probability Of Default Model Type Display Code": "1",
+        "Probability Of Default Model Type Description": "PDs assigned to the loans were derived using a credit score-to-default rate mapping provided by a third party vendor",
+        "Data Source Code": ""
+    }
+]

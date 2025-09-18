@@ -1,0 +1,37 @@
+[
+    {
+        "As Of Date": "10/26/2024",
+        "Repayment Type": "INTONLY",
+        "Repayment Type Description": "Interest Only- Borrowers are allowed to make interest-only payments over the remaining term, with anyoutstanding principal due at the end of term.",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Repayment Type": "BALLOON",
+        "Repayment Type Description": "Outstanding principal is immediately due at the end of the Allowable Draw Period.",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Repayment Type": "AMORT",
+        "Repayment Type Description": "Amortizing- Borrowers are required to make payments that amortize the outstanding principal over the remaining term of the loan.",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Repayment Type": "OTH",
+        "Repayment Type Description": "Others",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Repayment Type": "MSG",
+        "Repayment Type Description": "Missing",
+        "Data Source Code": "",
+        "Dimension Value Closed Flag": ""
+    }
+]
