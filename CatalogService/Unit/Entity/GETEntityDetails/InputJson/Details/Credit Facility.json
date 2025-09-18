@@ -1,0 +1,575 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Application Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the application number that was filled by the customer that formed the basis for the contract. Application is a document that provides the essential financial and other information about the borrower on which the lender bases the decision to lend.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Automatic Cancellation Of Commitment Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the contract has a feature of automatic cancellation in it. An automatic cancellable contract means that the contract can be cancelled automatically, if certain conditions mentioned in the contract agreement are satisfied. This is used for the assignment of credit conversion factor, in the case of Regulatory capital calculations like Basel.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Claim Foreign Currency And Bank Funding Currency Same Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the financial institution is funded in the same currency as that of a claim. This is applicable in case of claims on foreign sovereigns. This is applicable to Basel regulation of India jurisdiction. Claims denominated in domestic currency of the foreign sovereign met out of the resources in the same currency raised in the jurisdiction of that sovereign will attract a risk weight of zero percent.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Closed Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This column stores the surrogate key for the date on which the line has been closed.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This column stores the description of said credit line.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the internal id for the said credit line. This is system generated code for the credit line in legacy system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the internal id for the said credit line. This is system generated code for the credit line in legacy system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Credit Line Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the purpose code of the said credit facility. Expected values are combination of Lending Purpose, Facility Type, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Purpose Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This column stores the credit purpose description which can not be captured in standard list of values of credit type as mentioned in appropriate columns.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the credit facility type code. It is expected to hold Direct or Modified values of Product Type like REVOLVING CREDIT, Term Loan, REVOLVING CREDIT-converting to Term Loans etc., Unlike standard credit line type this is open list.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day Count Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the day count indicator. Expected values are A/360, A/365, A/A, 30/360, 30/360 EUROPEAN, 30/A. Suggested default value are 1=30/360 for amortizing transactions OR 3=Act/Act. for non amortization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Draw Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date till which the borrower has the ability to make withdrawals against the loan.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Expiry Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the expiration date of the account or contract. Expiration is the date after which the contract ceases to hold true.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Facility Classification Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the indicator which states if facility is taken for liquidity, credit, both or other. This may have four values L, Liquidity, C, Credit, O, Others.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Facility Committed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the facility is committed or not. In committed facilities, the borrowing companies must meet specific requirements set forth by the lending institution in order to receive the stated funds.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Facility Fee Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the fee amount charged by the Financial Institution to the customer to extend the credit facility.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique general ledger account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guaranteed By Sovereign Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if an account is partially or fully guaranteed by the Sovereign, Government agencies or sponsored agencies. This is derived using Standard Guarantor Type of an account or Standard Issuer type of Mitigant of the Account. List of values are Y and N. This also indicates if the exposure is directly and unconditionally by a sovereign entity or an entity for which zero risk weight is applicable in standardized approach. Claims on BIS, Bank of International Settlement, IMF, International Monetary Fund, ECB, European Central bank, MDB, Multilateral Development Bank, carry zero risk weight. Examples of MDB are The Asian Development Bank, ADB, The African Development Bank, AfDB, The European Investment Bank, EIB, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holiday Rolling Convention Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the holiday rolling convention code, based on which the date on which cash flow has to happen is decided. This includes  Following business day, Modified following business day, Previous business day, Modified previous business day etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Limit Available For Draw Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "This attribute stores the date on which limit is available for draw down on credit line\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan To Security Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Ratio of the Credit Line Amount to the Collateral Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan To Value Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the loan to value ratio of Residential Mortgage Backed security received as mitigant. Loan to Value ratio is one of the criteria which is used to qualify mitigant as high quality liquid asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the contractual date on which the principal balance is expected to fully amortize and the balance payable would be nil. This is applicable for term loan products but not for revolving credit or overdraft type of account. In case of insurance policy, for some whole life insurance products the maturity date is aligned to maximum attained age and the policy is payable upon the earlier of the maturity date or the death of the insured. In case of Term Life insurance policies the maturity date is determined as policy issue date plus Term of the contract. In case of an annuity it is the date from which the annuitant has chosen to take the payouts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Netting Agreement Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the netting agreement code on which the contract is made. A netting agreement is an arrangement between two parties   known as counterparties   that governs the treatment of certain offsetting transactions or contracts. Two transactions offset each other if a gain in one results in a loss in the other. In other words, the transactions hedge each other. This allows for net settlement of all contracts governed by this netting agreement, with a single counterparty, through a single payment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the cost center to which the account belongs to. Organization Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Credit Line Approval Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the original credit line approval date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Credit Line Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This column stores the original internal id for the said credit line. This is system generated code for the credit line in legacy system.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Credit Rating Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This column stores the original credit rating of the said credit line. Values expected are AAA,AA+.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the original maturity date of the reference issue, typically debt securities. It would be used to derive residual maturity and original maturity of the reference issue. Original maturity date is the contractual date on which the principal balance of an earning asset or debt instrument is due and payable to the holder.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Origination Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Date on which current institution originated or acquired the instrument. For rolled instruments the greater of date last rolled or date acquired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Parent Credit Line Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This column stores the parent credit line code.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Participation Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or credit facility is a part of the syndicate. Syndicated loans are usually large loans made to corporate borrowers. More than one financial institution is involved in a syndicated loan. The main goal of syndicated lending is to spread the risk of a borrower default across multiple lenders, such as banks, or institutional investors like pensions funds and hedge funds. Because syndicated loans tend to be much larger than standard bank loans, the risk of even one borrower defaulting could cripple a single lender. Syndicated loans are also used in the leveraged buyout community to fund large corporate takeovers with primarily debt funding.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prime Broker Collateral Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the collateral is associated with prime brokerage services. Prime brokerage is the generic name for a bundled package of services offered by investment banks and securities firms to hedge funds and other professional investors needing the ability to borrow securities and cash to be able to invest on a netted basis and achieve an absolute return. These accounts are ignored as part of operational criteria. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Renewable Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the contract or account can be renewed. Renewal, in case of loans is the extension of the original loan period which is applicable in case of loans that do not amortize over time like interest only loans. Contracts like Repos could also be renewed to extend the contract period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Revocable Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Revocable Status. The expected values are irrevocable, conditionally revocable etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Revolving Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is a term or revolving account. Revolving credit is a type of loan or credit that does not have a fixed number of payments. The revolving limit is similar to a credit limit against which a customer can draw funds for financing. Revolving amount is applicable to products like credit cards, revolving loans or line of credit etc. Term products are those products that have pre scheduled payments or maturity. Examples of term products are term loans, term deposits or Certificate of deposit etc. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sales And Distribution Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the sales and distribution channel used to acquire the account. Distribution channels are mediums which are used to sell the product. In most cases, there is no difference between sales channels and distribution channels. Channels like Internet, branch, telephone, newspaper etc. are examples of distribution channels. Channel dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Secured Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or contract number is secured with a collateral or not. The collaterals to be considered here will be the collaterals other than margins. In case of deposits, this indicates it is Collateralized or Secured Deposit. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seniority Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the exposure seniority in the event of bankruptcy of the counterparty. Seniority refers to the order of repayment in the event of a sale or bankruptcy of the issuer. \nSeniority can refer to either debt or preferred stock. Senior debt must be repaid before subordinated, or junior, debt is repaid. Each security, either debt or equity, that a company issues has a specific seniority or ranking. Bonds that have the same seniority in capital structure of a company are described as being pair passu. Preferred stock is senior to common stock in a sale when preferred shareholders must receive back their preference, typically their original investment amount, before the common shareholders receive anything.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unconditionally Cancellable Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if the exposure or claim is unconditionally cancellable or conditionally cancellable, e.g. cancellable upon certain events, or not cancellable. In certain countries, retail commitments are considered unconditionally cancellable if the terms permit the bank to cancel them to the full extent allowable under consumer protection and related legislation. List of values are Y  Unconditionally Cancellable, C  Conditionally Cancellable and N or NULL  Not Cancellable.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1159",
+                    "srcLogicalName": "Stage Credit Facility Master",
+                    "scdName": "scd_1159_DIM_CREDIT_LINE_STG_CREDIT_LINE_MASTER",
+                    "scdDesc": "Data movement from credit line master source to credit line dimension",
+                    "createdDate": "2024-10-26 06:02:41.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42493",
+                    "btLogicalName": "Credit Line Numeric Identifier",
+                    "dqDesc": "Credit Line Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQCUS42494",
+                    "btLogicalName": "Credit Line Numeric Identifier",
+                    "dqDesc": "Credit Line Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQLOV32685",
+                    "btLogicalName": "Claim Foreign Currency And Bank Funding Currency Same Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQLOV32686",
+                    "btLogicalName": "Facility Classification Indicator",
+                    "dqDesc": "Should have list of values as C,L,O",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQLOV32687",
+                    "btLogicalName": "Revolving Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQLOV32688",
+                    "btLogicalName": "Guaranteed By Sovereign Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQLOV32689",
+                    "btLogicalName": "Secured Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQLOV32690",
+                    "btLogicalName": "Automatic Cancellation Of Commitment Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQLOV32691",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQLOV32692",
+                    "btLogicalName": "Unconditionally Cancellable Indicator",
+                    "dqDesc": "Should have list of values as C,N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQLOV32693",
+                    "btLogicalName": "Prime Broker Collateral Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQLOV32694",
+                    "btLogicalName": "Facility Committed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQLOV32695",
+                    "btLogicalName": "Participation Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQLOV32696",
+                    "btLogicalName": "Renewable Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQNMDUP42080",
+                    "btLogicalName": "Credit Line Numeric Identifier",
+                    "dqDesc": "Credit Line Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                },
+                {
+                    "dqId": "DQSPLCH42953",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:18.0",
+                    "modifiedDate": "2024-11-04 04:39:12.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                },
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

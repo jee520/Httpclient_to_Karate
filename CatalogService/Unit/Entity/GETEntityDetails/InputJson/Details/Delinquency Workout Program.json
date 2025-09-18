@@ -1,0 +1,131 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Workout Program Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to code for the loss or delinquency work out program. Delinquency Workout Program Dimension is the is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Workout Program Deferment Plan Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether said account has been put under deferment plan as a part of delinquency work out program. Deferment is formal agreement to defer principle or interest or both for substantial period. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Workout Program Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description for the loss or delinquency work out program. Delinquency Workout Program Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Workout Program Forbearance Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether said plan has been formally modified as a part of forbearance arrangement. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Workout Program Long Term Extension Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether said account has been put under long term changes as a part of delinquency work out program. Long term changes are the one which permanently alter the account terms and conditions. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Workout Program Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Delinquency Workout Program Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Workout Program Rate Change Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether rate has been reduced for the said account as a part of delinquency work out program. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Workout Program Reaged Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether said account has been re aged as a part of delinquency work out program. Re aging is about modifying term for very short term. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Workout Program Regulatory Display Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the display codes to be used in regulatory report submissions for Delinquency workout Program.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Step Rate Modification Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Refers to whether a rate modification has a stepped or gradual or immediate return to non modified rate. Rate modifications are done as part of a Loan Modification Programme. List of values expected are  if it is a stepped or Gradual return then Y, if the loan immediately returns to the contract rate at expiration of the modification and blank if Loan is not modified then N. List of values are Y, N.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

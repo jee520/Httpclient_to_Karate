@@ -1,0 +1,83 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Custodian Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the Custodian which holds the Certificate of deposit in its custody.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Custodian Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This column stores the name of the instrument custodian.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Custodian Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Custodian Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "CUSIP Or ISIN Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier for the Instrument. This can be the CUSIP or ISIN code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Default Swap Index Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code to identify a Credit Default Swap Index as CDS Index.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the effective date of the account or contract or interest rate or exchange rate from which it is effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Index Weightage Percent",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the weightage or percent of the reference entity in the Index.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Reference Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to reference entity of a credit derivative. It is one of the underlying parties involved in a credit derivative contract. The reference entity bears the credit risk of the contract, and can be a corporation, government or other legal entity that issues or guarantee debt of any kind. If a credit event such as a default occurs and the reference entity is unable to satisfy the conditions of the bond, the buyer of the credit default swaps receives payment from the seller.\nThis is applicable for instruments like Equity convertible bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Reference Obligation",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the reference obligation codes.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF40189",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Credit Default Swap Index Composition",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:05.0"
+                },
+                {
+                    "dqId": "DQREF40190",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Credit Default Swap Index Composition",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:05.0"
+                },
+                {
+                    "dqId": "DQREF40191",
+                    "btLogicalName": "Effective Date",
+                    "dqDesc": "Reference Check for Effective Date in Stage Credit Default Swap Index Composition",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:05.0"
+                },
+                {
+                    "dqId": "DQREF40192",
+                    "btLogicalName": "Effective Date",
+                    "dqDesc": "Reference Check for Effective Date in Stage Credit Default Swap Index Composition",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:05.0"
+                },
+                {
+                    "dqId": "DQREF40193",
+                    "btLogicalName": "Credit Default Swap Index Code",
+                    "dqDesc": "Reference Check for Credit Default Swap Index Code in Stage Credit Default Swap Index Composition",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:05.0"
+                },
+                {
+                    "dqId": "DQREF40194",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Credit Default Swap Index Composition",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:05.0"
+                },
+                {
+                    "dqId": "DQREF40195",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Credit Default Swap Index Composition",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:05.0"
+                },
+                {
+                    "dqId": "DQREF40196",
+                    "btLogicalName": "Reference Entity Code",
+                    "dqDesc": "Reference Check for Reference Entity Code in Stage Credit Default Swap Index Composition",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:05.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

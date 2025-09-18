@@ -1,0 +1,99 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Workout Program Status Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to code of status of the work out programs. Delinquency Workout Program Status Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Workout Program Status Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description of status of the work out programs. Delinquency Workout Program Status Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Workout Program Status Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Delinquency Workout Program Status Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Workout Program Status Regulatory Display Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the display codes to be used in regulatory report submission for Delinquency workout Program Status. Values seeded are 0. No workout completed or unsuccessful resolution of a loss mitigation effort. 1. Modification, 2. Repayment Plan, 3. Deed in Lieu, 4. Short Sale, 5. FHA Partial Claim, 6. FHA Secured, 7. VA Refund, 8. Stipulated Repayment or Stip to Mods, 9. Forbearance plan, 10. MI Claim Advance, 11. FHA Refinances i.e. Other, 12. Other, 13. Re aged or Deferred or Extended, 14. Home Affordable Refinance, 15. FNMA Home Saver Forbearance, Payment Reduction Plan, or other GSE sponsored forbearance program.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Post Workout Program Completion Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the code used to when particular workout program status is applicable for a loan after successful completion of workout program.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pre Workout Program Completion Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the code used to when particular workout program status is applicable for a loan before completion of workout program.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

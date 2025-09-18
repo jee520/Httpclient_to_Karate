@@ -1,0 +1,83 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Card Type",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the credit card type code. Credit Card Lending Type Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Card Type Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description of the credit card usage code. Credit Card Type Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Card Type Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Credit Card Type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Card Type Regulatory Display Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the display code to be used in regulatory report submissions for Credit Card Type. Values seeded are 1. General Purpose  can be used at a wide variety of merchants, including any who accept Master Card, Visa, American Express or Discover credit cards. Include affinity, co brand cards in this category, and student card if applicable. 2. Private Label  also known as Proprietary Credit Cards, are tied to the retailer issuing the card and can only be used in that stores of retailer. Include oil and gas cards in this loan type, and student cards if applicable. 3. Business Card  Include small business credit card accounts where the loan is underwritten with the sole proprietor or primary business owner as applicant. Report at the control account level or the individual pay level which is not at the sub account level. 4. Corporate Card  Employer sponsored credit cards for use by employees of company. Report cards that employees are financially responsible for repayment of the balance. If the employers are ultimately responsible for repayment of the balances, then report under Y14Q corporate loan schedule. 5. Others  Other cards accounts to consumers, small business, or corporations reported in the FR Y 9C in line items not represented above. For small business or corporate cards report cards that employees are financially responsible for repayment of balances.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

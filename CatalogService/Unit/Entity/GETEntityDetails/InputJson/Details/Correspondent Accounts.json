@@ -1,0 +1,3131 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Classification Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to classification code of the account. The list of values of account classification can be Fair Value, Amortized Cost, Available for Sale, Held till Maturity etc. Account Classification Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Display Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to account name which should be displayed in the account. This is often the name of the primary customer on the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Manager Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the account manager is an employee who is responsible for the day to day management of accounts of a particular customer. The account manager is a point of contact, and provides customer support, up selling, technical assistance and general relationship management. An account manager may be in charge of a number of smaller accounts, or may focus on a few larger accounts. This column Refers to the account manager code or the unique employee identifier of the manager assigned by the financial institution. Management Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Open Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the account was opened in the financial institution. This is the system date on which the financial institution opens the account. It may or may not be equal to effective date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account is closed. Account can be closed upon maturity of the account, transfer of the account, death of the account holder or write off.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Remaining Tenor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the remaining term is used in conjunction with remaining term multiplier to determine the remaining term of an account as on processing date. It is computed as Maturity Date  As of Date. Since correspondent accounts are non maturing this can be defaulted to 99 years.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Remaining Tenor Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the remaining term unit is used in conjunction with remaining term to determine the remaining term of an account as on processing date. List of values are D, W, M, Y.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the status of the account. List of values can be Active, Inactive, in foreclosure, Re negotiated, Dispute, Frozen, Past Due, Closed etc. Account Status Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Status Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the current account status became effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Sub Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Account Sub Type Code that is sub classified as per the banking source system for their internal operational purpose.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Tenor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to contractual term as on origination date. Maturity Date = Origination Date + Origination Term. Since correspondent accounts are non maturing this can be defaulted to 99 years.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Account Type Code that is classified as per the banking source system for their internal operational purpose. \nIn case of ALM FTP applications, Account type are fixed set of values.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accrual Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the accrual status codes. Accrual Status Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Acquisition Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the channel through which customer was acquired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Adjustment Effective Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the adjustment Effective Date for determining the reference date for the IRC rate lookup.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Adjustment Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier for adjustment type dimension at an account. Examples can be CONTRA,NEW etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amortization Method For Premium Discount And Fees Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the amortization method used for premium, discount and fees. Indicative values are STRAIGHTLINE or LEVELYIELD, LEVELYIELD being the default one.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amortization Term",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the amortization term is used in conjunction with amortization term unit to define the term over which the payment is amortized, depreciated. Amortization term identifies whether a record is a balloon and is used in calculation of payment amounts. It is also used when recalculating payment amounts for User Defined Payment Pattern records that are defined as percentage of Current Payment and have more than one payment frequency defined in the Payment Pattern interface.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amortization Term Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the amortization term unit is used in conjunction with amortization term, AMRT_TERM, to define the term over which the payment is amortized. Expected values are D Days, M Months and Y Years.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amortization Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to Thea Amortization type code, which is defined as the method by which the principal and interest of an account are amortized. List of values are conventional fixed, Balloon, Adjustable conventional, Adjustable negative amortizing, Simple interest, Rule of 78, Payment schedules, level principal, default value and user defined payment patterns. Amortization Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amount Due In Next Twelve Months",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Amount Due In Next 12 Months.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Annual Account Fee",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the annual fees charged to an account. The annual fees charged by financial institutions can come in various forms such as Annual maintenance fees, Year end charges etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Annual Fee Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of an organization defined code for the annual fee amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Attrition Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the reason code for which customer has canceled the contract or the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Credit Balance Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the average credit balance month till date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Debit Balance Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the average debit balance month during the reporting month till date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Float Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Average Float Balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bank Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code or identifier of the financial institution which owns the transaction, assigned by the central bank. Bank identifier can be one of the following identifier or code: BIC Code, Bank Identifier Codes, ABA Code, Routing transfer number, IFSC Code, Indian Financial System Code, BCHH etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Behavior Sub Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the behavior sub type which is used by ALM application to predict behavior patterns for instruments that do not have contractual cash flows.\nThe behavior sub type values are based on the behavior type and values are Sight Devolvement, Sight Recovery, Usance Devolvement and Usance Recovery, from Behavior Pattern. If sub type code is Sight and devolvement code is yes, then all recovery events are processed. If sub type code is Sight and Devolvement code is No then all Sight Events are processed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Behavior Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to unique identifier of behavior type code. Expected values are Non Maturity, Non Performing And Devolvement, Recovery, Volatile, Core and Non Core. \nThe payment and repricing characteristics can be gathered for most financial instruments, but for some the contractual cashflows may be absent or may be based on occurrence of certain events. Asset Liability Management allows you to define custom behavior, payment and repricing patterns to accurately model the unique characteristics for such instruments. Behavior pattern can be defined for the following types of instruments \nNon maturity Instruments,\nNon Performing Instruments,\nDevolvement and Recovery of Guarantees.\n\nOnce you create a behavior pattern, you can use it by mapping the unique behavior pattern code as the amortization type code for your instruments. Behavior pattern codes are defined within a pre set range, 70000 – 99999. When the cash flow engine encounters an instrument with an amortization type code within this pre determined range, it understands that a Behavior Pattern should be referenced for determining the principal cash flow amounts. Non performing Asset need not have a sub type associated, all the events i.e. substandard, doubtful or loss is processed. No interest cashflow will be generated and any balance on the maturity date would be written off. In the case of non maturity instruments the core and volatile runoff events are run. Interest cashflow is paid out on the payment dates. The engine assumes the maturity of the longest non maturing instrument as the maturity date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Brokerage Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicate if the account is maintained for brokerage purpose.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Domain",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the business domain., such as Institutional or Retail Brokerage. This is used to control access to data across distinct business operations.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Risk",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the level of risk associated with this account with respect to business characteristics. List of values are in the range of 0 10 with increasing values denoting increasing risk levels.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the business unit code as defined by the organization. A business unit is generally a broader definition and represents all the units in an organization. Business Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Buy Or Sell Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if the contract holder is the buyer or seller of the contract. This is applicable in case of derivative contracts like futures, forwards, options etc. A Buyer of a futures contract is said to be long while the seller is said to be short. In case of repo transactions, the party doing the reverse repo is referred to as the buyer. The seller of securities sells to the party with an agreement to buy back at a later date. List of Values are B, Buy, and S, Sell.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Calculation Option Display Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the choice between Just shifting the dates for holiday calendar and recalculating the payments based on the new dates.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Management Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is associated with cash management relationship. Cash management refers to a broad area of finance involving the collection, handling, and usage of cash. Such accounts are considered as operational accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Pool Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the accounts that are part of cash pool.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Central Bank Eligibility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the contract or the account is eligible to be pledged as collateral for term or automatically renewing overnight advances from a Federal Reserve Bank. Central bank eligibility is one of the criteria for classifying deposits held with the Central Bank as level 1 high quality liquid assets, HQLA, or not for the purpose of inclusion in the stock of high quality liquid assets while computing the Liquidity Coverage Ratio, LCR.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Central Bank Window Eligibility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if an asset is eligible for borrowing under Central Bank Discount Window or not. Currently this attribute is only consumed by LRM application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Clearing Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is associated with clearing relationship. Clearing denotes all activities, from the time a commitment is made for a transaction until it is settled. Clearing of payments is necessary to turn the promise of payment, for example, in the form of a cheque or electronic payment request, into actual movement of money from one bank to another. Such accounts are considered as operational account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Closed Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the party disassociates all direct and indirect relationship with the financial institution, this could also be on account of the death of an individual or dissolution of an entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Common Chart Of Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the chart of accounts is a listing of the names of the accounts that a financial institution has identified and made available for recording transactions in its general ledger. A financial institution has the flexibility to define its chart of accounts as per requirement, including adding accounts as needed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Compounding Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to compounding frequency, which is used calculate interest income. Compounded interest is calculated only when the compounding frequency is <less than payment frequency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Control By Treasury Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Indicates if asset is controlled by treasury or not. The stock should be under the control of the function charged with managing the liquidity of the bank, e.g. the treasurer, meaning the function has the continuous authority, and legal and operational capability, to monetize any asset in the stock.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Correspondent Account Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the type of correspondent account type. Indicative values can be N for Nostro, V for Vostro, C for Cash Advances to other banks.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Correspondent Physical Presence Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies if the correspondent financial institution has a physical presence in its country of operation as part of FATF or AML regulatory requirement",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code Of Risk",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the ISO country code of the risk. Country of risk refers to the country wherein the counter party does business. Dim Country is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the current performance status of the account. List of values are Delinquent, Foreclosed, Impaired, Closed, Disposed, Transferred, Bankrupt etc. Credit Status Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Status Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to date on which the current of Credit Status is updated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Deferred Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to deferred current balance refers to Current un amortized deferred balance representing future income or expense such as premium or discount. Deferred Current Balance holds the discount or premium associated with an instrument. A discount loan or instrument is one with interest deducted from the face value of the loan at its origination. The discount amount is the difference between the loans current market price and its stated par value. The deferred current balance, which represents income, will be amortized over the life of the instrument according to a constant yield calculation. Therefore, as the instrument approaches maturity, the book balance approaches the face value or par balance. For discounted instruments, the deferred current balance is a negative balance. This indicates to the cash flow engine that the balance is income.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Gross Yield",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the current gross yield on the investment. Gross yield is defined as the yield on an investment before the deduction of taxes and expenses. Gross yield is expressed in percentage terms. Current yield is calculated as interest received plus total fees and charges, all are annual, divided by the principal.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to current annualized gross rate of an account. This rate would be different in case of a consortium funding. When conventionally amortizing a records balance with the Model with Gross Rates option selected, the cash flow engine uses the current gross rate as the customer rate. If the option is not selected, then the cash flow engine uses current net rate as the customer rate for amortization calculation. Also to determine the prepayment rate, the current customer rate must be compared to the market rate. If the Model with Gross Rates option is selected, then the customer rate is represented by the current gross rate. If the Model with Gross Rates option is not selected, the current net rate is used as the current customer rate. When this is part of the loan contract that will be drawn against the commitment and is applicable only for rate lock commitment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Payment Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the current period payment made. Current Payment is the installment amount received from the customer. Current payment in the case of asset products represents the current periodic payment made to repay the outstanding balance. For standard amortization types, those that are not non patterned and non scheduled, Transfer Pricing Application, remaining term methods, uses the current payment from the detail record for the life of the record until a payment recalculation occurs. This will same as maturity amount in case of repo contracts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Transfer Pricing Period Average Daily Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to average Daily Balance for Current Transfer Pricing Repricing Period  used in selected TP or FTP methods  with Mid Period Repricing option. When processing with the mid period repricing option, Transfer Pricing application references CUR_TP_PER_ADB as the average daily balance at the time of the last repricing event. This field is used in conjunction with the PRIOR_TP_PER_ADB field. If the last reprice date occurred during the processing period, the rate that would be applied would be the repriced rate on the balance held by the customer, instead a weighted average is calculated individually on balance prior to reprice and balance after reprice.\nExample: if the data extracted is for the month of Dec 2012, and the interest rate has been repriced on 15 Dec 2012, a normal scenario would require the repriced rate on the entire end of period balance, instead the FTP engine calculates a weighted average of both the rates to arrive at a weighted average rate to be applied.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Custody Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is associated with custody relationship. Custodian is a specialized financial institution responsible for safeguarding a firms or individuals financial assets and is not necessarily engaged in traditional commercial or consumer or retail banking such as mortgage or personal lending. Such accounts are considered as operational account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Customer Limit Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the current limit that is extended to the customer. Limit is referred as an extent to which a financial institution will advance credit to a customer. Also called a guidance line of credit, its computation may differ from institution to institution, and is rarely, if ever, disclosed to customers.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Jurisdiction",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the mantas classification associated with this record. This can be a jurisdiction which represents geographical or legal entity monitoring on data restrictions. Values can be AMEA, INDV, CORP etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day Count Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the day count indicator. Expected values are A/360, A/365, A/A, 30/360, 30/360 EUROPEAN, 30/A. Suggested default value are 1=30/360 for amortizing transactions OR 3=Act/Act. for non amortization.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Debit Credit Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Flag to indicate if the account balance is in debit or in credit. If the value is updated as D means the balance is in debit and if the value is updated as C means the balance is in credit. Debit balance will indicate the amount which is due and credit balance is the amount which could arise due to overpayment of the cycle balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of days the account has remained delinquent in the current delinquency period. The account could have been delinquent a number of time earlier, but Refers to the current delinquency days.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Captures the unique identifier of delinquency status. Indicative values are Charge off, Redeemed, Doubtful, Bad Debt, Sub Standard, Non Performing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquent Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount corresponding to account that are delinquent. Amount which is due for payment with respect to the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deposit Primary Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the primary purpose of deposit code. The list of values are\nPAYREMIT = Payment remittance,\nSAFEKEEPING = Administration of payments and cash flows related to the safekeeping of investment assets, Not including the purchase or sale of assets,\nPAYROLLADMIN = Payroll administration and control over the disbursement of funds,\nPYMNTORDER = Transmission, reconciliation, and confirmation of payment orders, \nDAYOVERDRAFT = Daylight overdraft,\nINTRADAYSETTLEMNT = Determination of intra day and final settlement positions,\n SECTRNS = Settlement of securities transactions,\nCAPDSTBN = Transfer of capital distributions and recurring contractual payments,\nSUBSCREDEMNS = Customer subscriptions and redemptions,\nESCFNDTRNSFR = Escrow, funds transfer, stock transfer, and agency,\nCUSTFNDDISTRBN = Scheduled distribution of customer funds,\nESCFNDTRNSFRPAYSET = Escrow, funds transfer, stock transfer, and agency services, including payment and settlement services, payment of fees, taxes, and other expenses,\nFNDCOLL = Collection and aggregation of funds.\n,14, OTH = Others, As per US LCR final rules, to classify a deposit as operational deposit the primary purpose of the deposit should be one among the 13 values listed and deposit should also be used for either clearing, custody or cash management activities.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deposits Offering Economic Incentive Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the deposit is priced in a manner such that it provides an economic, economic is not just interest rate but also fees, incentive to the customer to maintain excess funds in the account. A value of Y indicates that an economic incentive is provided.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Designated Maturity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the maturity in days of the associated benchmark. This is applicable in case of floating rate instruments. If the benchmark is a 30 day LIBOR, 30 is stored and if it is a 3M LIBOR, 90 is stored.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Discount Margin",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Discount Margin is average expected return earned over a given reference rate, that is additional to given reference rate, for a floating rate security. Column is applicable for instruments like Floating Rate Note. Refers to the margin or spread that must be added to discount rate obtained from interest rate curve to get the final discount rate that is used to calculate present value of an instrument. This is an optional input and is specified as a rate or price, see Discount Rate Margin Type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Discount Rate Margin Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Indicates the form in which Discount Margin is given. Indicative Values are RATE, Rate Spread, PRICE, Price of instrument per 100. When it is given as PRICE then engine solves it to obtain a rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Discretion To Reprice Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates as per contract, Bank has the discretion to reprice and decide the date from which the rate is applicable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Drawn Credit Line Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount of credit limit used by the customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Early Withdraw Penalty Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the penalty amount applicable in case of an early withdrawal. In investments with a certain lock in, a penalty is applicable in case of early withdrawal. Usually the penalty amount is dependent on the total amount being withdrawn.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Early Withdrawable Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the withdrawable before the maturity is allowed for the contracts maintained.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Interest Rate For Hedge Management",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the effective interest rate of the instrument for Hedge Management application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Eligible For Intraday Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the particular instrument is eligible for usage as an Intraday liquidity source.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Embedded Options Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the security has an embedded option within it. Embedded option refers to a provision in a security that is an inseparable part of the instrument. An embedded option is a special condition attached to a security, and in particular, a bond that gives the holder or the issuer the right to perform a specified action at some point in the future. An embedded option is part of another security, and as such does not trade by itself. Nevertheless, it can affect the value of the security of which it is a component. A security is not limited to one embedded option, as there may be several embedded options in one security.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Encumbered Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the value of the asset which is encumbered, either by pledging, securitization or collateralization. Encumbered securities means the securities that are owned by one entity but subject to a legal claim by another.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Encumbrance Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date that an asset will change from 'Encumbered' to 'Unencumbered' status. Encumbered status refers to the status if an instrument is encumbered, either by pledging, securitization or collateralization. Encumbered securities means the securities that are owned by one entity but subject to a legal claim by another.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Encumbrance Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Long",
+                    "gcd": "Refers to the percentage of security or asset encumbered in case of encumbrance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Encumbrance Reason",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the reason behind the encumbrance status of the instrument or account. List of values are Pledging, Hedging, Repurchase Agreements, Repo, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Encumbrance Status Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if an instrument is encumbered, either by pledging, securitization or collateralization. Encumbered securities means the securities that are owned by one entity but subject to a legal claim by another.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to end of period balance which includes accrued interest. All the calculations such as interest, prepayment amounts etc. are based on this amount. This is used in all the calculations performed by cash flow engine. In Case of LC Contracts, EOP Balance should be populated when LC Is executed. Till LC is executed, LC amount sanctioned should be hold in Total Commitment Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Book Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the end of period book balance. It is the sum of total of End of Period Balance Plus Deferred Balance. This is used while calculating amortization. The book balance is the term financial institutions use to describe the amount of money available before any adjustments have been made for deposits in transit, checks that have not yet been cleared, reserve requirements and interest received from 'float funds' hence is generally greater than end of period balance, Also called as 'gross balance'. It also excludes any deferred balance that is unamortized.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Principal Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the outstanding principal balance at the end of the month. Each account will have principal and interest component, this column will capture the outstanding principal component at the end of the month.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Expected Segregated Balance To Cover Thirty Day Fair Value Of Customers Position",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to segregated Inflow Amount is the difference between the fair value of the required balance as of the calculation date less Fair value of the required balance of the customer reserve account as of 30 calendar days from the calculation date. Refers to the Fair value of the required balance of the customer reserve account as of 30 calendar days from the calculation date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure Held At Fair Value Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the exposure is held at fair value. Fair value is applicable to exposures involving less liquid and physical assets. In case of actively traded instruments, the market value is the fair value. This is in the context of Financial Accounting standards board.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fatca Pool Report Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the FATCA Pool Report Code. List of values are FATCA201  Recalcitrant account holders with US Indicia, FATCA202  Recalcitrant account holders without US Indicia, FATCA203  Dormant Accounts, FATCA204  Non participating foreign financial institutions, FATCA205  Recalcitrant account holders that are US persons and FATCA206  Recalcitrant account holders that are passive Non Financial Foreign Entities.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fatca Reporting Period End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the FATCA reporting period end date. This date is the date on which the net worth is reported at the account level for FATCA purpose. This is used in conjunction with the column FATCA Reporting Period Net Worth Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fatca Reporting Period Net Worth Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the FATCA Reporting Period Net worth amount. This is the total net value of all assets associated with this account expressed in base currency as of the end of the last reporting period. This is the aggregate value of all holdings in this account, with a reduction for any margin loans or other debts owed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fatca Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the FATCA Status Code. List of values are INDETER  Indeterminate, RECALC  Recalcitrant, USP  US Person, NPFFI  Non Participating Foreign Financial Institution, PAS NFFE  Passive Non Financial Foreign Entity, ACT NFFE  Active Non Financial Foreign Entity, PFFI  Participating Foreign Financial Institution, EXC NFFE  Excepted Non Financial Foreign Entity, OWNER.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fee General Ledger Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the GL code corresponding to the ledger account that holds fee amount. General Ledger Account Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fees For Effective Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the consolidated current un amortized, portion of the, fees which is or are applicable for, or are integral part of, Effective Interest Rate computation as per IFRS 9. This value will be used within the Cash Flow Engine.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiduciary Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is held with the bank under a fiduciary capacity. Fiduciary capacity means trustee, executor, administrator, registrar of stocks and bonds, transfer agent, guardian, assignee, receiver, or custodian under a uniform gifts to minors act investment adviser, if the bank receives a fee for its investment advice any capacity in which the bank possesses investment discretion on behalf of another or any other similar capacity that the regulator authorizes. For example deposits that are placed with a bank by a national bank for which the bank is a fiduciary.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Institution Identifier Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of the unique identifier used to reference the correspondent financial institution that owns this account. Expected values are FED  Federal Reserve Routing Number, BIC  Swift Bank Identifier Code, CHU  CHIPS Participant User Identifier, CHP  CHIPS Participant Identifier, EPN  Euroclear Participant Number, DTC Depository Trust Corporation Number, BLZ  German Bankleitzahl, IBAN  International Bank Account Number, ABLZ  Austrian Bankleitzahl, BCHH  Bank Code of Hong Kong, BSP  Australian Bank State Branch Code, CPAP  Canadian Payments Assn Payment Routing Number, HEBIC  Hellenic Bank Identification Code, IDIC  Italian Domestic Identification Code, IFSC  Indian Financial System Code, NSC  Irish National Clearing Code, PNCC  Portuguese National Clearing Code, RCBIC  Russian Central Bank Identification Code, SDIC  Spanish Domestic Interbanking Code, Swiss BC  Swiss Clearing Code, Swiss SIC  Swiss Clearing Code and UKDSC  UK Domestic Sort Code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique general ledger account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Geography Risk",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the level of geographical risk associated with this account. List of values are in the range of 0 10 with increasing values denoting increasing risk levels.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Hedge Portfolio Set Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique hedge portfolio set code or Hedge identification number, hedge ID, under which this account is covered.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "High Quality Liquid Asset Eligibility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if asset qualifies to be treated as High Quality Liquid Asset, HQLA. In most jurisdictions, HQLA should be central bank eligible in addition to being liquid in markets during stressed periods. In jurisdictions where central bank eligibility is limited to an extremely narrow list of assets, a supervisor may allow unencumbered, non central bank eligible assets to be part of HQLA. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holding Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the holding intent of the account. Holding Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holiday Display Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the holiday calendar code as per the holiday calendar defined through the UI.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holiday Rolling Convention Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the holiday rolling convention code, based on which the date on which cash flow has to happen is decided. This includes  Following business day, Modified following business day, Previous business day, Modified previous business day etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Indemnification Asset Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to indemnification amount of the asset arising from loss sharing agreement. Indemnification is the part of an agreement that provides for one party to bear the monetary costs, either directly or by reimbursement, for losses incurred by a second party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Initial Fees For IFRS Nine Effective Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the consolidated initial, un amortized, fees which is or are applicable for, or are integral part of, Effective Interest Rate computation as per IFRS 9. This value will be used to compute the Effective Interest rate as of account inception date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Institutional Network Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the Banks are members of institutional networks of cooperative banks. Institutional networks of cooperative banks are legally autonomous banks with specific functions. This is required for application of run off.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of instrument type, which is defined as code identifying the instrument category of the customer account. Instrument Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Accrued Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the accrued interest amount associated with the contract. This is the interest that has accumulated on an instrument since the last interest payment up to, but not including, the settlement date. Accrued Interest is defined as Interest earned but not received, realized. For example, bonds usually pay interest every six months, therefore interest accrues between one interest payment and the next. The buyer of a bond pays its market value plus the interest earned up to the settlement date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the aggregate gross amount of interest paid or credited to the account being reported for the calendar year except certain gross proceeds from the sale or redemption of property.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Calculation Method",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the method of computing interest. Expected values are Simple and Compounded.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Payment Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the coupon frequency of all the coupon bearing instruments. List of values is defined as No Frequency =  1, Once = 0, Annual = 1, Semiannual = 2, Every Fourth Month = 3, Quarterly = 4, Bimonthly = 6, Monthly = 12, Biweekly = 26, Weekly = 52, Daily = 365. Column is applicable for instruments like Equity convertible bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Payment Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Payment frequency unit is used in conjunction with Interest payment frequency to define the payment frequency of an account. List of values are D days, M months and Y years.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the interest rate code that identifies the index to which adjustable rate accounts are tied. Transfer Pricing references interest rate code when calculating option costs and uses the relevant interest rate from the defined interest rate code, IRC, together with the margin to determine the reprice rate for the instrument. The value populated in this column for each account record must be synchronized with the actual interest rate code values defined in Transfer Pricing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Margin Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of Margin. Margin can be provided as Rate or Percentage. If provided as Rate then current net rate is Applicable rate from the IRC plus margin. If Percentage, Margin is calculated using IRC and Margin provided as percent. If it is Rate and input is 2 percent, then 2 needs to be provided in spread or margin column. If it is Percent and input is 5 percent of IRC, then 5 needs to be provided in spread or margin column. This column has been added to support Tiered Balance Interest Rates.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Spread",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to contractual spread above or below, in case of asset it will be a positive spread and for liability it will be a negative spread, pricing index and is applicable for floating or adjustable rate accounts. Since repo rate is generally fixed upfront this column can be left blank or can be used to store spread above or below benchmark rate, if applicable. The current net rate = Applicable rate from the IRC plus margin.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of interest rate paid on this transaction., For instance Fixed Or Floating.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Timing Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of interest timing. if the interest accrual is in advance or in arrears. If the value is selected as Arrears than interest payments are paid at the end of the payment period along with the principal payments. If the value is selected as Advance than Interest payments are paid at the beginning of the payment period starting from the origination date. Payments are made on every payment date except for the Maturity date. Expected values are ARR, Interest In Arrears, ADV, Interest In Advance, or SIA, Set In Arrears. For repo it can be defaulted to ARR.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal Customer Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the customer is an internal customer. This identifies if the contract is between one of the financial institutions subsidiaries. This is used in capital consolidation. The List of values are Y, N or NULL.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "International Banking Facility Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or transaction is belongs to an international banking facility. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Activity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the last activity happens on an account. Activity on an account can be referred to anything like withdrawal from an account, deposit in account etc. The Activity date is generally for customer initiated transaction and not for system initiated transaction like interest liquidation, debiting charges etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Deposit Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the immediate past date on which a deposit was made to the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Payment Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the immediate past date on which the payment was made to the account. For a repo contract this will generally be same as origination date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Reprice Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the adjustable instruments last repriced or the date on which the current interest rate changed. For a repo contract this will generally be same as origination date. For an adjustable rate straight term transfer priced record, Transfer Pricing uses the Last reprice date to identify the assignment date, Yield Curve Date. The assignment date of the Interest Rate Code just before, or equal to, the last reprice date of the record is used as the transfer pricing yield curve. For example, if the last reprice date of the record is 15th Jan 2006 and the Historical Rate interest rate code, IRC, is defined at monthly intervals and only at month end, the assignment date would be 31st Dec 2005. The reprice frequency is then matched to the same term on the transfer pricing yield curve, IRC, defined in the Historical Rates in Transfer Pricing. For fixed rate records, the last reprice date and next reprice date are not referenced. Origination date and maturity dates are used instead. This column has been added to support Tiered Balance Interest Rates.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Repricing Date Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the balance as on Last Reprice Date when transfer pricing adjustable rate records. When transfer pricing adjustable rate records, Last Reprice Date BALANCE is used as the starting balance from the LAST_REPRICE_DATE. It will same as EOP Balance for a repo contract.\nIf payments, amortization, occurred in between the Last Reprice Date and the extract period, the end of period balance of the record is smaller than it was on the LAST_REPRICE_DATE. Therefore, in order to provide an accurate balance amount at the time of the Last Reprice Date, the Last Reprice Balance has been provided.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Withdrawal Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the immediate past date on which customer has withdrew from the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ledger Principal Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to ledger Principal balance as of date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Liquidity Transferability Restriction Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the transferability restriction. Sometimes, due to regulatory rules or other market conditions, excess liquidity available in a given legal entity is Trapped i.e. it is not available for use at the parent entity or the consolidated. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Share Agreement Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique reference to the loss sharing agreement that particular OREO, Other Real Estate Owned, asset is subjected to.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mantas Account Holder Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Mantas defined internal or external customer type that uses this account. This will be used for identifying Mantas defined customer types relevant to financial crime compliance based on set of rules. Expected values are  CR - Retail Customer CI - Institutional Customer IA - Investment Advisor CO - Correspondent Financial Institution EE - Employee or Family Member FP - Firm Trading FO - Firm Owned, Non-Trading FA - Firm Administrative FE - Firm Error or Suspense DC - Clearing Organization IS - Issuer or Writer.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Margin Transfer Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the transfer margin rate. This is the spread added to the forecasted transfer rate in case of adjustable rate instruments. Adjustable rate instruments are instruments that have a component of floating or adjustable rate. They are linked to an interest rate benchmark of certain maturity like LIBOR 30 days etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Marked Pay Obligations By Variable Interest Entity Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates these investments are earmarked for Variable Interest Entity obligation settlement. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the contractual date on which the principal balance is expected to fully amortize and the balance payable would be nil. This is applicable for term loan products but not for revolving credit or overdraft type of account. In case of insurance policy, for some whole life insurance products the maturity date is aligned to maximum attained age and the policy is payable upon the earlier of the maturity date or the death of the insured. In case of Term Life insurance policies the maturity date is determined as policy issue date plus Term of the contract. In case of an annuity it is the date from which the annuitant has chosen to take the payouts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Minimum Operational Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the minimum balances held at other financial counterparties necessary to maintain ongoing operational activities, such as clearing and settlement. Reporting Line in FR2052a is I.U.3 Required Nostro Balances.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Minimum Reserve Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the minimum reserve amount required by central bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Negative Interest Rate Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether negative interest rate is applicable to the account. Y indicates Yes and N indicates No.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Netting Agreement Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the netting agreement code on which the contract is made. A netting agreement is an arrangement between two parties   known as counterparties   that governs the treatment of certain offsetting transactions or contracts. Two transactions offset each other if a gain in one results in a loss in the other. In other words, the transactions hedge each other. This allows for net settlement of all contracts governed by this netting agreement, with a single counterparty, through a single payment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Next Payment Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Due date of the next scheduled payment. Otherwise known as cash flow date or date of runoff. Otherwise known as cash flow date or date of runoff. NEXT PAYMENT DATE is used to define the next scheduled, forecasted, payment date. If REMAINING NO PAYMENTS > 1, NEXT PAYMENT DATE < MATURITY DATE, If REMAINING NUMBER OF PAYMENTS = 1, NEXT PAYMENT DATE = MATURITY DATE. If next payment date is unknown, set to either: CALENDAR PERIOD + PMT FREQ, or MATURITY DATE.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Next Reprice Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which interest rate will be reprice for the instrument. It is applicable for adjustable rate accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operational Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the balance amount of the account can be added to the high quality liquid assets. High Quality Liquid Assets are used in the calculation of liquidity coverage ratio.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operational Services Significant Termination Cost Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether customer providing the deposit would incur significant contractual termination costs or switching costs in connection with the transfer of the operational services, cash management, clearing management or custody management, to a third party provider. As per US LCR, for classifying a deposit account as operational deposit, one of the criteria is customer providing the deposit should incur significant termination cost.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operational Services Termination Notice Period In Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the operational agreement termination notice period in days. As per US LCR, notice period relating to termination or switching of the operational services to a third party provider is minimum 30 calendar days.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the cost center to which the account belongs to. Organization Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the original account number held by the source system. If there are multiple source systems without unique account numbers, we expect the account number and source system to be concatenated as part of the primary key, while this column will store the original account number as generated by the source system.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Original Deferred Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the original non amortized income or expense, such as premiums discounts, fees, charges but it does not includes deferred cost incurred by bank which is not directly associated at account level. Unamortized income or expense are the unrealized income or expense on the account and would begin to accrue after issue of the security. The discounted bonds are sold at a price lower than the par value and would amortize to mature at par. Likewise, the premium bonds are sold at a premium over the par value of the bond as it may be offering a higher coupon rate compared to market. The premium paid is amortized over the period to mature at par value on the maturity date. Commitment contracts charge a commitment fee, which is amortized over a period based on the drawdown from the commitment contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Gross Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to balance at the time of origination from which all fixed rate transfer pricing cash flows are generated, including principal run off, prepayments, and interest cash flows.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Gross Book Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the book balance at the time of origination. Original gross book balance is the sum total of End of Period Balance Plus Deferred Balance, represented as a negative amount to depict the unamortized portion. This is used while calculating amortization. The book balance is the term financial institutions use to describe the amount of money available before any adjustments have been made for deposits in transit, checks that have not yet been cleared, reserve requirements and interest received from 'float funds' hence is generally greater than end of period balance, Also called as 'gross balance'.\nIt also excludes any deferred balance that is unamortized.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to contractual interest rate at origination date whereas the interest rate field would store the interest rate applicable to the instrument as on As of Date. This is used for computing Effective Interest Rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Payment Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to payment amount at the date of origination. Cash flow transfer pricing methodologies for fixed rate records use original payment amount as the payment amount for amortization purposes. For a fixed rate record, the cash flow engine rolls forward from the origination date by payment frequency when defining payment dates up to the maturity date of the record. From origination, the cash flow engine amortizes the original balance by the original payment amount. The precise method of this amortization depends on the amortization type code. Original payment amount is also used if the User Defined Payment Pattern payment method percent Original Payment is designated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Income Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "The aggregate gross amount of all income paid or credited to an account for the calendar year, reduced by interest, dividends, and gross proceeds.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Overdraft Protection Agreement Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the overdraft protection programs that, unlike the discretionary accommodation traditionally provided to those lacking a line of credit or other type of overdraft service, e.g. linked accounts, are marketed to consumers essentially as short term credit facilities. These marketed programs typically provide consumers with an express overdraft limit that applies to their accounts. While the specific details of overdraft protection programs vary from institution to institution, and also vary over time, those currently offered by institutions incorporate some or all of the following characteristics:\n  Institutions inform consumers that overdraft protection is a feature of their accounts and promote the use of the service. Institutions also may inform consumers of their aggregate dollar limit under the overdraft protection program.\n  Coverage is automatic for consumers who meet the criteria of the institution, e.g., account has been open a certain number of days, deposits are made regularly. Typically, the institution performs no credit underwriting. Overdrafts generally are paid up to the aggregate limit set by the institution for the specific class of accounts, typically USD 100 to 500.\n  Many program disclosures state that payment of an overdraft is discretionary on the part of the institution, and may disclaim any legal obligation of the institution to pay any overdraft.\n  The service may extend to check transactions as well as other transactions, such as withdrawals at automated teller machines, ATMs, transactions using debit cards, pre authorized automatic debits from an account of the consumer, telephone initiated funds transfers, and on line banking transactions. A flat fee is charged each time the service is triggered and an overdraft item is paid. Commonly, a fee in the same amount would be charged even if the overdraft item was not paid. A daily fee also may apply for each day the account remains overdrawn.\n  Some institutions offer closed end loans to consumers who do not bring their accounts to a positive balance within a specified time period. These repayment plans allow consumers to repay their overdrafts and fees in installments. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ownership Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the organization defined code for the ownership type of the account. Expected values are IND  Individual, JOINT  Joint Tenant or Community Property, TRUST  Trust, CUST  Custodian, CORP  Corporate, FIRM  Firm Owned and OTHER  Other.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Parent Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the parent account number of the contract or account. For instance, if the asset is an underlying for a repurchase agreement, then the account number of the repo contract is expected in this column. Incase of Borrowings, it can also store the account as parent account which is help by the financial institution in fiduciary capacity. In case of cards, parent account number refers to corporate card master account number. Incase of OD Accounts, it should refer to the parent savings, checking account number or loan account number if the overdraft has arisen due to breach of limits or funds from those respective accounts. It will store loan account number as parent account number even for the cases where the overdraft has arisen in the escrow account for the payment of taxes and or insurance. It should be left NULL, if parent child relationship does not exist.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Interest Rate Discretion Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the interest rate reset for a contract where the party has the right to establish or reset the interest rate at his sole discretion. List of values are Y, N. A value Y indicates that the interest rate reset is at the discretion of party, and N indicates not at the discretion of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pass Through Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the portion of the reserve balance in reporting currency that is held by an entity in its own reserve account with the US Federal Reserve on behalf of a respondent bank. A depository institution can hold reserves directly with the Federal Reserve Bank or pass it through an account of the correspondent bank. The correspondent bank holds the pass through reserves in a master account along with its own reserve balances. While computing the stock of HQLA for the correspondent bank, only that portion of the reserves which is held to satisfy its own reserve requirements can be included. The pass through balances are deducted from the total balance in the reserve account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pass Through Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether the originator or beneficiary on this transaction is not the ultimate originator or beneficiary of the funds, for example, a wire transfer with instructions for further credit to a third party. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Placed At Central Institution Or Service Provider Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies whether the deposit is placed by a member of an institutional networks of cooperative banks with the central institution or specialized central service providers that are placed, a, due to statutory minimum deposit requirements, which are registered at regulators or, b, in the context of common task sharing and legal, statutory or contractual arrangements so long as both the bank that has received the monies and the bank that has deposited participate in the same institutional networks mutual protection scheme against illiquidity and insolvency of its members.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pledged Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Pledged Status Code identifying whether security is pledged. Pledged Status Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Power Of Attorney Or Signatory Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether this account has power of attorney or signatory authority granted to a person with a US address. . This is required for FATCA purpose. List of values are Y, N. If the value is updated as Y means this account has power of attorney granted to a person with a US address and if the value is updated as N means the power of attorney is not granted to a person with US address or this account does not have any power of attorney.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prime Broker Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is associated with prime brokerage services. Prime brokerage is the generic name for a bundled package of services offered by investment banks and securities firms to hedge funds and other professional investors needing the ability to borrow securities and cash to be able to invest on a netted basis and achieve an absolute return. These accounts are ignored as part of operational criteria. List of the values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prime Brokerage Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is associated with prime brokerage services. Prime brokerage is the generic name for a bundled package of services offered by investment banks and securities firms to hedge funds and other professional investors. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prior Transfer Pricing Period Average Daily Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Average Daily Balance as of the prior transfer period. When processing with the mid period repricing option, Transfer Pricing application references PRIOR_TP_PER_ADB as the average daily balance at the time of the last repricing event. This field is used in conjunction with the CUR_TP_PER_ADB field. If the last reprice date occurred during the processing period, the rate that would be applied would be the repriced rate on the balance held by the customer, instead a weighted average is calculated individually on balance prior to reprice and balance after reprice.\nExample: if the data extracted is for the month of Dec 2012, and the interest rate has been repriced on 15 Dec 2012, a normal scenario would require the repriced rate on the entire end of period balance, instead the FTP engine calculates a weighted average of both the rates to arrive at a weighted average rate to be applied.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Qualified Unencumberance Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if an unencumbered asset satisfies conditions of Unencumbrance as described in FR2052a. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Change Rounding Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Rate change round code is defined as the method used for rounding of the interest rate change. The cash flow engine uses RATE_CHG_RND_CODE to determine the rounding method that is applied to the current rate after a repricing event. RATE_CHG_ RND_CODE is used in conjunction with RATE_CHG_RND_FAC. List of values are Truncate, Round Up, Round down and Round nearest.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recalcitrant Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether this account is considered to be a recalcitrant account. A Recalcitrant account is defined as an account that, 1, fails to comply with reasonable requests for information pursuant to IRS mandated verification and due diligence procedures to identify US Accounts,, 2, fails to provide a name, address and taxpayer identification number or, 3, fails to provide a bank secrecy waiver upon request. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recourse To General Credit Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Refers to the recourse to general credit flag which identifies the liabilities for which creditors do not have the recourse to the general credit of the holding company. The list of values are Y when the creditor has the rights to seize the assets other than the protection pledged and N when the creditor does not have the rights to seize the assets other than the protection pledged .",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recourse To Guarantee Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicate whether the bank relied on a sponsor or guarantor as a source of repayment when considering the credit for approval. List of values are Y N.\nA value Y indicates that the contract is recourse to guarantee, and N indicates that the contract is not recourse to guarantee.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Region Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the geographical grouping of the market based on certain common characteristics like language, ethnicity, country, continent, city and state. The region can vary based on the definition of market. Global market vs local market can have different definition of region.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Reporting Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the reporting currency code. Usually, it is the currency code of the country in which the financial institution that owns the account operates.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repricing Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to reprice Frequency is used in conjunction with Repricing Frequency Unit to define the frequency of rate change of an account. Repricing Frequency is used to identify whether records are adjustable or not. If Repricing Frequency> 0, the record is considered adjustable. If Reprice Frequency = 0, the record is fixed rate. It is used to compute the re price dates after the next_reprice_date. REPRICE_FREQ must be either 0 or positive.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repricing Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to reprice frequency unit is used in conjunction with Repricing Frequency to store the unit of frequency of rate change for an account. List of values are D, M and Y for Days, Months and Years respectively. Example  if the rate adjustment is 6 months, the repricing frequency will be 6 and repricing frequency unit will be M.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Retail Wholesale Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if the account has to be treated as retail or wholesale, at times a corporate product extended to a private LLP or proprietor concern could be treated as retail by the nature of the holding and not always by the product itself for example if a customer is a proprietor and takes a large loan could be treated as a wholesale. The list of values are W  Wholesale, R  Retail.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Segregated Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Indicates whether the asset is segregated or not. For FR2052a in line S.I.9 Sleeper Collateral Deliverable we have to report the fair value of unsegregated collateral that the reporting entity may be required by contract to return to a counterparty because the collateral currently held by the reporting entity exceeds the current collateral requirements of counterparty under the governing contract and the fair value of collateral that the reporting entity is contractually obligated to post to a counterparty, but has not yet posted as it has not yet been called by the counterparty of reporting entity. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Shell Banks Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicator to identify if the counterparty bank prohibits relationship with shell banks. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Standing Instructions To Us Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether there are standing instructions to transfer funds from this account to an account maintained in the United States. This is required for FATCA purpose. If the value is updated as Y means there are standing instructions to transfer funds to US account and if the value is updated as N means there are no instructions to transfer funds from the account to US account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Start Of The Day Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the start of day or Beginning of the day balance of the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tenor Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the unit in which tenor of instrument is given. This attribute must be read together with Tenor. Expected values are ON  Overnight, TN  Tomorrow next, SN  Spot next, D  calendar days, BD  business days, W  weeks, M  months, Y  years. When unit is ON, TN, SN or Date then Tenor will be null. This is required only for Single name credit default swap and credit index swaps.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Fees And Charges",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total fees and charges collected or levied by the bank. This includes penal charges, fees, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Overdue Fee Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total over due fees levied for an account. It excludes the fees due as of date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Write Off Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total amount written off on that account from start of the month till date. Write offs are done by the financial institution to account for bad debts. When the asset account improve, the bank may write back an amount to the extent of passible recovery amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transactional Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is a transactional account or not. A transactional account is a deposit account held at a bank or other financial institution, for the purpose of securely and quickly providing frequent access to funds on demand, through a variety of different channels. Transactional accounts are meant neither for the purpose of earning interest nor for the purpose of savings, but for convenience of the business or personal client. List of values are Y for Transactional Account and N for Non Transactional Accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transfer Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the transfer rate that is applicable for the contract. In case of fixed rate instruments, this is the rate that ALM cash flow engine uses to calculate certain transfer rate related FEs. For adjustable or floating or administered rate instruments, this is the initial rate that is picked up by ALM cash flow engine for transfer pricing the record till the first reprice event, after which it picks the TP rate from the TP IRC for future reprice dates.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transfer Rate Interest Rate Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the Transfer Rate Interest Rate Code. Transfer rate is the rate used to calculate cost of funds until the next reprice date of the loan contract. Interest rate code used for determining transfer rate. It holds code value to identify the index that account is tied to for assigning forecasted transfer rates. Oracle Risk Manager references T_RATE_INT_RATE_CD when forecasting transfer rates for adjustable rate accounts.\n\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unencumbered Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the unencumbered amount associated with the account. A portion of the account balance may be encumbered or provided as collateral for some other transaction. In case of loan contracts, the cash flows derived from loans may be used as collateral by the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Us Indicia Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Flag indicates if the account has US Indicia. US Indicia indicates presence of any of the following: US Citizenship or lawful or permanent resident, US birth place, US address, Instructions to transfer funds to US Accounts or directions regularly received from a US address etc. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Value Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the value date of the contract. Value Date is a securities industry term describing the date on which a trade, bonds, equities, foreign exchange, commodities, etc., settles. That is, the actual day on which transfer of cash or assets is completed, or the settlement amount is calculated. \nIn case of FX swap instrument Refers to the settlement date for spot or near leg. Also considered as the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Waived Fees",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the fees that is waived by the financial intuition during the download period. Waivers are provided on processing fee, annual fee, joining fee or any other fee that may be levied.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Withdrawal Notice Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of days of notice required to be given by a customer to the bank before a withdrawal of funds is allowed from a notice savings account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Withdrawal Reserve Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether there are any restrictions on the withdrawal of a reserve balance held by the entity in a foreign central bank. This is required to classify a reserve held with a foreign central bank as a level 1 high quality liquid asset, HQLA, or not for the purpose of inclusion in the stock of high quality liquid assets while computing the Liquidity Coverage Ratio, LCR. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Write Off Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the asset was written off from the books of the financial institution. Asset write offs happen when a loan repayment is delayed and any efforts by the collection and recovery department of the financial institution are unsuccessful or partially successful.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Write Off Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the write off reason in case of accounts with write offs. Common reasons for write offs include bankruptcy, legal issues, death of the customer etc.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQCLREF145",
+                    "btLogicalName": "Effective Interest Rate For Hedge Management",
+                    "dqDesc": "Should be greater than 0.",
+                    "dqType": "Column Reference or Specific Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQCLREF146",
+                    "btLogicalName": "Account Tenor",
+                    "dqDesc": "Should have values greater than 0",
+                    "dqType": "Column Reference or Specific Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQCLREF147",
+                    "btLogicalName": "Amortization Term",
+                    "dqDesc": "Should Be Greater Than Or Equal To 0.",
+                    "dqType": "Column Reference or Specific Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQCLREF148",
+                    "btLogicalName": "Fees For Effective Interest Rate",
+                    "dqDesc": "Should Be Greater Than or equal to 0.",
+                    "dqType": "Column Reference or Specific Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQCLREF24",
+                    "btLogicalName": "End Of Period Principal Balance",
+                    "dqDesc": "Should be less than or equal to End Of Period Balance",
+                    "dqType": "Column Reference or Specific Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQCLREF25",
+                    "btLogicalName": "Last Withdrawal Date",
+                    "dqDesc": "Should be less than or equal to As Of Date",
+                    "dqType": "Column Reference or Specific Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32869",
+                    "btLogicalName": "Account Remaining Tenor Unit",
+                    "dqDesc": "Should have list of values as D,M,W,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32870",
+                    "btLogicalName": "Buy Or Sell Indicator",
+                    "dqDesc": "Should have list of values as B,S",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32871",
+                    "btLogicalName": "Early Withdrawable Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32872",
+                    "btLogicalName": "Eligible For Intraday Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32873",
+                    "btLogicalName": "Exposure Held At Fair Value Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32874",
+                    "btLogicalName": "Liquidity Transferability Restriction Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32875",
+                    "btLogicalName": "Party Interest Rate Discretion Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32876",
+                    "btLogicalName": "Placed At Central Institution Or Service Provider Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32877",
+                    "btLogicalName": "Retail Wholesale Indicator",
+                    "dqDesc": "Should have list of values as R,W",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32878",
+                    "btLogicalName": "Recourse To Guarantee Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32879",
+                    "btLogicalName": "Brokerage Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32880",
+                    "btLogicalName": "Correspondent Physical Presence Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32881",
+                    "btLogicalName": "Fiduciary Relationship Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32882",
+                    "btLogicalName": "Discretion To Reprice Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32883",
+                    "btLogicalName": "Institutional Network Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32884",
+                    "btLogicalName": "Operational Services Significant Termination Cost Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32885",
+                    "btLogicalName": "Overdraft Protection Agreement Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32886",
+                    "btLogicalName": "Transactional Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32887",
+                    "btLogicalName": "Us Indicia Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32888",
+                    "btLogicalName": "Central Bank Window Eligibility Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32889",
+                    "btLogicalName": "Encumbrance Status Flag",
+                    "dqDesc": "Should have list of values as N,P,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32890",
+                    "btLogicalName": "Internal Customer Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32891",
+                    "btLogicalName": "Negative Interest Rate Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32892",
+                    "btLogicalName": "Standing Instructions To Us Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32893",
+                    "btLogicalName": "Withdrawal Reserve Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32894",
+                    "btLogicalName": "Central Bank Eligibility Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32895",
+                    "btLogicalName": "Embedded Options Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32896",
+                    "btLogicalName": "Prime Brokerage Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32897",
+                    "btLogicalName": "Amortization Term Unit",
+                    "dqDesc": "Should have list of values as D,M,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32898",
+                    "btLogicalName": "Cash Management Relationship Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32899",
+                    "btLogicalName": "Clearing Relationship Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32900",
+                    "btLogicalName": "Control By Treasury Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32901",
+                    "btLogicalName": "International Banking Facility Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32902",
+                    "btLogicalName": "Marked Pay Obligations By Variable Interest Entity Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32903",
+                    "btLogicalName": "Recourse To General Credit Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32904",
+                    "btLogicalName": "Repricing Frequency Unit",
+                    "dqDesc": "Should have list of values as D,M,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32905",
+                    "btLogicalName": "Qualified Unencumberance Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32906",
+                    "btLogicalName": "Segregated Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32907",
+                    "btLogicalName": "Shell Banks Relationship Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32908",
+                    "btLogicalName": "Tenor Unit",
+                    "dqDesc": "Should have list of values as D,M,W,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32909",
+                    "btLogicalName": "Account Or Contract Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32910",
+                    "btLogicalName": "Correspondent Account Type",
+                    "dqDesc": "Should have list of values as C,N,V",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32911",
+                    "btLogicalName": "High Quality Liquid Asset Eligibility Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32912",
+                    "btLogicalName": "Prime Broker Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32913",
+                    "btLogicalName": "Recalcitrant Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32914",
+                    "btLogicalName": "Power Of Attorney Or Signatory Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32915",
+                    "btLogicalName": "Debit Credit Indicator",
+                    "dqDesc": "Should have list of values as C,D",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32916",
+                    "btLogicalName": "Operational Relationship Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32917",
+                    "btLogicalName": "Pass Through Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32918",
+                    "btLogicalName": "Cash Pool Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32919",
+                    "btLogicalName": "Custody Relationship Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32920",
+                    "btLogicalName": "Deposits Offering Economic Incentive Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQLOV32921",
+                    "btLogicalName": "Interest Payment Frequency Unit",
+                    "dqDesc": "Should have list of values as D,M,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQMNDTR42",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Mandatory",
+                    "dqType": "NULL Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQMNDTR43",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Mandatory",
+                    "dqType": "NULL Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQMNDTR44",
+                    "btLogicalName": "End Of Period Balance",
+                    "dqDesc": "Mandatory",
+                    "dqType": "NULL Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQMNDTR45",
+                    "btLogicalName": "Current Interest Rate",
+                    "dqDesc": "Mandatory",
+                    "dqType": "NULL Value Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38373",
+                    "btLogicalName": "Account Status Date",
+                    "dqDesc": "Reference Check for Account Status Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38374",
+                    "btLogicalName": "Account Status Date",
+                    "dqDesc": "Reference Check for Account Status Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38375",
+                    "btLogicalName": "Adjustment Effective Date",
+                    "dqDesc": "Reference Check for Adjustment Effective Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38376",
+                    "btLogicalName": "Adjustment Effective Date",
+                    "dqDesc": "Reference Check for Adjustment Effective Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38377",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38378",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38379",
+                    "btLogicalName": "Closed Date",
+                    "dqDesc": "Reference Check for Closed Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38380",
+                    "btLogicalName": "Closed Date",
+                    "dqDesc": "Reference Check for Closed Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38381",
+                    "btLogicalName": "Credit Status Date",
+                    "dqDesc": "Reference Check for Credit Status Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38382",
+                    "btLogicalName": "Credit Status Date",
+                    "dqDesc": "Reference Check for Credit Status Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38383",
+                    "btLogicalName": "Last Deposit Date",
+                    "dqDesc": "Reference Check for Last Deposit Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38384",
+                    "btLogicalName": "Last Deposit Date",
+                    "dqDesc": "Reference Check for Last Deposit Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38385",
+                    "btLogicalName": "Last Withdrawal Date",
+                    "dqDesc": "Reference Check for Last Withdrawal Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38386",
+                    "btLogicalName": "Last Withdrawal Date",
+                    "dqDesc": "Reference Check for Last Withdrawal Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38387",
+                    "btLogicalName": "Encumbrance Maturity Date",
+                    "dqDesc": "Reference Check for Encumbrance Maturity Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38388",
+                    "btLogicalName": "Encumbrance Maturity Date",
+                    "dqDesc": "Reference Check for Encumbrance Maturity Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38389",
+                    "btLogicalName": "Fatca Reporting Period End Date",
+                    "dqDesc": "Reference Check for Fatca Reporting Period End Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38390",
+                    "btLogicalName": "Fatca Reporting Period End Date",
+                    "dqDesc": "Reference Check for Fatca Reporting Period End Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38391",
+                    "btLogicalName": "Last Activity Date",
+                    "dqDesc": "Reference Check for Last Activity Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38392",
+                    "btLogicalName": "Last Activity Date",
+                    "dqDesc": "Reference Check for Last Activity Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38393",
+                    "btLogicalName": "Last Payment Date",
+                    "dqDesc": "Reference Check for Last Payment Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38394",
+                    "btLogicalName": "Last Payment Date",
+                    "dqDesc": "Reference Check for Last Payment Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38395",
+                    "btLogicalName": "Last Reprice Date",
+                    "dqDesc": "Reference Check for Last Reprice Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38396",
+                    "btLogicalName": "Last Reprice Date",
+                    "dqDesc": "Reference Check for Last Reprice Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38397",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38398",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38399",
+                    "btLogicalName": "Next Payment Date",
+                    "dqDesc": "Reference Check for Next Payment Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38400",
+                    "btLogicalName": "Next Payment Date",
+                    "dqDesc": "Reference Check for Next Payment Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38401",
+                    "btLogicalName": "Next Reprice Date",
+                    "dqDesc": "Reference Check for Next Reprice Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38402",
+                    "btLogicalName": "Next Reprice Date",
+                    "dqDesc": "Reference Check for Next Reprice Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38403",
+                    "btLogicalName": "Account Open Date",
+                    "dqDesc": "Reference Check for Account Open Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38404",
+                    "btLogicalName": "Account Open Date",
+                    "dqDesc": "Reference Check for Account Open Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38405",
+                    "btLogicalName": "Value Date",
+                    "dqDesc": "Reference Check for Value Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38406",
+                    "btLogicalName": "Value Date",
+                    "dqDesc": "Reference Check for Value Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38407",
+                    "btLogicalName": "Write Off Date",
+                    "dqDesc": "Reference Check for Write Off Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38408",
+                    "btLogicalName": "Write Off Date",
+                    "dqDesc": "Reference Check for Write Off Date in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38409",
+                    "btLogicalName": "Account Classification Code",
+                    "dqDesc": "Reference Check for Account Classification Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38410",
+                    "btLogicalName": "Account Manager Code",
+                    "dqDesc": "Reference Check for Account Manager Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38411",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38412",
+                    "btLogicalName": "Account Status Code",
+                    "dqDesc": "Reference Check for Account Status Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38413",
+                    "btLogicalName": "Account Type",
+                    "dqDesc": "Reference Check for Account Type in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38414",
+                    "btLogicalName": "Accrual Status Code",
+                    "dqDesc": "Reference Check for Accrual Status Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38415",
+                    "btLogicalName": "Reporting Currency Code",
+                    "dqDesc": "Reference Check for Reporting Currency Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38416",
+                    "btLogicalName": "Accounting Standard Code",
+                    "dqDesc": "Reference Check for Accounting Standard Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38417",
+                    "btLogicalName": "Adjustment Type",
+                    "dqDesc": "Reference Check for Adjustment Type in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38418",
+                    "btLogicalName": "Amortization Method For Premium Discount And Fees Code",
+                    "dqDesc": "Reference Check for Amortization Method For Premium Discount And Fees Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38419",
+                    "btLogicalName": "Amortization Type",
+                    "dqDesc": "Reference Check for Amortization Type in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38420",
+                    "btLogicalName": "Attrition Reason Code",
+                    "dqDesc": "Reference Check for Attrition Reason Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38421",
+                    "btLogicalName": "Behavior Type",
+                    "dqDesc": "Reference Check for Behavior Type in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38422",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38423",
+                    "btLogicalName": "Business Domain",
+                    "dqDesc": "Reference Check for Business Domain in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38424",
+                    "btLogicalName": "Business Unit Code",
+                    "dqDesc": "Reference Check for Business Unit Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38425",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38426",
+                    "btLogicalName": "Acquisition Channel Code",
+                    "dqDesc": "Reference Check for Acquisition Channel Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38427",
+                    "btLogicalName": "Common Chart Of Account Code",
+                    "dqDesc": "Reference Check for Common Chart Of Account Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38428",
+                    "btLogicalName": "Country Code",
+                    "dqDesc": "Reference Check for Country Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38429",
+                    "btLogicalName": "Country Code Of Risk",
+                    "dqDesc": "Reference Check for Country Code Of Risk in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38430",
+                    "btLogicalName": "Credit Status Code",
+                    "dqDesc": "Reference Check for Credit Status Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38431",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38432",
+                    "btLogicalName": "Day Count Indicator",
+                    "dqDesc": "Reference Check for Day Count Indicator in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38433",
+                    "btLogicalName": "Delinquency Status Code",
+                    "dqDesc": "Reference Check for Delinquency Status Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38434",
+                    "btLogicalName": "Deposit Primary Purpose Code",
+                    "dqDesc": "Reference Check for Deposit Primary Purpose Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38435",
+                    "btLogicalName": "Encumbrance Reason",
+                    "dqDesc": "Reference Check for Encumbrance Reason in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38436",
+                    "btLogicalName": "Fee General Ledger Code",
+                    "dqDesc": "Reference Check for Fee General Ledger Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38437",
+                    "btLogicalName": "General Ledger Account Code",
+                    "dqDesc": "Reference Check for General Ledger Account Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38438",
+                    "btLogicalName": "Hedge Portfolio Set Code",
+                    "dqDesc": "Reference Check for Hedge Portfolio Set Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38439",
+                    "btLogicalName": "Holding Type",
+                    "dqDesc": "Reference Check for Holding Type in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38440",
+                    "btLogicalName": "Holiday Rolling Convention Code",
+                    "dqDesc": "Reference Check for Holiday Rolling Convention Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38441",
+                    "btLogicalName": "Instrument Type",
+                    "dqDesc": "Reference Check for Instrument Type in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38442",
+                    "btLogicalName": "Interest Calculation Method",
+                    "dqDesc": "Reference Check for Interest Calculation Method in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38443",
+                    "btLogicalName": "Interest Rate Code",
+                    "dqDesc": "Reference Check for Interest Rate Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38444",
+                    "btLogicalName": "Interest Timing Type",
+                    "dqDesc": "Reference Check for Interest Timing Type in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38445",
+                    "btLogicalName": "Interest Rate Type",
+                    "dqDesc": "Reference Check for Interest Rate Type in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38446",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38447",
+                    "btLogicalName": "Line Of Business Code",
+                    "dqDesc": "Reference Check for Line Of Business Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38448",
+                    "btLogicalName": "Loss Share Agreement Code",
+                    "dqDesc": "Reference Check for Loss Share Agreement Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38449",
+                    "btLogicalName": "Netting Agreement Code",
+                    "dqDesc": "Reference Check for Netting Agreement Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38450",
+                    "btLogicalName": "Organization Unit Code",
+                    "dqDesc": "Reference Check for Organization Unit Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38451",
+                    "btLogicalName": "Original Account Number",
+                    "dqDesc": "Reference Check for Original Account Number in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38452",
+                    "btLogicalName": "Ownership Type",
+                    "dqDesc": "Reference Check for Ownership Type in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38453",
+                    "btLogicalName": "Parent Account Number",
+                    "dqDesc": "Reference Check for Parent Account Number in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38454",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38455",
+                    "btLogicalName": "Pledged Status Code",
+                    "dqDesc": "Reference Check for Pledged Status Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38456",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38457",
+                    "btLogicalName": "Region Code",
+                    "dqDesc": "Reference Check for Region Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38458",
+                    "btLogicalName": "Bank Code",
+                    "dqDesc": "Reference Check for Bank Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQREF38459",
+                    "btLogicalName": "Write Off Reason Code",
+                    "dqDesc": "Reference Check for Write Off Reason Code in Stage Correspondent Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                },
+                {
+                    "dqId": "DQRNG04",
+                    "btLogicalName": "Encumbrance Percentage",
+                    "dqDesc": "Should be between 0 and 100",
+                    "dqType": "Range Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:09.0",
+                    "modifiedDate": "2024-11-04 04:39:03.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "ALM",
+                    "ucName": "Asset Liability Management"
+                },
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                },
+                {
+                    "ucId": "LRM",
+                    "ucName": "Liquidity Risk Management"
+                },
+                {
+                    "ucId": "BSP",
+                    "ucName": "Balance Sheet Planning"
+                }
+            ]
+        }
+    ]
+}

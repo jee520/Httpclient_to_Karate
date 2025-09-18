@@ -1,0 +1,99 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Attribute Stats Summary Entity Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey",
+                    "gcd": "This attribute stores unique identifier of attribute stats summary entity",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Check Type Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This attribute stores the code for a check type created for data quality check.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Entity Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "This attribute stores the name of the source table on which a data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Group Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This attribute stores the code for a group created for data quality check.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Severity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This attribute stores the code for severity of a data quality check.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Error Record Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Long",
+                    "gcd": "This attribute stores error record identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number of Attributes Defaulted",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This attribute stores the number of attributes for which data value is defaulted on data quality failure",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number of Attributes Failed",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This attribute stores the number of attributes data quality checks were failed",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

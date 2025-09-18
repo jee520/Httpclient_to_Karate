@@ -1,0 +1,416 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the average balance computed for a chosen period. There are different ways to compute average balance. A simple method would be, Opening balance + Closing Balance, divided by 2. A complex method would be find out for how many days the balance was with the Financial Institution and then compute the average balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Balance Category Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of balance category as Balance Transfer, Cash, Loan or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bonus Points Earned",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the bonus points earned in an account for the current period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cards Balance Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Credit Cards provide promotional offers. They may be very less or zero interest rate. Maturity dates refers to the end date of such promotional offer balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Cycle Outstanding Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total outstanding balance in the current cycle. Cycle balance refers to the balance as of statement date. Current cycle balance refers to the cycle balance spent in current month.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Payment Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the current period payment made. Current Payment is the installment amount received from the customer. Current payment in the case of asset products represents the current periodic payment made to repay the outstanding balance. For standard amortization types, those that are not non patterned and non scheduled, Transfer Pricing Application, remaining term methods, uses the current payment from the detail record for the life of the record until a payment recalculation occurs. This will same as maturity amount in case of repo contracts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cycle Balance Transfer Fee Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the outstanding amount for balance transfer fee at the end of billing cycle.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cycle Penalty Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the balance which is subject to penal pricing due to non adherence to conditions of payment or other reasons. The balance shown here is as on Cycle End in the MIS Period. E.g.. Credit Card Cycle is 23rd of the month to 22nd of next month. If the MIS period is 31st Mar, the balance referenced here would be Cycle End Penalty Balance as on 22nd Mar, reported on 31st March.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the rate that discounts probability weighted future cash flows to the net carrying amount of the financial instrument through the life of an asset. The rate that discounts probability weighted future cash flows to the net carrying amount of the financial instrument through the life of an asset. Effective interest rate is applicable only to Fixed interest rate instruments. For example Consider a stated annual rate of 10 percent. Compounded yearly, this rate will turn USD 1000 into USD 1100. However, if compounding occurs monthly, USD 1000 would grow to USD 1104.70 by the end of the year, rendering an effective annual interest rate of 10.47 percent. Basically the effective annual rate is the annual rate of interest that accounts for the effect of compounding.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Annual Percentage Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the annual percentage rate as applicable to current end of period say month.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to end of period balance which includes accrued interest. All the calculations such as interest, prepayment amounts etc. are based on this amount. This is used in all the calculations performed by cash flow engine. In Case of LC Contracts, EOP Balance should be populated when LC Is executed. Till LC is executed, LC amount sanctioned should be hold in Total Commitment Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Penalty Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the balances Subject to Default or Penalty Pricing, Any amount outstanding subject to default or penalty pricing due to performance at the end of the period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Principal Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the outstanding principal balance at the end of the month. Each account will have principal and interest component, this column will capture the outstanding principal component at the end of the month.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Promotional Annual Percentage Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Purchase APR which is specific for promotional program applicable as of End of Period, month, for a said account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Deferred Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the deferred interest is the amount of interest added to the principal balance of a loan when the contractual terms of the loan allow for a scheduled payment to be made that is less than the interest due. If one of your payments is late, or if you do not pay off the full balance by the end of the deferred interest period, you could have to pay all of the interest that you expected to be deferred.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the interest rate as applicable as on As of Date. This is expected for both, fixed rate as well as floating rate instrument. For floating rate instruments, the rate would be computed at the time of next re pricing date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the interest rate code that identifies the index to which adjustable rate accounts are tied. Transfer Pricing references interest rate code when calculating option costs and uses the relevant interest rate from the defined interest rate code, IRC, together with the margin to determine the reprice rate for the instrument. The value populated in this column for each account record must be synchronized with the actual interest rate code values defined in Transfer Pricing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of interest rate paid on this transaction., For instance Fixed Or Floating.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Write Off Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount Interest that has been written or Charged off. This amount includes only overdue interest on that account. Asset write offs happen when a loan repayment is delayed and any efforts by the collection and recovery department of the financial institution are unsuccessful or partially successful.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Margin Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the margin is the contractual spread that is added to the pricing index and results in the financial institutions retention, net, rate, for adjustable rate accounts. It is used as current net rate = Applicable rate from the Interest Rate Curve Plus margin. The gross rate, CUR_GROSS_RATE, is equal to the index to which the record is tied to plus a spread, which is defined by the MARGIN_GROSS field.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the contractual date on which the principal balance is expected to fully amortize and the balance payable would be nil. This is applicable for term loan products but not for revolving credit or overdraft type of account. In case of insurance policy, for some whole life insurance products the maturity date is aligned to maximum attained age and the policy is payable upon the earlier of the maturity date or the death of the insured. In case of Term Life insurance policies the maturity date is determined as policy issue date plus Term of the contract. In case of an annuity it is the date from which the annuitant has chosen to take the payouts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Offer Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the offer. An offer is defined as an abstract, physical and or monetary benefit attached to a product for a predetermined period of time with a view to increase the sales of a product. Offer dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Write Off Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount written off as bad debt. This amount includes only overdue principal on that account. Asset write offs happen when a loan repayment is delayed and any efforts by the collection and recovery department of the financial institution are unsuccessful or partially successful.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Revolving Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is a term or revolving account. Revolving credit is a type of loan or credit that does not have a fixed number of payments. The revolving limit is similar to a credit limit against which a customer can draw funds for financing. Revolving amount is applicable to products like credit cards, revolving loans or line of credit etc. Term products are those products that have pre scheduled payments or maturity. Examples of term products are term loans, term deposits or Certificate of deposit etc. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Reward Rebate Expense Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Rewards or Rebates expenses associated with reward and rebate programs for credit cards.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Bonus Points",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the Total Bonus points earned by an account as of date. Bonus points are specified by the financial institution for each transaction, the rate of bonus points varies based on the type of card owned by the customer like gold card, silver card, platinum etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Outstanding Balance Cycle End",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the outstanding balance of the account at the end of the cycle. Outstanding balance is the sum of purchases made by the customer in the cycle. Any overdue amount of the previous billing period also gets added to the outstanding balance.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32965",
+                    "btLogicalName": "Revolving Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF38600",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Credit Card Balance Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF38601",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Credit Card Balance Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF38602",
+                    "btLogicalName": "Cards Balance Maturity Date",
+                    "dqDesc": "Reference Check for Cards Balance Maturity Date in Stage Credit Card Balance Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF38603",
+                    "btLogicalName": "Cards Balance Maturity Date",
+                    "dqDesc": "Reference Check for Cards Balance Maturity Date in Stage Credit Card Balance Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF38604",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Credit Card Balance Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF38605",
+                    "btLogicalName": "Maturity Date",
+                    "dqDesc": "Reference Check for Maturity Date in Stage Credit Card Balance Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF38606",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Credit Card Balance Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF38607",
+                    "btLogicalName": "Balance Category Code",
+                    "dqDesc": "Reference Check for Balance Category Code in Stage Credit Card Balance Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF38608",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Credit Card Balance Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF38609",
+                    "btLogicalName": "Interest Rate Code",
+                    "dqDesc": "Reference Check for Interest Rate Code in Stage Credit Card Balance Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF38610",
+                    "btLogicalName": "Interest Rate Type",
+                    "dqDesc": "Reference Check for Interest Rate Type in Stage Credit Card Balance Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF38611",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Credit Card Balance Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                },
+                {
+                    "dqId": "DQREF38612",
+                    "btLogicalName": "Offer Code",
+                    "dqDesc": "Reference Check for Offer Code in Stage Credit Card Balance Summary",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:22.0",
+                    "modifiedDate": "2024-11-04 04:39:25.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

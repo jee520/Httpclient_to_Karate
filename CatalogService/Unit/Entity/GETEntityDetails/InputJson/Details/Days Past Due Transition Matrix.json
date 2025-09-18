@@ -1,0 +1,171 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Destination Delinquency Band Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey",
+                    "gcd": "Refers to the destination delinquency band for the  transition probability calculation.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Period Applicable",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the time period for which the value is applicable.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Source Delinquency Band Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey",
+                    "gcd": "Refers to the source delinquency band for the  transition probability calculation.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transition Frequency Unit Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates the unit of the transition frequency. The list of values are D- Daily, M- Monthly, Q-Quarterly, H-Half Yearly, Y-yearly.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transition Matrix Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description that describes the features and methodology of transition matrix model.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transition Matrix Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Transition Matrix Identifier represents a Transition matrix model. It is used to associate with matrix data.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transition Matrix Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the Transition Matrix model Name is expected to be self explanatory to represent unique features of the matrix.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transition Matrix Time Homogeneous Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the same transition matrix for more than one period it means said Transition Matrix is time homogeneous for that period. When different matrix are used, it means they are time non homogeneous. List of values are Y, N. For example, Transition Frequency is three Months and Time Homogeneous indicator Y indicates the quarterly matrix to continue for subsequent quarters up to Applicable period. If the indicator is N then applicable period should always be one and vice versa.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transition Probability",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the probability of account associated with source Delinquency band moving to destination Delinquency band in specified time period.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV34098",
+                    "btLogicalName": "Transition Matrix Time Homogeneous Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQLOV34099",
+                    "btLogicalName": "Transition Frequency Unit Indicator",
+                    "dqDesc": "Should have list of values as D,H,M,Q,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF41200",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Days Past Due Transition Matrix",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF41201",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Days Past Due Transition Matrix",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF41202",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Days Past Due Transition Matrix",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                }
+            ]
+        }
+    ]
+}

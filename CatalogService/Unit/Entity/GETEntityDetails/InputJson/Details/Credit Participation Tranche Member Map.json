@@ -1,0 +1,190 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Agent Member Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if said member bank is acting as a agent the said tranche. A drawing by the beneficiary of a syndicated LC need be presented only to the agent, which then notifies the other issuing banks of the draw and forwards all documentation to the other banks. Each issuing bank agrees to deliver its portion of each complying draw to the agent, which in turn delivers the funds to the beneficiary. The payment to the beneficiary is typically made on the same day as the drawing, or, if the drawing is made late in the day, on the next day. List of values are Y, N. Y is Agent Bank and N is Not a agent Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Participation Tranche Identifier Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the Participation Tranche. For participation or syndication arrangement, amount is often not disbursed in single go. Multiple disbursements are referred to tranches here.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fronting Member Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if said member bank is fronting the said tranche. In the context of syndicated credit facilities, a lender which issues a letter of credit, bond or guarantee on behalf of the lenders in the syndicate. The fronting bank is directly liable to the beneficiary for the full amount of the letter of credit, bond or guarantee but is counter indemnified by the syndicate lenders pro rata to their participation in the relevant facility. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lead Member Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if said member bank is acting as a Lead bank for the said tranche. The lead arranger, or the mandated lead arranger i.e. MLA, is the bank or firm that facilitates and leads a group of investors in a syndicated loan for major financing. The lead arranger assigns parts of the new issue to other underwriters for placement and usually takes the largest part itself. It is also called a managing underwriter or a syndicate manager. The arranger is paid either through an arranger fee, through skimming or through structuring fees. List of values are Y, N. Y is Lead Bank, N is Not a Lead Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Participation Member Bank Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the member bank code participating in the participation or syndication.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Participation Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the percentage of total participation amount to be participated by the entity. This should be populated by reporting entity when they participate in a given contract and do not play role of lead or fronting agent. This should hold the value of less than 100 since other financial institutions are participating in the credit facility as well. This percentage should be the Participation Percent of the reporting entity. NULL value will be considered as 100 percent.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Swing Line Lender Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if said member is going act as swing line lender. A swing line facility is a sub limit of a syndicated revolving credit loan whereby a lender makes a short term which is operating not more than five days loan, in smaller amounts, on shorter notice and with a higher interest rate than is otherwise available for revolving credit loans. The purpose is to support the cash management needs of borrower. List of values are Y, N.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV31995",
+                    "btLogicalName": "Agent Member Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQLOV31996",
+                    "btLogicalName": "Swing Line Lender Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQLOV31997",
+                    "btLogicalName": "Fronting Member Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQLOV31998",
+                    "btLogicalName": "Lead Member Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF36365",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Credit Participation Tranch Member Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF36366",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Credit Participation Tranch Member Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF36367",
+                    "btLogicalName": "Credit Participation Tranche Identifier Code",
+                    "dqDesc": "Reference Check for Credit Participation Tranche Identifier Code in Stage Credit Participation Tranch Member Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF36368",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Credit Participation Tranch Member Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                },
+                {
+                    "dqId": "DQREF36369",
+                    "btLogicalName": "Participation Member Bank Code",
+                    "dqDesc": "Reference Check for Participation Member Bank Code in Stage Credit Participation Tranch Member Map",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:14.0",
+                    "modifiedDate": "2024-11-04 04:39:08.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

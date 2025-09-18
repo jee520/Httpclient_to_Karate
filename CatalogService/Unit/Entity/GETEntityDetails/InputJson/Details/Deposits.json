@@ -1,0 +1,2755 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "ATM Facility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account has Automated teller machine facility. This is usually applicable for CASA, Overdrafts and Card accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ATM Issue Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which ATM card was issued on the CASA account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Above Compensation Limit Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the balance in the deposit, retail and corporate, is above the compensation limit or not. If the value is updated as Y which means the balance is above compensation limit and if the value is updated as N which means the balance is below compensation limit. Compensation limit is the amount of guarantee to the deposit provided by the regulator.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Elite Class",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to elite classification of the account. This will be useful in classifying customers as per the status and analyze behavior accordingly. The list of values are like Gold, Silver, Platinum, Privilege Customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Net Worth",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to the total net value of all assets associated with this account expressed in the account currency. This is the aggregate value of all holdings in this account, with a reduction for any margin loans or other debts owed to the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Title",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the actual title of the account. This attribute is needed to identify whether the title of the account contains the name of an unincorporated association. For example in FDIC depending on whether the account title contains the name of the unincorporated association, the classification for deposit insurance as per FDIC differs. In case for Insurance companies, Refers to Name of the security, address for property.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Accrued Other Expenses",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to other accrued expenses other than taxes related to the referenced account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accrued Penalty Charges",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Penalty Charges accrued.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accrued Taxes",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the accrued taxes collected but not remitted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Actual Renewal Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the actual date on which the overdraft facility is renewed. Though overdraft is revolving, the Overdraft facility itself is for a fixed term and hence has to be renewed by the credit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Aggregate Balance Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Aggregate Balance of the account for month till date. Aggregation Balance is the sum of balance available in the account on each day of the MIS period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Aggregate Number Of Days Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Aggregate Number of Days for month to date. Aggregate number of days is the sum of all days for which the aggregation balance done for the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amount Received Against Interest Reserve",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the Amount Received Against Interest Reserve. Report the amount of interest advanced to borrowers on construction loans that has been capitalized into the borrowers loan balances through the use of interest reserves.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Annual Account Fee",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the annual fees charged to an account. The annual fees charged by financial institutions can come in various forms such as Annual maintenance fees, Year end charges etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Annual Percentage Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the current annual percentage rate, APR, associated with the account. Annual percentage rate is the annualized interest rate applicable to the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Annual Percentage Rate Reset Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code to the APR rate reset frequency as applicable to said account.\nIf the BHC does not have a reset schedule, report 6. 0 – Fixed rate no reset, 1 – Monthly, 2 – Every 2 months, 3 – Every 3 months, 4 – Every 6 months, 5 – Every 12 months, 6  Others.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Annualized Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the annualized interest rate, it is the rate per annum charged to the customer.\nSome of the asset products could have monthly interest rate charged on the account e.g.: credit cards, this column however Refers to the annualized percentage rate by multiplying the rate with 12, signifying the 12 months in a year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Arms Length Transaction Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates an arms length transaction which is a transaction in which the buyers and sellers act independently.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Automatic Renewal Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates automatic renewal. Renewal flag indicates the deposit would be renewed automatically on maturity only on identical terms.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Automatic Transfer Service Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if said account is Automatic Transfer Service Account. Automatic Transfer Service accounts are deposits or accounts of individuals on which the depository institution has reserved the right to require at least seven days written notice prior to withdrawal or transfer of any funds in the account and from which, pursuant to written agreement arranged in advance between the reporting institution and the depositor, withdrawals may be made automatically through payment to the depository institution itself or through transfer of credit to a demand deposit or other account in order to cover checks or drafts drawn upon the institution or to maintain a specified balance in, or to make periodic transfers to, such other accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Autopay Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the account number which should be debited for charges or repayment. This is applicable when automatic payments are enabled for an account. This may be an account of the customer held at the financial institution or an outside firm.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Autopay Account Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the automatic payment instrument type. Example values include Checking Account, CASA, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Autopay Bank Transit Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the routing transit number of the organization where auto pay debits will be charged.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Autopay Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if automatic payment is enabled for the account. Automatic payment refers to standing instructions or auto debits where the transfer of funds happen automatically. In India, automatic payment is executed through ECS, Electronic Clearing System. In US, the automatic payment can happen through the Automated Clearing House.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the average balance computed for a chosen period. There are different ways to compute average balance. A simple method would be, Opening balance + Closing Balance, divided by 2. A complex method would be find out for how many days the balance was with the Financial Institution and then compute the average balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Brokered Deposit Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the average brokered deposit balance in case of an aggregated account loaded for multiple brokered deposits.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Credit Balance Inception Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the average credit balance from inception till date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Credit Balance Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the average credit balance month till date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Credit Balance Year Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the average credit balance for Year Till Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Daily Balance Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to average daily outstanding balance calculated for the current month till date. It is calculated as aggregate balance month till date divided by aggregate number of days month till date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Average Float Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Average Float Balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bankruptcy Chapter Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of the bankruptcy chapter filed by customer of the said account. Bankruptcy Chapter dimension table is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Benchmark Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the interest benchmark rate applicable to that account. This is applicable when the account carries floating rate of interest. In that case, prevailing rate is derived from the Interest Rate Curve and margin, if specified, is added to compute the applicable rate of interest for an account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bill Payment Services Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if the account has been used for bill payments. Utility bills, credit card bills etc. can be paid using a bank account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Billing Cycle Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the billing cycle ends. It is a cut off for billing. During the billing cycle, purchases, credits, fees, and finance charges are posted to your account. At the end of the billing cycle, you are billed for all unpaid charges and fees made during the billing cycle.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Borrowing Insurer Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of the insurance provider for the given borrowing or deposit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Access Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate the account needs branch access or can operate using internet or tele banking.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Broker Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the broker of the insurance policy.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Broker Deposit Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code for broker deposit type. A broker is an individual or party, brokerage firm, that arranges transactions between a buyer and a seller for a commission when the deal is executed. There are several kinds of brokers, each of whom deals in specific types of transactions. Each type of brokers provides different levels or type of service. List of Values for this table is Reciprocal, Sweep and Other. Currently this attribute is only consumed by LRM application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Broker Involved Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if there is a broker involved in the account acquisition. Financial institutions may use the services of a broker in acquiring high value accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Broker Involvement Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the nature of a brokers involvement with respect to a brokered deposit at a covered institution. The broker can be engaged in placing the deposits, which is direct involvement, DIR, or engaged in the facilitation of placement deposits which is an indirect involvement, INDIR.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bump Up Option For Deposit Expiry Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Bump up Option Expiration date. A savings certificate entitling the bearer to take advantage of rising interest rates with a one time option to bumping up the interest rate paid. The bump up certificate of deposit, bump up CD, yields a lower rate than that of a similar certificate of deposit, CD, with no bump up option.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Bump Up Option For Deposit Interest Rate Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the Bump up Option availability. A savings certificate entitling the bearer to take advantage of rising interest rates with a one time option to bumping up the interest rate paid. The bump up certificate of deposit, bump up CD, yields a lower rate than that of a similar certificate of deposit, CD, with no bump up option.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Callable Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the callable period refers to the period in which the customer can call back the amount before the maturity. This kind of features are normally attached with the deposit products where Callable CDs can be redeemed, called away, by the issuing bank prior to their stated maturity, usually within a given time frame, and at a preset call price.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Management Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is associated with cash management relationship. Cash management refers to a broad area of finance involving the collection, handling, and usage of cash. Such accounts are considered as operational accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Report Exemption Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether this account has an exemption from filing Cash Transaction Reports, CTRs.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Clearing Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is associated with clearing relationship. Clearing denotes all activities, from the time a commitment is made for a transaction until it is settled. Clearing of payments is necessary to turn the promise of payment, for example, in the form of a cheque or electronic payment request, into actual movement of money from one bank to another. Such accounts are considered as operational account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Commitment Fee",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the fee amount charged by the financial institution to extend the facility. This is the fee charged by the financial institution for an unused credit line or undisbursed loan. A commitment fee is generally specified as a fixed percentage of the undisbursed loan amount. The lender charges a commitment fee as compensation for keeping a line of credit open or to guarantee a loan at a specific date in future. The borrower pays the fee in return for the assurance that the lender will supply the loan funds at the specified future date and at the contracted interest rate, regardless of conditions in the financial and credit markets.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Covered By Zone One Insurance Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the deposit, retail and corporate, under consideration is covered by the deposit insurance scheme maintained by a Zone 1 country. This is required by FSA.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the credit balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate that the account is backed by a credit line.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Increase Last Rejected Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the immediate past date on which the proposal to increase credit line was rejected.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Officer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the credit officer processing the application. The credit officer evaluates the credit worthiness by assessing the ability and the willingness of the borrower.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Score Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date from when the credit score is valid. Credit Score is a statistically derived numeric expression of creditworthiness of person that is used by lenders to access the likelihood that a person will repay his or her debts. A credit score is based on, among other things, past credit history of a person.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Summations Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to sum of all credit transactions from month till date. This is required for overdraft accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cumulative Roll Over Count",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of times the term deposit account has been rolled over. Accounts such as term deposits, retirement accounts and overdrafts have the rollover option.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Debt Service Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Current Debt Service Ratio. Debt service ratio or the Debt service coverage ratio is a measure used to understand the financial status of the borrower or customer. In case of retail borrowers, the debt service ratio is calculated by summing up the obligations such as annual or periodic payments on loans, property taxes, etc. and dividing the sum by the gross income.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Debt To Income Back End",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Debt to Income, DTI, This ratio is the percent of total monthly debt payments of the borrower, including proposed housing expenses, divided by his or her gross monthly income, used to determine the mortgage amount that qualifies a borrower. The total debt to income, or back end, ratio, shows how much of your gross income would go toward all of your debt obligations, including mortgage, car loans, child support and alimony, credit card bills, student loans and condominium fees. In general, your total monthly debt obligation should not exceed 36 percent of your gross income. To calculate your debt to income ratio, multiply your annual salary by 0.36, then divide by 12, months. The answer is your maximum allowable debt to income ratio Example: Furthermore, the lender says the total debt payments each month should not exceed 36 percent, which comes to 1,200 USD., 40,000 times 0.36 equals 14,400, and 14,400 divided by 12 months equals 1,200..",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Debt To Income Front End",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the DTI Ratio, Front end, at origination – Report the Front end DTI, PITI Housing Ratio, at origination of the mortgage Front end DTI ratios give the percentage of the monthly income of borrower, that would go toward housing expenses, mortgage payment, real estate taxes, insurance of the homeowner, association dues, etc., The housing expense, or front end, ratio shows how much of your gross, pretax, monthly income would go toward the mortgage payment. As a general guideline, your monthly mortgage payment, including principal, interest, real estate taxes and homeowners insurance, should not exceed 28 percent of your gross monthly income. To calculate your housing expense ratio, multiply your annual salary by 0.28, then divide by 12, months. The answer is your maximum housing expense ratio. \nExample: Take a homebuyer who makes 40,000 UDS a year. The maximum amount for monthly mortgage related payments at 28 percent of gross income is 933 USD., 40,000 times 0.28 equals 11,200, and 11,200 divided by 12 months equals 933.33..",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Gross Yield",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the current gross yield on the investment. Gross yield is defined as the yield on an investment before the deduction of taxes and expenses. Gross yield is expressed in percentage terms. Current yield is calculated as interest received plus total fees and charges, all are annual, divided by the principal.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Net Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Long",
+                    "gcd": "Refers to the current interest rate or Current nominal interest rate is used to derive the interest cash flow, income or expense, that is due to the financial institution, referred to as net. All term accounts require a valid current interest rate. For non interest earning or bearing accounts, current interest rate equal to 0. For transaction accounts where the rate changes daily based upon average balances, current interest rate should be the spot rate at the time the extract program is run. For interest bearing accounts, current interest rate is greater than or equal to 0.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Custodian Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the Custodian which holds the Certificate of deposit in its custody.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Custody Relationship Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is associated with custody relationship. Custodian is a specialized financial institution responsible for safeguarding a firms or individuals financial assets and is not necessarily engaged in traditional commercial or consumer or retail banking such as mortgage or personal lending. Such accounts are considered as operational account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Daily Limit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the maximum daily limit that can be utilized by the customer on an account. This includes daily cash limit plus daily POS limit, point of sales minus for purchase of merchandise.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Daily Limit ATM",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the maximum daily cash limit that can be utilized by the customer from ATM on an account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Daily Limit Point Of Sale",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the maximum daily POS limit that can be utilized by the customer on an account. POS stands for point of sales, that is for purchase of merchandise.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Debit Transaction Amount Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the sum of all debit transactions from month till date. This is required for overdraft accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Debt Sold Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies if the debt has been sold off to a investor. A debt which is originated by the bank is generally sold off in secondary market in order to increase the liquidity position.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account is a delinquent account. Delinquent is defined as the failure to accomplish what is required by law or duty, such as the failure to make a required payment or to perform a certain action. This indicator is set to Y upon missing a single installment payment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency History",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the delinquency history of the customer and helps to track the movement of the account across various delinquency status types. The number of days past due for the last number of payment cycles in captured in this column. Values are comma separated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquency Workout Program Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to code for the loss or delinquency work out program. Delinquency Workout Program Dimension is the is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Delinquent Year Times",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "It Refers to the number of times the account has been delinquent on installment payment during a year of the account. An account can be in and out of delinquency a number of times during its life. Any account which is past due is a delinquent account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deposit Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the initial deposit, if any, that the bank has to place with the LVPS at the start of the Day to enable transactions throughout the day. Refers to the total amount deposited into the account. This is also known as Credit Turnover and is useful for Marketing Triggers and Predictive Modeling.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deposit Insurance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the deposit insurance amount. In most countries, deposit insurance is implemented to protect bank depositors in full or in part, from losses caused by a banks inability to pay its debts when due.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deposit Insurance Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount of the limit that the deposit account is covered by the insurance program.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deposit Primary Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the primary purpose of deposit code. The list of values are\nPAYREMIT = Payment remittance,\nSAFEKEEPING = Administration of payments and cash flows related to the safekeeping of investment assets, Not including the purchase or sale of assets,\nPAYROLLADMIN = Payroll administration and control over the disbursement of funds,\nPYMNTORDER = Transmission, reconciliation, and confirmation of payment orders, \nDAYOVERDRAFT = Daylight overdraft,\nINTRADAYSETTLEMNT = Determination of intra day and final settlement positions,\n SECTRNS = Settlement of securities transactions,\nCAPDSTBN = Transfer of capital distributions and recurring contractual payments,\nSUBSCREDEMNS = Customer subscriptions and redemptions,\nESCFNDTRNSFR = Escrow, funds transfer, stock transfer, and agency,\nCUSTFNDDISTRBN = Scheduled distribution of customer funds,\nESCFNDTRNSFRPAYSET = Escrow, funds transfer, stock transfer, and agency services, including payment and settlement services, payment of fees, taxes, and other expenses,\nFNDCOLL = Collection and aggregation of funds.\n,14, OTH = Others, As per US LCR final rules, to classify a deposit as operational deposit the primary purpose of the deposit should be one among the 13 values listed and deposit should also be used for either clearing, custody or cash management activities.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deposit Reserves",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Deposit Reserves.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deposit Reserves Charge",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the deposit reserves charges.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deposit Service Provider",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for deposit listing of service provider.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deposits Offering Economic Incentive Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the deposit is priced in a manner such that it provides an economic, economic is not just interest rate but also fees, incentive to the customer to maintain excess funds in the account. A value of Y indicates that an economic incentive is provided.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Direct Deposit Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "It Refers to the account number used for direct deposits to the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Direct Deposit Account Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "The type of account that makes direct deposits into the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Direct Deposit Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if it is a direct deposit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Direct Soft Exposure Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the direct soft exposure. limit amount which is pre approved, but not used by the customer. This is above the existing credit limit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Disbursement Method Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the method of disbursing interest liquidated to the account. It could be liquidated to a different settlement account or capitalized to the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Downgrade Impact Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the downgrade Impact amount. This is the amount that will be posted as collateral for liabilities if legal entities rating goes below the stated rating, this stated rating is called as downgrade trigger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Downgrade Trigger Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the trigger identifier for each account. A trigger is the set of condition in a accounts agreement that initiates a specific action in the event of a change in a firms credit rating. For example, a downgrade in a firms credit rating may set off posting additional collateral.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dual Currency Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify if the product has an option of dual currency investment. A dual currency deposit is a structured product where a fixed deposit, made in one currency, has a bank held option to repay the principal at maturity in a different currency. It essentially combines a cash or money market deposit with a foreign exchange option. Because of the currency risk, dual currency deposits offer higher interest rates.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dually Payable Deposit Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether a deposit can be payable at both originating office and a branch of the reporting institution in any state.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Early Access Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the period of early access up to which withdrawals can be made from the retail deposit accounts without any charge. This is required by FSA.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Early Access Period Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Unit of time for the period of early access up to which withdrawals can be made from the retail deposit accounts without any charge. This is required by FSA. Like D  Days, M  Months, Y Years.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Early Redemption Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount that has been redeemed early for the account during this period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Early Redemption Fees",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Early redemption fees in case the contract is closed pre mature.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Early Redemption Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies whether the bank has the right to redeem the account prior to maturity. This column is required to determine whether an account can be redeemed by the bank within the LCR horizon as per BOT guidelines. Also indicates whether account has been redeemed early in this period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Early Redemption Times",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of times the account experience premature withdrawal. This is usually in the case of Term Deposits that the money is locked for a specified period of time, such deposits can facilitate partial withdrawal from the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Early Withdraw Penalty Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the penalty amount applicable in case of an early withdrawal. In investments with a certain lock in, a penalty is applicable in case of early withdrawal. Usually the penalty amount is dependent on the total amount being withdrawn.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Early Withdraw Penalty Percent",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the penalty percentage over current principal and interest that will be assessed when an early withdraw action occurs.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Equal Withdrawal Rights Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag is to be populated for accounts with multiple customers. When Equal Withdrawal Rights, this means that all the owners have equal withdrawal rights in the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Escrow Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is escrow account or not. An escrow account can be used in the sale of a house, for example. If there are conditions to the sale, such as the passing of an inspection, the buyer and seller may agree to use escrow. In this case, the buyer of the property will deposit the payment amount for the house in an escrow account held by a third party. This assures the seller  in the process of allowing the house to be inspected  that the buyer is capable of making payment. Once all of the conditions to the sale are satisfied, the escrow transfers the payment to the seller, and title is transferred to the buyer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Escrow Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey",
+                    "gcd": "Refers to Escrow Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Expiration Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the expiration date of the account or contract. Expiration date is defined as a date after which the account or contract is no longer in effect.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiduciary Losses Recovered",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total recoveries from the account for the loss incurred during fiduciary activities.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiduciary Relationship Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of fiduciary relationship that exists between the customer and the beneficial party to the account. The value is from the perspective of the customer i.e. the relationship of the customer to the beneficial party. For instance, if a customer is holding the account for a minor in his or her capacity as a guardian, this value is updated as Guardian.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fixed Interest End Term",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Term in which a fixed rate loan would move into a Adjustable rate Mortgage. Example A 5 Year ARM, It begins with a fixed rate for 5 years, but then changes to an ARM with the rate changing every year for the rest of the term of the loan.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Foreclosure Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the balance on that account just before the closure of the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Foreclosure Fees",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the foreclosure or pre closure fees applicable for the closure of the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Foreclosure Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Indicates the foreclosure process status. Foreclosure Status Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Foreclosure Suspended Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if foreclosure sale has been suspended or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Free Credit Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the liabilities of a broker or dealer to customers which are subject to immediate cash resulting from sales of securities, dividends, interest, deposits, or otherwise. payment whether resulting from sales of securities, dividends, interest, deposits, or otherwise. These balances should be net of any debit balances, customer receivables, in related accounts.\nRefers to the free credit amount. Free credit balances are the cash that a client has a right to demand on short notice. This is required for prime brokers in US to collect their clients free credit balances “in safe areas of the broker dealers business related to servicing its customers” or to otherwise deposit the funds in a reserve bank account to prevent commingling of customer and firm funds.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Frozen Account Due To Antimoney Laundering Event Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates account is frozen due to antimony laundering event. Any money which has been deposited in a bank account which has been sourced through money laundering or other illegal activities should not be part of Deposit guarantee scheme. List of values are Y,N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Funding Price Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the funding Price in basis points rate stated in an absolute rate, rounded to two decimals. If the firm paid 350 bps for 1 week commercial paper to raise funds then Funding Price BPS Rate should be 3.50.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Funds Owned By Annuitant Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies whether the funds held in annuity contract related deposits, placed by insurance companies with banks, are owned by the insurance company or the annuitant, as per the applicable state law. The list of values are Y and N, value of Y indicates that the funds held in such deposits are owned by the annuitant. For example as part of FDIC 370 calculations, this attribute is used to determine the granularity of SMDIA allocation i.e. whether it is at a unique insurance company  annuitant combination or simply at a unique annuitant level.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Gross Loss Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the gross loss amount. Gross loss amount is the difference between cost of sales and turnover, or net sales, when cost of sales is the greater item.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guaranteed By Government Program Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the debt is supported or guaranteed by a government debt protection program eg:FDIC, DICGC.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Hard Hold All Debits Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the Hard Hold Flag for this account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Held Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount which is kept in the account by the customer and is not included as available funds in the accounts. The customer gets certain advantages or privileges for maintaining the hold amount such as higher interest rate, waiving of ATM withdrawal charges etc. The term Hold is used in US regulations to refer to amount which is held by the bank for some purpose. The amount is not available for withdrawal etc., as per terms of the product and does not impact EOP.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "High Profile Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether this account is a high profile or preferred account that prove to be a conflict of interest while managing the assets of portfolio of accounts. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "High Value Deposit Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if a deposit account is a high value deposit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Highest Account Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the highest balance of the account for the current update period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Impact On Cash Flow Eight Notch Downgrade",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the impact of a eight notch downgrade on cash flows. A credit downgrade increases the borrowing cost of the borrower. This increases the interest cash flow of the account. A downgrade from AAA to AA+ is an example of a single notch downgrade.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Impact On Cash Flow Five Notch Downgrade",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the impact of a five notch downgrade on cash flows. A credit downgrade increases the borrowing cost of the borrower. This increases the interest cash flow of the account. A downgrade from AAA to AA+ is an example of a single notch downgrade.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Impact On Cash Flow Four Notch Downgrade",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the impact of a four notch downgrade on cash flows. A credit downgrade increases the borrowing cost of the borrower. This increases the interest cash flow of the account. A downgrade from AAA to AA+ is an example of a single notch downgrade.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Impact On Cash Flow Nine Notch Downgrade",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the impact of a nine notch downgrade on cash flows. A credit downgrade increases the borrowing cost of the borrower. This increases the interest cash flow of the account. A downgrade from AAA to AA+ is an example of a single notch downgrade.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Impact On Cash Flow One Notch Downgrade",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the impact of a single notch downgrade on cash flows. A credit downgrade increases the borrowing cost of the borrower. This increases the interest cash flow of the account. A downgrade from AAA to AA+ is an example of a single notch downgrade.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Impact On Cash Flow Seven Notch Downgrade",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the impact of a seven notch downgrade on cash flows. A credit downgrade increases the borrowing cost of the borrower. This increases the interest cash flow of the account. A downgrade from AAA to AA+ is an example of a single notch downgrade.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Impact On Cash Flow Six Notch Downgrade",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the impact of a six notch downgrade on cash flows. A credit downgrade increases the borrowing cost of the borrower. This increases the interest cash flow of the account. A downgrade from AAA to AA+ is an example of a single notch downgrade.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Impact On Cash Flow Ten Notch Downgrade",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the impact of a ten notch downgrade on cash flows. A credit downgrade increases the borrowing cost of the borrower. This increases the interest cash flow of the account. A downgrade from AAA to AA+ is an example of a single notch downgrade.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Impact On Cash Flow Three Notch Downgrade",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the impact of a three notch downgrade on cash flows. A credit downgrade increases the borrowing cost of the borrower. This increases the interest cash flow of the account. A downgrade from AAA to AA+ is an example of a single notch downgrade.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Impact On Cash Flow Two Notch Downgrade",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the impact of a two notch downgrade on cash flows. A credit downgrade increases the borrowing cost of the borrower. This increases the interest cash flow of the account. A downgrade from AAA to AA+ is an example of a single notch downgrade.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Impairment Amount Under ASC 31010 Rules",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the impairment amount calculated under ASC 310 10 rules. Specific to US Banking jurisdiction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Impairment Amount Under ASC 31030 Rules",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the impairment amount calculated under ASC 310 10 rules. Specific to US Banking jurisdiction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Income Documentation Program",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of the income documentation related to particular account or customer. Income Documentation Program Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Individual Retirement Account Funding Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code to identify whether the account is in contribution or disbursement mode.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insolvency Remote Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies whether the account is insolvency remote and the beneficial parties to the account are protected even in case of the customers insolvency. Insolvency remote means that the account cannot be invaded by the customers creditors, other than the ones specifically earmarked for payment against the account, if the corporation becomes insolvent and its assets are liquidated. The list of values are Y and N, value of Y indicates that the account is insolvency remote.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Institutional Network Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the Banks are members of institutional networks of cooperative banks. Institutional networks of cooperative banks are legally autonomous banks with specific functions. This is required for application of run off.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Insured Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount of deposit insured. The deposits held at a registered financial institution are insured by the regulator up to a certain limit. This ensures that the deposit would be returned to the investor even if the covered company fails. The financial institution may take up additional insurance to safeguard the interest and to attract deposits.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Accrued Amount Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest accrued on an account, month till date. This is the total interest accrued on that account since last one month and is cumulative in nature.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Accrued Amount Not Received",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Store the accrued interests but not received are credited to interest suspense account if the interest is in accrual status over a prolonged period of time and their recovery is likely to be doubtful. In case of overdrafts the financial institution should be able to establish that interest has been recovered on the loan, else the accrued interest should be part of the interest suspense. Refers to the amount of interest kept in suspense.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest After Modification Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the outstanding interest amount in the month after loan modification.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Amount Recovered Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest component of the amount recovered, month till date. Recovery refers to the process of collecting overdue amount. Recovery can be applicable to loans or debt in several categories like current, delinquent, non performing, sub standard, doubtful, bad.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Before Modification Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the outstanding interest amount in the month before loan modification.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Capitalized From Interest Reserve Account",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to amount of interest advanced to borrowers on construction loans that has been capitalized into the borrowers loan balances through the use of interest reserves, including interest advanced on new construction loans granted for the purpose of paying interest on existing construction loans when the loans are secured by the same real estate, and included in interest and fee income during the quarter on “All other loans secured by real estate”.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Due Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the interest portion of the installment which is part of the amortization schedule. Financial institution provide amortization schedule to customer which contains the installment amount and the break up of the interest portion and principal portion of the installment amount over the amortizing period. The amortization schedule is arrived based on annual interest rate, original loan principal amount and original tenor broken up into principal and interest .",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Paid Inception Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount of interest paid on the account since inception.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Paid Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest paid for month till date. The interest is paid on term deposits that have opted for regular interest payments. In some term deposits which fall under the cumulative scheme, no interest is paid before maturity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Payment Method Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the method of paying interest in account as whether interest is paid by cheque or deposited to saving account directly or capitalized to the principal.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Provision Amount Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the provisions made by the bank towards doubtful interest from the last month till date, MTD, to account of non payment of the due amount by the parties. A provision is an amount that you put in aside in your accounts to cover a future liability.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate After Modification",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Stored the interest rate in the month after loan modification has to be reported.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Before Modification",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the interest rate in the month before loan is under modification program.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Received Current Month Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the interest received from the account in the current month. OD accounts are transactional account and revolving in nature, the interest is also capitalized to the account which reduces the credit limit of the account. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Received Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to interest amount received as part of term loan installment payment in case of fixed term loans and credits to the account in case of overdrafts received from the start of the month till date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Recovered Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest component of the amount recovered. Recovery refers to the process of collecting overdue amount. Recovery can be applicable to loans or debt in several categories like current, delinquent, non performing, sub standard, doubtful, bad.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Recovery Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which interest is recovered on the account. Refers to the interest component of the amount recovered. Recovery refers to the process of collecting overdue amount. Recovery can be applicable to loans or debt in several categories like current, delinquent, non performing, sub standard, doubtful, bad.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Reserve Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the dollar amount of remaining Interest rate reserves. Interest reserves would represent only those funds remaining from the original construction commitment to be used to pay interest during the construction and lease up phases. If a participation, prorate based on your share of the credit. An interest reserve account is another line item in the cost breakdown that is used to pay interest during the construction period. A construction loan with an interest reserve account essentially uses borrowed funds to pay interest on itself. Interest is estimated based on the expected rate during construction, the expected construction period, the loan balance at the beginning, and the final construction loan amount. It is usually assumed that more money will be disbursed in the early parts of the build rather than linearly throughout construction. With these parameters, total expected interest can be estimated, and an interest reserve amount can be added to the cost breakdown.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Reset Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the interest rate is reset for a CASA or Term Deposit Account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Suspended Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the interest on the account is suspended. Account that are overdue for a prolonged period of time will not accrue interest from the date interest is suspended.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Type At Origination",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the interest type at the time of origination of the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Write Back Amount Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest component of the total amount written back on an account. When a payment is received on a written off account or a partially written off account, write back is said to have occurred. Write back, in general is the increase in value of an asset after a previously made write down. Write backs may have implications related to capital gain taxes.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Write Back Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the account interest write back date. This is the date on which a payment was received on a written off account or a partially written off account. Write back, in general is the increase in value of an asset after a previously made write down. Write backs may have implications related to capital gain taxes.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Write Off Amount Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the interest amount written off on the account from start of the month till date. Write offs are done by the bank to account for bad debts. When the asset account improve, the bank may write back an amount to the extent of plausible recovery amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internet Facility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the internet or online facility is enabled for the account. This indicates that the customer can transact, lodge queries on the portal. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internet Only Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies whether an account is an internet only account i.e. the holder has only online access to the account. List of values are Y, N. A value of ‘Y indicates an internet only account. This attribute is used to determine whether a deposit account is eligible for higher run off rates under EBA LCR guidelines.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Joint Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account is jointly held by two or more individuals which means if the value is updated as Y the account is held by two or more people and if the value is updated as N the account is held by single entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Deposit Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount that was deposited in the account in the immediate past. Deposits in the account may include the amount deposited in the account like salary credited, interest on the balance credited etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Deposit Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the immediate past date on which a deposit was made to the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Interest Payment Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the immediate past date on which the payment was made to the account. The first cash flow from the CALENDAR_PERIOD references NEXT_ PAYMENT_DATE minus LAST_PAYMENT_DATE in order to determine the payment period for interest income calculations. The use of LAST_PAYMENT_ DATE rather than, NEXT_PAYMENT_DATE  PMT_FREQ, allows for short or extended first period payments. Beyond the first forecasted cash flow, NEXT_ PAYMENT_DATE, the cash flow engine rolls forward by PMT_FREQ until MATURITY_ DATE. Default to NEXT_PAYMENT_DATE  PMT_FREQ if actual LAST_PAYMENT_DATE is not available.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Overdraft Duration Day Count",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to number of consecutive days this account has had, or continues to have, a negative balance since it last went negative as a result of one or more overdrafts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Overdraft Negative Balance Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to net worth of this account, expressed in account currency, on the last date that it had a negative balance as a result of one or more overdrafts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Overdraft Negative Balance Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to most recent date on which this account has had a negative balance as a result of one or more overdrafts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Payment Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount of the last payment made by the customer on the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Price Review Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the account was last reviewed by relationship manager for reprice. The price review could have been a contractual price review upon completion of an account that has fixed and floating rates or changed as part of all the account holders of the product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Renewal Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the immediate past date on which the term deposit contract is renewed into a new period. Usually term deposits are renewed based on the customer requirement or if the auto renewal flag is set to Y.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Withdrawal Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount that was withdrawn from the account in the immediate past. Withdrawal can be done from the account in any form like amount transferred to other account, cash withdraw from account etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Withdrawal Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the immediate past date on which customer has withdrew from the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Latest Record Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies the latest records for a particular combination of primary keys. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ledger Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the ledger balance at an desired dimension granularity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lien Marked Deposit Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether a loan was taken against the CASA or TD account. This list of values are Y, N. A value of Y indicates that the account is lien marked.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Limit Last Modified Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the last date on which the credit limit was revised. Credit limit revisions happen to customer accounts based on the performance and profile of the customer. An increase in credit rating can prompt a bank to raise the credit limit of a customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Limit Utilized Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total limit used by the loan. Term loan could have used up to a certain level of the sanctioned limit and subsequently paid down the loan by regular repayment or prepayments, this however Refers to the limit used regardless of the pay down of principal amount. In the case of revolving credit, the facility could have been utilized and again reinstated due to credit transaction on the account, this however Refers to the highest amount utilized, drawn, by the customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Load Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the load run identifier. Load run identifier enables user to load multiple versions intraday or post back dated adjustment entries to the table. Refers to the Load run identifier of the equivalent record in product processor that needs to be adjusted. Default value of  1 indicates that the latest load run is being adjusted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Data File Inclusion Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates if the loan is included in Y 14M First Lien Closed end data or Y 14M Home Equity Loan and Home Equity Line data file submission for that month. Expected values are 1 and 2, which means 1 = Available in the Y 14M First Lien Closed end data file, 2 = Available in the Y 14M Home Equity Loan and Home Equity line data file.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Default Reason",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the loans default reasons codes. Values expected should be from the V_LOAN_DEFAULT_REASON_CODE  Loan Default Reason Code column of seeded dimension table DIM_LOAN_DEFAULT_REASON  Loan Default Reason Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Modification Program Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the loan modification program code. This is used to identify whether a residential mortgage exposure modified or restructured on a permanent or trial basis solely pursuant to the U.S. Treasurys Home Affordable Mortgage Program.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Purpose",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code for the purpose of the loan. For example, New purchase, Refinancing and so on.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Rebooked Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date for on which Loan was rebooked. The loan rebooked must be reported as a loan asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Recourse Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to loan recourse type. A loan with recourse type would provide the financial institution to pursue recovery of any specific component of the unpaid debt from the personal assets of the customer. A mortgage or auto loan is backed by the asset that is financed, upon default, the asset is sold to make good the amount due from the customer. If the amount is insufficient to cover a component which has been agreed under the recourse, then the lender can is empowered by pursuing against any other asset that the customer may hold to recover the amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Repurchase Request Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which request for loan repurchase for the asset that has been sold.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Service Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the information of the type of service on Home Equity Line of Credit provided by Home Equity Line of Credit servicer like Originating the Home Equity Line of Credit, insuring the Home Equity Line of Credit, servicing the Home Equity Line of Credit. Loan Service Type Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loan Source Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the loan source type code. Loan Source Type Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lock In Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the lock in period which does not allow a premature withdrawal or early redemption. Most financial institutions will have a lock in period wherein which the customers are not permitted to make a premature withdrawal or early redemption.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lock Up Cash Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Lock up cash amount associated with the account. Customer Protection Rules stipulate that excess customer funds must be segregated from firm funds and placed into a special reserve bank account for the exclusive benefit of customers, the “lockup”. Example: SEC’s 15c3 3 UK Asset protection rule.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Mitigation Program Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code for Loss Mitigation Program. Loss mitigation is a process used by mortgage lenders to work with buyers who are delinquent on their home loans. Through the loss mitigation process, a lender may modify the terms of a home loan, allowing the homeowner to sell the property for less than is owed, or transfer the deed back to the lender. Examples of loss mitigation programs include match pay, temporary mitigation programs lasting up to 12 months, or permanent mitigation programs lasting more than one year etc. Loss Mitigation Program dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Loss Modification Program Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Loss Modification Program Code. This line item should be populated for any loan that is currently operating under modified terms and identifies the specific terms that were altered through loss mitigation efforts. Values 0 Not Modified 7 2MP 8 Proprietary Systematic 9 Proprietary Other 10 HAMP.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Low Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the lowest balance of the transactional account for the current Update period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Amount Guaranteed",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the maximum amount guaranteed by the deposit guarantee Scheme and is applicable for retail deposits. For example, FDIC, Federal Deposit Insurance Corporation, insures deposits of up to USD 250000 per depositor per bank. This is different from the insurance taken by the account holder.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Balance Inception Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the maximum balance of the account for inception till date. The loan balance reduces each month, if the payment frequency is monthly and conventional amortization, by the principal portion of the installment amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Balance Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the maximum balance of the loan month till date. The loan balance reduces each month, if the payment frequency is monthly and conventional amortization, by the principal portion of the installment amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Maximum Lifetime Days Past Due",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the days past due that the account has reached during the life of the account. A past due status is set when the customer fails to pay one or more installments on the loan. While this can occur on many occasions during the life of the account, we need the maximum number of days in which the account was designated as past due or worse before the account was reinstated as ACTIVE or CURRENT.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Method Of Initial Funds",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the method which is used by the customer to supply initial funds for the account, e.g., cash, check, wire transfer, etc..",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Minimum Balance Inception Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the minimum balance of the account for inception till date. The loan balance reduces each month, if the payment frequency is monthly and conventional amortization, by the principal portion of the installment amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Minimum Balance Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the minimum balance of the loan month till date. The loan balance reduces each month, if the payment frequency is monthly and conventional amortization, by the principal portion of the installment amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Modification Program Effective Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Date on which the loan terms were most recently modified.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Modified Term Under Modification Term",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to Duration of Modification – Report the number of months the modified terms will be in effect.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Money Market Demand Deposit Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if said account is Money market deposit accounts, MMDA.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Next Option Exercise Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Next option Exercise Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Next Price Review Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to Date on which the account will next review by relationship manager for reprice. The relationship manager can reprice on or later than this date. The review of repricing could be a contractual trigger which is very specific to that account or generically initiated to all account holders of the product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Non Penalty Portion Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the percentage of account balance which can be withdrawn without any penalty. For product like Term Deposit this percentage will be applicable. A specific percent of the total contract amount may be withdraw able without penalty.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Non Performing Category Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the non performing category. List of values are Non Accrual, Other Real Estate Owned, Restructured, Purchased Assets, Held for Sale, Other, etc. Non Performing Category Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Non Performing Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the non performing type. Performing or Non performing Types are Performing, Substandard, Doubtful, Loss etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Non Personal Deposit Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the corresponding deposit is non personal deposit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Non Transactional Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the non transactional balance for the respective accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Non Transactional Balance General Ledger Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the code of the GL account that Refers to the Non transactional Balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Now Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if said account is Negotiable Order of Withdrawal, NOW, Account. Negotiable Order of Withdrawal, NOW, accounts are interest bearing deposits, I, on which the depository institution has reserved the right to require at least seven days written notice prior to withdrawal or transfer of any funds in the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Brokered Deposit Accounts",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of brokered deposits in case of an aggregated account loaded for multiple brokered deposits.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Cards Issued",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of debit cards issued for the account. Minimum one debit card will come with the account, customer can request for multiple add on card also with the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Days Overdrawn",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to number of days an account is currently overdrawn.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Deposits",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the number of deposits made on the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Times Overdrawn Inception Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to number of times an account is overdrawn during its life.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Times Overdrawn Year Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to number of times an account is overdrawn during past 12 months.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Withdrawals",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the number of withdrawals made on the account. This column shows the transactional behavior of the customer and is useful to provide insights into Predictive Modeling.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Offset Percent",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the percentage of total Offset Setoff deposit account balance that is offset against the linked loan account. There may be many liability accounts offsetting the loan account balance, which assists in optimal use of excess funds available in liability accounts by reducing the interest component of the installment. This indicates the percentage of offset by the liability accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operational Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the operational balance in reporting currency. Operational balances are mainly used for operational activities of the bank such as rent, salaries.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operational Depositor Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the operational depositor. It is an Unsecured wholesale funding or a collateralized deposit that is necessary for the banking organization to provide operational services as an independent third party intermediary, agent or administrator to the wholesale customer or counterparty providing the unsecured wholesale funding or collateralized deposit. List of Values Y = Yes, N= No.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operational Services Significant Termination Cost Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether customer providing the deposit would incur significant contractual termination costs or switching costs in connection with the transfer of the operational services, cash management, clearing management or custody management, to a third party provider. As per US LCR, for classifying a deposit account as operational deposit, one of the criteria is customer providing the deposit should incur significant termination cost.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Operational Services Termination Notice Period In Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the operational agreement termination notice period in days. As per US LCR, notice period relating to termination or switching of the operational services to a third party provider is minimum 30 calendar days.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Option Exercise Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify if the option has been exercised. If the value is updated as Y means option is exercised and if the value is updated as N means the option is not exercised.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Annual Percentage Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the original Annual Percentage Rate. The annual rate that is charged for borrowing, or made by investing, expressed as a single percentage number that represents the actual yearly cost of funds over the term of a loan. This includes any fees or additional costs associated with the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Collateral Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the value of the collateral at the time of its origination. Collateral is the property or asset that is placed by the account holder to obtain the loan. In case of property or mortgage loans, the property or the house acts as a collateral. Market value is the amount that could be fetched if the collateral is sold in open market as on As of Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Commitment Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount committed originally to the account before any revisions which the lender agrees to grant to borrower.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Credit Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the credit score of the customer at the time of on-boarding. Credit score is a metric commonly employed to assess the credit strength or credit-worthiness of an individual or corporation. Credit score sources can be institutions like Fair Issac (FICO), Experian, TransUnion etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Debt Service Ratio",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the debt service ratio at the time of origination. The debt service ratio is calculated as gross obligation divided by gross income. The debt service ratio generally tends to improve during the tenor of the loan, unless customer avails additional loans.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Debt To Income Back End",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to original Debt to Income, DTI, Back End at Origination. Debt to Income, DTI, This ratio is the percent of a borrowers total monthly debt payments, including proposed housing expenses, divided by his or her gross monthly income, used to determine the mortgage amount that qualifies a borrower. The total debt to income, or back end, ratio, shows how much of your gross income would go toward all of your debt obligations, including mortgage, car loans, child support and alimony, credit card bills, student loans and condominium fees. In general, your total monthly debt obligation should not exceed 36 percent of your gross income. To calculate your debt to income ratio, multiply your annual salary by 0.36, then divide by 12, months. The answer is your maximum allowable debt to income ratio Example: Furthermore, the lender says the total debt payments each month should not exceed 36 percent, which comes to USD 1,200., USD 40,000 times 0.36 equals 14,400, and 14,400 divided by 12 months equals 1,200.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Debt To Income Front End",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to original Debt to Income, DTI, Front End at Origination. DTI Ratio, Front end, at origination – Report the Front end DTI, PITI Housing Ratio, at origination of the mortgage Front end DTI ratios give the percentage of a borrowers monthly income that would go toward housing expenses, mortgage payment, real estate taxes, homeowners insurance, association dues, etc., The housing expense, or front end, ratio shows how much of your gross, pretax, monthly income would go toward the mortgage payment. As a general guideline, your monthly mortgage payment, including principal, interest, real estate taxes and homeowners insurance, should not exceed 28 percent of your gross monthly income. To calculate your housing expense ratio, multiply your annual salary by 0.28, then divide by 12, months. The answer is your maximum housing expense ratio. Example: Take a homebuyer who makes USD 40,000 a year. The maximum amount for monthly mortgage related payments at 28 percent of gross income is 933 USD., USD 40,000 times 0.28 equals 11,200, and 11,200 divided by 12 months equals 933.33.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Renewal Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the contract has to be renewed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Deposit Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Indicates if said account does not belong to any of the prescribed deposit definitions and or catch call bucket.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Overdraft Protection Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the program code that identifies whether the CASA account has OD protection, in which case the CASA account can be in debit balance, negative, and the customer can transact over and above the balance held in the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Overdraft Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the account went into overdraft, overdraft occurs when a customer draws down more than the available funds in that account. The overdraft start date becomes the date from which the customer is charged interest on the overdrawn amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Overdue Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount that is due after maturity of a deposit account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Participation Sold Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to percentage contribution of the reporting bank in the total borrowed amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pass Through Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether the originator or beneficiary on this transaction is not the ultimate originator or beneficiary of the funds, for example, a wire transfer with instructions for further credit to a third party. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Passbook Holder Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the customer is a passbook holder, financial institution issue passbook to account holders which is identical to the account and this records all the activities on the account. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Decrease Cycle",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the maximum payment decrease allowed during the payment change cycle of an adjustable rate instrument. \nTransfer Pricing cash flow methodologies reference payment decrease cycle when recalculating the current payment for negative amortization events such as negative amortization limit, payment adjust date and payment change frequency and is relevant for negatively amortizing accounts. \nFor negative amortization type accounts, the cash flow engine uses payment decrease cycle to calculate the maximum decrease in the payment amount allowed from the previous payment change to the next.\n\nPMT_DECR_CYCLE is defined in terms of a percentage. The engine performs the following check:\nPrevious Current Payment  Newly calculated payment >, PMT_DECR_CYCLE Divided by 100 * Previous Current Payment,\nIf the newly calculated payment satisfies the above equation, the engine limits the decrease to the amount =, PMT_DECR_CYCLE * Previous Current Payment.\nFor example, if PMT_DECR_CYCLE = 5.00, the calculated current payment is not allowed to decrease by more than 5 Percent of the previous current payment. If PMT_DECR_CYCLE = 0, the cash flow engine assumes that there is no payment decrease limit per payment change period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Decrease Life",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the maximum payment decrease allowed during the life of an adjustable rate instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Increase Cycle",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the maximum payment increase allowed during a repricing cycle on an adjustable rate instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Increase Life",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the maximum payment increase allowed during the life of an adjustable rate instrument.\nCash flow methodologies of Transfer Pricing application, reference payment increase cycle when recalculating the current payment for negative amortization events such as negative amortization limit, payment adjust date and payment change frequency.\n\nFor negative amortization type accounts, the cash flow engine uses payment increase cycle to calculate the maximum increase in the payment amount allowed from the previous payment change to the next.\n\nPMT_INCR_CYCLE is defined in terms of a percentage. The cash flow engine performs the following check:\nNewly Calculated Payment  Previous Current Payment >, PMT_INCR_CYCLE Divided by 100* Previous Current Payment,\nIf the newly calculated payment satisfies the above equation, the cash flow engine limits the increase to the amount =, PMT_INCR_CYCLE * Previous Current Payment.\nFor example, if PMT_INCR_CYCLE = 5.00, the calculated current payment is not allowed to increase by more than 5 percent of the previous current payment. \n\nIf PMT_INCR_CYCLE = 0, the cash flow engine assumes that there is no payment\nincrease limit per payment change period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Option Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the payment option is available or not. An type of option in which the borrower determines the amount of repayment. This can however result in payments falling short of covering even the interest portion of the loan. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Penal Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Penal Interest Rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Penalty Charges Received",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the penalty charges received for the account. In case of loans, penalty charges may be applicable in case of late payments, prepayments etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Penalty On Subsequent Withdrawal Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if penalty is applicable on subsequent withdrawal in certain number days. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Performance Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the performance code. Expected values are P  performing, NP  non performing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Permanent Account Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the identifier for a specific account that is unique across the enterprise for the lifetime of the account. This identifier is not subject to tricking.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Placed At Central Institution Or Service Provider Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies whether the deposit is placed by a member of an institutional networks of cooperative banks with the central institution or specialized central service providers that are placed, a, due to statutory minimum deposit requirements, which are registered at regulators or, b, in the context of common task sharing and legal, statutory or contractual arrangements so long as both the bank that has received the monies and the bank that has deposited participate in the same institutional networks mutual protection scheme against illiquidity and insolvency of its members.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Point Of Sale Facility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or card can be used in POS terminals. POS refers to Point of sales terminals where retail transactions take place. It indicates that the customer can transact on a POS using the debit card or credit card or any other media linked to the account. It is often secured by a PIN.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Post Workout Account Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the status code of the workout program post successful execution of the said program.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prepaid Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether any prepaid card is associated with the referenced account. List of values are Y and N. The flag will denote value Y in case of any prepaid card is associated with the said deposit account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prepaid Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the prepaid card account number associated with the referenced deposit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Previous Account Or Contract Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the previous account or contract number. In case of card renewal, this holds the card number of the previous card. In case of a new account number is issued after renewal or reinstatement due to any reason, this holds the previous account number. If a new contract is created upon rollover of the account, the column stores the previous contract code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Previous Credit Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the previous credit score of the primary customer associated with the account. In case of retail customers, this can be FICO score. A credit score is commonly used by financial institutions to assess the credit worthiness of a prospect or customer. Generally a customer with a higher credit score gets better interest rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Previous Delinquency Days",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the immediate previous number of days the account was delinquent. The account is termed as delinquent upon missing the first payment which was contractually due. Delinquent is defined as the failure to accomplish what is required by law or duty, such as the failure to make a required payment or to perform a certain action.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prime Broker Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is associated with prime brokerage services. Prime brokerage is the generic name for a bundled package of services offered by investment banks and securities firms to hedge funds and other professional investors needing the ability to borrow securities and cash to be able to invest on a netted basis and achieve an absolute return. These accounts are ignored as part of operational criteria. List of the values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal After Modification Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the outstanding principle amount in the month after loan modification.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Due Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the principal portion of the installment which is part of the amortization schedule. Financial institution provide amortization schedule to customer which contains the installment amount and the break up of the interest portion and principal portion of the installment amount over the amortizing period. The amortization schedule is arrived based on annual interest rate, original loan principal amount and original tenor broken up into principal and interest.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Outstanding Before Modification",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the outstanding principle amount in the month before loan modification.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Payment Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the unit of the principal payment frequency in terms of D days, W weeks, M months, Y years. It is used in conjunction with principal Payment Frequency to define the payment frequency of an account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Provisions Amount Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the provision amount set against the account. Provisions are set aside by financial institution to cover against expected future loss. Provision amount on the loan increases as the credit quality deteriorates signifying high likelihood of default and thereby mandating more allocation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Recovered Amount Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the principal component of the amount recovered in the current month. Recovery refers to the process of collecting overdue amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Recovery Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the principal component of the amount recovered during the current month. Recovery refers to the process of collecting overdue amount. Recovery can be applicable to loans or debt in several categories like current, delinquent, non performing, sub standard, doubtful, bad.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Recovery Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the principal component of the amount was recovered. Recovery refers to the process of collecting overdue amount. Recovery can be applicable to loans or debt in several categories like current, delinquent, non performing, sub standard, doubtful, bad.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Write Back Amount Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the principal amount written back on an account from the start of the month till date. When a payment is received on a written off account or a partially written off account, write back is said to have occurred. Write back, in general is the increase in value of an asset after a previously made write down. Write backs may have implications related to capital gain taxes.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Write Back Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the account principal write back date. This is the date on which a payment was received on a written off account or a partially written off account. Principal write back, in general is the increase in value of an asset after a previously made write down. Write backs may have implications related to capital gain taxes.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Principal Write Off Amount Month To Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the principal amount written off on the account from the start of the month till date. Write offs are done by the bank to account for bad debts. When the asset account improve, the bank may write back an amount to the extent of plausible recovery amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Processing Fee",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the processing fee collected on an account. Processing fee is generally charged to complete the account opening formalities.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Bundle Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of product bundle code. Bundling is a marketing strategy that joins products or services together in order to sell them as a single combined unit. Bundling allows the convenient purchase of several products and or services from the same financial institution. The products and services are usually related, but they can also consist of dissimilar products which appeal to one group of customers. For example Credit card product is bundled with savings account product or loan product is bundled with a CASA account. There are certain interest cost advantages that are available as part of product bundle, should the customer close a product which is part of the bundle, the financial institution could review the advantage provided to other accounts as part of the bundle.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Linked Deposit Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether a deposit placed by a customer is linked to other products or factors which may change during the LCR horizon, thereby resulting in the risk of a higher outflow. Such factors include but are not limited to:\n  A requirement to place the deposit to gain access to another product offered by the bank \n  Where the deposit acts as a lien to a loan provided by the bank to its customers etc. \nIf the product, to which such a deposit is linked, is terminated by the customer within the LCR horizon, the customer can withdraw the deposit to meet other requirements thereby decreasing the stability of such deposits. List of values are Y, N. A value of Y indicates that the deposit is linked to another product which can influence a change in deposit behavior over the LCR horizon.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Provisioning Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which provisions are made for the account. Provisions are set aside by companies as an allowance for losses arising out of multiple factors. Loan Loss provisions are expenses set aside as an allowance for loans that may go bad.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Purchase Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the purchase type for example merger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Put Option Expiration Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the put, right to sell, option expires. An option expires if the holder of the option does not exercise the option through the life of the option contract, American type, or on the day as agreed, European type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Put Option Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the effective start date in which the put option is active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recovered Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total dollar amount of any balance recovery collected during the month from previously charged off loans for the segment as of month end. For the delinquency status segment, categorize recoveries by their delinquency status at charge off. The recovered amount is for the current period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Refunded Fees",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total fees refunded by the financial institution. The financial institution could decide to refund the fees like late payment fee or annual fee based on credit worthiness of the customer. These fees are charged and rolled back to the customer, whereas waivers are not charged to the customer at all.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Renewal Fees",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the renewal fees charged on the account. Renewal, in case of loans is the extension of the original loan period which is applicable in case of loans that do not amortize over time like interest only loans. Contracts like Repos could also be renewed to extend the contract period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repurchase Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the party identifier of the entity from which the financial intuition has repurchased the loan. It is a common practice to sell loans originated in secondary market to increase liquidity for new originations. The financial institution that originates the loans could sell it to a Mortgage Servicer or a Federal Agency with an agreement to buy it back for the following reasons: If there is error in documentation of the loan account, or if the customer defaults on payments, or if the customer identified as fraud, or simply if they have not met the underwriting standards set by the purchasing organization. Refers to the identifier of the party from which the financial institution buys back the loan.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Required Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Balance required as compensation for loan or services.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Revised Renewal Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the revised date on which the contract has to be renewed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Revolving Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the frequency by which the limit revolve in the card or OD account. Revolve limit is the total limit available to the customer to carry over from period to period as a revolving line of credit. This column will store the frequency by which the limit is revolved in the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ring Fenced Funds Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies whether the account is ring fenced i.e. separated from other assets or liabilities. This is typically a financial separation and does not have to be an actual, physical separation. Ring fencing is usually done to protect the asset from being used to cover liabilities of the holder other than the purpose for which the funds are held. The list of values are Y and N, value of Y indicates that the account is ring fenced. For example as part of FDIC 370 calculations, this flag is used to identify whether the account can be charged with the liabilities arising out of any other business of the customer holding the account or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Safe Keeping Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the savings account has safe keeping facilities. Financial institutions provide safe keeping services to individuals and act as custodians and are legally responsible for items in safekeeping.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Salary Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether this account is a salary account or not. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Saving Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Flag indicates whether the Account is Saving or Checking. List of values Y, N. Y indicates it is a savings account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Secondary Market Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates for existence of secondary market for the product. This is required to identify whether an asset is liquid and readily marketable or not. An asset is considered liquid and readily marketable if it is \n1, Traded in an active secondary market \n2, With more than two committed market makers\n3, Has a large number of committed non market maker participants on both the buying and selling sides of transactions\n4, Has timely and observable market prices and\n5, Has high trading volumes\nLiquid and readily marketable indicator is one of the criteria for classifying assets as high quality liquid asset, HQLA, or not for the purpose of inclusion in the stock of high quality liquid assets while computing the Liquidity Coverage Ratio, LCR. \nThe list of values are Y and N. A value of Y indicates the existence of secondary market. This attribute will be derived using app specific rules.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Self Directed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify if the account is self directed. It indicates whether the funds in a deposit account against a retirement plan is managed by the owner of account or not. The List of Values are Y and N. If this flag is Yes, then the customer or owner of the account controls the investments in the account. For example As per FDIC 370, Self directed Employee contribution plans are treated under ORC Certain retirement Accounts and non self directed Employee contribution plans are treated under ORC Employee Benefit Plan. The list of values are Y and N. If this flag is Y, then the customer or owner of the account controls the investments in the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Service Charges",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the service charges levied by the Financial Institution on that account. Service charge refers to a type of fee charged to cover services related to the primary product or service being purchased. For example a fee for using the ATM machine of the financial institution or a fee for using the credit card in any of the financial institution etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Service Charges Waived Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount waived, discount, service charges that is waived by the financial intuition during the download period. Service charges are levied on specific transaction, Refers to all the waivers provided on service charges.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Service Charges Waiver Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the service charges are waived for the account. List of values are Y, N. Y indicates a waiver while N indicates no waiver.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Service Income",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total service income from the account for the period due to Fiduciary Activities.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Service Provider Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to Home Equity Line of Credit, Lease etc. Service Provider Code as in who is servicing loan or lease. Refers to the Service Provider Code who is currently holding the servicing rights of the account for which the bank is not the servicer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Signature Card Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether a signature card is maintained for an account. As per FDIC guidelines, a signature card either in the physical form or electronic form, or any equivalent must be maintained for an account. If such a document or equivalent is not available, then the account is to be marked as Pending for insurance calculation. The list of values are Y or N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Significant Early Withdraw Penalty Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if there is a significant penalty on early withdrawals. Early withdrawals or redemptions are common in case of term deposits. Financial institutions employ penalties to discourage early withdrawals. List of Values are Y Significant penalty N Non significant or no penalty.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Significant Withdrawal Penalty On Principal Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if there is a significant penalty on early withdrawals which impacts the principal. This column is required to determine whether the account will be withdrawn within the LCR horizon as per BOT guidelines. If there penalty significantly impacts the principal, it will not be withdrawn prior to maturity. The list of values are Y and N. A value of Y indicates that there would be a significant penalty impacting the principal for early withdrawals. A value of N indicates that there would not be a significant penalty impacting the principal for early withdrawals.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Standard Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if it is a standard account. List of values are Y, N. Y indicates it is a standard account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Standing Instruction Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether a Standing Instruction has been issued on the CASA Account. This will be useful to identify a behavioral pattern of Customer Activities.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Subsequent Deposit Withdrawal Notice Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to a minimum withdrawal notice requirement in days for a time deposit from which partial withdrawal has been already made.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Supervisory Run Off Rate Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if an account is subject to a supervisory run off rate or not. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sweep Deposit Origination Entity",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the brokered sweep deposit origination Company. Separate outflow rates have been assigned for affiliated sweep deposit and unaffiliated sweep deposits. Unaffiliated sweep deposits are those deposits that do not originate with a covered company, consolidated subsidiary of the a covered company, or a company that is a consolidated subsidiary of the same top tier company of a covered company.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sweep In Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is part of a sweep In set up, where funds can be swept in to the customer account or Term Deposit. Sweep is a functionality where accounts are linked together for automatic transfer of funds either to cover overdraft, earn higher interest rate through investment into high yield or Money market funds at the close of each business day.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sweep Out Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the account number with which a sweep agreement is in place. When deposit balance sweeps between customer account are disclosed to regulator or public in general please use column to store the account number to which funds have been transferred to from account. Essentially this field Refers to the sweep out account number. When sweep operations are not disclosed to regulator and done for optimizing reserve amount, please use Stage Deposit sub account table to populate this data.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sweep Out Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount that has been swept out of the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sweep Out Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is part of a sweep Out set up, where funds can be swept out to the customer account or Term Deposit. Sweep is a functionality where accounts are linked together for automatic transfer of funds either to cover overdraft, earn higher interest rate through investment into high yield or Money market funds at the close of each business day. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tax Payer Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the customer who is responsible for paying taxes on this account. Customer dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tax Withholding Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify whether the financial institution is to withhold taxes on this accounts earnings from redemptions that result in payments to the customer. Income tax withheld from employees wages and paid directly to the government by the employer. List of values are Y = Yes, N= No.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Telebanking Facility Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the telebanking facility is enabled for the account. Customer can then transact using the telebanking PIN by calling in the customer contact center. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Telephone Or Preauthorized Transfer Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Telephone or preauthorized transfer accounts consist of deposits or accounts, 1, in which the entire beneficial interest is held by a party eligible to hold a Negotiable Order of Withdrawal, NOW, account,, 2, on which the reporting institution has reserved the right to require at least seven days written notice prior to withdrawal or transfer of any funds in the account, and, 3, under the terms of which, or by practice of the reporting institution, the depositor is permitted or authorized to make more than six withdrawals per month or statement cycle, or similar period, of at least four weeks for purposes of transferring funds to another account of the depositor at the same institution, including a transaction account, or for making payment to institution, including a transaction account, or for making payment to a third party by means of preauthorized transfer, or telephonic, including data transmission, agreement, order or instruction. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Temporary Or Unplanned Overdraft Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if said overdraft is unplanned one. An overdraft can be either planned or unplanned. An unplanned overdraft occurs when a depository institution honors a check or draft drawn against a deposit account when insufficient funds are on deposit and there is no advance contractual agreement to honor the check or draft. When a contractual agreement has been made in advance to allow such credit extensions, overdrafts are referred to as planned or prearranged. Any overdraft, whether planned or unplanned, is an extension of credit and is to be treated and reported as a 'loan' rather than being treated as a negative deposit balance. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Third Party Placed Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the deposit is a non brokered third party deposit or not. As per US LCR final rule, separate outflow rates are assigned to deposits placed by counterparty on behalf of retail customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Credit Amount Inception Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total credit done in the account from inception till date. Credits in the account may include the amount deposited in the account like salary credited, interest on the balance credited etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Credit Amount Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total credit done in the account for month till date. Credits in the account may include the amount deposited in the account like salary credited, interest on the balance credited etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Debit Amount Inception Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total debit done in the account from inception till date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Debit Amount Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total debit done in the account from month till date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Withdrawal Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total amount withdrawn from the account. This is useful for Marketing Triggers and Predictive Modeling.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Write Back Amount Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total amount written back on that account from start of the month till date. Write back, in general is the increase in value of an asset after a previously made write down. Write backs may have implications related to capital gain taxes.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if said account is considered as a Transaction Account. FOR US Jurisdiction, with the exceptions, a ‘‘transaction account,’’ as defined in Regulation D and in these instructions, is a deposit or account from which the depositor or account holder. For other jurisdictions respective laws to be applied to make decision. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Charges",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total transaction charges applicable to this investment contract. The typical transaction charges could include brokerage, commissions and transaction taxes.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transactional Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account is a transactional account or not. A transactional account is a deposit account held at a bank or other financial institution, for the purpose of securely and quickly providing frequent access to funds on demand, through a variety of different channels. Transactional accounts are meant neither for the purpose of earning interest nor for the purpose of savings, but for convenience of the business or personal client. List of values are Y for Transactional Account and N for Non Transactional Accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transfer Pricing Interest Rate Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the name of the Transfer Pricing Interest Rate. To gauge FTP, banks can first establish a FTP curve. A general curve is calculated by plotting the relationship between yield to maturity and time to maturity, then adjusted to reflect the lending needs of each location. A rate is then assigned to each of the transactions that occur at the bank. For example, a five year bond would have a different rate than a 10 year bond. Finally, all of the rates are entered into the FTP system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Troubled Debt Restructure Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the loan was classified as Troubled Debt Restricted loan or account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Trust Account Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Trust Account Type Code. It can have the values like Formal Revocable Trusts  FREV, Informal Revocable Trusts Other IFREV O, Pay on death  POD, Irrevocable Trust  IRRT.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Trust Treatment Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the treatment to be given to a revocable trust account in case one or multiple grantors are recognized as deceased. When one or more grantors of a revocable trust die, the trust can be converted and maintained as an irrevocable trust, or continue to be recognized as a revocable trust based on the language in the trust document. E.g.  A Revocable trust account having two grantors, can be converted to irrevocable when one grantor dies, or can continue to be revocable under the name of the surviving grantor, depending on the clause in the agreement. The values expected are Manage as Irrevocable Trust  IRRT, Manage as Revocable Trust  REVT.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Uncleared Balance Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Medium",
+                    "gcd": "Refers to the uncollected balance on the account, expressed in the account currency, from checks that did not yet cleared. The balance which is waiting to be cleared under the clearing process is called as an uncleared balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Upgraded Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account in reference has recently been upgraded or not. This is used for Marketing Triggers. For example, the account could have been upgraded to a Gold Account to a Platinum Card with additional benefits. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Withdrawal Non Penalty Portion Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the percentage of End of period balance that can be withdrawn without incurring any penalty.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Withdrawal Reserve Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether there are any restrictions on the withdrawal of a reserve balance held by the entity in a foreign central bank. This is required to classify a reserve held with a foreign central bank as a level 1 high quality liquid asset, HQLA, or not for the purpose of inclusion in the stock of high quality liquid assets while computing the Liquidity Coverage Ratio, LCR. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Withdrawal Segregated Trigger Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Flag indicates if the deposit accounts that include a provision requiring the deposit to be segregated or withdrawn in the event of a specific change or trigger, such as a change in a credit rating of the reporting entity. List of Values Y = Yes, N= No.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Workout Program Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the performance of borrowers in all workout plans. These plans include the external Consumer Credit Counseling Programs, as well as, internal long term and temporary programs. Report performance as of the reporting date in one of the following categories: Active and Performing  the borrower is performing as scheduled under the terms of an executed workout program. Active and Non Performing  the borrower is in a workout plan but is currently delinquent but not yet has defaulted, Broken  the borrower has defaulted on the terms of an executed plan during the month. Use the internal definition of broken.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Write Back Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the account write back date. This is the date on which a payment was received on a written off account or a partially written off account. Write back, in general is the increase in value of an asset after a previously made write down. Write backs may have implications related to capital gain taxes.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Write Down Amount Month Till Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total write down amount of the account month to date. Write down refers to the reduction in book value of assets. Write downs can also happen on physical assets like property, plant and equipment, PPE. If the financial institution accrues interest on defaulted exposure, the outstanding payable by the customer grows which is an artificial amount and is most likely irrecoverable as well. Hence, firms decide to write down or depreciate the value of outstanding on the loan.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Write Down Current Month Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if write down occurred in the current month. If the financial institution accrues interest on defaulted exposure, the outstanding payable by the customer grows to a very large amount and is most likely irrecoverable as well. Hence, firms decide to write down or depreciate the value of outstanding on the loan. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Write Down Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the asset is written down, depreciated, in order to reflect its true value. Write down is reducing the book value of an asset because it is overvalued compared to the market value. A write down typically occurs on a financial statement of the company, when the carrying value of the asset can no longer be justified as fair value and the likelihood of receiving the cost, book value, is unlikely.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Write Off Current Month Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if there is write off in the current month. Write off occurs since the loan or receivable has turned bad. This is done when no recovery is possible and the due date of repayment has elapsed a while ago. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Write Off Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the write off reason in case of accounts with write offs. Common reasons for write offs include bankruptcy, legal issues, death of the customer etc.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

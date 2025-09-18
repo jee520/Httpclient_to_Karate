@@ -1,0 +1,75 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Entity Attribute Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Long",
+                    "gcd": "This column stores the code of the data quality entity and attribute",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number of Data Quality Check Executed",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey",
+                    "gcd": "This attribute stores the total number of data quality checks executed",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number of Data Quality Check Failed",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey",
+                    "gcd": "This attribute stores the total number of data quality checks failed part of the execution",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number of Records Failed",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This attribute stores the total number of error records.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number of Records Scanned",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This attribute stores the total number of records scanned.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

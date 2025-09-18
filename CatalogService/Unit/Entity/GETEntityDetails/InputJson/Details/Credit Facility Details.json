@@ -1,0 +1,1539 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Manager Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the account manager is an employee who is responsible for the day to day management of accounts of a particular customer. The account manager is a point of contact, and provides customer support, up selling, technical assistance and general relationship management. An account manager may be in charge of a number of smaller accounts, or may focus on a few larger accounts. This column Refers to the account manager code or the unique employee identifier of the manager assigned by the financial institution. Management Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Pool Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the pool id generated using Retail Pooling, Basel pooling, etc. used for exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Attrition Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the reason code for which customer has canceled the contract or the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Blocked Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the blocked amount. Blocked amount is the sum which is apportioned to as committed amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Contractual Change Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the last modification date of the contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Control By Treasury Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Indicates if asset is controlled by treasury or not. The stock should be under the control of the function charged with managing the liquidity of the bank, e.g. the treasurer, meaning the function has the continuous authority, and legal and operational capability, to monetize any asset in the stock.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Facility Drawn Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the withdrawn amount from the credit facility, which solely represents the funded utilization and is distinct from the overall utilization in the case of a mixed-use facility. For instance, in a facility utilized for both funded purposes such as a loan and unfunded purposes such as a letter of credit or LC, the withdrawn amount specifically refers to the funded portion.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Committed Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount committed and communicated to customer as a part of credit facility agreement.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the internal id for the said credit line. This is system generated code for the credit line in legacy system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Maximum Days Past Due",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the maximum days past due of any account under credit facility.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Purchase Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Line Purchase date. Credit Lines are acquired either by acquisition or purchase.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Purpose Category Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the nature or purpose of facility provided by the line of credit. It could be liquidity, credit, both, missing, others. Credit Line Purpose Category dimension is the corresponding dimension table.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the purpose code of the said credit facility. Expected values are combination of Lending Purpose, Facility Type, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the credit line status of account. The status of the credit line can be Active, Frozen, Closed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Status Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the last updated status date of a Credit Line offered to the Party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Line Utilized Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount utilized out of committed and communicated to customer as a part of credit facility agreement.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Participation Tranche Identifier Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the Participation Tranche. For participation or syndication arrangement, amount is often not disbursed in single go. Multiple disbursements are referred to tranches here.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Participation Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier for the type of credit participation. Credit Participation Contract Type Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cumulative Charge Off Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the cumulative write off amount as of date for said credit facility.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Customer Industry Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to industry code of the party or customer. Industry is defined as a classification that refers to a group of companies that are related in terms of their primary business activities. In modern economies, there are dozens of different industry classifications, which are typically grouped into larger categories called sectors. Refers to the unique reference to the industry type to which customer belongs to, for example finance, manufacturing, telecom, Information technology etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Customer Internal Credit Rating",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the internal credit rating of the customer. Internal rating are defined by banks or Bank Holding Company.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Customer Line Of Business",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the line of business of customer for which credit facility is granted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Customer Location Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the location details of customer registered office like city, country, zip code etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Drawn Amount Month To Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total amount drawn during the month.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Facility Fee Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount_Long",
+                    "gcd": "Refers to the fee amount charged by the Financial Institution to the customer to extend the credit facility.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Facility First Draw Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date when the first drawdown took place for a credit facility.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Facility Guarantor Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the reference to the guarantor. Here guarantor is guaranteeing payments to bank on behalf of borrower of the credit line in event of default.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Facility Interest Rate Ceiling",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the highest interest rate that can be charged on a given facility.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Facility Interest Rate Floor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the lowest interest rate that can be charged on a given facility.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Facility Interest Rate Index Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the reference index or base Rate index for Facility interest rate in case of variable interest rate. E.g. LIBOR.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Facility Interest Rate Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Facility interest rate type. Values are FIXED or VARIABLE or MIX. This particular column is derived from accounts underlying the credit line.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Facility Last Draw Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date when the last drawdown took place for a credit facility.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Facility Original Expiry Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the original expiry date of the credit facility.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Facility Relationship Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique internal identifier for the customer relationship under which the exposure of obligor is aggregated in the reporting credit systems of entity. This is identifier under which multiple borrowers are aggregated because they have related risks including but, not limited to parent or subsidiary relationships. For standalone or ultimate parent obligors, the Customer ID may be the same as the unique internal identifier for the obligor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fair Value Adjustment Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the fair value adjustment for underlying exposures or draws under given credit facility.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fronting Contract Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the said loan advance is fronted exposure or contract for reporting entity. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guarantee Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount specified in the guarantee which financial institution will cover in case the debtor fails to settle a debt. A guarantee from a lending institution ensuring that the liabilities of a debtor will be met. In other words, if the debtor fails to settle a debt, the financial institution will cover it. It is the maximum amount recoverable from the guarantor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holding Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the holding intent of the account. Holding Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "IFSB Contract Type Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Islamic Financial Services Board classification of the instrument. This is applicable in case of Islamic finance products. Examples, include Murabahah, Musharakah, Sukuk, etc. Ifsb Contract Type Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Impairment Amount Under ASC 31010 Rules",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the impairment amount calculated under ASC 310 10 rules. Specific to US Banking jurisdiction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Income Taxed  Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the said account interest income is taxed or not. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Non Accrual Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the credit instrument was placed on non accrual. Following assets are considered as non accrual\n,1, Any asset which is maintained on a cash basis because of deterioration in the financial position of the borrower\n,2, Any asset for which payment in full of interest or principal is not expected\n,3, Any asset upon which principal or interest has been in default for a period of 90 days or more unless it is both well secured and in the process of collection.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Spread",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to contractual spread above or below, in case of asset it will be a positive spread and for liability it will be a negative spread, pricing index and is applicable for floating or adjustable rate accounts. Since repo rate is generally fixed upfront this column can be left blank or can be used to store spread above or below benchmark rate, if applicable. The current net rate = Applicable rate from the IRC plus margin.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Reserve Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the dollar amount of remaining Interest rate reserves. Interest reserves would represent only those funds remaining from the original construction commitment to be used to pay interest during the construction and lease up phases. If a participation, prorate based on your share of the credit. An interest reserve account is another line item in the cost breakdown that is used to pay interest during the construction period. A construction loan with an interest reserve account essentially uses borrowed funds to pay interest on itself. Interest is estimated based on the expected rate during construction, the expected construction period, the loan balance at the beginning, and the final construction loan amount. It is usually assumed that more money will be disbursed in the early parts of the build rather than linearly throughout construction. With these parameters, total expected interest can be estimated, and an interest reserve amount can be added to the cost breakdown.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Internal Customer Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the customer is an internal customer. This identifies if the contract is between one of the financial institutions subsidiaries. This is used in capital consolidation. The List of values are Y, N or NULL.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "International Banking Facility Credit Line Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the line or transaction is belongs to an international banking facility. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Reprice Offset Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Store the offset balance as of last reprice date. A offset loan can be offset by balance in CASA account or multiple accounts, Refers to the credit balance in CASA account as of the last reprice date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Latest Record Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies the latest records for a particular combination of primary keys. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lead Bank Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify if the reporting bank is a lead bank in the consortium lending. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lien Position Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of underlying note on the loan. This is also known as the lien position. First mortgage is a mortgage in a first lien position on the property that secures the mortgage. A first mortgage has priority over all other liens or claims on a property in the event of default. If the loan to value, LTV, ratio of a first mortgage is greater than 80 percent, lenders generally require private mortgage insurance, PMI. In such a case, it can sometimes be economical for a borrower to limit the size of the first mortgage to an 80 percent LTV and use secondary financing to borrow the remaining amount needed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Interest Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the Facility interest rate in case if of FIXED interest rate type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Load Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the load run identifier. Load run identifier enables user to load multiple versions intraday or post back dated adjustment entries to the table. Refers to the Load run identifier of the equivalent record in product processor that needs to be adjusted. Default value of  1 indicates that the latest load run is being adjusted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Lockout Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the loan that contains a “lock  out” feature whereby a portion of the outstanding principal balance on a line may be locked into an amortizing or interest only loan with separate terms. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Materiality Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the exposure is material or not. Material exposure is an exposure that is substantial in terms of size or risk.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Net Unamortized Fee",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to net unamortized fee. Typically fees amortized over the life cycle of the Contract. Refers to the few components that are not amortized and are collected as and when required. Origination fees for a given Contract should be offset against related origination costs and the net amount should be deferred.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Offset Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the account number that is being offset. It Refers to the loan account number which this liability account is offsetting. There can be multiple savings account offsetting a loan, but a liability account would not offset more than one loan account. For hypothecated deposits, it Refers to the account number of the related loan that is used to net against the deposit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Credit Line Purpose",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the code description of Other credit purpose used for real estate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Other Credit Line Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Other credit facility type code description.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Participation Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or credit facility is a part of the syndicate. Syndicated loans are usually large loans made to corporate borrowers. More than one financial institution is involved in a syndicated loan. The main goal of syndicated lending is to spread the risk of a borrower default across multiple lenders, such as banks, or institutional investors like pensions funds and hedge funds. Because syndicated loans tend to be much larger than standard bank loans, the risk of even one borrower defaulting could cripple a single lender. Syndicated loans are also used in the leveraged buyout community to fund large corporate takeovers with primarily debt funding.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Participation Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the percentage of total participation amount to be participated by the entity. This should be populated by reporting entity when they participate in a given contract and do not play role of lead or fronting agent. This should hold the value of less than 100 since other financial institutions are participating in the credit facility as well. This percentage should be the Participation Percent of the reporting entity. NULL value will be considered as 100 percent.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Participation Sold Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the participation sold amount i.e. amount contributed by banks in a consortium other than reporting bank. When a borrower chooses to avail finance from two or more banks by submitting a common application and financial statements, the financial arrangement is called consortium lending. Consortium will have a lead bank and member banks. Reporting bank contribution to consortium will be calculated as Total participated amount  participation sold amount  lead bank contribution. If the lead bank flag is Y than reporting bank contribution will be total participated amount  participation sold amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Participation Tranche Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the Loans which have closed but are still pending execution of final documentation by all syndicate participants should populate Y is Yes and others as N is No. List of values are Y, N. Y is Closed and N or Null is Not Closed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Participation Tranche Settled Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates closed and settled refers to the final phase of syndicated loan commitment, where loan documents are fully executed and binding with post closing sell down to all participants complete. List of values are Y, N. Y is Settled which is Closed is assumed to completed before settling and N or Null is Not Closed or settled which is Closed is assumed to completed before settling.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Participation Unutilized Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the unutilized amount by reporting bank under a given participation contract. Actual unutilized amount will be differ based on whether bank is fronting or not. In case of non fronting contracts, it is undrawn amount proportional to bank contribution whereas in case of fronting entire undrawn amount becomes bank unutilized amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Participation Utilized Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the utilized amount by reporting bank under a given participation contract. Actual utilized amount will be differ based on whether bank is fronting or not. In case of non fronting contracts, it is amount proportional to bank contribution whereas in case of fronting entire amount becomes bank utilized amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prepayment Penalty Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicate whether the credit facility has a prepayment penalty clause in effect or not. List of values are Y, N. Y  Use this value if the credit facility has a prepayment penalty clause in effect which may include yield maintenance. N  Use this value if the credit facility had a prepayment penalty clause that has since expired, If the facility does not have a prepayment penalty clause, leave the column as Null.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Previous Period Expected Credit Loss",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Expected Credit Loss i.e. ECL is the calculated loss value for every account attributed to its Credit Risk taking Mitigant into consideration. This column stores the value of the previous reporting date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the product type associated with account. Product type is defined as classification like loan, deposit, cards, etc. Product Type dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prominent Mitigant Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the prominent mitigant associated with the credit facility or the account. Prominence can be arrived by various criteria like value, liquidity of collateral etc.,",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Prominent Mitigant Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Mitigant type submitted for the said credit facility. Based on value and liquidity of Underlying Mitigant, Prominent Mitigant would be mapped to Credit Facility.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Purchased Or Originated Credit Impaired Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account has been Purchased or Originated as a Credit Impaired account. List of values are Y or N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Floor Cap",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the rate ceiling if one is contained in the credit agreement for floating rate credit facilities.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Realized Loss Given Default",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Medium",
+                    "gcd": "Refers to the realized loss given default as of extraction date. The realized loss given default is computed by considering outstanding balance at default and offsetting any mitigates offered. List of values are between 0 and 1.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recourse To Guarantee Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicate whether the bank relied on a sponsor or guarantor as a source of repayment when considering the credit for approval. List of values are Y N.\nA value Y indicates that the contract is recourse to guarantee, and N indicates that the contract is not recourse to guarantee.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Renewal Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the account was renewed. Renewal is defined as the action of extending the period of validity of a license, subscription, or contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Renewal Date Of The Credit Line",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the credit facility has been renewed per the terms of the original loan agreement, repriced or has a change in the maturity date such that the Origination Date did not change, report the date on which the most recent renewal notification became effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repayer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the party who is primarily responsible for repayment or securing obligation of a third party using production payment receipts. Most likely this is expected to be obligor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repayer Industry Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Industry code of the Repayer of the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repayer Internal Credit Rating",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Internal Rating of the repayer. The repayer and the borrower can be different, this stores the internal rating of the repayer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repricing Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to reprice Frequency is used in conjunction with Repricing Frequency Unit to define the frequency of rate change of an account. Repricing Frequency is used to identify whether records are adjustable or not. If Repricing Frequency> 0, the record is considered adjustable. If Reprice Frequency = 0, the record is fixed rate. It is used to compute the re price dates after the next_reprice_date. REPRICE_FREQ must be either 0 or positive.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Repricing Frequency Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to reprice frequency unit is used in conjunction with Repricing Frequency to store the unit of frequency of rate change for an account. List of values are D, M and Y for Days, Months and Years respectively. Example  if the rate adjustment is 6 months, the repricing frequency will be 6 and repricing frequency unit will be M.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Revised Contractual Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date from which the contract is effective, after a contract revision or changed. If there has been a major modification to the line such that the obligor executes a new or amended and restated credit agreement it is considered as Contractual Change date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Secured Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or contract number is secured with a collateral or not. The collaterals to be considered here will be the collaterals other than margins. In case of deposits, this indicates it is Collateralized or Secured Deposit. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Shadow Limit Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the limit amount to customer which is not legally communicated to him.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Shared National Credit Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the credit participation is part of Shared National Credit Programme. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Shared National Credit Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Internal Credit ID as reported in the Shared National Credit collection.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Swing Line Contract Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if said contacts is a swing line contract. A swing line facility is a sub limit of a syndicated revolving credit loan whereby a lender makes a short term, operating not more than five days, loan, in smaller amounts, on shorter notice and with a higher interest rate than is otherwise available for revolving credit loans. The purpose is to support the borrowers cash management needs. List of Values are Y and N. Y as Swing Line Contract and N or Null as Not a Swing Line Contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Credit Line Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Total Line Amount given to a Customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Total Participated Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to total committed amount in case of consortium banking arrangement by all the participated institutions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Unamortized Cost",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the unamortized cost of the credit line in natural currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underwriting Agreement Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of underlying agreement. There are different types underwriting commitments that indicate the nature of engagement and the resulting obligation of the underwriter like the firm commitment agreement, the best efforts agreement, the mini and maxi agreement, the all or none agreement, and the stand by agreement.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underwritten Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the amount that is invested by the entity. Drawn amount includes that amount that is sold to third parties.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Undrawn Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the undrawn amount till date. In case of borrowings, it is computed as Sanctioned Limit  Drawn Amount. In case of cards, it is computed as Sanctioned Limit  EOP Balance. In case of facility it is derived by subtracting the committed amount if any from the facility amount and also by reducing the total amount exposures from the facility amount. In case of commitment contract it is the difference between the committed amount and the drawn or utilized amount in the loan exposures.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33715",
+                    "btLogicalName": "Fronting Contract Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33716",
+                    "btLogicalName": "Internal Customer Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33717",
+                    "btLogicalName": "Materiality Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33718",
+                    "btLogicalName": "Secured Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33719",
+                    "btLogicalName": "Recourse To Guarantee Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33720",
+                    "btLogicalName": "Swing Line Contract Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33721",
+                    "btLogicalName": "Participation Tranche Settled Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33722",
+                    "btLogicalName": "International Banking Facility Credit Line Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33723",
+                    "btLogicalName": "Lead Bank Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33724",
+                    "btLogicalName": "Prepayment Penalty Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33725",
+                    "btLogicalName": "Control By Treasury Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33726",
+                    "btLogicalName": "Interest Income Taxed  Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33727",
+                    "btLogicalName": "Repricing Frequency Unit",
+                    "dqDesc": "Should have list of values as D,M,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33728",
+                    "btLogicalName": "Participation Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33729",
+                    "btLogicalName": "Participation Tranche Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33730",
+                    "btLogicalName": "Lockout Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33731",
+                    "btLogicalName": "Shared National Credit Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQLOV33732",
+                    "btLogicalName": "Purchased Or Originated Credit Impaired Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40390",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40391",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40392",
+                    "btLogicalName": "Contractual Change Date",
+                    "dqDesc": "Reference Check for Contractual Change Date in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40393",
+                    "btLogicalName": "Contractual Change Date",
+                    "dqDesc": "Reference Check for Contractual Change Date in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40394",
+                    "btLogicalName": "Credit Line Status Date",
+                    "dqDesc": "Reference Check for Credit Line Status Date in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40395",
+                    "btLogicalName": "Credit Line Status Date",
+                    "dqDesc": "Reference Check for Credit Line Status Date in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40396",
+                    "btLogicalName": "Interest Non Accrual Date",
+                    "dqDesc": "Reference Check for Interest Non Accrual Date in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40397",
+                    "btLogicalName": "Interest Non Accrual Date",
+                    "dqDesc": "Reference Check for Interest Non Accrual Date in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40398",
+                    "btLogicalName": "Credit Line Purchase Date",
+                    "dqDesc": "Reference Check for Credit Line Purchase Date in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40399",
+                    "btLogicalName": "Credit Line Purchase Date",
+                    "dqDesc": "Reference Check for Credit Line Purchase Date in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40400",
+                    "btLogicalName": "Renewal Date",
+                    "dqDesc": "Reference Check for Renewal Date in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40401",
+                    "btLogicalName": "Renewal Date",
+                    "dqDesc": "Reference Check for Renewal Date in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40402",
+                    "btLogicalName": "Renewal Date Of The Credit Line",
+                    "dqDesc": "Reference Check for Renewal Date Of The Credit Line in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40403",
+                    "btLogicalName": "Renewal Date Of The Credit Line",
+                    "dqDesc": "Reference Check for Renewal Date Of The Credit Line in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40404",
+                    "btLogicalName": "Revised Contractual Date",
+                    "dqDesc": "Reference Check for Revised Contractual Date in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40405",
+                    "btLogicalName": "Revised Contractual Date",
+                    "dqDesc": "Reference Check for Revised Contractual Date in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40406",
+                    "btLogicalName": "Account Manager Code",
+                    "dqDesc": "Reference Check for Account Manager Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40407",
+                    "btLogicalName": "Accounting Standard Code",
+                    "dqDesc": "Reference Check for Accounting Standard Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40408",
+                    "btLogicalName": "Attrition Reason Code",
+                    "dqDesc": "Reference Check for Attrition Reason Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40409",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40410",
+                    "btLogicalName": "Country Code",
+                    "dqDesc": "Reference Check for Country Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40411",
+                    "btLogicalName": "Credit Participation Tranche Identifier Code",
+                    "dqDesc": "Reference Check for Credit Participation Tranche Identifier Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40412",
+                    "btLogicalName": "Credit Line Identifier",
+                    "dqDesc": "Reference Check for Credit Line Identifier in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40413",
+                    "btLogicalName": "Credit Line Purpose Category Code",
+                    "dqDesc": "Reference Check for Credit Line Purpose Category Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40414",
+                    "btLogicalName": "Credit Line Purpose Code",
+                    "dqDesc": "Reference Check for Credit Line Purpose Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40415",
+                    "btLogicalName": "Credit Line Status Code",
+                    "dqDesc": "Reference Check for Credit Line Status Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40416",
+                    "btLogicalName": "Credit Participation Type",
+                    "dqDesc": "Reference Check for Credit Participation Type in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40417",
+                    "btLogicalName": "Customer Industry Code",
+                    "dqDesc": "Reference Check for Customer Industry Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40418",
+                    "btLogicalName": "Customer Internal Credit Rating",
+                    "dqDesc": "Reference Check for Customer Internal Credit Rating in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40419",
+                    "btLogicalName": "Customer Location Code",
+                    "dqDesc": "Reference Check for Customer Location Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40420",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40421",
+                    "btLogicalName": "Holding Type",
+                    "dqDesc": "Reference Check for Holding Type in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40422",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40423",
+                    "btLogicalName": "Lien Position Code",
+                    "dqDesc": "Reference Check for Lien Position Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40424",
+                    "btLogicalName": "Facility Guarantor Identifier",
+                    "dqDesc": "Reference Check for Facility Guarantor Identifier in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40425",
+                    "btLogicalName": "Facility Interest Rate Type",
+                    "dqDesc": "Reference Check for Facility Interest Rate Type in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40426",
+                    "btLogicalName": "Line Of Business Code",
+                    "dqDesc": "Reference Check for Line Of Business Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40427",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40428",
+                    "btLogicalName": "Offset Account Number",
+                    "dqDesc": "Reference Check for Offset Account Number in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40429",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40430",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40431",
+                    "btLogicalName": "Product Type",
+                    "dqDesc": "Reference Check for Product Type in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40432",
+                    "btLogicalName": "Prominent Mitigant Code",
+                    "dqDesc": "Reference Check for Prominent Mitigant Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40433",
+                    "btLogicalName": "Prominent Mitigant Type",
+                    "dqDesc": "Reference Check for Prominent Mitigant Type in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40434",
+                    "btLogicalName": "Repayer Internal Credit Rating",
+                    "dqDesc": "Reference Check for Repayer Internal Credit Rating in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40435",
+                    "btLogicalName": "Repayer Identifier",
+                    "dqDesc": "Reference Check for Repayer Identifier in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40436",
+                    "btLogicalName": "Repayer Industry Code",
+                    "dqDesc": "Reference Check for Repayer Industry Code in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40437",
+                    "btLogicalName": "Shared National Credit Identifier",
+                    "dqDesc": "Reference Check for Shared National Credit Identifier in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                },
+                {
+                    "dqId": "DQREF40438",
+                    "btLogicalName": "Underwriting Agreement Type",
+                    "dqDesc": "Reference Check for Underwriting Agreement Type in Stage Credit Facility Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:26.0",
+                    "modifiedDate": "2024-11-04 04:39:30.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                },
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

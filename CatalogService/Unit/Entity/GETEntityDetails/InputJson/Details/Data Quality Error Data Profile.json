@@ -1,0 +1,107 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Check Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This attribute stores the code for a data quality check.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Check Type Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This attribute stores the code for a check type created for data quality check.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Default Count",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This attribute stores the default count.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Group Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This attribute stores the code for a group created for data quality check.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Severity Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This attribute stores the code for severity of a data quality check.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Threshold Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This attribute stores the threshold reached value. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Threshold Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "This attribute stores the threshold percentage.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number of Records Failed",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This attribute stores the total number of error records.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number of Records Scanned",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This attribute stores the total number of records scanned.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

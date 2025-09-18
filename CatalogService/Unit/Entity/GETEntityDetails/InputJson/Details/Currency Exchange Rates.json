@@ -1,0 +1,261 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Currency Rate Nature Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code that defines the nature of the currency. Example of currency natures are FIXED, FLOATING, FORECASTED.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Currency Rate Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code that defines the rate type of the currency. Example of currency natures are SPOT, AVG  Average, EOP  End of the period, SOP  Start of the period etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Currency Rate Version Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique rate version code defined for the combination of Legal Entity, Branch, Time Zone, Geography, Data source and the time period.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Direct Indirect Indicator",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates whether the data is direct or indirect. For e.g.. In Currency Exchange, D Direct means a direct exchange rate is available between the two currencies. I Indirect means a direct exchange rate is not available and has to be inferred. List of values are D, I.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the effective date of the account or contract or interest rate or exchange rate from which it is effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Effective End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refer to the date up to which the account or contract or interest rate or exchange rate is effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exchange Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Long",
+                    "gcd": "Refers to the exchange rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Source Currency Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the source ISO currency code in the exchange.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Target Currency Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the target ISO currency code in the exchange.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF36716",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Currency Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF36717",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Currency Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF36718",
+                    "btLogicalName": "Effective Date",
+                    "dqDesc": "Reference Check for Effective Date in Stage Currency Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF36719",
+                    "btLogicalName": "Effective Date",
+                    "dqDesc": "Reference Check for Effective Date in Stage Currency Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF36720",
+                    "btLogicalName": "Effective End Date",
+                    "dqDesc": "Reference Check for Effective End Date in Stage Currency Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF36721",
+                    "btLogicalName": "Effective End Date",
+                    "dqDesc": "Reference Check for Effective End Date in Stage Currency Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF36722",
+                    "btLogicalName": "Currency Rate Nature Code",
+                    "dqDesc": "Reference Check for Currency Rate Nature Code in Stage Currency Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF36723",
+                    "btLogicalName": "Currency Rate Type",
+                    "dqDesc": "Reference Check for Currency Rate Type in Stage Currency Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF36724",
+                    "btLogicalName": "Currency Rate Version Code",
+                    "dqDesc": "Reference Check for Currency Rate Version Code in Stage Currency Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF36725",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Currency Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF36726",
+                    "btLogicalName": "Source Currency Code",
+                    "dqDesc": "Reference Check for Source Currency Code in Stage Currency Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF36727",
+                    "btLogicalName": "Target Currency Code",
+                    "dqDesc": "Reference Check for Target Currency Code in Stage Currency Exchange Rates",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:12.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "ALM",
+                    "ucName": "Asset Liability Management"
+                },
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                },
+                {
+                    "ucId": "BSP",
+                    "ucName": "Balance Sheet Planning"
+                },
+                {
+                    "ucId": "FTP",
+                    "ucName": "Funds Transfer Pricing"
+                },
+                {
+                    "ucId": "PFTI",
+                    "ucName": "Insurance Allocation Manager for Enterprise Profitability"
+                },
+                {
+                    "ucId": "PFT",
+                    "ucName": "Profitability Management"
+                }
+            ]
+        }
+    ]
+}

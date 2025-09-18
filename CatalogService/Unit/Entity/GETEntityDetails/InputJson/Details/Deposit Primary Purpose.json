@@ -1,0 +1,75 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deposit Primary Purpose Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the primary purpose of deposit code. The list of values are\nPAYREMIT = Payment remittance,\nSAFEKEEPING = Administration of payments and cash flows related to the safekeeping of investment assets, Not including the purchase or sale of assets,\nPAYROLLADMIN = Payroll administration and control over the disbursement of funds,\nPYMNTORDER = Transmission, reconciliation, and confirmation of payment orders, \nDAYOVERDRAFT = Daylight overdraft,\nINTRADAYSETTLEMNT = Determination of intra day and final settlement positions,\n SECTRNS = Settlement of securities transactions,\nCAPDSTBN = Transfer of capital distributions and recurring contractual payments,\nSUBSCREDEMNS = Customer subscriptions and redemptions,\nESCFNDTRNSFR = Escrow, funds transfer, stock transfer, and agency,\nCUSTFNDDISTRBN = Scheduled distribution of customer funds,\nESCFNDTRNSFRPAYSET = Escrow, funds transfer, stock transfer, and agency services, including payment and settlement services, payment of fees, taxes, and other expenses,\nFNDCOLL = Collection and aggregation of funds.\n,14, OTH = Others, As per US LCR final rules, to classify a deposit as operational deposit the primary purpose of the deposit should be one among the 13 values listed and deposit should also be used for either clearing, custody or cash management activities.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deposit Primary Purpose Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the primary purpose of deposit description. The list of Values are \n1. Payment remittance,\n2. Administration of payments and cash flows related to the safekeeping of investment assets, Not including the purchase or sale of assets,\n3. Payroll administration and control over the disbursement of funds,\n4. Transmission, reconciliation, and confirmation of payment orders,\n5. Daylight overdraft,\n6. Determination of intra day and final settlement positions,\n7. Settlement of securities transactions,\n8. Transfer of capital distributions and recurring contractual payments,\n9. Customer subscriptions and redemptions,\n10. Escrow, funds transfer, stock transfer and agency,\n11. Scheduled distribution of customer funds,\n12. Escrow, funds transfer, stock transfer, and agency services, including payment and settlement services, payment of fees, taxes, and other expenses,\n13. Collection and aggregation of funds,\n14. Others.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deposit Primary Purpose Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Deposit Primary Purpose Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

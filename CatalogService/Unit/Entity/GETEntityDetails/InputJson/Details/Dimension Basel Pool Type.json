@@ -1,0 +1,139 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Borrower Type Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code pertaining to the borrower type category of the reference asset. The borrower type category are Retail or Wholesale or a Hybrid. Retail indicates that the reference assets of the pool constitutes majorly retail customers, and hence will be treated under a retail borrower category. Wholesale indicates that the reference assets of the pool constitute majorly corporate customers, and hence will be treated under a wholesale borrower category. Hybrid indicates that it is a mix of both retail and wholesale customers, and even the pool is not a homogeneous asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Borrower Type Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description pertaining to the borrower type category of the reference asset. The borrower type category are Retail or Wholesale or a Hybrid. Retail indicates that the reference assets of the pool constitutes majorly retail customers, and hence will be treated under a retail borrower category. Wholesale indicates that the reference assets of the pool constitute majorly corporate customers, and hence will be treated under a wholesale borrower category. Hybrid indicates that it is a mix of both retail and wholesale customers, and even the pool is not a homogeneous asset.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Pool Type Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Basel securitization pool type.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Pool Type Code Level One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the level one code for Basel Pool Type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Pool Type Code Level Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code pertaining to the level 2 categorization of the pool type. The level 2 indicates a more logical grouping of the loan into whether it is a residential mortgage exposure or a commercial mortgage exposure, or any form of asset back security. This is based on the asset which has been securitized.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Pool Type Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Basel securitization pool type description.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Pool Type Description Level One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the Level one description for Basel Pool Type.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Pool Type Level Three  Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "This column stores the code pertaining to the level 3 categorization of the pool type. The level 3 indicates a more logical grouping of the loan into whether it is a mortgage backed security, asset backed security or a collateralized debt obligations.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Pool Type Level Three Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This column stores the description pertaining to the level 3 categorization of the pool type. The level 3 indicates a more logical grouping of the loan into whether it is a mortgage backed security, asset backed security or a collateralized debt obligations.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Pool Type Level Two Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This column stores the description pertaining to the level 2 categorization of the pool type. The level 2 indicates a more logical grouping of the loan into whether it is a residential mortgage exposure or a commercial mortgage exposure, or any form of asset back security. This is based on the asset which has been securitized.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Basel Pool Type Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey",
+                    "gcd": "Refers to the equivalent numeric identifier of the Basel Pool Type Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

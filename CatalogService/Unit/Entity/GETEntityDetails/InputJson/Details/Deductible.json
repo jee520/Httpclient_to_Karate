@@ -1,0 +1,192 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Coverage Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the coverage.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deductible Basis",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the system code represents the basis applied to determine the deductible. Sample values are AA for Annual Aggregate, AN for Annual, ID for Deductible Per Item, L for Location, LA for Loss Aggregate, O for Any One Occurrence, P for Per Loss, S for Subject.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deductible Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the deductible description. The description will include the type of deductible, basis applied for deductible, to what coverage deductible is applied, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deductible End Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the deductible was ended or invalid in the source system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deductible Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code for the deductible identifier. This is to be updated when transaction amount pertains to deductible amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deductible Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code for the deductible identifier. This is to be updated when transaction amount pertains to deductible amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deductible Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Deductible Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deductible Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the deductible was started or valid in the source system.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deductible Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the system code identifies the type of deductible. Sample values are SH for Shared, WV for Waived, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "516",
+                    "srcLogicalName": "Stage Deductible Master",
+                    "scdName": "scd_516_DIM_DEDUCTIBLE_STG_DEDUCTIBLE_MASTER",
+                    "scdDesc": "Data movement from deductible master source to deductible dimension",
+                    "createdDate": "2024-10-26 06:02:42.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42319",
+                    "btLogicalName": "Deductible Numeric Identifier",
+                    "dqDesc": "Deductible Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQCUS42320",
+                    "btLogicalName": "Deductible Numeric Identifier",
+                    "dqDesc": "Deductible Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQLOV31693",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQNMDUP42025",
+                    "btLogicalName": "Deductible Numeric Identifier",
+                    "dqDesc": "Deductible Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                },
+                {
+                    "dqId": "DQSPLCH42766",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:21.0",
+                    "modifiedDate": "2024-11-04 04:39:14.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

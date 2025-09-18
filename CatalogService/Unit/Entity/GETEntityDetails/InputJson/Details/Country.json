@@ -1,0 +1,335 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Advanced Economy Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if said country is considered as Advanced Economy of not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Alpha Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Number_Factor",
+                    "gcd": "Refers to the need for Long Settlement Transactions. Reference, Non Sec STD Long settlement transactions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Calendar Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the calendar that is national business calendar of a country. For example, Hijrii Arabic, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Closely Watched Factor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the closely watched factor.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Continent Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the continent code for the corresponding country. Expected values are AS, AF, NA, SA, AU, EU And AN. Asia as AS, Africa as AF, North America as NA, South America as SA, Australia as AU, Europe as EU, Antarctica as AN.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description of the country.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Long Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to long description of the country.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to name of the country.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the country code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Official Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the official currency code of the country.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Region Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the Region or province component of the address. Region is defined as an area, especially part of a country or the world having definable characteristics but not always fixed boundaries.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Country Risk Factor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to risk factor associated with the country.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Defaulted Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This attribute stores the Country in Default or Not Information. Possible values are Y or N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "European Economic Area Country Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the country is considered to be a member state of the European Economic Area. List of values are Y or N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "European Union Member State Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the country is part of European union member state or not. List of values are Y or N. Y indicates country is part of European union member state, and N indicates country is not part of European union member state.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the business. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions. In case of party, it Refers to the country of birth of the party.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization For Economic Co Operation And Development Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the country is part of Organization for Economic Co operation and Development.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Third Country Jurisdiction Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether this is a country outside the EU, and applies the regulations and guidelines similar to the ones in EU. This is used for risk weighting purpose and also for regulatory capital calculations. List of values are Y or N.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "20",
+                    "srcLogicalName": "Stage Country Master",
+                    "scdName": "scd_20_DIM_COUNTRY_STG_COUNTRY_MASTER",
+                    "scdDesc": "Data movement from country master source to country dimension",
+                    "createdDate": "2024-10-26 06:02:43.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42597",
+                    "btLogicalName": "Country Numeric Identifier",
+                    "dqDesc": "Country Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQCUS42598",
+                    "btLogicalName": "Country Numeric Identifier",
+                    "dqDesc": "Country Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQLOV33654",
+                    "btLogicalName": "Advanced Economy Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQLOV33655",
+                    "btLogicalName": "Defaulted Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQLOV33656",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQLOV33657",
+                    "btLogicalName": "Organization For Economic Co Operation And Development Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQNMDUP42170",
+                    "btLogicalName": "Country Numeric Identifier",
+                    "dqDesc": "Country Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                },
+                {
+                    "dqId": "DQSPLCH42997",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:29.0",
+                    "modifiedDate": "2024-11-04 04:39:33.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "LLFP",
+                    "ucName": "Oracle Loan Loss Forecasting and Provisioning"
+                },
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                },
+                {
+                    "ucId": "CIRCA",
+                    "ucName": "Customer Analytics"
+                },
+                {
+                    "ucId": "PFTI",
+                    "ucName": "Insurance Allocation Manager for Enterprise Profitability"
+                }
+            ]
+        }
+    ]
+}

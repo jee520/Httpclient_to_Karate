@@ -1,0 +1,139 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Attribute Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "This attribute stores the name of the source attribute on which a data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Check Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This attribute stores the code for a data quality check.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Check Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Long",
+                    "gcd": "This attribute stores the data quality check description.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Check Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Data Quality Check Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Check Type Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This attribute stores the code for a check type created for data quality check.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Entity Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "This attribute stores the name of the source table on which a data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Logical Attribute Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "This attribute stores the logical attribute name on which data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Logical Entity Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "This attribute stores the logical entity name on which data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Severity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This attribute stores the code for severity of a data quality check.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Source Attribute Logical Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "Refers to the logical name for the attribute on which data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Source Entity Logical Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "Refers to the logical name for the entity on which data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

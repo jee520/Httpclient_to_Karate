@@ -1,0 +1,1025 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Accreting Indicator Payable Leg Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates accreting is there or not for payable leg.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accreting Indicator Receivable Leg Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates accreting is there or not for receivable leg.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amortization Payable Leg Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates amortization is there or not for payable leg. Amortization is defined as an exchange of cash flows, one of which pays a fixed rate of interest and one of which pays a floating rate of interest, and both of which are based on a notional principal amount that decreases. In an amortizing swap, the notional principal decreases periodically because it is tied to an underlying financial instrument with a declining, amortizing, principal balance, such as a mortgage.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amortization Receivable Leg Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates amortization is there or not for receivable leg. Amortization is defined as an exchange of cash flows, one of which pays a fixed rate of interest and one of which pays a floating rate of interest, and both of which are based on a notional principal amount that decreases. In an amortizing swap, the notional principal decreases periodically because it is tied to an underlying financial instrument with a declining, amortizing, principal balance, such as a mortgage.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Assumed First Lien Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether exposure should be treated like a first lien residential mortgage exposure or junior lien RME. Lien position data is used to assign risk weights to the residential mortgage exposures.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Central Counterparty Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the central counterparty code which clears the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cleared Transaction Bank Role Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of the cleared transaction role of the reporting bank. Cleared Transaction Bank Role dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cleared Transaction Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag Identifies if the transaction is cleared through central counterparty. Transactions included are, 1, between the clearing member and clearing member client and, 2, clearing member and central counterparty.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Clearing Member Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the identifier Refers to the code of the Clearing member through which the CCP clears the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Interest Rate Payable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the current nominal interest rate on instrument owed to or paid by the financial institution for the payable leg of the contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Interest Rate Receivable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the current nominal interest rate on instrument owed to or paid by the financial institution for the receivable leg of the contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day Count Indicator Payable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the day count indicator such as A/360, A/365, A/A, 30/360, 30/360 EUROPEAN, 30/A etc. for payable leg. Also used for measuring time when calculating volatility or interpolating volatility. Column is applicable for instruments like European swaption.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day Count Indicator Receive Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the day count indicator such as A/360, A/365, A/A, 30/360, 30/360 EUROPEAN, 30/A etc. for receivable leg.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Debt Obligation Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of the debt obligation type.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Deferral Due Credit Worthiness Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag identifies if the deferral is due to credit worthiness or not. Educational Loans are in deferred or moratorium status during the students study years which is an example of deferred loans but not because of credit worthiness. This is a payment holiday offered to the customer due to the inability of the customer to meet the obligation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Month Adjustment For Pay Leg Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether to apply end of month, EOM, rules to payment leg. This is applied in computing coupon dates. If coupon date is on a non EOM date then it is shifted to last day of month. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Month Adjustment For Receive Leg Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether to apply end of month, EOM, rules to receivable leg. This is applied in computing coupon dates. If coupon date is on a non EOM date then it is shifted to last day of month.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Equity Traded Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether the instrument is publicly traded or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure Defaulted Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether an exposure is treated as defaulted or not. Exposure is considered as defaulted when they are delinquent for 270 days or more. This is an exposure that is under prolonged delinquent state. List of values are Y, N. If the value is updated as Y means the exposure has defaulted and if the value is updated as N means the exposure has not defaulted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Exposure One To Four Family Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the exposure in the form of one  to four family residential construction loans if the residences have been pre sold under firm contracts to purchasers who have obtained firm commitments for permanent qualifying mortgages and have made substantial earnest money deposits, and the loans meet the other underwriting characteristics established by the agencies in the general risk based capital rules.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Floating Rate Spread Payable",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the spread over the benchmark rate for a payable leg. This would get some value only when the payable leg has floating interest rate.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Floating Rate Spread Receivable",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the spread over the benchmark rate receivable. This is applicable when the receive leg has a floating rate benchmark such as LIBOR associated with it.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Front Stub For Pay Leg Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if Pay leg is having irregular time period at the beginning, Front, or end, Back, of the contract. List of values are Y, N. Select Y for First irregular Payment or N Last irregular Payment of contract. If there are no irregular payment leave column blank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Front Stub For Receive Leg Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if Receive leg is having irregular time period at the beginning, Front, or end, Back, of the contract. List of values are Y, N. Select Y for First irregular Payment or N Last irregular Payment of contract. If there are no irregular payment leave column blank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Guaranteed By Sovereign Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if an account is partially or fully guaranteed by the Sovereign, Government agencies or sponsored agencies. This is derived using Standard Guarantor Type of an account or Standard Issuer type of Mitigant of the Account. List of values are Y and N. This also indicates if the exposure is directly and unconditionally by a sovereign entity or an entity for which zero risk weight is applicable in standardized approach. Claims on BIS, Bank of International Settlement, IMF, International Monetary Fund, ECB, European Central bank, MDB, Multilateral Development Bank, carry zero risk weight. Examples of MDB are The Asian Development Bank, ADB, The African Development Bank, AfDB, The European Investment Bank, EIB, etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "IFSB Contract Type Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Islamic Financial Services Board classification of the instrument. This is applicable in case of Islamic finance products. Examples, include Murabahah, Musharakah, Sukuk, etc. Ifsb Contract Type Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Inflation Seasonality Flavor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to inflation seasonality represents a seasonal variation in inflation. Flavor depicts the way in which seasonality is expressed. Expected values are:, 1, Default: Seasonality is specified with twelve values, which may be positive or negative, one for each month of the year. Each value represents a seasonal variation in inflation for the given month. The idea is that these changes are meant to represent relative deviations from the regular inflation pattern within a year, but should not reflect any cumulative or absolute inflation, and, 2, Kerkhof: Seasonality values should add up to zero, so that there is no yearly drift. Unlike the default approach, which considers seasonality to be monthly quotes, approach of Kerkhof sees them as yearly quotes.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Initial Index Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the initial index value. With instrument like Inflation Zero Coupon Swap, Inflation Linked Bond, etc. the performance of the instrument is linked to the movement of an underlying index. In order to measure this performance value of the underlying index is recorded at the start of the investment term. This recording is called the initial index value. Column is applicable for instruments like Inflation Linked Bond.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Issuer Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the issuer type of the instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Code Payable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the benchmark index associated with a pay leg of a Swap contract. Interest rate code identifies the index to which adjustable rate accounts are tied.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Code Receivable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the benchmark index associated with a receive leg of a Swap contract. Interest rate code identifies the index to which adjustable rate accounts are tied.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Tenor For Payable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the payment legs underlying IR index tenor used in swap.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Tenor For Receivable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the receivable legs underlying IR index tenor used in swap.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Tenor Unit For Payable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unit of underlying IR index tenor of payment leg, possible values are D, for days, BD, for business days, W, for Weeks, M, for month, y, for Year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Tenor Unit For Receivable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unit of underlying IR index tenor of receivable leg, possible values are D, for days, BD, for business days, W, for Weeks, M, for month, y, for Year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Type Paid",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the interest rate type viz. fixed or floating that is agreed to be paid in a Swap contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Type Received",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the interest rate type viz. fixed or floating that is agreed to be received in a Swap contract.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issue Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Date on which the account was originated or issued by the originating institution. For accounts originated by the current institution, ISSUE DATE is equal to ORIGINATION DATE. For accounts acquired through acquisition of another institution, or purchase of a pool of accounts, ISSUE DATE less than ORIGINATION DATE. If ORIGINATION DATE from the original institution is not available, ISSUE DATE is equal to ORIGINATION DATE. ISSUE DATE less than or equal to ORIGINATION DATE, ISSUE DATE cannot be greater than ORIGINATION DATE.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Issuer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the issuer code for the financial instruments. Issuer is defined as a legal entity that develops, registers and sells securities or financial instruments. Issuers may be domestic or foreign governments, corporations or investment trusts. Issuers are legally responsible for the obligations of the issue and for reporting financial conditions, material developments and any other operational activities as required by the regulations of their jurisdictions. The most common types of financial instruments issued are common and preferred stocks, bonds, notes, debentures, negotiable instruments, bills and derivatives.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Long Stub For Pay Leg Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates If Pay Leg have irregular payment in the beginning or end of the contract, then this attribute states if that irregular payment tenor is shorter or longer than regular payment tenor. If Longer then value will be 'Y' if shorter then value will be 'N'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Mitigant Main Index Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the mitigant is traded in the main index or not. List of values are Y, N. A flag of Y indicates that this is traded in the main index, and flag of N indicates that this is not traded in the main index. Main index represents the performance of the stock market of a given region and reflects the investor sentiment on the state of its economy. The most regularly quoted market indices are national indices composed of the stocks of large companies listed on largest stock exchanges of a nation, such as the American S and P 500, the Japanese Nikkei 225, and the British FTSE 100.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Money Market Fund Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether banks equity exposure to an investment fund is a money market fund or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Nettability Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate whether the exposure is nettable against any other nettable exposures of the same customer. This is valid only for OTC derivatives and Repos. If the value is updated as Y means the exposure is nettable against any other nettable exposure and if the value is updated as N means the exposure is not nettable against any other exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Netting Agreement Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the netting agreement code on which the contract is made. A netting agreement is an arrangement between two parties   known as counterparties   that governs the treatment of certain offsetting transactions or contracts. Two transactions offset each other if a gain in one results in a loss in the other. In other words, the transactions hedge each other. This allows for net settlement of all contracts governed by this netting agreement, with a single counterparty, through a single payment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Notional Principal Pay Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Notional Principal for Pay Leg. In a swap contract, there is no cash flow for principal component, cash flow occurs only for the interest component. However, the amount of principal is decided in advance because the interest needs to be computed on it. Hence, it is called as notional principal. Refers to the notional principal amount for payable leg, inflow. For interest rate swaps, the notional principal for receivable and payable leg is the same. For Interest Cross CCY Swaps, an exchange of principal can take place.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Notional Principal Receive Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Notional Principal for receive Leg. In a swap contract, there is no cash flow for principal component, cash flow occurs only for the interest component. However, the amount of principal is decided in advance because the interest needs to be computed on it. Hence, it is called as notional principal. Refers to the notional principal amount for receivable leg, inflow. For Interest Cross CCY Swaps, an exchange of principal can take place.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Occupancy Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code that indicates the occupancy of the property at origination or purchase of the loan in case of product processor tables and current occupancy in the Mitigants table. This is applicable for real estate loans. DIM OCCUPANCY TYPE is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Pay Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the ISO currency code for the pay leg of an account or contract. It is mainly applicable for Swap and FX related contracts, e.g. FX Spots, FX Forwards, FX Futures.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Frequency Pay Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the payment frequency for the pay leg of the contract. This is use in conjunction with Payment Frequency Pay Leg Unit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Frequency Payable Leg Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the frequency unit of the pay leg. List of values are D Days, M Months and Y Years. This is use in conjunction with Payment Frequency Pay Leg.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Frequency Receivable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the payment frequency for the receive leg of the contract. This is use in conjunction with Payment Frequency Receive Leg Unit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Frequency Receivable Leg Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the frequency unit of the receive leg. List of values are D Days, M Months and Y Years. This is use in conjunction with Payment Frequency Receive Leg.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Lag For Payable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the period between accrual end date and date on which actual payment occurs for pay leg of underlying swap of swaption. This is used in conjunction with Payment Lag For Pay Leg Unit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Payment Lag For Receivable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the period between accrual end date and date on which actual payment occurs for receive leg of underlying swap of swaption. This is used in conjunction with Payment Lag For Receive Leg Unit.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Presold Residential Units Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates the reference units in the multi family residence could be pre sold condos to the customer. The amount required for construction is already recovered by the builder of the units. List of values are Y, N, NULL.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Purchase Contract Cancelled Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the purchase contract has been cancelled. This is required for determining risk weight of the exposure. A 100 percent risk weight is applicable for one to four family residential pre sold construction loans for residences for which the purchase contract is cancelled. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Calculation Rule For Payable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the rate calculation rule for payable leg, Whether underlying index rate date schedule coincides with accrual dates of the leg, USE ACCRUAL DATES, theoretical approach, or follows its own conventions, USE RATE DATES, market approach. Instrument Used  Vanilla Swap.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Calculation Rule For Receivable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Rate calculation rule for receivable leg, Whether underlying index rate date schedule coincides with accrual dates of the leg, USE ACCRUAL DATES, theoretical approach, or follows its own conventions, USE RATE DATES, market approach. Instrument Used  Vanilla Swap.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Set Lag For Payable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the lag days to the next reprice date for payable leg. This determines the date the interest by an adjustable rate instrument should refer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Rate Set Lag Receivable Leg",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the lag days to the next reprice date for receivable leg. This determines the date the interest by an adjustable rate instrument should refer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Receivable Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the ISO currency code for the receive leg of an account or contract. It is mainly applicable for Swap and FX related contracts, e.g. FX Spots, FX Forwards, FX Futures.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Remargin Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the reimagining frequency of an exposure in days. This is used in calculating the volatility haircut. Reimagining frequency is the frequency at which the exposure is marked to market. For some transactions, depending on the nature and frequency of the revaluation and reimagining provisions, different holding periods are appropriate. The framework for collateral haircuts distinguishes between repo style transactions, i.e. repo or reverse repos and securities lending or borrowing, other capital market driven transactions, i.e. OTC derivatives transactions and margin lending, and secured lending. In capital market driven transactions and repo style transactions, the documentation contains reimagining clauses, in secured lending transactions, it generally does not. When the frequency of reimagining or revaluation is longer than the minimum, the minimum haircut numbers will be scaled up depending on the actual number of business days between reimagining or revaluation. Currently this attribute is only consumed by Basel application.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Restructured Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Indicates if the loan has been restructured. Loan restructuring can happen when the borrower is unable to cope up with the repayments as per the original amortization schedule published by the financial institution. In some cases, loan restructuring happens as a less expensive alternate to bankruptcy. Loan restructuring can involve debt reduction, interest rate reduction, extension of payment terms etc. List of values are Y, N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Revaluation Frequency",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the frequency at which the reference exposure is revalued to reflect its fair value in days. This is used in calculating the volatility haircut.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Securitized Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the exposure is securitized or not. Securitize refers to a pooled group of financial assets that together create a new security, which is then marketed and sold to investors. The value and cash flows of the new security are based off of the underlying value and cash flows of the assets used in the securitization process. Companies will securitize illiquid assets into liquid assets in order to increase their overall liquidity and generate immediate proceeds from their assets. List of values are Y, N. If the value is updated as Y means the exposure is securitized and if the value is updated as N means the exposure is not securitized.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seniority Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the exposure seniority in the event of bankruptcy of the counterparty. Seniority refers to the order of repayment in the event of a sale or bankruptcy of the issuer. \nSeniority can refer to either debt or preferred stock. Senior debt must be repaid before subordinated, or junior, debt is repaid. Each security, either debt or equity, that a company issues has a specific seniority or ranking. Bonds that have the same seniority in capital structure of a company are described as being pair passu. Preferred stock is senior to common stock in a sale when preferred shareholders must receive back their preference, typically their original investment amount, before the common shareholders receive anything.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Code",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Unique identifier of an underlying of derivative product. In case of an instrument underlying, underlying code will be same as instrument code and in case of contract underlying, for products like swaption, underlying code will be unique generated code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Unique identifier of an underlying of derivative product. In case of an instrument underlying, underlying code will be same as instrument code and in case of contract underlying, for products like swaption, underlying code will be unique generated code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Captures the description of the underlying code which in case of an instrument underlying, underlying code will be same as instrument code and in case of contract underlying for products like swaption underlying code will be unique generated code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Index Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to identifier of the Aggregated Non Index Exposure.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Instrument Maturity Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the underlying maturity date. For example if there is option on futures then maturity date of the underling is stored in this column, in given example its maturity date of future. This value is used in pricing of instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Underlying Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Type Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the underlying type of the derivatives, which are reference asset for the funds. The underlying type indicates whether the derivative is bought on equity, debt etc. This information will be obtained from the mandate or the prospectus of the account or instrument.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Underlying Unit Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unit of underlying. For instance gm in case of gold, Quintal in case of commodity. This is used mainly for instruments like commodity swaps. Possible values are bushels, LB, Barrels, KG, Gram, Quintal etc.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1172",
+                    "srcLogicalName": "Stage Underlying Master",
+                    "scdName": "scd_1172_DIM_UNDERLYING_STG_UNDERLYING_MASTER",
+                    "scdDesc": "Data movement from underlying master source to underlying dimension",
+                    "createdDate": "2024-10-26 06:02:42.0",
+                    "modifiedDate": "2024-10-30 08:59:51.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42537",
+                    "btLogicalName": "Underlying Numeric Identifier",
+                    "dqDesc": "Underlying Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQCUS42538",
+                    "btLogicalName": "Underlying Numeric Identifier",
+                    "dqDesc": "Underlying Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33254",
+                    "btLogicalName": "Amortization Receivable Leg Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33255",
+                    "btLogicalName": "Assumed First Lien Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33256",
+                    "btLogicalName": "Cleared Transaction Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33257",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33258",
+                    "btLogicalName": "Deferral Due Credit Worthiness Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33259",
+                    "btLogicalName": "Equity Traded Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33260",
+                    "btLogicalName": "Nettability Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33261",
+                    "btLogicalName": "Restructured Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33262",
+                    "btLogicalName": "Securitized Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33263",
+                    "btLogicalName": "Payment Frequency Receivable Leg Unit",
+                    "dqDesc": "Should have list of values as D,M,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33264",
+                    "btLogicalName": "Purchase Contract Cancelled Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33265",
+                    "btLogicalName": "End Of Month Adjustment For Pay Leg Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33266",
+                    "btLogicalName": "Exposure One To Four Family Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33267",
+                    "btLogicalName": "Front Stub For Pay Leg Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33268",
+                    "btLogicalName": "Exposure Defaulted Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33269",
+                    "btLogicalName": "Presold Residential Units Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33270",
+                    "btLogicalName": "End Of Month Adjustment For Receive Leg Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33271",
+                    "btLogicalName": "Mitigant Main Index Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33272",
+                    "btLogicalName": "Accreting Indicator Receivable Leg Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33273",
+                    "btLogicalName": "Guaranteed By Sovereign Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33274",
+                    "btLogicalName": "Long Stub For Pay Leg Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33275",
+                    "btLogicalName": "Accreting Indicator Payable Leg Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33276",
+                    "btLogicalName": "Amortization Payable Leg Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33277",
+                    "btLogicalName": "Front Stub For Receive Leg Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33278",
+                    "btLogicalName": "Payment Frequency Payable Leg Unit",
+                    "dqDesc": "Should have list of values as D,M,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQLOV33279",
+                    "btLogicalName": "Money Market Fund Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQNMDUP42156",
+                    "btLogicalName": "Underlying Numeric Identifier",
+                    "dqDesc": "Underlying Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQSPLCH42852",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Legal Entity Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                },
+                {
+                    "dqId": "DQSPLCH42853",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:19.0",
+                    "modifiedDate": "2024-11-04 04:39:13.0"
+                }
+            ],
+            "useCases": [
+                {
+                    "ucId": "BASEL",
+                    "ucName": "Regulatory Capital Adequency"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,387 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Attribute Stats Entity Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This attribute stores unique identifier of attribute stats entity",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Qaulity Error Record Primary Key Attributes",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Long",
+                    "gcd": "This attribute stores the primary key attribute names of the entity for which data quality rule is defined",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Check Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This attribute stores the code for a data quality check.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Check Type Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This attribute stores the code for a check type created for data quality check.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Default Count",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This attribute stores the default count.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Defaulted Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This attribute stores whether error value is defaulted post data quality check failure",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Entity Attribute Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Long",
+                    "gcd": "This column stores the code of the data quality entity and attribute",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Entity Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "This attribute stores the name of the source table on which a data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Entity Attribute Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Long",
+                    "gcd": "This attribute stores the name of the error entity attribute code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Logical Name Eight",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the logical attribute name for the eighth attribute in composite primary key of the entity on which data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Logical Name Five",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the logical attribute name for the fifth attribute in composite primary key of the entity on which data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Logical Name Four",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the logical attribute name for the fourth attribute in composite primary key of the entity on which data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Logical Name One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the logical attribute name for the first attribute in composite primary key of the entity on which data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Logical Name Seven",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the logical attribute name for the seventh attribute in composite primary key of the entity on which data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Logical Name Six",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the logical attribute name for the sixth attribute in composite primary key of the entity on which data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Logical Name Three",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the logical attribute name for the third attribute in composite primary key of the entity on which data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Logical Name Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the logical attribute name for the second attribute in composite primary key of the entity on which data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Name Eight",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier name of primary key column 8.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Name Five",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier name of primary key column 5.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Name Four",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier name of primary key column 4.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Name One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier name of primary key column 1.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Name Seven",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier name of primary key column 7.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Name Six",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier name of primary key column 6.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Name Three",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier name of primary key column 3.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Name Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier name of primary key column 2.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Value Eight",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier value of primary key column 8",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Value Five",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier value of primary key column 5",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Value Four",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier value of primary key column 4",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Value One",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier value of primary key column 1",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Value Seven",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier value of primary key column 7",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Value Sic",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier value of primary key column 6",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Value Three",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier value of primary key column 3",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Record Identifier Value Two",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "This attribute stores the error record's identifier value of primary key column 2",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Error Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Long",
+                    "gcd": "This attribute stores the data value of the record which caused the data quality failure",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Execution Owner",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "This attribute stores owner of the data quality check",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Group Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This attribute stores the code for a group created for data quality check.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Severity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "This attribute stores the code for severity of a data quality check.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Threshold Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "This attribute stores the threshold reached value. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Quality Threshold Percentage",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "This attribute stores the threshold percentage.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Error Record Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Long",
+                    "gcd": "This attribute stores error record identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Logical name of the Source Primary Key Attributes",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Long",
+                    "gcd": "Refers to the logical attribute names of composite primary key separated by comma, for the entity on which data quality check is defined.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number of Records Failed",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This attribute stores the total number of error records.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number of Records Scanned",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "This attribute stores the total number of records scanned.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

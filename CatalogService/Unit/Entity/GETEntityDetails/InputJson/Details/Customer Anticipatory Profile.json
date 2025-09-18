@@ -1,0 +1,216 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Source Of Funds",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country from which it is anticipated that this account is to receive a wire transfer.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Debit Credit Indicator",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Indicator",
+                    "gcd": "Flag to indicate if the account balance is in debit or in credit. If the value is updated as D means the balance is in debit and if the value is updated as C means the balance is in credit. Debit balance will indicate the amount which is due and credit balance is the amount which could arise due to overpayment of the cycle balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Period Average Individual Transaction Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the average amount expressed in base currency of a transaction of the profile metric that is anticipated for this account during this profile period.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Period Average Total Transaction Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the average total monetary amount expressed in base currency of all transactions of the profile metric that is anticipated for this account during this profile period.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Period Average Transaction Count",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the average number of transactions of the profile metric that is anticipated for this account during this profile period.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Period High Total Transaction Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the higher end of the range of expected total transaction amounts of the profile metric for this account expressed in base currency during this profile period.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Period High Transaction Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the higher end of the range of expected transaction amounts of the profile metric for this account expressed in base currency during this profile period.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Period Low Total Transaction Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the lower end of the range of expected total transaction amounts of the profile metric for this account expressed in base currency during this profile period.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Period Low Transaction Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the lower end of the range of expected transaction amounts of the profile metric for this account expressed in base currency during this profile period.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Profile Metric",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Metric measured by this anticipatory profile record (for example, USD-CASH-USD Cash, DOM-WIRE-Domestic Wire, FRN-CHK-Foreign Check etc.).\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Profile Period Unit",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the Unit of Period of time that this anticipatory profile represents. List of values are: D Daily,W Weekly,M Monthly,Q Quarterly,S Semi-Annually,A Annually.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Source Of Funds Financial Institution Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the financial institution from which it is anticipated that this account will receive a wire transfer.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Source Of Funds Institution Identifier Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the type of unique identifier used to represent the funds source financial institution (for example, ABA number or Bank Identification Code (BIC) for this anticipatory profile.\n",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV33423",
+                    "btLogicalName": "Debit Credit Indicator",
+                    "dqDesc": "Should have list of values as C,D",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQLOV33424",
+                    "btLogicalName": "Profile Period Unit",
+                    "dqDesc": "Should have list of values as A,D,M,Q,S,W",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQREF39600",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Customer Anticipatory Profile",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQREF39601",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Customer Anticipatory Profile",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQREF39602",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Customer Anticipatory Profile",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                },
+                {
+                    "dqId": "DQREF39603",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Customer Anticipatory Profile",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:08.0",
+                    "modifiedDate": "2024-11-04 04:39:02.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,212 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Acquisition Channel Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the channel through which customer was acquired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Age On Book In Months",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the age on book of the account or contract or policy in months. Age on book is the number of months since the account was opened till date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Attrition Reason Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the reason code for which customer has canceled the contract or the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Customer Attrition Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent",
+                    "gcd": "Refers to the attrition score planned for the customer segment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Customer Profitability Score",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the profitability score of the customer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Customer Segment Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the customer segment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Closed Accounts",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the planned number of closed accounts.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Number Of Closed Customers",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the planned number of closed customers.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Retention Offer Type",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of retention offer type. Retention offer type is referred to as a service or payment or reward outside of a regular services provided to the customer that is offered as an incentive to retain a key customer or account. Retention Offer Type Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF40218",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Customer Attrition Plans",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF40219",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Customer Attrition Plans",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF40220",
+                    "btLogicalName": "Attrition Reason Code",
+                    "dqDesc": "Reference Check for Attrition Reason Code in Stage Customer Attrition Plans",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF40221",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Customer Attrition Plans",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF40222",
+                    "btLogicalName": "Acquisition Channel Code",
+                    "dqDesc": "Reference Check for Acquisition Channel Code in Stage Customer Attrition Plans",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF40223",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Customer Attrition Plans",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF40224",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Customer Attrition Plans",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                },
+                {
+                    "dqId": "DQREF40225",
+                    "btLogicalName": "Retention Offer Type",
+                    "dqDesc": "Reference Check for Retention Offer Type in Stage Customer Attrition Plans",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:11.0",
+                    "modifiedDate": "2024-11-04 04:39:06.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

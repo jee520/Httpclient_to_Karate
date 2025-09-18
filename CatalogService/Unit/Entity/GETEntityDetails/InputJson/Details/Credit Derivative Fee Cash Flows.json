@@ -1,0 +1,146 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Flow Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the expected cash flow amount. As per CECL standards, expected cash flows are required to compute the allowance for AFS debt security. For example, if the amortized cost of an AFS debt security is USD100 and the fair value is USD80, then over all impairment is equal to USD20. Out of this USD20, decline in fair value due to credit loss needs to be calculated. Expected cash flows are required to arrive at this value. This attribute stores the Cash Flow Amount, inflow or outflow amount in local or legal entity currency. The cash flows arrived out of fees paid and received from trading or holding a derivative.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Cash Flow Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "This is the date for which the cash flow estimate is done.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQREF35144",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Credit Derivative Fee Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF35145",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Credit Derivative Fee Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF35146",
+                    "btLogicalName": "Cash Flow Date",
+                    "dqDesc": "Reference Check for Cash Flow Date in Stage Credit Derivative Fee Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF35147",
+                    "btLogicalName": "Cash Flow Date",
+                    "dqDesc": "Reference Check for Cash Flow Date in Stage Credit Derivative Fee Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF35148",
+                    "btLogicalName": "Accounting Standard Code",
+                    "dqDesc": "Reference Check for Accounting Standard Code in Stage Credit Derivative Fee Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF35149",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Credit Derivative Fee Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF35150",
+                    "btLogicalName": "Instrument Code",
+                    "dqDesc": "Reference Check for Instrument Code in Stage Credit Derivative Fee Cash Flows",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

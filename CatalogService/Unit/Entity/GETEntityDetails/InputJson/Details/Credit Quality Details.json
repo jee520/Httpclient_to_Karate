@@ -1,0 +1,238 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Limit Frozen Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the limit for an account is frozen or not. List of values are Y, N.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Behavior Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to unique identifier of behavior type code. Expected values are Non Maturity, Non Performing And Devolvement, Recovery, Volatile, Core and Non Core. \nThe payment and repricing characteristics can be gathered for most financial instruments, but for some the contractual cashflows may be absent or may be based on occurrence of certain events. Asset Liability Management allows you to define custom behavior, payment and repricing patterns to accurately model the unique characteristics for such instruments. Behavior pattern can be defined for the following types of instruments \nNon maturity Instruments,\nNon Performing Instruments,\nDevolvement and Recovery of Guarantees.\n\nOnce you create a behavior pattern, you can use it by mapping the unique behavior pattern code as the amortization type code for your instruments. Behavior pattern codes are defined within a pre set range, 70000 – 99999. When the cash flow engine encounters an instrument with an amortization type code within this pre determined range, it understands that a Behavior Pattern should be referenced for determining the principal cash flow amounts. Non performing Asset need not have a sub type associated, all the events i.e. substandard, doubtful or loss is processed. No interest cashflow will be generated and any balance on the maturity date would be written off. In the case of non maturity instruments the core and volatile runoff events are run. Interest cashflow is paid out on the payment dates. The engine assumes the maturity of the longest non maturing instrument as the maturity date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Covenants Breach Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether covenants breach is occurred or not. A breach of covenant occurs when the issuer of a debt instrument violates at least one of the terms and conditions that debtor committed to as part of the lending agreement. List of values are Y, N.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Covenants Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the prominent covenants that was breached as applicable under the loan agreement. Indicative values are DE ratio, Solvency, Profitability etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Quality Last Review Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the credit quality was last reviewed.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Quality Next Review Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the credit quality will be reviewed next.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Quality Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the credit quality type. Indicative Values are Low Pass, Pass, Watch List, Loss etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Review Pending Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the reason code for which credit review is pending, incase not reviewed.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Early Warning Level Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the early warning level code. Indicative values are ELW1, ELW2, ELW3, etc.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Limit Frozen Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code of reason of account limit frozen.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Recall Loan Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the loan account has been recalled by bank of not. List of values are Y, N.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Review Due Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the due date of the planned review.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Run Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the run identifier for a set of Records participating in the particular Run with the Run Execution identifier. This is a combination of Run Main Identifier and Run Execution Identifier.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32979",
+                    "btLogicalName": "Covenants Breach Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQLOV32980",
+                    "btLogicalName": "Recall Loan Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQLOV32981",
+                    "btLogicalName": "Account Limit Frozen Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF38674",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Credit Quality Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF38675",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Credit Quality Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF38676",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Credit Quality Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF38677",
+                    "btLogicalName": "Behavior Type",
+                    "dqDesc": "Reference Check for Behavior Type in Stage Credit Quality Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF38678",
+                    "btLogicalName": "Credit Quality Type",
+                    "dqDesc": "Reference Check for Credit Quality Type in Stage Credit Quality Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                },
+                {
+                    "dqId": "DQREF38679",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Credit Quality Details",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:05.0",
+                    "modifiedDate": "2024-11-04 04:38:59.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

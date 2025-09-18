@@ -1,0 +1,219 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Calendar Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the Calendar Date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Created By",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Store the user identifier of the the user who created the record.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Created Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the record was created.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to name of the day.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day Of The Month",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to numeric day of the month.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day Of The Week",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to numeric day of the week.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Day Of The Year",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "SurrogateKey",
+                    "gcd": "Refers to numeric day of the year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Half Year Calendar",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the Half Year Calendar. First half is represented as 1 and second half as 2.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Half Year Period Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the half year period name.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Modified By",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the user identifier of the user who modified the record.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Last Modified Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date when the record was last modified.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Month Calendar",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the month number of the calendar date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Month Period Name",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the Month Period Name.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Quarter Of The Calendar Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to quarter number of the calendar date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Quarter Period Name Of The Calendar Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to quarter period name of the calendar date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Term Period Name Of The Calendar Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to term Period Name of the calendar date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Trimester Of The Calendar Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to trimester number of the calendar date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Week Of The Calendar Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to week number of the calendar date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Week Period Name Of The Calendar Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to Week Period Name of the calendar date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Year Of The Calendar Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to year of the calendar date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Year Period Name Of The Calendar Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to Year Period Name of the calendar date.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

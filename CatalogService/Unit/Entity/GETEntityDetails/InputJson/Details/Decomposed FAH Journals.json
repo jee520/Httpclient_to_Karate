@@ -1,0 +1,555 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Currency Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the account currency amount of the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the account currency of the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Ledger Tag Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the accounting placeholder for the transaction account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Local Rate",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Rate_Percent_Long",
+                    "gcd": "Refers to the exchange rate applied to derive the Local Currency Amount from the Account Currency amount of the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Module Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the account transaction module for the transaction sent in by the module.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Transaction Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the entry is template derived or JV or Other.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accounting Entry Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier if an accounting entry.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accounting Period",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the accounting period for which the transaction is being posted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Acquisition Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the channel through which customer was acquired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amount Tag Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the accounting placeholder for the transaction amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Authorization Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Flag to identify whether the entry is authorized.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Authorizer Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the transaction authorization user identifier. User who will authorize the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Batch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the accounting entries that are generated by transactions of a particular type are grouped under a batch.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Segment Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique key identifying the business segment.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the business unit code as defined by the organization. A business unit is generally a broader definition and represents all the units in an organization. Business Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Canceled Pairing Transaction Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Store the Transaction Reference Identifier of the cancelled transaction. For cancelled transactions, contains the Transaction Reference Identifier of the cancelling transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Canceling Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to identify if the transaction cancels another transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Code Combination Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the code combinations received from accounting hub",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Conversion Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the conversion type for rate conversion between entered amount and accounted amount for FAH. This may be populated for specific FAH related activities. Possible Values include spot, corporate, user.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Counterparty Reference Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to counterparty code of the bank in the SFT transactions. The customer reference code represents the end customer of the repo transaction. This counterparty code references the counterparty to the bank, in the case of tri party SFT transactions. In the tri party SFT transactions, one party acts as the client, one party acts as the agent, and the other party acts as the dealer. This counterparty code will refer identified of the dealer.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Created By",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Store the user identifier of the the user who created the record.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Current Batch Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the current entry number sent as part of the common batch code belonging to the current transaction that is sent.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Debit Credit Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Flag to indicate if the account balance is in debit or in credit. If the value is updated as D means the balance is in debit and if the value is updated as C means the balance is in credit. Debit balance will indicate the amount which is due and credit balance is the amount which could arise due to overpayment of the cycle balance.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Error Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the error code that had occurred for the accounting entry.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Error Code Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Long",
+                    "gcd": "Sores the error description that has occurred for the accounting entry.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Event Date Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the date on which transaction event occurred in a number format i.e. YYYYMMDD for FAH.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Event Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the event identifier generated via the FAH event generation program. This column should not be populated during implementation.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Event Sequence Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the transaction event sequence for the transaction Retail modules will generally send the value as 1.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Financial Cycle Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the financial cycle for which the transaction is being posted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique general ledger account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Header Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the header identifier required for FAH header line Processing. A header record will have multiple transaction lines in the transaction tables.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Instrument Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to a unique Code representing a particular Instrument. This code can be ISIN Code, CUSIP, SEDOL etc. Instrument Contract dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Inter Brach Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Flag identifies whether the entry is for inter branch or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Intercompany Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for designating related companies.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ledger Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Flag to identify whether the account code is a customer account or ledger account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Ledger Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the ledger identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Local Currency Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the local currency amount of the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Local Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to a unique ISO code representing a particular local currency.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Location Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique location code. Location code is defined as the code which will represent the address of the property from zip code onwards like which city, country etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Module Suspense Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Flag indicate whether suspense posting is done to the entry or not.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the cost center to which the account belongs to. Organization Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Entry Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the original Entry Id when an entry is being reversed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Processing Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the transaction processing was completed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Project Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the project code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Related Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the related account for the Account Code of the transaction This will be TD Account or Loan Account etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Related Module Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "Refers to the related transaction module for the transaction sent in by the module.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Bank Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the transaction bank code where the transaction is initiated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the transaction branch code where the transaction is initiated.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to unique list of the transaction code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the transaction was recorded in the system. Transaction Date is the date on which a security or other financial instrument is traded. The transaction date represents the time at which ownership is transferred.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Medium",
+                    "gcd": "Refers to the description relating to each of the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Event Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the transaction event code for the transaction sent in by the module.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Mnemonic Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique transaction mnemonic code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Posting Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which this transaction was posted against the associated account for monetary instruments and checks.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Reference Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to transaction reference number. Transactions are cash inflows or cash outflows that occurs for each account. Each transaction will be represented with a unique identifier which is called as transaction reference number.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Reversal Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to Date of the transaction which is a reversal entry that made to cancel out a specific entry. These reversal entries are the entries that can be passed as a result of a cancelled transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Transaction Sub Sequence Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric_Long",
+                    "gcd": "Refers to the transaction sub sequence number for the transaction. Used to identify a pair of accounting entry for a transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "User Reference Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the user reference number of the transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Value Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the value date of the contract. Value Date is a securities industry term describing the date on which a trade, bonds, equities, foreign exchange, commodities, etc., settles. That is, the actual day on which transfer of cash or assets is completed, or the settlement amount is calculated. \nIn case of FX swap instrument Refers to the settlement date for spot or near leg. Also considered as the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [],
+            "useCases": []
+        }
+    ]
+}

@@ -1,0 +1,898 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "Account Manager Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the account manager is an employee who is responsible for the day to day management of accounts of a particular customer. The account manager is a point of contact, and provides customer support, up selling, technical assistance and general relationship management. An account manager may be in charge of a number of smaller accounts, or may focus on a few larger accounts. This column Refers to the account manager code or the unique employee identifier of the manager assigned by the financial institution. Management Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag to indicate if the account is closed. Account can be closed upon maturity of the account, transfer of the account, death of the account holder or write off.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Or Contract Number",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the unique identifier of the account or contract held by the customer. Account number is defined as numbers, letters or alphanumeric code assigned to every significant customer, supplier and lender for ease of reference in accounting records of the financial institution.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Remaining Tenor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the remaining term is used in conjunction with remaining term multiplier to determine the remaining term of an account as on processing date. It is computed as Maturity Date  As of Date. Since correspondent accounts are non maturing this can be defaulted to 99 years.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Status Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the status of the account. List of values can be Active, Inactive, in foreclosure, Re negotiated, Dispute, Frozen, Past Due, Closed etc. Account Status Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Sub Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Account Sub Type Code that is sub classified as per the banking source system for their internal operational purpose.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Tenor",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to contractual term as on origination date. Maturity Date = Origination Date + Origination Term. Since correspondent accounts are non maturing this can be defaulted to 99 years.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Account Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Account Type Code that is classified as per the banking source system for their internal operational purpose. \nIn case of ALM FTP applications, Account type are fixed set of values.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Accounting Standard Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code of the accounting standard or the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. E.g. GAAP, IFRS etc. Generally Accepted Accounting Principles, GAAP. GAAP are the rules to which accountants adhere when preparing financial statements to ensure minimum level of consistency. The Generally Accepted Accounting Principles exist to ensure that accountants are using the same or almost the same standards so that comparison of financial statements between or within a company is easy and accurate. They also promote transparency in accounting. However, GAAP provides broad guidelines, there is room for companies to follow an approach within a guideline.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Acquisition Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the channel through which customer was acquired.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Adjustment Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier for adjustment type dimension at an account. Examples can be CONTRA,NEW etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Amount Due In Next Twelve Months",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the Amount Due In Next 12 Months.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Attrition Reason Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the reason code for which customer has canceled the contract or the account.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Book Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to if the contract is related to the banking book or trading book. Usually contracts like loans and leases are on the banking book. However, instruments like mortgage backed securities can be held on the trading book of the financial institution. If the value is updated as T then exposure or contract belongs to trading book and if the value is updated as B then it belongs to banking book.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Branch Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the branch code. A branch, banking center or financial center is a retail location where a financial institution offers a wide array of face to face and automated services to its customers. This column Refers to the unique branch code assigned by the financial institution. A branch may specialize to offer certain type of products to customers. Branch needs approval from the regulators.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Business Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the business unit code as defined by the organization. A business unit is generally a broader definition and represents all the units in an organization. Business Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Campaign Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the campaign under which the account was acquired. Campaign is defined as Specific activities designed to promote a product, service or business. A marketing campaign is a coordinated series of steps that can include promotion of a product through different mediums like television, radio, print, online using a variety of different types of advertisements. The campaign doesn't have to rely solely on advertising, and can also include demonstrations, word of mouth and other interactive techniques. Campaigns are created or started by financial institutions to promote sales, improve visibility of the brand or product and create opportunities for addon sales and cross selling.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Closed Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the party disassociates all direct and indirect relationship with the financial institution, this could also be on account of the death of an individual or dissolution of an entity.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Common Chart Of Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the chart of accounts is a listing of the names of the accounts that a financial institution has identified and made available for recording transactions in its general ledger. A financial institution has the flexibility to define its chart of accounts as per requirement, including adding accounts as needed.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Country Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the country code associated with the account or instrument or party or location. There are several popular country codes as part of ISO 3166 standard published by the International Organization for Standardization. ISO 3166 defines codes for the names of countries, dependent territories, special areas of geographical interest and their principal subdivisions.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Employee Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether an employee of the financial institution has a personal association on this account, either through a direct customer role or a family member relationship.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "End Of Period Balance",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to end of period balance which includes accrued interest. All the calculations such as interest, prepayment amounts etc. are based on this amount. This is used in all the calculations performed by cash flow engine. In Case of LC Contracts, EOP Balance should be populated when LC Is executed. Till LC is executed, LC amount sanctioned should be hold in Total Commitment Amount.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiduciary Account Asset Market Value",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the market value in natural currency of assets under given fiduciary account.\n",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Fiduciary Service Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Fiduciary Service type code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "General Ledger Account Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique general ledger account code.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Holiday Rolling Convention Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the holiday rolling convention code, based on which the date on which cash flow has to happen is decided. This includes  Following business day, Modified following business day, Previous business day, Modified previous business day etc.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "ISO Currency Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Currency",
+                    "gcd": "ISO currency codes is a standard published by the International Organization for Standardization 4217, which delineates currency designators and country codes, alpha and numeric. This column will capture the standardized currency code. Currency dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Calculation Method",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the method of computing interest. Expected values are Simple and Compounded.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Interest Rate Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the type of interest rate paid on this transaction., For instance Fixed Or Floating.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "International Banking Facility Account Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if the account or transaction is belongs to an international banking facility. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Legal Entity Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the entity code of the legal entity to which the account will be attributed in the general ledger.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the credit line associated with this account. Credit Line dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to line of business, LOB, is a functional unit that offers the products to the customer by the financial entity. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Load Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Numeric",
+                    "gcd": "Refers to the load run identifier. Load run identifier enables user to load multiple versions intraday or post back dated adjustment entries to the table. Refers to the Load run identifier of the equivalent record in product processor that needs to be adjusted. Default value of  1 indicates that the latest load run is being adjusted.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Managed Asset Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates if assets underlying the given account are managed or unmanaged. An account should be categorized as managed if the institution has investment discretion over the assets of the account. Investment discretion is defined as the sole or shared authority, whether or not that authority is exercised, to determine what securities or other assets to purchase or sell on behalf of the fiduciary related account. List of Values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Offer Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the offer. An offer is defined as an abstract, physical and or monetary benefit attached to a product for a predetermined period of time with a view to increase the sales of a product. Offer dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Organization Unit Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the cost center to which the account belongs to. Organization Unit dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Original Account Number",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description_Short",
+                    "gcd": "Refers to the original account number held by the source system. If there are multiple source systems without unique account numbers, we expect the account number and source system to be concatenated as part of the primary key, while this column will store the original account number as generated by the source system.",
+                    "isPII": "YES"
+                },
+                {
+                    "logicalName": "Partner Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code to identify a partner. Partners assist in origination of accounts. Partner dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Product Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique code assigned to each of the Products offered by the Bank.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Referral Line Of Business Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the Line of Business that is responsible to acquiring the account. Line of business, LOB, is a functional unit that offers the products of the financial entity to the customer. Example: Corporate Finance, Trade Services, Private Wealth Management, Treasury Services, Retail Banking, Cards services etc. This column Refers to the unique code of the line of business applicable to the respective product.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Remaining Tenor Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Remaining term unit is used in conjunction with remaining term to determine the remaining term of an account as on processing date. List of values are D Day, M Month and Y Year.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sales And Distribution Channel Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique code of the sales and distribution channel used to acquire the account. Distribution channels are mediums which are used to sell the product. In most cases, there is no difference between sales channels and distribution channels. Channels like Internet, branch, telephone, newspaper etc. are examples of distribution channels. Channel dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sales Representative Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier of the sales representative associated with the account. A product offering of a bank is usually sold via multiple channels. Sales representatives are usually employed to sell certain types of products like insurance policies, mutual funds etc. DIM_SALES_REPRESENTATIVE is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Service Representative Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier of the service representative who is responsible for servicing the account. Service representatives are employees or contractors designated by the bank to service accounts. They are also commonly called as customer service representatives.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Start Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date on which the contract becomes effective.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Tenor Unit",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Refers to the unit in which tenor of instrument is given. This attribute must be read together with Tenor. Expected values are ON  Overnight, TN  Tomorrow next, SN  Spot next, D  calendar days, BD  business days, W  weeks, M  months, Y  years. When unit is ON, TN, SN or Date then Tenor will be null. This is required only for Single name credit default swap and credit index swaps.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Treatment Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identification code for a treatment. Treatment is defined which is channel specific instance of an offer. Treatment Refers to the message associated with the offer. Treatment dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [],
+            "governance": [
+                {
+                    "dqId": "DQLOV32580",
+                    "btLogicalName": "Employee Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQLOV32581",
+                    "btLogicalName": "Tenor Unit",
+                    "dqDesc": "Should have list of values as D,M,W,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQLOV32582",
+                    "btLogicalName": "Remaining Tenor Unit",
+                    "dqDesc": "Should have list of values as D,M,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQLOV32583",
+                    "btLogicalName": "Account Or Contract Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQLOV32584",
+                    "btLogicalName": "International Banking Facility Account Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQLOV32585",
+                    "btLogicalName": "Managed Asset Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37608",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37609",
+                    "btLogicalName": "As Of Date",
+                    "dqDesc": "Reference Check for As Of Date in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37610",
+                    "btLogicalName": "Closed Date",
+                    "dqDesc": "Reference Check for Closed Date in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37611",
+                    "btLogicalName": "Closed Date",
+                    "dqDesc": "Reference Check for Closed Date in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37612",
+                    "btLogicalName": "Start Date",
+                    "dqDesc": "Reference Check for Start Date in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37613",
+                    "btLogicalName": "Start Date",
+                    "dqDesc": "Reference Check for Start Date in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37614",
+                    "btLogicalName": "Account Manager Code",
+                    "dqDesc": "Reference Check for Account Manager Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37615",
+                    "btLogicalName": "Account Or Contract Number",
+                    "dqDesc": "Reference Check for Account Or Contract Number in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37616",
+                    "btLogicalName": "Account Type",
+                    "dqDesc": "Reference Check for Account Type in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37617",
+                    "btLogicalName": "Account Status Code",
+                    "dqDesc": "Reference Check for Account Status Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37618",
+                    "btLogicalName": "Accounting Standard Code",
+                    "dqDesc": "Reference Check for Accounting Standard Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37619",
+                    "btLogicalName": "Adjustment Type",
+                    "dqDesc": "Reference Check for Adjustment Type in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37620",
+                    "btLogicalName": "Attrition Reason Code",
+                    "dqDesc": "Reference Check for Attrition Reason Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37621",
+                    "btLogicalName": "Book Type",
+                    "dqDesc": "Reference Check for Book Type in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37622",
+                    "btLogicalName": "Branch Code",
+                    "dqDesc": "Reference Check for Branch Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37623",
+                    "btLogicalName": "Business Unit Code",
+                    "dqDesc": "Reference Check for Business Unit Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37624",
+                    "btLogicalName": "Campaign Identifier",
+                    "dqDesc": "Reference Check for Campaign Identifier in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37625",
+                    "btLogicalName": "Acquisition Channel Code",
+                    "dqDesc": "Reference Check for Acquisition Channel Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37626",
+                    "btLogicalName": "Common Chart Of Account Code",
+                    "dqDesc": "Reference Check for Common Chart Of Account Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37627",
+                    "btLogicalName": "Country Code",
+                    "dqDesc": "Reference Check for Country Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37628",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Reference Check for Data Source Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37629",
+                    "btLogicalName": "Sales And Distribution Channel Code",
+                    "dqDesc": "Reference Check for Sales And Distribution Channel Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37630",
+                    "btLogicalName": "Fiduciary Service Type",
+                    "dqDesc": "Reference Check for Fiduciary Service Type in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37631",
+                    "btLogicalName": "General Ledger Account Code",
+                    "dqDesc": "Reference Check for General Ledger Account Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37632",
+                    "btLogicalName": "Holiday Rolling Convention Code",
+                    "dqDesc": "Reference Check for Holiday Rolling Convention Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37633",
+                    "btLogicalName": "Interest Calculation Method",
+                    "dqDesc": "Reference Check for Interest Calculation Method in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37634",
+                    "btLogicalName": "Interest Rate Type",
+                    "dqDesc": "Reference Check for Interest Rate Type in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37635",
+                    "btLogicalName": "ISO Currency Code",
+                    "dqDesc": "Reference Check for ISO Currency Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37636",
+                    "btLogicalName": "Line Code",
+                    "dqDesc": "Reference Check for Line Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37637",
+                    "btLogicalName": "Line Of Business Code",
+                    "dqDesc": "Reference Check for Line Of Business Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37638",
+                    "btLogicalName": "Legal Entity Code",
+                    "dqDesc": "Reference Check for Legal Entity Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37639",
+                    "btLogicalName": "Offer Code",
+                    "dqDesc": "Reference Check for Offer Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37640",
+                    "btLogicalName": "Organization Unit Code",
+                    "dqDesc": "Reference Check for Organization Unit Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37641",
+                    "btLogicalName": "Original Account Number",
+                    "dqDesc": "Reference Check for Original Account Number in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37642",
+                    "btLogicalName": "Partner Code",
+                    "dqDesc": "Reference Check for Partner Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37643",
+                    "btLogicalName": "Party Identifier",
+                    "dqDesc": "Reference Check for Party Identifier in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37644",
+                    "btLogicalName": "Product Code",
+                    "dqDesc": "Reference Check for Product Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37645",
+                    "btLogicalName": "Referral Line Of Business Code",
+                    "dqDesc": "Reference Check for Referral Line Of Business Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37646",
+                    "btLogicalName": "Sales Representative Identifier",
+                    "dqDesc": "Reference Check for Sales Representative Identifier in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37647",
+                    "btLogicalName": "Service Representative Identifier",
+                    "dqDesc": "Reference Check for Service Representative Identifier in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                },
+                {
+                    "dqId": "DQREF37648",
+                    "btLogicalName": "Treatment Code",
+                    "dqDesc": "Reference Check for Treatment Code in Stage Custodial Accounts",
+                    "dqType": "Referential Integrity Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:03.0",
+                    "modifiedDate": "2024-11-04 04:38:57.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}

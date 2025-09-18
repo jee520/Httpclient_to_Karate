@@ -1,0 +1,212 @@
+{
+    "DataModelDetail": [
+        {
+            "attributes": [
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "As Of Date",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Date",
+                    "gcd": "Refers to the date as on which the snapshot of source data extracted for processing.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Participation Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code for the participating bank part of the Participation Tranche.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Participation Identifier",
+                    "isPk": "YES",
+                    "isNull": "NO",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the code for the participating bank part of the Participation Tranche.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Participation Identifier Description",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Description",
+                    "gcd": "Refers to the description for the credit Participation ID.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Participation Numeric Identifier",
+                    "isPk": "NO",
+                    "isNull": "NO",
+                    "ldd": "SurrogateKey_Long",
+                    "gcd": "Refers to the equivalent numeric identifier of the Credit Participation Numeric Identifier.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Credit Participation Type",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the unique identifier for the type of credit participation. Credit Participation Contract Type Dimension is the equivalent dimension table for this column.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Data Source Code",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric",
+                    "gcd": "Refers to the source system from where data is extracted. Data can be sourced from multiple sources, this column will Refers to the source code from where the data is extracted for this extraction date.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Dimension Value Closed Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the given dimension value record has been disabled or expired. The list of values includes Y- Indicates that the dimension value has been disabled, N- Indicates that the dimension value is not disabled and is still active.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Party Identifier",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Code_Alphanumeric_Long",
+                    "gcd": "Refers to the unique identifier for the party. Party is defined as an entity or a person who takes part or is involved in an agreement, lawsuit, or transaction.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Record Creation Date",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Date",
+                    "gcd": "Refers to the record creation date. It has been added to all catalog entities to enable partitioning and archival.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Sanctioned Amount",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Amount",
+                    "gcd": "Refers to the total amount sanctioned for a credit participation tranche.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Seeded Record Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "It Indicates if dimension record is seeded by product or not. The SCD component would not overwrite the record if it is set to 'Y'.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Shared National Credit Flag",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Flag",
+                    "gcd": "Flag indicates whether the credit participation is part of Shared National Credit Programme. List of values are Y and N.",
+                    "isPII": "NO"
+                },
+                {
+                    "logicalName": "Single Or Double Signed Indicator",
+                    "isPk": "NO",
+                    "isNull": "YES",
+                    "ldd": "Indicator",
+                    "gcd": "Indicates whether the syndicated loan commitment is single signed by the BHC or IHC, counter signed by the borrower which is dual signed. List of Values added are S is Single Signed, D is Double Signed.",
+                    "isPII": "NO"
+                }
+            ],
+            "processInfo": [
+                {
+                    "scdCode": "1038",
+                    "srcLogicalName": "Stage Credit Participation Master",
+                    "scdName": "scd_1038_DIM_CREDIT_PARTICIPATION_STG_CREDIT_PARTCPN_MASTER",
+                    "scdDesc": "Data movement from credit participation master source to credit participation dimension",
+                    "createdDate": "2024-10-26 06:02:40.0",
+                    "modifiedDate": "2024-10-30 08:59:50.0",
+                    "isRegistered": "Y"
+                }
+            ],
+            "governance": [
+                {
+                    "dqId": "DQCUS42305",
+                    "btLogicalName": "Credit Participation Numeric Identifier",
+                    "dqDesc": "Credit Participation Numeric Identifier  should not have duplicates for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQCUS42306",
+                    "btLogicalName": "Credit Participation Numeric Identifier",
+                    "dqDesc": "Credit Participation Numeric Identifier should not change for existing Code",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQLOV33733",
+                    "btLogicalName": "Dimension Value Closed Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQLOV33734",
+                    "btLogicalName": "Shared National Credit Flag",
+                    "dqDesc": "Should have list of values as N,Y",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQLOV33735",
+                    "btLogicalName": "Single Or Double Signed Indicator",
+                    "dqDesc": "Should have list of values as D,S",
+                    "dqType": "List of Values or Code Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQNMDUP42194",
+                    "btLogicalName": "Credit Participation Numeric Identifier",
+                    "dqDesc": "Credit Participation Numeric Identifier should not have duplicates",
+                    "dqType": "Generic Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                },
+                {
+                    "dqId": "DQSPLCH42831",
+                    "btLogicalName": "Data Source Code",
+                    "dqDesc": "Data Source Code should only have list of allowed characters",
+                    "dqType": "Custom Check",
+                    "isCustom": "Seeded",
+                    "status": "S",
+                    "createdDate": "2024-10-26 04:46:27.0",
+                    "modifiedDate": "2024-11-04 04:39:31.0"
+                }
+            ],
+            "useCases": []
+        }
+    ]
+}
