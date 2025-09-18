@@ -1,0 +1,30 @@
+[
+    {
+        "As Of Date": "10/26/2024",
+        "Accrual Status Code": "NONACCRU",
+        "Accrual Status Description": "Non Accruing account moved beyond acceptable delinquency",
+        "Accrual Status Regulatory Display Code": "1",
+        "Data Source Code": ""
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Accrual Status Code": "ACCRU",
+        "Accrual Status Description": "Accruing account with or without acceptable delinquency",
+        "Accrual Status Regulatory Display Code": "0",
+        "Data Source Code": ""
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Accrual Status Code": "OTH",
+        "Accrual Status Description": "Others",
+        "Accrual Status Regulatory Display Code": "-1",
+        "Data Source Code": ""
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Accrual Status Code": "MSG",
+        "Accrual Status Description": "Missing",
+        "Accrual Status Regulatory Display Code": "0",
+        "Data Source Code": ""
+    }
+]
