@@ -1,0 +1,2907 @@
+[
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSASD",
+        "Instrument Type Description": "Discrete Asian Option on Equity",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTINDT",
+        "Instrument Type Description": "Innovative Debt Instrument",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTNSAE",
+        "Instrument Type Description": "Non State Aid Equity Securities",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTFIFC",
+        "Instrument Type Description": "Fixed Rate Term Finance Certificate",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTFLS",
+        "Instrument Type Description": "Floating Rate Sukuk",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSASC",
+        "Instrument Type Description": "Continuous Asian Option on Equity",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFUOPZCB",
+        "Instrument Type Description": "Zero Coupon Bond Futures Option",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFWDSFWD",
+        "Instrument Type Description": "Interest Rate Forward on Yield",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSCFI",
+        "Instrument Type Description": "Convertible Fixed Coupon Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSOPTSSHT",
+        "Instrument Type Description": "Shout Options on Currency",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSQTO",
+        "Instrument Type Description": "Equity Quanto Option",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMSWAPCMP",
+        "Instrument Type Description": "Swaps - Commodity Price",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSSPOTSPT",
+        "Instrument Type Description": "Spot Currency",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFOOPFIB",
+        "Instrument Type Description": "Fixed Rate Bond Forward Option",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMFUOPFUT",
+        "Instrument Type Description": "Commodity Futures Option",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTDREQ",
+        "Instrument Type Description": "Depository Receipt - Equity",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMSPOTSPT",
+        "Instrument Type Description": "Spot Commodity",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSOPTSASC",
+        "Instrument Type Description": "Continuous Asian Option on Currency",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSSHT",
+        "Instrument Type Description": "Shout Options on Equity",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFWDSGLD",
+        "Instrument Type Description": "Gold Forwards",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTTRB",
+        "Instrument Type Description": "Treasury Bill",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTEXF",
+        "Instrument Type Description": "External Funds",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSWAPCMS",
+        "Instrument Type Description": "CMS Rate Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFUTSZCB",
+        "Instrument Type Description": "Zero Coupon Bond Future",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTFLB",
+        "Instrument Type Description": "Floating Rate Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSOPTSASD",
+        "Instrument Type Description": "Discrete Asian Option on Currency",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTCZB",
+        "Instrument Type Description": "Convertible Zero Coupon Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTEXFIB",
+        "Instrument Type Description": "External Fixed Rate Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFWDSECF",
+        "Instrument Type Description": "Eurocurrency Forwards",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQRNCPS",
+        "Instrument Type Description": "Redeemable Non-Cumulative Preference Shares",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTMMF",
+        "Instrument Type Description": "Money Market Funds",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSSPOTCNA",
+        "Instrument Type Description": "Cash in Nostro Account",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTEXFLB",
+        "Instrument Type Description": "External Floating Rate Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSSWAPCDS",
+        "Instrument Type Description": "Credit Default Swap -Forex",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFUTSECF",
+        "Instrument Type Description": "Eurocurrency Interest Futures",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMOPTSFLLO",
+        "Instrument Type Description": "Floating Lookback Option on Commodity",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSFLR",
+        "Instrument Type Description": "Floors",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFWDSZCB",
+        "Instrument Type Description": "Zero Coupon Bond Forward",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IXFOOPFWV",
+        "Instrument Type Description": "Index Forward Option",
+        "Risk Factor Type": "IX",
+        "Risk Factor Type Description": "Index"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTHBF",
+        "Instrument Type Description": "Hybrid Funds",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFOOPFLB",
+        "Instrument Type Description": "Floating Rate Bond Forward Vanilla Option",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMOPTSFILO",
+        "Instrument Type Description": "Fixed Lookback Option on Commodity",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTSASD",
+        "Instrument Type Description": "State Aid Subordinated Debt Securities",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTZCS",
+        "Instrument Type Description": "Zero Coupon Sukuk",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSVANP",
+        "Instrument Type Description": "Interest Rate option on Price",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSZCBQTO",
+        "Instrument Type Description": "Zero Coupon Bond Quanto Option",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSSPOTGLD",
+        "Instrument Type Description": "Gold",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSWAPVOL",
+        "Instrument Type Description": "Interest Rate Volatility Swap",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSVOL",
+        "Instrument Type Description": "Interest Rate Volatility Options",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSWAPVAR",
+        "Instrument Type Description": "Interest Rate Variance Swap",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "STRIPBOND",
+        "Instrument Type Description": "Stripped Bond",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "GLOBARECEIPTS",
+        "Instrument Type Description": "Global Receipts",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "FXSWAP",
+        "Instrument Type Description": "FX Swaps",
+        "Risk Factor Type": "FX",
+        "Risk Factor Type Description": "Forex"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EXCTRADEDF",
+        "Instrument Type Description": "Exchange traded funds",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "UNSTRNOTE",
+        "Instrument Type Description": "Unstripped Note",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "TBR",
+        "Instrument Type Description": "Teddy bears",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "COMTRUSTFUND",
+        "Instrument Type Description": "Common trust funds",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "MUTUALFUND",
+        "Instrument Type Description": "Mutual funds",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "TIGR",
+        "Instrument Type Description": "Treasury Income Growth Receipts",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "INDLINKEDFUND",
+        "Instrument Type Description": "Index-linked funds",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "TIPS",
+        "Instrument Type Description": "Treasury Inflation Protected Securities",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "AMERDEPRECEIPTS",
+        "Instrument Type Description": "American Depositary Receipts",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "INVESTRUSTFUND",
+        "Instrument Type Description": "Investment trusts",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTPERBOND",
+        "Instrument Type Description": "Perpetual Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "LIONS",
+        "Instrument Type Description": "Lehman Investment Opportunity Note",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "STRIPNOTE",
+        "Instrument Type Description": "Stripped Note",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "HEDGEFUND",
+        "Instrument Type Description": "Hedge funds",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "COUGR",
+        "Instrument Type Description": "cougars",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "DEB",
+        "Instrument Type Description": "Debentures",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CATS",
+        "Instrument Type Description": "Certificates Of Accrual On Treasury Securities",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "UNSTRBOND",
+        "Instrument Type Description": "Unstripped Bond",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CERTIBONDS",
+        "Instrument Type Description": "Certificated Bearer bonds",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CONVESECURITY",
+        "Instrument Type Description": "Convertible debt security",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSCOP",
+        "Instrument Type Description": "Credit spread options-Risk transfer",
+        "Risk Factor Type": "CR",
+        "Risk Factor Type Description": "Credit"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "SWAPTIONBM",
+        "Instrument Type Description": "Bermuda Swaption",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "SWAPTION",
+        "Instrument Type Description": "Swaption",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "SWAPTIONUS",
+        "Instrument Type Description": "American Swaption",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSCFI",
+        "Instrument Type Description": "EQ Convertible Fixed Coupon Bond",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTSECRECEQ",
+        "Instrument Type Description": "Security Receipt - EQ",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSCFL",
+        "Instrument Type Description": "EQ Convertible Floating Coupon Bond",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSCZB",
+        "Instrument Type Description": "EQ Convertible Zero Coupon Bond",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTOPFS",
+        "Instrument Type Description": "Other Preferred Stock",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CSFUT",
+        "Instrument Type Description": "Credit Spreads Futures",
+        "Risk Factor Type": "CR",
+        "Risk Factor Type Description": "Credit"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CSFWD",
+        "Instrument Type Description": "Credit Spreads Forwards",
+        "Risk Factor Type": "CR",
+        "Risk Factor Type Description": "Credit"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CSOPT",
+        "Instrument Type Description": "Credit Spreads Options",
+        "Risk Factor Type": "CR",
+        "Risk Factor Type Description": "Credit"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "POSTRIPTRE",
+        "Instrument Type Description": "Principal Only Treasury strips",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "POSTRIPCBND",
+        "Instrument Type Description": "Principal Only Strip Covered Bond",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IOSTRIPTRE",
+        "Instrument Type Description": "Interest Only Treasury strips",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "OTHIODEBT",
+        "Instrument Type Description": "Interest Only other debt securities",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "POSTRIPABS",
+        "Instrument Type Description": "Principal Only Strip ABS",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IOSTRIPCBND",
+        "Instrument Type Description": "Interest Only Strip Covered Bond",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "OTHPODEBT",
+        "Instrument Type Description": "Principal Only other debt securities",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IOSTRIPABS",
+        "Instrument Type Description": "Interest Only Strip ABS",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "UNREF",
+        "Instrument Type Description": "Unregistered Funds",
+        "Risk Factor Type": "OTH",
+        "Risk Factor Type Description": "Others"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CPP",
+        "Instrument Type Description": "Cumulative Perpetual Preferred",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "COLMBS",
+        "Instrument Type Description": "Collateralized by MBS",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CCSWAPTION",
+        "Instrument Type Description": "Cross Currency Swaption",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CAPINSTRSUB",
+        "Instrument Type Description": "Capital instruments issued by subsidiary",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "OTHCDS",
+        "Instrument Type Description": "Other Credit Derivatives",
+        "Risk Factor Type": "CR",
+        "Risk Factor Type Description": ""
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "SVWRI",
+        "Instrument Type Description": "Stable value wrap",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "TDDEP",
+        "Instrument Type Description": "Traded Deposits other than Certificate of Deposits",
+        "Risk Factor Type": "OTH",
+        "Risk Factor Type Description": "Others"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTWARE",
+        "Instrument Type Description": "Warehouse",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTELN",
+        "Instrument Type Description": "Equity Linked Note",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CSW",
+        "Instrument Type Description": "CS Warrants",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMO",
+        "Instrument Type Description": "Collateralized Mortgage Obligation",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EURBOND",
+        "Instrument Type Description": "Eurobonds",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "MCPUSG",
+        "Instrument Type Description": "MCP USG Preferred",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "GENPARTSHA",
+        "Instrument Type Description": "General Partnership shares and interest",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFUT",
+        "Instrument Type Description": "Interest Rate Futures",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "ETFCOMOTHOPT",
+        "Instrument Type Description": "ETF Commodity and other Option Contract",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "SPEFUND",
+        "Instrument Type Description": "Speciality Funds",
+        "Risk Factor Type": "OTH",
+        "Risk Factor Type Description": "Others"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IOSTRIPRMBS",
+        "Instrument Type Description": "Interest Only Strip RMBS",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "PERDEB",
+        "Instrument Type Description": "Perpetual Debentures",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "REDDEBNT",
+        "Instrument Type Description": "Redeemable Debentures",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IXSPOTSPTEQ",
+        "Instrument Type Description": "Spot Index Equity",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMBSPT",
+        "Instrument Type Description": "Commercial Mortgage Backed Pass Through Securities",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CPISSUED",
+        "Instrument Type Description": "Commercial Paper Issued",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "FEDFUNPURREPO",
+        "Instrument Type Description": "Federal funds purchased under agreement to sell",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "ARS",
+        "Instrument Type Description": "Auction Rate Securities",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "USGTRUPS",
+        "Instrument Type Description": "USG Preferred TRUPS",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMSWAPTION",
+        "Instrument Type Description": "Commodity Swaption Debt",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "REMIC",
+        "Instrument Type Description": "Real estate mortgage investment conduits",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "ETFEQOPT",
+        "Instrument Type Description": "ETF Equity Option Contract",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTRMBS",
+        "Instrument Type Description": "RMBS",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTCDXHVOL",
+        "Instrument Type Description": "CDX HVOL",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "HABOI",
+        "Instrument Type Description": "Hybrid account bank owned insurance assets",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "TOB",
+        "Instrument Type Description": "Tender Option Bonds",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPT",
+        "Instrument Type Description": "Interest Rate Option",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRBONDX",
+        "Instrument Type Description": "IBOXX",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CPPTARP",
+        "Instrument Type Description": "CPP TARP Preferred",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "REPO",
+        "Instrument Type Description": "Securities sold under agreements to repurchase",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "TAXBOND",
+        "Instrument Type Description": "Taxable Bond",
+        "Risk Factor Type": "OTH",
+        "Risk Factor Type Description": "Others"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "TRUPS",
+        "Instrument Type Description": "Cumulative Dated Preferred",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRITRAXXHVOL",
+        "Instrument Type Description": "ITRAXX HIVOL",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "TRSBOND",
+        "Instrument Type Description": "Treasury Bond",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CONBOND",
+        "Instrument Type Description": "Convertible Debentures",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "BFO",
+        "Instrument Type Description": "Bond Future Option",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CSUSG",
+        "Instrument Type Description": "CS USG Investment",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTSECL",
+        "Instrument Type Description": "Securities Lending",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTCDXHY",
+        "Instrument Type Description": "CDX HY",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "RPTS",
+        "Instrument Type Description": "Residential pass through securities",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRITRAXXM",
+        "Instrument Type Description": "ITRAXX MAIN",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "FEDFUNPUR",
+        "Instrument Type Description": "Federal funds purchased",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "STRCBOND",
+        "Instrument Type Description": "Structured Covered Bonds",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "TRSNOTE",
+        "Instrument Type Description": "Treasury Notes",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "STRCNOTE",
+        "Instrument Type Description": "Structured  Notes",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CILBOND",
+        "Instrument Type Description": "Corporate Inflation Linked Bond",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "TRESTO",
+        "Instrument Type Description": "Treasury Stock",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "TOLLAGREE",
+        "Instrument Type Description": "Tolling Agreements",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRINDXTRANH",
+        "Instrument Type Description": "Credit Index Tranches",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "LIMLIASHA",
+        "Instrument Type Description": "Limited Liability Partnership shares and interest",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "FMAS",
+        "Instrument Type Description": "Fiduciary Miscellaneous assets",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "ETFINTOPT",
+        "Instrument Type Description": "ETF interest Rate Option Contract",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRITRAXXXO",
+        "Instrument Type Description": "ITRAXX XO",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRBASCDS",
+        "Instrument Type Description": "Basket CDS",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRCOVBOND",
+        "Instrument Type Description": "Covered Bonds",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "DEBTSWAPTION",
+        "Instrument Type Description": "Debt Swaption",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "TBA",
+        "Instrument Type Description": "To Be Announced",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CS",
+        "Instrument Type Description": "Common Stock",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQFUND",
+        "Instrument Type Description": "Equity Fund",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "BONFUT",
+        "Instrument Type Description": "Bond Future",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTCDS",
+        "Instrument Type Description": "Credit Default Swaps",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "FEDFUNSOLD",
+        "Instrument Type Description": "Federal funds sold",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "FRES",
+        "Instrument Type Description": "Fiduciary Real estate",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "HEATRATE",
+        "Instrument Type Description": "Heat Rate Options",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTCOP",
+        "Instrument Type Description": "Other residential mortgage backed securities",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "ETFFXOPT",
+        "Instrument Type Description": "ETF FX Option Contract",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "REITPR",
+        "Instrument Type Description": "REIT Preferred",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "NCPP",
+        "Instrument Type Description": "Non-Cumulative Perpetual Preferred",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTMBGO",
+        "Instrument Type Description": "Municipal Bond General Obligations",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "SMBS",
+        "Instrument Type Description": "Stripped CMBS",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTLCDS",
+        "Instrument Type Description": "Loan Credit Default Swaps",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "FREM",
+        "Instrument Type Description": "Fiduciary Real estate Mortgages",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "PERPREST",
+        "Instrument Type Description": "Perpetual Preferred Stock USG CPP",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "FEDFUNSOLDREVREP",
+        "Instrument Type Description": "Federal funds sold under agreement to repurchase",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CPTS",
+        "Instrument Type Description": "Commercial pass through securities",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "STRBOND",
+        "Instrument Type Description": "Structured Bonds",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CSESO",
+        "Instrument Type Description": "Common Stock- Employee Stock Compensation",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "OTHRABSPT",
+        "Instrument Type Description": "Other Retail Asset Backed Pass Through Securities",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "STEURBOND",
+        "Instrument Type Description": "Structured Euro Bonds",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "ACMCPPS",
+        "Instrument Type Description": "Mandatorily Convertible Perpetual Preferred Stock",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "MCPD",
+        "Instrument Type Description": "Mandatory Convertible Preferred Debentures",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTCMBS",
+        "Instrument Type Description": "CMBS",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "NCPPCON",
+        "Instrument Type Description": "NCPP Convertible",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSSWAPTION",
+        "Instrument Type Description": "Currency  Swaption",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "FOFUND",
+        "Instrument Type Description": "Fund of Funds",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "TRS",
+        "Instrument Type Description": "Credit Deafult Swaps - Total Return Swaps",
+        "Risk Factor Type": "CR",
+        "Risk Factor Type Description": "Credit"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTCLO",
+        "Instrument Type Description": "CLO",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "COPT",
+        "Instrument Type Description": "Credit Default swap Options",
+        "Risk Factor Type": "CR",
+        "Risk Factor Type Description": "Credit"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CIFUND",
+        "Instrument Type Description": "Collective Investment Fund",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "RMBSPT",
+        "Instrument Type Description": "Residential Mortgage Backed Pass Through Securities",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IXXSSPOT",
+        "Instrument Type Description": "Spot Index Currency",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTSECB",
+        "Instrument Type Description": "Securities Borrowing",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "OTHMF",
+        "Instrument Type Description": "Other Mutual funds",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTMBR",
+        "Instrument Type Description": "Municipal Bond Revenue Obligations",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTCDXIG",
+        "Instrument Type Description": "CDX IG",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "OTHCABSPT",
+        "Instrument Type Description": "Other Commercial Asset Backed Pass Through Securities",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFUTINDX",
+        "Instrument Type Description": "Futures on Inflation Indexed Bonds",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTINDX",
+        "Instrument Type Description": "Option on Inflation Indexed Bonds",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "OCMBS",
+        "Instrument Type Description": "Other Commercial Mortgage Backed Securities",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EURNOTE",
+        "Instrument Type Description": "Euro note",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "OISWAP",
+        "Instrument Type Description": "Overnight Index Swap",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "GABOI",
+        "Instrument Type Description": "General account bank owned insurance assets",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "SABOI",
+        "Instrument Type Description": "Separate account bank owned insurance assets",
+        "Risk Factor Type": "DBT",
+        "Risk Factor Type Description": "Debt"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFWDSSILV",
+        "Instrument Type Description": "Silver Forwards",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMSWPTOPM",
+        "Instrument Type Description": "Other PM except Gold Swaption",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFOOPSILV",
+        "Instrument Type Description": "Silver Forward Option",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMOPTSPD",
+        "Instrument Type Description": "Palladium Options",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMSWPTPD",
+        "Instrument Type Description": "Palladium Swaption",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMSWAPPD",
+        "Instrument Type Description": "Palladium Swap",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSSWAPGLD",
+        "Instrument Type Description": "Gold Swap",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMSWAPPT",
+        "Instrument Type Description": "Platinum Swap",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMSPOTPT",
+        "Instrument Type Description": "Platinum",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMFUOPOPM",
+        "Instrument Type Description": "Other PM except Gold Future Option",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFUOPGLD",
+        "Instrument Type Description": "Gold Future Option",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMSPOTOPM",
+        "Instrument Type Description": "Other PM except Gold",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFUTSSILV",
+        "Instrument Type Description": "Silver Futures",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMOPTSPT",
+        "Instrument Type Description": "Platinum Options",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMFWDSPT",
+        "Instrument Type Description": "Platinum Forwards",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMSPOTPD",
+        "Instrument Type Description": "Palladium",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFOOPGLD",
+        "Instrument Type Description": "Gold Forward Option",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMFUTSPD",
+        "Instrument Type Description": "Palladium Futures",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMFUTSPT",
+        "Instrument Type Description": "Platinum Futures",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFUOPSILV",
+        "Instrument Type Description": "Silver Future Option",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSOPTSILV",
+        "Instrument Type Description": "Silver Options",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSSWAPSILV",
+        "Instrument Type Description": "Silver Swap",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMFWDSOPM",
+        "Instrument Type Description": "Other PM except Gold Forwards",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMFWDSPD",
+        "Instrument Type Description": "Palladium Forwards",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMSWAPOPM",
+        "Instrument Type Description": "Other PM except Gold Swap",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMFOOPOPM",
+        "Instrument Type Description": "Other PM except Gold Forward Option",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMFOOPPT",
+        "Instrument Type Description": "Platinum Forward Option",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMSWPTPT",
+        "Instrument Type Description": "Platinum Swaption",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMFUTSOPM",
+        "Instrument Type Description": "Other PM except Gold  Futures",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMFUOPPT",
+        "Instrument Type Description": "Platinum Future Option",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSSWPTSILV",
+        "Instrument Type Description": "Silver Swaption",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMOPTSOPM",
+        "Instrument Type Description": "Other PM except Gold Options",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMFUOPPD",
+        "Instrument Type Description": "Palladium Future Option",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMPMFOOPPD",
+        "Instrument Type Description": "Palladium Forward Option",
+        "Risk Factor Type": "CMPM",
+        "Risk Factor Type Description": "Commodity – Precious Metal"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSSWPTGLD",
+        "Instrument Type Description": "Gold Swaption",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQXSOPTSBSK",
+        "Instrument Type Description": "Basket Options Equity Currency",
+        "Risk Factor Type": "EQXS",
+        "Risk Factor Type Description": "Equity Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQRCPS",
+        "Instrument Type Description": "Redeemable Cumulative Preference Shares",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFUOPFUT",
+        "Instrument Type Description": "Option on IRF",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSFRC",
+        "Instrument Type Description": "FRN with Cap",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTSAD",
+        "Instrument Type Description": "State Aid Debt Securities",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQFWDSFWD",
+        "Instrument Type Description": "Equity Forward",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSOPTSFILO",
+        "Instrument Type Description": "Fixed Lookback Option on Currency",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFOOPZCB",
+        "Instrument Type Description": "Zero Coupon Bond Forward Option",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTPEF",
+        "Instrument Type Description": "Private Equity Fund",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IXFUTSFUT",
+        "Instrument Type Description": "Index Futures",
+        "Risk Factor Type": "IX",
+        "Risk Factor Type Description": "Index"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMOPTSASD",
+        "Instrument Type Description": "Discrete Asian Option on Commodity",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTDCB",
+        "Instrument Type Description": "Dual Currency Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSRFLT",
+        "Instrument Type Description": "Reverse Floaters - Options",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMOPTSASC",
+        "Instrument Type Description": "Continuous Asian Option on Commodity",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTABS",
+        "Instrument Type Description": "Asset Backed Security",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTNPSH",
+        "Instrument Type Description": "Non-convertible preference share",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTBOF",
+        "Instrument Type Description": "Bond Funds",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSWPTSWT",
+        "Instrument Type Description": "Interest Rate Swaptions",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTEXZCB",
+        "Instrument Type Description": "External Zero Coupon Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFUTSFUTP",
+        "Instrument Type Description": "Interest Rate Futures on Price",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTCMP",
+        "Instrument Type Description": "Commercial Paper",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSCFL",
+        "Instrument Type Description": "Deprecated. Convertible Floating Coupon Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSFRA",
+        "Instrument Type Description": "Forward Rate agreement Option",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSCAP",
+        "Instrument Type Description": "Caps",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFUTSFLB",
+        "Instrument Type Description": "Floating Rate Bond Futures",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSCZB",
+        "Instrument Type Description": "Deprecated. Convertible Zero Coupon Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "SKSPOTSKBB",
+        "Instrument Type Description": "Sukuk in Banking Book",
+        "Risk Factor Type": "OTH",
+        "Risk Factor Type Description": "Others"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTCFL",
+        "Instrument Type Description": "Convertible Floating Coupon Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTCOD",
+        "Instrument Type Description": "Certificate of Deposit On Zero Coupon",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSFIB",
+        "Instrument Type Description": "Fixed Rate Bond Option",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSFLLO",
+        "Instrument Type Description": "Floating Lookback Option on Equity",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTZSRS",
+        "Instrument Type Description": "Zero Risk Security",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTZCB",
+        "Instrument Type Description": "Zero Coupon Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMOPTSDGT",
+        "Instrument Type Description": "Digital Option on Commodity",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFUTSFUT",
+        "Instrument Type Description": "Interest Rate Futures on Yield",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IXOPTSVAN",
+        "Instrument Type Description": "Index Options",
+        "Risk Factor Type": "IX",
+        "Risk Factor Type Description": "Index"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSDVN",
+        "Instrument Type Description": "Dividend Vanilla Option",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFUTSECF",
+        "Instrument Type Description": "Eurocurrency Currency Futures",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSFRF",
+        "Instrument Type Description": "FRN with Floor",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTFRN",
+        "Instrument Type Description": "Floating Rate Note",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "MURABAHAH",
+        "Instrument Type Description": "Murabahah Contract",
+        "Risk Factor Type": "OTH",
+        "Risk Factor Type Description": "Others"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTCLN",
+        "Instrument Type Description": "Credit Link Note",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSSWAPSWP",
+        "Instrument Type Description": "Cross Currency Swap",
+        "Risk Factor Type": "FX",
+        "Risk Factor Type Description": "Forex"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRAMOLOAN",
+        "Instrument Type Description": "IR Amortizing Loan",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQPDI",
+        "Instrument Type Description": "Perpetual Debt Instruments",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMOPTSSHT",
+        "Instrument Type Description": "Shout Options on Commodity",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTMBS",
+        "Instrument Type Description": "Mortgage Backed Security",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMFWDSFWD",
+        "Instrument Type Description": "Commodity forward",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQPNCPS",
+        "Instrument Type Description": "Perpetual Non-Cumulative Preference Shares",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTRREP",
+        "Instrument Type Description": "Reverse Repo",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTEFD",
+        "Instrument Type Description": "Equity Funds on Dividend",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMXSOPTSBSK",
+        "Instrument Type Description": "Basket Options Commodity Currency",
+        "Risk Factor Type": "CMXS",
+        "Risk Factor Type Description": "Commodity Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSWAPTRS",
+        "Instrument Type Description": "Total Return Swap for Credit derivatives",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSTRFL",
+        "Instrument Type Description": "Turbo Reverse Floaters - Options",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTFIB",
+        "Instrument Type Description": "Fixed Rate Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "SALAM",
+        "Instrument Type Description": "Salam Contract",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTCIU",
+        "Instrument Type Description": "Interest Rate Security Collective Investment Funds",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFUOPFLB",
+        "Instrument Type Description": "Floating Rate Bond Futures Vanilla Option",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSWAPBMA",
+        "Instrument Type Description": "BMA Swap",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSOPTSFLLO",
+        "Instrument Type Description": "Floating Lookback Option on Currency",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFUTSFUT",
+        "Instrument Type Description": "Currency Futures",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTBKA",
+        "Instrument Type Description": "Bankers Acceptance",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSBRR",
+        "Instrument Type Description": "Barrier Option on Equity",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFUOPECF",
+        "Instrument Type Description": "Eurocurrency Futures Vanilla Option",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMSWAPCDS",
+        "Instrument Type Description": "Credit Default Swap - Commodities",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQFUOPFUT",
+        "Instrument Type Description": "Equity Futures Option",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSOPTSBRR",
+        "Instrument Type Description": "Barrier Option on Currency",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTPSHR",
+        "Instrument Type Description": "Convertible Preference Shares",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTABCP",
+        "Instrument Type Description": "Asset Backed Commercial Paper",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSBSWP",
+        "Instrument Type Description": "Bond with Embedded Swaption",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRBULLOAN",
+        "Instrument Type Description": "IR Bullet Loan",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTHDBT",
+        "Instrument Type Description": "Hybrid Debt",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSWAPCDS",
+        "Instrument Type Description": "Deprecated Credit Default Swap",
+        "Risk Factor Type": "CR",
+        "Risk Factor Type Description": "Credit"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFUTSGLD",
+        "Instrument Type Description": "Gold Futures",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSDGT",
+        "Instrument Type Description": "Digital Option on Equity",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMOPTSVAN",
+        "Instrument Type Description": "Commodity Option",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSSPOTCIU",
+        "Instrument Type Description": "XSSPOTCIU",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSCDSO",
+        "Instrument Type Description": "CDS Option",
+        "Risk Factor Type": "SP",
+        "Risk Factor Type Description": "CDS Spread"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSOPTSVAN",
+        "Instrument Type Description": "Currency Option",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTEFG",
+        "Instrument Type Description": "Equity Funds on Growth",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTSAE",
+        "Instrument Type Description": "State Aid Equity Securities",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSCOL",
+        "Instrument Type Description": "Collars",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSWAPBCDS",
+        "Instrument Type Description": "Basket Credit Default Swap",
+        "Risk Factor Type": "CR",
+        "Risk Factor Type Description": "Credit"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFUTSFIB",
+        "Instrument Type Description": "Fixed Rate Bond Future",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSBSK",
+        "Instrument Type Description": "Equity Basket Option",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSLFLT",
+        "Instrument Type Description": "Leverage Floaters - Options",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSFIBQTO",
+        "Instrument Type Description": "Fixed Rate Bond Quanto Option",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTREP",
+        "Instrument Type Description": "Repo",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFWDSFWDP",
+        "Instrument Type Description": "Interest Rate Forward on Price",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTSPT",
+        "Instrument Type Description": "Spot Equity",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMSPOTCIU",
+        "Instrument Type Description": "Commodity Collective Investment Funds",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTFRA",
+        "Instrument Type Description": "Forward Rate Agreement",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSSPOTSLVR",
+        "Instrument Type Description": "Silver",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMOPTSCLQ",
+        "Instrument Type Description": "cliquet or ratchet option on commodity ",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSWAPSWP",
+        "Instrument Type Description": "Swaps - Equity",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSOPTSGLD",
+        "Instrument Type Description": "Gold Options",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IXFUOPFUT",
+        "Instrument Type Description": "Index Future Option",
+        "Risk Factor Type": "IX",
+        "Risk Factor Type Description": "Index"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSZCB",
+        "Instrument Type Description": "Zero Coupon Bond Option",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMEQOPTSBSK",
+        "Instrument Type Description": "Basket Options Commodity Equity",
+        "Risk Factor Type": "CMEQ",
+        "Risk Factor Type Description": "Commodity Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFUOPFIB",
+        "Instrument Type Description": "Fixed Rate Bond Futures Option",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQFOOPFWV",
+        "Instrument Type Description": "Equity Forward Option",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMOPTSQTO",
+        "Instrument Type Description": "Commodity Quanto Option",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSWAPCCBS",
+        "Instrument Type Description": "Cross Currency Basis Swaps",
+        "Risk Factor Type": "FX",
+        "Risk Factor Type Description": "Forex"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "SB",
+        "Instrument Type Description": "Sovereign Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTCB",
+        "Instrument Type Description": "Corporate Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTMB",
+        "Instrument Type Description": "Municipal Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "SWAPTIONEU",
+        "Instrument Type Description": "European Swaption",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CRASSETSWAP",
+        "Instrument Type Description": "Credit Asset Swap",
+        "Risk Factor Type": "CR",
+        "Risk Factor Type Description": "Credit"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRCASHDEPOSIT",
+        "Instrument Type Description": "Cash Deposit",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRAMRTFRN",
+        "Instrument Type Description": "Amortizing Floating Rate Note",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "INFLZCIIS",
+        "Instrument Type Description": "Inflation Zero Coupon Swap",
+        "Risk Factor Type": "INFL",
+        "Risk Factor Type Description": "Inflation"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFWDSFWD",
+        "Instrument Type Description": "Currency Forward",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMOPTSBRR",
+        "Instrument Type Description": "Barrier Option on Commodity",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRAMRTSWAP",
+        "Instrument Type Description": "Amortizing Swap",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRBASISSWAP",
+        "Instrument Type Description": "Basis Swap",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRAMRTBOND",
+        "Instrument Type Description": "Amortizing Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMDTYAMERICAN",
+        "Instrument Type Description": "Commodity American Option on Future",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "ILBOND",
+        "Instrument Type Description": "Inflation Linked Bond",
+        "Risk Factor Type": "INFL",
+        "Risk Factor Type Description": "Inflation"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "TOTALRETURNSWAP",
+        "Instrument Type Description": "Equity Total Return Swap",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMDTYEUROPEANONSPOT",
+        "Instrument Type Description": "Commodity European Option On Spot",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQAMERICAN",
+        "Instrument Type Description": "Equity American Option",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQASIAN",
+        "Instrument Type Description": "Equity Asian Option",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "FXEUROPEAN",
+        "Instrument Type Description": "FX European Option",
+        "Risk Factor Type": "FX",
+        "Risk Factor Type Description": "Forex"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQFUTSFUT",
+        "Instrument Type Description": "Equity Futures",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQEUROPEAN",
+        "Instrument Type Description": "Equity European Option",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQVARIANCESWAP",
+        "Instrument Type Description": "Equity Variance Swap",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "FXAMERICAN",
+        "Instrument Type Description": "FX American Option",
+        "Risk Factor Type": "FX",
+        "Risk Factor Type Description": "Forex"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRCALLABLEBOND",
+        "Instrument Type Description": "Callable Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CDBCDI",
+        "Instrument Type Description": "Certificate of Deposit",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "FXASIAN",
+        "Instrument Type Description": "FX Asian Option",
+        "Risk Factor Type": "FX",
+        "Risk Factor Type Description": "Forex"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRGENERICSWAP",
+        "Instrument Type Description": "Generic Swap",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "FXVARIANCESWAP",
+        "Instrument Type Description": "FX Variance Swap",
+        "Risk Factor Type": "FX",
+        "Risk Factor Type Description": "Forex"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMDTYBULLETSWAP",
+        "Instrument Type Description": "Commodity Bullet Swap",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMDTYSWAPTION",
+        "Instrument Type Description": "Commodity Swaption",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSVAN",
+        "Instrument Type Description": "Equity Option",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CDS",
+        "Instrument Type Description": "Credit Default Swap - Standard North American Corporate",
+        "Risk Factor Type": "CR",
+        "Risk Factor Type Description": "Credit"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CALMON",
+        "Instrument Type Description": "Call Money",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMFUTSFUT",
+        "Instrument Type Description": "Commodity Futures",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "ISTISNA",
+        "Instrument Type Description": "Istisna Contract",
+        "Risk Factor Type": "OTH",
+        "Risk Factor Type Description": "Others"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFWDSFLB",
+        "Instrument Type Description": "Floating Rate Bond Forwards",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFWDSFIB",
+        "Instrument Type Description": "Fixed Rate Bond Forward",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSCLQ",
+        "Instrument Type Description": "Cliquet/Ratchet Option on Equity",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "SKSPOTSKTB",
+        "Instrument Type Description": "Sukuk in Trading Book",
+        "Risk Factor Type": "OTH",
+        "Risk Factor Type Description": "Others"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IXFWDSFWD",
+        "Instrument Type Description": "Index Forward",
+        "Risk Factor Type": "IX",
+        "Risk Factor Type Description": "Index"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSFLB",
+        "Instrument Type Description": "Floating Rate Bond Option",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSOPTSBSK",
+        "Instrument Type Description": "Currency Basket Option",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTCDO",
+        "Instrument Type Description": "Collateralized Debt Obligation",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTPFS",
+        "Instrument Type Description": "Preferred Stock",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFUOPFUT",
+        "Instrument Type Description": "Currency Futures Option",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQOPTSFILO",
+        "Instrument Type Description": "Fixed Lookback Option on Equity",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTSDBT",
+        "Instrument Type Description": "Subordinated Debt",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSWAPCDS",
+        "Instrument Type Description": "Credit Default Swap - Equity",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTNSAD",
+        "Instrument Type Description": "Non State Aid Debt Securities",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMOPTSBSK",
+        "Instrument Type Description": "Commodity Basket Option",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTCODFIB",
+        "Instrument Type Description": "Certificate of Deposit On Fixed Rate Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRFUTSBFUT",
+        "Instrument Type Description": "Basket Futures - Interest Rate",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSOPTSCLQ",
+        "Instrument Type Description": "Cliquet/Ratchet Option on Currency",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTNSASD",
+        "Instrument Type Description": "Non State Aid Subordinated Debt Securities",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTFIS",
+        "Instrument Type Description": "Fixed Rate Sukuk",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSWAPNDS",
+        "Instrument Type Description": "Nth to Default Swap",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSOPTSDGT",
+        "Instrument Type Description": "Digital Option on Currency",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IJARAH",
+        "Instrument Type Description": "Ijarah Contract",
+        "Risk Factor Type": "OTH",
+        "Risk Factor Type Description": "Others"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTFFF",
+        "Instrument Type Description": "Fed Fund Future",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSWAPSWP",
+        "Instrument Type Description": "Interest Rate Swap",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTCFI",
+        "Instrument Type Description": "Deprecated. Convertible Fixed Coupon Bond",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSVANY",
+        "Instrument Type Description": "Interest Rate option on Yield",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IROPTSFLBQTO",
+        "Instrument Type Description": "Floating Rate Bond Quanto Option",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMSWAPSWP",
+        "Instrument Type Description": "Swaps - Commodity",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "CMFOOPFWV",
+        "Instrument Type Description": "Commodity Forward Option",
+        "Risk Factor Type": "CM",
+        "Risk Factor Type Description": "Commodity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IRSPOTBOE",
+        "Instrument Type Description": "Bill of Exchange",
+        "Risk Factor Type": "IR",
+        "Risk Factor Type Description": "Interest Rate"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQFUTSBFUE",
+        "Instrument Type Description": "Basket Futures - Equity",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "XSFOOPFWV",
+        "Instrument Type Description": "Currency Forward Option",
+        "Risk Factor Type": "XS",
+        "Risk Factor Type Description": "Currency"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "IXSPOTSPT",
+        "Instrument Type Description": "Spot Index",
+        "Risk Factor Type": "IX",
+        "Risk Factor Type Description": "Index"
+    },
+    {
+        "As Of Date": "10/26/2024",
+        "Instrument Type": "EQSPOTCIU",
+        "Instrument Type Description": "Equity Collective Investment Funds",
+        "Risk Factor Type": "EQ",
+        "Risk Factor Type Description": "Equity"
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Instrument Type": "OTH",
+        "Instrument Type Description": "Others",
+        "Risk Factor Type": "OTH",
+        "Risk Factor Type Description": "Others"
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Instrument Type": "MSG",
+        "Instrument Type Description": "Missing",
+        "Risk Factor Type": "MSG",
+        "Risk Factor Type Description": "Missing"
+    }
+]

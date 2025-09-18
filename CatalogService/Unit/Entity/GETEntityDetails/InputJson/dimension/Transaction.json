@@ -1,0 +1,107 @@
+[
+    {
+        "As Of Date": "01/30/2010",
+        "Transaction Code": "MATPAY",
+        "Transaction Description": "Maturity Payment",
+        "Transaction Type": "MATPAY",
+        "End Of Period Balance Change Flag": "N"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Transaction Code": "ADDBENPAY",
+        "Transaction Description": "Additional Benefit Payment",
+        "Transaction Type": "ADDBENPAY",
+        "End Of Period Balance Change Flag": "Y"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Transaction Code": "SECSOLD_TXN_AMT",
+        "Transaction Description": "Securities Sold Transaction Amount",
+        "Transaction Type": "SECSOLD_TXN_AMT",
+        "End Of Period Balance Change Flag": "N"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Transaction Code": "ANNPAY",
+        "Transaction Description": "Annuity Payment",
+        "Transaction Type": "ANNPAY",
+        "End Of Period Balance Change Flag": "N"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Transaction Code": "PREMRECEIPT",
+        "Transaction Description": "Premium Receipts",
+        "Transaction Type": "PREMRECEIPT",
+        "End Of Period Balance Change Flag": "Y"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Transaction Code": "SECPURCHASED_TXN_AMT",
+        "Transaction Description": "Securities Purchased Transaction Amount",
+        "Transaction Type": "SECPURCHASED_TXN_AMT",
+        "End Of Period Balance Change Flag": "N"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Transaction Code": "SECSOLD",
+        "Transaction Description": "Securities Sold",
+        "Transaction Type": "SECSOLD",
+        "End Of Period Balance Change Flag": "N"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Transaction Code": "SECPURCHASED_TXN_COS",
+        "Transaction Description": "Securities Purchased Transaction Cost",
+        "Transaction Type": "SECPURCHASED_TXN_COS",
+        "End Of Period Balance Change Flag": "Y"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Transaction Code": "SECSOLD_TXN_COST",
+        "Transaction Description": "Securities Sold Transaction Cost",
+        "Transaction Type": "SECSOLD_TXN_COST",
+        "End Of Period Balance Change Flag": "Y"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Transaction Code": "SURRVALPAY",
+        "Transaction Description": "Surrender Value Payment",
+        "Transaction Type": "SURRVALPAY",
+        "End Of Period Balance Change Flag": "N"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Transaction Code": "DEATHBENPAY",
+        "Transaction Description": "Death Benefit Payment",
+        "Transaction Type": "DEATHBENPAY",
+        "End Of Period Balance Change Flag": "N"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Transaction Code": "SECPURCHASED",
+        "Transaction Description": "Securities Purchased",
+        "Transaction Type": "SECPURCHASED",
+        "End Of Period Balance Change Flag": "Y"
+    },
+    {
+        "As Of Date": "01/30/2010",
+        "Transaction Code": "CHARGEFEERECIPT",
+        "Transaction Description": "Charges and Fees Receipt",
+        "Transaction Type": "CHARGEFEERECIPT",
+        "End Of Period Balance Change Flag": "Y"
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Transaction Code": "OTH",
+        "Transaction Description": "Others",
+        "Transaction Type": "OTH",
+        "End Of Period Balance Change Flag": ""
+    },
+    {
+        "As Of Date": "10/30/2024",
+        "Transaction Code": "MSG",
+        "Transaction Description": "Missing",
+        "Transaction Type": "MSG",
+        "End Of Period Balance Change Flag": ""
+    }
+]
